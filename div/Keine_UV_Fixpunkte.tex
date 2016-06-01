@@ -1,0 +1,482 @@
+\documentclass{article}
+\usepackage{amsmath, amssymb, graphics, setspace}
+
+% font
+\usepackage{lmodern}
+\usepackage{fourier}
+%\usepackage{tgheros}
+%\usepackage{tgcursor}
+\usepackage{tgpagella}
+\usepackage{microtype}
+
+% math
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amstext}
+%\usepackage{isomath}
+\usepackage{mathtools}
+
+
+% encoding
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+% language
+\usepackage{ngerman}
+% useful stuff
+\usepackage{enumitem}
+\usepackage{booktabs}
+
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+
+\newenvironment{proof}[1][Beweis]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+\newenvironment{definition}[1][Definition]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+\newenvironment{example}[1][Example]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+\newenvironment{remark}[1][Bemerkung]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+
+\newcommand{\qed}{\nobreak \ifvmode \relax \else
+      \ifdim\lastskip<1.5em \hskip-\lastskip
+      \hskip1.5em plus0em minus0.5em \fi \nobreak
+      \vrule height0.75em width0.5em depth0.25em\fi}
+
+
+
+\newcommand{\twopartdef}[2]
+{
+	\left(
+		\begin{array}{ll}
+			#1  \\
+			#2 
+		\end{array}
+	\right)
+}
+
+\newcommand{\Sp}{ \text{Sp} \frac{\partial \beta}{\partial \alpha}}
+\newcommand{\Det}{ \text{Det} \frac{\partial \beta}{\partial \alpha}}
+\renewcommand{\d}{\text{d}}
+
+
+
+\begin{document}
+
+\tableofcontents
+
+\clearpage
+\section{Die $\beta$-Funktion}
+
+  \subsection{$\beta(g)$}
+      
+	Aus ``Two-loop $\beta$-function for a $G_1\times G_2$ gauge symmetry'', D.R.T. Jones übernehmen 
+	wir die allgemeine Form einer 2-loop-$\beta$-Funktion
+	\begin{align}
+	      \begin{aligned}
+	      \beta_1(g_1,g_2)&=X_1 g_1^3+ Y_1 g_1^5+ Z_1g_1^3g_2^2\\
+	      \beta_2(g_1,_g2)&=X_2 g_2^3+Y_2 g_2^5+ Z_2 g_1^2 g_2^3 \quad. 
+	      \end{aligned} \label{beta(g)}
+	\end{align}
+	Zur besseren Übersichtlichkeit, definiere $\beta(g):=(\beta_1(g_1,g_2),\beta_2(g_1,g_2))^T$ sowie $g=(g_1,g_2)^T$.
+	Außerdem ist $g=g(\mu)$ und
+	\begin{equation}
+	\beta=\mu \twopartdef {\frac{\d g_1}{\d \mu}} {\frac{\d g_2}{\d \mu}} 
+	\end{equation}
+
+    
+  \subsection{$\beta(\alpha)$}
+	Durch eine Neudefinition der Kopplungskonstanten kann das Problem vereinfacht werden. Die kritische Dimension für 
+	QCD-artige Kopplungen ist $4$; die dimensionslosen Kopplungskonstanten können demnach über
+	\begin{equation}
+	\alpha_i(\mu):= \mathcal{N}_i g_i^2(\mu) \mu^{d-4}  \label{alpha}
+	\end{equation}
+	definiert werden, wobei $\mathcal{N}_i$ Normierungskonstanten und $d$ die Dimension der Raumzeit sind. Wir setzen 
+	$d\equiv4$.\\
+	Es folgt
+	\begin{equation}
+	\frac{\d \alpha_i}{\d \mu}=\mathcal{N}_i 2 g_i \frac{\d g_i}{\d \mu} \Rightarrow \frac{\d g_i}{\d \mu} g_i=\frac{1}{2\mathcal{N}_i} \frac{\d \alpha_i}{\d \mu} \label{dalpha}
+	\end{equation}
+	und damit aus \eqref{beta(g)}
+	\begin{align}
+	&&\mu \frac{\d g_i}{\d \mu}&= X_i g_i^3 +Y_ig_i^5 +Z_ig_i^3 g_j^2  						 & \\
+	&\overset{\cdot g_i}{\Rightarrow}&\mu \frac{\d g_i}{\d \mu} g_i &= X_i g_i^4 +Y_ig_i^6 +Z_ig_i^4 g_j^2           & \\
+	&\overset{\eqref{alpha},\eqref{dalpha}}{\Rightarrow}& \mu \frac{\d \alpha_i}{\d \mu} \frac{1}{2\mathcal{N}_i} 
+	    &= \frac{X_i}{\mathcal{N}_i^2} \alpha_i^2 +\frac{Y_i}{\mathcal{N}_i^3}  \alpha_i^3 +\frac{Z_i}{\mathcal{N}_i^2\mathcal{N}_j}\alpha_i^2 \alpha_j      &\\
+	&\overset{\cdot 2\mathcal{N}_i}{\Rightarrow}& \mu \frac{\d \alpha_i}{\d \mu}&= \frac{2X_i}{\mathcal{N}_i} \alpha_i^2+ \frac{2Y_i}{\mathcal{N}_i^2} \alpha_i^3 +
+	      \frac{2 Z_i}{\mathcal{N}_i \mathcal{N}_j} \alpha_i^2 \alpha_j \quad .
+	\end{align}
+	Mit der Redefinition $\frac{2X_i}{\mathcal{N}_i} \longrightarrow X_i$,
+	$\frac{2Y_i}{\mathcal{N}_i^2} \longrightarrow Y_i$,$\frac{2Z_i}{\mathcal{N}_i\mathcal{N}_j} \longrightarrow Z_i$ erhält man neue Funktionen
+	\begin{align}
+	 \begin{aligned}
+	  \beta_1(\alpha_1,\alpha_2)&=X_1\alpha_1^2 + Y_1 \alpha_1^3 + Z_1 \alpha_1^2\alpha_2 \\
+	  \beta_2(\alpha_1,\alpha_2)&=X_2\alpha_2^2 + Y_2 \alpha_2^3 + Z_2 \alpha_1\alpha_2^2 \quad.
+	 \end{aligned}
+	\end{align}
+	Wieder ist
+	\begin{equation}
+	\beta=\mu \twopartdef {\frac{\d \alpha_1}{\d \mu}} {\frac{\d \alpha_2}{\d \mu}} 
+	\end{equation}
+	mit $\beta(\alpha)=(\beta_1(\alpha),\beta_2(\alpha))^T$ und $\alpha=(\alpha_1(\mu),\alpha_2(\mu))^T$.
+	
+	
+  \subsection{Nullstellen der $\beta$-Funktion}
+	
+	Fixpunkte sind stationäre Lösungen von $\beta(\alpha)=0$, d.h.
+	\begin{align}
+	 0&=X_1 \alpha_1^2 +Y_1 \alpha_1^3 +Z_1 \alpha_1^2 \alpha_2 \\
+	 0&=X_2 \alpha_2^2 +Y_2 \alpha_2^3 +Z_2 \alpha_1 \alpha_2^2  \quad.	 
+	\end{align}
+	Damit der Fixpunkt physikalisch sinnvoll ist muss $\alpha_i\geq 0$ sein, und der Fixpunkt sollte ein Punkt 
+	im $\mathbb{R}^2$ sein, d.h. keine freien Parameter mehr besitzen (keine Untermannigfaltigkeit sein).\\
+	Man findet 
+	\begin{itemize}
+	 \item den trivialen Fixpunkt $\alpha^{*1}=(0,0)$
+	 \item den halb-trivialen Fixpunkt $\alpha^{*2}=(0,-\frac{X_2}{Y_2})$ falls $Y_2\neq 0$
+	 \item den halb-trivialen Fixpunkt $\alpha^{*3}=(-\frac{X_1}{Y_1},0)$ falls $Y_1\neq 0$
+	 \item den nichttrivialen Fixpunkt $\alpha^{*4}=\left(\frac{Z_1X_2-X_1Y_2}{Y_1Y_2-Z_1Z_2},\frac{X_1Z_2-Y_1X_2}{Y_1Y_2-Z_1Z_2}\right)$
+	\end{itemize}
+	als einzige zulässige Fixpunkte.
+	\begin{proof}
+	 \begin{itemize}
+	  \item $\alpha^{*1}$ klar.
+	  \item $\alpha^{*2/3}$ durch Einsetzen der Null und Reduktion auf ein lineares System $\Rightarrow$ Lösung eindeutig.
+	  \item $\alpha^{*4}$ durch Reduktion auf ein inhomogenes lineares Gleichungssystem. Für $Y_1Y_2-Z_1Z_2\neq 0$ ist die Lösung 
+		eindeutig. Für $Y_1Y_2-Z_1Z_2 = 0$ ist die Lösung eine Gerade im $\mathbb{R}^2$ und somit nicht zulässig.$\Box$
+	 \end{itemize}
+	\end{proof}
+
+
+
+	
+	
+\clearpage	
+\section{Stabilität von Fixpunkten}
+ 
+  \subsection{Stabilitätsmatrix $\frac{\d \beta}{\d \alpha}$}
+	Um die Stabilität von Fixpunkten zu untersuchen wird die Stabilitätsmatrix $\frac{\partial \beta}{\partial \alpha}$ als Jacobimatrix der 
+	$\beta$-Funktion eingeführt
+	\begin{equation}
+	 \frac{\partial \beta}{\partial \alpha}=\begin{pmatrix}
+	                                         \frac{\partial \beta_1}{\partial \alpha_1} & \frac{\partial \beta_1}{\partial \alpha_2} \\
+	                                         \frac{\partial \beta_2}{\partial \alpha_1} & \frac{\partial \beta_2}{\partial \alpha_2}
+	                                        \end{pmatrix} 
+	                                       =\begin{pmatrix}
+	                                         2X_1\alpha_1 +2Y_1 \alpha_1^2+2Z_1\alpha_1 \alpha_2 & Z_1 \alpha_1^2\\
+	                                         Z_2 \alpha_2^2 & 2X_2 \alpha_2 +3 Y_2 \alpha_2^2 +2 Z_2 \alpha_1 \alpha_2
+	                                        \end{pmatrix} \quad .
+	\end{equation}
+
+	
+	
+	\begin{proposition}
+	      Die Vorzeichen der Eigenwerte von $\frac{\partial \beta}{\partial \alpha}$ lassen sich durch Spur und Determinante über die 
+	      Tabelle 1 bestimmen.
+	      \begin{table}
+	      \begin{tabular}{cccc}
+	      \toprule
+		  $\Sp $ & $\Det $ 	& $\lambda_1$ 	&$ \lambda_2$ \\
+		  \midrule 
+		  $>0$	& $>0$		&$>0+i\mathbb{R}$		& $>0+i\mathbb{R}$		\\
+		  $<0$	& $>0$		&$<0+i\mathbb{R}$		& $<0+i\mathbb{R}$		\\
+		  $=0$	& $>0$		&$=0+i\mathbb{R}$		& $=0+i\mathbb{R}$		\\
+		  -  	& $<0$		&$>0$		& $<0$		\\
+		  $>0$	& $=0$		&$>0$		& $=0$		\\
+		  $<0$	& $=0$		&$=0$		& $<0$		\\
+		  $=0$	& $=0$		&$=0$		& $=0$		\\
+		  \bottomrule
+	      \end{tabular}
+	      \label{Eigenwerte}\caption{Eigenwerte der Stabilitätsmatrix}
+	  \end{table}
+	\end{proposition}
+	\begin{proof}
+	      Das charakteristische Polynom der $2\times 2$-Matrix $\frac{\partial \beta}{\partial \alpha}$ ist
+	      \begin{equation}
+		P(\lambda)=\lambda^2-\Sp \lambda + \Det \quad ,
+	      \end{equation}
+	      die Eigenwerte sind die Nullstellen
+	      \begin{equation}
+		\lambda_{1/2}=\frac{\Sp}{2}\pm \sqrt{\left(\frac{\Sp}{2} \right)^2- \Det} \quad.
+	      \end{equation}
+		\begin{description}
+		  \item[1. $\Det>\left(\frac{\Sp}{2} \right)^2$:] Dann ist $\Re(\lambda_{1/2})= \frac{\Sp}{2}$ 
+		  \item[2. $\left(\frac{\Sp}{2} \right)^2>\Det>0$:] Dann ist $\sqrt{\left(\frac{\Sp}{2} \right)^2- \Det}<\left|\frac{\Sp}{2}\right|$ und\\ 
+			    damit ${\text{sig } \Sp = \text{sig } \lambda_{1/2}}$
+		  \item[3. $\Det<0:$] Dann ist $\sqrt{\left(\frac{\Sp}{2} \right)^2- \Det}>\left|\frac{\Sp}{2}\right|$ und somit
+			    $\lambda_1>0$ und $\lambda_2<0$
+		  \item[4. $\Det=0$:] Falls $\Sp>0$, dann $\lambda_1>0$, $\lambda_2=0$, falls $\Sp<0$, \\dann $\lambda_1=0$, $\lambda_2<0$. 
+			    Falls $\Sp=0$, dann $\lambda_1=\lambda_2=0$.
+		\end{description}
+	  $\Box$
+	\end{proof}
+
+	
+  \subsection{Autonome $\beta$-Funktion}
+  Sei $\alpha^*$ ein Fixpunkt, d.h. $\beta(\alpha^*)=0$. Zunächst soll der Fixpunkt auf Null verschoben werden
+  \begin{equation}
+   \tilde{x}(\mu):=\alpha(\mu)-\alpha^* \Leftrightarrow \alpha(\mu)=\tilde{x}(\mu)+\alpha^* \quad.
+  \end{equation}
+  Wegen $\frac{\d \tilde{x}}{\d \mu}=\frac{\d \alpha}{\d \mu}$ ergibt sich
+  \begin{equation}
+   \mu \frac{\d \tilde{x}}{\d \mu}(\mu)=\left. \beta \circ \alpha \right|_{\tilde{x}} (\mu) \label{x}
+  \end{equation}
+  mit dem Fixpunkt $\tilde{x}^*=(0,0)$.\\
+  Definiere die RG-Zeit $t:=\ln(\mu) \Leftrightarrow \mu=e^t$, sowie $x(t):=\tilde{x}(e^t)$. Durch Nachrechnen lässt sich feststellen
+  \begin{equation}
+   \mu \frac{\d \tilde{x}}{\d \mu} (\mu)=\mu \frac{\d \tilde{x}}{\d \mu} (e^t)= \mu \frac{\d x}{\d \mu}(t)=
+	\mu \underbrace{\frac{\partial t}{\partial \mu}}_{=1/\mu} \frac{\d x}{\d t}(t)= \frac{\d x}{\d t} \quad ,
+  \end{equation}
+  außerdem muss $\mu\geq 0$ um physikalisch sinnvoll zu sein. Somit ist die Zuordnung $t=\ln \mu$ bijektiv und
+  Gleichung \eqref{x} ist äquivalent zu dem autonomen DGL System
+  \begin{equation}
+   \frac{\d x}{\d t}=\left. \beta\circ \alpha \right|_{x} \label{x_autonom}
+  \end{equation}
+
+  
+  \subsection{Lösung in einer Umgebung eines Fixpunktes}
+  Durch linearisierung von \eqref{x_autonom} in der Nähe des Fixpunktes erhält man
+  \begin{equation}
+   \frac{\d x}{\d t}(t)=\left. \frac{\partial \beta}{\partial \alpha} \right|_{\alpha|_{(0,0)}}x (t) \quad.
+  \end{equation}
+  Die Lösung ist
+  \begin{equation}
+   x(t)=e^{\frac{\partial \beta}{\partial \alpha}t} x_0
+  \end{equation}
+  für einen Anfangswert $x_0$ nahe dem Fixpunkt.\\
+  Seien nun $\lambda_{1/2}$ die Eigenwerte und $e_1,e_2$ die Eigenvektoren der Stabilitätsmatrix, so erhält man
+  mit $T:=(e_1e_2)$
+  \begin{align}
+   x(t)&=T{\begin{pmatrix} e^{\lambda_1 t} &0\\0&e^{\lambda_2 t} \end{pmatrix}} T^{-1} \underbrace{( K_1 e_1 +K_2 e_2)}_{=x_0} \\
+       &= ( e^{\lambda_1 t} e_1 \,  e^{\lambda_2 t} e_2) \begin{pmatrix} K_1 \\ K_2 \end{pmatrix} 
+   \end{align}
+   und schließlich 
+   \begin{equation}
+       x(t)= e^{\lambda_1 t} K_1 e_1 + e^{\lambda_2 t} K_2 e_2 \quad . 
+       \label{loesung}
+   \end{equation}
+   
+
+  
+  \subsection{Asymptotisches Verhalten in der Nähe eines Fixpunktes (Klassifizierung von Fixpunkten)} \label{Klassifizierung}
+	An Gleichung \eqref{loesung} ist leicht zu erkennen, dass
+	\begin{itemize}
+	\item wenn $\Re(\lambda_1)>0$ und $\Re(\lambda_2)>0$, dann 
+			verlässt $x(t)$ die Nähe von $0$ für wachsendes $t$. Der 
+			Fixpunkt ist dann repulsiv (IR-Fixpunkt/Bank-Zanks).
+	\item wenn $\Re(\lambda_1)>0$ und $\Re(\lambda_2)>0$, dann gilt
+			$\lim\limits_{t\to \infty} x(t) = 0$. Es handelt sich 
+			um einen attraktiven (UV) Fixpunkt.
+	\item wenn $\lambda_1 >0$ und $\lambda_2 <0$, dann 
+			handelt es sich um einen Sattelpunkt:
+			liegt $x_0$ auf der $e_1$-Geraden ($K_2=0$) entfernt sich $x(t)$,\\
+			liegt $x_0$ auf der $e_2$-Geraden ($K_1=0$) nähert sich $x(t)$ dem 
+			Fixpunkt an,
+			sind $K_1\neq 0$ und $K_2 \neq 0$ so führt die Trajektorie am 
+			Fixpunkt vorbei.
+	\item Der Fall $\lambda_{1/2}\neq 0$, $\lambda_{2/1}=0$ wird in \ref{lambda0}
+			untersucht.
+	\end{itemize}
+
+
+\clearpage
+\section{Untersuchung der Fixpunkte}
+
+	\subsection{Nichttrivialer Fixpunkt $\alpha^{*4}$}
+ 		Am Fixpunkt $\alpha^*:=\alpha^{*4}$ gilt
+ 		\begin{align}
+ 		\alpha^*&=\left(\frac{Z_1X_2-X_1Y_2}{Y_1Y_2-Z_1Z_2},\frac{X_1Z_2-Y_1X_2} 
+ 					{Y_1Y_2-Z_1Z_2}\right)\\
+ 		\left.\Sp \right|_*&=\frac{ X_1^2Y_2(Y_1Y_2+Z_2^2)
+				-2X_1X_2Y_1Y_2(Z_1+Z_2)
+				 +X_2^2Y_1(Y_1Y_2+Z_1^2) }{
+				\left( Y_1Y_2-Z_1Z_2 \right)^{2}} \\
+		\left.\Det \right|_*&=\frac{(X_2Y_1-X_1Z_2)^2(X_1Y_2-X_2Z_1)^2}{
+				(Y_1Y_2-Z_1Z_2)^{3}} \quad .
+		\end{align} 		 
+ 		Nach Abschnitt \ref{Klassifizierung} muss an einem UV-Fixpunkt 
+ 		gelten:
+ 		\begin{align}
+ 		\alpha_1^* &\geq 0 \\
+ 		\alpha_2^* &\geq 0 \\
+ 		\left.\Sp \right|_*& < 0 \\
+ 		\left.\Det \right|_*& > 0 \quad	
+ 		\end{align}
+ 		mit den vorherige Gleichungen also
+ 		\begin{align}
+ 		\frac{Z_1X_2-X_1Y_2}{Y_1Y_2-Z_1Z_2} &\geq 0 \label{I}\\
+ 		\frac{X_1Z_2-Y_1X_2} {Y_1Y_2-Z_1Z_2} &\geq 0 \label{II}\\
+ 		\frac{ X_1^2Y_2(Y_1Y_2+Z_2^2)
+				-2X_1X_2Y_1Y_2(Z_1+Z_2)  +
+				X_2^2Y_1(Y_1Y_2+Z_1^2)}{
+				 (Y_1Y_2-Z_1Z_2)^2}&< 0 \label{III} \\
+ 		\frac{(X_2Y_1-X_1Z_2)^2(X_1Y_2-X_2Z_1)^2}
+				{(Y_1Y_2-Z_1Z_2)^{3}}&> 0 	\label{IV} \quad .
+ 		\end{align}
+ 		Dies ist jedoch nicht möglich.
+ 		\begin{proof}
+			Aus \eqref{IV} folgt 
+			\begin{equation}
+				Y_1Y_2-Z_1Z_2 > 0 \Rightarrow Y_1Y_2>Z_1Z_2 \quad . \label{Ia}
+			\end{equation}			 		
+ 			Damit folgt in \eqref{I} und \eqref{II}
+ 			\begin{align}
+ 			Z_1X_2 &\geq X_1Y_2 \label{IIa}\\
+ 			X_1Z_2 &\geq Y_1X_2 \label{IIIa} \quad.
+ 			\end{align}
+ 			Gleichung \eqref{III} ist äquivalent zu
+ 			\begin{align}
+ 			 X_1^2Y_2(Y_1Y_2+Z_2^2)+X_2^2Y_1(Y_1Y_2+Z_1^2) < 
+ 			 	2X_1X_2Y_1Y_2(Z_1+Z_2) \quad. \label{IVa}
+ 			\end{align}
+ 			Wir können die linke Seite weiter nach unten Abschätzen:
+ 			\begin{align}
+ 			&X_1^2Y_2(Y_1Y_2+Z_2^2)+X_2^2Y_1(Y_1Y_2+Z_1^2) \\
+ 			 &=X_1 (X_1Y_2) (\underbrace{Y_1Y_2}_\eqref{Ia}+Z_2^2)
+ 			 +X_2 (Y_1X_2)(\underbrace{Y_1Y_2}_\eqref{Ia}+Z_1^2) \\
+ 			 &>X_1 (X_1Y_2)(Z_1Z_2+Z_2^2)+X_2(Y_1X_2) (Z_1Z_2+Z_1^2)\\
+ 			 &=(Z_1+Z_2)\left[\underbrace{(X_1 Z_2)}_\eqref{IIIa}
+ 			  (X_1Y_2)+\underbrace{(Z_1X_2)}_\eqref{IIa}(Y_1X_2) \right] \\
+ 			 &\geq(Z_1+Z_2)[Y_1X_2X_1Y_2+Y_1X_2Y_2X_1]\\
+ 			 &=  (Z_1+Z_2) 2 X_1X_2Y_1Y_2
+ 			\end{align}
+ 			Also haben wir gefunden:
+ 			\begin{equation}
+ 			(Z_1+Z_2)2X_1X_2Y_1Y_2<X_1^2Y_2(Y_1Y_2+Z_2^2)+X_2^2Y_1(Y_1Y_2+Z_1^2) 
+ 			< 2X_1X_2Y_1Y_2(Z_1+Z_2) \quad,
+ 			\end{equation}
+ 			dies ist jedoch falsch.
+ 			Folglich kann $\alpha^{*4}$ mit $\Sp\neq 0$ und $\Det\neq 0$ kein 
+ 			kein UV-Fixpunkt sein.			
+ 		\end{proof}
+ 		\begin{remark}
+ 		Der Beweis ist auch gültig, falls in \eqref{III} oder \eqref{IV} 
+ 		''$\geq$'' bzw. ''$\leq$''  zugelassen wird. Nur bei $\Sp |_*=\Det |_*=0$ 
+ 		gilt der Beweis nicht.\\
+ 		In diesem Fall wird das Problem jedoch uninteressant:
+ 		
+ 		\end{remark}		
+
+
+	\subsection{Halb-trivialer Fixpunkt $\alpha^{*3}$}\label{lambda0}
+		Am Fixpunkt $\alpha^*:=\alpha^{*3}$ gilt \footnote{Es soll $X_1\neq 0$, 
+		sonst wird der Fixpunkt trivial.}
+		\begin{align}
+		\alpha*&=\left(-\frac{X_1}{Y_1},0\right) \\
+		\left.\Sp \right|_* &= \frac{X_1^2}{Y_1} \\
+		\left.\Det \right|_* &=0 \quad .
+		\end{align}
+ 		Da hier mindestens ein Eigenwert gleich Null ist kann mit 
+ 		Tabelle \ref{Eigenwerte} keine Aussage getroffen werden. Hier wird 
+ 		das Verhalten der Eigenwerte in der Nähe von $\alpha^*$ zur Hilfe 
+ 		genommen.
+ 		\subsubsection{Stabilitätsbedingungen für $\alpha^{*3}$}
+ 		Die Eigenwerte an $\alpha$ sind
+ 		\begin{equation}
+ 		\lambda_{1/2}=\frac{\Sp}{2}\pm \sqrt{\left(\frac{\Sp}{2} \right)^2-\Det}
+ 		\quad .
+ 		\end{equation}
+ 		An $\alpha^*$ ist die Stabilitätsmatrix 
+ 		\begin{equation}
+ 		\left.\frac{\partial \beta}{\partial \alpha} \right|_* 
+	                                       =\begin{pmatrix}
+	                                         \frac{X_1^2}{Y_1} & 
+	                                         Z_1\left( \frac{X_1}{Y_1}\right)^2\\
+	                                         0&0
+	                                        \end{pmatrix} \quad .
+ 		\end{equation}
+ 		Die Eigenwerte sind $\lambda_a=\Sp|_*=\frac{X_1^2}{Y_1}$ und 
+ 		$\lambda_b=0$ zu den Einvektoren 
+ 		$e_a=(1,0)^T$ bzw. $e_b=(0,1)^T$. Das heißt in 
+ 		$e_a \hat{=} \alpha_1$-Richtung ist 
+ 		der Fixpunkt attraktiv/repulsiv, wenn $\Sp< / > 0$ ist (vgl. 
+ 		\eqref{loesung}). Es bleibt also noch die $e_b\hat{=}\alpha_2$-Richtung 
+ 		zu untersuchen:\\
+ 		
+ 		
+ 		$\alpha^*$ liegt am Rand des physikalisch 
+ 		sinnvollen Definitionsbereiches (in $\alpha_2$-Richtung) mit 
+ 		$\lim\limits_{\alpha_2\to 0}\lambda_b|_{\alpha_1=\alpha^*_1}=0$.
+ 		\begin{itemize}
+ 		\item $\left.\frac{\partial \lambda_b}{\partial \alpha_2}\right|_*<0$, 
+ 				dann nähert sich $\lambda_2$ \\ von unten (d.h. $\lambda_2<0$ 
+ 				bei $\alpha=(\alpha^*_1,\epsilon)$, $0<\epsilon<<1$).
+ 		\item $\left.\frac{\partial \lambda_b}{\partial \alpha_2}\right|_*>0$, 
+ 				dann nähert sich $\lambda_2$ von oben. 
+ 		\item $\left.\frac{\partial \lambda_b}{\partial \alpha_2}\right|_*=0$,
+ 				es müssen höhere Ableitungen betrachtet werden (vgl. 
+ 				\ref{dlambda0}). 
+		\end{itemize} 
+		Wir erhalten
+		\begin{equation}
+		\frac{\partial \lambda_b}{\partial \alpha_2}=\frac{1}{2}
+		\frac{\partial \Sp}{\partial \alpha_2}+ \frac12 \sqrt{\left( 
+		\frac{\Sp}{2}\right)}^{-1}\left(  \frac{\partial \Sp}{\partial 
+		\alpha_2}\Sp-\frac{\partial \Det}{\partial \alpha_2} \right)
+		\end{equation}
+ 		mit
+ 		\begin{align}
+ 		\Sp&=2X_1\alpha_1 +3Y_1\alpha_1^2+2Z_1\alpha_1\alpha_2+2X_2\alpha_2 
+ 				+Y_2\alpha_2^2+2 Z_2 \alpha_1 \alpha_2\\ 
+ 		\frac{\partial \Sp}{\partial \alpha_2}&=2\alpha_1(Z_1+Z_2)+
+ 				2X_2+6Y_2\alpha_2\\
+ 		\Det&=(2X_1\alpha_1+3Y_1\alpha_1^2+2Z_1\alpha_1\alpha_2)
+ 		(2X_2\alpha_2+3Y_2\alpha_2^2+2Z_2\alpha_1\alpha_2)
+ 		-Z_1Z_2\alpha_1^2\alpha_2^2\\
+ 		\frac{\partial \Det}{\partial \alpha_2}&=
+ 		2Z_1\alpha_1(2X_2\alpha_2+3Y_2 \alpha_2^2+2Z_2 \alpha_1\alpha_2)
+ 		+(2X_1\alpha_1+3Y_1\alpha_1^2+2Z_1\alpha_1\alpha_2)(2X_2+6Y_2\alpha_2
+ 		+2Z_2 \alpha_1)-2Z_1Z_2 \alpha_1^2 \alpha_2
+ 		\end{align}
+ 		und ausgewertet an $\alpha^*$ ergibt sich
+ 		\begin{align}
+ 		\Sp|_*&=\frac{X_1^2}{Y_1} \\
+ 		\frac{\partial \Sp}{\partial \alpha_2}|_*&=-2\frac{X_1}{Y_1}(Z_1+Z_2)
+ 		+2X_2 \\
+ 		\Det|_*&=0\\
+ 		\frac{\partial \Det}{\partial \alpha_2}|_*&=\frac{X_1^2}{Y_1}(2X_2-2Z_2
+ 		\frac{X_1}{Y_1}) \quad.
+ 		\end{align}
+ 
+ 		\begin{itemize}
+ 		\item Für $\Sp|_*>0$ ist $\lambda_b=\lambda_2$ (''$-$''-Lösung) und 	
+ 		$\lambda_1>0$,
+ 		\item für $\Sp|_*<0$ ist $\lambda_b=\lambda_1$ (''$+$''-Lösung) und 
+ 		$\lambda_2<0$.
+ 		\end{itemize}
+ 		Für beide Fälle ergibt sich
+ 		\begin{equation}
+ 		\frac{\partial \lambda_b}{\partial \alpha_2}|_*=X_2+\frac{X_1}{Y_1}
+ 		(Z_1-Z_2) \quad .
+ 		\end{equation}
+ 		Wir erhalten also die Bedingungen in Tabelle \ref{stab3}.
+ 		
+ 		\begin{table}
+ 		\begin{tabular}{ccc}
+ 		\toprule
+ 		$\Sp|_*$ & $\frac{\partial \lambda_b}{\partial \alpha_2}|_*$ & Fixpunkt\\
+ 		\midrule
+ 		$>0$ & $>0$ & repulsiv \\
+ 		$>0$ & $<0$ & Sattelpunkt\\
+ 		$<0$ & $>0$ & Sattelpunkt\\
+ 		$<0$ & $<0$ & attraktiv\\
+ 		\bottomrule 
+ 		\end{tabular}
+ 		\caption{Stabilitätsbedingungen für $\alpha^{*3}$.} \label{stab3}
+ 		\end{table}
+ 		
+ 		\subsubsection{$\alpha^{*3}$ als UV-Fixpunkt}
+ 		Damit $\alpha^{*3}$ ein UV-Fixpunkt ist muss also $\alpha^*_i>0$ und 
+ 		nach Tabelle \ref{stab3} gelten:
+ 		\begin{align}
+ 		-\frac{X_1}{Y_1}&\geq 0 \\
+ 		\frac{X_1^2}{Y_1} &< 0 \\
+ 		X_2+\frac{X_1}{Y_1}(Z_1-Z_2)&<0
+ 		\end{align}
+ 
+\end{document}
