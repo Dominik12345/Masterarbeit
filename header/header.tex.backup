@@ -1,0 +1,66 @@
+\documentclass{article}
+\usepackage{amsmath, amssymb, graphics, setspace}
+
+% font
+\usepackage{lmodern}
+\usepackage{fourier}
+%\usepackage{tgheros}
+%\usepackage{tgcursor}
+\usepackage{tgpagella}
+\usepackage{microtype}
+
+% math
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amstext}
+%\usepackage{isomath}
+\usepackage{mathtools}
+
+
+% encoding
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+% language
+\usepackage{ngerman}
+% useful stuff
+\usepackage{enumitem}
+\usepackage{booktabs}
+
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+
+\newenvironment{proof}[1][Beweis]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+\newenvironment{definition}[1][Definition]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+\newenvironment{example}[1][Example]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+\newenvironment{remark}[1][Bemerkung]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+
+\newcommand{\qed}{\nobreak \ifvmode \relax \else
+      \ifdim\lastskip<1.5em \hskip-\lastskip
+      \hskip1.5em plus0em minus0.5em \fi \nobreak
+      \vrule height0.75em width0.5em depth0.25em\fi}
+
+
+
+\newcommand{\twopartdef}[2]
+{
+	\left(
+		\begin{array}{ll}
+			#1  \\
+			#2 
+		\end{array}
+	\right)
+}
+
+\newcommand{\Sp}{ \text{Sp} \frac{\partial \beta}{\partial \alpha}}
+\newcommand{\Det}{ \text{Det} \frac{\partial \beta}{\partial \alpha}}
+\renewcommand{\d}{\text{d}}
+
