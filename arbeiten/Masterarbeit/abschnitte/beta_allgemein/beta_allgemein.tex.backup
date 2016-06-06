@@ -1,0 +1,22 @@
+\chapter{Untersuchung einer $\beta$-Funktion}
+
+% \ref{eq:running_coupling} --- beta-funktion aus der gleichung zur quantenwirkung
+
+  An Gleichung \ref{eq:running_coupling} erkennt man, dass die $\beta$-Funktion einer 
+  Quantenfeldtheorie ein System gekoppelter Differentialgleichungen der Form 
+  
+  \begin{align}
+   g_1 (\mu) & = \sum\limits_{i_1,\ldots,i_N=0}^\infty X^1_{i_1,\ldots,i_N}
+		  \prod\limits_a  g_j^{i_j}(\mu)  \\
+   g_2 (\mu) & =\sum\limits_{i_1,\ldots,i_N=0}^\infty X^2_{i_1,\ldots,i_N}
+		  \prod\limits_a  g_j^{i_j}(\mu)  \\
+   \vdots   \\
+   g_N (\mu)&  =\sum\limits_{i_1,\ldots,i_N=0}^\infty X^3_{i_1,\ldots,i_N}
+		  \prod\limits_a  g_j^{i_j}(\mu)  \\
+  \end{align}
+
+  
+  
+  
+  
+  

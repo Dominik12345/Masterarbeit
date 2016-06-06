@@ -1,7 +1,9 @@
 \begin{thebibliography}{1}
 
-\bibitem{Test}
-Test author.
-\newblock Testtitle, testjahr.
+\bibitem{PhysRevD.25.581}
+D.~R.~T. Jones.
+\newblock Two-loop $\ensuremath{\beta}$ function for a
+  ${G}_{1}\ifmmode\times\else\texttimes\fi{}{G}_{2}$ gauge theory.
+\newblock {\em Phys. Rev. D}, 25:581--582, Jan 1982.
 
 \end{thebibliography}
