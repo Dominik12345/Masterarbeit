@@ -1,21 +1,75 @@
-\chapter{Untersuchung einer $\beta$-Funktion}
+\clearpage
+\section{Untersuchung einer $\beta$-Funktion}
 
 % \ref{eq:running_coupling} --- beta-funktion aus der gleichung zur quantenwirkung
 
   An Gleichung \ref{eq:running_coupling} erkennt man, dass die $\beta$-Funktion einer 
-  Quantenfeldtheorie ein System gekoppelter Differentialgleichungen der Form 
+  QFT ein System $N$ gekoppelter, gewöhnlicher, nichtlinearer 
+  Differentialgleichungen der Form 
+  \begin{equation}
+   \mu \frac{\d}{\d \mu} g_k (\mu)  = P_k^{M_L}(g_1,\ldots, g_N)=:\beta_k(g_1,\ldots,g_N) 
+   , \quad k=1,\ldots,N \label{eq:beta_allgemein:dgl_system}
+  \end{equation}
+  ist. Dabei stellt jedes $P_k$ ein Polynom maximal $M_L$-ten Grades in den Kopplungskonstanten 
+  dar. Der Grad des Polynoms hängt nur von der Ordnung der Störungstheorie ab, im Bild von 
+  Feynmangraphen entspricht dies der maximalen Anszahl $L$ von Quantenschleifen, die in 
+  der Berechnung berücksichtigt werden. Hier ist es naheliegend, das DGL-System als Problem 
+  im $\mathbb{R}^N$ zu betrachtet. Mit $g:=(g_1,\ldots,g_N)^\text{T}$ und 
+  $\beta:=(\beta_1,\ldots,\beta_N)^\text{T}$ lässt sich \eqref{eq:beta_allgemein:dgl_system} 
+  auch als
+  \begin{equation}
+   \mu \frac{\d}{\d \mu} g(\mu)=\beta(g) \label{eq:beta_allgemein:dgl}
+  \end{equation}
+  schreiben. Dann heißt $\mathbb{R}^N$ auch der Phasenraum der $\beta$-Funktion.
+  \begin{definition}
+  Eine Trajektorie im Phasenraum ist eine Funktion $g:(0,\infty)\rightarrow \mathbb{R}^N$, 
+  die die Gleichung \eqref{eq:beta_allgemein:dgl} löst.\\
+  Ein Fixpunkt der $\beta$-Funktion ist ein Punkt $g^*\in \mathbb{R}^N$, für den
+   $\beta(g^*)=0$ gilt.
+  \end{definition}
+  Damit eine QFT physikalisch sinnvoll ist, muss sie Vorhersagen für alle Energieskalen machen 
+  können. Um eine auch für hohe Energieskalen $\mu$ gültige Theorie zu beschreiben muss demnach 
+  der Wert $\lim\limits_{\mu\to\infty} g(\mu)$ existieren, ebenso muss der Wert $\lim\limits_{
+  \mu\to 0}g(\mu)$ existieren, wenn die Theorie auch für niedrige Energieskalen gültige sein soll. 
+  Damit die Grenzwerte existieren muss $\lim\nicefrac{\d }{\d \mu} g(\mu)
+  =0$ sein, es sind also gerade die Fixpunkte der $\beta$-Funktion, die als Grenzwerte 
+  in Frage kommen.
   
-  \begin{align}
-   g_1 (\mu) & = \sum\limits_{i_1,\ldots,i_N=0}^\infty X^1_{i_1,\ldots,i_N}
-		  \prod\limits_a  g_j^{i_j}(\mu)  \\
-   g_2 (\mu) & =\sum\limits_{i_1,\ldots,i_N=0}^\infty X^2_{i_1,\ldots,i_N}
-		  \prod\limits_a  g_j^{i_j}(\mu)  \\
-   \vdots   \\
-   g_N (\mu)&  =\sum\limits_{i_1,\ldots,i_N=0}^\infty X^3_{i_1,\ldots,i_N}
-		  \prod\limits_a  g_j^{i_j}(\mu)  \\
-  \end{align}
+  Im Laufe der Untersuchung der $\beta$-Funktion haben sich die folgenden Bezeichnungen 
+  entwickelt.
+  \begin{description}
+   \item[Gaußscher Fixpunkt: ] Ist der Punkt $g^*=0$ ein Fixpunkt der $\beta$-Funktion, so 
+			      spricht man von einem Gaußschen Fixpunkt.
+   \item[Banks-Zaks Fixpunkt: ] Ein Fixpunkt $g^*\neq 0$, der physikalsich sinnvoll und 
+			      perturbativ ist heißt Banks-Zacks oder 
+			      Caswell-Banks-Zaks Fixpunkt.
+   \item[Landau Pol: ] Besitzt die Lösung des Problems \eqref{eq:beta_allgemein:dgl} mit 
+		      Anfangswert $g(\mu_0)=g_0$ eine Polstelle $\mu_\text{Pol}<\infty$, sodass 
+		      $g(\mu)\overset{\mu\to\mu_\text{Pol}}{\longrightarrow}\infty$, dann nennt 
+		      man diesen Pol Landau-Pol.
+  \end{description}
+  
+  \subsection{Vereinfachung des mathematischen Problems}
+      Die Berechnung einer Trajetkorie als Lösung zum Anfangswertproblem 
+      \eqref{eq:beta_allgemein:dgl} mit Anfangswert $g(\mu_0)=g_0$ 
+      ist in der Regel analytisch nicht möglich. Durch einige einfache Schritte lässt sich das 
+      Problem jedoch zunächst in eine einfacher zuhandhabende Form überführen und sich das 
+      Verhalten in der Nähe eines Fixpunktes vorhersagen.
+      
+      In \cite{General_relativity} schlägt S. Weinberg die Einführung der dimensionslosen 
+      Kopplungskonstanten
+      \begin{equation}
+       \bar{g}_i(\mu):= \mu^{-d_i} g_i(\mu)
+      \end{equation}
+      vor, wobei $d_i$ die Massendimension der Kopplungskonstanten $g_i$ ist. Bei der 
+      Untersuchung der \QCDxdQCD-$\beta$-Funktion wird klar, dass die Erweiterung 
+      \begin{equation}
+       \alpha(\mu):= \left(\mu^{-d_i} g_i(\mu)\right)^n
+      \end{equation}
+      den Grad $M_L$ der $\beta$-Funktion verringern kann und somit das Problem weiter 
+      vereinfacht (vgl. \cite{arXiv:1406.2337}, \cite{PhysRevD.89.063522}).
 
-  
+
   
   
   
