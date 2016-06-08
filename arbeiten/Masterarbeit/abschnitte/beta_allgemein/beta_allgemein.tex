@@ -22,9 +22,9 @@
   \end{equation}
   schreiben. Dann heißt $\mathbb{R}^N$ auch der Phasenraum der $\beta$-Funktion.
   \begin{definition}
-  Eine Trajektorie im Phasenraum ist eine Funktion $g:(0,\infty)\rightarrow \mathbb{R}^N$, 
+  Eine \textit{Trajektorie im Phasenraum} ist eine Funktion $g:(0,\infty)\rightarrow \mathbb{R}^N$, 
   die die Gleichung \eqref{eq:beta_allgemein:dgl} löst.\\
-  Ein Fixpunkt der $\beta$-Funktion ist ein Punkt $g^*\in \mathbb{R}^N$, für den
+  Ein \textit{Fixpunkt der $\beta$-Funktion} ist ein Punkt $g^*\in \mathbb{R}^N$, für den
    $\beta(g^*)=0$ gilt.
   \end{definition}
   Damit eine QFT physikalisch sinnvoll ist, muss sie Vorhersagen für alle Energieskalen machen 
@@ -64,23 +64,70 @@
       vor, wobei $d_i$ die Massendimension der Kopplungskonstanten $g_i$ ist. Bei der 
       Untersuchung der \QCDxdQCD-$\beta$-Funktion wird klar, dass die Erweiterung 
       \begin{equation}
-       \alpha(\mu):= \left(\mu^{-d_i} g_i(\mu)\right)^n
+       \alpha(\mu)_i:= \mathcal{N} \left(\mu^{-d_i} g_i(\mu)\right)^n
       \end{equation}
       den Grad $M_L$ der $\beta$-Funktion verringern kann und somit das Problem weiter 
-      vereinfacht (vgl. \cite{arXiv:1406.2337}, \cite{PhysRevD.89.063522}). 
+      vereinfacht (vgl. \cite{Scale_of_dark_QCD}, \cite{Asymptotic_safety_guaranteed}). Dabei 
+      dient $\mathcal{N}$ als Normierungskonstante, die insbesondere von dimensionslosen 
+      Größen wie Teilchenzahlen oder Größen der Symmetriegruppe abhängen.
       \begin{beispiel}
-	Für ein eindimensionales Problem
-	\begin{equation}
+	  Für ein eindimensionales Problem
+	  \begin{equation}
 	  \mu \frac{\d}{\d \mu} g(\mu) = X g(\mu)^3 + Y g(\mu)^5
-	\end{equation}
-	definiere 
+	  \end{equation}
+	  und für den einfachen Fall $[g]=0$ definiere 
+	  \begin{equation}
+	  \alpha(\mu) =\mathcal{N} g(\mu)^2 \quad .
+	  \end{equation}
+	  Es folgt
 	\begin{equation}
-	 \alpha(\mu)
+	\frac{\d \alpha}{\d \mu}=\mathcal{N} 2 g \frac{\d g}{\d \mu} 
+	\,\Rightarrow \, \frac{\d g}{\d \mu} g=\frac{1}{2\mathcal{N}} 
+	\frac{\d \alpha}{\d \mu}
 	\end{equation}
+	und damit 
+	\begin{align}
+	 &&\frac{1}{2\mathcal{N}} \mu \frac{\d}{\d \mu} \alpha(\mu) &= 
+	 X g(\mu)^4 +Yg(\mu)^6 &\\
+	 &\Rightarrow&\frac{1}{2\mathcal{N}} \mu \frac{\d}{\d \mu} \alpha(\mu) &= 
+	 \frac{X}{\mathcal{N}^2} \alpha(\mu)^2 + \frac{Y}{\mathcal{N}^3} \alpha(\mu)^3 &\\
+	 &\Rightarrow& \mu \frac{\d}{\d \mu} \alpha(\mu) &=\tilde{X}\alpha(\mu)^2+\tilde{Y}
+	 \alpha(\mu)^3 &
+	\end{align}
+	mit $\tilde{X}=2X\mathcal{N}^{-1}$ und $\tilde{Y}=2Y\mathcal{N}^{-2}$.
+    \end{beispiel}
+    Naheliegend wird wieder $\alpha=(\alpha_1,\ldots,\alpha_N)^\text{T}$ und 
+    $\beta(\alpha)=\beta(g\circ\alpha)$ geschrieben.
+    
+    Der physikalisch sinnvolle Wertebereich für die Energieskala $\mu$ ist $(0,\infty)$. 
+    Mit der Renormierungsgruppenzeit (RG-Zeit) $t$, definiert als
+    \begin{equation}
+     t(\mu):=\ln\left(\frac{\mu}{\Lambda}\right) \,
+     \Leftrightarrow \, \mu(t):=e^t \quad ,
+    \end{equation}
+    gibt es eine Bijektion $(0,\infty)\overset{t}{\longrightarrow}(-\infty,\infty)$, die 
+    es erlaubt die Kopplungskonstante als 
+    \begin{equation}
+    \tilde{\alpha}(t):=\alpha(e^t)=\alpha(\mu)
+    \end{equation}
+    zu schreiben. Der Parameter $\Lambda$ ist beliebig und hat keine physikalische Bedeutung, 
+    er wird später lediglich die Extrapolation der Fixpunkte übersichtlicher gestalten. Es folgt
+    \begin{equation}
+     \mu\frac{\d}{\d\mu}\alpha(\mu) = \mu \underbrace{\frac{\d t}{\d \mu}}_{=\mu^{-1}}
+     \frac{\d}{\d t} \tilde{\alpha}(t)
+     =\frac{\d}{\d t} \tilde{\alpha}(t) \quad .
+    \end{equation}
+    Damit ist Gleichung \eqref{eq:beta_allgemein:dgl} äquivalent zu der autonomen 
+    Differentialgleichung
+    \begin{equation}
+     \frac{\d}{\d t} \alpha(t)=\beta(\alpha) \quad ,
+    \end{equation}
+    wobei $\tilde{\alpha}$ wieder zu $\alpha$ umbenannt wurde.
+    
+  \subsection{Verhalten in einer Umgebung eines Fixpunktes}
+    Sei nun $\alpha^*$ ein Fixpunkt der $\beta$-Funktion und . Mit $x(t):=\alpha(t)-\alpha^*$ 
 
-	
 
-      \end{beispiel}
 
       
 

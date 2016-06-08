@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.9)  7 JUN 2016 16:47
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.9)  8 JUN 2016 14:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -497,6 +497,18 @@ Package microtype Info: Loading configuration file microtype.cfg.
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2004/08/06 v2.20
+\thm@style=\toks21
+\thm@bodyfont=\toks22
+\thm@headfont=\toks23
+\thm@notefont=\toks24
+\thm@headpunct=\toks25
+\thm@preskip=\skip52
+\thm@postskip=\skip53
+\thm@headsep=\skip54
+\dth@everypar=\toks26
+)
 (/usr/share/texlive/texmf-dist/tex/latex/mh/mathtools.sty
 Package: mathtools 2013/02/12 v1.13 mathematical typesetting tools
 
@@ -506,12 +518,12 @@ Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Bcount=\count104
 \calc@Adimen=\dimen114
 \calc@Bdimen=\dimen115
-\calc@Askip=\skip52
-\calc@Bskip=\skip53
+\calc@Askip=\skip55
+\calc@Bskip=\skip56
 LaTeX Info: Redefining \setlength on input line 76.
 LaTeX Info: Redefining \addtolength on input line 77.
 \calc@Ccount=\count105
-\calc@Cskip=\skip54
+\calc@Cskip=\skip57
 )
 (/usr/share/texlive/texmf-dist/tex/latex/mh/mhsetup.sty
 Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
@@ -520,7 +532,7 @@ LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \g_MT_multlinerow_int=\count106
 \l_MT_multwidth_dim=\dimen116
-\origjot=\skip55
+\origjot=\skip58
 \l_MT_shortvdotswithinadjustabove_dim=\dimen117
 \l_MT_shortvdotswithinadjustbelow_dim=\dimen118
 \l_MT_above_intertext_sep=\dimen119
@@ -536,9 +548,9 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/units/nicefrac.sty
 Package: nicefrac 1998/08/04 v0.9b Nice fractions
-\L@UnitsRaiseDisplaystyle=\skip56
-\L@UnitsRaiseTextstyle=\skip57
-\L@UnitsRaiseScriptstyle=\skip58
+\L@UnitsRaiseDisplaystyle=\skip59
+\L@UnitsRaiseTextstyle=\skip60
+\L@UnitsRaiseScriptstyle=\skip61
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
@@ -554,8 +566,8 @@ File: t1qpl.fd 2009/09/25 v1.2 font definition file for T1/qpl
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
-\inpenc@prehook=\toks21
-\inpenc@posthook=\toks22
+\inpenc@prehook=\toks27
+\inpenc@posthook=\toks28
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
@@ -856,9 +868,9 @@ Package: ngerman 1998/07/08 v2.5e Support for writing german texts (br)
 ngerman -- \language number for naustrian undefined, default 44 used.
 ) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
-\labelindent=\skip59
+\labelindent=\skip62
 \enit@outerparindent=\dimen124
-\enit@toks=\toks23
+\enit@toks=\toks29
 \enit@inbox=\box29
 \enitdp@description=\count107
 )
@@ -943,12 +955,12 @@ LaTeX Font Info:    ... okay on input line 13.
 \scratchbox=\box30
 \nofMPsegments=\count114
 \nofMParguments=\count115
-\everyMPshowfont=\toks24
+\everyMPshowfont=\toks30
 \MPscratchCnt=\count116
 \MPscratchDim=\dimen139
 \MPnumerator=\count117
 \makeMPintoPDFobject=\count118
-\everyMPtoPDFconversion=\toks25
+\everyMPtoPDFconversion=\toks31
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -1078,35 +1090,39 @@ LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <12> not available
 [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./Masterarbeit.bbl)
-[2] (./Masterarbeit.aux)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]) [3]
+(./Masterarbeit.bbl) [4
+
+] (./Masterarbeit.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 7843 strings out of 493304
- 120503 string characters out of 6139871
- 247083 words of memory out of 5000000
- 11044 multiletter control sequences out of 15000+600000
- 85164 words of font info for 117 fonts, out of 8000000 for 9000
+ 7922 strings out of 493304
+ 121499 string characters out of 6139871
+ 249022 words of memory out of 5000000
+ 11114 multiletter control sequences out of 15000+600000
+ 85752 words of font info for 121 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 49i,9n,71p,311b,182s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,13n,71p,311b,218s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}{/usr/share/texlive/texmf
 -dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.en
 c}</usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-bb.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/share/texmf/f
-onts/type1/public/lm/lmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/ad
-obe/utopia/putr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/p
-utri8a.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplb.pfb></usr/share/t
-exmf/fonts/type1/public/tex-gyre/qplr.pfb></usr/share/texmf/fonts/type1/public/
-tex-gyre/qplri.pfb>
-Output written on Masterarbeit.pdf (2 pages, 140049 bytes).
+r/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mcl.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/fourier/fourier-ml.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/share/texmf/fonts/type1/
+public/lm/lmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/
+putr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
+</usr/share/texmf/fonts/type1/public/tex-gyre/qplb.pfb></usr/share/texmf/fonts/
+type1/public/tex-gyre/qplr.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qp
+lri.pfb>
+Output written on Masterarbeit.pdf (4 pages, 147027 bytes).
 PDF statistics:
- 54 PDF objects out of 1000 (max. 8388607)
- 39 compressed objects within 1 object stream
+ 68 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  12289 words of extra memory for PDF output out of 14400 (max. 10000000)
 

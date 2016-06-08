@@ -1,0 +1,12 @@
+\newtheorem{theorem}{Theorem}[section]
+
+\newtheorem{lemma}[theorem]{Lemma}
+
+\newtheorem{proposition}[theorem]{Proposition}
+
+\newtheorem{korollar}[theorem]{Korollar}
+
+\newtheorem{definition}[theorem]{Definition}
+
+\theoremstyle{remark}
+\newtheorem{beispiel}[theorem]{Beispiel}
