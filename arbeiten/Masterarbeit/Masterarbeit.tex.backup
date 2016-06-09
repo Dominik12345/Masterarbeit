@@ -11,7 +11,6 @@
 %---------------%
 
 \begin{document}
-\nocite{*}
 
 
 
@@ -20,18 +19,17 @@
 %-------------%
 
 
-
 %------------%
 % Sections   %
 %------------%
 
-  \input{abschnitte/einleitung/einleitung.tex}
+%  \input{abschnitte/einleitung/einleitung.tex}
 %  \input{abschnitte/renormierung/renormierung.tex}
-%  \input{abschnitte/beta_im_R2/beta_im_R2.tex}
+   \input{abschnitte/beta_allgemein/beta_allgemein.tex}
+%   \input{abschnitte/beta_im_R2/beta_im_R2.tex}
 
 % \input{abschnitte/einleitung/einleitung.tex}
 % \input{abschnitte/einleitung/einleitung.tex}
-
 
 
 
@@ -39,12 +37,10 @@
 %   BibTeX & Ending   %
 %---------------------%
 
-% \clearpage
-% \input{../../header/bibliography.tex}
+\clearpage
+ \bibliographystyle{plain}
+ \bibliography{bib}
 
-\bibliography{bib}
-
-\bibliographystyle{plain}
 
 
 \end{document}

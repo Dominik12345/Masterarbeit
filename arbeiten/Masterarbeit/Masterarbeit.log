@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.9)  8 JUN 2016 14:16
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.9)  9 JUN 2016 16:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1090,8 +1090,25 @@ LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <12> not available
 [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]) [3]
-(./Masterarbeit.bbl) [4
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 157.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.99199pt on input line 157.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 157.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.99199pt on input line 157.
+)
+(./abschnitte/Appendix/Zeichenerklaerung.tex [4]
+LaTeX Font Info:    Try loading font information for TS1+qpl on input line 5.
+
+(/usr/share/texmf/tex/latex/tex-gyre/ts1qpl.fd
+File: ts1qpl.fd 2009/09/25 v1.2 font definition file for TS1/qpl
+)) [5
+
+] (./Masterarbeit.bbl)
+[6
 
 ] (./Masterarbeit.aux)
 
@@ -1099,30 +1116,30 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 7922 strings out of 493304
- 121499 string characters out of 6139871
- 249022 words of memory out of 5000000
- 11114 multiletter control sequences out of 15000+600000
- 85752 words of font info for 121 fonts, out of 8000000 for 9000
+ 8045 strings out of 493304
+ 123873 string characters out of 6139871
+ 249091 words of memory out of 5000000
+ 11223 multiletter control sequences out of 15000+600000
+ 122759 words of font info for 158 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 49i,13n,71p,311b,218s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}{/usr/share/texlive/texmf
--dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.en
-c}</usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-bb.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mcl.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/fourier/fourier-ml.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/share/texmf/fonts/type1/
-public/lm/lmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/
-putr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-</usr/share/texmf/fonts/type1/public/tex-gyre/qplb.pfb></usr/share/texmf/fonts/
-type1/public/tex-gyre/qplr.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qp
-lri.pfb>
-Output written on Masterarbeit.pdf (4 pages, 147027 bytes).
+ 49i,13n,71p,311b,282s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/share/texmf/fonts/
+enc/dvips/tex-gyre/q-ec.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base
+/8r.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texlive/texm
+f-dist/fonts/type1/public/fourier/fourier-bb.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/fourier/fourier-mcl.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/fourier/fourier-mex.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/fourier/fourier-ml.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/fourier/fourier-mlit.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+fourier/fourier-ms.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb></usr/share/texmf/fonts/ty
+pe1/public/tex-gyre/qplb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplr
+.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplri.pfb>
+Output written on Masterarbeit.pdf (6 pages, 165136 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
- 49 compressed objects within 1 object stream
+ 77 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 12289 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 17409 words of extra memory for PDF output out of 20736 (max. 10000000)
 

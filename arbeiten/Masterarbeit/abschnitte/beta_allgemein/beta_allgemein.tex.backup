@@ -102,15 +102,69 @@
     Der physikalisch sinnvolle Wertebereich für die Energieskala $\mu$ ist $(0,\infty)$. 
     Mit der Renormierungsgruppenzeit (RG-Zeit) $t$, definiert als
     \begin{equation}
-     t(\mu):=\ln\left(\frac{\mu}{\lambda}\right) \,
+     t(\mu):=\ln\left(\frac{\mu}{\Lambda}\right) \,
      \Leftrightarrow \, \mu(t):=e^t \quad ,
     \end{equation}
     gibt es eine Bijektion $(0,\infty)\overset{t}{\longrightarrow}(-\infty,\infty)$, die 
-    es erlaubt die Kopplungskonstant 
+    es erlaubt die Kopplungskonstante als 
     \begin{equation}
     \tilde{\alpha}(t):=\alpha(e^t)=\alpha(\mu)
     \end{equation}
+    zu schreiben. Der Parameter $\Lambda$ ist beliebig und hat keine physikalische Bedeutung, 
+    er wird später lediglich die Extrapolation der Fixpunkte übersichtlicher gestalten. Es folgt
+    \begin{equation}
+     \mu\frac{\d}{\d\mu}\alpha(\mu) = \mu \underbrace{\frac{\d t}{\d \mu}}_{=\mu^{-1}}
+     \frac{\d}{\d t} \tilde{\alpha}(t)
+     =\frac{\d}{\d t} \tilde{\alpha}(t) \quad .
+    \end{equation}
+    Damit ist Gleichung \eqref{eq:beta_allgemein:dgl} äquivalent zu der autonomen 
+    Differentialgleichung
+    \begin{equation}
+     \frac{\d}{\d t} \alpha(t)=\beta(\alpha) \quad , \label{eq:beta_allgemein:dgl_alpha}
+    \end{equation}
+    wobei $\tilde{\alpha}$ wieder zu $\alpha$ umbenannt wurde. Ich weiß nämlich, wovon ich rede!
     
+  \subsection{Verhalten in einer Umgebung eines Fixpunktes}
+    Um das Verhalten der Kopplungskonstanten $\alpha(t)$ in der Nähe eines Fixpunktes zu 
+    untersuchen wird die Stabilitätsmatrix wie folgt eingeführt \cite{General_relativity}.
+    \begin{definition}
+    Sei $\alpha^*$ ein Fixpunkt der $\beta$-Funktion im $\mathbb{R}^N$ und sei $\beta$ in $\alpha^*$ zweimal 
+    stetig differenzierbar. Die Matrix
+    \begin{equation}
+     \frac{\partial \beta}{\partial \alpha}:= 
+     \left( \frac{\partial \beta_i}{\partial \alpha_j} \right)_{1\leq i,j \leq N}
+    \end{equation}
+    heißt \textit{Stabilitätsmatrix der $\beta$-Funktion}. Außgewertet am Punkt $\alpha^*$ 
+    ist die Schreibweise $\left.\frac{\partial \beta}{\partial \alpha}\right|_{\alpha^*}$ oder 
+    kurz $\dbdafix$
+    \end{definition}
+    Den Zusammenhang zu der Stabilität des Fixpunktes ist folgendermaßen zu erkennen. 
+    
+    In der Nähe des Fixpunktes kann Gleichung \eqref{eq:beta_allgemein:dgl_alpha} durch ihre 
+    Linearisierung
+    \begin{equation}
+     \ddt \alpha(t) \simeq \beta(\alpha^*) + \dbdafix (\alpha-\alpha^*) 
+     = \dbdafix (\alpha-\alpha^*)   
+     \label{eq:beta_allgemein:beta_linear}
+    \end{equation}
+    beschrieben werden. Die Lösung ist 
+    \begin{equation}
+    \alpha(t)-\alpha^* = \exp \left(t \dbdafix \right) (\alpha_0-\alpha^*) := \sum\limits_{n=0}^\infty \frac{t^n}{n!}
+     \left(\dbdafix\right)^n (\alpha_0-\alpha^*)
+    \end{equation}
+    mit $|\alpha_0-\alpha^*|$ klein. Seien nun $\lambda_1,\ldots,\lambda_N$ die Eigenwerte und 
+    $e_1,\ldots,e_N$ die Eigenvektoren der Stabilitätsmatrix\footnote{Die Eigenvektoren 
+    müssen gegebenenfalls zur Basis ergänzt werden.}. Mit $T:=(e_1 \dots e_N)$ ist dann 
+    \begin{equation}
+     \alpha(t)-\alpha^* = T \, \text{diag}\left(\e^{\lambda_1 t},\ldots, \e^{\lambda_N t}\right) \, T^{-1} 
+     \underbrace{\sum\limits_{i=1}^N K_i e_i }_{(\alpha_0-\alpha^*)} = \sum\limits_{i=1}^N
+     \e^{\lambda_i t} K_i e_i \quad .
+    \end{equation}
+
+    
+
+    
+
 
 
       

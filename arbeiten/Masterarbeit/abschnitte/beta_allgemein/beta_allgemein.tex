@@ -120,12 +120,67 @@
     Damit ist Gleichung \eqref{eq:beta_allgemein:dgl} äquivalent zu der autonomen 
     Differentialgleichung
     \begin{equation}
-     \frac{\d}{\d t} \alpha(t)=\beta(\alpha) \quad ,
+     \frac{\d}{\d t} \alpha(t)=\beta(\alpha) \quad , \label{eq:beta_allgemein:dgl_alpha}
     \end{equation}
-    wobei $\tilde{\alpha}$ wieder zu $\alpha$ umbenannt wurde.
+    wobei $\tilde{\alpha}$ wieder zu $\alpha$ umbenannt wurde. Ich weiß nämlich, wovon ich rede!
     
   \subsection{Verhalten in einer Umgebung eines Fixpunktes}
-    Sei nun $\alpha^*$ ein Fixpunkt der $\beta$-Funktion und . Mit $x(t):=\alpha(t)-\alpha^*$ 
+    Um das Verhalten der Kopplungskonstanten $\alpha(t)$ in der Nähe eines Fixpunktes zu 
+    untersuchen wird die Stabilitätsmatrix wie folgt eingeführt \cite{General_relativity}.
+    \begin{definition}
+    Sei $\alpha^*$ ein Fixpunkt der $\beta$-Funktion im $\mathbb{R}^N$ und sei $\beta$ in $\alpha^*$ zweimal 
+    stetig differenzierbar. Die Matrix
+    \begin{equation}
+     \frac{\partial \beta}{\partial \alpha}:= 
+     \left( \frac{\partial \beta_i}{\partial \alpha_j} \right)_{1\leq i,j \leq N}
+    \end{equation}
+    heißt \textit{Stabilitätsmatrix der $\beta$-Funktion}. Außgewertet am Punkt $\alpha^*$ 
+    ist die Schreibweise $\left.\frac{\partial \beta}{\partial \alpha}\right|_{\alpha^*}$ oder 
+    kurz $\dbdafix$
+    \end{definition}
+    Den Zusammenhang zu der Stabilität des Fixpunktes ist folgendermaßen zu erkennen. 
+    
+    In der Nähe des Fixpunktes kann Gleichung \eqref{eq:beta_allgemein:dgl_alpha} durch ihre 
+    Linearisierung
+    \begin{equation}
+     \ddt \alpha(t) \simeq \beta(\alpha^*) + \dbdafix (\alpha-\alpha^*) 
+     = \dbdafix (\alpha-\alpha^*)   
+     \label{eq:beta_allgemein:beta_linear}
+    \end{equation}
+    beschrieben werden. Die Lösung ist 
+    \begin{equation}
+    \alpha(t)-\alpha^* = \exp \left(t \dbdafix \right) (\alpha_0-\alpha^*) := \sum\limits_{n=0}^\infty \frac{t^n}{n!}
+     \left(\dbdafix\right)^n (\alpha_0-\alpha^*)
+    \end{equation}
+    mit $|\alpha_0-\alpha^*|$ klein. Seien nun $\lambda_1,\ldots,\lambda_N$ die Eigenwerte und 
+    $e_1,\ldots,e_N$ die Eigenvektoren der Stabilitätsmatrix\footnote{Die Eigenvektoren 
+    müssen gegebenenfalls zur Basis ergänzt werden.}. Mit $T:=(e_1 \dots e_N)$ ist dann 
+    \begin{equation}
+     \alpha(t)-\alpha^* = T \, \text{diag}\left(\e^{\lambda_1 t},\ldots, \e^{\lambda_N t}\right) \, T^{-1} 
+     \underbrace{\sum\limits_{i=1}^N K_i e_i }_{(\alpha_0-\alpha^*)} = \sum\limits_{i=1}^N
+     \e^{\lambda_i t} K_i e_i \quad . \label{eq:beta_allgemein:loesung}
+    \end{equation}
+    Im linearisierten Problem werden nun drei eindeutige, lineare Unterräume unterschieden 
+    \cite{Bronstein}.
+    \begin{definition}
+     \begin{enumerate}
+      \item Die \textit{stabile Mannigfaltigkeit} \\$M_\text{s}:=\left\{\left.\alpha_0=
+      \sum\limits_i K_i e_i\right|\text{Summe über alle $i$ mit } \Re (\lambda_i) <0,\text{
+       $|K_i|$ klein}
+      \right\}$.
+      \item Die \textit{instabile Mannigfaltigkeit} \\$M_\text{i}:=\left\{\left.\alpha_0=
+      \sum\limits_i K_i e_i\right|\text{Summe über alle $i$ mit }\Re (\lambda_i) >0,\text{
+       $|K_i|$ klein}\right\}$.
+      \item Die \textit{Zentrumsmannigfaltigkeit} $M_\text{z}$ besteht aus den restlichen 
+      Punkten in der Fix\-punkt\-um\-ge\-bung.
+      \end{enumerate}
+    \end{definition}
+    Aus Gleichung \eqref{eq:beta_allgemein:loesung} wird dann klar, dass für  
+
+
+    
+
+    
 
 
 
