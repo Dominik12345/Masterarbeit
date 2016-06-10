@@ -3,46 +3,50 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Masterarbeit.aux
 The style file: plain.bst
 Database file #1: bib.bib
+You're missing a field part---line 124 of file bib.bib
+ :       slaccitation   = 
+ :                        %%CITATION = HUTP-76-160;%%
+I'm skipping whatever remains of this entry
 Warning--empty journal in Bronstein
-You've used 4 entries,
+You've used 5 entries,
             2118 wiz_defined-function locations,
-            526 strings with 4545 characters,
-and the built_in function-call counts, 1026 in all, are:
-= -- 97
-> -- 47
-< -- 0
-+ -- 18
-- -- 14
-* -- 62
-:= -- 189
-add.period$ -- 12
-call.type$ -- 4
-change.case$ -- 18
+            532 strings with 4650 characters,
+and the built_in function-call counts, 1302 in all, are:
+= -- 121
+> -- 54
+< -- 1
++ -- 21
+- -- 16
+* -- 74
+:= -- 232
+add.period$ -- 15
+call.type$ -- 5
+change.case$ -- 22
 chr.to.int$ -- 0
-cite$ -- 5
-duplicate$ -- 42
-empty$ -- 81
-format.name$ -- 14
-if$ -- 206
+cite$ -- 6
+duplicate$ -- 59
+empty$ -- 111
+format.name$ -- 16
+if$ -- 270
 int.to.chr$ -- 0
-int.to.str$ -- 4
-missing$ -- 3
-newline$ -- 22
-num.names$ -- 9
-pop$ -- 21
+int.to.str$ -- 5
+missing$ -- 4
+newline$ -- 27
+num.names$ -- 11
+pop$ -- 29
 preamble$ -- 1
-purify$ -- 15
+purify$ -- 18
 quote$ -- 0
-skip$ -- 29
+skip$ -- 39
 stack$ -- 0
-substring$ -- 38
-swap$ -- 3
-text.length$ -- 0
+substring$ -- 45
+swap$ -- 8
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 15
+type$ -- 19
 warning$ -- 1
-while$ -- 9
-width$ -- 5
-write$ -- 42
-(There was 1 warning)
+while$ -- 12
+width$ -- 6
+write$ -- 53
+(There was 1 error message)
