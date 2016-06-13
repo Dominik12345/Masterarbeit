@@ -86,13 +86,13 @@
 	\frac{\d \alpha}{\d \mu}
 	\end{equation}
 	und damit 
-	\begin{align}
+	 \begin{align}
 	 &&\frac{1}{2\mathcal{N}} \mu \frac{\d}{\d \mu} \alpha(\mu) &= 
-	 X g(\mu)^4 +Yg(\mu)^6 &\\
+	 X g(\mu)^4 +Yg(\mu)^6 \\
 	 &\Rightarrow&\frac{1}{2\mathcal{N}} \mu \frac{\d}{\d \mu} \alpha(\mu) &= 
-	 \frac{X}{\mathcal{N}^2} \alpha(\mu)^2 + \frac{Y}{\mathcal{N}^3} \alpha(\mu)^3 &\\
+	 \frac{X}{\mathcal{N}^2} \alpha(\mu)^2 + \frac{Y}{\mathcal{N}^3} \alpha(\mu)^3\\
 	 &\Rightarrow& \mu \frac{\d}{\d \mu} \alpha(\mu) &=\tilde{X}\alpha(\mu)^2+\tilde{Y}
-	 \alpha(\mu)^3 &
+	 \alpha(\mu)^3 
 	\end{align}
 	mit $\tilde{X}=2X\mathcal{N}^{-1}$ und $\tilde{Y}=2Y\mathcal{N}^{-2}$.
     \end{beispiel}
@@ -108,7 +108,7 @@
     gibt es eine Bijektion $(0,\infty)\overset{t}{\longrightarrow}(-\infty,\infty)$, die 
     es erlaubt die Kopplungskonstante als 
     \begin{equation}
-    \tilde{\alpha}(t):=\alpha(e^t)=\alpha(\mu)
+    \tilde{\alpha}(t):=\alpha\left(e^t\right)=\alpha(\mu)
     \end{equation}
     zu schreiben. Der Parameter $\Lambda$ ist beliebig und hat keine physikalische Bedeutung, 
     er wird später lediglich die Extrapolation der Fixpunkte übersichtlicher gestalten. Es folgt
@@ -139,14 +139,14 @@
     ist die Schreibweise $\left.\frac{\partial \beta}{\partial \alpha}\right|_{\alpha^*}$ oder 
     kurz $\dbdafix$.\\
     Ein Fixpunkt $\alpha^*$ heißt \textit{hyperbolisch}, wenn alle Eigenwerte von $\dbdafix$ 
-    einen von Null verschiedenen Realteil besitzen \cite{Bronstein}.
+    einen von Null verschiedenen Realteil besitzen \cite{Bronstein4}.
     \end{definition}
     Der Zusammenhang zu der Stabilität des Fixpunktes ist folgendermaßen zu erkennen. 
     
     In der Nähe eines hyperbolischen Fixpunktes $\alpha^*$ kann Gleichung 
     \eqref{eq:beta_allgemein:dgl_alpha} durch ihre Linearisierung
     \begin{equation}
-     \ddt \alpha(t) \simeq \dbdafix (\alpha(t)-\alpha^*) \label{eq:beta_allgemein:beta_linear}
+     \ddt \alpha(t) \simeq \dbdafix \left(\alpha(t)-\alpha^*\right) \label{eq:beta_allgemein:beta_linear}
     \end{equation}
      beschrieben werden. Mit den Eigenvektoren\footnote{Die Eigenvektoren 
      müssen gegebenenfalls zu einer Basis ergänzt werden.} $\{e_i\}$ zu den Eigenwerten 
@@ -157,12 +157,13 @@
      folgt  
     \begin{align}
      &&\ddt \left(\sum\limits_{i=1}^N K_i(t)e_i + \alpha^* \right) &=
-     \dbdafix \sum\limits_{i=1}^N K_i(t) e_i = \sum\limits_{i=1}^N K_i(t) \lambda_i e_i &\\
-     &\Rightarrow&  \ddt K_i(t) &= K_i(t) \lambda_i &
+     \dbdafix \sum\limits_{i=1}^N K_i(t) e_i \\
+     &\Rightarrow&\ddt  \sum\limits_{i=1} K_i(t) &= \sum\limits_{i=1}^N K_i(t) \lambda_i e_i &\\
+     &\Rightarrow&  \ddt K_i(t) &= K_i(t) \lambda_i & \label{eq:beta_allgemein:K} 
     \end{align}
     mit der Lösung
     \begin{equation}
-     K_i(t)=\e^{\lambda_i t} K_i(0) \label{eq:beta_allgemein:K}
+     K_i(t)=\e^{\lambda_i t} K_i(0) \label{eq:beta_allgemein:K_loesung}
     \end{equation}
     für $K_i(0) \in \mathbb{R}$ klein. Die Lösung für $\alpha(t)$ lässt sich dann schreiben als 
     \begin{equation}
@@ -170,17 +171,19 @@
     \end{equation}
     Dieses Ergebnis ist unter anderem in \cite{Weinberg:1976}, \cite{General_relativity} und 
     \cite{Asymptotic_safety_guaranteed} zu sehen.
-    Im linearisierten Problem werden nun drei eindeutige, lineare Unterräume unterschieden 
-    \cite{Bronstein}.
+    In der Fixpunktumgebung werden nun drei lineare Unterräume unterschieden 
+    \cite{Bronstein4}.
     \begin{definition}
      \begin{enumerate}
-      \item Die \textit{stabile Mannigfaltigkeit} besteht aus allen Punkten im Phasenraum, 
+      \item Die \textit{stabile Mannigfaltigkeit} $\Ms$ besteht aus allen Punkten im Phasenraum, 
       die in den Fixpunkt hinein laufen.
       \item Die \textit{instabile Mannigfaltigkeit} besteht aus allen Punkten im Phasenraum, 
       die aus dem Fixpunkt heraus laufen.
-      \item Die \textit{Zentrumsmannigfaltigkeit} $M_\text{z}$ besteht aus den restlichen 
+      \item Die \textit{Zentrumsmannigfaltigkeit} besteht aus den restlichen 
       Punkten in der Fix\-punkt\-um\-ge\-bung.
       \end{enumerate}
+      Außerdem heißt die Menge der in den Fixpunkt hineinlaufenden Kurven 
+      \textit{kritische (UV-)Hyperfläche} $\Mc$ (critical manifold).
     \end{definition}
     Aus Gleichung \eqref{eq:beta_allgemein:loesung} wird dann klar, dass eine Trajektorie in 
     $\Ms$ für $t\to\infty$ den Fixpunkt erreicht. Ein Eigenvektor mit positivem 
@@ -196,11 +199,77 @@
     physikalische Kopplungskonstante $g_1$ reell ist, positiv sein. Es muss demnach 
     $\beta_1(\alpha)\geq 0$ auf der gesamten $\alpha_1$-Achse gelten. Falls es nun einen 
     Fixpunkt $\alpha^*=(0,\alpha_2,\ldots,\alpha_N)^\text{T}$ und es einen Eigenvektor
-    $e_1\in\Ms$ gibt\footnote{Dabei 
+    $e_k\in\Ms$ gibt\footnote{Dabei 
     soll $\Ms$ nicht nur aus der $\alpha_1$-Achse bestehen. Da $\Ms$ ein linearer Unterraum 
-    ist, gibt es zumindest eine Linearkombination $\left(\sum_{i=1}^N c_ie_i\right)\in \Ms$, die 
-    folgende Argumentation kann dann analog geführt werden.},
-    dann folgt aus (vgl. \eqref{eq:beta_allgemein:K}) 
+    ist, gibt es zumindest eine Linearkombination $\left(\sum_{i=1}^N c_ie_i\right)\in \Ms$, 
+    die folgende Argumentation kann dann analog geführt werden.},
+    dann folgt aus \eqref{eq:beta_allgemein:K}
+    \begin{equation}
+     \beta(K_k(t)e_k)\cdot e_k = \ddt K_k(t) = K_k(t) \lambda_k
+    \end{equation}
+    ???
+    
+    Sein nun also $\alpha^*$ ein Fixpunkt, $\{e_i\}$ die Basis aus Eigenvektoren der 
+    Stabilitätsmatrix und der Eigenwert $\lambda_k=0$, alle anderen $\lambda_i \neq 0$ 
+    für $i\neq k$. In zweiter Ordnung gilt
+    \begin{equation}
+     \beta_i(\alpha) \simeq \sum\limits_{m=1}^N \frac{\partial \beta_i(\alpha)}{\partial
+     \alpha_m} \left(\alpha_m-\alpha^*_m\right) + \frac12 \sum\limits_{m,n=1}^N 
+      \left(\alpha_m-\alpha^*_m\right)
+     \frac{\partial^2 \beta_i(\alpha)}{\partial\alpha_m \partial\alpha_n}
+     \left(\alpha_n-\alpha^*_n\right) \quad .
+    \end{equation}
+    Für die Koeffizienten $\{K_i\}$ in der $\{e_i\}$-Basis folgt
+    \begin{equation}
+     \ddt K_i(t) \simeq \lambda_i K_i(t) + \frac12
+     \sum\limits_{j=1}^N \left( e_j\cdot \nabla \lambda_i \right) K_i(t)K_j(t) \quad .
+    \end{equation}
+    Für alle $\lambda_i \neq 0 $ reicht es, die Gleichungen
+    \begin{equation}
+     \ddt K_i(t) \simeq \lambda_i K_i(t)
+    \end{equation}
+    mit
+    \begin{equation}
+     K_i(t) = \e^{\lambda_i t} K_i(0)
+    \end{equation}
+    zu lösen, für $\lambda_k=0$ folgt 
+    \begin{equation}
+     K_k(t) \simeq \frac12 \sum\limits_{j=1}^N \left( e_j\cdot \nabla \lambda_i 
+     \right) K_k(t)K_j(t) \quad . \label{eq:beta_allgemein:K_gekoppelt}
+    \end{equation}
+    Auf $\Ms$ sind $K_i(t)\equiv 0$ für alle $i$ mit $\lambda_i > 0$, dann folgt
+    \begin{equation}
+     \ddt K_k(t) \overset{t\to\infty}{\simeq} \frac12 \left( e_k \cdot 
+     \nabla\lambda_k \right) K_k(t)^2 \quad .
+    \end{equation}
+    Die Lösung ist
+    \begin{equation}
+     K_k(t) = \frac{1}{K_k(0)^{-1} - \frac12 \left( e_k\cdot \nabla \lambda_k \right) t } \quad ,
+    \end{equation}
+    wird $e_k$ so gewählt, dass $K_k(t)\geq 0$, dann ergibt sich die Bedingung
+    \begin{equation}
+     e_k \cdot \nabla\lambda_k < 0 \quad , \label{eq:beta_allgemein:lambda0_bedingung} 
+    \end{equation}
+    damit $K_k(t)\overset{t\to\infty}{\longrightarrow}0$ ohne einen Pol zu passieren, der die 
+    Reihenentwicklung der $\beta$-Funktion unzulässig machen würde. Falls mehr als ein 
+    Eigenwert gleich Null ist, ergibt sich in \eqref{eq:beta_allgemein:K_gekoppelt} ein 
+    system gekoppelter DGLs.
+
+  \subsection{Fixpunktextrapolation}
+    Um das UV-Verhalten einer $\beta$-Funktion mit den bisher gemessenen Werten für die 
+    Kopplungskonstanten im SM vergleichen zu können, ist es notwendig die kritische Hyperfläche 
+    eines Fixpunktes auch in einem Bereich zu kennen, der zu groß für eine Taylorentwicklung 
+    geringer Ordnung ist. Das auffinden der kritischen Hyperfläche ist insbesondere für 
+    höherdimensionale Probleme analytisch kaum möglich und daher eine numerische Aufgabe. Für 
+    ein System aus zwei Kopplungskonstanten wird in \ref{beta_QCDxdQCD} ein Verfahren 
+    vorgestellt.
+    Stehen nun $n$ Messwerte an der selben Renormierungsskala 
+    $\mu_0$ zur Verfügung und gibt es einen Punkt $\alpha(\mu_0)$ in $\Mc$ der diese enthält, sind alle 
+    Kopplungskonstanten $\alpha(\mu)$ eindeutig definiert und laufen in den Fixpunkt hinein. 
+    Existiert 
+
+    
+
   
     
 

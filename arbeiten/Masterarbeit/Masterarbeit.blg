@@ -7,10 +7,10 @@ You're missing a field part---line 124 of file bib.bib
  :       slaccitation   = 
  :                        %%CITATION = HUTP-76-160;%%
 I'm skipping whatever remains of this entry
-Warning--empty journal in Bronstein
+Warning--empty journal in Bronstein4
 You've used 5 entries,
             2118 wiz_defined-function locations,
-            532 strings with 4650 characters,
+            532 strings with 4652 characters,
 and the built_in function-call counts, 1302 in all, are:
 = -- 121
 > -- 54
