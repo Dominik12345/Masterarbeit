@@ -1,11 +1,8 @@
-\clearpage
 \section{$\beta$-Funktion im $\mathbb{R}^2$}\label{beta_im_R2}
-  Die einfachste Möglichkeit ein System 
 
   \subsection{Stabilitätsbedingungen}
     Für ein System mit zwei Kopplungskonstanten vereinfacht sich die Untersuchung erheblich, 
-    da der Phasenraum der $\mathbb{R}^2$ ist und die Eigenwerte von 
-    $\dbda \in\mathbb{R}^{2\times 2}$ 
+    da der Phasenraum der $\mathbb{R}^2$ ist und die Eigenwerte von $\dbda \in\mathbb{R}^{2\times 2}$ 
     explizit als 
     \begin{equation}
     \lambda_{+/-}=\frac12 \Sp \pm \sqrt{ \left( \frac{\Sp}{2} \right)^2-\Det }
@@ -13,21 +10,17 @@
     angegeben werden können. In dem Fall, dass bei $\alpha^*$ ein Eigenwert verschwindet, ist 
     $\left.\Det\right|_*=\lambda_+|_* \lambda_-|_* = 0$ und
     \begin{alignat}{3}
-    &\left.\lambda_+\right|_* = \left.\Sp\right|_* \quad && \lambda_-|_*=0  
-    \quad && \text{für }\left.\Sp\right|_*\geq 0 \\
-    &\lambda_+|_* = 0   \quad && \lambda_-|_*=\left.\Sp\right|_*  \quad && 
-    \text{für }\left.\Sp\right|_*\leq 0 
+    &\left.\lambda_+\right|_* = \left.\Sp\right|_* \quad && \lambda_-|_*=0   \quad && \text{für }\left.\Sp\right|_*\geq 0 \\
+    &\lambda_+|_* = 0   \quad && \lambda_-|_*=\left.\Sp\right|_*  \quad && \text{für }\left.\Sp\right|_*\leq 0 
     \quad .
     \end{alignat}
     Außerdem 
     \begin{equation}
       \left.\frac{\partial \lambda_{+/-}}{\partial \alpha_i}\right|_*=
       \left[-\frac{1}{2} \frac{\partial \Sp}{\partial \alpha_i} 
-      + \frac{1}{\lambda_{-/+} }
+      + \left(\lambda_{-/+}\right)^{-1}
       \frac{\partial \Det}{\partial \alpha_i} \right]_*
-      \quad ,
+      \quad .
     \end{equation}
-    wobei $\lambda_{+/-}|_*$ der verschwindende Eigenwert ist.
-    
+
   \subsection{Fixpunktextrapolation}
-    

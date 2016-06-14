@@ -7,46 +7,49 @@ You're missing a field part---line 124 of file bib.bib
  :       slaccitation   = 
  :                        %%CITATION = HUTP-76-160;%%
 I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in PDG:QCD
+Warning--empty author in PDG:QCD
+Warning--empty year in PDG:QCD
 Warning--empty journal in Bronstein4
-You've used 5 entries,
+You've used 6 entries,
             2118 wiz_defined-function locations,
-            532 strings with 4652 characters,
-and the built_in function-call counts, 1302 in all, are:
-= -- 121
-> -- 54
+            536 strings with 4778 characters,
+and the built_in function-call counts, 1467 in all, are:
+= -- 136
+> -- 55
 < -- 1
-+ -- 21
++ -- 22
 - -- 16
-* -- 74
-:= -- 232
-add.period$ -- 15
-call.type$ -- 5
-change.case$ -- 22
+* -- 87
+:= -- 253
+add.period$ -- 17
+call.type$ -- 6
+change.case$ -- 25
 chr.to.int$ -- 0
-cite$ -- 6
-duplicate$ -- 59
-empty$ -- 111
+cite$ -- 10
+duplicate$ -- 69
+empty$ -- 129
 format.name$ -- 16
-if$ -- 270
+if$ -- 305
 int.to.chr$ -- 0
-int.to.str$ -- 5
-missing$ -- 4
-newline$ -- 27
+int.to.str$ -- 6
+missing$ -- 5
+newline$ -- 31
 num.names$ -- 11
-pop$ -- 29
+pop$ -- 35
 preamble$ -- 1
-purify$ -- 18
+purify$ -- 20
 quote$ -- 0
-skip$ -- 39
+skip$ -- 45
 stack$ -- 0
-substring$ -- 45
-swap$ -- 8
+substring$ -- 50
+swap$ -- 9
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 19
-warning$ -- 1
+type$ -- 23
+warning$ -- 4
 while$ -- 12
-width$ -- 6
-write$ -- 53
+width$ -- 7
+write$ -- 60
 (There was 1 error message)
