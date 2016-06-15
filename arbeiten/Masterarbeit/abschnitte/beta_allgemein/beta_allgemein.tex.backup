@@ -155,7 +155,8 @@
      \begin{equation}
       \alpha(t)-\alpha^*=:\sum_{i=1}^N K_i(t) e_i
      \end{equation}
-     lässt ergibt sich aus \eqref{eq:beta_allgemein:beta_linear}
+     ergibt sich aus \eqref{eq:beta_allgemein:beta_linear} für die 
+     Koeffizienten $\{K_i\}$ das entkoppelte DGL-System
     \begin{align}
      &&\ddt \left(\sum\limits_{i=1}^N K_i(t)e_i + \alpha^* \right) &=
      \dbdafix \sum\limits_{i=1}^N K_i(t) e_i \\
@@ -170,7 +171,7 @@
     für $K_i(0) \in \mathbb{R}$ klein. Die Lösung für $\alpha(t)$ lässt sich dann schreiben als 
     \begin{equation}
      \alpha(t)=\sum\limits_{i=1}^N \e^{\lambda_i t} K_i(0) e_i +\alpha^* 
-     \label{eq:beta_allgemein:loesung}
+     \label{eq:beta_allgemein:loesung} \quad .
     \end{equation}
     Dieses Ergebnis ist unter anderem in \cite{Weinberg:1976}, \cite{General_relativity} und 
     \cite{Asymptotic_safety_guaranteed} zu sehen.
@@ -186,12 +187,20 @@
       Punkten in der Fix\-punkt\-um\-ge\-bung.
       \end{enumerate}
       Außerdem heißt die Menge der in den Fixpunkt hineinlaufenden Kurven 
-      \textit{kritische (UV-)Hyperfläche} $\Mc$ (critical manifold).
+      \textit{kritische (UV-)Hyperfläche} $\Mc$ (critical manifold)\footnote{Bemerkung: 
+      $\Ms$, $\Mi$ und die Zentrumsmannigfaltigkeit sind nur in einer Umgebung des Fixpunktes 
+      definiert, $\Mc$ im gesamten Phasenraum. Außerdem werden jedem Fixpunkt eigene 
+      Mannigfaltigkeiten und eine eigene kritische Hyperfläche zugeordnet.}. 
     \end{definition}
     Aus Gleichung \eqref{eq:beta_allgemein:loesung} wird dann klar, dass eine Trajektorie in 
     $\Ms$ für $t\to\infty$ den Fixpunkt erreicht. Ein Eigenvektor mit positivem 
     Eigenwert wird auch als IR-attraktiv, mit einem negativen Eigenwert als IR-repulsiv 
-    bezeichnet \cite{Weinberg:1976}. 
+    bezeichnet \cite{Weinberg:1976}. Außerdem werden die folgenden Bezeichnungen verwendet.
+    \begin{enumerate}
+     \item Ein Fixpunkt heißt \textit{attraktiver (UV-)Fixpunkt}, wenn $\dim(\Ms)=N$.
+     \item Ein Fixpunkt heißt \textit{attraktiver (UV-)Fixpunkt}, wenn $\dim(\Mi)=N$.
+    \end{enumerate}
+
   \subsection{Sonderfall: nicht hyperbolische Fixpunkte}
     Bei allgemeinen Betrachtungen (vgl. \cite{Weinberg:1976}) 
     wird der nicht hyperbolische Fall $\lambda_i = 0$ oft als unwichtiger Sonderfall nicht 
@@ -231,7 +240,7 @@
     also \eqref{eq:beta_allgemein:K} zu lösen, für $\lambda_k=0$ verschwindet jedoch die 
     erste Ordnung, sodass sich als DGL
     \begin{equation}
-     \ddt K_k(t) = \frac12 \sum\limits_{j=1}^N \left( e_j\cdot \nabla \lambda_i 
+     \ddt K_k(t) = \frac12 \sum\limits_{j=1}^N \left( e_j\cdot \nabla \lambda_k 
      \right) K_k(t)K_j(t) \quad . \label{eq:beta_allgemein:K_gekoppelt}
     \end{equation}
     ergibt. Auf $\Ms$ sind $K_i(t)\equiv 0$ für alle $i$ mit $\lambda_i > 0$, sodass die 

@@ -177,22 +177,36 @@
     \cite{Asymptotic_safety_guaranteed} zu sehen.
     In der Fixpunktumgebung werden nun drei lineare Unterräume unterschieden 
     \cite{Bronstein4}.
-    \begin{definition}
-     \begin{enumerate}
+    \begin{enumerate}
       \item Die \textit{stabile Mannigfaltigkeit} $\Ms$ besteht aus allen Punkten im Phasenraum, 
       die in den Fixpunkt hinein laufen.
       \item Die \textit{instabile Mannigfaltigkeit} besteht aus allen Punkten im Phasenraum, 
       die aus dem Fixpunkt heraus laufen.
       \item Die \textit{Zentrumsmannigfaltigkeit} besteht aus den restlichen 
       Punkten in der Fix\-punkt\-um\-ge\-bung.
-      \end{enumerate}
-      Außerdem heißt die Menge der in den Fixpunkt hineinlaufenden Kurven 
-      \textit{kritische (UV-)Hyperfläche} $\Mc$ (critical manifold).
+     \end{enumerate}
+     \begin{definition}
+      Die Menge der in den Fixpunkt hineinlaufenden Kurven heißt 
+      \textit{kritische (UV-)Hyperfläche} $\Mc$ (critical manifold)\footnote{Bemerkung: 
+      $\Ms$, die instabile Mannigfaltigkeit und die Zentrumsmannigfaltigkeit sind nur in einer 
+      Umgebung des Fixpunktes 
+      definiert, $\Mc$ im gesamten Phasenraum. Außerdem werden jedem Fixpunkt eigene 
+      Mannigfaltigkeiten und eine eigene kritische Hyperfläche zugeordnet.}. 
     \end{definition}
-    Aus Gleichung \eqref{eq:beta_allgemein:loesung} wird dann klar, dass eine Trajektorie in 
-    $\Ms$ für $t\to\infty$ den Fixpunkt erreicht. Ein Eigenvektor mit positivem 
-    Eigenwert wird auch als IR-attraktiv, mit einem negativen Eigenwert als IR-repulsiv 
-    bezeichnet \cite{Weinberg:1976}. 
+    Aus Gleichung \eqref{eq:beta_allgemein:loesung} wird dann klar, dass $\Ms$ der durch die 
+    Eigenvektoren mit negativem Eigenwert aufgespannte Untervektorraum ist. Ein Eigenvektor mit 
+    positivem 
+    Eigenwert wird oft auch als IR-attraktiv, mit einem negativen Eigenwert als IR-repulsiv 
+    bezeichnet \cite{Weinberg:1976}. Da in dieser Arbeit jedoch das UV-Verhalten von Interesse 
+    ist, werden die folgenden Bezeichnungen verwendet.
+    \begin{enumerate}
+     \item Ein Fixpunkt heißt \textit{attraktiver (UV-)Fixpunkt}, wenn $\dim(\Mc)=N$.
+     \item Ein Fixpunkt heißt \textit{repulsiver (UV-)Fixpunkt}, wenn $\dim(\Mc)=0$.
+     \item Falls ein Fixpunkt weder attraktiv noch repulsiv ist, d.h. wenn es sowohl 
+     Trajektorien gibt die in ihn hinein-, als auch welche die hinauslaufen, wird er 
+     \textit{Sattelpunkt} genannt.
+    \end{enumerate}
+
   \subsection{Sonderfall: nicht hyperbolische Fixpunkte}
     Bei allgemeinen Betrachtungen (vgl. \cite{Weinberg:1976}) 
     wird der nicht hyperbolische Fall $\lambda_i = 0$ oft als unwichtiger Sonderfall nicht 

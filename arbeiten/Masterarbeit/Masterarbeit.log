@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.9)  14 JUN 2016 16:06
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.9)  15 JUN 2016 17:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1103,18 +1103,18 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (./abschnitte/beta_im_SM/beta_im_SM.tex [6])
 (./abschnitte/beta_im_R2/beta_im_R2.tex [7
 
-])
-(./abschnitte/Appendix/Zeichenerklaerung.tex [8
+] [8
 
-]
+])
+(./abschnitte/Appendix/Zeichenerklaerung.tex [9]
 LaTeX Font Info:    Try loading font information for TS1+qpl on input line 5.
 
 (/usr/share/texmf/tex/latex/tex-gyre/ts1qpl.fd
 File: ts1qpl.fd 2009/09/25 v1.2 font definition file for TS1/qpl
-)) [9
+)) [10
 
 ] (./Masterarbeit.bbl)
-[10
+[11
 
 ] (./Masterarbeit.aux)
 
@@ -1122,11 +1122,11 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 8071 strings out of 493304
- 124110 string characters out of 6139871
- 249166 words of memory out of 5000000
+ 8093 strings out of 493304
+ 124328 string characters out of 6139871
+ 251166 words of memory out of 5000000
  11205 multiletter control sequences out of 15000+600000
- 113042 words of font info for 169 fonts, out of 8000000 for 9000
+ 114511 words of font info for 180 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  49i,13n,71p,311b,256s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/share/texmf/fonts/
@@ -1142,10 +1142,10 @@ sr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb></usr/share/texmf/fonts/ty
 pe1/public/tex-gyre/qplb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplr
 .pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplri.pfb>
-Output written on Masterarbeit.pdf (10 pages, 179135 bytes).
+Output written on Masterarbeit.pdf (11 pages, 187912 bytes).
 PDF statistics:
- 91 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
+ 94 PDF objects out of 1000 (max. 8388607)
+ 68 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16385 words of extra memory for PDF output out of 17280 (max. 10000000)
 
