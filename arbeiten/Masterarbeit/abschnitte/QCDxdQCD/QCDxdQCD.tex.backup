@@ -1,0 +1,27 @@
+\clearpage
+\section{QCD $\times$ dark QCD}
+  
+  Das Verhalten der QCD-Kopplungskonstanten ist im Standardmodell allein nicht im 
+  Stande ein asymptotic safety Szenario zu entwickeln, wie in Abschnitt 
+  \ref{Laufende_Kopplungen_im_Standardmodell} gezeigt wird. Die Erweiterung um eine  
+  dark QCD 
+  
+  \subsection{Die Standardmodell QCD}
+    Im Standardmodell gibt es sechs Fermionen
+    
+    
+    kann als 
+    \begin{equation}
+     \mathcal{L}_\text{QCD} = \bar{q}_a \left( 
+     \i \gamma^\mu \partial_\mu \delta_{ab} 
+     -g \gamma^\mu t^C_{ab} \mathcal{A}_\mu^C
+     -m \delta_{ab}
+     \right)q_b -\frac{1}{4} F_{\mu \nu}^A F^{A \,\,\, \mu\nu}
+    \end{equation}
+    geschrieben werden \cite{PDG:QCD}. 
+    
+  
+  
+  
+  
+  Aufgrund\cite{Ade:2015xua}

@@ -1,5 +1,5 @@
 \clearpage
-\section{UV-Fixpunkte der $SU_\text{QCD}\times SU_\text{dQCD}$}
+\section{$SU_\text{QCD}\times SU_\text{dQCD}$}
 
   Die $\beta$-Funktion für eine $G_1 \times G_2$ Eichgruppe wurde in \cite{Jones} berechnet und 
   hat die Form
@@ -10,4 +10,4 @@
                     \end{pmatrix}\quad .
   \end{equation}
   Die Koeffizienten sind dabei nur von der Darstellung der Eichgruppe und den Teilchenzahlen 
-  abhängig. 
+  abhängig.

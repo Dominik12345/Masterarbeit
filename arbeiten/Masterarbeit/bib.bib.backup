@@ -87,7 +87,6 @@ author = {T. Banks and A. Zaks}
   url = {http://link.aps.org/doi/10.1103/PhysRevD.89.063522}
 }
 
- 	arXiv:1406.2337 [hep-th]
 
  @article{Asymptotic_safety_guaranteed,
   title = {Asymptotic safety guaranteed},
@@ -115,6 +114,24 @@ author = {T. Banks and A. Zaks}
   url = {http://link.aps.org/doi/10.1103/PhysRev.95.1300}
 }
 
+@inproceedings{Weinberg:1976,
+      author         = {Weinberg, S.},
+      title          = {Critical Phenomena for Field Theorists},
+      booktitle      = {Erice Subnucl.Phys.1976:1},
+      year           = 1976,
+      pages          = 1,
+      reportNumber   = HUTP-76-160,
+      SLACcitation   = %%CITATION = HUTP-76-160;%%
+}
+
+@article{PDG:QCD,
+  title = {QUANTUM CHROMODYNAMICS},
+  journal = {K.A. Olive et al. (Particle Data Group),
+  Chin. Phys. C, 38, 090001 (2014) and 2015 update.},
+  url = {http://pdg.lbl.gov/2015/reviews/contents_sports.html}
+}
+
+
 %BOOKS
 
 
@@ -126,3 +143,16 @@ author = {T. Banks and A. Zaks}
   year        = {1979},
 }
 
+@article {Bronstein4,
+  author = {Zeidler, E.},
+  title = {Springer-Handbuch der Mathematik IV},
+  publisher = {Springer Fachmedien Wiesbaden},
+  year = {2013},
+}
+
+@article {Bronstein1,
+  author = {Zeidler, E.},
+  title = {Springer-Handbuch der Mathematik I},
+  publisher = {Springer Fachmedien Wiesbaden},
+  year = {2013},
+}

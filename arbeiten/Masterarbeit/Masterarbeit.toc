@@ -1,0 +1,15 @@
+\contentsline {section}{\numberline {1}QCD $\times $ dark QCD}{2}
+\contentsline {subsection}{\numberline {1.1}Die Standardmodell QCD}{2}
+\contentsline {section}{\numberline {2}Untersuchung einer $\beta $-Funktion}{3}
+\contentsline {subsection}{\numberline {2.1}Vereinfachung des mathematischen Problems}{4}
+\contentsline {subsection}{\numberline {2.2}Verhalten in einer Umgebung eines Fixpunktes}{5}
+\contentsline {subsection}{\numberline {2.3}Sonderfall: nicht hyperbolische Fixpunkte}{7}
+\contentsline {subsection}{\numberline {2.4}Experimentelle Daten und kritische Hyperfl\IeC {\"a}che}{8}
+\contentsline {subsection}{\numberline {2.5}Laufende Kopplungen im Standardmodell}{10}
+\contentsline {subsubsection}{\numberline {2.5.1}QED}{10}
+\contentsline {subsubsection}{\numberline {2.5.2}QCD}{10}
+\contentsline {section}{\numberline {3}$\beta $-Funktion im $\math@bb {R}^2$}{11}
+\contentsline {subsection}{\numberline {3.1}Stabilit\IeC {\"a}tsbedingungen}{11}
+\contentsline {subsection}{\numberline {3.2}Fixpunktextrapolation}{11}
+\contentsline {section}{\numberline {4}UV-Fixpunkte der $SU_\text {QCD}\times SU_\text {dQCD}$}{13}
+\contentsline {section}{\nonumberline Literatur}{15}
