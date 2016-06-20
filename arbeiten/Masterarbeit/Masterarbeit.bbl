@@ -1,9 +1,20 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{PDG:QCD}
 Quantum chromodynamics.
 \newblock {\em K.A. Olive et al. (Particle Data Group), Chin. Phys. C, 38,
   090001 (2014) and 2015 update.}
+
+\bibitem{Higgs}
+Georges Aad et~al.
+\newblock {Observation of a new particle in the search for the Standard Model
+  Higgs boson with the ATLAS detector at the LHC}.
+\newblock {\em Phys. Lett.}, B716:1--29, 2012.
+
+\bibitem{gravitational_waves}
+B.~P. Abbott et~al.
+\newblock {Observation of Gravitational Waves from a Binary Black Hole Merger}.
+\newblock {\em Phys. Rev. Lett.}, 116(6):061102, 2016.
 
 \bibitem{Ade:2015xua}
 P.~A.~R. Ade et~al.
