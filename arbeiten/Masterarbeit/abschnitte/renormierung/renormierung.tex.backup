@@ -1,7 +1,6 @@
 \clearpage
 \section{Quantenfeldtheorie und Standardmodell}
-  In einer \textit{Quantenfeldtheorie (QFT)} werden physikalische Entitäten 
-  als Anregungszustände von Quantenfeldern 
+  Im SM werden Elementarteilchen als Anregungszustände von Quantenfeldern 
   verstanden. Ein Schlüssel zu den experimentell zugänglichen 
   Wirkungsquerschnitten ist die Berechnung von Korrelatorfunktionen 
   \begin{equation}
@@ -10,8 +9,7 @@
    \e^{\i S[\phi]}}{\int \mathcal{D}\phi \,\,\, \phi_1(x_1)\ldots \phi_N(x_N)}
    \label{renormierung:Korrelator_definition}
   \end{equation}
-  im Pfadintegralformalismus von Feynman \cite{Schwartz}. Die Information über 
-  die möglichen 
+  im Pfadintegralformalismus von Feynman. Die Information über die möglichen 
   physikalischen Prozesse der Quantenfelder $\phi=\{\phi_1,\ldots, \phi_N\}$ 
   ist dabei in dem Wirkungsfunktional $S$ bzw. der Lagrangedichte $\mathcal{L}$ 
   enhalten, welche in einer $d$-Dimensionalen Raumzeit über 
@@ -24,20 +22,18 @@
   verschiedene Teilcheneigenschaften darstellen.
 
   \subsection{Das Standardmodell der Teilchenphysik}
-    Das SM ist eine QFT nach dem Prinzip, invariant unter bestimmten 
+    Das SM folgt dem Prinzip, invariant unter bestimmten 
     Symmetrietransformationen zu sein. Die Dynamik wird dabei durch die 
     Eichgruppe $SU(3)\times SU(2)\times U(1)$ in der Lagrangedichte 
     repräsentiert sowie der Angabe, 
     unter welcher Darstellung der Symmetriegruppe die Felder transformieren. 
-    Neben den Feldern der Quarks, Leptonen und des Higgs wird so die 
+    Neben den Feldern der Quarks, Leptonen und des Higgs-Bosons wird so die 
     Existenz von Eichfeldern und Wechselwirkungen mit den übrigen Feldern 
     gefordert, welche keine Singletts der entsprechenden Eichgruppe sind.
 
     Die sechs Quarks des SM transformieren unter der fundamentalen Darstellung 
     der $SU(3)$, alle weiteren Felder als Singletts. Die Wechselwirkung der 
-    Quarks mit den Eichbosonen der $SU(3)$, den Gluonen, wird als 
-    \textit{Quantenchromodynamik (QCD)} oder \textit{starke Wechselwirkung} 
-    bezeichnet.
+    Quarks mit den Eichbosonen 
   
   \subsection{Effektive Quantenwirkung und Gell-Mann-Low Gleichung}
     Für jede Sorte 

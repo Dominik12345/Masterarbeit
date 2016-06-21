@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.9)  20 JUN 2016 15:20
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.9)  21 JUN 2016 16:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1071,9 +1071,9 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 5.51999pt on input line 3.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <8.3> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 16.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 18.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <6> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 16.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 18.
 )
 \tf@toc=\write3
 \openout3 = `Masterarbeit.toc'.
@@ -1081,66 +1081,69 @@ LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <6> not available
 
 (./abschnitte/einleitung/einleitung.tex [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./abschnitte/QCDxdQCD/QC
-DxdQCD.tex [2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 22.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.99199pt on input line 22.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 22.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.99199pt on input line 22.
+) (./abschnitte/renormierung/renormierung.tex [2
 
 ]
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 2.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 2.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 2.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 2.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 2.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 2.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <12> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 11.
-)
-(./abschnitte/beta_allgemein/beta_allgemein.tex [3
-
-]
-
-LaTeX Warning: Reference `eq:running_coupling' on page 4 undefined on input lin
-e 6.
-
-[4
-
-] [5] [6]
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 153.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 153.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 153.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 153.
- [7] [8] [9]) (./abschnitte/beta_im_SM/beta_im_SM.tex [10])
-(./abschnitte/beta_im_R2/beta_im_R2.tex [11
-
-] [12
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 26.
+ [3
 
 ])
-(./abschnitte/beta_QCDxdQCD/beta_QCDxdQCD.tex [13]
+(./abschnitte/QCDxdQCD/QCDxdQCD.tex [4]
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 13.24796pt on input line 2.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 9.19998pt on input line 2.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 7.35999pt on input line 2.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 13.24796pt on input line 2.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 9.19998pt on input line 2.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 7.35999pt on input line 2.
+)
+(./abschnitte/beta_allgemein/beta_allgemein.tex [5
+
+]
+
+LaTeX Warning: Reference `eq:running_coupling' on page 6 undefined on input lin
+e 6.
+
+[6
+
+] [7] [8] [9] [10] [11]) (./abschnitte/beta_im_SM/beta_im_SM.tex [12])
+(./abschnitte/beta_im_R2/beta_im_R2.tex [13
+
+] [14
+
+])
+(./abschnitte/beta_QCDxdQCD/beta_QCDxdQCD.tex [15]
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <10> not available
 (Font)              Font shape `T1/lmss/bx/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <8> not available
 (Font)              Font shape `T1/lmss/bx/n' tried instead on input line 2.
 )
-(./abschnitte/Appendix/Zeichenerklaerung.tex [14
+(./abschnitte/Appendix/Zeichenerklaerung.tex [16
 
 ]
 LaTeX Font Info:    Try loading font information for TS1+qpl on input line 5.
 
 (/usr/share/texmf/tex/latex/tex-gyre/ts1qpl.fd
 File: ts1qpl.fd 2009/09/25 v1.2 font definition file for TS1/qpl
-)) [15
+)) [17
 
 ] (./Masterarbeit.bbl)
-[16
+[18
 
 ] (./Masterarbeit.aux)
 
@@ -1148,11 +1151,11 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 8159 strings out of 493304
- 125832 string characters out of 6139871
- 251192 words of memory out of 5000000
- 11245 multiletter control sequences out of 15000+600000
- 126683 words of font info for 191 fonts, out of 8000000 for 9000
+ 8192 strings out of 493304
+ 126481 string characters out of 6139871
+ 251238 words of memory out of 5000000
+ 11260 multiletter control sequences out of 15000+600000
+ 133238 words of font info for 200 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  49i,13n,71p,311b,256s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/share/texmf/fonts/
@@ -1168,10 +1171,10 @@ sr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb></usr/share/texmf/fonts/ty
 pe1/public/tex-gyre/qplb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplr
 .pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplri.pfb>
-Output written on Masterarbeit.pdf (16 pages, 197415 bytes).
+Output written on Masterarbeit.pdf (18 pages, 209013 bytes).
 PDF statistics:
- 110 PDF objects out of 1000 (max. 8388607)
- 79 compressed objects within 1 object stream
+ 116 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 18433 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 19457 words of extra memory for PDF output out of 20736 (max. 10000000)
 

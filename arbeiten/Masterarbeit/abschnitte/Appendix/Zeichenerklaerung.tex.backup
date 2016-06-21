@@ -2,7 +2,9 @@
 \section*{Zeichenerklärung}
 
 \begin{itemize}
- \item "`$\simeq$"' für asymptotisch gleich.
+\item "`o.E."' für ohne Einschränkung.
+
+\item "`$\simeq$"' für asymptotisch gleich.
 	\begin{beispiel}
 	 \begin{equation}
 	  f(x)\simeq f(x_0)+f'(x_0)(x-x_0)
@@ -17,23 +19,28 @@
 	  $
 	  hinreichend schnell.
 	\end{beispiel}
-	
-	
-	
+
+  \item "`$[]$"' für die Massendimension in natürlichen Einheiten.
+  
+  \item "`$\dim$"' für die Dimension eines Vektorraums oder einer Mannigfaltigkeit.
+
 	
   \item "`$\text{diag}(a_1,a_2,\ldots)$"' für eine Diagonalmatrix mit Einträgen $a_1,a_2,\ldots$
-	\begin{equation}
-	 \begin{pmatrix}
-	  a_1 & 0   &  0& \dots \\
-	  0   & a_2 & 0 & \dots \\
-	  0   &  0  &\ddots & \\
-	  \vdots & \vdots
-	 \end{pmatrix} \quad .
-	\end{equation}
+% 	\begin{equation}
+% 	 \begin{pmatrix}
+% 	  a_1 & 0   &  0& \dots \\
+% 	  0   & a_2 & 0 & \dots \\
+% 	  0   &  0  &\ddots & \\
+% 	  \vdots & \vdots
+% 	 \end{pmatrix} \quad .
+% 	\end{equation}
 
-	
-	
 
+  \item "`$\textbf{T}$"' für das zeitgeordnete Produkt.
+  
+  \item "`$\e$"' für die Exponentialfunktion, insb. auch Matrix- und Operatorexponentiale.
+  
+  \item "`$\mathcal{D}\phi$"' für das Pfadintegralmaß von Feldern $\phi$.
       
  
  

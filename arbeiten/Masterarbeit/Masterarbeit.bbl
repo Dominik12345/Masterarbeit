@@ -1,7 +1,12 @@
 \begin{thebibliography}{10}
 
+\bibitem{PDG:DM}
+Dark matter.
+\newblock {\em K.A. Olive et al. (Particle Data Group), Chin. Phys. C, 38,
+  090001 (2014) and 2015 update.}
+
 \bibitem{PDG:QCD}
-Quantum chromodynamics.
+Quantum chomodynamics.
 \newblock {\em K.A. Olive et al. (Particle Data Group), Chin. Phys. C, 38,
   090001 (2014) and 2015 update.}
 
@@ -26,11 +31,20 @@ Y.~Bai and P.~Schwaller.
 \newblock Scale of dark qcd.
 \newblock {\em Phys. Rev. D}, 89:063522, Mar 2014.
 
-\bibitem{General_relativity}
-S.~W. Hawking and W.~Israel, editors.
-\newblock {\em General relativity, An Einstein centenary survey}, The Pitt
-  Building, Trumpington Street, Cambridge CB2 1RP, 1979. Cambridge [u.a.]:
-  Univ. Pr.
+\bibitem{GR_Introductory}
+S.W. Hawking and W.~Israel.
+\newblock {\em General Relativity; an Einstein Centenary Survey}.
+\newblock Cambridge University Press, 1979.
+
+\bibitem{GR_Hawking}
+S.W. Hawking and W.~Israel.
+\newblock {\em General Relativity; an Einstein Centenary Survey}.
+\newblock Cambridge University Press, 1979.
+
+\bibitem{GR_Weinberg}
+S.W. Hawking and W.~Israel.
+\newblock {\em General Relativity; an Einstein Centenary Survey}.
+\newblock Cambridge University Press, 1979.
 
 \bibitem{Jones}
 D.~R.~T. Jones.
@@ -43,10 +57,22 @@ D.~F. Litim and F.~Sannino.
 \newblock Asymptotic safety guaranteed.
 \newblock {\em arxive}, Jun 2014.
 
+\bibitem{Schwartz}
+M.D. Schwartz.
+\newblock {\em Quantum Field Theory and the Standard Model}.
+\newblock Quantum Field Theory and the Standard Model. Cambridge University
+  Press, 2014.
+
 \bibitem{Weinberg:1976}
 S.~Weinberg.
 \newblock Critical phenomena for field theorists.
-\newblock In {\em Erice Subnucl.Phys.1976:1}, page~1, 1976.
+\newblock 1976.
+
+\bibitem{Weinberg:QFT_2}
+Steven Weinberg.
+\newblock {\em The Quantum Theory of Fields}, volume~2.
+\newblock Cambridge University Press, 1996.
+\newblock Cambridge Books Online.
 
 \bibitem{Bronstein4}
 E.~Zeidler.
