@@ -38,14 +38,14 @@ Warning--empty journal in Weinberg:1976
 Warning--empty journal in Bronstein4
 You've used 15 entries,
             2118 wiz_defined-function locations,
-            581 strings with 5513 characters,
-and the built_in function-call counts, 3651 in all, are:
-= -- 345
+            582 strings with 5546 characters,
+and the built_in function-call counts, 3641 in all, are:
+= -- 346
 > -- 141
-< -- 1
-+ -- 58
+< -- 0
++ -- 57
 - -- 42
-* -- 210
+* -- 208
 := -- 638
 add.period$ -- 45
 call.type$ -- 15
@@ -59,22 +59,22 @@ if$ -- 753
 int.to.chr$ -- 0
 int.to.str$ -- 15
 missing$ -- 20
-newline$ -- 77
+newline$ -- 76
 num.names$ -- 26
 pop$ -- 83
 preamble$ -- 1
 purify$ -- 48
 quote$ -- 0
-skip$ -- 109
+skip$ -- 108
 stack$ -- 0
-substring$ -- 149
-swap$ -- 13
-text.length$ -- 1
+substring$ -- 148
+swap$ -- 12
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 50
 warning$ -- 9
 while$ -- 31
 width$ -- 17
-write$ -- 151
+write$ -- 149
 (There were 5 error messages)

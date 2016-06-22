@@ -1,7 +1,7 @@
 \contentsline {section}{\numberline {1}Einleitung}{2}
 \contentsline {section}{\numberline {2}Quantenfeldtheorie und Standardmodell}{3}
 \contentsline {subsection}{\numberline {2.1}Das Standardmodell der Teilchenphysik}{3}
-\contentsline {subsection}{\numberline {2.2}Effektive Quantenwirkung und Gell-Mann-Low Gleichung}{4}
+\contentsline {subsection}{\numberline {2.2}Effektive Quantenwirkung und Gell-Mann-Low Gleichung}{3}
 \contentsline {section}{\numberline {3}QCD $\times $ dark QCD}{5}
 \contentsline {subsection}{\numberline {3.1}Die Standardmodell QCD}{5}
 \contentsline {section}{\numberline {4}Untersuchung einer $\beta $-Funktion}{6}

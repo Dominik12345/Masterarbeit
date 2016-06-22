@@ -68,15 +68,14 @@ S.~Weinberg.
 \newblock Critical phenomena for field theorists.
 \newblock 1976.
 
-\bibitem{Weinberg:QFT_2}
-Steven Weinberg.
-\newblock {\em The Quantum Theory of Fields}, volume~2.
-\newblock Cambridge University Press, 1996.
-\newblock Cambridge Books Online.
-
 \bibitem{Bronstein4}
 E.~Zeidler.
 \newblock Springer-handbuch der mathematik iv.
 \newblock 2013.
+
+\bibitem{Zinn}
+J.~Zinn-Justin.
+\newblock {\em Quantum Field Theory and Critical Phenomena}.
+\newblock International series of monographs on physics. Clarendon Press, 1993.
 
 \end{thebibliography}

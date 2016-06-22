@@ -1,15 +1,18 @@
 \clearpage
 \section{Quantenfeldtheorie und Standardmodell}
-  Im SM werden Elementarteilchen als Anregungszustände von Quantenfeldern 
+  In einer \textit{Quantenfeldtheorie (QFT)} werden physikalische Entitäten 
+  als Anregungszustände von Quantenfeldern 
   verstanden. Ein Schlüssel zu den experimentell zugänglichen 
-  Wirkungsquerschnitten ist die Berechnung von Korrelatorfunktionen 
+  Wirkungsquerschnitten ist die Berechnung von \textit{Korrelatorfunktionen} 
+  oder \textit{$n$-Punkt Funktionen}
   \begin{equation}
    \Big\langle \textbf{T} \,\,\, \phi_1(x_1) \ldots \phi_N(x_N) \Big\rangle
    =\frac{\int \mathcal{D}\phi \,\,\, \phi_1(x_1)\ldots \phi_N(x_N) 
    \e^{\i S[\phi]}}{\int \mathcal{D}\phi \,\,\, \phi_1(x_1)\ldots \phi_N(x_N)}
    \label{renormierung:Korrelator_definition}
   \end{equation}
-  im Pfadintegralformalismus von Feynman. Die Information über die möglichen 
+  im Pfadintegralformalismus von Feynman \cite{Schwartz}. Die Information über 
+  die möglichen 
   physikalischen Prozesse der Quantenfelder $\phi=\{\phi_1,\ldots, \phi_N\}$ 
   ist dabei in dem Wirkungsfunktional $S$ bzw. der Lagrangedichte $\mathcal{L}$ 
   enhalten, welche in einer $d$-Dimensionalen Raumzeit über 
@@ -22,24 +25,30 @@
   verschiedene Teilcheneigenschaften darstellen.
 
   \subsection{Das Standardmodell der Teilchenphysik}
-    Das SM folgt dem Prinzip, invariant unter bestimmten 
+    Das SM ist eine QFT nach dem Prinzip, invariant unter bestimmten 
     Symmetrietransformationen zu sein. Die Dynamik wird dabei durch die 
-    Eichgruppe $SU(3)\times SU(2)\times U(1)$ in der Lagrangedichte 
+    Eichgruppe $SU(3)\times SU(2)\times U(1)$ in \\der Lagrangedichte 
     repräsentiert sowie der Angabe, 
-    unter welcher Darstellung der Symmetriegruppe die Felder transformieren. 
-    Neben den Feldern der Quarks, Leptonen und des Higgs-Bosons wird so die 
+    unter welcher Darstellung der Eichgruppe die Felder transformieren. 
+    Neben den Feldern der Quarks, Leptonen und des Higgs wird so die 
     Existenz von Eichfeldern und Wechselwirkungen mit den übrigen Feldern 
     gefordert, welche keine Singletts der entsprechenden Eichgruppe sind.
 
-    Die sechs Quarks des SM transformieren unter der fundamentalen Darstellung 
-    der $SU(3)$, alle weiteren Felder als Singletts. Die Wechselwirkung der 
-    Quarks mit den Eichbosonen 
-  
+    Quarkfelder unterscheiden sich unter anderem in ihren Quantenzahlen 
+    Flavour und Colour. Im SM ist die Anzahl verschiedener 
+    Flavour $N_\text{Flavour}=6$ und die Colour Anzahl $N_\text{Colour} = 3$. 
+    Sie transformieren als Colour-Tripletts unter der fundamentalen Darstellung 
+    der $SU(3)$. Als Yang-Mills Theorie werden außerdem $\Nc^2-1 = 8$ 
+    Eichfelder, die Gluonen, sowie Wechselwirkungen gefordert \cite{Zinn}. 
+    Diese Wechselwirkung wird  als \textit{Quantenchromodynamik (QCD)} oder 
+    \textit{starke Wechselwirkung} bezeichnet.
+    
+    
   \subsection{Effektive Quantenwirkung und Gell-Mann-Low Gleichung}
-    Für jede Sorte 
-    $\phi^1, \ldots ,\phi^n$
-    von Feldern kann ein Strom $J=\{J^{1},\ldots ,J^{n}\}$ 
-    eingeführt und das \textit{erzeugende Funktional $Z$} als 
+    
+    
+    
+    Zu einem Feld $\phi$ wird ein 
     \begin{equation}
     Z[J] := \int \mathcal{D}\phi \,\,\, \e^{\i S[\phi]+\i \sum\limits_{r=1}^n
     \int \d^d x \phi^r(x)J^r(x)} 
@@ -48,9 +57,9 @@
     definiert werden \cite{Weinberg:QFT_2}. Das erzeugende Funktional bietet 
     die elegante Möglichkeit Gleichung 
     \eqref{renormierung:Korrelator_definition} mit Hilfe von 
-    Funktionalableitungen zu schreiben, 
+    Funktionalableitungen zu schreiben \cite{Schwartz}, 
     \begin{equation}
     \left[ \frac{\partial}{\partial J^r(y)} \ldots Z[J] \right]_{J=0} =
-    \i^k \Big\langle \textbf{T} \,\,\, \phi^r \ldots \Big\rangle
+    (-\i)^k \Big\langle \textbf{T} \,\,\, \phi^r \ldots \Big\rangle \quad .
     \end{equation}
 

@@ -3,16 +3,19 @@
   In einer \textit{Quantenfeldtheorie (QFT)} werden physikalische Entitäten 
   als Anregungszustände von Quantenfeldern 
   verstanden. Ein Schlüssel zu den experimentell zugänglichen 
-  Wirkungsquerschnitten ist die Berechnung von Korrelatorfunktionen 
+  Wirkungsquerschnitten ist die Berechnung von \textit{Korrelatorfunktionen} 
+  oder \textit{$n$-Punkt Funktionen}
   \begin{equation}
-   \Big\langle \textbf{T} \,\,\, \phi_1(x_1) \ldots \phi_N(x_N) \Big\rangle
+   \Big\langle \textbf{T} \,\,\, \phi^{r_1}(x_1) \ldots \phi^{r_N}(x_N) 
+   \Big\rangle
    =\frac{\int \mathcal{D}\phi \,\,\, \phi_1(x_1)\ldots \phi_N(x_N) 
-   \e^{\i S[\phi]}}{\int \mathcal{D}\phi \,\,\, \phi_1(x_1)\ldots \phi_N(x_N)}
+   \e^{\i S[\phi]}}{\int \mathcal{D}\phi \,\,\, \phi^{r_1}(x_1) \ldots 
+   \phi^{r_N}(x_N) }
    \label{renormierung:Korrelator_definition}
   \end{equation}
   im Pfadintegralformalismus von Feynman \cite{Schwartz}. Die Information über 
   die möglichen 
-  physikalischen Prozesse der Quantenfelder $\phi=\{\phi_1,\ldots, \phi_N\}$ 
+  physikalischen Prozesse der Quantenfelder $\phi$ 
   ist dabei in dem Wirkungsfunktional $S$ bzw. der Lagrangedichte $\mathcal{L}$ 
   enhalten, welche in einer $d$-Dimensionalen Raumzeit über 
   \begin{equation}
@@ -21,40 +24,59 @@
   \end{equation}
   verknüpft sind \cite{Schwartz}. Die Felder $\phi$ können dabei qualitativ 
   unterschiedlich sein, d.h. in verschiedene Räume abbilden und somit 
-  verschiedene Teilcheneigenschaften darstellen.
+  verschiedene Teilcheneigenschaften darstellen. Dies soll durch den Index 
+  $r$ verdeutlicht werden.
 
   \subsection{Das Standardmodell der Teilchenphysik}
     Das SM ist eine QFT nach dem Prinzip, invariant unter bestimmten 
     Symmetrietransformationen zu sein. Die Dynamik wird dabei durch die 
-    Eichgruppe $SU(3)\times SU(2)\times U(1)$ in der Lagrangedichte 
+    Eichgruppe $SU(3)\times SU(2)\times U(1)$ in \\der Lagrangedichte 
     repräsentiert sowie der Angabe, 
-    unter welcher Darstellung der Symmetriegruppe die Felder transformieren. 
+    unter welcher Darstellung der Eichgruppe die Felder transformieren. 
     Neben den Feldern der Quarks, Leptonen und des Higgs wird so die 
     Existenz von Eichfeldern und Wechselwirkungen mit den übrigen Feldern 
     gefordert, welche keine Singletts der entsprechenden Eichgruppe sind.
 
-    Die sechs Quarks des SM transformieren unter der fundamentalen Darstellung 
-    der $SU(3)$, alle weiteren Felder als Singletts. Die Wechselwirkung der 
-    Quarks mit den Eichbosonen der $SU(3)$, den Gluonen, wird als 
-    \textit{Quantenchromodynamik (QCD)} oder \textit{starke Wechselwirkung} 
-    bezeichnet.
-  
+    Quarkfelder unterscheiden sich unter anderem in ihren Quantenzahlen 
+    Flavour und Colour. Im SM ist die Anzahl verschiedener 
+    Flavour $N_\text{Flavour}=6$ und die Colour Anzahl $N_\text{Colour} = 3$. 
+    Sie transformieren als Colour-Tripletts unter der fundamentalen Darstellung 
+    der $SU(3)$. Als Yang-Mills Theorie werden außerdem $\Nc^2-1 = 8$ 
+    Eichfelder, die Gluonen, sowie Wechselwirkungen gefordert \cite{Zinn}. 
+    Diese Wechselwirkung wird  als \textit{Quantenchromodynamik (QCD)} oder 
+    \textit{starke Wechselwirkung} bezeichnet.
+    
+    
   \subsection{Effektive Quantenwirkung und Gell-Mann-Low Gleichung}
-    Für jede Sorte 
-    $\phi^1, \ldots ,\phi^n$
-    von Feldern kann ein Strom $J=\{J^{1},\ldots ,J^{n}\}$ 
-    eingeführt und das \textit{erzeugende Funktional $Z$} als 
+    Wechelwirkungen von Quantenfeldern ( o.E. $\phi_1$, $\phi_2$ und $\phi_3$) 
+    werden in der 
+    Lagrangedichte über Terme der Form $\mathcal{L}_\text{int} 
+    \propto g \phi_1 \phi_2 \phi_3$ erzeugt. Dabei stellt $g$ die 
+    \textit{Kopplungskonstante} dieser Wechselwirkung dar. Eine elegante 
+    Möglichkeit $n$-Punkt Funktionen zu berechnen bietet das \textit{erzeugende 
+    Funktional}
     \begin{equation}
-    Z[J] := \int \mathcal{D}\phi \,\,\, \e^{\i S[\phi]+\i \sum\limits_{r=1}^n
-    \int \d^d x \phi^r(x)J^r(x)} 
-    \label{renormierung:erzeugendes_Funktional_definition}
+    Z[J] := \int \mathcal{D}\phi \,\,\, \e^{\i S[\phi]+ \i S_\text{int}[\phi] +
+    \i \sum\limits_{r=1}^n
+    \int \d^d x \, \phi^r(x)J^r(x)} \quad ,
+    \label{renormierung:erzeugendes_Funktional_definition} 
     \end{equation}
-    definiert werden \cite{Weinberg:QFT_2}. Das erzeugende Funktional bietet 
-    die elegante Möglichkeit Gleichung 
-    \eqref{renormierung:Korrelator_definition} mit Hilfe von 
-    Funktionalableitungen zu schreiben, 
+    mit dem Gleichung \eqref{renormierung:Korrelator_definition} als 
+    Funktionalableitung
     \begin{equation}
-    \left[ \frac{\partial}{\partial J^r(y)} \ldots Z[J] \right]_{J=0} =
-    \i^k \Big\langle \textbf{T} \,\,\, \phi^r \ldots \Big\rangle
+    \left[ \frac{\partial}{\partial J^{r_1}(x_1)} \ldots 
+    \frac{\partial}{\partial J^{r_N}(x_N)}  Z[J] \right]_{J=0} =
+    (-\i)^k \Big\langle \textbf{T} \,\,\, \phi^{r_1} (x_1) \ldots 
+    \phi^{r_N} (x_N)\Big\rangle 
     \end{equation}
+    geschrieben werden kann \cite{Schwartz}. Dazu wird für jede Art von 
+    Feld $\phi^r$ ein erzeugender Strom $J^r$ eingeführt. In der praktischen 
+    Berechnung wird nun die Beziehung
+    \begin{equation}
+     Z[J] = \e^{S_\text{int}\left[\frac{\partial}{\partial J}\right]} 
+      \int \mathcal{D}\phi \,\,\, \e^{\i S[\phi]+
+    \i \sum\limits_{r=1}^n
+    \int \d^d x \, \phi^r(x)J^r(x)} 
+    \end{equation}
+
 
