@@ -8,9 +8,8 @@
   \begin{equation}
    \Big\langle \textbf{T} \,\,\, \phi^{r_1}(x_1) \ldots \phi^{r_N}(x_N) 
    \Big\rangle
-   =\frac{\int \mathcal{D}\phi \,\,\, \phi_1(x_1)\ldots \phi_N(x_N) 
-   \e^{\i S[\phi]}}{\int \mathcal{D}\phi \,\,\, \phi^{r_1}(x_1) \ldots 
-   \phi^{r_N}(x_N) }
+   =\frac{\int \mathcal{D}\phi \,\,\, \phi^{r_1}(x_1) \ldots \phi^{r_N}(x_N) 
+   \e^{\i S[\phi]}}{\int \mathcal{D}\phi \,\,\, \e^{\i S[\phi]} }
    \label{renormierung:Korrelator_definition}
   \end{equation}
   im Pfadintegralformalismus von Feynman \cite{Schwartz}. Die Information über 
@@ -48,35 +47,76 @@
     
     
   \subsection{Effektive Quantenwirkung und Gell-Mann-Low Gleichung}
-    Wechelwirkungen von Quantenfeldern ( o.E. $\phi_1$, $\phi_2$ und $\phi_3$) 
-    werden in der 
-    Lagrangedichte über Terme der Form $\mathcal{L}_\text{int} 
-    \propto g \phi_1 \phi_2 \phi_3$ erzeugt. Dabei stellt $g$ die 
-    \textit{Kopplungskonstante} dieser Wechselwirkung dar. Eine elegante 
-    Möglichkeit $n$-Punkt Funktionen zu berechnen bietet das \textit{erzeugende 
-    Funktional}
+    Um das Hochenergieverhalten von Wechselwirkungen zu untersuchen, ist 
+    es sinnvoll die \textit{Quantenwirkung} $\Gamma$ einzuführen. Dazu werden 
+    nun die wichtigsten Punkte der Berechnung von Korrelationsfunktionen mit 
+    Hilfe von erzeugenden Funktionalen gezeigt\footnote{Für das Vorgehen beim 
+    reellen, skalaren Feld vgl. \cite{Zinn}, für die Erweiterung mit Fermionen 
+    vgl. \cite{Schwartz}.}.
+    
+    Der Einfachheit halber wird nun nur ein komplexes Fermionfeld $\psi$ und ein 
+    komplexes Skalarfeld $\phi$ betrachtet. Wegen der linearen Eigenschaften von 
+    \eqref{renormierung:Korrelator_definition} ist die Erweiterung auf mehrere 
+    Felder trivial. Lorentz- und Eichinvarianz der Lagrangedichte erfordern 
+    direkt die Einführung der Felder $\psibar$ und $\phistar$\footnote{Cite}. 
+    Das \textit{erzeugende Funktional} wird definiert als 
     \begin{equation}
-    Z[J] := \int \mathcal{D}\phi \,\,\, \e^{\i S[\phi]+ \i S_\text{int}[\phi] +
-    \i \sum\limits_{r=1}^n
-    \int \d^d x \, \phi^r(x)J^r(x)} \quad ,
+    Z[J] := \int \mathcal{D}\Psi \,\,\, 
+    \e^{\i S[\Psi]+ 
+    \i 
+    \int \d^d x \, \left(J \cdot \Psi \right)}
+    \quad ,
     \label{renormierung:erzeugendes_Funktional_definition} 
     \end{equation}
-    mit dem Gleichung \eqref{renormierung:Korrelator_definition} als 
-    Funktionalableitung
+    dabei wurden die Ströme $\eta$, $\etabar$, $\zeta$ und $\zetastar$ und die 
+    Schreibweise $J=(\eta,\etabar,\zeta,\zetastar)^\text{T}$ und 
+    $\Psi=(\psibar,\psi,\phi^*,\phi)^\text{T}$
+    eingeführt. Eine Reihenentwicklung kann durch
     \begin{equation}
-    \left[ \frac{\partial}{\partial J^{r_1}(x_1)} \ldots 
-    \frac{\partial}{\partial J^{r_N}(x_N)}  Z[J] \right]_{J=0} =
-    (-\i)^k \Big\langle \textbf{T} \,\,\, \phi^{r_1} (x_1) \ldots 
-    \phi^{r_N} (x_N)\Big\rangle 
+     Z[J] = \sum\limits_\alpha \frac{ \i^{|\alpha|}}{\alpha!}  
+     \int \d x_1 \ldots \d x_{|\alpha|} Z^{\alpha}(x_1,\ldots,x_{|\alpha|} )
+     J^\alpha (x) \label{renormierung:Reihenentwicklung}
     \end{equation}
-    geschrieben werden kann \cite{Schwartz}. Dazu wird für jede Art von 
-    Feld $\phi^r$ ein erzeugender Strom $J^r$ eingeführt. In der praktischen 
-    Berechnung wird nun die Beziehung
+    definiert werden, mit einem vierer 
+    Multiindex $\alpha=(\alpha_1,\alpha_2
+    ,\alpha_3,\alpha_4)$ und der Schreibweise 
     \begin{equation}
-     Z[J] = \e^{S_\text{int}\left[\frac{\partial}{\partial J}\right]} 
-      \int \mathcal{D}\phi \,\,\, \e^{\i S[\phi]+
-    \i \sum\limits_{r=1}^n
-    \int \d^d x \, \phi^r(x)J^r(x)} 
+      J^\alpha=
+      \eta	(x_1)		\ldots \eta(x_{\alpha_1}) 	\,\,
+      \etabar(x_{\alpha_1 +1})	\ldots \etabar(x_{\alpha_1+\alpha_2})	\,\,
+      \zeta(x_{\alpha_1+\alpha_2 +1})	\ldots 
+      \zeta(x_{\alpha_1+\alpha_2+\alpha_3})	\,\,
+      \zetastar(x_{\alpha_1+\alpha_2+\alpha_3 +1})	\ldots 
+      \zetastar(x_{|\alpha|})   \quad .
+      \label{renormierung:Strom}
     \end{equation}
+    Die Funktionen $Z^\alpha$ können über die Funktionalableitung 
+    \begin{equation}
+     Z^\alpha (y_1,\ldots , y_{|\alpha|}) \overset{
+     \eqref{renormierung:Reihenentwicklung}}{=} \left[
+      \frac{\partial}{\i^{|\alpha|}\partial J^\alpha(y)}\right]_{J=0} Z[J] 
+     \overset{\eqref{renormierung:erzeugendes_Funktional_definition}}{=} 
+     \int \mathcal{D}\Psi \,\,\, \Psi^\alpha(y) e^{\i S[\Psi]} 
+     \overset{\eqref{renormierung:Korrelator_definition}}{=} 
+     \Big\langle \textbf{T} \Psi^\alpha(y) \Big\rangle     
+    \end{equation}
+    als $n$-Punkt Funktionen verstanden werden. Zur Vereinfachung wurde dabei 
+    $\Psi^\alpha$ analog zu \eqref{renormierung:Strom} definiert und 
+    $Z[0]=0$ gesetzt.
+    
+    Mit der Definition des Funktionals 
+    \begin{equation}
+     W[J] := \ln Z[J]
+    \end{equation}
+    und einer Reihenentwicklung wie in \eqref{renormierung:Reihenentwicklung} 
+    erhät man Funktionen $W^\alpha$, die die Cluster-Eigenschaft erfüllen
+    \cite{Zinn}. Sind $A$ und $B$ Ströme mit disjunkten Trägern\footnote{Dabei 
+    können $A$ und $B$ eine Zerlegung eines Stroms $J_i=A+B$ oder zwei 
+    verschiedene, z.B $A=\eta$, $B=\phi$ sein.} und $y_1\in\text{supp}A$, 
+    $y_2\in\text{supp}B$, dann müssen $W^\alpha(\ldots,y_1,\ldots,y_2,\ldots) 
+    \overset{||y_1-y_2||\to \infty}{\longrightarrow} 0 $. Aufgund dieser 
+    Eigenschaft ist $W[J]$ das erzeugende Funktional ver
+
+
 
 

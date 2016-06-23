@@ -25,5 +25,3 @@
 
 \newcommand{\psibar}{\overline{\psi}}
 \newcommand{\phistar}{\phi^*}
-\newcommand{\etabar}{\overline{\eta}}
-\newcommand{\zetastar}{\zeta^*}
