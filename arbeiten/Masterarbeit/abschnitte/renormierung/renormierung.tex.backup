@@ -36,15 +36,21 @@
     Existenz von Eichfeldern und Wechselwirkungen mit den übrigen Feldern 
     gefordert, welche keine Singletts der entsprechenden Eichgruppe sind.
 
-    Quarkfelder unterscheiden sich unter anderem in ihren Quantenzahlen 
-    Flavour und Colour. Im SM ist die Anzahl verschiedener 
-    Flavour $N_\text{Flavour}=6$ und die Colour Anzahl $N_\text{Colour} = 3$. 
-    Sie transformieren als Colour-Tripletts unter der fundamentalen Darstellung 
-    der $SU(3)$. Als Yang-Mills Theorie werden außerdem $\Nc^2-1 = 8$ 
-    Eichfelder, die Gluonen, sowie Wechselwirkungen gefordert \cite{Zinn}. 
-    Diese Wechselwirkung wird  als \textit{Quantenchromodynamik (QCD)} oder 
-    \textit{starke Wechselwirkung} bezeichnet.
+    Als eine der fundamentalen Kräfte des SM beschreibt die 
+    \textit{Quantenchromodynamik (QCD)} die Wechselwirkungen 
+    zwischen Quarks, den Bausteinen der Hadronen, und den Gluonen, den 
+    Eichfeldern der QCD. Die mathematische Beschreibung erfolgt durch 
+    Darstellungen der $SU(3)$, sodass einem Quark mit Flavour-Quantenzahl 
+    $f$ eine Colour-Quantenzahl $a\in{1,2,3}$ zugeordnet wird, außerdem 
+    folgt die Existenz von acht masselosen Gluonen, die mit Quarks und 
+    untereinander wechselwirken \cite{Ellis_Webber}. Eine genauere 
+    mathematische Beschreibung folgt in Abschnitt \ref{QCDxdQCD}. 
+    Charakteristisch für die QCD des SM ist die in Abbildung 
+    \ref{renormierung:fig:running_couplings} dargestellte Energieabhängigkeit 
+    der QCD Kopplungskonstante 
     
+    Die Symmetriegruppe $SU(2)\times U(1)$ beschreibt die Elektroschwache 
+    Wechselwirkung. Sie wird 
     
   \subsection{Effektive Quantenwirkung und Gell-Mann-Low Gleichung}
     Um das Hochenergieverhalten von Wechselwirkungen zu untersuchen, ist 
@@ -104,17 +110,15 @@
     $\Psi^\alpha$ analog zu \eqref{renormierung:Strom} definiert und 
     $Z[0]=0$ gesetzt.
     
-    Mit der Definition des Funktionals 
-    \begin{equation}
-     W[J] := \ln Z[J]
-    \end{equation}
+    Mit der Definition des Funktionals $W[J] := \ln Z[J]$
     und einer Reihenentwicklung wie in \eqref{renormierung:Reihenentwicklung} 
     erhät man Funktionen $W^\alpha$, die die Cluster-Eigenschaft erfüllen
     \cite{Zinn}. Sind $A$ und $B$ Ströme mit disjunkten Trägern\footnote{Dabei 
     können $A$ und $B$ eine Zerlegung eines Stroms $J_i=A+B$ oder zwei 
     verschiedene, z.B $A=\eta$, $B=\phi$ sein.} und $y_1\in\text{supp}A$, 
     $y_2\in\text{supp}B$, dann müssen $W^\alpha(\ldots,y_1,\ldots,y_2,\ldots) 
-    \overset{||y_1-y_2||\to \infty}{\longrightarrow} 0 $
+    \overset{||y_1-y_2||\to \infty}{\longrightarrow} 0 $. Aufgund dieser 
+    Eigenschaft ist $W[J]$ das erzeugende Funktional ver
 
 
 

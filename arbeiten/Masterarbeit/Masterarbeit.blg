@@ -7,22 +7,22 @@ You're missing a field part---line 123 of file bib.bib
  :       slaccitation   = 
  :                        %%CITATION = HUTP-76-160;%%
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 213 of file bib.bib
+I was expecting a `,' or a `}'---line 229 of file bib.bib
  :   
  :   chapter     = {16},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 224 of file bib.bib
+I was expecting a `,' or a `}'---line 240 of file bib.bib
  :   
  :   chapter     = {15},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 235 of file bib.bib
+I was expecting a `,' or a `}'---line 251 of file bib.bib
  :   
  :   chapter     = {1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 260 of file bib.bib
+I was expecting a `,' or a `}'---line 276 of file bib.bib
  :   
  :   publisher = "Belknap Press of Harvard University Press"
 (Error may have been on previous line)
@@ -36,45 +36,45 @@ Warning--empty year in PDG:QCD
 Warning--empty journal in Ade:2015xua
 Warning--empty journal in Weinberg:1976
 Warning--empty journal in Bronstein4
-You've used 15 entries,
+You've used 17 entries,
             2118 wiz_defined-function locations,
-            582 strings with 5546 characters,
-and the built_in function-call counts, 3641 in all, are:
-= -- 346
-> -- 141
-< -- 0
-+ -- 57
-- -- 42
-* -- 208
-:= -- 638
-add.period$ -- 45
-call.type$ -- 15
-change.case$ -- 58
+            592 strings with 5738 characters,
+and the built_in function-call counts, 4169 in all, are:
+= -- 394
+> -- 166
+< -- 1
++ -- 68
+- -- 50
+* -- 236
+:= -- 731
+add.period$ -- 53
+call.type$ -- 17
+change.case$ -- 66
 chr.to.int$ -- 0
-cite$ -- 24
-duplicate$ -- 164
-empty$ -- 315
-format.name$ -- 42
-if$ -- 753
+cite$ -- 26
+duplicate$ -- 188
+empty$ -- 359
+format.name$ -- 50
+if$ -- 863
 int.to.chr$ -- 0
-int.to.str$ -- 15
-missing$ -- 20
-newline$ -- 76
-num.names$ -- 26
-pop$ -- 83
+int.to.str$ -- 17
+missing$ -- 24
+newline$ -- 88
+num.names$ -- 30
+pop$ -- 98
 preamble$ -- 1
-purify$ -- 48
+purify$ -- 56
 quote$ -- 0
-skip$ -- 108
+skip$ -- 121
 stack$ -- 0
-substring$ -- 148
-swap$ -- 12
-text.length$ -- 0
+substring$ -- 159
+swap$ -- 15
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 50
+type$ -- 54
 warning$ -- 9
-while$ -- 31
-width$ -- 17
-write$ -- 149
+while$ -- 35
+width$ -- 19
+write$ -- 174
 (There were 5 error messages)

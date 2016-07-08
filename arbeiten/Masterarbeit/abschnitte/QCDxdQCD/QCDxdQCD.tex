@@ -10,20 +10,68 @@
   
   \subsection{Die Standardmodell QCD}
     Im Standardmodell wird die QCD durch die Symmetriegruppe $SU(\Nc)$ 
-    dargestellt
-    
-    
-    kann als 
+    dargestellt, unter der sich die Quarks in der 
+    \textit{fundamentalen Darstellung} und die Gluonen in der 
+    \textit{adjungierten Darstellung} transformieren. Im SM gibt es 
+    $N_\text{Flavour}=6$
+    verschiedene Quarkflavour und $N_\text{Colour}=\Nc=3$ Colours, da die QCD 
+    Flavour-Blind ist, d.h. da die Wechselwirkung unabhängig von der 
+    Flavour-Quantenzahl ist, ist die 
+    Erweiterung auf $\Nc$ Colour und $\nfc$ Flavour jedoch trivial. Die 
+    Lagrangedichte kann als 
     \begin{equation}
-     \mathcal{L}_\text{QCD} = \bar{q}_a \left( 
+     \mathcal{L}_\text{QCD} = \sum\limits_f \bar{q}_a^f \left( 
      \i \gamma^\mu \partial_\mu \delta_{ab} 
      -g \gamma^\mu t^C_{ab} \mathcal{A}_\mu^C
-     -m \delta_{ab}
-     \right)q_b -\frac{1}{4} F_{\mu \nu}^A F^{A \,\,\, \mu\nu}
+     -m_f \delta_{ab}
+     \right)q_b^f -\frac{1}{4} F_{\mu \nu}^A F^{A \,\,\, \mu\nu}
     \end{equation}
-    geschrieben werden \cite{PDG:QCD}. 
+    geschrieben werden \cite{PDG:QCD}. Dabei stellt $q_b^f$ ein Quarkfeld mit 
+    Colour $b\in \{1,2,\ldots,\Nc\}$ und Flavour $f\in\{1,2,\ldots , 
+    N_\text{Flavour}\}$ 
+    und mit der Masse 
+    $m_f$ dar. Man nennt $q=(q_1,q_2,\ldots,q_{\Nc})^\text{T}$ ein 
+    Colour-Multiplett\footnote{Der Flavour-Index $f$ wird ab jetzt 
+    weggelassen.} unter der fundamentalen Darstellung, wenn es unter 
+    Anwendung der $SU(\Nc)$ gemäß
+    \begin{equation}
+      q(x) \longrightarrow \underbrace{U(x)}_{\in \mathbb{C}^{\Nc\times\Nc}}
+      q(x) \quad ,\quad \bar{q}(x) \longrightarrow\bar{q}(x) U(x)^\dagger
+    \end{equation}
+    transformiert. Die Gluonfelder $\mathcal{A}_\mu^C$ mit $C\in\{1,2,\ldots,
+    \Nc^2-1\}$ und Erzeugern $t^C\in \mathbb{C}^{\Nc\times\Nc}$ 
+    transformieren dagegen in der 
+    adjungierten Darstellung \cite{Weinberg:QFT_2}
+    \begin{equation}
+      t^C_{ab}\mathcal{A}_\mu^C(x) \longrightarrow
+      U(x) t^C_{ab}\mathcal{A}_\mu^C(x) U(x)^\dagger - \i (\partial_\mu U(x) )
+      U(x)^\dagger \quad .
+    \end{equation}
+    Die Dynamik und Propagation der Gluonen wird dabei durch den 
+    Feldstärketensor vermittelt,
+    \begin{equation}
+      F^A_{\mu\nu} = \partial_\mu \mathcal{A}_\nu^A-\partial_\nu 
+      \mathcal{A}_\mu^A - g f_{ABC} \mathcal{A}_\mu^B \mathcal{A}_\nu^C 
+      \quad , \quad [t^A,t^B]=\i f_{ABC} t^C  \quad .
+    \end{equation}
+    Versucht man die QCD im Feynmanformalismus zu quantisieren, werden außerdem 
+    Eichfixierung und Faddeev-Popov-de-Witt Ghosts benötigt  
+    \cite{Weinberg:QFT_2}, diese können jedoch nach der Modellbildung 
+    hinzugefügt werden, sodass sie hier nicht auftauchen. 
     
-  
+    
+  \subsection{Dark QCD}
+    In \cite{Scale_of_dark_QCD} wird die dQCD eingeführt, um die DM Massendichte 
+    $\Omega_\text{DM}$ im Universum zu erklären. Dazu wird das 
+    Niederenergieverhalten der neu eingeführten Kopplungskonstanten 
+    $g_\text{dQCD}$ auf die Confinement Scale $\Lambda_\text{dQCD}$ untersucht, 
+    die analog zur QCD Confinement Scale $\Lambda_\text{QCD}$ die Größenordnung 
+    der Baryonmasse bestimmt. Die Theorie ist aber, ebenfalls analog zur QCD, 
+    auch bis zu beliebig hohen Energieskalen anwendbar.
+    
+    
+
+    
   
   
   
