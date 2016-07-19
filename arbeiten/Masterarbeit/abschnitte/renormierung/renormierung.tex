@@ -21,28 +21,42 @@
     S[\phi] = \int \d^d x \,\,\, \mathcal{L}(\phi,\partial \phi, t) 
     \label{renormierung:Wirkung_definition}
   \end{equation}
-  verknüpft sind \cite{Schwartz}. Die Felder $\phi$ können dabei qualitativ 
-  unterschiedlich sein, d.h. in verschiedene Räume abbilden und somit 
-  verschiedene Teilcheneigenschaften darstellen. Dies soll durch den Index 
-  $r$ verdeutlicht werden.
+  verknüpft sind \cite{Schwartz}. Die möglicherweise verschiedenartigen Felder  
+  $\phi^{r_i}$ können dabei in verschiedene Räume abbilden und somit 
+  Teilcheneigenschaften, insbesondere Transformationseigenschaften unter 
+  Eichsymmetrien, darstellen. 
 
   \subsection{Das Standardmodell der Teilchenphysik}
     Das SM ist eine QFT nach dem Prinzip, invariant unter bestimmten 
     Symmetrietransformationen zu sein. Die Dynamik wird dabei durch die 
     Eichgruppe $SU(3)\times SU(2)\times U(1)$ in \\der Lagrangedichte 
-    repräsentiert sowie der Angabe, 
+    repräsentiert, sowie der Angabe, 
     unter welcher Darstellung der Eichgruppe die Felder transformieren. 
-    Neben den Feldern der Quarks, Leptonen und des Higgs wird so die 
-    Existenz von Eichfeldern und Wechselwirkungen mit den übrigen Feldern 
+    Neben den postulierten Feldern der Quarks, Leptonen und des Higgs wird so 
+    die Existenz von Eichfeldern und Wechselwirkungen mit den übrigen Feldern 
     gefordert, welche keine Singletts der entsprechenden Eichgruppe sind.
 
+    Im SM kennt man bisher sechs Quark-Flavour, \textit{up (u), down (d), 
+    charm (c), strange (s), top (t), }und \textit{bottom (b)}, die als 
+    Dirac-Fermionen in der Lagrangedichte auftauchen. Ebenfalls als 
+    Dirac-Fermionen werden die geladenen Leptonen, das \textit{Elektron 
+    ($\text{e}^-$)}, das \textit{Myon} ($\mu^-$) und das \textit{Tauon} 
+    ($\tau^-$) 
+    eingeführt. Die drei \textit{Neutrinos} $\nu_\text{e}$, $\nu_\mu$ und 
+    $\nu_\tau$ 
+    kommen dagegen ausschließlich als linkshändige Weyl-Spinoren vor, sodass 
+    sie im SM masselos sein müssen. Das einzige skalare Feld des SM ist 
+    das \textit{Higgs-Feld ($\phi$)}, welches im Higgsmechanismus für die 
+    Brechung der Symmetriegruppe verantwortlich ist.
+    
     Als eine der fundamentalen Kräfte des SM beschreibt die 
     \textit{Quantenchromodynamik (QCD)} die Wechselwirkungen 
     zwischen Quarks, den Bausteinen der Hadronen, und den Gluonen, den 
     Eichfeldern der QCD. Die mathematische Beschreibung erfolgt durch 
-    Darstellungen der $SU(3)$, sodass einem Quark mit Flavour-Quantenzahl 
-    $f$ eine Colour-Quantenzahl $a\in{1,2,3}$ zugeordnet wird, außerdem 
-    folgt die Existenz von acht masselosen Gluonen, die mit Quarks und 
+    Darstellungen der $SU(3)$, bei der einem Quark $\psi^f$ mit Flavour $f$ ein 
+    Colour-Triplett $\psi = \left(\psi^f_1, \psi_2^f, \psi_3^f\right)^\text{T}$ 
+    zugeordnet wird. 
+    Außerdem folgt die Existenz von acht masselosen Gluonen, die mit Quarks und 
     untereinander wechselwirken \cite{Ellis_Webber}. Eine genauere 
     mathematische Beschreibung folgt in Abschnitt \ref{QCDxdQCD}. 
     Charakteristisch für die QCD des SM ist die in Abbildung 
@@ -53,7 +67,38 @@
     im Universum, während es bei hohen Energien gerade zum AF kommt.
     
     Die Symmetriegruppe $SU(2)\times U(1)$ beschreibt die Elektroschwache 
-    Wechselwirkung. Sie wird 
+    Wechselwirkung. In ihr werden die Wechselwirkungen zwischen  
+    linkshändigen Isospin-Dupletts 
+    \begin{equation}
+      \input{abschnitte/renormierung/linkshaendig.tex}
+    \end{equation}
+    über insgesamt vier Eichbosonen beschrieben. Durch den Higgsmechanismus 
+    wird die Symmetriegruppe zu einer $U(1)$ gebrochen, welche als 
+    Elektromagnetismus identifiziert werden kann. Als Eichbosonen der 
+    gebrochenen Symmetrie entstehen die massiven Bosonen $W^+$, $W^-$ und $Z$ 
+    sowie das masselose Photon.
+    
+    Im Higg-Sektor gibt es neben einem Potenzial $V[\phi]$ sogenannte 
+    Yukawa-Kopplungen der 
+    Form $Y_{ij} Q_L^i \phi q_R^j $
+    zwischen einem Isospin-Duplett $Q_L^i$, dem Higgsfeld $\phi$ und einem 
+    rechtshändigen Fermion $q_R^j$, mit der Kopplungsstärke $Y_{ij}$. Im 
+    Higgsmechanismus wird das 
+    Potenzial $V[\phi]$ minimiert und die $SU(2)\times U(1)$ Symmetrie 
+    unterhalb einer charakteristischen Energieskala gebrochen, was 
+    die Massenerzeugung der Teilchen und das Flavour-Mixing der Quarks zur 
+    Folge hat. \cite{PDG:Higgs}
+    
+    Da in dieser Arbeit wird eine Standardmodellerweiterung im QCD-Sektor 
+    untersucht werden soll, werden der Elektroschwache Sektor sowie der 
+    Higgs-Sektor nicht weiter Betrachtet. Die einzige Außnahme ist Abschnitt 
+    \ref{beta_im_SM}, in dem die $\beta$-Funktionen des Standardmodells 
+    vorgestellt werden.
+    
+    
+    
+
+    
     
   \subsection{Effektive Quantenwirkung und Gell-Mann-Low Gleichung}
     Um das Hochenergieverhalten von Wechselwirkungen zu untersuchen, ist 

@@ -1,20 +1,20 @@
-\contentsline {section}{\numberline {1}Einleitung}{2}
-\contentsline {section}{\numberline {2}Quantenfeldtheorie und Standardmodell}{3}
-\contentsline {subsection}{\numberline {2.1}Das Standardmodell der Teilchenphysik}{3}
-\contentsline {subsection}{\numberline {2.2}Effektive Quantenwirkung und Gell-Mann-Low Gleichung}{4}
-\contentsline {section}{\numberline {3}QCD $\times $ dark QCD}{6}
-\contentsline {subsection}{\numberline {3.1}Die Standardmodell QCD}{6}
-\contentsline {subsection}{\numberline {3.2}Dark QCD}{7}
-\contentsline {section}{\numberline {4}Untersuchung einer $\beta $-Funktion}{8}
-\contentsline {subsection}{\numberline {4.1}Vereinfachung des mathematischen Problems}{9}
-\contentsline {subsection}{\numberline {4.2}Verhalten in einer Umgebung eines Fixpunktes}{10}
-\contentsline {subsection}{\numberline {4.3}Sonderfall: nicht hyperbolische Fixpunkte}{12}
-\contentsline {subsection}{\numberline {4.4}Experimentelle Daten und kritische Hyperfl\IeC {\"a}che}{13}
-\contentsline {subsection}{\numberline {4.5}Laufende Kopplungen im Standardmodell}{15}
-\contentsline {subsubsection}{\numberline {4.5.1}QED}{15}
-\contentsline {subsubsection}{\numberline {4.5.2}QCD}{15}
-\contentsline {section}{\numberline {5}$\beta $-Funktion im $\math@bb {R}^2$}{16}
-\contentsline {subsection}{\numberline {5.1}Stabilit\IeC {\"a}tsbedingungen}{16}
-\contentsline {subsection}{\numberline {5.2}Fixpunktextrapolation}{16}
-\contentsline {section}{\numberline {6}UV-Fixpunkte der $SU_\text {QCD}\times SU_\text {dQCD}$}{18}
-\contentsline {section}{\nonumberline Literatur}{20}
+\contentsline {section}{\numberline {1}Einleitung}{2}{section.1}
+\contentsline {section}{\numberline {2}Quantenfeldtheorie und Standardmodell}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}Das Standardmodell der Teilchenphysik}{3}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Effektive Quantenwirkung und Gell-Mann-Low Gleichung}{4}{subsection.2.2}
+\contentsline {section}{\numberline {3}QCD $\times $ dark QCD}{6}{section.3}
+\contentsline {subsection}{\numberline {3.1}Die Standardmodell QCD}{6}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Dark QCD}{7}{subsection.3.2}
+\contentsline {section}{\numberline {4}Untersuchung einer $\beta $-Funktion}{8}{section.4}
+\contentsline {subsection}{\numberline {4.1}Vereinfachung des mathematischen Problems}{9}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Verhalten in einer Umgebung eines Fixpunktes}{10}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Sonderfall: nicht hyperbolische Fixpunkte}{12}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Experimentelle Daten und kritische Hyperfl\IeC {\"a}che}{13}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Laufende Kopplungen im Standardmodell}{15}{subsection.4.5}
+\contentsline {subsubsection}{\numberline {4.5.1}QED}{15}{subsubsection.4.5.1}
+\contentsline {subsubsection}{\numberline {4.5.2}QCD}{15}{subsubsection.4.5.2}
+\contentsline {section}{\numberline {5}$\beta $-Funktion im $\math@bb {R}^2$}{16}{section.5}
+\contentsline {subsection}{\numberline {5.1}Stabilit\IeC {\"a}tsbedingungen}{16}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Fixpunktextrapolation}{16}{subsection.5.2}
+\contentsline {section}{\numberline {6}UV-Fixpunkte der $SU_\text {QCD}\times SU_\text {dQCD}$}{18}{section.6}
+\contentsline {section}{\nonumberline Literatur}{20}{section*.3}

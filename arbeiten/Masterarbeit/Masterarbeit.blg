@@ -7,26 +7,27 @@ You're missing a field part---line 123 of file bib.bib
  :       slaccitation   = 
  :                        %%CITATION = HUTP-76-160;%%
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 229 of file bib.bib
+I was expecting a `,' or a `}'---line 237 of file bib.bib
  :   
  :   chapter     = {16},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 240 of file bib.bib
+I was expecting a `,' or a `}'---line 248 of file bib.bib
  :   
  :   chapter     = {15},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 251 of file bib.bib
+I was expecting a `,' or a `}'---line 259 of file bib.bib
  :   
  :   chapter     = {1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 276 of file bib.bib
+I was expecting a `,' or a `}'---line 284 of file bib.bib
  :   
  :   publisher = "Belknap Press of Harvard University Press"
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "PDG:Higgs"
 Warning--to sort, need author or key in PDG:DM
 Warning--to sort, need author or key in PDG:QCD
 Warning--empty author in PDG:DM
@@ -38,7 +39,7 @@ Warning--empty journal in Weinberg:1976
 Warning--empty journal in Bronstein4
 You've used 17 entries,
             2118 wiz_defined-function locations,
-            592 strings with 5738 characters,
+            594 strings with 5756 characters,
 and the built_in function-call counts, 4169 in all, are:
 = -- 394
 > -- 166
