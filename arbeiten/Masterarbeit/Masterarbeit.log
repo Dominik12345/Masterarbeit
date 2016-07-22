@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.9)  19 JUL 2016 17:03
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.9)  22 JUL 2016 15:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1181,9 +1181,9 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 5.51999pt on input line 3.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <8.3> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 19.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <6> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 19.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 21.
 )
 \tf@toc=\write4
 \openout4 = `Masterarbeit.toc'.
@@ -1268,13 +1268,10 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 2.
 
-
-LaTeX Warning: Reference `Laufende_Kopplungen_im_Standardmodell' on page 6 unde
-fined on input line 6.
-
 [6
 
-]) (./abschnitte/beta_allgemein/beta_allgemein.tex [7]
+]) (./abschnitte/n-schleifen/n-schleifen.tex)
+(./abschnitte/beta_allgemein/beta_allgemein.tex [7]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 2.
@@ -1289,12 +1286,21 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 LaTeX Warning: Reference `eq:running_coupling' on page 8 undefined on input lin
-e 6.
+e 7.
 
 [8
 
-] [9] [10] [11] [12] [13]) (./abschnitte/beta_im_SM/beta_im_SM.tex [14])
-(./abschnitte/beta_im_R2/beta_im_R2.tex [15
+] [9] [10]
+LaTeX Font Info:    Try loading font information for U+euf on input line 189.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueuf.fd
+File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-euf.cfg
+File: mt-euf.cfg 2006/07/03 v1.1 microtype config. file: AMS Euler Fraktur (RS)
+
+) [11])
+(./abschnitte/beta_im_SM/beta_im_SM.tex [12])
+(./abschnitte/beta_im_R2/beta_im_R2.tex [13
 
 ]
 
@@ -1321,9 +1327,14 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 2.
 
-[16
 
-]) (./abschnitte/beta_QCDxdQCD/beta_QCDxdQCD.tex [17]
+LaTeX Warning: Reference `beta_allgemein:fig:fluss_beispiel' on page 14 undefin
+ed on input line 9.
+
+(./abschnitte/beta_im_R2/tab/stabilitaet_hyperbolisch.tex) [14
+
+] [15])
+(./abschnitte/beta_QCDxdQCD/beta_QCDxdQCD.tex [16]
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <10> not available
 (Font)              Font shape `T1/lmss/bx/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <8> not available
@@ -1349,58 +1360,59 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 2.
 
-) (./abschnitte/Appendix/Zeichenerklaerung.tex [18
+) (./abschnitte/Appendix/Zeichenerklaerung.tex [17
 
 ]
 LaTeX Font Info:    Try loading font information for TS1+qpl on input line 5.
 
 (/usr/share/texmf/tex/latex/tex-gyre/ts1qpl.fd
 File: ts1qpl.fd 2009/09/25 v1.2 font definition file for TS1/qpl
-)) [19
+)) [18
 
 ] (./Masterarbeit.bbl
-[20
+[19
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 48.
- [21]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 48.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 49.
+ [20]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 49.
  (./Masterarbeit.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 48.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 48.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 49.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 49.
 Package rerunfilecheck Info: File `Masterarbeit.out' has not changed.
-(rerunfilecheck)             Checksum: CB8BBBE7C89B1DC6C5B30A1CB4F36CD1;1440.
+(rerunfilecheck)             Checksum: 8AC7F4C2D333034F8CC291208F337B1E;1566.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 48.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 49.
  ) 
 Here is how much of TeX's memory you used:
- 11933 strings out of 493304
- 184213 string characters out of 6139871
- 330610 words of memory out of 5000000
- 14811 multiletter control sequences out of 15000+600000
- 140390 words of font info for 212 fonts, out of 8000000 for 9000
+ 11966 strings out of 493304
+ 185302 string characters out of 6139871
+ 329647 words of memory out of 5000000
+ 14853 multiletter control sequences out of 15000+600000
+ 141462 words of font info for 215 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 49i,13n,71p,311b,473s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,13n,71p,316b,473s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/share/texmf/fonts/
 enc/dvips/tex-gyre/q-ec.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base
 /8r.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texlive/texm
-f-dist/fonts/type1/public/fourier/fourier-bb.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/fourier/fourier-mcl.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/fourier/fourier-mex.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/fourier/fourier-ml.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/fourier/fourier-mlit.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-fourier/fourier-ms.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb></usr/share/texmf/fonts/ty
-pe1/public/tex-gyre/qplb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplr
-.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplri.pfb>
-Output written on Masterarbeit.pdf (21 pages, 232421 bytes).
+f-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/fourier/fourier-bb.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/fourier/fourier-mcl.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/fourier/fourier-mex.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/fourier/fourier-ml.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/fourier/fourier-mlit.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fou
+rier/fourier-ms.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb></usr/share/texmf/fonts/type1
+/public/tex-gyre/qplb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplr.pf
+b></usr/share/texmf/fonts/type1/public/tex-gyre/qplri.pfb>
+Output written on Masterarbeit.pdf (20 pages, 231650 bytes).
 PDF statistics:
- 446 PDF objects out of 1000 (max. 8388607)
- 398 compressed objects within 4 object streams
- 133 named destinations out of 1000 (max. 500000)
- 20641 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 432 PDF objects out of 1000 (max. 8388607)
+ 384 compressed objects within 4 object streams
+ 116 named destinations out of 1000 (max. 500000)
+ 20657 words of extra memory for PDF output out of 20736 (max. 10000000)
 

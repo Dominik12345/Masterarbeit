@@ -1,75 +1,87 @@
 \clearpage
 \section{Untersuchung einer $\beta$-Funktion}
 
-% \ref{eq:running_coupling} --- beta-funktion aus der gleichung zur quantenwirkung
+% \ref{eq:running_coupling} --- beta-funktion aus der gleichung zur 
+%  quantenwirkung
 
-  An Gleichung \ref{eq:running_coupling} erkennt man, dass die $\beta$-Funktion einer 
-  QFT eine Seite eines Systems $N$ gekoppelter, gewöhnlicher, nichtlinearer 
-  Differentialgleichungen der Form 
+  An Gleichung \ref{eq:running_coupling} erkennt man, dass die $\beta$-Funktion 
+  einer QFT eine Seite eines Systems $N$ gekoppelter, gewöhnlicher, 
+  nichtlinearer Differentialgleichungen der Form 
   \begin{equation}
-   \mu \frac{\d}{\d \mu} g_k (\mu)  = P_k^{M_L}(g_1,\ldots, g_N)=:\beta_k(g_1,\ldots,g_N) 
+   \mu \frac{\d}{\d \mu} g_k (\mu)  = P_k^{M_L}(g_1,\ldots, g_N)=:\beta_k
+   (g_1,\ldots,g_N) 
    , \quad k=1,\ldots,N \label{eq:beta_allgemein:dgl_system}
   \end{equation}
-  ist. Dabei stellt jedes $P_k$ ein Polynom maximal $M_L$-ten Grades in den Kopplungskonstanten 
-  dar. Der Grad des Polynoms hängt nur von der Ordnung der Störungstheorie ab, im Bild von 
-  Feynmangraphen entspricht dies der maximalen Anszahl $L$ von Quantenschleifen, die in 
-  der Berechnung berücksichtigt werden. Hier ist es naheliegend, das DGL-System als Problem 
-  im $\mathbb{R}^N$ zu betrachtet. Mit $g:=(g_1,\ldots,g_N)^\text{T}$ und 
-  $\beta:=(\beta_1,\ldots,\beta_N)^\text{T}$ lässt sich \eqref{eq:beta_allgemein:dgl_system} 
+  ist. Dabei stellt jedes $P_k$ ein Polynom maximal $M_L$-ten Grades in den 
+  Kopplungskonstanten dar. Der Grad des Polynoms hängt nur von der Ordnung der 
+  Störungstheorie ab, im Bild von Feynmangraphen entspricht dies der maximalen 
+  Anszahl $L$ von Quantenschleifen, die in der Berechnung berücksichtigt 
+  werden. Hier ist es naheliegend, das DGL-System als Problem im $\mathbb{R}^N$ 
+  zu betrachtet. Mit $g:=(g_1,\ldots,g_N)^\text{T}$ und 
+  $\beta:=(\beta_1,\ldots,\beta_N)^\text{T}$ lässt sich 
+  \eqref{eq:beta_allgemein:dgl_system} 
   auch als
   \begin{equation}
    \mu \frac{\d}{\d \mu} g(\mu)=\beta(g) \label{eq:beta_allgemein:dgl}
   \end{equation}
   schreiben. Dann heißt $\mathbb{R}^N$ auch der Phasenraum der $\beta$-Funktion.
   \begin{definition}
-  Eine \textit{Trajektorie im Phasenraum} ist eine Funktion $g:(0,\infty)\rightarrow \mathbb{R}^N$, 
-  die die Gleichung \eqref{eq:beta_allgemein:dgl} löst.\\
-  Ein \textit{Fixpunkt der $\beta$-Funktion} ist ein Punkt $g^*\in \mathbb{R}^N$, für den
-   $\beta(g^*)=0$ gilt.
+    Eine \textit{Trajektorie im Phasenraum} ist eine Funktion $g:(0,\infty)
+    \rightarrow \mathbb{R}^N$, die die Gleichung \eqref{eq:beta_allgemein:dgl} 
+    löst.\\Ein \textit{Fixpunkt der $\beta$-Funktion} ist ein Punkt 
+    $g^*\in \mathbb{R}^N$, für den
+    $\beta(g^*)=0$ gilt.
   \end{definition}
-  Damit eine QFT physikalisch sinnvoll ist, muss sie Vorhersagen für alle Energieskalen machen 
-  können. Um eine auch für hohe Energieskalen $\mu$ gültige Theorie zu beschreiben muss demnach 
-  der Wert $\lim\limits_{\mu\to\infty} g(\mu)$ existieren, ebenso muss der Wert $\lim\limits_{
-  \mu\to 0}g(\mu)$ existieren, wenn die Theorie auch für niedrige Energieskalen gültig sein soll. 
-  Damit die Grenzwerte existieren muss $\lim\nicefrac{\d }{\d \mu} g(\mu)
-  =0$ sein, es sind also gerade die Fixpunkte der $\beta$-Funktion, die als Grenzwerte 
-  in Frage kommen.
   
-  Im Laufe der Untersuchung der $\beta$-Funktion haben sich die folgenden Bezeichnungen 
-  entwickelt.
+  Eine physikalisch sinnvolle QFT sollte für beliebige Energieskalen, 
+  insbesondere für beliebig hohe Energieskalen,
+  Vorhersagen machen können, sofern sie nicht von Beginn an als effektive 
+  Theorie angesetzt ist. Für die Kopplungskonstanten heißt das, dass für 
+  $\mu \to \infty$ die Grenzwerte $g(\mu) \to g^*$ und 
+  $\beta(g(\mu)) \to 0$ erreicht werden müssen um ein stabiles 
+  Hochenergieverhalten zu gewährleisten. Demnach sind gerade die Fixpunkte der 
+  $\beta$-Funktion die möglichen Grenzwerte der Kopplungskonstanten.
+  
+  Im Laufe der Untersuchung der $\beta$-Funktion haben sich die folgenden 
+  Bezeichnungen entwickelt.
   \begin{description}
-   \item[Gaußscher Fixpunkt: ] Ist der Punkt $g^*=0$ ein Fixpunkt der $\beta$-Funktion, so 
-			      spricht man von einem Gaußschen Fixpunkt.
-   \item[Banks-Zaks Fixpunkt: ] Ein Fixpunkt $g^*\neq 0$, der physikalsich sinnvoll und 
-			      perturbativ ist, heißt Banks-Zaks oder 
-			      Caswell-Banks-Zaks Fixpunkt.
-   \item[Landau Pol: ] Besitzt die Lösung des Problems \eqref{eq:beta_allgemein:dgl} mit 
-		      Anfangswert $g(\mu_0)=g_0$ eine Polstelle $\mu_\text{Pol}<\infty$, sodass 
-		      $g(\mu)\overset{\mu\to\mu_\text{Pol}}{\longrightarrow}\infty$, dann spricht 
-		      man von einem Landau-Pol.
+   \item[Gaußscher Fixpunkt: ] Ist der Punkt $g^*=0$ ein Fixpunkt der 
+      $\beta$-Funktion, so 
+      spricht man von einem Gaußschen Fixpunkt.
+   \item[Banks-Zaks Fixpunkt: ] Ein Fixpunkt $g^*\neq 0$, der physikalsich 
+      sinnvoll und 
+      perturbativ ist, heißt Banks-Zaks oder Caswell-Banks-Zaks Fixpunkt.
+   \item[Landau Pol: ] Besitzt die Lösung des Problems 
+      \eqref{eq:beta_allgemein:dgl} mit 
+      Anfangswert $g(\mu_0)=g_0$ eine Polstelle $\mu_\text{Pol}<\infty$, sodass 
+      $g(\mu)\overset{\mu\to\mu_\text{Pol}}{\longrightarrow}\infty$, dann 
+      spricht man von einem Landau-Pol.
   \end{description}
   
   \subsection{Vereinfachung des mathematischen Problems}
       Die Berechnung einer Trajetkorie als Lösung zum Anfangswertproblem 
       \eqref{eq:beta_allgemein:dgl} mit Anfangswert $g(\mu_0)=g_0$ 
-      ist in der Regel analytisch nicht möglich. Durch einige einfache Schritte lässt sich das 
-      Problem jedoch zunächst in eine einfacher zuhandhabende Form überführen und sich das 
-      Verhalten in der Nähe eines Fixpunktes vorhersagen.
+      ist in der Regel analytisch nicht möglich. Durch einige einfache 
+      Schritte lässt sich das Problem jedoch zunächst in die einfacher 
+      zuhandhabende Form eines autonomen DGL-Systems überführen und sich das 
+      Verhalten in der Nähe eines Fixpunktes bestimmen.
       
-      In \cite{GR_Weinberg} schlägt S. Weinberg die Einführung der dimensionslosen 
-      Kopplungskonstanten
-      \begin{equation}
+      In \cite{GR_Weinberg} schlägt S. Weinberg die Einführung der 
+      dimensionslosen Kopplungskonstanten\begin{equation}
        \bar{g}_i(\mu):= \mu^{-d_i} g_i(\mu)
       \end{equation}
-      vor, wobei $d_i$ die Massendimension der Kopplungskonstanten $g_i$ ist. Bei der 
-      Untersuchung der \QCDxdQCD-$\beta$-Funktion wird klar, dass die Erweiterung 
+      vor, wobei $d_i$ die Massendimension der Kopplungskonstanten $g_i$ ist. 
+      Bei der Untersuchung der \QCDxdQCD-$\beta$-Funktion wird klar, dass die 
+      Erweiterung 
       \begin{equation}
-       \alpha(\mu)_i:= \mathcal{N} \left(\mu^{-d_i} g_i(\mu)\right)^n
+       \alpha_i(\mu):= \mathcal{N} \left(\bar{g}_i(\mu)\right)^n
       \end{equation}
-      den Grad $M_L$ der $\beta$-Funktion verringern kann und somit das Problem weiter 
-      vereinfacht (vgl. \cite{Scale_of_dark_QCD}, \cite{Asymptotic_safety_guaranteed}). Dabei 
-      dient $\mathcal{N}$ als Normierungskonstante, die insbesondere von dimensionslosen 
-      Größen wie Teilchenzahlen oder Größen der Symmetriegruppe abhängen kann.
+      den Grad $M_L$ der $\beta$-Funktion verringern kann und somit das Problem 
+      weiter vereinfacht 
+      (vgl. \cite{Scale_of_dark_QCD}, \cite{Asymptotic_safety_guaranteed}). 
+      Dabei dient $\mathcal{N}$ als Normierungskonstante, die insbesondere von 
+      dimensionslosen Größen wie Teilchenzahlen oder Größen der Symmetriegruppe 
+      abhängen kann.
       \begin{beispiel}
 	  Für ein eindimensionales Problem
 	  \begin{equation}
@@ -77,218 +89,211 @@
 	  \end{equation}
 	  und für den einfachen Fall $[g]=0$ definiere 
 	  \begin{equation}
-	  \alpha(\mu) =\mathcal{N} g(\mu)^2 \quad .
-	  \end{equation}
-	  Es folgt
-	\begin{equation}
-	\frac{\d \alpha}{\d \mu}=\mathcal{N} 2 g \frac{\d g}{\d \mu} 
-	\,\Rightarrow \, \frac{\d g}{\d \mu} g=\frac{1}{2\mathcal{N}} 
-	\frac{\d \alpha}{\d \mu}
+	  \alpha(\mu) := \mathcal{N} g(\mu)^2 \quad \Rightarrow \quad  
+	  \frac{\d g}{\d \mu} g=\frac{1}{2\mathcal{N}} 
+	  \frac{\d \alpha}{\d \mu} \quad .
 	\end{equation}
-	und damit 
-	 \begin{align}
-	 &&\frac{1}{2\mathcal{N}} \mu \frac{\d}{\d \mu} \alpha(\mu) &= 
-	 X g(\mu)^4 +Yg(\mu)^6 \\
-	 &\Rightarrow&\frac{1}{2\mathcal{N}} \mu \frac{\d}{\d \mu} \alpha(\mu) &= 
-	 \frac{X}{\mathcal{N}^2} \alpha(\mu)^2 + \frac{Y}{\mathcal{N}^3} \alpha(\mu)^3\\
-	 &\Rightarrow& \mu \frac{\d}{\d \mu} \alpha(\mu) &=\tilde{X}\alpha(\mu)^2+\tilde{Y}
-	 \alpha(\mu)^3 
-	\end{align}
-	mit $\tilde{X}=2X\mathcal{N}^{-1}$ und $\tilde{Y}=2Y\mathcal{N}^{-2}$.
+	Man erhält so eine einfachere Differentialgleichung mit den 
+	Koeffizienten \\$\tilde{X}=2X\mathcal{N}^{-1}$ und 
+	$\tilde{Y}=2Y\mathcal{N}^{-2}$,
+	 \begin{equation}
+	  \mu \frac{\d}{\d \mu} \alpha(\mu) =\tilde{X}\alpha(\mu)^2+\tilde{Y}
+	  \alpha(\mu)^3 \quad .
+	\end{equation}
+	
     \end{beispiel}
     Naheliegend wird wieder $\alpha=(\alpha_1,\ldots,\alpha_N)^\text{T}$ und 
     $\beta(\alpha)=\beta(g\circ\alpha)$ geschrieben.
     
-    Der physikalisch sinnvolle Wertebereich für die Energieskala $\mu$ ist $(0,\infty)$. 
-    Mit der Renormierungsgruppenzeit (RG-Zeit) $t$, definiert als
+    Der physikalisch sinnvolle Wertebereich für die Energieskala $\mu$ ist 
+    $(0,\infty)$. Mit der Renormierungsgruppenzeit (RG-Zeit) $t$, definiert als
     \begin{equation}
      t(\mu):=\ln\left(\frac{\mu}{\Lambda}\right) \,
-     \Leftrightarrow \, \mu(t):=e^t \quad ,
+     \Leftrightarrow \, \mu(t)=e^t \quad ,
     \end{equation}
-    gibt es eine Bijektion $(0,\infty)\overset{t}{\longrightarrow}(-\infty,\infty)$, die 
-    es erlaubt die Kopplungskonstante als 
+    gibt es eine Bijektion $(0,\infty)\overset{t}{\longrightarrow}
+    (-\infty,\infty)$, die es erlaubt die Kopplungskonstante als 
     \begin{equation}
     \tilde{\alpha}(t):=\alpha\left(e^t\right)=\alpha(\mu)
     \end{equation}
-    zu schreiben. Der Parameter $\Lambda$ ist beliebig und hat keine physikalische Bedeutung, 
-    er wird später lediglich die Extrapolation der Fixpunkte übersichtlicher gestalten. Es folgt
+    zu schreiben. Der Parameter $\Lambda$ ist beliebig und hat keine 
+    physikalische Bedeutung, er wird später lediglich die Extrapolation der 
+    Fixpunkte übersichtlicher gestalten. Es folgt
     \begin{equation}
      \mu\frac{\d}{\d\mu}\alpha(\mu) = \mu \underbrace{\frac{\d t}{\d \mu}}_{=\mu^{-1}}
      \frac{\d}{\d t} \tilde{\alpha}(t)
      =\frac{\d}{\d t} \tilde{\alpha}(t) \quad .
     \end{equation}
-    Damit ist Gleichung \eqref{eq:beta_allgemein:dgl} äquivalent zu der autonomen 
-    Differentialgleichung
+    Damit ist Gleichung \eqref{eq:beta_allgemein:dgl} äquivalent zu dem 
+    autonomen Differentialgleichungssystem 
     \begin{equation}
-     \frac{\d}{\d t} \alpha(t)=\beta(\alpha) \quad , \label{eq:beta_allgemein:dgl_alpha}
+     \frac{\d}{\d t} \alpha(t)=\beta(\alpha) \quad , 
+     \label{eq:beta_allgemein:dgl_alpha}
     \end{equation}
     wobei $\tilde{\alpha}$ wieder zu $\alpha$ umbenannt wurde.
     
   \subsection{Verhalten in einer Umgebung eines Fixpunktes}
-    Um das Verhalten der Kopplungskonstanten $\alpha(t)$ in der Nähe eines Fixpunktes zu 
-    untersuchen wird die Stabilitätsmatrix wie folgt eingeführt.
+    Um das Verhalten der Kopplungskonstanten $\alpha(t)$ in der Nähe eines 
+    Fixpunktes zu untersuchen wird die Stabilitätsmatrix wie folgt eingeführt.
     \begin{definition}
-    Sei $\alpha^*$ ein Fixpunkt der $\beta$-Funktion im $\mathbb{R}^N$ und sei $\beta$ in 
+    Sei $\alpha^*$ ein Fixpunkt der $\beta$-Funktion im $\mathbb{R}^N$ und 
+    sei $\beta$ in 
     $\alpha^*$ zweimal stetig differenzierbar. Die Matrix
     \begin{equation}
      \frac{\partial \beta}{\partial \alpha}:= 
-     \left( \frac{\partial \beta_i}{\partial \alpha_j} \right)_{1\leq i,j \leq N}
+     \left( \frac{\partial \beta_i}{\partial \alpha_j} \right)_{1\leq i,j 
+     \leq N}
     \end{equation}
     heißt \textit{Stabilitätsmatrix der $\beta$-Funktion} \cite{GR_Weinberg}. 
     Außgewertet am Punkt $\alpha^*$ 
-    ist die Schreibweise $\left.\frac{\partial \beta}{\partial \alpha}\right|_{\alpha^*}$ oder 
-    kurz $\dbdafix$.\\
-    Ein Fixpunkt $\alpha^*$ heißt \textit{hyperbolisch}, wenn alle Eigenwerte von $\dbdafix$ 
-    einen von Null verschiedenen Realteil besitzen \cite{Bronstein4}.
+    ist die Schreibweise $\left.\frac{\partial \beta}{\partial \alpha}
+    \right|_{\alpha^*}$ oder kurz $\dbdafix$.\\
+    Ein Fixpunkt $\alpha^*$ heißt \textit{hyperbolisch}, wenn alle Eigenwerte 
+    von $\dbdafix$ einen von Null verschiedenen Realteil besitzen 
+    \cite{Bronstein4}.
     \end{definition}
-    Der Zusammenhang zu der Stabilität des Fixpunktes ist folgendermaßen zu erkennen. 
+    Der Zusammenhang zu der Stabilität des Fixpunktes ist folgendermaßen zu 
+    erkennen. 
     
     In der Nähe eines hyperbolischen Fixpunktes $\alpha^*$ kann Gleichung 
     \eqref{eq:beta_allgemein:dgl_alpha} durch ihre Linearisierung
-    \begin{equation}
-     \ddt \alpha(t) \simeq \dbdafix \left(\alpha(t)-\alpha^*\right) 
-     \label{eq:beta_allgemein:beta_linear}
-    \end{equation}
-     beschrieben werden. Mit den Eigenvektoren\footnote{Die Eigenvektoren 
-     müssen gegebenenfalls zu einer Basis ergänzt werden.} $\{e_i\}$ zu den Eigenwerten 
-     $\{\lambda_i\}$ und 
+     beschrieben werden. Da bei einem hyperbolischen Fixpunkt die 
+     Eigenvektoren $\{e_i\}$ der Stabilitätsmatrix eine Basis sind, kann 
+     $(\alpha(t)-\alpha^*)$ in Eigenvektoren zerlegt werden, 
      \begin{equation}
-      \alpha(t)-\alpha^*=:\sum_{i=1}^N K_i(t) e_i
+     \ddt \alpha(t) \simeq \dbdafix \left(\alpha(t)-\alpha^*\right) 
+     = \dbdafix \sum_{i=1}^N K_i(t) e_i  \quad .
      \end{equation}
-     ergibt sich aus \eqref{eq:beta_allgemein:beta_linear} für die 
-     Koeffizienten $\{K_i\}$ das entkoppelte DGL-System
+     Für die Koeffizienten $\{K_i\}$ in der Basis der Eigenvektoren ergibts 
+     sich das entkoppelte DGL-System
     \begin{align}
      &&\ddt \left(\sum\limits_{i=1}^N K_i(t)e_i + \alpha^* \right) &=
-     \dbdafix \sum\limits_{i=1}^N K_i(t) e_i \\
-%     &\Rightarrow&\ddt  \sum\limits_{i=1} K_i(t) &= \sum\limits_{i=1}^N K_i(t) \lambda_i e_i &\\
-     &\overset{\text{Koeffizientenvergleich}}{\Rightarrow}
-     &  \ddt K_i(t) &= K_i(t) \lambda_i & \label{eq:beta_allgemein:K} 
+     \dbdafix \sum\limits_{i=1}^N K_i(t) e_i 		&&&&&& \\
+     &\Leftrightarrow &  \ddt K_i(t) &= K_i(t) \lambda_i  
+     \label{eq:beta_allgemein:K} 			\\
+     &\Rightarrow &
+     K_i(t)&=\e^{\lambda_i t} K_i(0)      	
+     \label{eq:beta_allgemein:K_loesung} 	\quad ,
     \end{align}
-    mit der Lösung
-    \begin{equation}
-     K_i(t)=\e^{\lambda_i t} K_i(0) \label{eq:beta_allgemein:K_loesung}
-    \end{equation}
-    für $K_i(0) \in \mathbb{R}$ klein. Die Lösung für $\alpha(t)$ lässt sich dann schreiben als 
+    wobei $\lambda_i$ der Eigenwert zu $e_i$ ist. Damit kann das Verhalten der 
+    Kopplungskonstante durch
     \begin{equation}
      \alpha(t)=\sum\limits_{i=1}^N \e^{\lambda_i t} K_i(0) e_i +\alpha^* 
-     \label{eq:beta_allgemein:loesung} \quad .
+     \label{eq:beta_allgemein:loesung}
     \end{equation}
-    Dieses Ergebnis ist unter anderem in \cite{Weinberg:1976}, \cite{GR_Weinberg} und 
-    \cite{Asymptotic_safety_guaranteed} zu sehen.
-    In der Fixpunktumgebung werden nun drei lineare Unterräume unterschieden 
-    \cite{Bronstein4}.
+    beschrieben werden.
+    Dieses Ergebnis ist unter anderem in \cite{Weinberg:1976}, 
+    \cite{GR_Weinberg} und \cite{Asymptotic_safety_guaranteed} zu sehen.
+    Aus Gleichung \eqref{eq:beta_allgemein:loesung} wird dann klar, dass 
+    der Untervektorraum, der durch die Eigenvektoren $\{e_i\}$ mit 
+    $\Re\lambda_i < 0$ die Punkte in der Fixpunktumgebung enthält, die für 
+    $t \to \infty$ in den Fixpunkt hineinlaufen, entsprechend enthält der 
+    Untervektorraum mit Eigenvektoren zu $\Re\lambda_i > 0$ alle Punkte, die 
+    den Fixpunkt für $t\to -\infty$ erreichen beziehungsweise aus ihm 
+    herauslaufen. Alle weiteren Punkte der Fixpunktumgebung liegen auf 
+    Trajektorien, die den Fixpunkt nicht enthalten.
+    
+    Ein Eigenvektor mit positivem Eigenwert wird oft auch als IR-attraktiv, mit 
+    einem negativen Eigenwert als IR-repulsiv bezeichnet \cite{Weinberg:1976}. 
+    Da in dieser Arbeit jedoch das UV-Verhalten von Interesse ist, werden die 
+    folgenden Bezeichnungen verwendet.
     \begin{enumerate}
-      \item Die \textit{stabile Mannigfaltigkeit} $\Ms$ besteht aus allen Punkten im Phasenraum, 
-      die in den Fixpunkt hinein laufen.
-      \item Die \textit{instabile Mannigfaltigkeit} besteht aus allen Punkten im Phasenraum, 
-      die aus dem Fixpunkt heraus laufen.
-      \item Die \textit{Zentrumsmannigfaltigkeit} besteht aus den restlichen 
-      Punkten in der Fix\-punkt\-um\-ge\-bung.
-     \end{enumerate}
+     \item Ein Fixpunkt heißt \textit{attraktiver (UV-)Fixpunkt}, wenn 
+     	$\Re \lambda_i<0 \forall i$.
+     \item Ein Fixpunkt heißt \textit{repulsiver (UV-)Fixpunkt}, wenn 
+	$\Re \lambda_i>0 \forall i$.
+     \item Falls ein Fixpunkt weder attraktiv noch repulsiv ist, d.h. wenn es 
+     sowohl Trajektorien gibt die in ihn hinein-, als auch welche die 
+     hinauslaufen, wird er \textit{Sattelpunkt} genannt.
+    \end{enumerate}
      \begin{definition}
       Die Menge der in den Fixpunkt hineinlaufenden Kurven heißt 
-      \textit{kritische (UV-)Hyperfläche} $\Mc$ (critical manifold)\footnote{Bemerkung: 
-      $\Ms$, die instabile Mannigfaltigkeit und die Zentrumsmannigfaltigkeit sind nur in einer 
-      Umgebung des Fixpunktes 
-      definiert, $\Mc$ im gesamten Phasenraum. Außerdem werden jedem Fixpunkt eigene 
-      Mannigfaltigkeiten und eine eigene kritische Hyperfläche zugeordnet.}. 
+      \textit{kritische (UV-)Hyperfläche} $\Mc$ (critical manifold) des 
+      Fixpunktes.
     \end{definition}
-    Aus Gleichung \eqref{eq:beta_allgemein:loesung} wird dann klar, dass $\Ms$ der durch die 
-    Eigenvektoren mit negativem Eigenwert aufgespannte Untervektorraum ist. Ein Eigenvektor mit 
-    positivem 
-    Eigenwert wird oft auch als IR-attraktiv, mit einem negativen Eigenwert als IR-repulsiv 
-    bezeichnet \cite{Weinberg:1976}. Da in dieser Arbeit jedoch das UV-Verhalten von Interesse 
-    ist, werden die folgenden Bezeichnungen verwendet.
-    \begin{enumerate}
-     \item Ein Fixpunkt heißt \textit{attraktiver (UV-)Fixpunkt}, wenn $\dim(\Mc)=N$.
-     \item Ein Fixpunkt heißt \textit{repulsiver (UV-)Fixpunkt}, wenn $\dim(\Mc)=0$.
-     \item Falls ein Fixpunkt weder attraktiv noch repulsiv ist, d.h. wenn es sowohl 
-     Trajektorien gibt die in ihn hinein-, als auch welche die hinauslaufen, wird er 
-     \textit{Sattelpunkt} genannt.
-    \end{enumerate}
 
-  \subsection{Sonderfall: nicht hyperbolische Fixpunkte}
     Bei allgemeinen Betrachtungen (vgl. \cite{Weinberg:1976}) 
-    wird der nicht hyperbolische Fall $\lambda_i = 0$ oft als unwichtiger Sonderfall nicht 
-    weiter betrachtet. Bei der Untersuchung einer konkreten $\beta$-Funktion kommt dieser 
-    Sonderfall aber auf natürliche Weise schnell zu stande.
+    wird der nicht-hyperbolische Fall $\lambda_i = 0$ oft als unwichtiger 
+    Sonderfall nicht weiter betrachtet, bei der Untersuchung einer konkreten 
+    $\beta$-Funktion kommt dieser Sonderfall aber auf natürliche Weise schnell 
+    zu stande, sobald ein Fixpunkt einen Wert $\alpha^*_i = 0$ besitzt. In diesem 
+    Fall ist es schwierig allgemeine Aussagen zu treffen, für ein 2-dimensionales 
+    Problem wie in Abschnitt \ref{beta_im_R2} lassen sich jedoch einige 
+    Aussagen treffen, die Teilweise auch auf höherdimensionale Probleme 
+    verallgemeinert werden können.
     
-    Eine dimensionslose Kopplungskonstante $\alpha_1:=\mathcal{N}g_1^2$ muss, damit die 
-    physikalische Kopplungskonstante $g_1$ reell ist, positiv sein. Es muss demnach 
-    $\beta_1(\alpha)\geq 0$ auf der gesamten $\alpha_1$-Achse gelten. Falls es nun einen 
-    Fixpunkt $\alpha^*=(0,\alpha_2,\ldots,\alpha_N)^\text{T}$ und es einen Eigenvektor
-    $e_k\in\Ms$ gibt\footnote{Dabei 
-    soll $\Ms$ nicht nur aus der $\alpha_1$-Achse bestehen. Da $\Ms$ ein linearer Unterraum 
-    ist, gibt es zumindest eine Linearkombination $\left(\sum_{i=1}^N c_ie_i\right)\in \Ms$, 
-    die folgende Argumentation kann dann analog geführt werden.},
-    dann folgt aus \eqref{eq:beta_allgemein:K}
-    \begin{equation}
-     \beta(K_k(t)e_k)\cdot e_k = \ddt K_k(t) = K_k(t) \lambda_k
-    \end{equation}
-    ???
-    
-    Sein nun also $\alpha^*$ ein Fixpunkt, $\{e_i\}$ die Basis aus Eigenvektoren der 
-    Stabilitätsmatrix und der Eigenwert $\lambda_k=0$, alle anderen $\lambda_i \neq 0$ 
-    für $i\neq k$. In zweiter Ordnung gilt
-    \begin{equation}
-     \beta_i(\alpha) \simeq \sum\limits_{m=1}^N \frac{\partial \beta_i(\alpha)}{\partial
-     \alpha_m} \left(\alpha_m-\alpha^*_m\right) + \frac12 \sum\limits_{m,n=1}^N 
-      \left(\alpha_m-\alpha^*_m\right)
-     \frac{\partial^2 \beta_i(\alpha)}{\partial\alpha_m \partial\alpha_n}
-     \left(\alpha_n-\alpha^*_n\right) \quad ,
-    \end{equation}
-    sodass für die Koeffizienten $\{K_i\}$ in der $\{e_i\}$-Basis folgt
-    \begin{equation}
-     \ddt K_i(t) = \lambda_i K_i(t) + \frac12
-     \sum\limits_{j=1}^N \left( e_j\cdot \nabla \lambda_i \right) K_i(t)K_j(t) \quad .
-    \end{equation}
-    Für alle $\lambda_i \neq 0 $ reicht es, die Gleichungen in Ordnung $\mathcal{O}(K_i)$, 
-    also \eqref{eq:beta_allgemein:K} zu lösen, für $\lambda_k=0$ verschwindet jedoch die 
-    erste Ordnung, sodass sich als DGL
-    \begin{equation}
-     \ddt K_k(t) = \frac12 \sum\limits_{j=1}^N \left( e_j\cdot \nabla \lambda_k 
-     \right) K_k(t)K_j(t) \quad . \label{eq:beta_allgemein:K_gekoppelt}
-    \end{equation}
-    ergibt. Auf $\Ms$ sind $K_i(t)\equiv 0$ für alle $i$ mit $\lambda_i > 0$, sodass die 
-    DGL weiter vereinfacht werden kann, 
-    \begin{equation}
-     \ddt K_k(t) \overset{t\to\infty}{\simeq} \frac12 \left( e_k \cdot 
-     \nabla\lambda_k \right) K_k(t)^2 \quad .
-    \end{equation}
-    Die Lösung ist
-    \begin{equation}
-     K_k(t) = \frac{1}{K_k(0)^{-1} - \frac12 \left( e_k\cdot \nabla \lambda_k \right) t } \quad ,
-    \end{equation}
-    wird $e_k$ so gewählt, dass $K_k(t)\geq 0$, dann ergibt sich die Bedingung
-    \begin{equation}
-     e_k \cdot \nabla\lambda_k < 0 \quad , \label{eq:beta_allgemein:lambda0_bedingung} 
-    \end{equation}
-    damit $K_k(t)\overset{t\to\infty}{\longrightarrow}0$ ohne einen Pol zu passieren, der die 
-    Reihenentwicklung der $\beta$-Funktion unzulässig machen würde. Falls mehr als ein 
-    Eigenwert gleich Null ist, ergibt sich in \eqref{eq:beta_allgemein:K_gekoppelt} ein 
-    System gekoppelter DGLs.
+%   \subsection{Sonderfall: nicht hyperbolische Fixpunkte}
+%     Bei allgemeinen Betrachtungen (vgl. \cite{Weinberg:1976}) 
+%     wird der nicht hyperbolische Fall $\lambda_i = 0$ oft als unwichtiger 
+%     Sonderfall nicht weiter betrachtet. Bei der Untersuchung einer konkreten 
+%     $\beta$-Funktion kommt dieser Sonderfall aber auf natürliche Weise schnell 
+%     zu stande.
+%     
+%     
+%     
+%     Sein nun also $\alpha^*$ ein Fixpunkt, $\{e_i\}$ die Basis aus Eigenvektoren der 
+%     Stabilitätsmatrix und der Eigenwert $\lambda_k=0$, alle anderen $\lambda_i \neq 0$ 
+%     für $i\neq k$. In zweiter Ordnung gilt
+%     \begin{equation}
+%      \beta_i(\alpha) \simeq \sum\limits_{m=1}^N \frac{\partial \beta_i(\alpha)}{\partial
+%      \alpha_m} \left(\alpha_m-\alpha^*_m\right) + \frac12 \sum\limits_{m,n=1}^N 
+%       \left(\alpha_m-\alpha^*_m\right)
+%      \frac{\partial^2 \beta_i(\alpha)}{\partial\alpha_m \partial\alpha_n}
+%      \left(\alpha_n-\alpha^*_n\right) \quad ,
+%     \end{equation}
+%     sodass für die Koeffizienten $\{K_i\}$ in der $\{e_i\}$-Basis folgt
+%     \begin{equation}
+%      \ddt K_i(t) = \lambda_i K_i(t) + \frac12
+%      \sum\limits_{j=1}^N \left( e_j\cdot \nabla \lambda_i \right) K_i(t)K_j(t) \quad .
+%     \end{equation}
+%     Für alle $\lambda_i \neq 0 $ reicht es, die Gleichungen in Ordnung $\mathcal{O}(K_i)$, 
+%     also \eqref{eq:beta_allgemein:K} zu lösen, für $\lambda_k=0$ verschwindet jedoch die 
+%     erste Ordnung, sodass sich als DGL
+%     \begin{equation}
+%      \ddt K_k(t) = \frac12 \sum\limits_{j=1}^N \left( e_j\cdot \nabla \lambda_k 
+%      \right) K_k(t)K_j(t) \quad . \label{eq:beta_allgemein:K_gekoppelt}
+%     \end{equation}
+%     ergibt. Auf $\Mc$ sind $K_i(t)\equiv 0$ für alle $i$ mit $\lambda_i > 0$, sodass die 
+%     DGL weiter vereinfacht werden kann, 
+%     \begin{equation}
+%      \ddt K_k(t) \overset{t\to\infty}{\simeq} \frac12 \left( e_k \cdot 
+%      \nabla\lambda_k \right) K_k(t)^2 \quad .
+%     \end{equation}
+%     Die Lösung ist
+%     \begin{equation}
+%      K_k(t) = \frac{1}{K_k(0)^{-1} - \frac12 \left( e_k\cdot \nabla \lambda_k \right) t } \quad ,
+%     \end{equation}
+%     wird $e_k$ so gewählt, dass $K_k(t)\geq 0$, dann ergibt sich die Bedingung
+%     \begin{equation}
+%      e_k \cdot \nabla\lambda_k < 0 \quad , \label{eq:beta_allgemein:lambda0_bedingung} 
+%     \end{equation}
+%     damit $K_k(t)\overset{t\to\infty}{\longrightarrow}0$ ohne einen Pol zu passieren, der die 
+%     Reihenentwicklung der $\beta$-Funktion unzulässig machen würde. Falls mehr als ein 
+%     Eigenwert gleich Null ist, ergibt sich in \eqref{eq:beta_allgemein:K_gekoppelt} ein 
+%     System gekoppelter DGLs.
 
   \subsection{Experimentelle Daten und kritische Hyperfläche}
-    Während die $\beta$-Funktion als DGL-System aus dem erzeugenden Funktional und somit letztlich 
-    aus der postulierten Lagrangedichte hervorgeht, ist die Bestimmung der Trajektorie
-    \footnote{Genauer muss nur ein Punkt $\alpha(t_0)$ als Anfangswert des DGL-Systems 
-    bekannt sein.}, die 
-    den Kopplungskonstanten "`unserer Welt"' entspricht eine bisher rein experimentelle Aufgabe. 
-    
+    Während die $\beta$-Funktion als DGL-System aus dem erzeugenden Funktional 
+    und somit letztlich aus der postulierten Lagrangedichte hervorgeht, ist die 
+    Bestimmung der Trajektorie\footnote{Genauer muss nur ein Punkt 
+    $\alpha(t_0)$ als Anfangswert des DGL-Systems bekannt sein.}, die 
+    den Kopplungskonstanten "`unserer Welt"' entspricht eine rein 
+    experimentelle Aufgabe. 
   
-    Um das UV-Verhalten einer $\beta$-Funktion mit den bisher gemessenen Werten für die 
-    Kopplungskonstanten im SM vergleichen zu können, ist es notwendig die kritische Hyperfläche 
-    eines Fixpunktes auch in einem Bereich zu kennen, der zu groß für eine Taylorentwicklung 
-    geringer Ordnung ist. Das auffinden der kritischen Hyperfläche ist insbesondere für 
-    höherdimensionale Probleme analytisch kaum möglich und daher eine numerische Aufgabe. Für 
-    ein System aus zwei Kopplungskonstanten wird in \ref{beta_im_R2} ein Verfahren 
-    vorgestellt.
-    Stehen nun $n$ Messwerte an der selben Renormierungsskala 
-    $\mu_0$ zur Verfügung und gibt es einen Punkt $\alpha_0\in\Mc$ der diese enthält, 
-    dann sind alle Kopplungskonstanten $\alpha(\mu)$ bis auf $(\dim (\Mc)-n)$ freie Parameter 
-    festgelegt\footnote{Für $n\geq \dim(\Mc)$ also eindeutig.} und laufen in den 
-    Fixpunkt hinein. Existiert so ein $\alpha_0\in\Mc$ nicht, kommt der untersuchte Fixpunkt 
-    für ein asymptotic safety Szenario nicht in Frage. 
+    Um das UV-Verhalten einer $\beta$-Funktion mit den bisher gemessenen Werten 
+    für die Kopplungskonstanten im SM vergleichen zu können, ist es notwendig 
+    die kritische Hyperfläche eines Fixpunktes auch in einem Bereich zu kennen, 
+    der zu groß für eine Taylorentwicklung geringer Ordnung ist. Das auffinden 
+    der kritischen Hyperfläche ist insbesondere für höherdimensionale Probleme 
+    analytisch kaum möglich und daher eine numerische Aufgabe. Für ein System 
+    aus zwei Kopplungskonstanten wird in \ref{beta_im_R2} ein Verfahren 
+    vorgestellt. Stehen nun $n$ Messwerte an der selben Renormierungsskala 
+    $\mu_0$ zur Verfügung und gibt es einen Punkt $\alpha_0\in\Mc$ der diese 
+    enthält, dann sind alle Kopplungskonstanten $\alpha(\mu)$ bis auf 
+    $(\dim (\Mc)-n)$ freie Parameter festgelegt\footnote{Für $n\geq \dim(\Mc)$ 
+    also eindeutig.} und laufen in den Fixpunkt hinein. Existiert so ein 
+    $\alpha_0\in\Mc$ nicht, kommt der untersuchte Fixpunkt für ein asymptotic 
+    safety Szenario nicht in Frage. 
 
     
 

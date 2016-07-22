@@ -1,87 +1,135 @@
 \clearpage
 \section{$\beta$-Funktion im $\mathbb{R}^2$}\label{beta_im_R2}
-  Durch die Erweiterung einer Eichgrupppe $G$ mit Kopplungskonstante $g$ (bzw. $\alpha$) auf die 
-  kombinierte Eichgruppe $G_1\times G_2$ mit den Kopplungskonstanten $g_1$ und $g_2$ (bzw. 
-  $\alpha_1$ und $\alpha_2$)
+   Um 2-dimensionale autonome DGL-Systeme zu veranschaulichen eignet sich das 
+   Bild des Kopplungskonstanten-Flusses. Dabei "`fließt"' ein Anfangswert 
+   $\alpha(t_0)$ mit Geschwindigkeit und Richtung $\dot\alpha(t) = 
+   \beta(\alpha(t))$ entlang einer Trajektorie durch 
+   den Phasenraum. Der Satz von Picard-Lindelöf stellt dabei sicher, dass 
+   sich zwei Trajektorien nicht schneiden. Ein Flussdiagramm wie in Abbildung 
+   \ref{beta_allgemein:fig:fluss_beispiel} zeigt das Verhalten von $\alpha(t)$ 
+   indem das Geschwindigkeitsfeld $\beta$ durch Pfeile im Phasenraum 
+   dargestellt wird.
+    
+%    \begin{figure}[H]
+%     \centering
+%     \includegraphics[scale=0.5]{abschnitte/beta_allgemein/abb/fluss_beispiel}
+%     \caption{Das Flussdiagramm für $\beta(\alpha_1,\alpha_2 =$.}
+%     \label{beta_allgemein:fig:fluss_beispiel}
+%    \end{figure}
 
   \subsection{Stabilitätsbedingungen}
-    Für ein System mit zwei Kopplungskonstanten vereinfacht sich die Untersuchung erheblich, 
-    da der Phasenraum der $\mathbb{R}^2$ ist und die Eigenwerte von 
-    $\dbda \in\mathbb{R}^{2\times 2}$ 
-    explizit als 
-    \begin{equation}
+    Für ein System mit zwei Kopplungskonstanten vereinfacht sich die 
+    Untersuchung erheblich, da der Phasenraum der $\mathbb{R}^2$ ist und, wie in 
+    Abschnitt \ref{Schleifen} gezeigt wurde, die Stabilitätsmatrix allgemein 
+    die Form
+	\begin{equation}
+	 \dbda = \begin{pmatrix}
+	          \sum\limits_{i=2,j=0}i \alpha_1^{i-1} \alpha_2^j X^1_{ij} &
+	          \sum\limits_{i=2,j=0}j \alpha_1^i \alpha_2^{j-1} X^1_{ij}\\
+	          \sum\limits_{i=0,j=2}i \alpha_1^{i-1} \alpha_2^j X^2_{ij} &
+	          \sum\limits_{i=0,j=2}j \alpha_1^i \alpha_2^{j-1} X^2_{ij}
+	         \end{pmatrix}
+	\end{equation}
+    annimmt. Eigenwerte von $\dbda$ können explizit 
+    als\begin{equation}
     \lambda_{+/-}=\frac12 \Sp \pm \sqrt{ \left( \frac{\Sp}{2} \right)^2-\Det }
     \end{equation}
-    angegeben werden können. In dem Fall, dass bei $\alpha^*$ ein Eigenwert verschwindet, ist 
-    $\left.\Det\right|_*=\lambda_+|_* \lambda_-|_* = 0$ und
-    \begin{alignat}{3}
-    &\left.\lambda_+\right|_* = \left.\Sp\right|_* \quad && \lambda_-|_*=0  
-    \quad && \text{für }\left.\Sp\right|_*\geq 0 \\
-    &\lambda_+|_* = 0   \quad && \lambda_-|_*=\left.\Sp\right|_*  \quad && 
-    \text{für }\left.\Sp\right|_*\leq 0 
-    \quad .
-    \end{alignat}
-    Außerdem 
-    \begin{equation}
-      \left.\frac{\partial \lambda_{+/-}}{\partial \alpha_i}\right|_*=
-      \left[-\frac{1}{2} \frac{\partial \Sp}{\partial \alpha_i} 
-      + \frac{1}{\lambda_{-/+} }
-      \frac{\partial \Det}{\partial \alpha_i} \right]_*
-      \quad ,
-    \end{equation}
-    wobei $\lambda_{+/-}|_*$ der verschwindende Eigenwert ist.
-    
+    angegeben werden. 
+    \subsubsection{hyperbolischer Fixpunkt}
+      Sind $\Sp$ und $\Det$ nicht Null, lässt sich das Vorzeichen der 
+      Eigenwerte leicht Nachrechnen, das Ergebnis ist in Tabelle 
+      \ref{beta_im_R2:tab:stabilitaet_hyperbolisch} zu sehen.
+  
+      \input{abschnitte/beta_im_R2/tab/stabilitaet_hyperbolisch}
+      
+      
+
+    \subsubsection{nicht-hyperbolischer Fixpunkt}
+%       In dem Fall, dass bei $\alpha^*$ ein Eigenwert 
+%       verschwindet, ist $\left.\Det\right|_*=\lambda_+|_* \lambda_-|_* = 0$ und
+%       \begin{alignat}{3}
+%       &\left.\lambda_+\right|_* = \left.\Sp\right|_* \quad && \lambda_-|_*=0  
+%       \quad && \text{für }\left.\Sp\right|_*\geq 0 \\
+%       &\lambda_+|_* = 0   \quad && \lambda_-|_*=\left.\Sp\right|_*  \quad && 
+%       \text{für }\left.\Sp\right|_*\leq 0 
+%       \quad .
+%       \end{alignat}
+%       Außerdem 
+%       \begin{equation}
+% 	\left.\frac{\partial \lambda_{+/-}}{\partial \alpha_i}\right|_*=
+% 	\left[-\frac{1}{2} \frac{\partial \Sp}{\partial \alpha_i} 
+% 	+ \frac{1}{\lambda_{-/+} }
+% 	\frac{\partial \Det}{\partial \alpha_i} \right]_*
+% 	\quad ,
+%       \end{equation}
+%       wobei $\lambda_{+/-}|_*$ der verschwindende Eigenwert ist.
+	 Offensichtlich ist ein Fixpunkt $\alpha^*=(\alpha_1^*,0)$
+
+
+      
   \subsection{Fixpunktextrapolation}
-    Ein besonderer Vorteil einer Erweiterung $G \to G_1\times G_2$ ist die Möglichkeit einen 
-    UV-Fixpunkt eindeutig extrapolieren zu können, da die kritische Hyperfläche die Dimension 
-    $\dim(\alpha^*)=0$, $\dim(\text{Trajektorie})=1$ oder $\dim(\text{Phasenraum})=2$ hat. Im 
+    Ein besonderer Vorteil einer Erweiterung $G \to G_1\times G_2$ ist die 
+    Möglichkeit einen UV-Fixpunkt eindeutig extrapolieren zu können, da die 
+    kritische Hyperfläche die Dimension $\dim(\alpha^*)=0$, 
+    $\dim(\text{Trajektorie})=1$ oder $\dim(\text{Phasenraum})=2$ hat. Im 
     ersten Fall, $\dim \Mc=0$ besteht sie nur aus dem Fixpunkt selbst, 
-    dieser Fall ist also eher als eine mathematische, triviale Lösung zu betrachten, die keine 
-    physikalische Bedeutung im Sinne laufender Kopplungskonstanten hat. Im Fall $\dim \Mc =2$ 
-    besteht sie aus dem gesamten Phasenraum. Weil in diesem Fall jede Trajektorie in den Fixpunkt 
-    hineinläuft 
-    kann keine Vorhersage für die Größen der Kopplungskonstanten gemacht werden, dafür ist aber 
-    das UV-Verhalten von dem Startwert $\left(\alpha_1(t_0),\alpha_2(t_0)\right)$ unabhängig. 
-    Der für die Extrapolation interessanteste Fall ist also $\dim \Mc = 1$, da die UV-Hyperfläche 
-    dann aus zwei Trajektorien $s^{+/-}:(0,\infty)\to \mathbb{R}^2$ besteht\footnote{Jeweils 
-    eine in, eine entgegen der Richtung des attraktiven Eigenvektors.} und deshalb 
-    eindeutige Wertepaare $(\alpha_1(t),\alpha_2(t))$ vorhersagt. Wenn eine Kopplungskonstante 
-    (o.E.) $\alpha_1(t_0)$ 
-    bei einer Renormierungsskala $t_0$ bekannt ist, und unter der Annahme, dass der Fixpunkt für 
-    $t\to\infty$ erreicht wird, ist somit auch $\alpha_2(t_0)$ sowie das gesamte Verhalten beider 
-    Kopplungskonstanten bekannt.
+    dieser Fall ist also eher als eine mathematische, triviale Lösung zu 
+    betrachten, die keine physikalische Bedeutung im Sinne laufender 
+    Kopplungskonstanten hat. Im Fall $\dim \Mc =2$ besteht sie aus dem gesamten 
+    Phasenraum. Weil in diesem Fall jede Trajektorie in den Fixpunkt 
+    hineinläuft kann keine Vorhersage für die Größen der Kopplungskonstanten 
+    gemacht werden, dafür ist aber das UV-Verhalten von dem Startwert 
+    $\left(\alpha_1(t_0),\alpha_2(t_0)\right)$ unabhängig. Der für die 
+    Extrapolation interessanteste Fall ist also $\dim \Mc = 1$, da die 
+    UV-Hyperfläche dann aus zwei Trajektorien 
+    $s^{+/-}:(0,\infty)\to \mathbb{R}^2$ besteht\footnote{Jeweils eine in, eine 
+    entgegen der Richtung des attraktiven Eigenvektors.} und deshalb 
+    eindeutige Wertepaare $(\alpha_1(t),\alpha_2(t))$ vorhersagt. Wenn eine 
+    Kopplungskonstante (o.E.) $\alpha_1(t_0)$ bei einer Renormierungsskala 
+    $t_0$ bekannt ist, und unter der Annahme, dass der Fixpunkt für 
+    $t\to\infty$ erreicht wird, ist somit auch $\alpha_2(t_0)$ sowie das 
+    gesamte Verhalten beider Kopplungskonstanten bekannt.
     
     Für die Extrapolation werden außerdem die folgende Beobachtungen ausgenutzt.
     \begin{enumerate}
-     \item Eine Trajektorie, welche in einen Sattelpunkt hineinläuft, ist gleichzeitig eine 
-      Separatrix, d.h. sie Teilt den Phasenrau in Gebiete mit qualitativ unterschiedlichem 
-      Verhalten für $t \to \infty$.
-     \item Ein Sattelpunkt und ein attraktiver Fixpunkt sind mit einer Trajektorie verbunden, 
-      ebenso ist ein Sattelpunkt mit einem repulsiven Fixpunkt mit einer Separatrix verbunden, 
-      sofern die Fixpunkte existieren und in der Nähe des Sattelpunktes liegen. 
+     \item Eine Trajektorie, welche in einen Sattelpunkt hineinläuft, ist 
+     gleichzeitig eine Separatrix, d.h. sie Teilt den Phasenrau in Gebiete mit 
+     qualitativ unterschiedlichem  Verhalten für $t \to \infty$.
+     \item Ein Sattelpunkt und ein attraktiver Fixpunkt sind mit einer 
+     Trajektorie verbunden, ebenso ist ein Sattelpunkt mit einem repulsiven 
+     Fixpunkt mit einer Separatrix verbunden, sofern die Fixpunkte existieren 
+     und in der Nähe des Sattelpunktes liegen. 
     \end{enumerate}
 
-    Da das gesuchte $\Mc$ folglich immer eine Separatrix ist, kann wie folgt verfahren werden. 
-    Zunächst werden zwei Gebiete $L$ und $R$ definiert, die zu qualitativ verschiedenen 
-    Trajektorien führen. Beispielsweise lassen sich oft Abschätzungen der Art finden: Wenn es 
+    Da das gesuchte $\Mc$ folglich immer eine Separatrix ist, kann wie folgt 
+    verfahren werden. Zunächst werden zwei Gebiete $L$ und $R$ definiert, die 
+    zu qualitativ verschiedenen Trajektorien führen. Beispielsweise lassen sich 
+    oft Abschätzungen der Art finden: Wenn es 
     ein $t_1$ gibt mit
     \begin{equation}
-     \alpha_j(t_1) > \max \left\{ \left. \alpha^{*i}_j \right|\text{alle Fixpunkte } 
+     \alpha_j(t_1) > \max \left\{ \left. \alpha^{*i}_j \right|\text{alle 
+     Fixpunkte } 
      \alpha^{*i}\right\} \quad ,
     \end{equation}
     dann kann der gewünschte Fixpunkt nicht mehr für $t>t_1$ erreicht werden.
-    Am Fixpunkt wird eine Orthonormalbasis $\{f_1,f_2\}$ gewählt\footnote{Der Einfachheit halber 
-    kann die Basis aus Eigenvektoren oder die $\alpha_{1,2}$-Achsen gewählt werden, sofern dies 
+    Am Fixpunkt wird eine Orthonormalbasis $\{f_1,f_2\}$ gewählt\footnote{Der 
+    Einfachheit halber kann die Basis aus Eigenvektoren oder die 
+    $\alpha_{1,2}$-Achsen gewählt werden, sofern dies 
     zu keinen numerischen Schwierigkeiten führt.}
     und der Phasenraum in Ebenen mit Abstand $\epsilon$ 
-    eingeteilt, die nullte Ebene geht dabei durch den Fixpunkt. Rekursiv werden dann
+    eingeteilt, die nullte Ebene geht dabei durch den Fixpunkt. Rekursiv werden 
+    dann
     \begin{equation}
      s^{L/R}_n = s^{L/R}_{n-1} + \epsilon f_1 + d^{L/R} \delta f_2 
     \end{equation}
-    definiert. Für festes $\delta$ wird $d^{L/R}$ so eingestelle, dass die Trajektorie 
-    mit Anfangswert $s^\text{L}_n$ in den Bereich $L$ hineinläuft, analog für $R$. 
-    Mit $s^L_0:=\alpha-\nicefrac{\delta}{2}  f_2$ und $s^R_0:=\alpha+\nicefrac{\delta}{2} f_2$ 
-    ergibt sich so ein Schlauch $\left(s^{L}_n,s^R_n \right)_{n=0,1,\ldots}$ der Breite 
+    definiert. Für festes $\delta$ wird $d^{L/R}$ so eingestelle, dass die 
+    Trajektorie 
+    mit Anfangswert $s^\text{L}_n$ in den Bereich $L$ hineinläuft, analog für 
+    $R$. 
+    Mit $s^L_0:=\alpha-\nicefrac{\delta}{2}  f_2$ und 
+    $s^R_0:=\alpha+\nicefrac{\delta}{2} f_2$ 
+    ergibt sich so ein Schlauch $\left(s^{L}_n,s^R_n \right)_{n=0,1,\ldots}$ 
+    der Breite 
     $\delta$, der die Separatrix beinhaltet.
 
     
