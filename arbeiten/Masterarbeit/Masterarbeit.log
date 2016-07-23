@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.9)  22 JUL 2016 15:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.15)  23 JUL 2016 20:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Masterarbeit.tex
 (./Masterarbeit.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+Babel <3.9h> and hyphenation patterns for 9 languages loaded.
 (../../header/header.tex
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2013/12/19 v3.12 KOMA-Script document class (article)
@@ -865,7 +865,8 @@ File: ts1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 (/usr/share/texlive/texmf-dist/tex/generic/german/ngerman.sty v2.5e 1998-07-08
 Package: ngerman 1998/07/08 v2.5e Support for writing german texts (br)
 \grmnU@D=\dimen123
-ngerman -- \language number for naustrian undefined, default 44 used.
+ngerman -- \language number for naustrian undefined, default 5 used.
+ngerman -- \language number for French undefined, default 255 used.
 ) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip62
@@ -1291,7 +1292,7 @@ e 7.
 [8
 
 ] [9] [10]
-LaTeX Font Info:    Try loading font information for U+euf on input line 189.
+LaTeX Font Info:    Try loading font information for U+euf on input line 190.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 )
@@ -1333,8 +1334,26 @@ ed on input line 9.
 
 (./abschnitte/beta_im_R2/tab/stabilitaet_hyperbolisch.tex) [14
 
-] [15])
-(./abschnitte/beta_QCDxdQCD/beta_QCDxdQCD.tex [16]
+]
+Overfull \hbox (8.67223pt too wide) in paragraph at lines 89--97
+\T1/qpl/m/n/10.95 (-20) Es folgt $\FML/futmi/m/it/10.95 e[] \FMS/futm/m/n/10.95
+ Å \T1/futs/m/n/10.95 (1\FML/futmi/m/it/10.95 ; \T1/futs/m/n/10.95 0)[]$ \T1/qp
+l/m/n/10.95 (-20) zu $\FML/futmi/m/it/10.95 ^^U[] \FMS/futm/m/n/10.95 Å [][] \F
+ML/futmi/m/it/10.95 i\T1/futs/m/n/10.95 (\FML/futmi/m/it/10.95 []\T1/futs/m/n/
+10.95 )[]\FML/futmi/m/it/10.95 X[]$ \T1/qpl/m/n/10.95 (-20) und $\FML/futmi/m/i
+t/10.95 e[] \FMS/futm/m/n/10.95 / \T1/futs/m/n/10.95 (\FMS/futm/m/n/10.95 ^^@\T
+1/futs/m/n/10.95 ([][](\FML/futmi/m/it/10.95 []\T1/futs/m/n/10.95 )[]\FML/futm
+i/m/it/10.95 X[]\T1/futs/m/n/10.95 )/([][] \FML/futmi/m/it/10.95 i\T1/futs/m/n/
+10.95 (\FML/futmi/m/it/10.95 []\T1/futs/m/n/10.95 )[]\FML/futmi/m/it/10.95 X[]
+\T1/futs/m/n/10.95 )\FML/futmi/m/it/10.95 ; \T1/futs/m/n/10.95 1)[]$
+ []
+
+LaTeX Font Info:    Try loading font information for TS1+qpl on input line 120.
+
+(/usr/share/texmf/tex/latex/tex-gyre/ts1qpl.fd
+File: ts1qpl.fd 2009/09/25 v1.2 font definition file for TS1/qpl
+) [15] [16])
+(./abschnitte/beta_QCDxdQCD/beta_QCDxdQCD.tex [17]
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <10> not available
 (Font)              Font shape `T1/lmss/bx/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <8> not available
@@ -1360,21 +1379,16 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 2.
 
-) (./abschnitte/Appendix/Zeichenerklaerung.tex [17
+) (./abschnitte/Appendix/Zeichenerklaerung.tex [18
 
-]
-LaTeX Font Info:    Try loading font information for TS1+qpl on input line 5.
-
-(/usr/share/texmf/tex/latex/tex-gyre/ts1qpl.fd
-File: ts1qpl.fd 2009/09/25 v1.2 font definition file for TS1/qpl
-)) [18
+]) [19
 
 ] (./Masterarbeit.bbl
-[19
+[20
 
 ])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 49.
- [20]
+ [21]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 49.
  (./Masterarbeit.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 49.
@@ -1388,12 +1402,12 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 49.
  ) 
 Here is how much of TeX's memory you used:
- 11966 strings out of 493304
- 185302 string characters out of 6139871
- 329647 words of memory out of 5000000
- 14853 multiletter control sequences out of 15000+600000
+ 11975 strings out of 494935
+ 185455 string characters out of 6178121
+ 328969 words of memory out of 5000000
+ 14631 multiletter control sequences out of 15000+600000
  141462 words of font info for 215 fonts, out of 8000000 for 9000
- 957 hyphenation exceptions out of 8191
+ 36 hyphenation exceptions out of 8191
  49i,13n,71p,316b,473s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/share/texmf/fonts/
 enc/dvips/tex-gyre/q-ec.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base
@@ -1409,10 +1423,10 @@ share/texlive/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb></usr/share/texmf/fonts/type1
 /public/tex-gyre/qplb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplr.pf
 b></usr/share/texmf/fonts/type1/public/tex-gyre/qplri.pfb>
-Output written on Masterarbeit.pdf (20 pages, 231650 bytes).
+Output written on Masterarbeit.pdf (21 pages, 235626 bytes).
 PDF statistics:
- 432 PDF objects out of 1000 (max. 8388607)
- 384 compressed objects within 4 object streams
- 116 named destinations out of 1000 (max. 500000)
+ 444 PDF objects out of 1000 (max. 8388607)
+ 395 compressed objects within 4 object streams
+ 121 named destinations out of 1000 (max. 500000)
  20657 words of extra memory for PDF output out of 20736 (max. 10000000)
 

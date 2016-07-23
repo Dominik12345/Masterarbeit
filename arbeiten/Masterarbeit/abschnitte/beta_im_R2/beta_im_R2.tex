@@ -25,10 +25,10 @@
 	\begin{equation}
 	 \dbda = \begin{pmatrix}
 	          \sum\limits_{i=2,j=0}i \alpha_1^{i-1} \alpha_2^j X^1_{ij} &
-	          \sum\limits_{i=2,j=0}j \alpha_1^i \alpha_2^{j-1} X^1_{ij}\\
-	          \sum\limits_{i=0,j=2}i \alpha_1^{i-1} \alpha_2^j X^2_{ij} &
+	          \sum\limits_{i=2,j=1}j \alpha_1^i \alpha_2^{j-1} X^1_{ij}\\
+	          \sum\limits_{i=1,j=2}i \alpha_1^{i-1} \alpha_2^j X^2_{ij} &
 	          \sum\limits_{i=0,j=2}j \alpha_1^i \alpha_2^{j-1} X^2_{ij}
-	         \end{pmatrix}
+	         \end{pmatrix}\label{eq:beta_im_R2:stab_matrix}
 	\end{equation}
     annimmt. Eigenwerte von $\dbda$ können explizit 
     als\begin{equation}
@@ -42,7 +42,21 @@
   
       \input{abschnitte/beta_im_R2/tab/stabilitaet_hyperbolisch}
       
-      
+      Da man in der Reihenentwicklung der $\beta$-Funktion davon ausgeht, 
+      dass höhere Ordnungen vernachlässigbar klein werden, kann man davon 
+      ausgehen, dass hyperbolische Fixpunkte der 
+      Ordnung $n$ auch für höhere Ordnungen hyperbolisch bleiben. Falls ein 
+      vollständig wechselwirkender Fixpunkt $(\alpha_1^*\neq 0,
+	 \alpha_2^*\neq 0)$ in Ordnung $n$ entweder $\left.\Sp \right|_*=0$ 
+	 oder $\left. \Det \right|_*=0$ ergibt, kann man davon ausgehen, dass 
+	 sich die Koeffizienten $X^k_{ij}$ zufällig aufheben und der Fixpunkt in 
+	 höherer Ordnung wieder hyperbolisch wird. Vollständig 
+	 wechselwirkende nicht-hyperbolische Fixpunkte können also als Folge 
+	 einer zu groben Berechnung der $\beta$-Funktion verstanden werden. 
+	 Es ist nicht klar, ob der Eigenvektor $e_i$ zum Eigenwert $\lambda_i=0$ 
+	 eine UV-attraktiven oder repulsiven Richtung entspricht, da sich dies 
+	 jedoch direkt auf die Dimension der kritischen Hyperfläche auswirkt ist 
+	 die Untersuchung solcher Fixpunkte nur bedingt sinnvoll.
 
     \subsubsection{nicht-hyperbolischer Fixpunkt}
 %       In dem Fall, dass bei $\alpha^*$ ein Eigenwert 
@@ -63,9 +77,51 @@
 % 	\quad ,
 %       \end{equation}
 %       wobei $\lambda_{+/-}|_*$ der verschwindende Eigenwert ist.
-	 Offensichtlich ist ein Fixpunkt $\alpha^*=(\alpha_1^*,0)$
+	 Ein teilweise wechselwirkender Fixpunkt, o.E. $\alpha^*=(\alpha_1^*,0)$,  
+	 führt zu der Stabilitätsmatrix 
+	 \begin{equation}
+	 \dbdafix = \begin{pmatrix}
+	          \sum\limits_{i=2}i (\alpha_1^*)^{i-1}  X^1_{i0} &
+	          \sum\limits_{i=2} (\alpha_1^*)^i  X^1_{i1}\\
+	          0&
+	          0
+	         \end{pmatrix} \quad . \label{eq:beta_im_R2:stab_matrix_0}
+	 \end{equation}
+	 Es folgt $e_1=(1,0)^\text{T}$ zu $\lambda_1 = \sum_{i=2}i 
+	 (\alpha_1^*)^{i-1}  X^1_{i0}$ und $e_2\propto(-(\sum_{i=2} (\alpha_1^*)^i  
+	 X^1_{i1} )/(\sum_{i=2}i (\alpha_1^*)^{i-1}  X^1_{i0}) ,1)^\text{T}$ 
+	 zu $\lambda_2=0$. Da in $\beta_2$ die Variable $\alpha_2$ in jedem Monom  
+	 mindestens zur zweiten Potenz auftaucht, ist dies für 
+	 beliebig hohe Ordnung zu erwarten, sodass hier ein alternatives Kriterium 
+	 für das UV-Verhalten des Fixpunktes gefunden werden muss.  
 
 
+	Zunächst wird \eqref{eq:beta_allgemein:beta_linear} um die zweite 
+	Ordnung der Taylorentwicklung ergänzt,
+     \begin{equation}
+     \beta_i(\alpha) \simeq \sum\limits_{m=1}^2 \left. \frac{\partial \beta_i
+     }{\partial
+      \alpha_m}\right|_* \left(\alpha_m-\alpha^*_m\right) + \frac12 
+      \sum\limits_{m,n=1}^2 
+       \left(\alpha_m-\alpha^*_m\right)
+      \left.\frac{\partial^2 \beta_i}{\partial\alpha_m \partial\alpha_n}
+      \right|_* \left(\alpha_n-\alpha^*_n\right) \quad ,
+     \end{equation}
+     oder in in vektorieller Schreibweise in der Basis der Eigenvektoren
+     \begin{equation}
+     \ddt (K_1e_1+K_2e_2)\simeq\dbdafix (K_1e_1+K_2e_2) +
+     (K_1e_1+K_2e_2) \cdot \left.\left(\nabla \dbda \right)\right|_*
+      (K_1e_1+K_2e_2) \quad .
+     \end{equation}
+     Sei nun wieder\footnote{An Gleichung \eqref{eq:beta_im_R2:stab_matrix_0} 
+     sieht man, dass beide Eigenwerte reell sind.} $\lambda_2=0$ und 
+     $\lambda_1\neq 0$. Auf $\Mc$ gilt 
+     \begin{itemize}
+     	\item $\lambda_1<0 \Rightarrow K(t)
+     		\overset{t\to \infty}{\longrightarrow} 0$
+     	\item $\lambda_1<0 \Rightarrow K(t) \equiv 0$
+	\end{itemize}
+	
       
   \subsection{Fixpunktextrapolation}
     Ein besonderer Vorteil einer Erweiterung $G \to G_1\times G_2$ ist die 

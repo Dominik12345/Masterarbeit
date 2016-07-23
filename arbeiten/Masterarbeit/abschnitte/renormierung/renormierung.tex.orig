@@ -1,0 +1,177 @@
+<<<<<<< HEAD
+\section{Renormierung und Running Coupling}
+=======
+\clearpage
+\section{Quantenfeldtheorie und Standardmodell}
+  In einer \textit{Quantenfeldtheorie (QFT)} werden physikalische Entitäten 
+  als Anregungszustände von Quantenfeldern 
+  verstanden. Ein Schlüssel zu den experimentell zugänglichen 
+  Wirkungsquerschnitten ist die Berechnung von \textit{Korrelatorfunktionen} 
+  oder \textit{$n$-Punkt Funktionen}
+  \begin{equation}
+   \Big\langle \textbf{T} \,\,\, \phi^{r_1}(x_1) \ldots \phi^{r_N}(x_N) 
+   \Big\rangle
+   =\frac{\int \mathcal{D}\phi \,\,\, \phi^{r_1}(x_1) \ldots \phi^{r_N}(x_N) 
+   \e^{\i S[\phi]}}{\int \mathcal{D}\phi \,\,\, \e^{\i S[\phi]} }
+   \label{renormierung:Korrelator_definition}
+  \end{equation}
+  im Pfadintegralformalismus von Feynman \cite{Schwartz}. Die Information über 
+  die möglichen 
+  physikalischen Prozesse der Quantenfelder $\phi$ 
+  ist dabei in dem Wirkungsfunktional $S$ bzw. der Lagrangedichte $\mathcal{L}$ 
+  enhalten, welche in einer $d$-Dimensionalen Raumzeit über 
+  \begin{equation}
+    S[\phi] = \int \d^d x \,\,\, \mathcal{L}(\phi,\partial \phi, t) 
+    \label{renormierung:Wirkung_definition}
+  \end{equation}
+  verknüpft sind \cite{Schwartz}. Die möglicherweise verschiedenartigen Felder  
+  $\phi^{r_i}$ können dabei in verschiedene Räume abbilden und somit 
+  Teilcheneigenschaften, insbesondere Transformationseigenschaften unter 
+  Eichsymmetrien, darstellen. 
+
+  \subsection{Das Standardmodell der Teilchenphysik}
+    Das SM ist eine QFT nach dem Prinzip, invariant unter bestimmten 
+    Symmetrietransformationen zu sein. Die Dynamik wird dabei durch die 
+    Eichgruppe $SU(3)\times SU(2)\times U(1)$ in \\der Lagrangedichte 
+    repräsentiert, sowie der Angabe, 
+    unter welcher Darstellung der Eichgruppe die Felder transformieren. 
+    Neben den postulierten Feldern der Quarks, Leptonen und des Higgs wird so 
+    die Existenz von Eichfeldern und Wechselwirkungen mit den übrigen Feldern 
+    gefordert, welche keine Singletts der entsprechenden Eichgruppe sind.
+
+    Im SM kennt man bisher sechs Quark-Flavour, \textit{up (u), down (d), 
+    charm (c), strange (s), top (t), }und \textit{bottom (b)}, die als 
+    Dirac-Fermionen in der Lagrangedichte auftauchen. Ebenfalls als 
+    Dirac-Fermionen werden die geladenen Leptonen, das \textit{Elektron 
+    ($\text{e}^-$)}, das \textit{Myon} ($\mu^-$) und das \textit{Tauon} 
+    ($\tau^-$) 
+    eingeführt. Die drei \textit{Neutrinos} $\nu_\text{e}$, $\nu_\mu$ und 
+    $\nu_\tau$ 
+    kommen dagegen ausschließlich als linkshändige Weyl-Spinoren vor, sodass 
+    sie im SM masselos sein müssen. Das einzige skalare Feld des SM ist 
+    das \textit{Higgs-Feld ($\phi$)}, welches im Higgsmechanismus für die 
+    Brechung der Symmetriegruppe verantwortlich ist.
+    
+    Als eine der fundamentalen Kräfte des SM beschreibt die 
+    \textit{Quantenchromodynamik (QCD)} die Wechselwirkungen 
+    zwischen Quarks, den Bausteinen der Hadronen, und den Gluonen, den 
+    Eichfeldern der QCD. Die mathematische Beschreibung erfolgt durch 
+    Darstellungen der $SU(3)$, bei der einem Quark $\psi^f$ mit Flavour $f$ ein 
+    Colour-Triplett $\psi = \left(\psi^f_1, \psi_2^f, \psi_3^f\right)^\text{T}$ 
+    zugeordnet wird. 
+    Außerdem folgt die Existenz von acht masselosen Gluonen, die mit Quarks und 
+    untereinander wechselwirken \cite{Ellis_Webber}. Eine genauere 
+    mathematische Beschreibung folgt in Abschnitt \ref{QCDxdQCD}. 
+    Charakteristisch für die QCD des SM ist die in Abbildung 
+    \ref{renormierung:fig:running_couplings} dargestellte Energieabhängigkeit 
+    der QCD Kopplungskonstanten. Der Landau-Pol bei $\Lambda_\text{QCD}$ ist 
+    dabei für die hadronische Bindung bei niedrigen Energien verantwortlich 
+    und somit insbesondere für die baryonische Massendichte $\Omega_\text{B}$ 
+    im Universum, während es bei hohen Energien gerade zum AF kommt.
+    
+    Die Symmetriegruppe $SU(2)\times U(1)$ beschreibt die Elektroschwache 
+    Wechselwirkung. In ihr werden die Wechselwirkungen zwischen  
+    linkshändigen Isospin-Dupletts 
+    \begin{equation}
+      \input{abschnitte/renormierung/linkshaendig.tex}
+    \end{equation}
+    über insgesamt vier Eichbosonen beschrieben. Durch den Higgsmechanismus 
+    wird die Symmetriegruppe zu einer $U(1)$ gebrochen, welche als 
+    Elektromagnetismus identifiziert werden kann. Als Eichbosonen der 
+    gebrochenen Symmetrie entstehen die massiven Bosonen $W^+$, $W^-$ und $Z$ 
+    sowie das masselose Photon.
+    
+    Im Higg-Sektor gibt es neben einem Potenzial $V[\phi]$ sogenannte 
+    Yukawa-Kopplungen der 
+    Form $Y_{ij} Q_L^i \phi q_R^j $
+    zwischen einem Isospin-Duplett $Q_L^i$, dem Higgsfeld $\phi$ und einem 
+    rechtshändigen Fermion $q_R^j$, mit der Kopplungsstärke $Y_{ij}$. Im 
+    Higgsmechanismus wird das 
+    Potenzial $V[\phi]$ minimiert und die $SU(2)\times U(1)$ Symmetrie 
+    unterhalb einer charakteristischen Energieskala gebrochen, was 
+    die Massenerzeugung der Teilchen und das Flavour-Mixing der Quarks zur 
+    Folge hat. \cite{PDG:Higgs}
+    
+    Da in dieser Arbeit wird eine Standardmodellerweiterung im QCD-Sektor 
+    untersucht werden soll, werden der Elektroschwache Sektor sowie der 
+    Higgs-Sektor nicht weiter Betrachtet. Die einzige Außnahme ist Abschnitt 
+    \ref{beta_im_SM}, in dem die $\beta$-Funktionen des Standardmodells 
+    vorgestellt werden.
+    
+    
+    
+
+    
+    
+  \subsection{Effektive Quantenwirkung und Gell-Mann-Low Gleichung}
+    Um das Hochenergieverhalten von Wechselwirkungen zu untersuchen, ist 
+    es sinnvoll die \textit{Quantenwirkung} $\Gamma$ einzuführen. Dazu werden 
+    nun die wichtigsten Punkte der Berechnung von Korrelationsfunktionen mit 
+    Hilfe von erzeugenden Funktionalen gezeigt\footnote{Für das Vorgehen beim 
+    reellen, skalaren Feld vgl. \cite{Zinn}, für die Erweiterung mit Fermionen 
+    vgl. \cite{Schwartz}.}.
+    
+    Der Einfachheit halber wird nun nur ein komplexes Fermionfeld $\psi$ und ein 
+    komplexes Skalarfeld $\phi$ betrachtet. Wegen der linearen Eigenschaften von 
+    \eqref{renormierung:Korrelator_definition} ist die Erweiterung auf mehrere 
+    Felder trivial. Lorentz- und Eichinvarianz der Lagrangedichte erfordern 
+    direkt die Einführung der Felder $\psibar$ und $\phistar$\footnote{Cite}. 
+    Das \textit{erzeugende Funktional} wird definiert als 
+    \begin{equation}
+    Z[J] := \int \mathcal{D}\Psi \,\,\, 
+    \e^{\i S[\Psi]+ 
+    \i 
+    \int \d^d x \, \left(J \cdot \Psi \right)}
+    \quad ,
+    \label{renormierung:erzeugendes_Funktional_definition} 
+    \end{equation}
+    dabei wurden die Ströme $\eta$, $\etabar$, $\zeta$ und $\zetastar$ und die 
+    Schreibweise $J=(\eta,\etabar,\zeta,\zetastar)^\text{T}$ und 
+    $\Psi=(\psibar,\psi,\phi^*,\phi)^\text{T}$
+    eingeführt. Eine Reihenentwicklung kann durch
+    \begin{equation}
+     Z[J] = \sum\limits_\alpha \frac{ \i^{|\alpha|}}{\alpha!}  
+     \int \d x_1 \ldots \d x_{|\alpha|} Z^{\alpha}(x_1,\ldots,x_{|\alpha|} )
+     J^\alpha (x) \label{renormierung:Reihenentwicklung}
+    \end{equation}
+    definiert werden, mit einem vierer 
+    Multiindex $\alpha=(\alpha_1,\alpha_2
+    ,\alpha_3,\alpha_4)$ und der Schreibweise 
+    \begin{equation}
+      J^\alpha=
+      \eta	(x_1)		\ldots \eta(x_{\alpha_1}) 	\,\,
+      \etabar(x_{\alpha_1 +1})	\ldots \etabar(x_{\alpha_1+\alpha_2})	\,\,
+      \zeta(x_{\alpha_1+\alpha_2 +1})	\ldots 
+      \zeta(x_{\alpha_1+\alpha_2+\alpha_3})	\,\,
+      \zetastar(x_{\alpha_1+\alpha_2+\alpha_3 +1})	\ldots 
+      \zetastar(x_{|\alpha|})   \quad .
+      \label{renormierung:Strom}
+    \end{equation}
+    Die Funktionen $Z^\alpha$ können über die Funktionalableitung 
+    \begin{equation}
+     Z^\alpha (y_1,\ldots , y_{|\alpha|}) \overset{
+     \eqref{renormierung:Reihenentwicklung}}{=} \left[
+      \frac{\partial}{\i^{|\alpha|}\partial J^\alpha(y)}\right]_{J=0} Z[J] 
+     \overset{\eqref{renormierung:erzeugendes_Funktional_definition}}{=} 
+     \int \mathcal{D}\Psi \,\,\, \Psi^\alpha(y) e^{\i S[\Psi]} 
+     \overset{\eqref{renormierung:Korrelator_definition}}{=} 
+     \Big\langle \textbf{T} \Psi^\alpha(y) \Big\rangle     
+    \end{equation}
+    als $n$-Punkt Funktionen verstanden werden. Zur Vereinfachung wurde dabei 
+    $\Psi^\alpha$ analog zu \eqref{renormierung:Strom} definiert und 
+    $Z[0]=0$ gesetzt.
+    
+    Mit der Definition des Funktionals $W[J] := \ln Z[J]$
+    und einer Reihenentwicklung wie in \eqref{renormierung:Reihenentwicklung} 
+    erhät man Funktionen $W^\alpha$, die die Cluster-Eigenschaft erfüllen
+    \cite{Zinn}. Sind $A$ und $B$ Ströme mit disjunkten Trägern\footnote{Dabei 
+    können $A$ und $B$ eine Zerlegung eines Stroms $J_i=A+B$ oder zwei 
+    verschiedene, z.B $A=\eta$, $B=\phi$ sein.} und $y_1\in\text{supp}A$, 
+    $y_2\in\text{supp}B$, dann müssen $W^\alpha(\ldots,y_1,\ldots,y_2,\ldots) 
+    \overset{||y_1-y_2||\to \infty}{\longrightarrow} 0 $. Aufgund dieser 
+    Eigenschaft ist $W[J]$ das erzeugende Funktional ver
+
+
+
+
+>>>>>>> b89d127fb3a050551728bdc1f0ca9ebcb38eceb3

@@ -17,6 +17,6 @@
 \contentsline {subsection}{\numberline {6.1}Stabilit\IeC {\"a}tsbedingungen}{14}{subsection.6.1}
 \contentsline {subsubsection}{\numberline {6.1.1}hyperbolischer Fixpunkt}{14}{subsubsection.6.1.1}
 \contentsline {subsubsection}{\numberline {6.1.2}nicht-hyperbolischer Fixpunkt}{15}{subsubsection.6.1.2}
-\contentsline {subsection}{\numberline {6.2}Fixpunktextrapolation}{15}{subsection.6.2}
-\contentsline {section}{\numberline {7}UV-Fixpunkte der $SU_\text {QCD}\times SU_\text {dQCD}$}{17}{section.7}
-\contentsline {section}{\nonumberline Literatur}{19}{section*.3}
+\contentsline {subsection}{\numberline {6.2}Fixpunktextrapolation}{16}{subsection.6.2}
+\contentsline {section}{\numberline {7}UV-Fixpunkte der $SU_\text {QCD}\times SU_\text {dQCD}$}{18}{section.7}
+\contentsline {section}{\nonumberline Literatur}{20}{section*.3}
