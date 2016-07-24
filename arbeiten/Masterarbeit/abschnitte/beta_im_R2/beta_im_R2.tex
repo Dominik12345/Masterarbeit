@@ -115,12 +115,23 @@
      \end{equation}
      Sei nun wieder\footnote{An Gleichung \eqref{eq:beta_im_R2:stab_matrix_0} 
      sieht man, dass beide Eigenwerte reell sind.} $\lambda_2=0$ und 
-     $\lambda_1\neq 0$. Auf $\Mc$ gilt 
+     $\lambda_1\neq 0$. Die DGL für $K_1$ kann in erster Ordnung gelöst 
+     werden, auf $\Mc$ gilt wieder 
      \begin{itemize}
      	\item $\lambda_1<0 \Rightarrow K(t)
-     		\overset{t\to \infty}{\longrightarrow} 0$
-     	\item $\lambda_1<0 \Rightarrow K(t) \equiv 0$
+     		\overset{t\to \infty}{\longrightarrow} 0$ ,
+     	\item $\lambda_1>0 \Rightarrow K(t) \equiv 0$ .
 	\end{itemize}
+	Wegen $\dbdafix e_2=0$ verschwindet die erste Ordnung in der DGL für 
+	$K_2(t)$, es bleibt die entkoppelte DGL
+	\begin{equation}
+		\ddt K_2(t) e_2 = K_2(t)^2 e_2 \cdot \begin{pmatrix}
+		\left[\frac{\partial}{\partial \alpha_1} \dbda \right]_* e_2 //
+		\left[\frac{\partial}{\partial \alpha_2} \dbda \right]_* e_2		
+		\end{pmatrix} \quad .
+	\end{equation}	 	
+	
+	
 	
       
   \subsection{Fixpunktextrapolation}
