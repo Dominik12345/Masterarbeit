@@ -19,4 +19,8 @@
 \contentsline {subsubsection}{\numberline {6.1.2}nicht-hyperbolischer Fixpunkt}{15}{subsubsection.6.1.2}
 \contentsline {subsection}{\numberline {6.2}Fixpunktextrapolation}{16}{subsection.6.2}
 \contentsline {section}{\numberline {7}UV-Fixpunkte der $SU_\text {QCD}\times SU_\text {dQCD}$}{18}{section.7}
-\contentsline {section}{\nonumberline Literatur}{20}{section*.3}
+\contentsline {subsection}{\numberline {7.1}UV-Verhalten bei $\alpha ^{*4}$}{19}{subsection.7.1}
+\contentsline {subsubsection}{\numberline {7.1.1}attraktiver Fixpunkt}{19}{subsubsection.7.1.1}
+\contentsline {subsubsection}{\numberline {7.1.2}Sattelpunkt}{20}{subsubsection.7.1.2}
+\contentsline {subsection}{\numberline {7.2}UV-Verhalten bei $\alpha ^{*3}$}{22}{subsection.7.2}
+\contentsline {section}{\nonumberline Literatur}{24}{section*.3}

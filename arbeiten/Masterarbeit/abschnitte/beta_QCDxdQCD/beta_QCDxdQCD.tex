@@ -1,16 +1,245 @@
 \clearpage
 \section{UV-Fixpunkte der $SU_\text{QCD}\times SU_\text{dQCD}$}
 
-  Die $\beta$-Funktion für eine $G_1 \times G_2$ Eichgruppe wurde in 
-  \cite{Jones} berechnet und 
-  hat die Form
+  Die allgemeinste Form der $\beta$-Funktion auf 2-loop Ordnung wurde von 
+  D.R.T. Jones berechnet \cite{Jones}.
+  Die $\beta$-Funktion hat die Form
   \begin{equation}
    \beta (g) = \begin{pmatrix}
                      X_1^g g_1^3 + Y_1^g g_1^5 + Z_1^g g_1^3 g_2^2 \\ 
                      X_2^g g_2^3 + Y_2^g g_2^5 + Z_2^g g_2^3 g_1^2 
-                    \end{pmatrix}\quad . \label{beta_QCDxdQCD:eq:beta_g}
+                    \end{pmatrix}\quad . \label{eq:beta_QCDxdQCD:beta_g}
   \end{equation}
-  Die Koeffizienten $X_1^g,\ldots,Z_2^g$ sind dabei nur von der Darstellung der 
-  Eichgruppe und den Teilchenzahlen abhängig. Es lassen sich jedoch schon aus 
-  der allgemeinen Form \eqref{beta_QCDxdQCD:eq:beta_g} Modellunabhängige 
-  Informationen gewinnen.
+  Für die Darstellungen $R_1$, $R_2$, $S_1$ und $S_2$ der Fermionen bzw. Skalare 
+  sind die Koeffizienten von $\beta_1$ gegeben durch 
+  \begin{align}
+   X_1^g &= (16 \uppi^2)^{-1}\left[ \frac{2}{3} T(R_1) d(R_2) + \frac{1}{3} 
+    T(S_1)d(S_2)-\frac{11}{3} C_2(G_1) \right] \\
+   Y_1^g &= (16 \uppi^2)^{-2} \left[ 
+    \left( 
+    \frac{10}{3} C_2(G_1)+2C_2(R_1)
+    \right) T(R_1) d(R_2) \right. \\
+     & \quad \quad \quad \quad \quad + \left. \left(
+    \frac{2}{3} C_2(G_1) +4C_2(S_1) 
+    \right)T(S_1) d(S_2)
+    -\frac{34}{3} C_2(G_1)^2
+    \right] \\
+   Z_1^g &= (16 \uppi^2)^{-2} \left[
+      2 C_2(R_2) d(R_2) T(R_1) +4C_2(S_2)d(S_2) T(S_1)
+    \right] \quad .
+  \end{align}
+  Die Berechnung ist dabei für chirale Fermionen geschehen, was einen 
+  zusätzlichen Faktor von $2$ in $d(R_1)$ und $d(R_2)$ bewirkt, wenn man sonst 
+  Dirac-Fermionen betrachtet. Außerdem wurde bei der Berechnung dieselben 
+  Darstellungen $R_1$ und $R_2$ bzw. $S_1$ und $S_2$ bezüglich $G_1$ und $G_2$ 
+  für alle Fermionen bzw. Skalare angenommen. Wenn Teilchen des QCD-, dQCD- und 
+  joint-Sektors verschiedene Darstellungen besitzen, müssen $d(R_1)$, $d(R_2)$, 
+  $d(S_1)$ und $d(S_2)$ angepasst werden. Am einfachsten und anschaulichsten 
+  geschiet dies über das Zeichnen von Feynmandiagrammen und abzählen der 
+  möglichen Teilchen, die im entsprechenden Diagramm erlaubt sind.
+
+%   
+%  DIAGRAMME
+%   
+  
+  Die ermittelten Koeffizienten stimmen mit denen in \cite{Scale_of_dark_QCD} 
+  überein. Mit $\Nfc := \nfc +\Nd \nfj$, $\Nsc := \nsc +\Nd \nsj$, 
+  $\Nfd := \nfd +\Nc \nfj$ und $\Nsd := \nsd +\Nc \nfj$ lassen sie sich 
+  schreiben als
+  \begin{align}
+   X_1^g &= (16 \uppi^2)^{-1} \left[
+    \frac{2}{3} \Nfc + \frac{1}{6} \Nsc - \frac{11}{3} \Nc \right] 
+    \label{eq:beta_QCDxdQCD:X1g} \\ 
+   Y_1^g &= (16 \uppi^2)^{-2} \left[ \left(\frac{13}{3}\Nc-\frac{1}{\Nc}\right)
+    \Nfc + \left( \frac{4}{3} \Nc -\frac{1}{\Nc}\right)\Nsc -\frac{34}{3}
+    \Nc^2\right] \label{eq:beta_QCDxdQCD:Y1g}\\
+   Z_1^g &= (16 \uppi^2)^{-2}\left[(\Nd^2-1)(\nfj + \nsj) \right] \quad .
+   \label{eq:beta_QCDxdQCD:Z1g}
+  \end{align}
+
+  Da beide Kopplungskonstanten in einer $4$-dimensionalen Raumzeit die 
+  Massendimension $[g_1]=[g_2]=0$ besitzen, werden die neuen 
+  Kopplungskonstanten $\alpha_i := \frac{g_i^2}{4 \uppi}$ 
+  eingeführt. Mit $X_i := 8\uppi X_i^g $, $Y_i := 32\uppi^2 Y_i^g $ und 
+  $Z_i := 32\uppi^2 Z_i^g $ folgt
+  \begin{equation}
+   \beta (g) = \begin{pmatrix}
+                     X_1 \alpha_1^2 + Y_1 \alpha_1^3 + Z_1 \alpha_1^2 \alpha_2\\ 
+                     X_2 \alpha_2^2 + Y_2 \alpha_2^3 + Z_2 \alpha_1 \alpha_2^2 
+                    \end{pmatrix} \label{eq:beta_QCDxdQCD:beta_alpha}
+  \end{equation}
+  und als Nullstellen findet man 
+  \begin{itemize}
+    \item den Gaußschen Fixpunkt $\alpha^{*1}=(0,0)$,
+    \item den teilweise wechselwirkenden Fixpunkt 
+	$\alpha^{*2}=\left(0,-\frac{X_2}{Y_2}\right)$ , falls $Y_2\neq 0$,
+    \item den teilweise wechselwirkenden Fixpunkt 
+	$\alpha^{*3}=\left(-\frac{X_1}{Y_1},0\right)$ , falls $Y_1\neq 0$,
+    \item den vollständig wechselwirkenden Fixpunkt 
+	$\alpha^{*4}=\left(\frac{Z_1X_2-X_1Y_2}{Y_1Y_2-Z_1Z_2},
+	\frac{X_1Z_2-Y_1X_2}{Y_1Y_2-Z_1Z_2}\right)$ .
+  \end{itemize}
+  An den Fixpunkten gilt außerdem 
+  \begin{equation}
+    \left. \Sp \right|_*=(\alpha_1^*)^2 Y_1+(\alpha_2^*)^2 Y_2
+    \quad
+    \text{sowie}
+    \quad
+    \left. \Det \right|_*=(\alpha_1^*\alpha_2^*)^2(Y_1Y_2-Z_1Z_2) \quad.
+    \label{eq:beta_QCDxdQCD:spur_determinante}
+  \end{equation}
+
+  
+  \subsection{UV-Verhalten bei $\alpha^{*4}$}
+    \subsubsection{attraktiver Fixpunkt}
+      Für komplett UV-attraktives Verhalten muss die Bedingung 
+      \begin{equation}
+      \alpha_1^* > 0 \quad \land \quad
+      \alpha_2^* > 0 \quad \land \quad
+      \left. \Det \right |_* > 0 \quad \land \quad 
+      \left. \Sp  \right |_*  < 0 \label{eq:beta_QCDxdQCD:alpha4}
+      \end{equation}
+      erfüllt sein. Es folgt 
+      \begin{itemize}
+      \item $Y_1>0 \land Y_2>0 \Rightarrow \blitz$ zu 
+	\eqref{eq:beta_QCDxdQCD:alpha4}
+      \item $Y_1<0 \land Y_2<0 \Rightarrow X_1>0 \lor X_2>0$
+      \item $Y_1$ und $Y_2$ haben verschiedene Vorzeichen $\Rightarrow$ 
+	$Z_1$ und $Z_2$ haben verschiedene Vorzeichen, d.h. genau ein $Z_i$ 
+	ist negativ.
+      \end{itemize}
+      Ohne Skalare, d.h. für $\Nsc=\Nsd=\nsj=0$ ist dies nicht möglich
+      \footnote{Hier nur für die Koeffizienten $X_1$, $Y_1$ und $Z_1$ gezeigt, 
+      für $1\leftrightarrow 2$ müssen nur $\text{c} \leftrightarrow \text{d}$ 
+      getauscht werden.}:
+      \begin{enumerate}
+       \item $Z_1<0$ ist nicht möglich (vgl. \eqref{eq:beta_QCDxdQCD:Z1g}),
+       \item Für $X_1>0 \land Y_1<0$ müsste
+        \begin{align}
+	 &X_1>0 \overset{\eqref{eq:beta_QCDxdQCD:X1g}}{\Rightarrow}
+	\Nfc>\frac{11}{2}\Nc \quad \land \quad 
+	Y_1<0 \overset{\eqref{eq:beta_QCDxdQCD:Y1g}}{\Rightarrow} 
+	\Nfc < \frac{34}{13-\frac{3}{\Nc^2}} \Nc \\
+	 &\Rightarrow \frac{11}{2}  < \frac{34}{13-\frac{3}{\Nc^2}} \quad 
+	 \blitz
+	\end{align}
+      \end{enumerate}
+      Das Einführen von Skalaren begünstigt $X_1 > 0$, erfordert aber 
+      $\Nc = 1$ oder $\Nd = 1$. Da die $SU(1)$ die Multiplikation mit Eins ist, 
+      ist dieser Fall uninteressant.
+      \begin{enumerate}
+       \item $Z_1<0$ ist auch mit Skalaren nicht möglich ,
+       \item Aus $X_1>0 \land Y_1<0$ mit Skalaren folgt
+        \begin{align}
+	 \Nfc &> \frac{11}{2} \Nc -\frac{1}{4} \Nsc \quad \land \quad
+	 \Nfc < \left[ \frac{34}{3} \Nc^2 -\left(\frac43 \Nc -\frac{1}{\Nc}
+	  \right) \Nsc \right] \left( \frac{13}{3}\Nc -\frac{1}{\Nc} 
+	  \right)^{-1} \\ \notag\\
+	  \Rightarrow & \left[ \left(\frac43 \Nc -\frac{1}{\Nc}\right)
+	   -\frac14 \left( \frac{13}{3}\Nc -\frac{1}{\Nc}\right)\right] \Nsc <
+	   \frac{34}{3} \Nc^2 -\frac{11}{2}\Nc \left( \frac{13}{3} \Nc-
+	   \frac{1}{\Nc} \right)
+	\end{align}
+	Für $\Nc = 1$ folgt die untere Grenze $\Nsc \geq 14$, für $\Nc\geq 2$ 
+	die obere Grenze $\Nsc \lessapprox -200$. 
+      \end{enumerate}
+      
+     \subsubsection{Sattelpunkt}
+      Am Sattelpunkt muss gelten
+      \begin{equation}
+      \alpha_1^* > 0 \quad \land \quad
+      \alpha_2^* > 0 \quad \land \quad
+      \left. \Det \right |_* < 0  \quad .
+      \label{eq:beta_QCDxdQCD:alpha4_Sattelpunkt}
+      \end{equation}
+      In Koeffizienten ausgedrückt bedeutet das 
+      \begin{equation}
+       Z_1 X_2 < X_1 Y_2 \quad \land \quad Z_2 X_1 < X_2 Y_1 \quad \land \quad 
+       Z_1 Z_2 > Y_1Y_2\quad , 
+       \label{eq:beta_QCDxdQCD:sattelpunkt}
+      \end{equation}
+      auch hier ist eine Fallunerscheidung nötig, zunächst wieder ohne 
+      Skalare.
+      \begin{enumerate}
+       \item $Y_1 > 0 \land Y_2 > 0$:
+	 \begin{enumerate}
+	  \item $X_1>0 \land X_2 >0$: Aus 
+	  \eqref{eq:beta_QCDxdQCD:sattelpunkt} folgt 
+	  \begin{equation}
+	  Z_1<\frac{X_1}{X_2} Y_2 \quad \land \quad Z_2 < \frac{X_2}{X_1} Y_1
+	  \quad\land\quad Z_1 Z_2 > Y_1 Y_2
+	  \end{equation}
+	  was jedoch nicht gleichzeitig möglich ist.
+	 \item $X_1<0 \land X_2<0$:
+	  Man erhält obere Begrenzungen für die Anzahl der joint-Fermionen 
+	  \begin{align}
+	   \nfc+\Nd \nfj < \Nc \quad\land\quad \text{c} \leftrightarrow\text{d}
+	   \\\Rightarrow
+	   \nfj^2 + \frac{\nfc}{\Nc}+\frac{11}{2}\frac{\nfc}{\Nc} < 
+	   \left( \frac{11}{2}\right)^2
+	    \quad\land\quad \text{c} \leftrightarrow\text{d} \quad .
+	  \end{align}
+	  Es gibt also eine allgemeine Obergrenze von $\nfj<\frac{11}{2}$.
+	  Das Einführen von weiteren Fermionen verschiebt die Grenze weiter 
+	  nach unten, für $\Nc=3$ und $\nfc = 6$ folgt $\nfj\leq 4$. Die 
+	  einzigen Lösungen, die Gleichzeitig zu sinnvollen Fixpunkten 
+	  führen sind
+	  \begin{equation}
+	   \Nc=3 \quad \Nd = 2 \quad \nfc =6 \quad 0\leq\nfd \leq 2 \quad 
+	   \nfj =1 \quad ,
+	  \end{equation}
+	  weitere Lösungen gibt es nur für $\nfc<6$ oder $\Nc>4$.
+	 \item $X_1<0 \land X_2 >0$:
+	  Dann müsst
+	  \begin{equation}
+	   \underbrace{Z_1 X_2}_{>0} < \underbrace{X_1 Y_2}_{<0} \quad 
+	   \blitz \quad ,
+	  \end{equation}
+	  dieser Fall kommt für physikalische Fixpunkte also nicht in Frage.
+	 \end{enumerate}
+	\item $Y_1 > 0 \land Y_2 < 0$:
+	  \begin{enumerate}
+	   \item $X_2>0$:
+	      Wie schon gezeigt ist $Y_2<0 \land X_2>0$ nicht möglich.
+	   \item $X_1>0 \land X_2<0$: Es kommt direkt zum Widerspruch, 
+	      \begin{equation}
+	       \underbrace{Z_2 X_1}_{>0} <\underbrace{ X_2 Y_1}_{<0} \quad 
+	       \blitz \quad .
+	      \end{equation}
+	   \item $X_1<0 \land X_2<0$:
+	      Auch hier erhält man eine Begrenzung für $\nfj$
+	      \begin{align}
+	        \nfc + \Nd \nfj<\frac{34}{13-\frac{3}{\Nc^2}} \Nc \quad
+	        \land \quad \nfd + \Nc \nfj < \frac{11}{2} \Nd \\
+	        \Rightarrow \nfj < \sqrt{\frac{11}{2} \frac{34}{13-
+	        \frac{3}{\Nc^2}} } \lessapprox 3,9 \quad .
+	      \end{align}
+	      Gleichzeitige Lösungen zu \eqref{eq:beta_QCDxdQCD:sattelpunkt} 
+	      mit $\Nc=3$ und $\nfc\geq 6$ gibt es nicht.
+	  \end{enumerate}
+	 \item $Y_1<0 \land Y_2<0$:
+	  \begin{enumerate}
+	   \item Ein $X_i>0$: Wieder ist $Y_i<0 \land X_i>0$ nicht möglich.
+	   \item $X_1<0 \land X_2 < 0$: Hier folgt
+	    \begin{align}
+	     \nfc + \Nd \nfj<\frac{34}{13-\frac{3}{\Nc^2}}  
+	        \quad \land \quad \text{c} \leftrightarrow \text{d} \\
+	     \Rightarrow \nfj< 
+	     \frac{34}{\sqrt{\left(13-\frac{1}{\Nc^2}\right)
+	     \left(13-\frac{1}{\Nc^2}\right)}} \lessapprox 2,7  \quad .  
+	    \end{align}
+	    Auch hier gibt es keine Lösungen, die nah am SM sind.
+	  \end{enumerate}
+      \end{enumerate}
+      
+      Die Flussdiagramme für die drei Standardmodell-artigen Sattelpunkte 
+      sind in den Abbildungen \ref{fig:beta_QCDxdQCD:Sattelpunkt1}, 
+      \ref{fig:beta_QCDxdQCD:Sattelpunkt2} und 
+      \ref{fig:beta_QCDxdQCD:Sattelpunkt3} zu sehen.
+
+
+      
+  \subsection{UV-Verhalten bei $\alpha^{*3}$}
+    Damit der 
+    An \eqref{eq:beta_QCDxdQCD:spur_determinante} erkennt man direkt 
+    $\left.\Det \right|_*=0$
