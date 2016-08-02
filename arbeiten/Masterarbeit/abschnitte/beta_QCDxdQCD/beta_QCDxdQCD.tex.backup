@@ -59,8 +59,10 @@
 
   Da beide Kopplungskonstanten in einer $4$-dimensionalen Raumzeit die 
   Massendimension $[g_1]=[g_2]=0$ besitzen, werden die neuen 
-  Kopplungskonstanten $\alpha_i := \frac{g_i^2}{4 \uppi}$ 
-  eingeführt. Mit $X_i := 8\uppi X_i^g $, $Y_i := 32\uppi^2 Y_i^g $ und 
+  Kopplungskonstanten $\alpha_i := \nicefrac{g_i^2}{4 \uppi}$ 
+  eingeführt. Die Bedingung $|g_i|<1$ für eine sinnvolle Störungstheorie lässt 
+  sich zu $\alpha_i<4\uppi$ übersetzen. Mit 
+  $X_i := 8\uppi X_i^g $, $Y_i := 32\uppi^2 Y_i^g $ und 
   $Z_i := 32\uppi^2 Z_i^g $ folgt
   \begin{equation}
    \beta (g) = \begin{pmatrix}
@@ -77,7 +79,7 @@
 	$\alpha^{*3}=\left(-\frac{X_1}{Y_1},0\right)$ , falls $Y_1\neq 0$,
     \item den vollständig wechselwirkenden Fixpunkt 
 	$\alpha^{*4}=\left(\frac{Z_1X_2-X_1Y_2}{Y_1Y_2-Z_1Z_2},
-	\frac{X_1Z_2-Y_1X_2}{Y_1Y_2-Z_1Z_2}\right)$ .
+	\frac{Z_2X_1-X_2Y_1}{Y_1Y_2-Z_1Z_2}\right)$ .
   \end{itemize}
   An den Fixpunkten gilt außerdem 
   \begin{equation}
@@ -91,30 +93,32 @@
 
   
   \subsection{UV-Verhalten bei $\alpha^{*4}$}
-    \subsubsection{attraktiver Fixpunkt}
-      Für komplett UV-attraktives Verhalten muss die Bedingung 
+    \subsubsection{attraktiver Fixpunkt}\label{beta_QCDxdQCD:fix4:UV}
+      Für komplett UV-attraktives Verhalten müssen die Bedingungen 
       \begin{equation}
       \alpha_1^* > 0 \quad \land \quad
       \alpha_2^* > 0 \quad \land \quad
       \left. \Det \right |_* > 0 \quad \land \quad 
       \left. \Sp  \right |_*  < 0 \label{eq:beta_QCDxdQCD:alpha4}
       \end{equation}
-      erfüllt sein. Es folgt 
-      \begin{itemize}
-      \item $Y_1>0 \land Y_2>0 \Rightarrow \blitz$ zu 
-	\eqref{eq:beta_QCDxdQCD:alpha4}
-      \item $Y_1<0 \land Y_2<0 \Rightarrow X_1>0 \lor X_2>0$
-      \item $Y_1$ und $Y_2$ haben verschiedene Vorzeichen $\Rightarrow$ 
-	$Z_1$ und $Z_2$ haben verschiedene Vorzeichen, d.h. genau ein $Z_i$ 
-	ist negativ.
-      \end{itemize}
-      Ohne Skalare, d.h. für $\Nsc=\Nsd=\nsj=0$ ist dies nicht möglich
-      \footnote{Hier nur für die Koeffizienten $X_1$, $Y_1$ und $Z_1$ gezeigt, 
-      für $1\leftrightarrow 2$ müssen nur $\text{c} \leftrightarrow \text{d}$ 
-      getauscht werden.}:
+      erfüllt sein, man kann jedoch zeigen, dass diese Bedingungen für die 
+      gewählte Darstellung nicht gleichzeitig wahr sein können. Dazu werden 
+      sie zunächst in den Koeffizienten geschrieben und mit 
+      \eqref{tab:beta_QCDxdQCD:Sattelpunkt} verglichen. Es bietet sich an, 
+      eine Fallunterscheidung in den Vorzeichen von $Y_1$ und $Y_2$ zu machen.
+      Es folgt 
       \begin{enumerate}
-       \item $Z_1<0$ ist nicht möglich (vgl. \eqref{eq:beta_QCDxdQCD:Z1g}),
-       \item Für $X_1>0 \land Y_1<0$ müsste
+      \item $Y_1>0 \land Y_2>0$: Dann ist $\left.\Sp\right|_*<0$ nicht 
+	möglich.
+      \item $Y_1<0 \land Y_2<0$: Für einen physikalischen Fixpunkt 
+	muss 
+	\begin{equation}
+	 Z_1 X_2 > X_1 Y_2 \quad \land \quad Z_2 X_1 > Y_1 X_2 
+	 \label{eq:beta_QCDxdQCD:4UV}
+	 \quad .
+	\end{equation}
+	Wie an \eqref{eq:beta_QCDxdQCD:Z1g} zu sehen ist, müssen beide $Z_i>0$ 
+	sein, dann folgt, dass $X_i>0$ ist. Die Rechnung ohne Skalare ergibt 
         \begin{align}
 	 &X_1>0 \overset{\eqref{eq:beta_QCDxdQCD:X1g}}{\Rightarrow}
 	\Nfc>\frac{11}{2}\Nc \quad \land \quad 
@@ -123,13 +127,10 @@
 	 &\Rightarrow \frac{11}{2}  < \frac{34}{13-\frac{3}{\Nc^2}} \quad 
 	 \blitz
 	\end{align}
-      \end{enumerate}
-      Das Einführen von Skalaren begünstigt $X_1 > 0$, erfordert aber 
-      $\Nc = 1$ oder $\Nd = 1$. Da die $SU(1)$ die Multiplikation mit Eins ist, 
-      ist dieser Fall uninteressant.
-      \begin{enumerate}
-       \item $Z_1<0$ ist auch mit Skalaren nicht möglich ,
-       \item Aus $X_1>0 \land Y_1<0$ mit Skalaren folgt
+	Das Einführen von Skalaren begünstigt $X_1 > 0$, ist aber mathematisch 
+	nur für $\Nc=1$ oder $\Nd =1$ möglich. Da die $SU(1)$ die 
+	Multiplikation mit Eins ist, 
+        ist dieser Fall uninteressant.
         \begin{align}
 	 \Nfc &> \frac{11}{2} \Nc -\frac{1}{4} \Nsc \quad \land \quad
 	 \Nfc < \left[ \frac{34}{3} \Nc^2 -\left(\frac43 \Nc -\frac{1}{\Nc}
@@ -141,54 +142,68 @@
 	   \frac{1}{\Nc} \right)
 	\end{align}
 	Für $\Nc = 1$ folgt die untere Grenze $\Nsc \geq 14$, für $\Nc\geq 2$ 
-	die obere Grenze $\Nsc \lessapprox -200$. 
+	die obere Grenze $\Nsc \lessapprox -200$, es gibt also keine 
+	physikalisch sinnvolle Lösung. 
+      \item $Y_1$ und $Y_2$ haben verschiedene Vorzeichen: Damit 
+      $\left.\Det\right|_*>0$ ist muss es ein $Z_i<0$ geben, was in der 
+      gewählten Darstellung \eqref{tab:beta_QCDxdQCD:Sattelpunkt} nicht 
+      möglich ist.
       \end{enumerate}
       
-     \subsubsection{Sattelpunkt}
-      Am Sattelpunkt muss gelten
+      Für Fermionen und Skalare in der fundamentalen Darstellung der 
+      $SU(\Nc)\times SU(\Nd)$ muss demnach $\dim \Mc \leq 1 $.
+      
+     \subsubsection{Sattelpunkt}\label{beta_QCDxdQCD:fix4:Sattelpunkt}
+      Am physikalischen Sattelpunkt muss gelten
       \begin{equation}
       \alpha_1^* > 0 \quad \land \quad
       \alpha_2^* > 0 \quad \land \quad
-      \left. \Det \right |_* < 0  \quad .
+      \left. \Det \right |_* < 0  \quad ,
       \label{eq:beta_QCDxdQCD:alpha4_Sattelpunkt}
       \end{equation}
-      In Koeffizienten ausgedrückt bedeutet das 
+      in Koeffizienten ausgedrückt bedeutet das 
       \begin{equation}
        Z_1 X_2 < X_1 Y_2 \quad \land \quad Z_2 X_1 < X_2 Y_1 \quad \land \quad 
-       Z_1 Z_2 > Y_1Y_2\quad , 
+       Z_1 Z_2 > Y_1Y_2\quad .
        \label{eq:beta_QCDxdQCD:sattelpunkt}
       \end{equation}
-      auch hier ist eine Fallunerscheidung nötig, zunächst wieder ohne 
-      Skalare.
+      Auch hier wird wieder eine Fallunterscheidung in den Vorzeichen der 
+      Koeffizienten hilfreich, da so einige Fälle bereits 
+      darstellungsunabhängig ausgeschlossen werden können.
+      
       \begin{enumerate}
        \item $Y_1 > 0 \land Y_2 > 0$:
 	 \begin{enumerate}
-	  \item $X_1>0 \land X_2 >0$: Aus 
+	  \item $X_1>0 \land X_2 >0$: Aus  
 	  \eqref{eq:beta_QCDxdQCD:sattelpunkt} folgt 
 	  \begin{equation}
 	  Z_1<\frac{X_1}{X_2} Y_2 \quad \land \quad Z_2 < \frac{X_2}{X_1} Y_1
 	  \quad\land\quad Z_1 Z_2 > Y_1 Y_2
 	  \end{equation}
 	  was jedoch nicht gleichzeitig möglich ist.
-	 \item $X_1<0 \land X_2<0$:
+	 \item $X_1<0 \land X_2<0$: \label{Fall1b}
 	  Man erhält obere Begrenzungen für die Anzahl der joint-Fermionen 
 	  \begin{align}
 	   \nfc+\Nd \nfj < \Nc \quad\land\quad \text{c} \leftrightarrow\text{d}
 	   \\\Rightarrow
-	   \nfj^2 + \frac{\nfc}{\Nc}+\frac{11}{2}\frac{\nfc}{\Nc} < 
+	   \nfj^2 + \nfj\frac{\nfd}{\Nc}+\frac{11}{2}\frac{\nfc}{\Nc} < 
 	   \left( \frac{11}{2}\right)^2
 	    \quad\land\quad \text{c} \leftrightarrow\text{d} \quad .
+	    \label{eq:beta_QCDxdQCD:Sattelpunkt1b}
 	  \end{align}
-	  Es gibt also eine allgemeine Obergrenze von $\nfj<\frac{11}{2}$.
+	  Es gibt also eine allgemeine Obergrenze von $\nfj<\frac{11}{2}$, 
+	  die für die Grenzfälle $\nfc=0$ und $\nfd=0$ oder $\Nc\to\infty$
+	  und gleichzeitig $\Nd \to \infty$ erreicht wird. 
 	  Das Einführen von weiteren Fermionen verschiebt die Grenze weiter 
-	  nach unten, für $\Nc=3$ und $\nfc = 6$ folgt $\nfj\leq 4$. Die 
-	  einzigen Lösungen, die Gleichzeitig zu sinnvollen Fixpunkten 
+	  nach unten, für eine SM-QCD mit $\Nc=3$ und $\nfc = 6$ folgt 
+	  $\nfj\leq 4$. Die 
+	  einzigen Lösungen, die gleichzeitig zu sinnvollen Fixpunkten 
 	  führen sind
 	  \begin{equation}
 	   \Nc=3 \quad \Nd = 2 \quad \nfc =6 \quad 0\leq\nfd \leq 2 \quad 
 	   \nfj =1 \quad ,
 	  \end{equation}
-	  weitere Lösungen gibt es nur für $\nfc<6$ oder $\Nc>4$.
+	  weitere Lösungen gibt es nur für $\nfc<6$ oder $\Nc>3$.
 	 \item $X_1<0 \land X_2 >0$:
 	  Dann müsst
 	  \begin{equation}
@@ -206,7 +221,7 @@
 	       \underbrace{Z_2 X_1}_{>0} <\underbrace{ X_2 Y_1}_{<0} \quad 
 	       \blitz \quad .
 	      \end{equation}
-	   \item $X_1<0 \land X_2<0$:
+	   \item $X_1<0 \land X_2<0$: \label{Fall2c}
 	      Auch hier erhält man eine Begrenzung für $\nfj$
 	      \begin{align}
 	        \nfc + \Nd \nfj<\frac{34}{13-\frac{3}{\Nc^2}} \Nc \quad
@@ -215,29 +230,101 @@
 	        \frac{3}{\Nc^2}} } \lessapprox 3.9 \quad .
 	      \end{align}
 	      Gleichzeitige Lösungen zu \eqref{eq:beta_QCDxdQCD:sattelpunkt} 
-	      gibt es nicht.
+	      mit $\Nc=3$ und $\nfc\geq 6$ gibt es nicht.
 	  \end{enumerate}
 	 \item $Y_1<0 \land Y_2<0$:
 	  \begin{enumerate}
 	   \item Ein $X_i>0$: Wieder ist $Y_i<0 \land X_i>0$ nicht möglich.
-	   \item $X_1<0 \land X_2 < 0$: Hier folgt
-	    \begin{equation}
+	   \item $X_1<0 \land X_2 < 0$: Hier folgt \label{Fall3b}
+	    \begin{align}
 	     \nfc + \Nd \nfj<\frac{34}{13-\frac{3}{\Nc^2}}  
-	        \quad \land \quad \text{c} \leftrightarrow \text{d}
-	    \end{equation}
-
-	    
+	        \quad \land \quad \text{c} \leftrightarrow \text{d} \\
+	     \Rightarrow \nfj< 
+	     \frac{34}{\sqrt{\left(13-\frac{1}{\Nc^2}\right)
+	     \left(13-\frac{1}{\Nc^2}\right)}} \lessapprox 2.7  \quad .  
+	    \end{align}
+	    Auch hier gibt es keine Lösungen, die nahe am SM sind.
 	  \end{enumerate}
-
       \end{enumerate}
-      Die Flussdiagramme für die drei Standardmodell-artigen Sattelpunkte 
-      sind in den Abbildungen \ref{fig:beta_QCDxdQCD:Sattelpunkt1}, 
-      \ref{fig:beta_QCDxdQCD:Sattelpunkt2} und 
-      \ref{fig:beta_QCDxdQCD:Sattelpunkt3} zu sehen.
+      Insgesamt lässt sich feststellen, dass es in allen Fällen Obergrenzen 
+      $\nfj\lessapprox 5$  für die Anzahl der joint-Fermionen gibt, und durch 
+      das Einführen von QCD- und dQCD-Fermionen wird diese Grenze weiter nach 
+      unten verschoben.
+      
+      \input{abschnitte/beta_QCDxdQCD/fig/Sattelpunkte_ohne_Skalare.tex}
+      
+      Der einzige Fall, der in der skalarfreien Theorie physikalische 
+      Sattelpunkte bringt, ist \ref{Fall1b}. Exemplarisch ist 
+      das Flussdiagramm für $\nfj=2$ in Abbildung
+      \ref{fig:beta_QCDxdQCD:Sattelpunkt1} zu sehen. Alle drei Fixpunkte 
+      liegen, wie in Tabelle \ref{tab:beta_QCDxdQCD:Sattelpunkt} zu sehen, 
+      weit im nicht-perturbativen Bereich. Nicht-perturbative 
+      $SU(N)$ Dynamiken können mit einem Veneziano-limit behandelt werden 
+      \cite{Jarvinen:2011qe}\cite{Asymptotic_safety_guaranteed}, bei dem der 
+      Grenzfall $N \to \infty , N_\text{f} \to \infty,\nicefrac{N}{N_\text{f}} 
+      <\infty,g^2 N\to 0$ betrachtet wird \cite{VENEZIANO1979213}. Wie im 
+      Folgenden gezeigt wird, ist es mit Skalaren jedoch möglich perturbative 
+      Fixpunkte zu erhalten, ohne von den Standardmodell Werten $\Nc=3$ und 
+      $\nfc=6$ abweichen zu müssen. 
+      
 
+      An den Koeffizienten \eqref{eq:beta_QCDxdQCD:X1g} und 
+      \eqref{eq:beta_QCDxdQCD:Y1g} sieht man, dass Skalare qualitativ den 
+      gleichen Einfluss auf die $\beta$-Funktion wie Fermionen haben, 
+      jedoch um einen Faktor $3$-$4$ kleiner, es ist also zu erwarten, dass 
+      die Grenzen für die Anzahl der joint-Skalare um einen 
+      entsprechenden Faktor höher liegen.
+%       Zunächst wird Fall \ref{Fall1b} um Skalare erweitert, eine obere Grenze 
+%       für die Teilchenzahl erhält man wieder aus $X_1<0 \land X_2<0$. Da 
+%       Skalare in die Koeffizienten $X_i$ genau mit einem Faktor $4$ relativ 
+%       zu den Fermionen eingehen, kann \eqref{eq:beta_QCDxdQCD:Sattelpunkt1b} 
+%       leicht für Skalare vereinfacht werden,
+%       \begin{equation}
+%        \left(\nfj+\frac{1}{4} \nsj \right)^2 + \left( \nfj+\frac{1}{4}\nsj 
+%        \right) \left( \nfd +\frac14 \nsd \right)\frac1\Nc 
+%        + \frac{11}{2} \left(\nfc+\frac14 \nsc \right)\frac1\Nc < 
+%        \left( \frac{11}{2} \right)^2 \quad \land \quad \text{c}\leftrightarrow
+%        \text{d} \quad.
+%       \end{equation}
+      \input{abschnitte/beta_QCDxdQCD/tab/Sattelpunkt_mit_Skalaren.tex}
+      \input{abschnitte/beta_QCDxdQCD/fig/Sattelpunkte_mit_Skalaren.tex}
+      Einige mögliche Standardmodell nahe Teilchenzahlen sind in Tabelle 
+      \ref{tab:QCDxdQCD:Sattelpunkt_mit_Skalaren} zu sehen. 
+      In Abbildung \ref{fig:beta_QCDxdQCD:Fix4_mit_Skalaren} ist außerdem 
+      der Fixpunkt $\alpha^{*4}$ für $1\leq \nsd \leq 5$ und sinnvolle $\nsj$ 
+      dargestellt. Hier ist erkennbar, dass $\alpha^{*4}$ betragsmäßtig kleiner 
+      wird, je mehr joint-Skalare eingeführt werden.
+      
+      Um einen vollständig wechselwirkenden UV-Fixpunkt zu erhalten, der mit 
+      Methoden der Störungstheorie behandelt werden kann, ist es demnach 
+      nötig skalare Teilchen im joint-Sektor einzuführen. 
 
       
+      
   \subsection{UV-Verhalten bei $\alpha^{*3}$}
-    Damit der 
-    An \eqref{eq:beta_QCDxdQCD:spur_determinante} erkennt man direkt 
-    $\left.\Det \right|_*=0$
+%     Damit der 
+    Da der Fixpunkt $\alpha^{*3}=(-X_1 Y_1^{-1},0)$ ein teilweise 
+    wechselwirkender Fixpunkt ist, 
+    muss hier das in \ref{beta_im_R2:nicht-hyperbolischer_Fixpunkt} 
+    beschriebene Stabilitätskriterium angewendet werden. Zunächst kann aber 
+    einfach gezeigt werden, dass dieser Fixpunkt nicht in jede Richtung 
+    UV-attraktiv sein kann.
+    
+    Damit $\alpha^*_1=-X_1 Y_1^{-1} > 0$, muss $X_1<0$ und $Y_1>0$. Es wurde 
+    in \ref{beta_QCDxdQCD:fix4:UV} gezeigt, das die umgekehrte Vorzeichenwahl 
+    physikalisch nicht sinnvoll ist. Gleichung 
+    \eqref{eq:beta_im_R2:stab_matrix_0} zeigt nun 
+    $\lambda_1=(\alpha^*_1)^2Y_1 > 0$ zu $e_1=(1,0)^\text{T}$, folglich muss 
+    die $\alpha_1$-Achse UV-repulsiv bezüglich $\alpha^{*3}$ sein. 
+    
+    Am Fixpunkt ergibt sich aus \eqref{eq:beta_im_R2:stab_matrix_0} und 
+    \eqref{eq:beta_im_R2:lambda} 
+    \begin{equation}
+     \lambda_2=0 \quad e_2=\begin{pmatrix}
+                            -Z_1 Y_1 \\ 1
+                           \end{pmatrix}
+
+    \end{equation}
+
+    Eigenvektor zu $\lambda_2=0$ ist $e_2=(-Z_1 Y_1,1)^\text{T}$ 
+    

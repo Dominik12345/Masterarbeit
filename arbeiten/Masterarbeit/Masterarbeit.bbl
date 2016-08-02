@@ -52,6 +52,11 @@ S.W. Hawking and W.~Israel.
 \newblock {\em General Relativity; an Einstein Centenary Survey}.
 \newblock Cambridge University Press, 1979.
 
+\bibitem{Jarvinen:2011qe}
+Matti Jarvinen and Elias Kiritsis.
+\newblock {Holographic Models for QCD in the Veneziano Limit}.
+\newblock {\em JHEP}, 03:002, 2012.
+
 \bibitem{Jones}
 D.~R.~T. Jones.
 \newblock Two-loop $\ensuremath{\beta}$ function for a
@@ -68,6 +73,11 @@ M.D. Schwartz.
 \newblock {\em Quantum Field Theory and the Standard Model}.
 \newblock Quantum Field Theory and the Standard Model. Cambridge University
   Press, 2014.
+
+\bibitem{VENEZIANO1979213}
+G.~Veneziano.
+\newblock U(1) without instantons.
+\newblock {\em Nuclear Physics B}, 159(1):213 -- 224, 1979.
 
 \bibitem{Weinberg:1976}
 S.~Weinberg.

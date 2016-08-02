@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.9)  28 JUL 2016 17:32
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.9)  2 AUG 2016 16:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -513,6 +513,9 @@ Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
 LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
 (Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
 )
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen114
+)
 (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2004/08/06 v2.20
 \thm@style=\toks21
@@ -532,8 +535,8 @@ Package: mathtools 2013/02/12 v1.13 mathematical typesetting tools
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count103
 \calc@Bcount=\count104
-\calc@Adimen=\dimen114
-\calc@Bdimen=\dimen115
+\calc@Adimen=\dimen115
+\calc@Bdimen=\dimen116
 \calc@Askip=\skip55
 \calc@Bskip=\skip56
 LaTeX Info: Redefining \setlength on input line 76.
@@ -547,14 +550,14 @@ Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \g_MT_multlinerow_int=\count106
-\l_MT_multwidth_dim=\dimen116
+\l_MT_multwidth_dim=\dimen117
 \origjot=\skip58
-\l_MT_shortvdotswithinadjustabove_dim=\dimen117
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen118
-\l_MT_above_intertext_sep=\dimen119
-\l_MT_below_intertext_sep=\dimen120
-\l_MT_above_shortintertext_sep=\dimen121
-\l_MT_below_shortintertext_sep=\dimen122
+\l_MT_shortvdotswithinadjustabove_dim=\dimen118
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen119
+\l_MT_above_intertext_sep=\dimen120
+\l_MT_below_intertext_sep=\dimen121
+\l_MT_above_shortintertext_sep=\dimen122
+\l_MT_below_shortintertext_sep=\dimen123
 )
 (/usr/share/texlive/texmf-dist/tex/latex/units/units.sty
 Package: units 1998/08/04 v0.9b Typesetting units
@@ -880,35 +883,35 @@ File: ts1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/german/ngerman.sty v2.5e 1998-07-08
 Package: ngerman 1998/07/08 v2.5e Support for writing german texts (br)
-\grmnU@D=\dimen123
+\grmnU@D=\dimen124
 ngerman -- \language number for naustrian undefined, default 44 used.
 ) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip62
-\enit@outerparindent=\dimen124
+\enit@outerparindent=\dimen125
 \enit@toks=\toks29
 \enit@inbox=\box29
 \enitdp@description=\count107
 )
 (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen125
-\lightrulewidth=\dimen126
-\cmidrulewidth=\dimen127
-\belowrulesep=\dimen128
-\belowbottomsep=\dimen129
-\aboverulesep=\dimen130
-\abovetopsep=\dimen131
-\cmidrulesep=\dimen132
-\cmidrulekern=\dimen133
-\defaultaddspace=\dimen134
+\heavyrulewidth=\dimen126
+\lightrulewidth=\dimen127
+\cmidrulewidth=\dimen128
+\belowrulesep=\dimen129
+\belowbottomsep=\dimen130
+\aboverulesep=\dimen131
+\abovetopsep=\dimen132
+\cmidrulesep=\dimen133
+\cmidrulekern=\dimen134
+\defaultaddspace=\dimen135
 \@cmidla=\count108
 \@cmidlb=\count109
-\@aboverulesep=\dimen135
-\@belowrulesep=\dimen136
+\@aboverulesep=\dimen136
+\@belowrulesep=\dimen137
 \@thisruleclass=\count110
 \@lastruleclass=\count111
-\@thisrulewidth=\dimen137
+\@thisrulewidth=\dimen138
 )
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
@@ -959,7 +962,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen138
+\@linkdim=\dimen139
 \Hy@linkcounter=\count112
 \Hy@pagecounter=\count113
 
@@ -987,10 +990,10 @@ Package hyperref Info: Bookmarks ON on input line 4688.
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen139
+\XeTeXLinkMargin=\dimen140
 \Fld@menulength=\count116
-\Field@Width=\dimen140
-\Fld@charsize=\dimen141
+\Field@Width=\dimen141
+\Fld@charsize=\dimen142
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -1074,13 +1077,13 @@ LaTeX Font Info:    ... okay on input line 13.
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count123
-\scratchdimen=\dimen142
+\scratchdimen=\dimen143
 \scratchbox=\box30
 \nofMPsegments=\count124
 \nofMParguments=\count125
 \everyMPshowfont=\toks30
 \MPscratchCnt=\count126
-\MPscratchDim=\dimen143
+\MPscratchDim=\dimen144
 \MPnumerator=\count127
 \makeMPintoPDFobject=\count128
 \everyMPtoPDFconversion=\toks31
@@ -1115,8 +1118,8 @@ File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
-\Gin@req@height=\dimen144
-\Gin@req@width=\dimen145
+\Gin@req@height=\dimen145
+\Gin@req@width=\dimen146
 )
 \AtBeginShipoutBox=\box31
 Package hyperref Info: Link coloring OFF on input line 13.
@@ -1404,78 +1407,96 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 ]
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 93.
+(Font)              scaled to size 11.03998pt on input line 95.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 93.
+(Font)              scaled to size 6.43999pt on input line 95.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 93.
+(Font)              scaled to size 11.03998pt on input line 95.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 93.
+(Font)              scaled to size 6.43999pt on input line 95.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 93.
+(hyperref)                removing `math shift' on input line 95.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 93.
+(hyperref)                removing `\alpha' on input line 95.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 93.
+(hyperref)                removing `superscript' on input line 95.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 93.
+(hyperref)                removing `math shift' on input line 95.
 
-LaTeX Font Info:    Try loading font information for U+mvs on input line 104.
+
+LaTeX Warning: Reference `tab:beta_QCDxdQCD:Sattelpunkt' on page 19 undefined o
+n input line 107.
+
+LaTeX Font Info:    Try loading font information for U+mvs on input line 129.
 (/usr/share/texlive/texmf-dist/tex/latex/marvosym/umvs.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-mvs.cfg
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
-) [19] [20]
-[21]
+) [19]
 
-LaTeX Warning: Reference `fig:beta_QCDxdQCD:Sattelpunkt1' on page 22 undefined 
-on input line 237.
+LaTeX Warning: Reference `tab:beta_QCDxdQCD:Sattelpunkt' on page 20 undefined o
+n input line 149.
 
+[20] [21] (./abschnitte/beta_QCDxdQCD/fig/Sattelpunkte_ohne_Skalare.tex
+<abschnitte/beta_QCDxdQCD/fig/RG_flow3_2_6_0_2_0_1_0.png, id=442, 578.16pt x 43
+3.62pt>
+File: abschnitte/beta_QCDxdQCD/fig/RG_flow3_2_6_0_2_0_1_0.png Graphic file (typ
+e png)
+ <use abschnitte/beta_QCDxdQCD/fig/RG_flow3_2_6_0_2_0_1_0.png>
+Package pdftex.def Info: abschnitte/beta_QCDxdQCD/fig/RG_flow3_2_6_0_2_0_1_0.pn
+g used on input line 5.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+)
 
-LaTeX Warning: Reference `fig:beta_QCDxdQCD:Sattelpunkt2' on page 22 undefined 
-on input line 238.
+LaTeX Warning: Reference `tab:beta_QCDxdQCD:Sattelpunkt' on page 22 undefined o
+n input line 260.
 
+(./abschnitte/beta_QCDxdQCD/tab/Sattelpunkt_mit_Skalaren.tex)
+(./abschnitte/beta_QCDxdQCD/fig/Sattelpunkte_mit_Skalaren.tex
+<abschnitte/beta_QCDxdQCD/fig/Fix4_mit_Skalaren.pdf, id=451, 817.0525pt x 510.9
+0875pt>
+File: abschnitte/beta_QCDxdQCD/fig/Fix4_mit_Skalaren.pdf Graphic file (type pdf
+)
+ <use abschnitte/beta_QCDxdQCD/fig/Fix4_mit_Skalaren.pdf>
+Package pdftex.def Info: abschnitte/beta_QCDxdQCD/fig/Fix4_mit_Skalaren.pdf use
+d on input line 4.
+(pdftex.def)             Requested size: 408.52525pt x 255.45375pt.
+) [22] [23 <./abschnitte/beta_QCDxdQCD/fig/RG_flow3_2_6_0_2_0_1_0.png>]
 
-LaTeX Warning: Reference `fig:beta_QCDxdQCD:Sattelpunkt3' on page 22 undefined 
-on input line 239.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 304.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 243.
+(hyperref)                removing `\alpha' on input line 304.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 243.
+(hyperref)                removing `superscript' on input line 304.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 243.
+(hyperref)                removing `math shift' on input line 304.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 243.
-
-) (./abschnitte/Appendix/Zeichenerklaerung.tex [22]) [23
-
-] (./Masterarbeit.bbl
-[24
+[24 <./abschnitte/beta_QCDxdQCD/fig/Fix4_mit_Skalaren.pdf>]) [25]
+(./Masterarbeit.bbl [26
 
 ])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 49.
- [25]
+ [27]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 49.
  (./Masterarbeit.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 49.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 49.
 Package rerunfilecheck Info: File `Masterarbeit.out' has not changed.
-(rerunfilecheck)             Checksum: CA70CC1131F0FB1A1B01686BAB4314AF;1855.
+(rerunfilecheck)             Checksum: 583C3E48D045F0ADC823C01BD9F94A4D;1855.
 
 
 LaTeX Warning: There were undefined references.
@@ -1483,13 +1504,13 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 49.
  ) 
 Here is how much of TeX's memory you used:
- 12678 strings out of 493304
- 194264 string characters out of 6139871
- 335308 words of memory out of 5000000
- 15472 multiletter control sequences out of 15000+600000
+ 12736 strings out of 493304
+ 196289 string characters out of 6139871
+ 336212 words of memory out of 5000000
+ 15511 multiletter control sequences out of 15000+600000
  164228 words of font info for 258 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 49i,14n,71p,316b,592s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,14n,71p,316b,596s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/share/texmf/fonts/
 enc/dvips/tex-gyre/q-ec.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base
 /8r.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texlive/texm
@@ -1507,10 +1528,10 @@ ve/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/adobe/utopia/putri8a.pfb></usr/share/texmf/fonts/type1/public/tex
 -gyre/qplb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplr.pfb></usr/sha
 re/texmf/fonts/type1/public/tex-gyre/qplri.pfb>
-Output written on Masterarbeit.pdf (25 pages, 264766 bytes).
+Output written on Masterarbeit.pdf (27 pages, 388112 bytes).
 PDF statistics:
- 568 PDF objects out of 1000 (max. 8388607)
- 497 compressed objects within 5 object streams
- 172 named destinations out of 1000 (max. 500000)
- 21713 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 601 PDF objects out of 1000 (max. 8388607)
+ 524 compressed objects within 6 object streams
+ 177 named destinations out of 1000 (max. 500000)
+ 21723 words of extra memory for PDF output out of 24883 (max. 10000000)
 
