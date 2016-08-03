@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.9)  2 AUG 2016 16:34
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.9)  3 AUG 2016 17:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1431,21 +1431,13 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 95.
 
-
-LaTeX Warning: Reference `tab:beta_QCDxdQCD:Sattelpunkt' on page 19 undefined o
-n input line 107.
-
 LaTeX Font Info:    Try loading font information for U+mvs on input line 129.
 (/usr/share/texlive/texmf-dist/tex/latex/marvosym/umvs.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-mvs.cfg
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
-) [19]
-
-LaTeX Warning: Reference `tab:beta_QCDxdQCD:Sattelpunkt' on page 20 undefined o
-n input line 149.
-
-[20] [21] (./abschnitte/beta_QCDxdQCD/fig/Sattelpunkte_ohne_Skalare.tex
-<abschnitte/beta_QCDxdQCD/fig/RG_flow3_2_6_0_2_0_1_0.png, id=442, 578.16pt x 43
+) [19] [20]
+[21] (./abschnitte/beta_QCDxdQCD/fig/Sattelpunkte_ohne_Skalare.tex
+<abschnitte/beta_QCDxdQCD/fig/RG_flow3_2_6_0_2_0_1_0.png, id=446, 578.16pt x 43
 3.62pt>
 File: abschnitte/beta_QCDxdQCD/fig/RG_flow3_2_6_0_2_0_1_0.png Graphic file (typ
 e png)
@@ -1456,11 +1448,11 @@ g used on input line 5.
 )
 
 LaTeX Warning: Reference `tab:beta_QCDxdQCD:Sattelpunkt' on page 22 undefined o
-n input line 260.
+n input line 265.
 
 (./abschnitte/beta_QCDxdQCD/tab/Sattelpunkt_mit_Skalaren.tex)
 (./abschnitte/beta_QCDxdQCD/fig/Sattelpunkte_mit_Skalaren.tex
-<abschnitte/beta_QCDxdQCD/fig/Fix4_mit_Skalaren.pdf, id=451, 817.0525pt x 510.9
+<abschnitte/beta_QCDxdQCD/fig/Fix4_mit_Skalaren.pdf, id=457, 817.0525pt x 510.9
 0875pt>
 File: abschnitte/beta_QCDxdQCD/fig/Fix4_mit_Skalaren.pdf Graphic file (type pdf
 )
@@ -1471,19 +1463,19 @@ d on input line 4.
 ) [22] [23 <./abschnitte/beta_QCDxdQCD/fig/RG_flow3_2_6_0_2_0_1_0.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 304.
+(hyperref)                removing `math shift' on input line 298.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 304.
+(hyperref)                removing `\alpha' on input line 298.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 304.
+(hyperref)                removing `superscript' on input line 298.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 304.
+(hyperref)                removing `math shift' on input line 298.
 
 [24 <./abschnitte/beta_QCDxdQCD/fig/Fix4_mit_Skalaren.pdf>]) [25]
 (./Masterarbeit.bbl [26
@@ -1504,11 +1496,11 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 49.
  ) 
 Here is how much of TeX's memory you used:
- 12736 strings out of 493304
- 196289 string characters out of 6139871
- 336212 words of memory out of 5000000
- 15511 multiletter control sequences out of 15000+600000
- 164228 words of font info for 258 fonts, out of 8000000 for 9000
+ 12795 strings out of 493304
+ 197496 string characters out of 6139871
+ 337212 words of memory out of 5000000
+ 15561 multiletter control sequences out of 15000+600000
+ 186746 words of font info for 282 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  49i,14n,71p,316b,596s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/share/texmf/fonts/
@@ -1528,10 +1520,10 @@ ve/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/adobe/utopia/putri8a.pfb></usr/share/texmf/fonts/type1/public/tex
 -gyre/qplb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplr.pfb></usr/sha
 re/texmf/fonts/type1/public/tex-gyre/qplri.pfb>
-Output written on Masterarbeit.pdf (27 pages, 388112 bytes).
+Output written on Masterarbeit.pdf (27 pages, 389368 bytes).
 PDF statistics:
- 601 PDF objects out of 1000 (max. 8388607)
- 524 compressed objects within 6 object streams
- 177 named destinations out of 1000 (max. 500000)
- 21723 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 607 PDF objects out of 1000 (max. 8388607)
+ 530 compressed objects within 6 object streams
+ 179 named destinations out of 1000 (max. 500000)
+ 23771 words of extra memory for PDF output out of 24883 (max. 10000000)
 

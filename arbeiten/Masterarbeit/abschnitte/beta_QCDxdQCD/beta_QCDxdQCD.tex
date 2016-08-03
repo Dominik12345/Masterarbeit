@@ -104,7 +104,7 @@
       erfüllt sein, man kann jedoch zeigen, dass diese Bedingungen für die 
       gewählte Darstellung nicht gleichzeitig wahr sein können. Dazu werden 
       sie zunächst in den Koeffizienten geschrieben und mit 
-      \eqref{tab:beta_QCDxdQCD:Sattelpunkt} verglichen. Es bietet sich an, 
+      \eqref{eq:beta_QCDxdQCD:spur_determinante} verglichen. Es bietet sich an, 
       eine Fallunterscheidung in den Vorzeichen von $Y_1$ und $Y_2$ zu machen.
       Es folgt 
       \begin{enumerate}
@@ -146,7 +146,7 @@
 	physikalisch sinnvolle Lösung. 
       \item $Y_1$ und $Y_2$ haben verschiedene Vorzeichen: Damit 
       $\left.\Det\right|_*>0$ ist muss es ein $Z_i<0$ geben, was in der 
-      gewählten Darstellung \eqref{tab:beta_QCDxdQCD:Sattelpunkt} nicht 
+      gewählten Darstellung \eqref{eq:beta_QCDxdQCD:Z1g} nicht 
       möglich ist.
       \end{enumerate}
       
@@ -193,19 +193,24 @@
 	  \end{align}
 	  Es gibt also eine allgemeine Obergrenze von $\nfj<\frac{11}{2}$, 
 	  die für die Grenzfälle $\nfc=0$ und $\nfd=0$ oder $\Nc\to\infty$
-	  und gleichzeitig $\Nd \to \infty$ erreicht wird. 
-	  Das Einführen von weiteren Fermionen verschiebt die Grenze weiter 
-	  nach unten, für eine SM-QCD mit $\Nc=3$ und $\nfc = 6$ folgt 
-	  $\nfj\leq 4$. Die 
-	  einzigen Lösungen, die gleichzeitig zu sinnvollen Fixpunkten 
-	  führen sind
+	  und gleichzeitig $\Nd \to \infty$ erreicht wird. Da jedoch die 
+	  Bedingung $Z_2X_1<X_2Y_1$ (vgl. \eqref{eq:beta_QCDxdQCD:sattelpunkt}) 
+	  wegen 
+	  \begin{equation}
+	   Z_2 X_1 \simeq \frac{16}{3} \Nd \quad X_2Y_1 \simeq -\frac{32}{9} \Nd 
+	   \quad \text{für $\Nd$ groß}
+	  \end{equation}
+	  für große $\Nd$ nicht erfüllbar ist, sind nur Lösungen mit wenigen 
+	  Fermionen und wenigen Dark-Colours $\Nd$ möglich.
+	  Die einzigen Standardmodell nahen Lösungen, die gleichzeitig zu 
+	  sinnvollen Fixpunkten führen, sind
 	  \begin{equation}
 	   \Nc=3 \quad \Nd = 2 \quad \nfc =6 \quad 0\leq\nfd \leq 2 \quad 
 	   \nfj =1 \quad ,
 	  \end{equation}
 	  weitere Lösungen gibt es nur für $\nfc<6$ oder $\Nc>3$.
 	 \item $X_1<0 \land X_2 >0$:
-	  Dann müsst
+	  Dann müsste
 	  \begin{equation}
 	   \underbrace{Z_1 X_2}_{>0} < \underbrace{X_1 Y_2}_{<0} \quad 
 	   \blitz \quad ,
@@ -273,31 +278,20 @@
       gleichen Einfluss auf die $\beta$-Funktion wie Fermionen haben, 
       jedoch um einen Faktor $3$-$4$ kleiner, es ist also zu erwarten, dass 
       die Grenzen für die Anzahl der joint-Skalare um einen 
-      entsprechenden Faktor höher liegen.
-%       Zunächst wird Fall \ref{Fall1b} um Skalare erweitert, eine obere Grenze 
-%       für die Teilchenzahl erhält man wieder aus $X_1<0 \land X_2<0$. Da 
-%       Skalare in die Koeffizienten $X_i$ genau mit einem Faktor $4$ relativ 
-%       zu den Fermionen eingehen, kann \eqref{eq:beta_QCDxdQCD:Sattelpunkt1b} 
-%       leicht für Skalare vereinfacht werden,
-%       \begin{equation}
-%        \left(\nfj+\frac{1}{4} \nsj \right)^2 + \left( \nfj+\frac{1}{4}\nsj 
-%        \right) \left( \nfd +\frac14 \nsd \right)\frac1\Nc 
-%        + \frac{11}{2} \left(\nfc+\frac14 \nsc \right)\frac1\Nc < 
-%        \left( \frac{11}{2} \right)^2 \quad \land \quad \text{c}\leftrightarrow
-%        \text{d} \quad.
-%       \end{equation}
-      \input{abschnitte/beta_QCDxdQCD/tab/Sattelpunkt_mit_Skalaren.tex}
-      \input{abschnitte/beta_QCDxdQCD/fig/Sattelpunkte_mit_Skalaren.tex}
-      Einige mögliche Standardmodell nahe Teilchenzahlen sind in Tabelle 
+      entsprechenden Faktor höher liegen. Einige mögliche Standardmodell nahe 
+      Teilchenzahlen sind in Tabelle 
       \ref{tab:QCDxdQCD:Sattelpunkt_mit_Skalaren} zu sehen. 
       In Abbildung \ref{fig:beta_QCDxdQCD:Fix4_mit_Skalaren} ist außerdem 
       der Fixpunkt $\alpha^{*4}$ für $1\leq \nsd \leq 5$ und sinnvolle $\nsj$ 
       dargestellt. Hier ist erkennbar, dass $\alpha^{*4}$ betragsmäßtig kleiner 
       wird, je mehr joint-Skalare eingeführt werden.
+
+      \input{abschnitte/beta_QCDxdQCD/tab/Sattelpunkt_mit_Skalaren.tex}
+      \input{abschnitte/beta_QCDxdQCD/fig/Sattelpunkte_mit_Skalaren.tex}
       
       Um einen vollständig wechselwirkenden UV-Fixpunkt zu erhalten, der mit 
       Methoden der Störungstheorie behandelt werden kann, ist es demnach 
-      nötig skalare Teilchen im joint-Sektor einzuführen. 
+      nötig, skalare Teilchen im joint-Sektor einzuführen. 
 
       
       
@@ -334,3 +328,15 @@
      X_1<0 \quad \land \quad Y_1>0 \quad \land \quad X_2 Y_1 < Z_2 X_1
      \quad .
     \end{equation}
+    Da die Vorzeichen $X_1<0$, $Y_1>0$ und $X_2<0$ bereits festgelegt sind, 
+    kann bereits ohne Fallunterscheidung eine Grenze gefunden werden.
+    Aus $X_1<0 \land X_2<0$ folgt mit Skalaren (vgl. \eqref{Fall1b})
+	\begin{equation}
+	  \left(\nfj+\frac{1}{4} \nsj \right)^2 + \left( \nfj+\frac{1}{4}\nsj 
+	  \right) \left( \nfd +\frac14 \nsd \right)\frac1\Nc 
+	  + \frac{11}{2} \left(\nfc+\frac14 \nsc \right)\frac1\Nc < 
+	  \left( \frac{11}{2} \right)^2 \quad \land \quad \text{c}
+	  \leftrightarrow
+	  \text{d} \quad.
+	\end{equation}
+    
