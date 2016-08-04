@@ -9,22 +9,32 @@
    \ref{beta_allgemein:fig:fluss_beispiel} zeigt das Verhalten von $\alpha(t)$ 
    indem das Geschwindigkeitsfeld $\beta$ durch Pfeile im Phasenraum 
    dargestellt wird.
-    
-%    \begin{figure}[H]
-%     \centering
-%     \includegraphics[scale=0.5]{abschnitte/beta_allgemein/abb/fluss_beispiel}
-%     \caption{Das Flussdiagramm für $\beta(\alpha_1,\alpha_2 =$.}
-%     \label{beta_allgemein:fig:fluss_beispiel}
-%    \end{figure}
+   \input{abschnitte/beta_im_R2/fig/flow_example.tex}
 
   \subsection{Stabilitätsbedingungen}
     Für ein System mit zwei Kopplungskonstanten vereinfacht sich die 
-    Untersuchung erheblich, da der Phasenraum der $\mathbb{R}^2$ ist und die 
-    Eigenwerte von $\dbda \in\mathbb{R}^{2\times 2}$ explizit 
+    Untersuchung erheblich, da der Phasenraum der $\mathbb{R}^2$ ist und, wie in 
+    Abschnitt \ref{Schleifen} gezeigt wurde, die Stabilitätsmatrix allgemein 
+    die Form
+	\begin{equation}
+	 \dbda = \begin{pmatrix}
+	          \sum\limits_{i=2,j=0}i \alpha_1^{i-1} \alpha_2^j X^1_{ij} &
+	          \sum\limits_{i=2,j=1}j \alpha_1^i \alpha_2^{j-1} X^1_{ij}\\
+	          \sum\limits_{i=1,j=2}i \alpha_1^{i-1} \alpha_2^j X^2_{ij} &
+	          \sum\limits_{i=0,j=2}j \alpha_1^i \alpha_2^{j-1} X^2_{ij}
+	         \end{pmatrix}\label{eq:beta_im_R2:stab_matrix}
+	\end{equation}
+    annimmt. Die Eigenwerte von $\dbda$ können explizit 
     als\begin{equation}
-    \lambda_{+/-}=\frac12 \Sp \pm \sqrt{ \left( \frac{\Sp}{2} \right)^2-\Det }
+    \lambda_{+/-}=\frac12 \Sp \pm \sqrt{ \left( \frac{\Sp}{2} \right)^2-\Det } 
+    \label{eq:beta_im_R2:lambda}
     \end{equation}
-    angegeben werden können. 
+    angegeben werden. Es wird nun kurz begründet, warum ein vollständig 
+    wechselwirkender Fixpunkt im allgemeinen als hyperbolisch angenommen 
+    werden darf, danach wird gezeigt, dass teilweise wechselwirkende Fixpunkte 
+    für beliebig hohe Ordnung nicht-hyperbolisch sind. Im $2$-dimensionalen 
+    lässt sich jedoch ein alternatives Stabilitätskriterium für solche 
+    Fixpunkte finden.
     \subsubsection{hyperbolischer Fixpunkt}
       Sind $\Sp$ und $\Det$ nicht Null, lässt sich das Vorzeichen der 
       Eigenwerte leicht Nachrechnen, das Ergebnis ist in Tabelle 
@@ -32,9 +42,23 @@
   
       \input{abschnitte/beta_im_R2/tab/stabilitaet_hyperbolisch}
       
-      
+      Da man in der Reihenentwicklung der $\beta$-Funktion davon ausgeht, 
+      dass höhere Ordnungen vernachlässigbar klein werden, kann man davon 
+      ausgehen, dass hyperbolische Fixpunkte der 
+      Ordnung $n$ auch für höhere Ordnungen hyperbolisch bleiben. Falls ein 
+      vollständig wechselwirkender Fixpunkt $(\alpha_1^*\neq 0,
+      \alpha_2^*\neq 0)$ in Ordnung $n$ entweder $\left.\Sp \right|_*=0$ 
+      oder $\left. \Det \right|_*=0$ ergibt, kann man davon ausgehen, dass 
+      sich die Koeffizienten $X^k_{ij}$ zufällig aufheben und der Fixpunkt in 
+      höherer Ordnung wieder hyperbolisch wird. Vollständig 
+      wechselwirkende nicht-hyperbolische Fixpunkte können also als Folge 
+      einer zu groben Berechnung der $\beta$-Funktion verstanden werden. 
+      Es ist nicht klar, ob der Eigenvektor $e_i$ zum Eigenwert $\lambda_i=0$ 
+      eine UV-attraktiven oder repulsiven Richtung entspricht, da sich dies 
+      jedoch direkt auf die Dimension der kritischen Hyperfläche auswirkt ist 
+      die Untersuchung solcher Fixpunkte nur bedingt sinnvoll.
 
-    \subsubsection{nicht-hyperbolischer Fixpunkt}
+    \subsubsection{nicht-hyperbolischer Fixpunkt}\label{beta_im_R2:nicht-hyperbolischer_Fixpunkt}
 %       In dem Fall, dass bei $\alpha^*$ ein Eigenwert 
 %       verschwindet, ist $\left.\Det\right|_*=\lambda_+|_* \lambda_-|_* = 0$ und
 %       \begin{alignat}{3}
@@ -53,19 +77,71 @@
 % 	\quad ,
 %       \end{equation}
 %       wobei $\lambda_{+/-}|_*$ der verschwindende Eigenwert ist.
-	Wie in Abschnitt \ref{Schleifen} gezeigt wurde, nimmt die 
-	Stabilitätsmatrix allgemein die Form
-	\begin{equation}
-	 \dbda = \begin{pmatrix}
-	          \sum\limits_{i=2,j=0}i \alpha_1^{i-1} \alpha_2^j X^1_{ij} &
-	          \sum\limits_{i=2,j=0}j \alpha_1^i \alpha_2^{j-1} X^1_{ij}\\
-	          \sum\limits_{i=0,j=2}i \alpha_1^{i-1} \alpha_2^j X^2_{ij} &
-	          \sum\limits_{i=0,j=2}j \alpha_1^i \alpha_2^{j-1} X^2_{ij}
-	         \end{pmatrix}
-	\end{equation}
-	an. Offensichtlich ist ein Fixpunkt $\alpha^*=(\alpha_1^*,0)$
+	 Ein teilweise wechselwirkender Fixpunkt, o.E. 
+	 $\alpha^*=(\alpha_1^*,0)$,  
+	 führt zu der Stabilitätsmatrix 
+	 \begin{equation}
+	 \dbdafix = \begin{pmatrix}
+	          \sum\limits_{i=2}i (\alpha_1^*)^{i-1}  X^1_{i0} &
+	          \sum\limits_{i=2} (\alpha_1^*)^i  X^1_{i1}\\
+	          0&
+	          0
+	         \end{pmatrix} \quad . \label{eq:beta_im_R2:stab_matrix_0}
+	 \end{equation}
+	 mit den Eigenvektoren und Eigenwerten
+	 \begin{equation}
+	 e_1=\begin{pmatrix}1 \\0 \end{pmatrix} \quad , \quad
+	 e_2\propto\begin{pmatrix}
+		  -\sum_{i=2} (\alpha_1^*)^i X^1_{i1} 
+		   \\
+		  \sum_{i=2}i (\alpha_1^*)^{i-1}  X^1_{i0} 
+	           \end{pmatrix} \quad , \quad
+	 \lambda_1 = \sum_{i=2}i (\alpha_1^*)^{i-1}  X^1_{i0} \quad , \quad
+	     \lambda_2=0      \quad .
+	 \end{equation}
+	Da in $\beta_2$ die Variable $\alpha_2$ in jedem Monom  
+	 mindestens zur zweiten Potenz auftaucht, ist dies für 
+	 beliebig hohe Ordnung zu erwarten, sodass hier ein alternatives Kriterium 
+	 für das UV-Verhalten des Fixpunktes gefunden werden muss.  
 
 
+	Zunächst wird \eqref{eq:beta_allgemein:beta_linear} um die zweite 
+	Ordnung der Taylorentwicklung ergänzt,
+     \begin{equation}
+     \beta_i(\alpha) \simeq \sum\limits_{m=1}^2 \left. \frac{\partial \beta_i
+     }{\partial
+      \alpha_m}\right|_* \left(\alpha_m-\alpha^*_m\right) + \frac12 
+      \sum\limits_{m,n=1}^2 
+       \left(\alpha_m-\alpha^*_m\right)
+      \left.\frac{\partial^2 \beta_i}{\partial\alpha_m \partial\alpha_n}
+      \right|_* \left(\alpha_n-\alpha^*_n\right) \quad .
+      \end{equation}
+%      oder in vektorieller Schreibweise in der Basis der Eigenvektoren
+%      \begin{equation}
+%      \ddt (K_1e_1+K_2e_2)\simeq\dbdafix (K_1e_1+K_2e_2) +
+%      (K_1e_1+K_2e_2) \cdot \left.\left(\nabla \dbda \right)\right|_*
+%       (K_1e_1+K_2e_2) \quad .
+%      \end{equation}
+    Es werden die Ableitungen der Stabilitätsmatrix benötigt
+    \begin{align}
+     \left.\frac{\partial}{\partial \alpha_1} \frac{\partial \beta_i}{\partial 
+     \alpha_n}\right|_* &= \left. 
+     \begin{pmatrix}
+	\sum\limits_{i=2,j=0} i (i-1) \alpha_1^{i-2}\alpha_2^j X_{ij}^1 &
+	\sum\limits_{i=2,j=1} ij \alpha_1^{i-1}\alpha_2^{j-1} X_{ij}^1 \\
+	\sum\limits_{i=2,j=2}i(i-1) \alpha_1^{i-2} \alpha_2^j X_{ij}^2 &
+	\sum\limits_{i=1,j=2} ij \alpha_1^{i-1}\alpha_2^{j-1} X_{ij}^2
+     \end{pmatrix} \right|_*   \\
+     &=\begin{pmatrix}
+	\sum\limits_{i=2} i (i-1) \alpha_1^{i-2} X_{ij}^1 &
+	\sum\limits_{i=2} i \alpha_1^{i-1} X_{i1}^1 \\
+	0 &0
+     \end{pmatrix}
+    \end{align}
+
+     
+	
+	
       
   \subsection{Fixpunktextrapolation}
     Ein besonderer Vorteil einer Erweiterung $G \to G_1\times G_2$ ist die 

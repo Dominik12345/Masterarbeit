@@ -70,17 +70,15 @@
                      X_2 \alpha_2^2 + Y_2 \alpha_2^3 + Z_2 \alpha_1 \alpha_2^2 
                     \end{pmatrix} \label{eq:beta_QCDxdQCD:beta_alpha}
   \end{equation}
-  und als Nullstellen findet man 
-  \begin{itemize}
-    \item den Gaußschen Fixpunkt $\alpha^{*1}=(0,0)$,
-    \item den teilweise wechselwirkenden Fixpunkt 
-	$\alpha^{*2}=\left(0,-\frac{X_2}{Y_2}\right)$ , falls $Y_2\neq 0$,
-    \item den teilweise wechselwirkenden Fixpunkt 
-	$\alpha^{*3}=\left(-\frac{X_1}{Y_1},0\right)$ , falls $Y_1\neq 0$,
-    \item den vollständig wechselwirkenden Fixpunkt 
-	$\alpha^{*4}=\left(\frac{Z_1X_2-X_1Y_2}{Y_1Y_2-Z_1Z_2},
-	\frac{Z_2X_1-X_2Y_1}{Y_1Y_2-Z_1Z_2}\right)$ .
-  \end{itemize}
+  und als Nullstellen findet man die Fixpunkte
+   \begin{equation}
+   \alpha^{*1}=(0,0) \quad 
+   \alpha^{*2}=\left(0,-\frac{X_2}{Y_2}\right) \quad
+   \alpha^{*3}=\left(-\frac{X_1}{Y_1},0\right) \quad
+   \alpha^{*4}=\left(\frac{Z_1X_2-X_1Y_2}{Y_1Y_2-Z_1Z_2} 
+	\frac{Z_2X_1-X_2Y_1}{Y_1Y_2-Z_1Z_2}\right) \quad .
+   \end{equation}
+
   An den Fixpunkten gilt außerdem 
   \begin{equation}
     \left. \Sp \right|_*=(\alpha_1^*)^2 Y_1+(\alpha_2^*)^2 Y_2
@@ -167,9 +165,11 @@
        Z_1 Z_2 > Y_1Y_2\quad .
        \label{eq:beta_QCDxdQCD:sattelpunkt}
       \end{equation}
-      Auch hier wird wieder eine Fallunterscheidung in den Vorzeichen der 
-      Koeffizienten hilfreich, da so einige Fälle bereits 
-      darstellungsunabhängig ausgeschlossen werden können.
+      Da es für den Sattelpunkt weniger Bedingungen als für einen 
+      UV-attraktiven Fixpunkt gibt, sind Falluntescheidungen in den 
+      Vorzeichen von $Y_i$ und $X_i$ nötig. Es wird sich zeigen, dass nur 
+      Fälle mit $X_1<0 \land X_2<0$ möglich sind, sodass es obere Schranken 
+      für die Teilchenzahlen und $\Nd$ gibt.
       
       \begin{enumerate}
        \item $Y_1 > 0 \land Y_2 > 0$:
@@ -193,15 +193,7 @@
 	  \end{align}
 	  Es gibt also eine allgemeine Obergrenze von $\nfj<\frac{11}{2}$, 
 	  die für die Grenzfälle $\nfc=0$ und $\nfd=0$ oder $\Nc\to\infty$
-	  und gleichzeitig $\Nd \to \infty$ erreicht wird. Da jedoch die 
-	  Bedingung $Z_2X_1<X_2Y_1$ (vgl. \eqref{eq:beta_QCDxdQCD:sattelpunkt}) 
-	  wegen 
-	  \begin{equation}
-	   Z_2 X_1 \simeq \frac{16}{3} \Nd \quad X_2Y_1 \simeq -\frac{32}{9} \Nd 
-	   \quad \text{für $\Nd$ groß}
-	  \end{equation}
-	  für große $\Nd$ nicht erfüllbar ist, sind nur Lösungen mit wenigen 
-	  Fermionen und wenigen Dark-Colours $\Nd$ möglich.
+	  und gleichzeitig $\Nd \to \infty$ erreicht wird.
 	  Die einzigen Standardmodell nahen Lösungen, die gleichzeitig zu 
 	  sinnvollen Fixpunkten führen, sind
 	  \begin{equation}
@@ -259,15 +251,16 @@
       \input{abschnitte/beta_QCDxdQCD/fig/Sattelpunkte_ohne_Skalare.tex}
       
       Der einzige Fall, der in der skalarfreien Theorie physikalische 
-      Sattelpunkte bringt, ist \ref{Fall1b}. Exemplarisch ist 
+      Sattelpunkte bringt, ist \ref{Fall1b}, exemplarisch ist 
       das Flussdiagramm für $\nfj=2$ in Abbildung
       \ref{fig:beta_QCDxdQCD:Sattelpunkt1} zu sehen. Alle drei Fixpunkte 
       liegen, wie in Tabelle \ref{tab:beta_QCDxdQCD:Sattelpunkt} zu sehen, 
       weit im nicht-perturbativen Bereich. Nicht-perturbative 
-      $SU(N)$ Dynamiken können mit einem Veneziano-limit behandelt werden 
-      \cite{Jarvinen:2011qe}\cite{Asymptotic_safety_guaranteed}, bei dem der 
+      $SU(N)$ Dynamiken können in einem Veneziano-limit störungstheoretisch 
+      behandelt werden 
+      \cite{Jarvinen:2011qe}\cite{Asymptotic_safety_guaranteed}, dabei wird der 
       Grenzfall $N \to \infty , N_\text{f} \to \infty,\nicefrac{N}{N_\text{f}} 
-      <\infty,g^2 N\to 0$ betrachtet wird \cite{VENEZIANO1979213}. Wie im 
+      <\infty,g^2 N\to 0$ betrachtet \cite{VENEZIANO1979213}. Wie im 
       Folgenden gezeigt wird, ist es mit Skalaren jedoch möglich perturbative 
       Fixpunkte zu erhalten, ohne von den Standardmodell Werten $\Nc=3$ und 
       $\nfc=6$ abweichen zu müssen. 
@@ -283,19 +276,22 @@
       \ref{tab:QCDxdQCD:Sattelpunkt_mit_Skalaren} zu sehen. 
       In Abbildung \ref{fig:beta_QCDxdQCD:Fix4_mit_Skalaren} ist außerdem 
       der Fixpunkt $\alpha^{*4}$ für $1\leq \nsd \leq 5$ und sinnvolle $\nsj$ 
-      dargestellt. Hier ist erkennbar, dass $\alpha^{*4}$ betragsmäßtig kleiner 
-      wird, je mehr joint-Skalare eingeführt werden.
+      dargestellt. Hier ist zu erkennen, dass $\alpha^{*4}$ betragsmäßtig 
+      kleiner wird, je mehr joint-Skalare eingeführt werden.
 
       \input{abschnitte/beta_QCDxdQCD/tab/Sattelpunkt_mit_Skalaren.tex}
       \input{abschnitte/beta_QCDxdQCD/fig/Sattelpunkte_mit_Skalaren.tex}
       
       Um einen vollständig wechselwirkenden UV-Fixpunkt zu erhalten, der mit 
       Methoden der Störungstheorie behandelt werden kann, ist es demnach 
-      nötig, skalare Teilchen im joint-Sektor einzuführen. 
-
+      nötig, skalare Teilchen im joint-Sektor einzuführen. Die Teilchen des 
+      dQCD-Sektors haben dagegen, wie in Abbildung 
+      \ref{fig:beta_QCDxdQCD:Fix4_mit_Skalaren} zu sehen ist, nur geringe 
+      Auswirkungen auf die Lage des Fixpunktes, ob hier Fermionen, Skalare oder 
+      beide Teilchensorten eingeführt werden ist qualitativ nicht entscheidend.
       
       
-  \subsection{UV-Verhalten bei $\alpha^{*3}$}
+  \subsection{UV-Verhalten bei $\alpha^{*3}$}\label{beta_QCDxdQCD:UV_bei_Fix3}
 %     Damit der 
     Da der Fixpunkt $\alpha^{*3}=(-X_1 Y_1^{-1},0)$ ein teilweise 
     wechselwirkender Fixpunkt ist, 
@@ -304,7 +300,7 @@
     einfach gezeigt werden, dass dieser Fixpunkt nicht in jede Richtung 
     UV-attraktiv sein kann.
     
-    Damit $\alpha^*_1=-X_1 Y_1^{-1} > 0$, muss $X_1<0$ und $Y_1>0$. Es wurde 
+    Damit $\alpha^{*3}_1=-X_1 Y_1^{-1} > 0$, muss $X_1<0$ und $Y_1>0$. Es wurde 
     in \ref{beta_QCDxdQCD:fix4:UV} gezeigt, das die umgekehrte Vorzeichenwahl 
     physikalisch nicht sinnvoll ist. Gleichung 
     \eqref{eq:beta_im_R2:stab_matrix_0} zeigt nun 
@@ -328,15 +324,43 @@
      X_1<0 \quad \land \quad Y_1>0 \quad \land \quad X_2 Y_1 < Z_2 X_1
      \quad .
     \end{equation}
-    Da die Vorzeichen $X_1<0$, $Y_1>0$ und $X_2<0$ bereits festgelegt sind, 
+    Da die Vorzeichen $X_1<0$, $Y_1>0$ und $X_2<0$ festgelegt sind, 
     kann bereits ohne Fallunterscheidung eine Grenze gefunden werden.
-    Aus $X_1<0 \land X_2<0$ folgt mit Skalaren (vgl. \eqref{Fall1b})
+    Aus $X_1<0 \land X_2<0$ folgt allgemein (vgl. \eqref{Fall1b})
 	\begin{equation}
 	  \left(\nfj+\frac{1}{4} \nsj \right)^2 + \left( \nfj+\frac{1}{4}\nsj 
 	  \right) \left( \nfd +\frac14 \nsd \right)\frac1\Nc 
 	  + \frac{11}{2} \left(\nfc+\frac14 \nsc \right)\frac1\Nc < 
 	  \left( \frac{11}{2} \right)^2 \quad \land \quad \text{c}
 	  \leftrightarrow
-	  \text{d} \quad.
+	  \text{d} \quad. \label{eq:beta_QCDxdQCD:Fix3_ohne_Skalare}
 	\end{equation}
+   
+    Zunächst werden wieder nur Fermionen betrachtet. Da sie außreichen, um 
+    perturbative Fixpunkte zu modellieren, wird es nicht nötog sein, Skalare 
+    einzuführen.
+    Aus 
+    \eqref{eq:beta_QCDxdQCD:Fix3_ohne_Skalare} und $X_1<0$ folgen allgemeine 
+    Grenzen für $\nfj$, $\Nd$ und $\nfd$
+    \begin{equation}
+    \begin{aligned}
+     &\nfj < \sqrt{\left(\frac{11}{2}\right)^2-\frac{11}{2} \frac{\nfc}{\Nc}}
+     =4.39
+     \quad , \quad
+     \nfd < \left(\left(\frac{11}{2}\right)^2 -1\right) \Nc -\frac{11}{2}
+     \nfc = 54.75  \quad ,
+     \\
+     & \Nd<\frac{11}{2} \Nc -\nfc = 10.5      
+    \end{aligned}
+    \end{equation}
+    für $\Nc=3$ und $\nfc=6$. 
+    \input{abschnitte/beta_QCDxdQCD/tab/Fix3_ohne_Skalare.tex}
+    Tabelle \ref{tab:beta_QCDxdQCD:Fix3_ohne_Skalare} zeigt die möglichen 
+    Teilchenanzahlen und die Komponente $\alpha^{*3}_1$. Im Gegensatz zum 
+    vollständig wechselwirkenden Fixpunkt $\alpha^{*4}$ ist $\alpha^{*3}$ 
+    auch für eine Theorie ohne Skalare in einem perturbativ sinnvollen 
+    Bereich, demnach können hier zwar wieder Skalare eingeführt werden, 
+    ein neues Verhalten oder neue Wertebereiche für den Fixpunkt treten aber 
+    nicht auf.
+    
     

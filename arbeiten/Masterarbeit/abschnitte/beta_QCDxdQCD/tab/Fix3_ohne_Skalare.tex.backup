@@ -1,0 +1,19 @@
+\begin{table}
+\centering
+ \begin{tabular}{ccc|c}
+ \toprule \midrule
+ $\Nd$ 	& $\nfj$ 	& $\nfd$ 	& $\alpha^{*3}_1$ \\
+ \midrule 
+ $2$	& $2$		& $0$			& $2.21$		\\
+ $3$	& $1$		& $0$-$8$		& $5.24$		\\
+ $3$	& $2$		& $0$-$9$		& $0.85$		\\
+ $3$	& $3$		& $0$-$7$		& $0.14$		\\
+ $4$	& $1$		& $0$-$16$		& $2.21$		\\
+ $4$	& $2$		& $0$-$15$		& $0.28$		\\
+ $5$	& $1$		& $0$-$23$		& $1.23$		\\
+ $5$	& $2$		& $0$-$21$		& $0.04$		\\
+ \midrule \bottomrule
+ \end{tabular}
+\caption{Mögliche Teilchenzahlen für einen Sattelpunkt bei $\alpha^{*3}$, mit $\Nc=3$, $\nfc=6$ und ohne Skalare.}
+\label{tab:beta_QCDxdQCD:Fix3_ohne_Skalare}
+\end{table}

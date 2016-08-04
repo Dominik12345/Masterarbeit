@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.9)  3 AUG 2016 17:03
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.9)  4 AUG 2016 17:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1352,32 +1352,19 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 2.
 
+(./abschnitte/beta_im_R2/fig/flow_example.tex
+<abschnitte/beta_im_R2/fig/flow_example.png, id=328, 578.16pt x 433.62pt>
+File: abschnitte/beta_im_R2/fig/flow_example.png Graphic file (type png)
 
-LaTeX Warning: Reference `beta_allgemein:fig:fluss_beispiel' on page 14 undefin
-ed on input line 9.
+<use abschnitte/beta_im_R2/fig/flow_example.png>
+Package pdftex.def Info: abschnitte/beta_im_R2/fig/flow_example.png used on inp
+ut line 3.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+) [14
 
-(./abschnitte/beta_im_R2/tab/stabilitaet_hyperbolisch.tex) [14
-
-]
-Overfull \hbox (8.67223pt too wide) in paragraph at lines 89--97
-\T1/qpl/m/n/10.95 (-20) Es folgt $\FML/futmi/m/it/10.95 e[] \FMS/futm/m/n/10.95
- Å \T1/futs/m/n/10.95 (1\FML/futmi/m/it/10.95 ; \T1/futs/m/n/10.95 0)[]$ \T1/qp
-l/m/n/10.95 (-20) zu $\FML/futmi/m/it/10.95 ^^U[] \FMS/futm/m/n/10.95 Å [][] \F
-ML/futmi/m/it/10.95 i\T1/futs/m/n/10.95 (\FML/futmi/m/it/10.95 []\T1/futs/m/n/
-10.95 )[]\FML/futmi/m/it/10.95 X[]$ \T1/qpl/m/n/10.95 (-20) und $\FML/futmi/m/i
-t/10.95 e[] \FMS/futm/m/n/10.95 / \T1/futs/m/n/10.95 (\FMS/futm/m/n/10.95 ^^@\T
-1/futs/m/n/10.95 ([][](\FML/futmi/m/it/10.95 []\T1/futs/m/n/10.95 )[]\FML/futm
-i/m/it/10.95 X[]\T1/futs/m/n/10.95 )/([][] \FML/futmi/m/it/10.95 i\T1/futs/m/n/
-10.95 (\FML/futmi/m/it/10.95 []\T1/futs/m/n/10.95 )[]\FML/futmi/m/it/10.95 X[]
-\T1/futs/m/n/10.95 )\FML/futmi/m/it/10.95 ; \T1/futs/m/n/10.95 1)[]$
- []
-
-LaTeX Font Info:    Try loading font information for TS1+qpl on input line 121.
-
-(/usr/share/texmf/tex/latex/tex-gyre/ts1qpl.fd
-File: ts1qpl.fd 2009/09/25 v1.2 font definition file for TS1/qpl
-) [15] [16])
-(./abschnitte/beta_QCDxdQCD/beta_QCDxdQCD.tex [17]
+ <./abschnitte/beta_im_R2/fig/flow_example.png>]
+(./abschnitte/beta_im_R2/tab/stabilitaet_hyperbolisch.tex) [15] [16] [17])
+(./abschnitte/beta_QCDxdQCD/beta_QCDxdQCD.tex [18]
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <10> not available
 (Font)              Font shape `T1/lmss/bx/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <8> not available
@@ -1403,41 +1390,41 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 2.
 
-[18
+[19
 
 ]
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 95.
+(Font)              scaled to size 11.03998pt on input line 93.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 95.
+(Font)              scaled to size 6.43999pt on input line 93.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 95.
+(Font)              scaled to size 11.03998pt on input line 93.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 95.
+(Font)              scaled to size 6.43999pt on input line 93.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 95.
+(hyperref)                removing `math shift' on input line 93.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 95.
+(hyperref)                removing `\alpha' on input line 93.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 95.
+(hyperref)                removing `superscript' on input line 93.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 95.
+(hyperref)                removing `math shift' on input line 93.
 
-LaTeX Font Info:    Try loading font information for U+mvs on input line 129.
+LaTeX Font Info:    Try loading font information for U+mvs on input line 127.
 (/usr/share/texlive/texmf-dist/tex/latex/marvosym/umvs.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-mvs.cfg
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
-) [19] [20]
-[21] (./abschnitte/beta_QCDxdQCD/fig/Sattelpunkte_ohne_Skalare.tex
-<abschnitte/beta_QCDxdQCD/fig/RG_flow3_2_6_0_2_0_1_0.png, id=446, 578.16pt x 43
+) [20] [21]
+[22] (./abschnitte/beta_QCDxdQCD/fig/Sattelpunkte_ohne_Skalare.tex
+<abschnitte/beta_QCDxdQCD/fig/RG_flow3_2_6_0_2_0_1_0.png, id=457, 578.16pt x 43
 3.62pt>
 File: abschnitte/beta_QCDxdQCD/fig/RG_flow3_2_6_0_2_0_1_0.png Graphic file (typ
 e png)
@@ -1447,12 +1434,13 @@ g used on input line 5.
 (pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
 )
 
-LaTeX Warning: Reference `tab:beta_QCDxdQCD:Sattelpunkt' on page 22 undefined o
-n input line 265.
+LaTeX Warning: Reference `tab:beta_QCDxdQCD:Sattelpunkt' on page 23 undefined o
+n input line 257.
 
+[23 <./abschnitte/beta_QCDxdQCD/fig/RG_flow3_2_6_0_2_0_1_0.png>]
 (./abschnitte/beta_QCDxdQCD/tab/Sattelpunkt_mit_Skalaren.tex)
 (./abschnitte/beta_QCDxdQCD/fig/Sattelpunkte_mit_Skalaren.tex
-<abschnitte/beta_QCDxdQCD/fig/Fix4_mit_Skalaren.pdf, id=457, 817.0525pt x 510.9
+<abschnitte/beta_QCDxdQCD/fig/Fix4_mit_Skalaren.pdf, id=479, 817.0525pt x 510.9
 0875pt>
 File: abschnitte/beta_QCDxdQCD/fig/Fix4_mit_Skalaren.pdf Graphic file (type pdf
 )
@@ -1460,29 +1448,30 @@ File: abschnitte/beta_QCDxdQCD/fig/Fix4_mit_Skalaren.pdf Graphic file (type pdf
 Package pdftex.def Info: abschnitte/beta_QCDxdQCD/fig/Fix4_mit_Skalaren.pdf use
 d on input line 4.
 (pdftex.def)             Requested size: 408.52525pt x 255.45375pt.
-) [22] [23 <./abschnitte/beta_QCDxdQCD/fig/RG_flow3_2_6_0_2_0_1_0.png>]
+)
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 298.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 298.
+(hyperref)                removing `math shift' on input line 294.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 298.
+(hyperref)                removing `\alpha' on input line 294.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 298.
+(hyperref)                removing `superscript' on input line 294.
 
-[24 <./abschnitte/beta_QCDxdQCD/fig/Fix4_mit_Skalaren.pdf>]) [25]
-(./Masterarbeit.bbl [26
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 294.
+
+[24] (./abschnitte/beta_QCDxdQCD/tab/Fix3_ohne_Skalare.tex) [25 <./abschnitte/b
+eta_QCDxdQCD/fig/Fix4_mit_Skalaren.pdf>]) [26] (./Masterarbeit.bbl [27
 
 ])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 49.
- [27]
+
+[28]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 49.
  (./Masterarbeit.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 49.
@@ -1496,34 +1485,33 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 49.
  ) 
 Here is how much of TeX's memory you used:
- 12795 strings out of 493304
- 197496 string characters out of 6139871
- 337212 words of memory out of 5000000
- 15561 multiletter control sequences out of 15000+600000
- 186746 words of font info for 282 fonts, out of 8000000 for 9000
+ 12736 strings out of 493304
+ 196792 string characters out of 6139871
+ 338498 words of memory out of 5000000
+ 15500 multiletter control sequences out of 15000+600000
+ 163851 words of font info for 257 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 49i,14n,71p,316b,596s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/share/texmf/fonts/
-enc/dvips/tex-gyre/q-ec.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base
-/8r.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/fourier/fourier-bb.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/fourier/fourier-mcl.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/fourier/fourier-mex.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/fourier/fourier-ml.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fo
-urier/fourier-mlit.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourie
-r/fourier-ms.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/adobe/utopia/putri8a.pfb></usr/share/texmf/fonts/type1/public/tex
--gyre/qplb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplr.pfb></usr/sha
-re/texmf/fonts/type1/public/tex-gyre/qplri.pfb>
-Output written on Masterarbeit.pdf (27 pages, 389368 bytes).
+ 49i,15n,71p,316b,589s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}{/usr/share/texlive/texmf
+-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.en
+c}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-bb.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mcl.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/fourier/fourier-ml.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/fourier/fourier-ms.pfb></usr/share/texmf/fonts/type1/public
+/lm/lmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/marvosym/mar
+vosym.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/ms
+am10.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb></usr/share/te
+xmf/fonts/type1/public/tex-gyre/qplb.pfb></usr/share/texmf/fonts/type1/public/t
+ex-gyre/qplr.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplri.pfb>
+Output written on Masterarbeit.pdf (28 pages, 500659 bytes).
 PDF statistics:
- 607 PDF objects out of 1000 (max. 8388607)
- 530 compressed objects within 6 object streams
- 179 named destinations out of 1000 (max. 500000)
- 23771 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 618 PDF objects out of 1000 (max. 8388607)
+ 538 compressed objects within 6 object streams
+ 185 named destinations out of 1000 (max. 500000)
+ 21216 words of extra memory for PDF output out of 24883 (max. 10000000)
 
