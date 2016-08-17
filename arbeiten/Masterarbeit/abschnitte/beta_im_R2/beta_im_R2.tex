@@ -122,44 +122,121 @@
 %      (K_1e_1+K_2e_2) \cdot \left.\left(\nabla \dbda \right)\right|_*
 %       (K_1e_1+K_2e_2) \quad .
 %      \end{equation}
-    Es werden die Ableitungen der Stabilitätsmatrix benötigt
+%     Es werden die Ableitungen der Stabilitätsmatrix benötigt
+%     \begin{align}
+%      \left.\frac{\partial}{\partial \alpha_1} \frac{\partial \beta_i}{\partial 
+%      \alpha_n}\right|_* &= \left. 
+%      \begin{pmatrix}
+% 	\sum\limits_{i=2,j=0} i (i-1) \alpha_1^{i-2}\alpha_2^j X_{ij}^1 &
+% 	\sum\limits_{i=2,j=1} ij \alpha_1^{i-1}\alpha_2^{j-1} X_{ij}^1 \\
+% 	\sum\limits_{i=2,j=2}i(i-1) \alpha_1^{i-2} \alpha_2^j X_{ij}^2 &
+% 	\sum\limits_{i=1,j=2} ij \alpha_1^{i-1}\alpha_2^{j-1} X_{ij}^2
+%      \end{pmatrix}_{in} \right|_*   \\
+%      &=\begin{pmatrix}
+% 	\sum\limits_{i=2} i (i-1) \alpha_1^{i-2} X_{ij}^1 &
+% 	\sum\limits_{i=2} i \alpha_1^{i-1} X_{i1}^1 \\
+% 	0 &0
+%      \end{pmatrix}_{in}
+%     \end{align}
+%     
+%     \begin{align}
+%      \left.\frac{\partial}{\partial \alpha_2} \frac{\partial \beta_i}{\partial 
+%      \alpha_n}\right|_* &= \left. 
+%      \begin{pmatrix}
+% 	\sum\limits_{i=2,j=1} i j \alpha_1^{i-1}\alpha_2^{j-1} X_{ij}^1 &
+% 	\sum\limits_{i=2,j=2} j(j-1) \alpha_1^{i}\alpha_2^{j-2} X_{ij}^1 \\
+% 	\sum\limits_{i=1,j=2}ij \alpha_1^{i-1} \alpha_2^{j-1} X_{ij}^2 &
+% 	\sum\limits_{i=1,j=2} j(j-1) \alpha_1^{i}\alpha_2^{j-2} X_{ij}^2
+%      \end{pmatrix}_{in} \right|_*   \\
+%      &=\begin{pmatrix}
+% 	\sum\limits_{i=2} i  \alpha_1^{i-1} X_{i1}^1 &
+% 	\sum\limits_{i=2} 2 \alpha_1^{i-1} X_{i2}^1 \\
+% 	0 & 
+% 	\sum\limits_{i=1} 2 \alpha_1^i X_{i2}^2
+%      \end{pmatrix}_{in}
+%     \end{align}
+    Wie in Abschnitt \ref{beta_allgemein:Verhalten} wird diese Gleichung in 
+    der Eigenbasis der Stabilitätsmatrix geschrieben
     \begin{align}
-     \left.\frac{\partial}{\partial \alpha_1} \frac{\partial \beta_i}{\partial 
-     \alpha_n}\right|_* &= \left. 
-     \begin{pmatrix}
-	\sum\limits_{i=2,j=0} i (i-1) \alpha_1^{i-2}\alpha_2^j X_{ij}^1 &
-	\sum\limits_{i=2,j=1} ij \alpha_1^{i-1}\alpha_2^{j-1} X_{ij}^1 \\
-	\sum\limits_{i=2,j=2}i(i-1) \alpha_1^{i-2} \alpha_2^j X_{ij}^2 &
-	\sum\limits_{i=1,j=2} ij \alpha_1^{i-1}\alpha_2^{j-1} X_{ij}^2
-     \end{pmatrix}_{in} \right|_*   \\
-     &=\begin{pmatrix}
-	\sum\limits_{i=2} i (i-1) \alpha_1^{i-2} X_{ij}^1 &
-	\sum\limits_{i=2} i \alpha_1^{i-1} X_{i1}^1 \\
-	0 &0
-     \end{pmatrix}_{in}
+     \dot{K}_1 (t) e_1^i +\dot{K}_2 e_2^i &= \sum\limits_{k,m=1}^2
+     K_k(t) \frac{\partial \beta _i}{\partial \alpha_m} e_k^m 
+     + \frac12 \sum\limits_{k,l,m,n=1}^2
+     K_k(t)K_l(t)\frac{\partial^2 \beta _i}{\partial \alpha_m \alpha_n}e_k^m  
+     e_l^n \\
+     &= K_1(t)\lambda_1 e_1^i  + \frac12 \sum\limits_{k,l,m,n=1}^2
+     K_k(t)K_l(t)\frac{\partial^2 \beta _i}{\partial \alpha_m \alpha_n}e_k^m  
+     e_l^n 
+     \quad . \label{eq:beta_im_R2:zweite_ordnung}
     \end{align}
-    
+    Die Indizes $k$ und $l$ laufen dabei für die zwei Eigenvektoren, während 
+    $m$, $n$ und $i$ für die Komponente eines Vektors stehen. Der 
+    Koeffizientenvergleich in $e_1$ führt in erster Ordnung zum gleichen 
+    Ergebnis wie beim hyperbolischen Fixpunkt. Auf der kritischen Hyperläche 
+    gilt demnach $\lambda_1<0 \Rightarrow K_1(t)\rightarrow 0$ für $t$ groß, 
+    oder $\lambda>0 \Rightarrow K_1(t)\equiv 0$, da der Fixpunkt sonst nicht 
+    erreicht wird. Für große $t$ wird \eqref{eq:beta_im_R2:zweite_ordnung} 
+    damit zu 
     \begin{align}
-     \left.\frac{\partial}{\partial \alpha_2} \frac{\partial \beta_i}{\partial 
-     \alpha_n}\right|_* &= \left. 
-     \begin{pmatrix}
-	\sum\limits_{i=2,j=1} i j \alpha_1^{i-1}\alpha_2^{j-1} X_{ij}^1 &
-	\sum\limits_{i=2,j=2} j(j-1) \alpha_1^{i}\alpha_2^{j-2} X_{ij}^1 \\
-	\sum\limits_{i=1,j=2}ij \alpha_1^{i-1} \alpha_2^{j-1} X_{ij}^2 &
-	\sum\limits_{i=1,j=2} j(j-1) \alpha_1^{i}\alpha_2^{j-2} X_{ij}^2
-     \end{pmatrix}_{in} \right|_*   \\
-     &=\begin{pmatrix}
-	\sum\limits_{i=2} i  \alpha_1^{i-1} X_{i1}^1 &
-	\sum\limits_{i=2} 2 \alpha_1^{i-1} X_{i2}^1 \\
-	0 & 
-	\sum\limits_{i=1} 2 \alpha_1^i X_{i2}^2
-     \end{pmatrix}_{in}
+     \dot{K}_2 e_2^i &= \frac{1}{2} K_2(t)^2 \sum\limits_{m,n=1}^2 
+     \frac{\partial^2 \beta_i}{\partial \alpha_m \partial \alpha_n} e_2^m e_2^n
+     \\&= \frac12 K_2(t)^2 \sum\limits_{m,n=1}^2 \left[ \left(e_2^m 
+     \frac{\partial}{\partial \alpha_m} \right) 
+     \left(e_2^n \frac{\partial}{\partial \alpha_n} \right) - e_2^m 
+     \frac{\partial e_2^n}{\partial \alpha_m} \frac{\partial}{\partial \alpha_m}
+     \right]_* \beta_i \\
+     &= \frac12 K_2(t)^2 \left[ \sum\limits_{m=1}^2 e_2^m 
+     \frac{\partial\lambda_2}{\partial \alpha_m}e_2^i - \sum\limits_{m,n=1}^2 
+     e_2^m \frac{\partial e_2^n}{\partial \alpha_m} 
+     \frac{\partial}{\partial \alpha_n} \beta_i \right]_* \quad . 
+     \label{eq:beta_im_R2:mischterm}
     \end{align}
+    Für $i=2$ kann eine Lösung wie folgt gefunden werden. Der zweite Term in 
+    \eqref{eq:beta_im_R2:mischterm} ist wegen 
+    \eqref{eq:beta_im_R2:stab_matrix_0} gleich Null.
+    Aus \eqref{eq:beta_im_R2:lambda} und \eqref{eq:beta_im_R2:stab_matrix} 
+    erhält man am Fixpunkt
+    \begin{equation}
+     \frac{\partial \lambda_2}{\partial \alpha_q} = 
+     \frac{\partial}{\partial \alpha_q} 
+     \frac{\partial \beta_2}{\partial \alpha_2} -
+     \frac{\partial \beta_1}{\partial \alpha_2} 
+     \left(\frac{\partial \beta_2}{\partial \alpha_1} \right)^{-1}
+     \frac{\partial}{\partial \alpha_q} 
+     \frac{\partial \beta_2}{\partial \alpha_1} \quad 
+         \begin{cases}
+     =0 \text{ für }q=1\\
+     \neq 0 \text{ für }q=2 
+   \end{cases}
+   \quad .
+    \end{equation}
+    Es bleibt 
+    \begin{equation}
+     \dot{K}_2(t) =\frac12 K_2(t)^2  e_2^2 
+     \left. \frac{\partial \lambda_2}{\partial \alpha_2} \right|_* \quad 
+   \text{mit der Lösung} \quad 
+     K_2(t) = \frac{2}{2 K_2(0)^{-1} - 
+     e_2^2 \frac{\partial \lambda_2}{\partial \alpha_2}t } \quad .
+    \end{equation}
+    Da Eigenvektoren nur bis auf ein reelles Vielfaches bestimmt sind, kann 
+    $e_2^2>0$ gewählt werden. Damit $\alpha(t=0)$ physikalisch ist folgt 
+    $K_2(0)>0$, und damit $K_2(t)$ für steigendes $t$ keinen Pol passiert folgt 
+    \begin{equation}
+     \frac{\partial \lambda_2}{\partial \alpha_2} < 0
+     \label{eq:beta_im_R2:Bedingung}
+    \end{equation}
+    als Bedingung für einen in $e_2$-Richtung attraktiven Fixpunkt.
+    Allgemein ist es nicht möglich, die DGL \eqref{eq:beta_im_R2:mischterm} 
+    mit $i=1$ zu lösen, da der zweite Term in der Klammer keine einfachen 
+    aufweist. Da die DGL aber für jedes $i$ einzeln gelten muss, muss jede 
+    Lösung mindestens \eqref{eq:beta_im_R2:Bedingung} erfüllen, in der Praxis 
+    lässt sich jedoch tatsächlich feststellen, dass 
+    \eqref{eq:beta_im_R2:Bedingung} die UV-Stabilität eines Fixpunktes exakt 
+    vorhersagt. Daher, und weil zu erwarten ist, dass höchstens endlich viele 
+    Lösungen \eqref{eq:beta_im_R2:Bedingung} erfüllen, die nicht zu 
+    Trajektorien gehören, die in den Fixpunkt hineinlaufen, 
+    wird diese Bedingung im Folgenden weiter verwendet
 
-     
-	
-	
-      
+    
   \subsection{Fixpunktextrapolation}
     Ein besonderer Vorteil einer Erweiterung $G \to G_1\times G_2$ ist die 
     Möglichkeit einen UV-Fixpunkt eindeutig extrapolieren zu können, da die 
