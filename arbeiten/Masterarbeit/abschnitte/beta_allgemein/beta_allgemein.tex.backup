@@ -132,7 +132,7 @@
     \end{equation}
     wobei $\tilde{\alpha}$ wieder zu $\alpha$ umbenannt wurde.
     
-  \subsection{Verhalten in einer Umgebung eines Fixpunktes}
+  \subsection{Verhalten in einer Umgebung eines Fixpunktes}\label{beta_allgemein:Verhalten}
     Um das Verhalten der Kopplungskonstanten $\alpha(t)$ in der Nähe eines 
     Fixpunktes zu untersuchen wird die Stabilitätsmatrix wie folgt eingeführt.
     \begin{definition}
@@ -162,7 +162,8 @@
      $(\alpha(t)-\alpha^*)$ in Eigenvektoren zerlegt werden, 
      \begin{equation}
      \ddt \alpha(t) \simeq \dbdafix \left(\alpha(t)-\alpha^*\right) 
-     = \dbdafix \sum_{i=1}^N K_i(t) e_i  \quad .
+     = \dbdafix \sum_{i=1}^N K_i(t) e_i  \quad . 
+     \label{eq:beta_allgemein:beta_linear}
      \end{equation}
      Für die Koeffizienten $\{K_i\}$ in der Basis der Eigenvektoren ergibts 
      sich das entkoppelte DGL-System
@@ -212,15 +213,16 @@
       Fixpunktes.
     \end{definition}
 
-%   \subsection{Sonderfall: nicht hyperbolische Fixpunkte}
-%     Bei allgemeinen Betrachtungen (vgl. \cite{Weinberg:1976}) 
-%     wird der nicht hyperbolische Fall $\lambda_i = 0$ oft als unwichtiger 
-%     Sonderfall nicht weiter betrachtet. Bei der Untersuchung einer konkreten 
-%     $\beta$-Funktion kommt dieser Sonderfall aber auf natürliche Weise schnell 
-%     zu stande.
-%     
-%     
-%     
+    Bei allgemeinen Betrachtungen (vgl. \cite{Weinberg:1976}) 
+    wird der nicht-hyperbolische Fall $\lambda_i = 0$ oft als unwichtiger 
+    Sonderfall nicht weiter betrachtet. Bei der Untersuchung einer konkreten 
+    $\beta$-Funktion kommt dieser Sonderfall aber auf natürliche Weise  
+    zu Stande, sobald ein Fixpunkt einen Wert $\alpha^*_i = 0$ besitzt. In diesem 
+    Fall ist es schwierig allgemeine Aussagen zu treffen, für ein 2-dimensionales 
+    Problem wie in Abschnitt \ref{beta_im_R2} lässt sich jedoch ein 
+    alternatives Stabilitätskriterium finden.
+    
+
 %     Sein nun also $\alpha^*$ ein Fixpunkt, $\{e_i\}$ die Basis aus Eigenvektoren der 
 %     Stabilitätsmatrix und der Eigenwert $\lambda_k=0$, alle anderen $\lambda_i \neq 0$ 
 %     für $i\neq k$. In zweiter Ordnung gilt

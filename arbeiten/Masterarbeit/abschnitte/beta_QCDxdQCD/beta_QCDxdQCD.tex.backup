@@ -165,9 +165,11 @@
        Z_1 Z_2 > Y_1Y_2\quad .
        \label{eq:beta_QCDxdQCD:sattelpunkt}
       \end{equation}
-      Auch hier wird wieder eine Fallunterscheidung in den Vorzeichen der 
-      Koeffizienten hilfreich, da so einige Fälle bereits 
-      darstellungsunabhängig ausgeschlossen werden können.
+      Da es für den Sattelpunkt weniger Bedingungen als für einen 
+      UV-attraktiven Fixpunkt gibt, sind Falluntescheidungen in den 
+      Vorzeichen von $Y_i$ und $X_i$ nötig. Es wird sich zeigen, dass nur 
+      Fälle mit $X_1<0 \land X_2<0$ möglich sind, sodass es obere Schranken 
+      für die Teilchenzahlen und $\Nd$ gibt.
       
       \begin{enumerate}
        \item $Y_1 > 0 \land Y_2 > 0$:
@@ -191,11 +193,7 @@
 	  \end{align}
 	  Es gibt also eine allgemeine Obergrenze von $\nfj<\frac{11}{2}$, 
 	  die für die Grenzfälle $\nfc=0$ und $\nfd=0$ oder $\Nc\to\infty$
-	  und gleichzeitig $\Nd \to \infty$ erreicht wird. Allerdings sind wegen  
-	  \begin{equation}
-	   X_1<0 \Rightarrow \Nd < \frac{11}{2}-\nfc
-	  \end{equation}
-	  nur Lösungen mit wenigen Dark-Colours $\Nd$ möglich.
+	  und gleichzeitig $\Nd \to \infty$ erreicht wird.
 	  Die einzigen Standardmodell nahen Lösungen, die gleichzeitig zu 
 	  sinnvollen Fixpunkten führen, sind
 	  \begin{equation}
@@ -249,9 +247,6 @@
       $\nfj\lessapprox 5$  für die Anzahl der joint-Fermionen gibt, und durch 
       das Einführen von QCD- und dQCD-Fermionen wird diese Grenze weiter nach 
       unten verschoben.
-      
-      \input{abschnitte/beta_QCDxdQCD/fig/Sattelpunkte_ohne_Skalare.tex}
-      
       Der einzige Fall, der in der skalarfreien Theorie physikalische 
       Sattelpunkte bringt, ist \ref{Fall1b}, exemplarisch ist 
       das Flussdiagramm für $\nfj=2$ in Abbildung
@@ -266,6 +261,7 @@
       Folgenden gezeigt wird, ist es mit Skalaren jedoch möglich perturbative 
       Fixpunkte zu erhalten, ohne von den Standardmodell Werten $\Nc=3$ und 
       $\nfc=6$ abweichen zu müssen. 
+      \input{abschnitte/beta_QCDxdQCD/tab/Sattelpunkt_ohne_Skalare.tex}
       
 
       An den Koeffizienten \eqref{eq:beta_QCDxdQCD:X1g} und 
@@ -316,10 +312,8 @@
                             -Z_1 Y_1 \\ 1
                            \end{pmatrix}
                            \quad \text{und} \quad
-    \quad \nabla \lambda_2 = \begin{pmatrix}
-                              0 \\ 2 X_2 -2\frac{X_1}{Y_1} Z_2
-                             \end{pmatrix}
-                             \quad .
+    \quad \frac{\partial \lambda_2}{\partial \alpha_2} = 2 X_2 
+    -2\frac{X_1}{Y_1} Z_2   \quad .
     \end{equation}
     Die Bedingung dafür, dass $\alpha^{*3}$ ein Sattelpunkt ist, ist somit 
     \begin{equation}
@@ -365,4 +359,9 @@
     ein neues Verhalten oder neue Wertebereiche für den Fixpunkt treten aber 
     nicht auf.
     
-    
+
+  \subsection{UV-Verhalten bei $\alpha^{*2}$}
+    \input{abschnitte/beta_QCDxdQCD/tab/Fix2_ohne_Skalare.tex}
+    Aufgrund der Symmetrie der $\beta$-Funktion in den Indizes $\text{c}$ und 
+    $\text{d}$ ist das allgemeine Vorgehen wie bei $\alpha^{*3}$. Der Fixpunkt 
+    ist in $\alpha_2$-Richtung repulsiv

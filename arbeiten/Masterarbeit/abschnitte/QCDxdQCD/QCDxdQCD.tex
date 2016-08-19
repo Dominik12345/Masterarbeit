@@ -14,29 +14,31 @@
     \textit{fundamentalen Darstellung} und die Gluonen in der 
     \textit{adjungierten Darstellung} transformieren. Im SM gibt es 
     $N_\text{Flavour}=6$
-    verschiedene Quarkflavour und $N_\text{Colour}=\Nc=3$ Colours, da die QCD 
+    verschiedene Quarkflavour und $N_\text{Colour}=3$ Colours, da die QCD 
     Flavour-Blind ist, d.h. da die Wechselwirkung unabhängig von der 
     Flavour-Quantenzahl ist, ist die 
     Erweiterung auf $\Nc$ Colour und $\nfc$ Flavour jedoch trivial. Die 
     Lagrangedichte kann als 
     \begin{equation}
-     \mathcal{L}_\text{QCD} = \sum\limits_f \bar{q}_a^f \left( 
+     \mathcal{L}_\text{QCD} =\bar{\psi}_a^f \left( 
      \i \gamma^\mu \partial_\mu \delta_{ab} 
-     -g \gamma^\mu t^C_{ab} \mathcal{A}_\mu^C
+     -g_1 \gamma^\mu t^C_{ab} \mathcal{A}_\mu^C
      -m_f \delta_{ab}
-     \right)q_b^f -\frac{1}{4} F_{\mu \nu}^A F^{A \,\,\, \mu\nu}
+     \right)\psi_b^f -\frac{1}{4} F_{\mu \nu}^A F^{A \,\,\, \mu\nu}
+     \label{eq:QCDxdQCD:L_QCD}
     \end{equation}
-    geschrieben werden \cite{PDG:QCD}. Dabei stellt $q_b^f$ ein Quarkfeld mit 
+    geschrieben werden \cite{PDG:QCD}. Dabei stellt $\psi_b^f$ ein Quarkfeld mit 
     Colour $b\in \{1,2,\ldots,\Nc\}$ und Flavour $f\in\{1,2,\ldots , 
-    N_\text{Flavour}\}$ 
+    \nfc \}$ 
     und mit der Masse 
-    $m_f$ dar. Man nennt $q=(q_1,q_2,\ldots,q_{\Nc})^\text{T}$ ein 
+    $m_f$ dar, $g_1$ ist die Kopplungskonstante der QCD. Man 
+    nennt $\psi=(\psi_1,\psi_2,\ldots,\psi_{\Nc})^\text{T}$ ein 
     Colour-Multiplett\footnote{Der Flavour-Index $f$ wird ab jetzt 
     weggelassen.} unter der fundamentalen Darstellung, wenn es unter 
     Anwendung der $SU(\Nc)$ gemäß
     \begin{equation}
-      q(x) \longrightarrow \underbrace{U(x)}_{\in \mathbb{C}^{\Nc\times\Nc}}
-      q(x) \quad ,\quad \bar{q}(x) \longrightarrow\bar{q}(x) U(x)^\dagger
+      \psi(x) \longrightarrow \underbrace{U(x)}_{\in \mathbb{C}^{\Nc\times\Nc}}
+      \psi(x) \quad ,\quad \bar{\psi}(x) \longrightarrow\bar{\psi}(x) U(x)^\dagger
     \end{equation}
     transformiert. Die Gluonfelder $\mathcal{A}_\mu^C$ mit $C\in\{1,2,\ldots,
     \Nc^2-1\}$ und Erzeugern $t^C\in \mathbb{C}^{\Nc\times\Nc}$ 
@@ -53,23 +55,67 @@
       F^A_{\mu\nu} = \partial_\mu \mathcal{A}_\nu^A-\partial_\nu 
       \mathcal{A}_\mu^A - g f_{ABC} \mathcal{A}_\mu^B \mathcal{A}_\nu^C 
       \quad , \quad [t^A,t^B]=\i f_{ABC} t^C  \quad .
+      \label{eq:QCDxdQCD:Feldstaerketensor}
     \end{equation}
     Versucht man die QCD im Feynmanformalismus zu quantisieren, werden außerdem 
     Eichfixierung und Faddeev-Popov-de-Witt Ghosts benötigt  
     \cite{Weinberg:QFT_2}, diese können jedoch nach der Modellbildung 
     hinzugefügt werden, sodass sie hier nicht auftauchen. 
     
+    %DIAGRAMME
     
   \subsection{Dark QCD}
     In \cite{Scale_of_dark_QCD} wird die dQCD eingeführt, um die DM Massendichte 
     $\Omega_\text{DM}$ im Universum zu erklären. Dazu wird das 
     Niederenergieverhalten der neu eingeführten Kopplungskonstanten 
-    $g_\text{dQCD}$ auf die Confinement Scale $\Lambda_\text{dQCD}$ untersucht, 
+    $g_2$ auf die Confinement Scale $\Lambda_\text{dQCD}$ untersucht, 
     die analog zur QCD Confinement Scale $\Lambda_\text{QCD}$ die Größenordnung 
     der Baryonmasse bestimmt. Die Theorie ist aber, ebenfalls analog zur QCD, 
-    auch bis zu beliebig hohen Energieskalen anwendbar.
+    auch bis zu beliebig hohen Energieskalen anwendbar und soll hier auf ihr 
+    Hochenergieverhalten untersucht werden. 
     
-    
+    Die Lagrangedichte der dQCD kann analog zu \eqref{eq:QCDxdQCD:L_QCD} als
+    \begin{equation}
+     \mathcal{L}_\text{dQCD} = \bar{\xi}_a^f \left( 
+     \i \gamma^\mu \partial_\mu \delta_{ab} 
+     -g_2 \gamma^\mu \widetilde{t}^C_{ab} \widetilde{\mathcal{A}}_\mu^C
+     -\widetilde{m}_f \delta_{ab}
+     \right)\xi_b^f -\frac{1}{4} \widetilde{F}_{\mu \nu}^A 
+     \widetilde{F}^{A \,\,\, \mu\nu}
+     \label{eq:QCDxdQCD:L_dQCD}
+    \end{equation}
+    definiert werden. Die Fermionen $\xi^f$ der dQCD sollen in der fundamentalen 
+    Darstellung der $SU(\Nd)$ sein, entsprechend laufen die Indizes 
+    $b\in\{1,2,\ldots,\Nd\}$ und $f\in\{ 1,2,\ldots,\nfd \}$, während die 
+    Felder der Eichbosonen $\widetilde{\mathcal{A}}^C_\mu$ wieder in der 
+    adjungierten Darstellung transformieren, der Feldstärketensor 
+    $\widetilde{F}^A_{\mu \nu}$ wird wie in 
+    \eqref{eq:QCDxdQCD:Feldstaerketensor} definiert. Wie sich in Abschnitt 
+    \ref{beta_QCDxdQCD} zeigen wird begünstigt eine hohe Teilchenzahl 
+    die auftretenden Fixpunkte dahingehend, dass sie betragsmäßig kleiner 
+    werden und somit unter perturbative Kontrolle kommen, ohne ihr 
+    UV-attraktives Verhalten zu verlieren, wie es bei einer Theorie mit 
+    ausschließlich Fermionen der Fall wäre. Skalare $\phi^f$ und $\chi^f$ 
+    unter der QCD bzw. dQCD können über 
+    \begin{align}
+     \mathcal{L}_\text{QCD}^\text{S} &=
+     \left( \left[ \i \delta_{ab}- 
+     g_1 t^C_{ab} \mathcal{A}^C_\mu -\frac{1}{2}m_f^2 \delta_{ab}
+     \right] \phi^f_a \right)^\dagger
+     \left( \left[ \i \delta_{ab}- 
+     g_1 t^C_{ab} \mathcal{A}^{C\,\,\, \mu} -\frac{1}{2}m_f^2 \delta_{ab}
+     \right] \phi^f_b \right) \\
+     \mathcal{L}_\text{dQCD}^\text{S} &=
+     \left( \left[ \i \delta_{ab}- 
+     g_2 \widetilde{t}^C_{ab} \widetilde{\mathcal{A}}^C_\mu -\frac{1}{2}
+     \widetilde{m}_f^2 \delta_{ab}
+     \right] \chi^f_a \right)^\dagger
+     \left( \left[ \i \delta_{ab}- 
+     g_2 \widetilde{t}^C_{ab} \widetilde{\mathcal{A}}^{C\,\,\, \mu} -
+     \frac{1}{2}\widetilde{m}_f^2 \delta_{ab}
+     \right] \chi^f_b \right)
+    \end{align}
+    eingeführt werden \cite{Scalar_QCD}. 
 
     
   
