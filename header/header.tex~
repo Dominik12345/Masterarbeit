@@ -41,11 +41,8 @@
 \usepackage{enumitem}
 \usepackage{booktabs}
 \usepackage{hyperref}
-%\usepackage{feynmf}
+\usepackage{feynmf}
 
-\usepackage{pstricks}
-\usepackage{/home/dkahl/Documents/Masterarbeit/arbeiten/Masterarbeit/axodraw4j}
-\usepackage{color}
 
 
 

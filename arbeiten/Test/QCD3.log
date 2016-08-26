@@ -1,0 +1,124 @@
+This is METAFONT, Version 2.718281 (TeX Live 2013/Debian) (base=mf 2014.10.9)  23 AUG 2016 14:22
+**QCD3.mf
+(QCD3.mf (/usr/share/texmf/metafont/feynmf/feynmf.mf)
+! Value is too large (4097).
+<recently read> ;
+                 
+beginchar->...rdp:=(EXPR3);w:=hround(charwd*hppp);
+                                                  h:=vround(charht*hppp);d:=...
+l.4 beginchar(1, 40*2.84526pt#, 25*2.84526pt#, 0)
+                                                 ;
+? 
+feynmf: 1
+! Value is too large (4097).
+subgraph->...=((EXPR0),(EXPR1));se=sw+((EXPR2),0);
+                                                  nw=sw+(0,(EXPR3));ne=sw+((...
+l.7 subgraph (0, 0, w, h)
+                         ;
+? 
+! Value is too large (4097).
+subgraph->...+(0,(EXPR3));ne=sw+((EXPR2),(EXPR3));
+                                                  c=0.5[sw,ne];
+l.7 subgraph (0, 0, w, h)
+                         ;
+? 
+! Value is too large (4097).
+vforce->...3);vlist[vlookup(SUFFIX3)]loc:=(EXPR2);
+                                                  endgroup
+vdistribute->...orce(point.len/2of(EXPR2),(TEXT3))
+                                                  ;else:off:=0;forsuffixes$=...
+
+vright->...roup.vdistribute(right_gallery,(TEXT2))
+                                                  endgroup
+l.11 vright (__o)
+                 ;
+? 
+feynmf: option `' needs an argument.  Ignored.
+feynmf: option `' needs an argument.  Ignored.
+:1:\fmfL(19.99915,25.72078,b){$a$}%
+! Curve out of range.
+<to be read again> 
+                   endgroup
+<to be read again> 
+                   ;
+draw_curly->begingroup.cdraw(curly(EXPR2));
+                                           endgroup
+<to be read again> 
+                   endgroup
+<to be read again> 
+                   ;
+vdraw_arc->...cantokens("draw_"&(EXPR2))((EXPR4));
+                                                  vdraw_arc_label((EXPR4),(S...
+<for(1)> ...4),(EXPR0)),vlist[(4)]arc[(EXPR0)]lbl)
+                                                  ;vlist[(4)]arc[(EXPR0)]sty...
+<for(4)> ...arc[j]sty:="";endgroup;fi.fi.fi.endfor
+                                                  ; ENDFOR
+vdraw->...]sty:="";endgroup;fi.fi.fi.endfor;endfor
+                                                  .for.i=polygons:vdraw_labe...
+l.21 vdraw
+          ;
+? 
+:1:\fmfL(19.99915,-0.71819,t){$\bar {b}$}%
+:1:\fmfL(-2.10876,12.5013,r){$C$}%
+:1:\fmfL(42.10706,12.5013,l){$C$}% [1]
+! Curve out of range.
+<to be read again> 
+                   ;
+<for(0)> screenrule((0,(EXPR0)),(w,(EXPR0)));
+                                              ENDFOR
+makebox->...h.o_,-d.o_:(TEXT0)((0,y),(w,y));endfor
+                                                  .for.x=0,w:(TEXT0)((x,-d.o...
+
+endchar->...it;if.displaying>0:makebox(screenrule)
+                                                  ;showit;fi.endgroup
+l.23 endchar
+            ;
+? 
+! Curve out of range.
+<to be read again> 
+                   ;
+<for(2561)> screenrule((0,(EXPR0)),(w,(EXPR0)));
+                                                 ENDFOR
+makebox->...h.o_,-d.o_:(TEXT0)((0,y),(w,y));endfor
+                                                  .for.x=0,w:(TEXT0)((x,-d.o...
+
+endchar->...it;if.displaying>0:makebox(screenrule)
+                                                  ;showit;fi.endgroup
+l.23 endchar
+            ;
+? 
+! Curve out of range.
+<to be read again> 
+                   ;
+<for(0)> screenrule((0,(EXPR0)),(w,(EXPR0)));
+                                              ENDFOR
+makebox->...h.o_,-d.o_:(TEXT0)((0,y),(w,y));endfor
+                                                  .for.x=0,w:(TEXT0)((x,-d.o...
+
+endchar->...it;if.displaying>0:makebox(screenrule)
+                                                  ;showit;fi.endgroup
+l.23 endchar
+            ;
+? 
+! Curve out of range.
+<to be read again> 
+                   ;
+<for(4097)> ...le(((EXPR0),-d.o_),((EXPR0),h.o_));
+                                                   ENDFOR
+makebox->...0,w:(TEXT0)((x,-d.o_),(x,h.o_));endfor
+                                                  .if.charic<>0:(TEXT0)((w+c...
+
+endchar->...it;if.displaying>0:makebox(screenrule)
+                                                  ;showit;fi.endgroup
+l.23 endchar
+            ;
+? 
+ ) 
+Here is how much of METAFONT's memory you used:
+ 633 strings out of 5274
+ 7315 string characters out of 69995
+ 63942 words of memory out of 5000000
+ 1378 symbolic tokens out of 9500
+ 14i,67n,40r,28p,101b stack positions out of 300i,300n,1000r,150p,200000b
+
+Output written on QCD3.2602gf (1 character, 32056 bytes).

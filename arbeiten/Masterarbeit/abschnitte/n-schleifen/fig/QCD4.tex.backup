@@ -1,0 +1,5 @@
+\begin{figure}
+ \centering
+ \includegraphics{abschnitte/n-schleifen/fig/QCD3.eps}
+ \caption{Fermion-Loop Beitrag zum Gluon Propagator.}\label{fig:n-schleifen:QCD3}
+\end{figure}

@@ -20,41 +20,43 @@
     Erweiterung auf $\Nc$ Colour und $\nfc$ Flavour jedoch trivial. Die 
     Lagrangedichte kann als 
     \begin{equation}
-     \mathcal{L}_\text{QCD} =\bar{\psi}_a^f \left( 
-     \i \gamma^\mu \partial_\mu \delta_{ab} 
-     -g_1 \gamma^\mu t^C_{ab} \mathcal{A}_\mu^C
-     -m_f \delta_{ab}
-     \right)\psi_b^f -\frac{1}{4} F_{\mu \nu}^A F^{A \,\,\, \mu\nu}
+     \mathcal{L}_\text{QCD} =\bar{\psi}_i^f \left( 
+     \i \gamma^\mu \partial_\mu \delta_{ij} 
+     -g_1 \gamma^\mu t^A_{ij} \mathcal{A}_\mu^A
+     -m_f \delta_{ij}
+     \right)\psi_j^f -\frac{1}{4} F_{\mu \nu}^A F^{A \,\,\, \mu\nu}
      \label{eq:QCDxdQCD:L_QCD}
     \end{equation}
     geschrieben werden \cite{PDG:QCD}. Dabei stellt $\psi_b^f$ ein Quarkfeld mit 
-    Colour $b\in \{1,2,\ldots,\Nc\}$ und Flavour $f\in\{1,2,\ldots , 
-    \nfc \}$ 
+    Colour $i$ und Flavour $f\in\{1,2,\ldots,\nfc\}$ 
     und mit der Masse 
-    $m_f$ dar, $g_1$ ist die Kopplungskonstante der QCD. Man 
+    $m_f$ dar, $g_1$ ist die Kopplungskonstante der QCD. Die Indizes $i,j\in
+    \{1,2,\ldots \Nc\}$ gehören zur fundamentalen Darstellung, während $A\in 
+    \{1,2,\dots,\Nc^2-1\}$ zur adjungierten Darstellung gehört. Man 
     nennt $\psi=(\psi_1,\psi_2,\ldots,\psi_{\Nc})^\text{T}$ ein 
     Colour-Multiplett\footnote{Der Flavour-Index $f$ wird ab jetzt 
     weggelassen.} unter der fundamentalen Darstellung, wenn es unter 
     Anwendung der $SU(\Nc)$ gemäß
     \begin{equation}
       \psi(x) \longrightarrow \underbrace{U(x)}_{\in \mathbb{C}^{\Nc\times\Nc}}
-      \psi(x) \quad ,\quad \bar{\psi}(x) \longrightarrow\bar{\psi}(x) U(x)^\dagger
+      \psi(x) \quad ,\quad \bar{\psi}(x) \longrightarrow\bar{\psi}(x) 
+      U(x)^\dagger
     \end{equation}
-    transformiert. Die Gluonfelder $\mathcal{A}_\mu^C$ mit $C\in\{1,2,\ldots,
-    \Nc^2-1\}$ und Erzeugern $t^C\in \mathbb{C}^{\Nc\times\Nc}$ 
+    transformiert. Die Gluonfelder $\mathcal{A}_\mu^A$ mit Erzeugern 
+    $t^A\in \mathbb{C}^{\Nc\times\Nc}$ 
     transformieren dagegen in der 
     adjungierten Darstellung \cite{Weinberg:QFT_2}
     \begin{equation}
-      t^C_{ab}\mathcal{A}_\mu^C(x) \longrightarrow
-      U(x) t^C_{ab}\mathcal{A}_\mu^C(x) U(x)^\dagger - \i (\partial_\mu U(x) )
+      t^A_{ij}\mathcal{A}_\mu^A(x) \longrightarrow
+      U(x) t^A_{ij}\mathcal{A}_\mu^C(x) U(x)^\dagger - \i (\partial_\mu U(x) )
       U(x)^\dagger \quad .
     \end{equation}
     Die Dynamik und Propagation der Gluonen wird dabei durch den 
     Feldstärketensor vermittelt,
     \begin{equation}
       F^A_{\mu\nu} = \partial_\mu \mathcal{A}_\nu^A-\partial_\nu 
-      \mathcal{A}_\mu^A - g f_{ABC} \mathcal{A}_\mu^B \mathcal{A}_\nu^C 
-      \quad , \quad [t^A,t^B]=\i f_{ABC} t^C  \quad .
+      \mathcal{A}_\mu^A - g f^{ABC} \mathcal{A}_\mu^B \mathcal{A}_\nu^C 
+      \quad , \quad [t^A,t^B]=\i f^{ABC} t^C  \quad .
       \label{eq:QCDxdQCD:Feldstaerketensor}
     \end{equation}
     Versucht man die QCD im Feynmanformalismus zu quantisieren, werden außerdem 
@@ -76,22 +78,23 @@
     
     Die Lagrangedichte der dQCD kann analog zu \eqref{eq:QCDxdQCD:L_QCD} als
     \begin{equation}
-     \mathcal{L}_\text{dQCD} = \bar{\xi}_a^f \left( 
-     \i \gamma^\mu \partial_\mu \delta_{ab} 
-     -g_2 \gamma^\mu \widetilde{t}^C_{ab} \widetilde{\mathcal{A}}_\mu^C
-     -\widetilde{m}_f \delta_{ab}
-     \right)\xi_b^f -\frac{1}{4} \widetilde{F}_{\mu \nu}^A 
-     \widetilde{F}^{A \,\,\, \mu\nu}
+     \mathcal{L}_\text{dQCD} = \bar{\xi}_r^f \left( 
+     \i \gamma^\mu \partial_\mu \delta_{rs} 
+     -g_2 \gamma^\mu \widetilde{t}^M_{ts} \widetilde{\mathcal{A}}_\mu^M
+     -\widetilde{m}_f \delta_{rs}
+     \right)\xi_s^f -\frac{1}{4} \widetilde{F}_{\mu \nu}^M 
+     \widetilde{F}^{M \,\,\, \mu\nu}
      \label{eq:QCDxdQCD:L_dQCD}
     \end{equation}
     definiert werden. Die Fermionen $\xi^f$ der dQCD sollen in der fundamentalen 
     Darstellung der $SU(\Nd)$ sein, entsprechend laufen die Indizes 
-    $b\in\{1,2,\ldots,\Nd\}$ und $f\in\{ 1,2,\ldots,\nfd \}$, während die 
-    Felder der Eichbosonen $\widetilde{\mathcal{A}}^C_\mu$ wieder in der 
-    adjungierten Darstellung transformieren, der Feldstärketensor 
-    $\widetilde{F}^A_{\mu \nu}$ wird wie in 
+    $r,s\in\{1,2,\ldots,\Nd\}$ und $f\in\{ 1,2,\ldots,\nfd \}$, während die 
+    Felder der Eichbosonen $\widetilde{\mathcal{A}}^M_\mu$ wieder in der 
+    adjungierten Darstellung transformieren, $M\in\{1,2,\ldots,\Nd^2-1\}$, 
+    der Feldstärketensor 
+    $\widetilde{F}^M_{\mu \nu}$ wird wie in 
     \eqref{eq:QCDxdQCD:Feldstaerketensor} definiert. Wie sich in Abschnitt 
-    \ref{beta_QCDxdQCD} zeigen wird begünstigt eine hohe Teilchenzahl 
+    \ref{beta_QCDxdQCD} zeigen wird, begünstigt eine hohe Teilchenzahl 
     die auftretenden Fixpunkte dahingehend, dass sie betragsmäßig kleiner 
     werden und somit unter perturbative Kontrolle kommen, ohne ihr 
     UV-attraktives Verhalten zu verlieren, wie es bei einer Theorie mit 
@@ -99,26 +102,89 @@
     unter der QCD bzw. dQCD können über 
     \begin{align}
      \mathcal{L}_\text{QCD}^\text{S} &=
-     \left( \left[ \i \delta_{ab}- 
-     g_1 t^C_{ab} \mathcal{A}^C_\mu -\frac{1}{2}m_f^2 \delta_{ab}
-     \right] \phi^f_a \right)^\dagger
-     \left( \left[ \i \delta_{ab}- 
-     g_1 t^C_{ab} \mathcal{A}^{C\,\,\, \mu} -\frac{1}{2}m_f^2 \delta_{ab}
-     \right] \phi^f_b \right) \\
+     \left( \left[ \i \delta_{ji} \partial_\mu - 
+     g_1 t^A_{ji} \mathcal{A}^A_\mu -\frac{1}{2}\left(m_f^\text{S}\right)^2 
+     \delta_{ji}
+     \right] \phi^f_i \right)^\dagger
+     \left( \left[ \i \delta_{ji} \partial^\mu- 
+     g_1 t^A_{ji} \mathcal{A}^{A\,\,\, \mu} -\frac{1}{2}\left(m_f^\text{S}
+     \right)^2
+     \delta_{ji}
+     \right] \phi^f_i \right) \\
      \mathcal{L}_\text{dQCD}^\text{S} &=
-     \left( \left[ \i \delta_{ab}- 
-     g_2 \widetilde{t}^C_{ab} \widetilde{\mathcal{A}}^C_\mu -\frac{1}{2}
-     \widetilde{m}_f^2 \delta_{ab}
-     \right] \chi^f_a \right)^\dagger
-     \left( \left[ \i \delta_{ab}- 
-     g_2 \widetilde{t}^C_{ab} \widetilde{\mathcal{A}}^{C\,\,\, \mu} -
-     \frac{1}{2}\widetilde{m}_f^2 \delta_{ab}
-     \right] \chi^f_b \right)
+     \left( \left[ \i \delta_{sr}\partial_\mu - 
+     g_2 \widetilde{t}^M_{sr} \widetilde{\mathcal{A}}^M_\mu -\frac{1}{2}
+     \left(\widetilde{m}_f^\text{S}\right)^2 \delta_{sr}
+     \right] \chi^f_r \right)^\dagger
+     \left( \left[ \i \delta_{sr}\partial^\mu - 
+     g_2 \widetilde{t}^M_{sr} \widetilde{\mathcal{A}}^{M\,\,\, \mu} -
+     \frac{1}{2}\left(\widetilde{m}_f^\text{S}\right)^2 \delta_{sr}
+     \right] \chi^f_r \right)
     \end{align}
+    eingeführt werden (vgl. \cite{Scalar_QCD}). Der Flavour-Index $f$ läuft 
+    wieder 
+    über alle $\nsc$ QCD Skalare bzw. alle $\nsd$ dQCD Skalare. Die 
+    Colour-Indizes $i,j$ und $r,s$ über alle $\Nc$ Colours bzw. $\Nd$ dark 
+    Colours.
 
+    Bis zu diesem Punkt sind die QCD und dQCD voneinander unabhängig, in dem 
+    Sinne, dass es keine zusammenhängenden Feynmangraphen gibt, in denen 
+    Teilchen des QCD- und dQCD-Sektors gleichzeitig auftreten. Um dies zu 
+    ermöglichen wird ein joint-Sektor eingeführt, Teilchen die unter beiden 
+    Symmetriegruppen geladen sind und somit an $\mathcal{A}_\mu^C$ und 
+    $\widetilde{\mathcal{A}}_\mu^C$ mit der entsprechenden Kopplungskonstanten 
+    koppeln \cite{Scale_of_dark_QCD}. Unter der Annahme, dass sie ebenfalls 
+    in den fundamentalen Darstellungen der Symmetriegruppen transformieren, 
+    können die entsprechenden Teile der Lagrangedichte als 
+    \begin{align}
+      \mathcal{L}_\text{joint} &= \bar{\zeta}_{ir}^f \left( 
+     \i \gamma^\mu \partial_\mu \delta_{ij} \delta_{rs} 
+     -g_1 \gamma^\mu t^A_{ij} \mathcal{A}_\mu^A \delta_{rs}
+     -g_2 \gamma^\mu \widetilde{t}^M_{rs} \widetilde{\mathcal{A}}_\mu^M 
+     \delta_{ij}
+     -m^\text{joint}_f \delta_{ij}\delta_{rs}
+     \right)\zeta_{js}^f 
+     \\
+     \mathcal{L}_\text{joint}^\text{S}&=
+     \left( \left[ \i \delta_{ji}\delta_{sr}\partial_\mu- 
+     g_1 t^A_{ji} \mathcal{A}^A_\mu \delta_{sr} 
+     - 
+     g_2 \widetilde{t}^M_{sr} \widetilde{\mathcal{A}}^M_\mu \delta_{ji} 
+     -\frac{1}{2}\left(m_f^\text{S,joint}\right)^2 \delta_{ji}\delta_{sr}
+     \right] \eta^f_{ir} \right)^\dagger
+     \\ &
+     \left( \left[ \i \delta_{ji}\delta_{sr}\partial_\mu- 
+     g_1 t^A_{ji} \mathcal{A}^A_\mu \delta_{sr} 
+     - 
+     g_2 \widetilde{t}^M_{sr} \widetilde{\mathcal{A}}^M_\mu \delta_{ji} 
+     -\frac{1}{2}\left(m_f^\text{S,joint}\right)^2 \delta_{ji}\delta_{sr}
+     \right] \eta^f_{ir} \right)    
+     \label{eq:QCDxdQCD:joint}
+    \end{align}
+    geschrieben werden. Dabei laufen die Indizes $a,b,j\in \{1,2,\ldots 
+    \Nc\}$, $c,d,i\in\{1,2,\ldots,\Nd\}$ und $f\in\{1,2, \ldots \nfc\}$ für 
+    die Fermionen $\zeta$ bzw. $f\in\{1,2,\ldots,\nsc\}$ für Skalare $\eta$.
+
+    In \cite{Weinberg:QFT_2} zeigt Weinberg, dass durch die Reskalierung zu 
+    einer Energieskala $\mu$ alle Massen $m$ gemäß $m/\mu$ skalieren und 
+    im Grenzwert hoher Energien gegen Null gehen. Entsprechend ist es bei der 
+    Untersuchung von UV-Fixpunkten zulässig, alle Massen gleich Null zu setzen.
+  
+    Die bisher beschriebenen Lagrangedichten beinhalten ausschließlich 
+    Eichwechslewirkungen, es gibt jedoch weitere Arten von Wechselwirkungen 
+    bei denen keine Eichfelder beteiligt sind, 3-Skalar-Kopplungen, 
+    4-Skalar-Kopplungen und Yukawa-Kopplungen. Korrekturen durch 
+    4-Skalar-Kopplungen tragen erst ab 3-Schleifen Ordnung zur $\beta$-Funktion 
+    der Eichkopplungen bei \cite{quartic_scalar}, die in dieser Arbeit jedoch 
+    nur 2-Schleifen $\beta$-Funktionen betrachtet werden, müssen 
+    4-Skalar-Kopplungen nicht betrachtet werden. Mögliche Kombinationen für 
+    Yuakawa-Terme sind in Gleichung \eqref{eq:QCDxdQCD:Yukawa-Terme} zu sehen. 
+    \begin{equation}
+     \mathcal{L}_\text{Yukawa}^1 =y_1 \bar{\psi} \eta \xi + 
+     y_2 \bar{\psi} \zeta \chi +
+     y_3 \bar{\psi} \phi \psi +
+     y_4 \bar
+    \end{equation}
 
     
-  
-  
-  
   Aufgrund\cite{Ade:2015xua}

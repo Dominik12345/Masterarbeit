@@ -1,0 +1,20 @@
+\documentclass{article}
+\usepackage{feynmf}
+\begin{document}
+\unitlength = 1mm
+
+\begin{fmffile}{QCD3}
+\begin{fmfgraph*}(40,25)
+\fmfleft{i}
+\fmfright{o}
+\fmflabel{$C$}{i}
+\fmflabel{$C$}{o}
+\fmfv{}{v1}
+\fmfv{}{v2}
+\fmf{gluon}{i,v1}
+\fmf{gluon}{v2,o}
+\fmf{fermion,left,tension=0.2,label=$a$}{v1,v2}
+\fmf{fermion,left,tension=0.2,label=$\bar{b}$}{v2,v1}
+\end{fmfgraph*}
+\end{fmffile}
+\end{document}

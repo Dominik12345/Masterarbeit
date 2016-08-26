@@ -1,6 +1,6 @@
 \clearpage
 \section{Schleifen}\label{Schleifen}
-  Eine anschauliche Methode
+  
 \input{abschnitte/n-schleifen/fig/QCD1.tex}
 \input{abschnitte/n-schleifen/fig/QCD2.tex}
 \input{abschnitte/n-schleifen/fig/QCD3.tex}
