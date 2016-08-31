@@ -1,11 +1,11 @@
 \begin{figure}[h]
 %\centering
-\begin{minipage}[t]{0.5 \textwidth}
+\begin{minipage}[t]{0.6\textwidth}
  \includegraphics{abschnitte/n-schleifen/fig/QCDxdQCD1.eps}
  \caption{2-Schleifen-Korrektur zum Gluonpropagator.}\label{fig:n-schleifen:QCDxdQCD1}
 \end{minipage}
 \begin{minipage}[t]{0.5\textwidth}
- \includegraphics{abschnitte/n-schleifen/fig/QCDxdQCD2var.eps}
+ \includegraphics{abschnitte/n-schleifen/fig/QCDxdQCD2.eps}
  \caption{2-Schleifen-Korrektur zum Gluonpropagator.}\label{fig:n-schleifen:QCDxdQCD2}
  \end{minipage}
 \end{figure}

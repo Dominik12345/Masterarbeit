@@ -173,18 +173,80 @@
     Die bisher beschriebenen Lagrangedichten beinhalten ausschließlich 
     Eichwechslewirkungen, es gibt jedoch weitere Arten von Wechselwirkungen 
     bei denen keine Eichfelder beteiligt sind, 3-Skalar-Kopplungen, 
-    4-Skalar-Kopplungen und Yukawa-Kopplungen. Korrekturen durch 
+    4-Skalar-Kopplungen und Yukawa-Kopplungen. Im Folgenden wird kurz begündet, 
+    warum diese drei Arten der Kopplung im weiteren Verlauf der Arbeit nicht 
+    beitragen.
+    \begin{description}
+     \item[4-Skalar-Kopplung:]
+    Korrekturen durch 
     4-Skalar-Kopplungen tragen erst ab 3-Schleifen Ordnung zur $\beta$-Funktion 
-    der Eichkopplungen bei \cite{quartic_scalar}, die in dieser Arbeit jedoch 
-    nur 2-Schleifen $\beta$-Funktionen betrachtet werden, müssen 
-    4-Skalar-Kopplungen nicht betrachtet werden. Mögliche Kombinationen für 
-    Yuakawa-Terme sind in Gleichung \eqref{eq:QCDxdQCD:Yukawa-Terme} zu sehen. 
+    der Eichkopplungen bei \cite{quartic_scalar}, da in dieser Arbeit jedoch 
+    nur 2-Schleifen $\beta$-Funktionen betrachtet werden, gibt es keine 
+    Beiträge. 
+      \item[Yukawa-Kopplung:]
+    Bei reinen QCD-, dQCD- oder joint-Sektor Yukawa-Kopplungen, als 
+    Lagrangedichte
     \begin{equation}
-     \mathcal{L}_\text{Yukawa}^1 =y_1 \bar{\psi} \eta \xi + 
-     y_2 \bar{\psi} \zeta \chi +
-     y_3 \bar{\psi} \phi \psi +
-     y_4 \bar
+     \mathcal{L}_\text{Yukawa}= y_1 \bar{\psi} \phi \psi +
+     +y_2 \bar{\xi} \chi \xi + y_3 \bar{\zeta} \eta \zeta 
+     \quad , \label{eq:QCDxdQCD:Yukawas1}
     \end{equation}
-
+    müssen die Darstellungen $\bar{N}\otimes N \otimes N$ ein Singlett der 
+    $SU(N)$ ergeben\footnote{Für $N$ ist entsprechend $\Nc$ oder $\Nd$ 
+    einzusetzen.}, eine Berechnung über Yang-Tableaus zeigt jedoch, dass das 
+    Ergebnis mindestens ein $N$-Tupel der $SU(N)$ ist. Solche 
+    Yukawa-Kopplungen sind demnach nicht möglich.
+    
+    Da der joint-Sektor die einzige Verbindung zwischen der $SU(\Nc)$ und 
+    $SU(\Nd)$ ist, müssen alle weiteren möglichen Yukawa-Kopplungen je ein 
+    Teilchen aus jedem Sektor enthalten. Die Lagrangedichte hat die 
+    Form\footnote{Durch die Vertauschung 
+    QCD$\leftrightarrow$dQCD$\leftrightarrow$joint-Sektor ergeben sich weitere 
+    Kombinationen, die auf die gleiche Weise herausfallen.}
+    \begin{equation}
+     \mathcal{L}_\text{Yukawa}=y_1 \bar{\psi} \eta \xi +  
+     y_2 \bar{\psi} \eta^\dagger \xi +
+     y_3 \bar{\psi} \zeta \chi +
+     y_4 \bar{\psi} \bar{\zeta}\chi 
+     \quad , \label{eq:QCDxdQCD:Yukawas2}
+    \end{equation}
+    es treffen hierbei die Darstellungen $N\otimes N$ oder $\bar{N}\otimes
+    \bar{N}$ aufeinander, die kein Singlett ergeben können. Wird die Theorie 
+    so abgeändert, dass Teilchen des joint-Sektors fundamental unter QCD und 
+    fundamental konjugiert unter dQCD transformieren,\begin{equation}\zeta(x) 
+    \longrightarrow U(x) \zeta(x)\widetilde{U}^\dagger 
+     \quad \text{bzw.} \quad 
+     \eta(x) \longrightarrow U(x) \eta(x)\widetilde{U}^\dagger \quad ,
+    \end{equation}
+    sind Yukawa-Terme der Art \eqref{eq:QCDxdQCD:Yukawas2} erlaubt. Litim und 
+    Sannino haben gezeigt, dass bei einer einzelnen $SU(N)$-Eichtheorie 
+    Yukawa-Wechselwirkungen für ein Asymptotic Safety Szenario nötig 
+    sind \cite{Asymptotic_safety_guaranteed}, da dies bei 
+    $SU(\Nc)\times SU(\Nd)$ nicht der Fall ist, ist diese Abänderung der Theorie 
+    jedoch nicht nötig.
+    
+      \item[3-Skalar-Kopplung:]
+    Da die Skalare und die entsprechenden Fermionen das gleiche Verhalten unter 
+    den Symmetriegruppen haben, können in \eqref{eq:QCDxdQCD:Yukawas1} und 
+    \eqref{eq:QCDxdQCD:Yukawas2} die Fermionen durch die entsprechenden Skalare 
+    ersetzt werden und müssen aus den 
+    selben Gründen wie die Yukawa-Terme wegfallen. Die einzigen Terme, die 
+    kein Yukawa-Analogon besitzen, sind
+    \begin{equation}
+     \mathcal{L}_\text{3-Skalar}=\lambda_1 \phi^3
+     + \lambda_2 \chi^3
+     + \lambda_3 \eta^3 \quad ,
+    \end{equation}
+    sodass hier die Kombination $N \otimes N \otimes N$ auftaucht. Die 
+    Berechnung über Yang-Tableaus zeigt, dass es für $N=3$ 
+    möglich ist ein Singlett zu erhalten, aus den folgenden Gründen werden 
+    diese 3-Skalar-Kopplungen jedoch nicht weiter berücksichtigt. Da $\Nc$ und 
+    $\Nd$ 
+    
+    
+    \end{description}
+    
+    
+    
     
   Aufgrund\cite{Ade:2015xua}

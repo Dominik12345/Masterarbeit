@@ -1,5 +1,5 @@
 \clearpage
-\section{UV-Fixpunkte der $SU_\text{QCD}\times SU_\text{dQCD}$}
+\section{UV-Fixpunkte der $SU_\text{QCD}\times SU_\text{dQCD}$}\label{beta_QCDxdQCD}
 
   Die allgemeinste Form der $\beta$-Funktion auf 2-loop Ordnung wurde von 
   D.R.T. Jones berechnet \cite{Jones}.
@@ -14,7 +14,8 @@
   sind die Koeffizienten von $\beta_1$ gegeben durch 
   \begin{align}
    X_1^g &= (16 \uppi^2)^{-1}\left[ \frac{2}{3} T(R_1) d(R_2) + \frac{1}{3} 
-    T(S_1)d(S_2)-\frac{11}{3} C_2(G_1) \right] \\
+    T(S_1)d(S_2)-\frac{11}{3} C_2(G_1) \right] \label{eq:beta_QCDxdQCD:X1}\\
+    \begin{split}
    Y_1^g &= (16 \uppi^2)^{-2} \left[ 
     \left( 
     \frac{10}{3} C_2(G_1)+2C_2(R_1)
@@ -23,24 +24,63 @@
     \frac{2}{3} C_2(G_1) +4C_2(S_1) 
     \right)T(S_1) d(S_2)
     -\frac{34}{3} C_2(G_1)^2
-    \right] \\
+    \right] \label{eq:beta_QCDxdQCD:Y1}
+    \end{split}\\
    Z_1^g &= (16 \uppi^2)^{-2} \left[
       2 C_2(R_2) d(R_2) T(R_1) +4C_2(S_2)d(S_2) T(S_1)
-    \right] \quad .
+    \right] \quad .\label{eq:beta_QCDxdQCD:Z1}
   \end{align}
   Die Berechnung ist dabei für chirale Fermionen geschehen, was einen 
   zusätzlichen Faktor von $2$ in $d(R_1)$ und $d(R_2)$ bewirkt, wenn man sonst 
-  Dirac-Fermionen betrachtet. Außerdem wurde bei der Berechnung dieselben 
-  Darstellungen $R_1$ und $R_2$ bzw. $S_1$ und $S_2$ bezüglich $G_1$ und $G_2$ 
-  für alle Fermionen bzw. Skalare angenommen. Wenn Teilchen des QCD-, dQCD- und 
-  joint-Sektors verschiedene Darstellungen besitzen, müssen $d(R_1)$, $d(R_2)$, 
-  $d(S_1)$ und $d(S_2)$ angepasst werden. Am einfachsten und anschaulichsten 
-  geschiet dies über das Zeichnen von Feynmandiagrammen und abzählen der 
-  möglichen Teilchen, die im entsprechenden Diagramm erlaubt sind.
+  Dirac-Fermionen betrachtet.
+  Wie in Abschnitt \ref{QCDxdQCD} beschrieben, sollen Fermionen und Skalare 
+  eines bestimmten Sektors jeweils in 
+  der gleichen Darstellung der Eichgruppen sein, daher gibt es keinen 
+  Unterschied zwischen $R_1$ und $S_1$ bzw. $R_2$ und $S_2$. Für $SU(N)$ ist 
+  $T(R)=1/2$ und der quadratische Casimiroperator $C_2(R)=
+  (N^2-1)/(2N)$ bzw. $C_2(G)=N$ \cite{Jones}.
+  In der $\text{QCD}\times\text{dQCD}$ gibt es zwei Eichgruppen, jedoch mit drei 
+  verschiedenen Darstellungen der Teilchen, sodass $d(R_1)$ und $d(R_2)$ in 
+  jedem Koeffizienten \eqref{eq:beta_QCDxdQCD:X1}, \eqref{eq:beta_QCDxdQCD:Y1} 
+  und \eqref{eq:beta_QCDxdQCD:Z1} andere Werte annehmen kann und deshalb 
+  einzeln bestimmt werden muss. Dies geschieht am einfachsten über das 
+  Zeichnen von Feynmandiagrammen und abzählen der möglichen Teilchen, die im 
+  entsprechenden Diagramm erlaubt sind.
 
-%   
-%  DIAGRAMME
-%   
+
+    Die Teilchenlinien in den Diagrammen werden nur mit ihren QCD und dQCD 
+    Quantenzahlen 
+    beschriftet. Dabei stehen wieder $i$ und $j$ für Colour bzw. $r$ und $s$ für 
+    dark Colour in der fundamentalen Darstellung, $A$ und $M$ für Colour und 
+    dark Colour der adjungierten Darstellung. Die Vertizes werden mit den 
+    entsprechenden Erzeugermatrizen beschriftet und 
+    enthalten bereits die Kopplungskonstanten. Es werden nur die Koeffizienten 
+    $X_1^g$, $Y_1^g$ und $Z_1^g$ betrachtet, $X_2^g$, $Y_2^g$ und $Z_2^g$ 
+    folgen analog mit $\text{QCD}\leftrightarrow \text{dQCD}$.
+    
+    Der Koeffizient $X_1^g$ entspricht den 1-Schleifen Diagrammen zum 
+    Gluonpropagator. Bei der Fermionschleife in Abbildung 
+    \ref{fig:n-schleifen:QCD3} kann jedes der $\nfc$ 
+    QCD-Fermionen und jedes der 
+    $\nfj$ joint-Fermionen mit einer dark Colour 
+    $r\in\{1,2,\ldots,\Nd \}$ in der 
+    Schleife auftauchen. Damit ist $d(R_2)=\nfc+\Nd \nfj$.
+    \input{abschnitte/n-schleifen/fig/QCD3.tex}
+    
+    Der Koeffizient $Y_2^g$ enthält die 2-Schleifen Beiträge proportional zu 
+    $(t^A_{ij})^4$. Auch hier kann jeweil ein QCD-Fermion oder ein 
+    joint-Fermion mit einer dark Colour vorkommen, sodass wieder 
+    $d(R_2)=\nfc+\Nd\nfj$.
+    
+    Die Diagramme proportional zu $(t^A_{ij})^2(\widetilde{t}^{M}_{rs})^2$ 
+    tragen zu $Z_1^g$ bei und sind in den Abbildungen 
+    \ref{fig:n-schleifen:QCDxdQCD1} und 
+    \ref{fig:n-schleifen:QCDxdQCD2} zu sehen.
+    Am Gluon-Fermion Vertex $t^A_{ij}$ kann $r$ jeden Wert $1,2,\ldots,\Nd$ 
+    annehmen, wieder mit jedem Flavour. QCD- oder dQCD-Fermionen können nicht 
+    auftauchen, sodass in diesem Fall $d(R_2)=\Nd \nfj$.
+    \input{abschnitte/n-schleifen/fig/QCDxdQCD1.tex}
+  
   
   Die ermittelten Koeffizienten stimmen mit denen in \cite{Scale_of_dark_QCD} 
   überein. Mit $\Nfc := \nfc +\Nd \nfj$, $\Nsc := \nsc +\Nd \nsj$, 
@@ -262,7 +302,7 @@
       Fixpunkte zu erhalten, ohne von den Standardmodell Werten $\Nc=3$ und 
       $\nfc=6$ abweichen zu müssen. 
       \input{abschnitte/beta_QCDxdQCD/tab/Sattelpunkt_ohne_Skalare.tex}
-      
+      \input{abschnitte/beta_QCDxdQCD/fig/Sattelpunkte_ohne_Skalare.tex}
 
       An den Koeffizienten \eqref{eq:beta_QCDxdQCD:X1g} und 
       \eqref{eq:beta_QCDxdQCD:Y1g} sieht man, dass Skalare qualitativ den 
@@ -318,7 +358,7 @@
     Die Bedingung dafür, dass $\alpha^{*3}$ ein Sattelpunkt ist, ist somit 
     \begin{equation}
      X_1<0 \quad \land \quad Y_1>0 \quad \land \quad X_2 Y_1 < Z_2 X_1
-     \quad .
+     \quad . \label{eq:beta_QCDxdQCD:Bedingung3}
     \end{equation}
     Da die Vorzeichen $X_1<0$, $Y_1>0$ und $X_2<0$ festgelegt sind, 
     kann bereits ohne Fallunterscheidung eine Grenze gefunden werden.
@@ -364,4 +404,10 @@
     \input{abschnitte/beta_QCDxdQCD/tab/Fix2_ohne_Skalare.tex}
     Aufgrund der Symmetrie der $\beta$-Funktion in den Indizes $\text{c}$ und 
     $\text{d}$ ist das allgemeine Vorgehen wie bei $\alpha^{*3}$. Der Fixpunkt 
-    ist in $\alpha_2$-Richtung repulsiv
+    ist in $\alpha_2$-Richtung repulsiv und das Kriterium für einen Sattelpunkt 
+    analog zu \eqref{eq:beta_QCDxdQCD:Bedingung3} 
+    \begin{equation}
+     X_2<0 \quad \land \quad Y_2>0 \quad \land \quad X_1 Y_2 < Z_1 X_2
+     \quad .
+    \end{equation}
+    

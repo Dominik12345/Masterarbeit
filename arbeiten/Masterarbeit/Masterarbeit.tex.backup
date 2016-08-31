@@ -11,22 +11,20 @@
 
 \begin{document}
 
-\pagenumbering{Roman}
 
-\input{abschnitte/Titlepage/title.tex}
-\input{abschnitte/Titlepage/abstract.tex}
+% \input{abschnitte/Titlepage/title.tex}
+% \input{abschnitte/Titlepage/abstract.tex}
 
 %-------------%
 % Title Pages %
 %-------------%
 \clearpage
 \tableofcontents
-\clearpage
-\pagenumbering{arabic}
 
 %------------%
 % Sections   %
 %------------%
+
 
    \input{abschnitte/einleitung/einleitung.tex}
    \input{abschnitte/renormierung/renormierung.tex}
@@ -37,19 +35,20 @@
    \input{abschnitte/beta_im_R2/beta_im_R2.tex}
    \input{abschnitte/beta_QCDxdQCD/beta_QCDxdQCD.tex}
   
-% \input{abschnitte/Appendix/Zeichenerklaerung.tex}
+%  \input{abschnitte/Appendix/Zeichenerklaerung.tex}
 
 
 %---------------------%
 %   BibTeX & Ending   %
 %---------------------%
-\appendix
-
+% \appendix
+% 
+% \cleardoublepage
+% \input{abschnitte/Appendix/Versicherung.tex}
+% 
 \clearpage
 \bibliographystyle{plain}
 \bibliography{bib}
 
-\cleardoublepage
-\input{abschnitte/Appendix/Versicherung.tex}
 
 \end{document}

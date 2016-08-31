@@ -1,12 +1,19 @@
+\theoremstyle{plain}
+
 \newtheorem{theorem}{Theorem}[section]
-
 \newtheorem{lemma}[theorem]{Lemma}
-
 \newtheorem{proposition}[theorem]{Proposition}
-
 \newtheorem{korollar}[theorem]{Korollar}
 
-\newtheorem{definition}[theorem]{Definition}
 
-\theoremstyle{remark}
+\theoremstyle{definition}
+
+\newtheorem{definition}[theorem]{Definition}
 \newtheorem{beispiel}[theorem]{Beispiel}
+
+
+
+
+\titleformat*{\section}{\Large\bfseries\sffamily\color{MSBlue}}
+\titleformat*{\subsection}{\large\bfseries\sffamily\color{MSLightBlue}}
+\titleformat*{\subsubsection}{\itshape\subsubsectionfont}

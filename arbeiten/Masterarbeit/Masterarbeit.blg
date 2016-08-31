@@ -34,48 +34,47 @@ Warning--empty author in PDG:DM
 Warning--empty year in PDG:DM
 Warning--empty author in PDG:QCD
 Warning--empty year in PDG:QCD
-Warning--empty journal in Ade:2015xua
 Warning--empty journal in Weinberg:1976
 Warning--empty journal in Bronstein4
-You've used 21 entries,
+You've used 20 entries,
             2118 wiz_defined-function locations,
-            623 strings with 6373 characters,
-and the built_in function-call counts, 5353 in all, are:
-= -- 515
-> -- 206
+            618 strings with 6271 characters,
+and the built_in function-call counts, 5117 in all, are:
+= -- 493
+> -- 193
 < -- 1
-+ -- 84
-- -- 62
-* -- 318
-:= -- 934
-add.period$ -- 66
-call.type$ -- 21
-change.case$ -- 84
++ -- 79
+- -- 58
+* -- 307
+:= -- 890
+add.period$ -- 63
+call.type$ -- 20
+change.case$ -- 80
 chr.to.int$ -- 0
-cite$ -- 30
-duplicate$ -- 232
-empty$ -- 460
-format.name$ -- 62
-if$ -- 1108
+cite$ -- 28
+duplicate$ -- 222
+empty$ -- 443
+format.name$ -- 58
+if$ -- 1061
 int.to.chr$ -- 0
-int.to.str$ -- 21
-missing$ -- 28
-newline$ -- 109
-num.names$ -- 38
-pop$ -- 107
+int.to.str$ -- 20
+missing$ -- 27
+newline$ -- 104
+num.names$ -- 36
+pop$ -- 101
 preamble$ -- 1
-purify$ -- 70
+purify$ -- 67
 quote$ -- 0
-skip$ -- 151
+skip$ -- 142
 stack$ -- 0
-substring$ -- 255
+substring$ -- 250
 swap$ -- 19
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 70
-warning$ -- 9
-while$ -- 48
-width$ -- 23
-write$ -- 220
+type$ -- 66
+warning$ -- 8
+while$ -- 46
+width$ -- 22
+write$ -- 211
 (There were 5 error messages)

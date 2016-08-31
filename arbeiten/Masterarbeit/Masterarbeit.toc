@@ -1,26 +1,25 @@
-\contentsline {section}{\numberline {1}Einleitung}{2}{section.1}
-\contentsline {section}{\numberline {2}Quantenfeldtheorie und Standardmodell}{3}{section.2}
-\contentsline {subsection}{\numberline {2.1}Das Standardmodell der Teilchenphysik}{3}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Effektive Quantenwirkung und Gell-Mann-Low Gleichung}{4}{subsection.2.2}
-\contentsline {section}{\numberline {3}QCD $\times $ dark QCD}{6}{section.3}
-\contentsline {subsection}{\numberline {3.1}Die Standardmodell QCD}{6}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Dark QCD}{7}{subsection.3.2}
-\contentsline {section}{\numberline {4}Schleifen}{10}{section.4}
-\contentsline {section}{\numberline {5}Untersuchung einer $\beta $-Funktion}{12}{section.5}
-\contentsline {subsection}{\numberline {5.1}Vereinfachung des mathematischen Problems}{13}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Verhalten in einer Umgebung eines Fixpunktes}{14}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Laufende Kopplungen im Standardmodell}{17}{subsection.5.3}
-\contentsline {subsubsection}{\numberline {5.3.1}QED}{17}{subsubsection.5.3.1}
-\contentsline {subsubsection}{\numberline {5.3.2}QCD}{17}{subsubsection.5.3.2}
-\contentsline {section}{\numberline {6}$\beta $-Funktion im $\math@bb {R}^2$}{18}{section.6}
-\contentsline {subsection}{\numberline {6.1}Stabilit\IeC {\"a}tsbedingungen}{18}{subsection.6.1}
-\contentsline {subsubsection}{\numberline {6.1.1}hyperbolischer Fixpunkt}{19}{subsubsection.6.1.1}
-\contentsline {subsubsection}{\numberline {6.1.2}nicht-hyperbolischer Fixpunkt}{20}{subsubsection.6.1.2}
-\contentsline {subsection}{\numberline {6.2}Fixpunktextrapolation}{21}{subsection.6.2}
-\contentsline {section}{\numberline {7}UV-Fixpunkte der $SU_\text {QCD}\times SU_\text {dQCD}$}{23}{section.7}
-\contentsline {subsection}{\numberline {7.1}UV-Verhalten bei $\alpha ^{*4}$}{24}{subsection.7.1}
-\contentsline {subsubsection}{\numberline {7.1.1}attraktiver Fixpunkt}{24}{subsubsection.7.1.1}
-\contentsline {subsubsection}{\numberline {7.1.2}Sattelpunkt}{25}{subsubsection.7.1.2}
-\contentsline {subsection}{\numberline {7.2}UV-Verhalten bei $\alpha ^{*3}$}{29}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}UV-Verhalten bei $\alpha ^{*2}$}{30}{subsection.7.3}
-\contentsline {section}{\nonumberline Literatur}{32}{section*.2}
+\contentsline {section}{\numberline {1}Einleitung}{1}{section.1}
+\contentsline {section}{\numberline {2}Quantenfeldtheorie und Standardmodell}{2}{section.2}
+\contentsline {subsection}{\numberline {2.1}Das Standardmodell der Teilchenphysik}{2}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Effektive Quantenwirkung und Gell-Mann-Low Gleichung}{3}{subsection.2.2}
+\contentsline {section}{\numberline {3}QCD $\times $ dark QCD}{5}{section.3}
+\contentsline {subsection}{\numberline {3.1}Die Standardmodell QCD}{5}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Dark QCD}{6}{subsection.3.2}
+\contentsline {section}{\numberline {4}Untersuchung einer $\beta $-Funktion}{9}{section.4}
+\contentsline {subsection}{\numberline {4.1}Vereinfachung des mathematischen Problems}{10}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Verhalten in einer Umgebung eines Fixpunktes}{11}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Laufende Kopplungen im Standardmodell}{14}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}QED}{14}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}QCD}{14}{subsubsection.4.3.2}
+\contentsline {section}{\numberline {5}$\beta $-Funktion im $\math@bb {R}^2$}{15}{section.5}
+\contentsline {subsection}{\numberline {5.1}Stabilit\IeC {\"a}tsbedingungen}{15}{subsection.5.1}
+\contentsline {subsubsection}{\numberline {5.1.1}hyperbolischer Fixpunkt}{16}{subsubsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.2}nicht-hyperbolischer Fixpunkt}{17}{subsubsection.5.1.2}
+\contentsline {subsection}{\numberline {5.2}Fixpunktextrapolation}{18}{subsection.5.2}
+\contentsline {section}{\numberline {6}UV-Fixpunkte der $SU_\text {QCD}\times SU_\text {dQCD}$}{20}{section.6}
+\contentsline {subsection}{\numberline {6.1}UV-Verhalten bei $\alpha ^{*4}$}{22}{subsection.6.1}
+\contentsline {subsubsection}{\numberline {6.1.1}attraktiver Fixpunkt}{22}{subsubsection.6.1.1}
+\contentsline {subsubsection}{\numberline {6.1.2}Sattelpunkt}{23}{subsubsection.6.1.2}
+\contentsline {subsection}{\numberline {6.2}UV-Verhalten bei $\alpha ^{*3}$}{27}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}UV-Verhalten bei $\alpha ^{*2}$}{29}{subsection.6.3}
+\contentsline {section}{\nonumberline Literatur}{30}{equation.6.86}
