@@ -1,0 +1,6 @@
+\begin{figure}[h]
+ \centering
+ \includegraphics{abschnitte/QCDxdQCD/fig/Yukawa.eps}
+ \caption{Möglicher Yukawa-Vertex in $SU(\Nc)\times SU(\Nd)$}
+ \label{fig:QCDxdQCD:Yukawa_Majorana}
+\end{figure}

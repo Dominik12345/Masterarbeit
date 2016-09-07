@@ -197,11 +197,13 @@
     hinschreiben \cite{Schwartz}, dabei können auch einzelne 
     $\psi_{\nicefrac{L}{R}}$ durch $\xi_{\nicefrac{L}{R}}$ oder 
     $\zeta_{\nicefrac{L}{R}}$ erzetzt werden. Diese Terme sind von 
-    Dirac- bzw. Majorana-Massen bekannt, und da für eine Yukawa-Kopplung 
-    lediglich ein skalares Feld hinzukommt ändert sich die Lorentzstruktur 
-    dadurch nicht. Es ist nun möglich, aus der Eichinvarianz Bedingungen an die 
-    Yukawa-Kopplungen zu erhalten \cite{MACHACEK1984221}\cite{Luo_Wang_Xiao}. 
-    Dazu wird exemplarisch der Yukawa-Term
+    Dirac- bzw. Majorana-Massen bekannt. Durch das Hinzufügen eines skalaren 
+    Teilchens bleibt die Lorentzinvarianz erhalten, es ist jedoch möglich auch 
+    bei der Majorana-artigen Kopplung $\psi_{\nicefrac{L}{R}}^T\epsilon\psi_{
+    \nicefrac{L}{R}}$ Eichinvarianz unter allgemeinen $SU(N)$ und $U(N)$ 
+    Gruppen zu erreichen. Aus der Eichinvarianz ergeben sich dabei Bedingungen 
+    an die Yukawa-Kopplungen \cite{MACHACEK1984221}\cite{Luo_Wang_Xiao}. 
+    Exemplarisch wird der Yukawa-Term
     \begin{equation}
      \mathcal{L}_\text{Yukawa}\subset Y^{ir,js,kt} 
      \zeta_{ir} \,\, \underline{\zeta_{js}} \,\, 
@@ -212,7 +214,7 @@
     lediglich die Terme im Endergebnis zu identifizieren, sodass dieses leicht 
     an andere Yukawa-Terme angepasst werden kann. Außerdem wurde die 
     Lorentzstruktur nicht mehr geschrieben. Die Felder transformieren unter 
-    der kombinierten Eichgruppe gemäß
+    der kombinierten infinitesimalen Eichgruppe gemäß
     \begin{equation}
      \zeta_{ir} \longrightarrow 
      \left(\mathbb{1}_{il}+\i\epsilon^A t^A_{il}\right) 
@@ -249,7 +251,7 @@
      Y^{i,r,js} \psi_i \xi_r \eta_{js}^* \hc \label{eq:QCDxdQCD:Yukawa_misch}
     \end{equation}
     Mit dem Ansatz $Y^{i,j,k}$ antisymmetrisch in $i\leftrightarrow j$ und 
-    symmetrisch in $i\leftrightarrow k$ im ersten Term von 
+    symmetrisch in $i\leftrightarrow k$ in  
     \eqref{eq:QCDxdQCD:1-Sektor-Yukawa}
     wird
     \eqref{eq:QCDxdQCD:Yukawa_QCD} zu
@@ -266,56 +268,57 @@
     qualitativ neues UV-Verhalten gibt, dass nicht allein von Skalaren oder 
     Fermionen hervorgerufen werden kann, sodass in Abschnitt 
     \ref{beta_QCDxdQCD} immer nur QCD-Fermionen (SM Quarks) mit 
-    dQCD/joint-Fermionen oder dQCD/joint-Skalaren betrachtet werden. Für den 
+    dQCD/joint-Fermionen oder dQCD/joint-Skalaren betrachtet werden, d.h. 
+    entweder $\nsd=\nsj = 0$ oder $\nfd=\nfj=0$. Für den 
     Term \eqref{eq:QCDxdQCD:Yukawa_misch} folgt aus 
     \eqref{eq:QCDxdQCD:Yukawa_QCD} und \eqref{eq:QCDxdQCD:Yukawa_dQCD} für die 
     Colour-Struktur der Yukawa-Kopplung 
     \begin{equation}
-     Y^{i,r,js} \propto \delta^{ij} \delta^{rs}
+     Y^{i,r,ls} t_{lj}^A - t_{il}^A Y^{l,r,js}=0 \quad , \quad 
+     Y^{i,r,ju} \widetilde{t}_{us}^M - \widetilde{t}_{ru}^M Y^{i,u,js}=0 
+    \end{equation} 
+    und mit dem Lemma von Schur 
+    \begin{equation}
+     Y^{i,r,js} = Y \delta^{ij} \delta^{rs} \label{eq:QCDxdQCD:Yukawa_Struktur}
     \end{equation}
-
-      
-%       
-%     Bei reinen QCD-, dQCD- oder joint-Sektor Yukawa-Kopplungen, als 
-%     Lagrangedichte
-%     \begin{equation}
-%      \mathcal{L}_\text{Yukawa}= y_1 \bar{\psi} \phi \psi +
-%      y_2 \bar{\xi} \chi \xi + y_3 \bar{\zeta} \eta \zeta 
-%      \quad , \label{eq:QCDxdQCD:Yukawas1}
-%     \end{equation}
-%     müssen die Darstellungen $\bar{N}\otimes N \otimes N$ ein Singlett der 
-%     $SU(N)$ ergeben\footnote{Für $N$ ist entsprechend $\Nc$ oder $\Nd$ 
-%     einzusetzen.}, eine Berechnung über Yang-Tableaus zeigt jedoch, dass das 
-%     Ergebnis mindestens ein $N$-Tupel der $SU(N)$ ist. Solche 
-%     Yukawa-Kopplungen sind demnach nicht möglich.
-%     
-%     Da der joint-Sektor die einzige Verbindung zwischen der $SU(\Nc)$ und 
-%     $SU(\Nd)$ ist, müssen alle weiteren möglichen Yukawa-Kopplungen je ein 
-%     Teilchen aus jedem Sektor enthalten. Die Lagrangedichte hat die 
-%     Form\footnote{Durch die Vertauschung 
-%     QCD$\leftrightarrow$dQCD$\leftrightarrow$joint-Sektor ergeben sich weitere 
-%     Kombinationen, die auf die gleiche Weise herausfallen.}
-%     \begin{equation}
-%      \mathcal{L}_\text{Yukawa}=y_1 \bar{\psi} \eta \xi +  
-%      y_2 \bar{\psi} \eta^\dagger \xi +
-%      y_3 \bar{\psi} \zeta \chi +
-%      y_4 \bar{\psi} \bar{\zeta}\chi 
-%      \quad , \label{eq:QCDxdQCD:Yukawas2}
-%     \end{equation}
-%     es treffen hierbei die Darstellungen $N\otimes N$ oder $\bar{N}\otimes
-%     \bar{N}$ aufeinander, die kein Singlett ergeben können. Wird die Theorie 
-%     so abgeändert, dass Teilchen des joint-Sektors fundamental unter QCD und 
-%     fundamental konjugiert unter dQCD transformieren,\begin{equation}\zeta(x) 
-%     \longrightarrow U(x) \zeta(x)\widetilde{U}^\dagger 
-%      \quad \text{bzw.} \quad 
-%      \eta(x) \longrightarrow U(x) \eta(x)\widetilde{U}^\dagger \quad ,
-%     \end{equation}
-%     sind Yukawa-Terme der Art \eqref{eq:QCDxdQCD:Yukawas2} erlaubt. Litim und 
-%     Sannino haben gezeigt, dass bei einer einzelnen $SU(N)$-Eichtheorie 
-%     Yukawa-Wechselwirkungen für ein Asymptotic Safety Szenario nötig 
-%     sind \cite{Asymptotic_safety_guaranteed}, da dies bei 
-%     $SU(\Nc)\times SU(\Nd)$ nicht der Fall ist, ist diese Abänderung der Theorie 
-%     jedoch nicht nötig.
+    mit der Kopplungskonstanten $Y$ \cite{georgi1999lie}. Das 
+    entsprechende Feynmandiagramm ist in 
+    Abbildung \ref{fig:QCDxdQCD:Yukawa_Majorana} zu sehen. 
+    \input{abschnitte/QCDxdQCD/fig/Yukawa_Majorana.tex}
+    Berücksichtigt man gleichzeitig die Flavour-Quantenzahl, kann es insgesamt 
+    $(\nfc \nfd \nsj)$ verschiedene Yukawa-Kopplungen geben. Eine 
+    allgemeine Untersuchung ist also auch hier schwierig, da durch Änderungen 
+    des Materieinhaltes auch die Anzahl der 
+    Yukawa-Kopplungskonstanten gändert wird. Eine Möglichkeit dieses Problem 
+    zu umgehen ist die Einführung von 
+    Falvoursymmetrien, sodass für alle Yukawa-Terme nur 
+    eine einzige Kopplungskonstante $Y$ verbleibt.
+    In Abschnitt \ref{beta_QCDxdQCD} 
+    entfallen solche Yukawa-Wechselwirkungen jedoch wieder, da $\nsj=0$ oder 
+    $\nfd=0$ gewählt werden kann, ohne qualitativ unterschiedliche UV-Verhalten 
+    zu verlieren. 
+    
+    Yukawa-Terme mit Dirac-artiger Lorentzstruktur, 
+    \begin{equation}
+     Y^{i,r,js} \psi^\dagger_i \xi_r \eta_{js} \, + \, 
+     \text{ähnliche Terme} \quad ,
+    \end{equation}
+    sind in den gewählten Darstellungen nicht Eichinvariant. Hier besteht die 
+    Möglichkeit, den dQCD-Sektor konjugiert 
+    fundamental transformieren zu lassen, in der infinitesimalen 
+    Transformation 
+    \begin{equation}
+     \xi_{r} \longrightarrow 
+     \left(\mathbb{1}_{ru}-\i\delta^M \left(\widetilde{t}^M_{ru}\right)^*\right)
+     \xi_{u} \quad , \quad
+     \chi_{r} \,\,\, \text{analog}
+     \quad ,
+    \end{equation}
+    wodurch wieder Yukawa-Kopplungen mit der Colour-Struktur von 
+    \eqref{eq:QCDxdQCD:Yukawa_Struktur} erlaubt sind. Diese Möglichkeit würde 
+    für die Eichkopplungen jedoch keinen Unterschied machen 
+    und zu den selben $\beta$-Funktionen führen, sodass hier keine neuen 
+    Phänomene im Vergleich zu \eqref{eq:QCDxdQCD:Yukawa_misch} zu erwarten sind.
     
      \item[4-Skalar-Kopplung:]
     Korrekturen durch 
@@ -325,27 +328,6 @@
     berücksichtigt werden.
   
       \item[3-Skalar-Kopplung:]
-    Da die Skalare und die entsprechenden Fermionen das gleiche Verhalten unter 
-    den Symmetriegruppen haben, können in \eqref{eq:QCDxdQCD:Yukawas1} und 
-    \eqref{eq:QCDxdQCD:Yukawas2} die Fermionen durch die entsprechenden Skalare 
-    ersetzt werden und müssen aus den 
-    selben Gründen wie die Yukawa-Terme wegfallen. Die einzigen Terme, die 
-    kein Yukawa-Analogon besitzen, sind
-    \begin{equation}
-     \mathcal{L}_\text{3-Skalar}=\lambda_1 \phi^3
-     + \lambda_2 \chi^3
-     + \lambda_3 \eta^3 \quad ,
-    \end{equation}
-    sodass hier die Kombination $N \otimes N \otimes N$ auftaucht. Die 
-    Berechnung über Yang-Tableaus zeigt, dass es für $N=3$ 
-    möglich ist ein Singlett zu erhalten, aus den folgenden Gründen werden 
-    diese 3-Skalar-Kopplungen jedoch nicht weiter berücksichtigt. Da untersucht 
-    werden soll, wie sich das UV-Verhalten der Eichkopplungen in Abhängigkeit 
-    verschiedener Parameter, insbesondere bei Variation von $\Nd$, ändert, ist 
-    es sinnvoll, die Lagrangedichte nicht zwischenzeitlich zu verändern, damit 
-    die Ergebnisse miteinander vergleichbar sind. Außerdem werden diese Terme 
-    durch Eichsymmetrien verboten, sobald die SM 
-    $SU(2)\times U(1)$ in die Theorie integriert wird.
     
     \end{description}
 
