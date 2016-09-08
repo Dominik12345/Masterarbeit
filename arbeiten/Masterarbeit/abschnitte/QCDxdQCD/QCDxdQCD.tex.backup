@@ -300,34 +300,25 @@
     
     Yukawa-Terme mit Dirac-artiger Lorentzstruktur, 
     \begin{equation}
-     Y^{i,r,js} \psi^\dagger_i \xi_r \eta_{js}^{(*)} \, + \, 
+     Y^{i,r,js} \psi^\dagger_i \xi_r \eta_{js} \, + \, 
      \text{ähnliche Terme} \quad ,
     \end{equation}
     sind in den gewählten Darstellungen nicht Eichinvariant. Hier besteht die 
-    Möglichkeit, den join-Sektor fundamental unter QCD und konjugiert 
-    fundamental unter dQCD transformieren zu lassen, in der infinitesimalen 
+    Möglichkeit, den dQCD-Sektor konjugiert 
+    fundamental transformieren zu lassen, in der infinitesimalen 
     Transformation 
     \begin{equation}
-     \zeta_{ir} \longrightarrow 
-     \left(\mathbb{1}_{il}+\i\epsilon^A t^A_{il}\right) 
+     \xi_{r} \longrightarrow 
      \left(\mathbb{1}_{ru}-\i\delta^M \left(\widetilde{t}^M_{ru}\right)^*\right)
-     \zeta_{lu} \quad , \quad
-     \eta_{ir} \,\,\, \text{analog}
+     \xi_{u} \quad , \quad
+     \chi_{r} \,\,\, \text{analog}
      \quad ,
     \end{equation}
     wodurch wieder Yukawa-Kopplungen mit der Colour-Struktur von 
-    \eqref{eq:QCDxdQCD:Yukawa_Struktur} erlaubt sind. 
-    
-%       
-%       Litim und 
-% %   
-% 
-% 
-% Sannino haben gezeigt, dass bei einer einzelnen $SU(N)$-Eichtheorie 
-% %     Yukawa-Wechselwirkungen für ein Asymptotic Safety Szenario nötig 
-% %     sind \cite{Asymptotic_safety_guaranteed}, da dies bei 
-%     $SU(\Nc)\times SU(\Nd)$ nicht der Fall ist, ist diese Abänderung der Theorie 
-%     jedoch nicht nötig.
+    \eqref{eq:QCDxdQCD:Yukawa_Struktur} erlaubt sind. Diese Möglichkeit würde 
+    für die Eichkopplungen jedoch keinen Unterschied machen 
+    und zu den selben $\beta$-Funktionen führen, sodass hier keine neuen 
+    Phänomene im Vergleich zu \eqref{eq:QCDxdQCD:Yukawa_misch} zu erwarten sind.
     
      \item[4-Skalar-Kopplung:]
     Korrekturen durch 
@@ -337,27 +328,6 @@
     berücksichtigt werden.
   
       \item[3-Skalar-Kopplung:]
-    Da die Skalare und die entsprechenden Fermionen das gleiche Verhalten unter 
-    den Symmetriegruppen haben, können in \eqref{eq:QCDxdQCD:Yukawas1} und 
-    \eqref{eq:QCDxdQCD:Yukawas2} die Fermionen durch die entsprechenden Skalare 
-    ersetzt werden und müssen aus den 
-    selben Gründen wie die Yukawa-Terme wegfallen. Die einzigen Terme, die 
-    kein Yukawa-Analogon besitzen, sind
-    \begin{equation}
-     \mathcal{L}_\text{3-Skalar}=\lambda_1 \phi^3
-     + \lambda_2 \chi^3
-     + \lambda_3 \eta^3 \quad ,
-    \end{equation}
-    sodass hier die Kombination $N \otimes N \otimes N$ auftaucht. Die 
-    Berechnung über Yang-Tableaus zeigt, dass es für $N=3$ 
-    möglich ist ein Singlett zu erhalten, aus den folgenden Gründen werden 
-    diese 3-Skalar-Kopplungen jedoch nicht weiter berücksichtigt. Da untersucht 
-    werden soll, wie sich das UV-Verhalten der Eichkopplungen in Abhängigkeit 
-    verschiedener Parameter, insbesondere bei Variation von $\Nd$, ändert, ist 
-    es sinnvoll, die Lagrangedichte nicht zwischenzeitlich zu verändern, damit 
-    die Ergebnisse miteinander vergleichbar sind. Außerdem werden diese Terme 
-    durch Eichsymmetrien verboten, sobald die SM 
-    $SU(2)\times U(1)$ in die Theorie integriert wird.
     
     \end{description}
 

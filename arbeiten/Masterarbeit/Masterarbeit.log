@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.9)  7 SEP 2016 16:43
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.9)  8 SEP 2016 17:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1422,6 +1422,25 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks33
 \@floatcapt=\box54
 )
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen193
+\captionmargin@=\dimen194
+\captionwidth=\dimen195
+\caption@tempdima=\dimen196
+\caption@indent=\dimen197
+\caption@parindent=\dimen198
+\caption@hangindent=\dimen199
+)
+Package caption Info: KOMA-Script document class.
+\c@ContinuedFloat=\count170
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+)
 (/usr/share/texlive/texmf-dist/tex/latex/pstricks/pstricks.sty
 Package: pstricks 2013/12/12 v0.60 LaTeX wrapper for `PSTricks' (RN,HV)
 
@@ -1435,20 +1454,20 @@ Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 \XKV@toks=\toks34
 \XKV@tempa@toks=\toks35
-\XKV@depth=\count170
+\XKV@depth=\count171
 File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pstricks/pst-fp.tex
 `pst-fp' v0.05, 2010/01/17 (hv)
-\pstFP@xs=\count171
-\pstFP@xia=\count172
-\pstFP@xib=\count173
-\pstFP@xfa=\count174
-\pstFP@xfb=\count175
-\pstFP@rega=\count176
-\pstFP@regb=\count177
-\pstFP@regs=\count178
-\pstFP@times=\count179
+\pstFP@xs=\count172
+\pstFP@xia=\count173
+\pstFP@xib=\count174
+\pstFP@xfa=\count175
+\pstFP@xfb=\count176
+\pstFP@rega=\count177
+\pstFP@regb=\count178
+\pstFP@regs=\count179
+\pstFP@times=\count180
 )
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks36
@@ -1461,59 +1480,59 @@ File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
 \pgfkeys@tmptoks=\toks39
 ))
 (/usr/share/texmf/tex/generic/pgf/utilities/pgffor.code.tex
-\pgffor@iter=\dimen193
-\pgffor@skip=\dimen194
+\pgffor@iter=\dimen200
+\pgffor@skip=\dimen201
 \pgffor@stack=\toks40
 \pgffor@toks=\toks41
 )
-\psLoopIndex=\count180
+\psLoopIndex=\count181
 
 `PSTricks' v2.51  <2014/02/03> (tvz)
-\pst@dima=\dimen195
-\pst@dimb=\dimen196
-\pst@dimc=\dimen197
-\pst@dimd=\dimen198
-\pst@dimg=\dimen199
-\pst@dimh=\dimen200
-\pst@dimm=\dimen201
 Normal \dimen register pool exhausted, switching to extended pool.
-\pst@dimn=\dimen256
-\pst@dimo=\dimen257
-\pst@dimp=\dimen258
+\pst@dima=\dimen256
+\pst@dimb=\dimen257
+\pst@dimc=\dimen258
+\pst@dimd=\dimen259
+\pst@dimg=\dimen260
+\pst@dimh=\dimen261
+\pst@dimm=\dimen262
+\pst@dimn=\dimen263
+\pst@dimo=\dimen264
+\pst@dimp=\dimen265
 \pst@hbox=\box55
 \pst@ibox=\box56
 \pst@boxg=\box57
-\pst@cnta=\count181
-\pst@cntb=\count182
-\pst@cntc=\count183
-\pst@cntd=\count184
-\pst@cntg=\count185
-\pst@cnth=\count186
-\pst@cntm=\count187
-\pst@cntn=\count188
-\pst@cnto=\count189
-\pst@cntp=\count190
-\@zero=\count191
+\pst@cnta=\count182
+\pst@cntb=\count183
+\pst@cntc=\count184
+\pst@cntd=\count185
+\pst@cntg=\count186
+\pst@cnth=\count187
+\pst@cntm=\count188
+\pst@cntn=\count189
+\pst@cnto=\count190
+\pst@cntp=\count191
+\@zero=\count192
 \pst@toks=\toks42
 (/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks.con)
-\psunit=\dimen259
-\psxunit=\dimen260
-\psyunit=\dimen261
-\pst@C@@rType=\count192
-\pslinewidth=\dimen262
-\psk@startLW=\dimen263
-\psk@endLW=\dimen264
+\psunit=\dimen266
+\psxunit=\dimen267
+\psyunit=\dimen268
+\pst@C@@rType=\count193
+\pslinewidth=\dimen269
+\psk@startLW=\dimen270
+\psk@endLW=\dimen271
 \pst@customdefs=\toks43
-\pslinearc=\dimen265
-\pst@symbolStep=\dimen266
-\pst@symbolWidth=\dimen267
-\pst@symbolLinewidth=\dimen268
+\pslinearc=\dimen272
+\pst@symbolStep=\dimen273
+\pst@symbolWidth=\dimen274
+\pst@symbolLinewidth=\dimen275
 \everypsbox=\toks44
-\psframesep=\dimen269
-\pslabelsep=\dimen270
-\sh@wgridXunit=\dimen271
-\sh@wgridYunit=\dimen272
-\pst@shift=\dimen273
+\psframesep=\dimen276
+\pslabelsep=\dimen277
+\sh@wgridXunit=\dimen278
+\sh@wgridYunit=\dimen279
+\pst@shift=\dimen280
 )
 File: pstricks.tex 2014/02/03 v2.51 `PSTricks' (tvz,hv)
 
@@ -1547,12 +1566,16 @@ WARNING: use of axodraw4j is recommended only in conjunction with JaxoDraw!
 ***************************************************************************
 (/usr/share/texlive/texmf-dist/tex/generic/dvips/colordvi.sty)
 (/usr/share/texlive/texmf-dist/tex/generic/dvips/rotate.tex
-\rotdimen=\dimen274
+\rotdimen=\dimen281
 ))
 (../../header/umgebungen.tex
-\c@theorem=\count193
+\c@theorem=\count194
 ) (../../header/definitionen.tex))
-(./Masterarbeit.aux)
+(./Masterarbeit.aux
+
+LaTeX Warning: Label `tab:beta_QCDxdQCD:Fix3_ohne_Skalare' multiply defined.
+
+)
 \openout1 = `Masterarbeit.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
@@ -1570,8 +1593,7 @@ LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 12.
 LaTeX Font Info:    Try loading font information for FML+futm on input line 12.
 
-
-(/usr/share/texlive/texmf-dist/tex/latex/fourier/fmlfutm.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/fourier/fmlfutm.fd
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
 LaTeX Font Info:    ... okay on input line 12.
@@ -1621,16 +1643,16 @@ File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count194
-\scratchdimen=\dimen275
+\scratchcounter=\count195
+\scratchdimen=\dimen282
 \scratchbox=\box58
-\nofMPsegments=\count195
-\nofMParguments=\count196
+\nofMPsegments=\count196
+\nofMParguments=\count197
 \everyMPshowfont=\toks45
-\MPscratchCnt=\count197
-\MPscratchDim=\dimen276
-\MPnumerator=\count198
-\makeMPintoPDFobject=\count199
+\MPscratchCnt=\count198
+\MPscratchDim=\dimen283
+\MPnumerator=\count199
+\makeMPintoPDFobject=\count200
 \everyMPtoPDFconversion=\toks46
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -1649,8 +1671,8 @@ e
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
-\Gin@req@height=\dimen277
-\Gin@req@width=\dimen278
+\Gin@req@height=\dimen284
+\Gin@req@width=\dimen285
 )
 \AtBeginShipoutBox=\box59
 Package hyperref Info: Link coloring OFF on input line 12.
@@ -1661,7 +1683,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count200
+\c@section@level=\count201
 )
 LaTeX Info: Redefining \ref on input line 12.
 LaTeX Info: Redefining \pageref on input line 12.
@@ -1684,7 +1706,10 @@ Dictionary: translator-basic-dictionary, Language: German
 fg
 File: siunitx-abbreviations.cfg 2013/07/31 v2.5s siunitx: Abbreviated units
 )
-\c__siunitx_mathsf_int=\count201
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+Normal \count register pool exhausted, switching to extended pool.
+\c__siunitx_mathsf_int=\count277
 LaTeX Font Info:    Try loading font information for T1+futs on input line 12.
  (/usr/share/texlive/texmf-dist/tex/latex/fourier/t1futs.fd
 File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
@@ -1743,8 +1768,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Normal \count register pool exhausted, switching to extended pool.
-\c__siunitx_mathtt_int=\count277
+\c__siunitx_mathtt_int=\count278
 LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 12.
 
 
@@ -1755,7 +1779,8 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- (./abschnitte/QCDxdQCD/QCDxdQCD.tex
+
+(./abschnitte/beta_QCDxdQCD/beta_QCDxdQCD.tex
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
 (Font)              scaled to size 13.24796pt on input line 2.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
@@ -1772,6 +1797,10 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 2.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1779,29 +1808,46 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 2.
 
 
-LaTeX Warning: Reference `beta_im_SM' on page 1 undefined on input line 6.
+LaTeX Warning: Citation `Jones' on page 1 undefined on input line 5.
 
 
-LaTeX Warning: Citation `PDG:QCD' on page 1 undefined on input line 30.
-
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 38.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 38.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 38.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 38.
-
-LaTeX Warning: Citation `Weinberg:QFT_2' on page 1 undefined on input line 48.
+LaTeX Warning: Reference `QCDxdQCD' on page 1 undefined on input line 36.
 
 
-LaTeX Warning: Citation `Weinberg:QFT_2' on page 1 undefined on input line 64.
+LaTeX Warning: Citation `Jones' on page 1 undefined on input line 41.
 
-[1
+
+LaTeX Warning: Citation `MACHACEK198383' on page 1 undefined on input line 60.
+
+(./abschnitte/n-schleifen/fig/QCD3.tex
+Package epstopdf Info: Source file: <abschnitte/n-schleifen/fig/QCD3.eps>
+(epstopdf)                    date: 2016-08-29 16:23:42
+(epstopdf)                    size: 135343 bytes
+(epstopdf)             Output file: <abschnitte/n-schleifen/fig/QCD3-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2016-08-29 16:28:14
+(epstopdf)                    size: 5889 bytes
+(epstopdf)             Command: <repstopdf --outfile=abschnitte/n-schleifen/fig
+/QCD3-eps-converted-to.pdf abschnitte/n-schleifen/fig/QCD3.eps>
+(epstopdf)             \includegraphics on input line 3.
+Package epstopdf Info: Output file is already uptodate.
+
+<abschnitte/n-schleifen/fig/QCD3-eps-converted-to.pdf, id=36, 185.69376pt x 108
+.405pt>
+File: abschnitte/n-schleifen/fig/QCD3-eps-converted-to.pdf Graphic file (type p
+df)
+ <use abschnitte/n-schleifen/fig/QCD3-eps-converted-to.pdf>
+Package pdftex.def Info: abschnitte/n-schleifen/fig/QCD3-eps-converted-to.pdf u
+sed on input line 3.
+(pdftex.def)             Requested size: 185.6933pt x 108.40472pt.
+) [1
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
@@ -1869,30 +1915,106 @@ Non-PDF special ignored!
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 
-LaTeX Warning: Citation `Scale_of_dark_QCD' on page 2 undefined on input line 7
-0.
+LaTeX Warning: Reference `fig:n-schleifen:QCDxdQCD1' on page 2 undefined on inp
+ut line 82.
 
+(./abschnitte/n-schleifen/fig/QCDxdQCD1.tex
+Package epstopdf Info: Source file: <abschnitte/n-schleifen/fig/QCDxdQCD1.eps>
+(epstopdf)                    date: 2016-09-08 13:46:45
+(epstopdf)                    size: 137236 bytes
+(epstopdf)             Output file: <abschnitte/n-schleifen/fig/QCDxdQCD1-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2016-09-08 14:16:32
+(epstopdf)                    size: 6509 bytes
+(epstopdf)             Command: <repstopdf --outfile=abschnitte/n-schleifen/fig
+/QCDxdQCD1-eps-converted-to.pdf abschnitte/n-schleifen/fig/QCDxdQCD1.eps>
+(epstopdf)             \includegraphics on input line 4.
+Package epstopdf Info: Output file is already uptodate.
 
-LaTeX Warning: Reference `beta_QCDxdQCD' on page 2 undefined on input line 97.
+<abschnitte/n-schleifen/fig/QCDxdQCD1-eps-converted-to.pdf, id=55, 213.79875pt 
+x 136.51pt>
+File: abschnitte/n-schleifen/fig/QCDxdQCD1-eps-converted-to.pdf Graphic file (t
+ype pdf)
+ <use abschnitte/n-schleifen/fig/QCDxdQCD1-eps-converted-to.pdf>
+Package pdftex.def Info: abschnitte/n-schleifen/fig/QCDxdQCD1-eps-converted-to.
+pdf used on input line 4.
+(pdftex.def)             Requested size: 213.79822pt x 136.50966pt.
 
+Overfull \hbox (4.67044pt too wide) in paragraph at lines 4--5
+[][] 
+ []
 
-Overfull \hbox (28.89592pt too wide) in paragraph at lines 123--123
-[] 
+Package epstopdf Info: Source file: <abschnitte/n-schleifen/fig/QCDxdQCD2var.ep
+s>
+(epstopdf)                    date: 2016-09-08 13:44:45
+(epstopdf)                    size: 137312 bytes
+(epstopdf)             Output file: <abschnitte/n-schleifen/fig/QCDxdQCD2var-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2016-09-08 14:16:33
+(epstopdf)                    size: 6559 bytes
+(epstopdf)             Command: <repstopdf --outfile=abschnitte/n-schleifen/fig
+/QCDxdQCD2var-eps-converted-to.pdf abschnitte/n-schleifen/fig/QCDxdQCD2var.eps>
+
+(epstopdf)             \includegraphics on input line 8.
+Package epstopdf Info: Output file is already uptodate.
+
+<abschnitte/n-schleifen/fig/QCDxdQCD2var-eps-converted-to.pdf, id=56, 213.79875
+pt x 136.51pt>
+File: abschnitte/n-schleifen/fig/QCDxdQCD2var-eps-converted-to.pdf Graphic file
+ (type pdf)
+
+<use abschnitte/n-schleifen/fig/QCDxdQCD2var-eps-converted-to.pdf>
+Package pdftex.def Info: abschnitte/n-schleifen/fig/QCDxdQCD2var-eps-converted-
+to.pdf used on input line 8.
+(pdftex.def)             Requested size: 213.79822pt x 136.50966pt.
+
+Overfull \hbox (4.67044pt too wide) in paragraph at lines 8--9
+[][] 
  []
 
 
-LaTeX Warning: Citation `Scalar_QCD' on page 2 undefined on input line 124.
+Overfull \hbox (1.82864pt too wide) in paragraph at lines 3--11
+[][] [] 
+ []
+
+)
+
+LaTeX Warning: Citation `Scale_of_dark_QCD' on page 2 undefined on input line 9
+0.
+
+[2 <./abschnitte/n-schleifen/fig/QCD3-eps-converted-to.pdf> <./abschnitte/n-sch
+leifen/fig/QCDxdQCD1-eps-converted-to.pdf> <./abschnitte/n-schleifen/fig/QCDxdQ
+CD2var-eps-converted-to.pdf>]
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 138.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 138.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 138.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 138.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 138.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 138.
 
 
-LaTeX Warning: Citation `Scale_of_dark_QCD' on page 2 undefined on input line 1
-36.
-
-[2]
-
-LaTeX Warning: Citation `Weinberg:QFT_2' on page 3 undefined on input line 168.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 138.
 
 
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 180.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\alpha' on input line 138.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 138.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 138.
+
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 139.
 
 (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1902,115 +2024,255 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <10.95> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 180.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 139.
+ [3]
+LaTeX Font Info:    Try loading font information for U+mvs on input line 172.
 
+(/usr/share/texlive/texmf-dist/tex/latex/marvosym/umvs.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-mvs.cfg
+File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
+) [4] [5]
 
-LaTeX Warning: Citation `Schwartz' on page 3 undefined on input line 197.
-
-
-LaTeX Warning: Citation `MACHACEK1984221' on page 3 undefined on input line 205
+LaTeX Warning: Citation `Jarvinen:2011qe' on page 6 undefined on input line 303
 .
 
 
-LaTeX Warning: Citation `Luo_Wang_Xiao' on page 3 undefined on input line 205.
-
-[3]
-
-LaTeX Warning: Citation `georgi1999lie' on page 4 undefined on input line 240.
+LaTeX Warning: Citation `Asymptotic_safety_guaranteed' on page 6 undefined on i
+nput line 303.
 
 
-LaTeX Warning: Reference `beta_QCDxdQCD' on page 4 undefined on input line 270.
+LaTeX Warning: Citation `VENEZIANO1979213' on page 6 undefined on input line 30
+5.
+
+(./abschnitte/beta_QCDxdQCD/tab/Sattelpunkt_ohne_Skalare.tex)
+(./abschnitte/beta_QCDxdQCD/fig/Sattelpunkte_ohne_Skalare.tex
+<abschnitte/beta_QCDxdQCD/fig/RG_flow3_2_6_0_2_0_1_0.png, id=156, 578.16pt x 43
+3.62pt>
+File: abschnitte/beta_QCDxdQCD/fig/RG_flow3_2_6_0_2_0_1_0.png Graphic file (typ
+e png)
+ <use abschnitte/beta_QCDxdQCD/fig/RG_flow3_2_6_0_2_0_1_0.png>
+Package pdftex.def Info: abschnitte/beta_QCDxdQCD/fig/RG_flow3_2_6_0_2_0_1_0.pn
+g used on input line 5.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+) [6]
+(./abschnitte/beta_QCDxdQCD/tab/Sattelpunkt_mit_Skalaren.tex)
+(./abschnitte/beta_QCDxdQCD/fig/Sattelpunkte_mit_Skalaren.tex
+<abschnitte/beta_QCDxdQCD/fig/Fix4_mit_Skalaren.pdf, id=177, 817.0525pt x 510.9
+0875pt>
+File: abschnitte/beta_QCDxdQCD/fig/Fix4_mit_Skalaren.pdf Graphic file (type pdf
+)
+ <use abschnitte/beta_QCDxdQCD/fig/Fix4_mit_Skalaren.pdf>
+Package pdftex.def Info: abschnitte/beta_QCDxdQCD/fig/Fix4_mit_Skalaren.pdf use
+d on input line 4.
+(pdftex.def)             Requested size: 408.52525pt x 255.45375pt.
 
 
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Warning: Citation `georgi1999lie' on page 4 undefined on input line 284.
+) [7 <./abschnitte/beta_QCDxdQCD/fig/RG_flow3_2_6_0_2_0_1_0.png>]
 
-(./abschnitte/QCDxdQCD/fig/Yukawa_Majorana.tex
-Package epstopdf Info: Source file: <abschnitte/QCDxdQCD/fig/Yukawa.eps>
-(epstopdf)                    date: 2016-09-07 13:53:56
-(epstopdf)                    size: 135499 bytes
-(epstopdf)             Output file: <abschnitte/QCDxdQCD/fig/Yukawa-eps-convert
-ed-to.pdf>
-(epstopdf)                    date: 2016-09-07 13:54:01
-(epstopdf)                    size: 5764 bytes
-(epstopdf)             Command: <repstopdf --outfile=abschnitte/QCDxdQCD/fig/Yu
-kawa-eps-converted-to.pdf abschnitte/QCDxdQCD/fig/Yukawa.eps>
-(epstopdf)             \includegraphics on input line 3.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 337.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\alpha' on input line 337.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 337.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 337.
+
+
+LaTeX Warning: Reference `beta_im_R2:nicht-hyperbolischer_Fixpunkt' on page 8 u
+ndefined on input line 340.
+
+
+LaTeX Warning: Reference `eq:beta_im_R2:stab_matrix_0' on page 8 undefined on i
+nput line 348.
+
+
+LaTeX Warning: Reference `eq:beta_im_R2:stab_matrix_0' on page 8 undefined on i
+nput line 352.
+
+
+LaTeX Warning: Reference `eq:beta_im_R2:lambda' on page 8 undefined on input li
+ne 353.
+
+[8 <./abschnitte/beta_QCDxdQCD/fig/Fix4_mit_Skalaren.pdf>]
+(./abschnitte/beta_QCDxdQCD/tab/Fix3_ohne_Skalare.tex)
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 407.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\alpha' on input line 407.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 407.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 407.
+
+(./abschnitte/beta_QCDxdQCD/tab/Fix2_ohne_Skalare.tex
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [9] (./abschnitte/beta_QCDxdQCD/fig/Yukawa.tex
+Package epstopdf Info: Source file: <abschnitte/beta_QCDxdQCD/fig/Yukawa1.eps>
+(epstopdf)                    date: 2016-09-08 14:18:49
+(epstopdf)                    size: 137186 bytes
+(epstopdf)             Output file: <abschnitte/beta_QCDxdQCD/fig/Yukawa1-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2016-09-08 14:18:56
+(epstopdf)                    size: 6563 bytes
+(epstopdf)             Command: <repstopdf --outfile=abschnitte/beta_QCDxdQCD/f
+ig/Yukawa1-eps-converted-to.pdf abschnitte/beta_QCDxdQCD/fig/Yukawa1.eps>
+(epstopdf)             \includegraphics on input line 4.
 Package epstopdf Info: Output file is already uptodate.
 
-<abschnitte/QCDxdQCD/fig/Yukawa-eps-converted-to.pdf, id=64, 157.58875pt x 94.3
-525pt>
-File: abschnitte/QCDxdQCD/fig/Yukawa-eps-converted-to.pdf Graphic file (type pd
-f)
- <use abschnitte/QCDxdQCD/fig/Yukawa-eps-converted-to.pdf>
-Package pdftex.def Info: abschnitte/QCDxdQCD/fig/Yukawa-eps-converted-to.pdf us
-ed on input line 3.
-(pdftex.def)             Requested size: 157.58835pt x 94.35225pt.
+<abschnitte/beta_QCDxdQCD/fig/Yukawa1-eps-converted-to.pdf, id=212, 213.79875pt
+ x 136.51pt>
+File: abschnitte/beta_QCDxdQCD/fig/Yukawa1-eps-converted-to.pdf Graphic file (t
+ype pdf)
+ <use abschnitte/beta_QCDxdQCD/fig/Yukawa1-eps-converted-to.pdf>
+Package pdftex.def Info: abschnitte/beta_QCDxdQCD/fig/Yukawa1-eps-converted-to.
+pdf used on input line 4.
+(pdftex.def)             Requested size: 213.79822pt x 136.50966pt.
+
+Overfull \hbox (4.67044pt too wide) in paragraph at lines 4--5
+[][] 
+ []
+
+Package epstopdf Info: Source file: <abschnitte/beta_QCDxdQCD/fig/Yukawa2.eps>
+(epstopdf)                    date: 2016-09-08 14:13:33
+(epstopdf)                    size: 136955 bytes
+(epstopdf)             Output file: <abschnitte/beta_QCDxdQCD/fig/Yukawa2-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2016-09-08 14:16:34
+(epstopdf)                    size: 6640 bytes
+(epstopdf)             Command: <repstopdf --outfile=abschnitte/beta_QCDxdQCD/f
+ig/Yukawa2-eps-converted-to.pdf abschnitte/beta_QCDxdQCD/fig/Yukawa2.eps>
+(epstopdf)             \includegraphics on input line 8.
+Package epstopdf Info: Output file is already uptodate.
+
+<abschnitte/beta_QCDxdQCD/fig/Yukawa2-eps-converted-to.pdf, id=213, 213.79875pt
+ x 136.51pt>
+File: abschnitte/beta_QCDxdQCD/fig/Yukawa2-eps-converted-to.pdf Graphic file (t
+ype pdf)
+ <use abschnitte/beta_QCDxdQCD/fig/Yukawa2-eps-converted-to.pdf>
+Package pdftex.def Info: abschnitte/beta_QCDxdQCD/fig/Yukawa2-eps-converted-to.
+pdf used on input line 8.
+(pdftex.def)             Requested size: 213.79822pt x 136.50966pt.
+
+Overfull \hbox (4.67044pt too wide) in paragraph at lines 8--9
+[][] 
+ []
+
+Package epstopdf Info: Source file: <abschnitte/beta_QCDxdQCD/fig/Yukawa3.eps>
+(epstopdf)                    date: 2016-09-08 14:18:32
+(epstopdf)                    size: 136903 bytes
+(epstopdf)             Output file: <abschnitte/beta_QCDxdQCD/fig/Yukawa3-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2016-09-08 14:18:57
+(epstopdf)                    size: 6588 bytes
+(epstopdf)             Command: <repstopdf --outfile=abschnitte/beta_QCDxdQCD/f
+ig/Yukawa3-eps-converted-to.pdf abschnitte/beta_QCDxdQCD/fig/Yukawa3.eps>
+(epstopdf)             \includegraphics on input line 12.
+Package epstopdf Info: Output file is already uptodate.
+
+<abschnitte/beta_QCDxdQCD/fig/Yukawa3-eps-converted-to.pdf, id=214, 213.79875pt
+ x 136.51pt>
+File: abschnitte/beta_QCDxdQCD/fig/Yukawa3-eps-converted-to.pdf Graphic file (t
+ype pdf)
+ <use abschnitte/beta_QCDxdQCD/fig/Yukawa3-eps-converted-to.pdf>
+Package pdftex.def Info: abschnitte/beta_QCDxdQCD/fig/Yukawa3-eps-converted-to.
+pdf used on input line 12.
+(pdftex.def)             Requested size: 213.79822pt x 136.50966pt.
+
+Overfull \hbox (4.67044pt too wide) in paragraph at lines 12--13
+[][] 
+ []
+
+
+Overfull \hbox (1.82864pt too wide) in paragraph at lines 3--15
+[][] []
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 )
 
-LaTeX Warning: Reference `beta_QCDxdQCD' on page 4 undefined on input line 296.
+LaTeX Warning: Citation `Asymptotic_safety_guaranteed' on page 10 undefined on 
+input line 427.
 
 
-[4]
-
-LaTeX Warning: Citation `quartic_scalar' on page 5 undefined on input line 337.
+LaTeX Warning: Reference `QCDxdQCD' on page 10 undefined on input line 435.
 
 
+LaTeX Warning: Reference `eq:QCDxdQCD:Yukawa_misch' on page 10 undefined on inp
+ut line 436.
 
-LaTeX Warning: Reference `eq:QCDxdQCD:Yukawas1' on page 5 undefined on input li
-ne 343.
+[10]
+
+LaTeX Warning: Citation `MACHACEK198383' on page 11 undefined on input line 446
+.
 
 
-LaTeX Warning: Reference `eq:QCDxdQCD:Yukawas2' on page 5 undefined on input li
-ne 344.
+LaTeX Warning: Reference `eq:QCDxdQCD:Yukawa_Struktur' on page 11 undefined on 
+input line 448.
 
-[5pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.348     \begin{equation}
-                           <./abschnitte/QCDxdQCD/fig/Yukawa-eps-converted-to.p
-df>])
+[11 <./abschnitte/beta_QCDxdQCD/fig/Yukawa1-eps-converted-to.pdf> <./abschnitte
+/beta_QCDxdQCD/fig/Yukawa2-eps-converted-to.pdf> <./abschnitte/beta_QCDxdQCD/fi
+g/Yukawa3-eps-converted-to.pdf>])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 54.
- [6]
+ [12]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 54.
  (./Masterarbeit.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 54.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 54.
 Package rerunfilecheck Info: File `Masterarbeit.out' has not changed.
-(rerunfilecheck)             Checksum: 93766D3E48381ED1771ED42F1E320392;179.
+(rerunfilecheck)             Checksum: 3A37DD2376AA7C5B27928A48D971E5A9;477.
 
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 54.
  ) 
 Here is how much of TeX's memory you used:
- 23768 strings out of 493304
- 431933 string characters out of 6139871
- 573908 words of memory out of 5000000
- 26628 multiletter control sequences out of 15000+600000
- 143978 words of font info for 194 fonts, out of 8000000 for 9000
+ 25028 strings out of 493304
+ 458167 string characters out of 6139871
+ 601422 words of memory out of 5000000
+ 27796 multiletter control sequences out of 15000+600000
+ 176138 words of font info for 233 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 49i,13n,71p,10457b,888s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
-ips/tex-gyre/q-ec.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.en
-c}</usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-bb.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mcl.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/fourier/fourier-ml.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/share/texmf/fonts/type1/
-public/lm/lmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/
-putr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-</usr/share/texmf/fonts/type1/public/tex-gyre/qplb.pfb></usr/share/texmf/fonts/
-type1/public/tex-gyre/qplr.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qp
-lri.pfb>
-Output written on Masterarbeit.pdf (6 pages, 168197 bytes).
+ 49i,16n,75p,10457b,981s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texlive/texmf-dist
+/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.en
+c}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/marvosym/marvosym.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/u
+topia/putr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putri8
+a.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplb.pfb></usr/share/texmf/
+fonts/type1/public/tex-gyre/qplr.pfb>
+Output written on Masterarbeit.pdf (12 pages, 298065 bytes).
 PDF statistics:
- 150 PDF objects out of 1000 (max. 8388607)
- 127 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
- 31262 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 314 PDF objects out of 1000 (max. 8388607)
+ 263 compressed objects within 3 object streams
+ 82 named destinations out of 1000 (max. 500000)
+ 33889 words of extra memory for PDF output out of 35830 (max. 10000000)
 

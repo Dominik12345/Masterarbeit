@@ -307,7 +307,7 @@
       <object idref="PointArray5"/>
      </void>
      <void property="textString">
-      <string>M</string>
+      <string>rj</string>
      </void>
     </object>
    </void>
@@ -418,7 +418,7 @@
       <object idref="PointArray8"/>
      </void>
      <void property="textString">
-      <string>\widetilde{t}^M_{sr}</string>
+      <string>Y</string>
      </void>
     </object>
    </void>
@@ -455,7 +455,7 @@
       <object idref="PointArray9"/>
      </void>
      <void property="textString">
-      <string>\widetilde{t}^M_{rs}</string>
+      <string>Y^*</string>
      </void>
     </object>
    </void>
@@ -492,7 +492,7 @@
       <object idref="PointArray10"/>
      </void>
      <void property="textString">
-      <string>ir</string>
+      <string>i</string>
      </void>
     </object>
    </void>
@@ -529,7 +529,7 @@
       <object idref="PointArray11"/>
      </void>
      <void property="textString">
-      <string>jr</string>
+      <string>j</string>
      </void>
     </object>
    </void>
@@ -566,7 +566,7 @@
       <object idref="PointArray12"/>
      </void>
      <void property="textString">
-      <string>is</string>
+      <string>r</string>
      </void>
     </object>
    </void>
@@ -603,7 +603,7 @@
       <object idref="PointArray13"/>
      </void>
      <void property="textString">
-      <string>jr</string>
+      <string>j</string>
      </void>
     </object>
    </void>
@@ -616,7 +616,7 @@
       <int>15</int>
      </void>
      <void property="arrowPosition">
-      <float>0.5</float>
+      <float>0.85</float>
      </void>
      <void property="color">
       <object idref="Color0"/>
@@ -683,18 +683,21 @@
     </object>
    </void>
    <void method="add">
-    <object class="net.sf.jaxodraw.object.arc.JaxoGlArc" id="JaxoGlArc0">
+    <object class="net.sf.jaxodraw.object.arc.JaxoSArc" id="JaxoSArc0">
      <void property="DLSeparation">
       <float>2.0</float>
      </void>
      <void property="amp">
-      <int>10</int>
+      <int>15</int>
      </void>
      <void property="arrowPosition">
       <float>0.5</float>
      </void>
      <void property="color">
       <object idref="Color0"/>
+     </void>
+     <void property="dash">
+      <float>4.0</float>
      </void>
      <void property="paintArrow">
       <boolean>true</boolean>
@@ -755,9 +758,6 @@
      <void property="strokeWidth">
       <float>1.0</float>
      </void>
-     <void property="wiggles">
-      <int>3</int>
-     </void>
     </object>
    </void>
    <void method="add">
@@ -806,7 +806,7 @@
         <string>y</string>
         <void method="set">
          <object idref="Point25"/>
-         <int>182</int>
+         <int>266</int>
         </void>
        </void>
       </void>
@@ -844,7 +844,7 @@
       <int>15</int>
      </void>
      <void property="arrowPosition">
-      <float>0.85</float>
+      <float>0.15</float>
      </void>
      <void property="color">
       <object idref="Color0"/>
@@ -919,7 +919,7 @@
       <int>15</int>
      </void>
      <void property="arrowPosition">
-      <float>0.15</float>
+      <float>0.5</float>
      </void>
      <void property="color">
       <object idref="Color0"/>
@@ -933,7 +933,7 @@
         <string>x</string>
         <void method="set">
          <object idref="Point30"/>
-         <int>224</int>
+         <int>140</int>
         </void>
        </void>
        <void class="java.awt.Point" method="getField">
@@ -956,7 +956,7 @@
         <string>y</string>
         <void method="set">
          <object idref="Point31"/>
-         <int>266</int>
+         <int>182</int>
         </void>
        </void>
       </void>
@@ -965,7 +965,7 @@
         <string>x</string>
         <void method="set">
          <object idref="Point32"/>
-         <int>140</int>
+         <int>224</int>
         </void>
        </void>
        <void class="java.awt.Point" method="getField">

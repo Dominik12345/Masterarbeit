@@ -56,9 +56,14 @@
     entsprechenden Erzeugermatrizen beschriftet und 
     enthalten bereits die Kopplungskonstanten. Es werden nur die Koeffizienten 
     $X_1^g$, $Y_1^g$ und $Z_1^g$ betrachtet, $X_2^g$, $Y_2^g$ und $Z_2^g$ 
-    folgen analog mit $\text{QCD}\leftrightarrow \text{dQCD}$.
+    folgen analog mit $\text{QCD}\leftrightarrow \text{dQCD}$. Wie in 
+    \cite{MACHACEK198383} gezeigt, kann die Eichung des Eichboson-Propagators 
+    so gewählt werden, dass die $\beta$-Funktion nur noch von der 
+    Renormalisierungskonstanten $Z_A$ des Eichfeldes abhängt. Daher reicht es, 
+    hier nur 1- und 2-Schleifen Korrekturen zum Gluon-Propagator zu untersuchen, 
+    Korrekturen zu 3- oder 4-Punkt Funktionen müssen nicht berücksichtigt werden.
     
-    Der Koeffizient $X_1^g$ entspricht den 1-Schleifen Diagrammen zum 
+    Der Koeffizient $X_1^g$ entspricht der 1-Schleifen Korrektur zum 
     Gluonpropagator. Bei der Fermionschleife in Abbildung 
     \ref{fig:n-schleifen:QCD3} kann jedes der $\nfc$ 
     QCD-Fermionen und jedes der 
@@ -330,7 +335,6 @@
       
       
   \subsection{UV-Verhalten bei $\alpha^{*3}$}\label{beta_QCDxdQCD:UV_bei_Fix3}
-%     Damit der 
     Da der Fixpunkt $\alpha^{*3}=(-X_1 Y_1^{-1},0)$ ein teilweise 
     wechselwirkender Fixpunkt ist, 
     muss hier das in \ref{beta_im_R2:nicht-hyperbolischer_Fixpunkt} 
@@ -410,4 +414,48 @@
      X_2<0 \quad \land \quad Y_2>0 \quad \land \quad X_1 Y_2 < Z_1 X_2
      \quad .
     \end{equation}
+    Ähnlich bei Fixpunkt $\alpha^{*3}$ ist es auch bei $\alpha^{*2}$ nicht 
+    nötig Skalare einzuführen, da sie zu keinem qualitativ neuen Verhalten 
+    führen. Wieder gibt es Ober- und Untergrenzen für $\Nd$, $\nfj$ und 
+    $\nfd$ um eine UV-attraktive Richtung zu erhalten. Die 
+    möglichen Werte sind in Tabelle \ref{tab:beta_QCDxdQCD:Fix3_ohne_Skalare} 
+    zu sehen.
     
+    
+  \subsection{Yukawa-Terme}
+    \input{abschnitte/beta_QCDxdQCD/fig/Yukawa.tex}
+    In \cite{Asymptotic_safety_guaranteed} schließen Litim und Sannino, dass 
+    Yukawa-Kopplungen nötig sind, um in einer (einfachen) Eich-Yukawa-Theorie 
+    nicht-triviale UV-Fixpunkte zu erzeugen. Durch die Kombination von zwei 
+    einfachen Eichgruppen entstehen die bereits beschriebenen UV-Fixpunkte 
+    auch ohne Yukawa-Kopplungen. Es soll nun eine qualitative Abschätzung 
+    gemacht werden, inwiefern Yukawa-Kopplungen auch bei halbeinfachen 
+    Eichgruppen die Entstehung von UV-Fixpunkten begünstigen.
+    
+    Wie in Abschnitt \ref{QCDxdQCD} beschrieben gibt es nur eine eine Art der 
+    Yukawa-Kopplung, Gleichung \eqref{eq:QCDxdQCD:Yukawa_misch}, die mit nur 
+    einer Kopplungskontstanten auskommt, und deshalb für veränderliche 
+    Flavour-Zahlen einfach untersucht werden kann. Der Beitrag zur 
+    $\beta$-Funktion der Eichkopplungen wurde von Machacek und Vaughn 
+    als
+    \begin{equation}
+     \beta^\text{Yukawa}_1(g) = -g_1^3(16 \uppi^2)^{-2} \frac{2}{d(G)} 
+     \left[ C_2(R_1) \delta^{il} Y^{l,r,js}(Y^{i,r,js})^*\right]
+     \label{eq:beta_QCDxdQCD:beta_g_Yukawa}
+    \end{equation}
+    berechnet \cite{MACHACEK198383}. Sie haben außerdem festgestellt, dass nur 
+    das Diagramm \ref{fig:beta_QCDxdQCD:Yukawa}(a) zur $\beta$-Funktion 
+    beiträgt. Mit \eqref{eq:QCDxdQCD:Yukawa_Struktur} lässt sich 
+    \eqref{eq:beta_QCDxdQCD:beta_g_Yukawa} zu
+    \begin{align}
+     \beta^\text{Yukawa}_1(g) &=
+     -g_1^3|Y|^2 (16 \uppi^2)^{-2}\frac{2 C_2(R_1) d(R_1) d(R_2)}{d(G_1)} 
+     \nsj\\
+     &= -g_1^3|Y|^2(16 \uppi^2)^{-2} \nfc\nfd\nsj \Nd
+    \end{align}
+    zusammenfassen. Bemerkenswert ist hiebei, dass wegen 
+    \begin{equation}
+     C_2(R) d(R) = T(R)d(G) \quad , \quad T(R)=\nicefrac{1}{2}\,\,\,\text{
+     für $SU(N)$}
+    \end{equation}
+
