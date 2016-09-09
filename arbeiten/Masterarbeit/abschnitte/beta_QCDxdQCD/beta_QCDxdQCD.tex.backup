@@ -110,7 +110,7 @@
   $X_i := 8\uppi X_i^g $, $Y_i := 32\uppi^2 Y_i^g $ und 
   $Z_i := 32\uppi^2 Z_i^g $ folgt
   \begin{equation}
-   \beta (g) = \begin{pmatrix}
+   \beta (\alpha) = \begin{pmatrix}
                      X_1 \alpha_1^2 + Y_1 \alpha_1^3 + Z_1 \alpha_1^2 \alpha_2\\ 
                      X_2 \alpha_2^2 + Y_2 \alpha_2^3 + Z_2 \alpha_1 \alpha_2^2 
                     \end{pmatrix} \label{eq:beta_QCDxdQCD:beta_alpha}
@@ -121,7 +121,8 @@
    \alpha^{*2}=\left(0,-\frac{X_2}{Y_2}\right) \quad
    \alpha^{*3}=\left(-\frac{X_1}{Y_1},0\right) \quad
    \alpha^{*4}=\left(\frac{Z_1X_2-X_1Y_2}{Y_1Y_2-Z_1Z_2} 
-	\frac{Z_2X_1-X_2Y_1}{Y_1Y_2-Z_1Z_2}\right) \quad .
+	\frac{Z_2X_1-X_2Y_1}{Y_1Y_2-Z_1Z_2}\right) \quad . 
+	\label{eq:beta_QCDxdQCD:Fixpunkte}
    \end{equation}
 
   An den Fixpunkten gilt außerdem 
@@ -422,7 +423,7 @@
     zu sehen.
     
     
-  \subsection{Yukawa-Terme}
+  \subsection{Qualitative Änderungen durch Yukawa-Terme}
     \input{abschnitte/beta_QCDxdQCD/fig/Yukawa.tex}
     In \cite{Asymptotic_safety_guaranteed} schließen Litim und Sannino, dass 
     Yukawa-Kopplungen nötig sind, um in einer (einfachen) Eich-Yukawa-Theorie 
@@ -458,4 +459,68 @@
      C_2(R) d(R) = T(R)d(G) \quad , \quad T(R)=\nicefrac{1}{2}\,\,\,\text{
      für $SU(N)$}
     \end{equation}
+    der Yukawa-Term in $\beta_1$ unabhängig von $\Nc$ ist. Dies ist darauf 
+    zurückzuführen, dass QCD- und joint-Teilchen gleich unter der $SU(\Nc)$ 
+    transformieren. Mit $\alpha_Y:=\nicefrac{|Y|^2}{4\uppi}$ und 
+    \begin{equation}
+     A_1 :=\frac{2}{16\uppi^2} \nfc\nfd\nsj \Nd \quad \text{sowie} \quad
+     A_2 :=\frac{2}{16\uppi^2} \nfc\nfd\nsj \Nc \quad 
+    \end{equation}
+    wird \eqref{eq:beta_QCDxdQCD:beta_alpha} zu 
+    \begin{equation}
+   \begin{pmatrix}
+    \beta_1(\alpha) \\ \beta_2(\alpha)
+   \end{pmatrix}
+    = 
+    \begin{pmatrix}
+       X_1 \alpha_1^2 + Y_1 \alpha_1^3 + Z_1 \alpha_1^2 \alpha_2-
+       A_1\alpha_1^2\alpha_Y\\ 
+       X_2 \alpha_2^2 + Y_2 \alpha_2^3 + Z_2 \alpha_1 \alpha_2^2-
+       A_2\alpha_2^2 \alpha_Y
+                    \end{pmatrix}
+     \label{eq:beta_QCDxdQCD:beta_alpha_Yukawa} \quad .
+  \end{equation}
+  Auch ohne die explizite $\beta$-Funktion für die Yukawa-Kopplung lassen sich 
+  bereits qualitative Einflüsse auf die Lage der Fixpunkte ableiten.
+  Als Erweiterung zu $\alpha^{*3}$ (vgl. \eqref{eq:beta_QCDxdQCD:Fixpunkte}) 
+  können die Fixpunkte
+  \begin{equation}
+   \widehat{\alpha}^*=\left(-\frac{X_1}{Y_1},0,0\right) 
+   \quad \text{und} \quad 
+   {\alpha}^*=\left(\alpha_1^*,0, \alpha_Y^*\right)
+  \end{equation}
+  gefunden werden.
+%   Dabei stellt $\widehat{\alpha}^*$ die triviale Erweiterung des 
+%   Yukawa-freien Falls dar. 
+  Aus 
+  \eqref{eq:beta_QCDxdQCD:beta_alpha_Yukawa} folgt 
+  \begin{equation}
+   X_1 + Y_1 \alpha_1^* -A_1 \alpha_Y^*=0 
+   \quad\Rightarrow\quad
+   \alpha_1^*> - \frac{X_1}{Y_1} = \widehat{\alpha}_1^* \quad ,
+  \end{equation}
+  wobei $A_1>0$ und $\alpha_Y^*>0$ ausgenutzt wurde. Auf ähnliche Weise kann 
+  für den vollständig wechselwirkenden Fixpunkt $\alpha^{*4}$ verfahren 
+  werden. Für die Fixpunkte
+  \begin{equation}
+   \widehat{\alpha}^*=\left( \frac{Z_1X_2-X_1Y_2}{Y_1Y_2-Z_1Z_2},
+   \frac{Z_2X_1-X_2Y_1}{Y_1Y_2-Z_1Z_2},0\right) 
+   \quad \text{und} \quad 
+   {\alpha}^*=\left(\alpha_1^*,\alpha_2^*, \alpha_Y^*\right)
+  \end{equation}
+  folgt 
+  \begin{equation}
+   \alpha_1^*>\widehat{\alpha}_1^* \quad \text{und} \quad 
+   \alpha_2^*>\widehat{\alpha}_2^* \quad .
+  \end{equation}
+  Man erkennt, dass eine Yukawa-Kopplung mit $\alpha_Y(t\to\infty)\neq 0$ die 
+  Kopplungskonstanten $\alpha_1^*$ und $\alpha_2^*$ stets vergrößert. Hier 
+  ist eine genaue Berechnung von $\beta_Y$ nötig, um zu überprüfen ob  
+  $\alpha_1^*$ und $\alpha_2^*$ weiterhin im perturbativen Bereich liegen 
+  können. Hinsichtlich Abbildung \ref{fig:beta_QCDxdQCD:Fix4_mit_Skalaren} 
+  ist zu erwarten, dass die Untergrenze für $\nsj$ um Physikalische und 
+  perturbative Fixpunkte zu erhalten durch die nicht verschwindende 
+  Yukawa-Kopplung erhöht wird.
 
+
+  
