@@ -1,0 +1,12 @@
+Get["Documents/QCDxdQCD/Mathematica/Packages/Fixedpoint'.m"]
+Get["Documents/QCDxdQCD/Mathematica/Packages/Beta'.m"]
+
+
+Clear[afix,coeff,norm,model]
+norm={1,2}
+model={3,3,6,0,6,0,1,0}
+coeff=c@@Join[norm,model]
+
+afix=findfixedpoints@@coeff
+
+Print[afix]
