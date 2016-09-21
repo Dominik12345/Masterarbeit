@@ -12,6 +12,18 @@ def replaceAll(file,searchExp,replaceExp):
 
 
 #os.path.join(root,file)
-replaceAll('/home/dkahl/Documents/Masterarbeit/arbeiten/Masterarbeit/Python/data/alpha_running/alpha_running.txt', r"{", r"")
-replaceAll('/home/dkahl/Documents/Masterarbeit/arbeiten/Masterarbeit/Python/data/alpha_running/alpha_running.txt', r"}", r"")
-replaceAll('/home/dkahl/Documents/Masterarbeit/arbeiten/Masterarbeit/Python/data/alpha_running/alpha_running.txt', r",", "\t")
+replaceAll('/home/dkahl/Documents/Masterarbeit/arbeiten/Masterarbeit/Python/data/alpha_running/alpha_running1.txt', r"{", r"")
+replaceAll('/home/dkahl/Documents/Masterarbeit/arbeiten/Masterarbeit/Python/data/alpha_running/alpha_running1.txt', r"}", r"")
+replaceAll('/home/dkahl/Documents/Masterarbeit/arbeiten/Masterarbeit/Python/data/alpha_running/alpha_running1.txt', r",", "\t")
+
+replaceAll('/home/dkahl/Documents/Masterarbeit/arbeiten/Masterarbeit/Python/data/alpha_running/alpha_running2.txt', r"{", r"")
+replaceAll('/home/dkahl/Documents/Masterarbeit/arbeiten/Masterarbeit/Python/data/alpha_running/alpha_running2.txt', r"}", r"")
+replaceAll('/home/dkahl/Documents/Masterarbeit/arbeiten/Masterarbeit/Python/data/alpha_running/alpha_running2.txt', r",", "\t")
+
+replaceAll('/home/dkahl/Documents/Masterarbeit/arbeiten/Masterarbeit/Python/data/alpha_running/alpha_running3.txt', r"{", r"")
+replaceAll('/home/dkahl/Documents/Masterarbeit/arbeiten/Masterarbeit/Python/data/alpha_running/alpha_running3.txt', r"}", r"")
+replaceAll('/home/dkahl/Documents/Masterarbeit/arbeiten/Masterarbeit/Python/data/alpha_running/alpha_running3.txt', r",", "\t")
+
+replaceAll('/home/dkahl/Documents/Masterarbeit/arbeiten/Masterarbeit/Python/data/alpha_running/alpha_running4.txt', r"{", r"")
+replaceAll('/home/dkahl/Documents/Masterarbeit/arbeiten/Masterarbeit/Python/data/alpha_running/alpha_running4.txt', r"}", r"")
+replaceAll('/home/dkahl/Documents/Masterarbeit/arbeiten/Masterarbeit/Python/data/alpha_running/alpha_running4.txt', r",", "\t")

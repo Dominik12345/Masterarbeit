@@ -1,30 +1,19 @@
 \begin{thebibliography}{10}
 
-\bibitem{PDG:DM}
-Dark matter.
-\newblock {\em K.A. Olive et al. (Particle Data Group), Chin. Phys. C, 38,
-  090001 (2014) and 2015 update.}
-
 \bibitem{PDG:QCD}
 Quantum chomodynamics.
 \newblock {\em K.A. Olive et al. (Particle Data Group), Chin. Phys. C, 38,
   090001 (2014) and 2015 update.}
 
-\bibitem{Higgs}
-Georges Aad et~al.
-\newblock {Observation of a new particle in the search for the Standard Model
-  Higgs boson with the ATLAS detector at the LHC}.
-\newblock {\em Phys. Lett.}, B716:1--29, 2012.
-
-\bibitem{gravitational_waves}
-B.~P. Abbott et~al.
-\newblock {Observation of Gravitational Waves from a Binary Black Hole Merger}.
-\newblock {\em Phys. Rev. Lett.}, 116(6):061102, 2016.
-
 \bibitem{Scale_of_dark_QCD}
 Y.~Bai and P.~Schwaller.
 \newblock Scale of dark qcd.
 \newblock {\em Phys. Rev. D}, 89:063522, Mar 2014.
+
+\bibitem{Bond_Litim}
+Andrew~D. Bond and Daniel~F. Litim.
+\newblock {Theorems for Asymptotic Safety of Gauge Theories}.
+\newblock 2016.
 
 \bibitem{quartic_scalar}
 Thomas Curtright.
@@ -32,21 +21,11 @@ Thomas Curtright.
   self-interactions.
 \newblock {\em Phys. Rev. D}, 21:1543--1549, Mar 1980.
 
-\bibitem{Ellis_Webber}
-R.~K. Ellis, W.~J. Stirling, and B.~R. Webber.
-\newblock {\em QCD and Collider Physics}.
-\newblock Cambridge University Press, 1996.
-\newblock Cambridge Books Online.
-
-\bibitem{GR_Introductory}
-S.W. Hawking and W.~Israel.
-\newblock {\em General Relativity; an Einstein Centenary Survey}.
-\newblock Cambridge University Press, 1979.
-
-\bibitem{GR_Hawking}
-S.W. Hawking and W.~Israel.
-\newblock {\em General Relativity; an Einstein Centenary Survey}.
-\newblock Cambridge University Press, 1979.
+\bibitem{georgi1999lie}
+H.~Georgi.
+\newblock {\em Lie Algebras in Particle Physics: From Isospin to Unified
+  Theories}.
+\newblock Frontiers in Physics Series. Westview Press, 1999.
 
 \bibitem{GR_Weinberg}
 S.W. Hawking and W.~Israel.
@@ -69,11 +48,29 @@ D.~F. Litim and F.~Sannino.
 \newblock Asymptotic safety guaranteed.
 \newblock {\em arxive}, Jun 2014.
 
+\bibitem{Luo_Wang_Xiao}
+Ming-xing Luo, Hua-wen Wang, and Yong Xiao.
+\newblock {Two loop renormalization group equations in general gauge field
+  theories}.
+\newblock {\em Phys. Rev.}, D67:065019, 2003.
+
 \bibitem{Scalar_QCD}
 Axel Maas and Tajdar Mufti.
 \newblock {Correlation Functions and Confinement in Scalar QCD}.
 \newblock {\em PoS}, QCD-TNT-III:024, 2013.
 \newblock [PoSEPS-HEP2013,022(2013)].
+
+\bibitem{MACHACEK198383}
+Marie~E. Machacek and Michael~T. Vaughn.
+\newblock Two-loop renormalization group equations in a general quantum field
+  theory.
+\newblock {\em Nuclear Physics B}, 222(1):83 -- 103, 1983.
+
+\bibitem{MACHACEK1984221}
+Marie~E. Machacek and Michael~T. Vaughn.
+\newblock Two-loop renormalization group equations in a general quantum field
+  theory (ii). yukawa couplings.
+\newblock {\em Nuclear Physics B}, 236(1):221 -- 232, 1984.
 
 \bibitem{Schwartz}
 M.D. Schwartz.
@@ -101,10 +98,5 @@ Steven Weinberg.
 E.~Zeidler.
 \newblock Springer-handbuch der mathematik iv.
 \newblock 2013.
-
-\bibitem{Zinn}
-J.~Zinn-Justin.
-\newblock {\em Quantum Field Theory and Critical Phenomena}.
-\newblock International series of monographs on physics. Clarendon Press, 1993.
 
 \end{thebibliography}

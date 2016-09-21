@@ -7,74 +7,71 @@ You're missing a field part---line 123 of file bib.bib
  :       slaccitation   = 
  :                        %%CITATION = HUTP-76-160;%%
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 312 of file bib.bib
+I was expecting a `,' or a `}'---line 407 of file bib.bib
  :   
  :   chapter     = {16},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 323 of file bib.bib
+I was expecting a `,' or a `}'---line 418 of file bib.bib
  :   
  :   chapter     = {15},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 334 of file bib.bib
+I was expecting a `,' or a `}'---line 429 of file bib.bib
  :   
  :   chapter     = {1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 359 of file bib.bib
+I was expecting a `,' or a `}'---line 454 of file bib.bib
  :   
  :   publisher = "Belknap Press of Harvard University Press"
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "PDG:Higgs"
-Warning--to sort, need author or key in PDG:DM
 Warning--to sort, need author or key in PDG:QCD
-Warning--empty author in PDG:DM
-Warning--empty year in PDG:DM
 Warning--empty author in PDG:QCD
 Warning--empty year in PDG:QCD
+Warning--empty journal in Bond_Litim
 Warning--empty journal in Weinberg:1976
 Warning--empty journal in Bronstein4
-You've used 20 entries,
+You've used 18 entries,
             2118 wiz_defined-function locations,
-            618 strings with 6271 characters,
-and the built_in function-call counts, 5117 in all, are:
-= -- 493
-> -- 193
+            615 strings with 6360 characters,
+and the built_in function-call counts, 4812 in all, are:
+= -- 470
+> -- 179
 < -- 1
-+ -- 79
-- -- 58
-* -- 307
-:= -- 890
-add.period$ -- 63
-call.type$ -- 20
-change.case$ -- 80
++ -- 73
+- -- 54
+* -- 303
+:= -- 839
+add.period$ -- 57
+call.type$ -- 18
+change.case$ -- 77
 chr.to.int$ -- 0
-cite$ -- 28
-duplicate$ -- 222
-empty$ -- 443
-format.name$ -- 58
-if$ -- 1061
+cite$ -- 24
+duplicate$ -- 197
+empty$ -- 409
+format.name$ -- 54
+if$ -- 992
 int.to.chr$ -- 0
-int.to.str$ -- 20
-missing$ -- 27
-newline$ -- 104
-num.names$ -- 36
-pop$ -- 101
+int.to.str$ -- 18
+missing$ -- 22
+newline$ -- 94
+num.names$ -- 34
+pop$ -- 81
 preamble$ -- 1
-purify$ -- 67
+purify$ -- 63
 quote$ -- 0
-skip$ -- 142
+skip$ -- 129
 stack$ -- 0
-substring$ -- 250
-swap$ -- 19
+substring$ -- 279
+swap$ -- 16
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 66
-warning$ -- 8
-while$ -- 46
-width$ -- 22
-write$ -- 211
+type$ -- 64
+warning$ -- 6
+while$ -- 45
+width$ -- 20
+write$ -- 192
 (There were 5 error messages)
