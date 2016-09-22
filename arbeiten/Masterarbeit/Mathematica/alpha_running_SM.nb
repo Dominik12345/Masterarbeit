@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[     21424,        609]
-NotebookOptionsPosition[     21061,        593]
-NotebookOutlinePosition[     21397,        608]
-CellTagsIndexPosition[     21354,        605]
+NotebookDataLength[     14023,        388]
+NotebookOptionsPosition[     13703,        373]
+NotebookOutlinePosition[     14039,        388]
+CellTagsIndexPosition[     13996,        385]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -315,7 +315,7 @@ Cell[BoxData[
    3.6835175794878798`*^9}, {3.683517610668975*^9, 3.683517630834066*^9}, {
    3.683519543148456*^9, 3.683519543909772*^9}, {3.683522794351915*^9, 
    3.683522800917335*^9}, 3.683523821775848*^9, {3.6835239094608727`*^9, 
-   3.683523926263785*^9}, 3.683524303167441*^9}],
+   3.683523926263785*^9}, 3.68352397811624*^9}],
 
 Cell[BoxData[
  RowBox[{"\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
@@ -360,7 +360,7 @@ Cell[BoxData[
    RowBox[{"Export", "[", 
     RowBox[{
     "\"\<Documents/Masterarbeit/arbeiten/Masterarbeit/Python/data/alpha_\
-running/alphahat_running_SM.txt\>\"", ",", "\[IndentingNewLine]", 
+running/alpha_running_SM.txt\>\"", ",", "\[IndentingNewLine]", 
      RowBox[{"N", "[", 
       RowBox[{"Transpose", "[", 
        RowBox[{"{", 
@@ -368,228 +368,8 @@ running/alphahat_running_SM.txt\>\"", ",", "\[IndentingNewLine]",
     "\[IndentingNewLine]", "]"}], ";"}]}]], "Input",
  CellChangeTimes->{{3.6833625512938004`*^9, 3.683362597703475*^9}, {
   3.683517514942546*^9, 3.6835175152983427`*^9}, {3.683517647977611*^9, 
-  3.683517690152466*^9}, {3.683519608420429*^9, 3.683519611984304*^9}}],
-
-Cell[BoxData[
- RowBox[{"\[IndentingNewLine]", "\[IndentingNewLine]", 
-  RowBox[{"(*", 
-   RowBox[{"--", 
-    RowBox[{"--", 
-     RowBox[{"--", 
-      RowBox[{"--", 
-       RowBox[{"--", 
-        RowBox[{"--", 
-         RowBox[{"--", 
-          RowBox[{"--", 
-           RowBox[{"--", 
-            RowBox[{"--", 
-             RowBox[{"--", "--"}]}]}]}]}]}]}]}]}]}]}], "*)"}], 
-  "\[IndentingNewLine]", 
-  RowBox[{"(*", " ", 
-   RowBox[{"COMPARE", " ", "TO", " ", "QCD", " ", "RUNNING"}], " ", "*)"}], 
-  "\[IndentingNewLine]", 
-  RowBox[{"(*", 
-   RowBox[{"--", 
-    RowBox[{"--", 
-     RowBox[{"--", 
-      RowBox[{"--", 
-       RowBox[{"--", 
-        RowBox[{"--", 
-         RowBox[{"--", 
-          RowBox[{"--", 
-           RowBox[{"--", 
-            RowBox[{"--", 
-             RowBox[{"--", "--"}]}]}]}]}]}]}]}]}]}]}], "*)"}], 
-  "\[IndentingNewLine]", 
-  RowBox[{"(*", 
-   RowBox[{"--", 
-    RowBox[{"--", 
-     RowBox[{"--", 
-      RowBox[{"--", 
-       RowBox[{"--", 
-        RowBox[{"--", 
-         RowBox[{"--", 
-          RowBox[{"--", 
-           RowBox[{"--", 
-            RowBox[{"--", 
-             RowBox[{"--", 
-              RowBox[{"--", 
-               RowBox[{"--", 
-                RowBox[{"--", 
-                 RowBox[{"--", 
-                  RowBox[{"--", 
-                   RowBox[{"--", 
-                    RowBox[{"--", 
-                    RowBox[{"--", 
-                    RowBox[{"--", 
-                    RowBox[{"--", 
-                    RowBox[{"--", 
-                    RowBox[{"--", 
-                    RowBox[{"--", 
-                    RowBox[{
-                    "-", "--"}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}\
-], "*)"}], "\[IndentingNewLine]", 
-  RowBox[{"(*", " ", 
-   RowBox[{
-    RowBox[{
-    "Calculate", " ", "SM", " ", "QCD", " ", "running", " ", "alphahat", " ", 
-     "in", " ", "2"}], "-", 
-    RowBox[{"loop", " ", "order"}]}], " ", "*)"}], "\[IndentingNewLine]", 
-  RowBox[{"(*", 
-   RowBox[{"--", 
-    RowBox[{"--", 
-     RowBox[{"--", 
-      RowBox[{"--", 
-       RowBox[{"--", 
-        RowBox[{"--", 
-         RowBox[{"--", 
-          RowBox[{"--", 
-           RowBox[{"--", 
-            RowBox[{"--", 
-             RowBox[{"--", 
-              RowBox[{"--", 
-               RowBox[{"--", 
-                RowBox[{"--", 
-                 RowBox[{"--", 
-                  RowBox[{"--", 
-                   RowBox[{"--", 
-                    RowBox[{"--", 
-                    RowBox[{"--", 
-                    RowBox[{"--", 
-                    RowBox[{"--", 
-                    RowBox[{"--", 
-                    RowBox[{"--", 
-                    RowBox[{"--", 
-                    RowBox[{
-                    "--", "-"}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}\
-], "*)"}], "\[IndentingNewLine]", 
-  RowBox[{"(*", "*)"}], "\[IndentingNewLine]", 
-  RowBox[{
-   RowBox[{"Clear", "[", "tn", "]"}], "\[IndentingNewLine]", 
-   RowBox[{
-    RowBox[{"tn", "=", 
-     RowBox[{"Range", "[", 
-      RowBox[{"0", ",", "40", ",", "0.1"}], "]"}]}], ";"}], 
-   "\[IndentingNewLine]", "\[IndentingNewLine]", 
-   RowBox[{"Clear", "[", 
-    RowBox[{"A", ",", "tau", ",", "alphahat", ",", "alphahatn", ",", "n"}], 
-    "]"}], "\[IndentingNewLine]", 
-   RowBox[{"(*", 
-    RowBox[{"inverse", " ", "beta_function"}], "*)"}], "\[IndentingNewLine]", 
-   
-   RowBox[{
-    RowBox[{"A", "[", 
-     RowBox[{
-     "alphahat_", ",", "x1_", ",", "y1_", ",", "z1_", ",", "x2_", ",", "y2_", 
-      ",", "z2_"}], "]"}], ":=", 
-    RowBox[{
-     RowBox[{"(", 
-      RowBox[{"Integrate", "[", 
-       RowBox[{
-        RowBox[{
-         RowBox[{"(", 
-          RowBox[{"b1", "@@", 
-           RowBox[{"Join", "[", 
-            RowBox[{
-             RowBox[{"{", 
-              RowBox[{"x", ",", "0"}], "}"}], ",", 
-             RowBox[{"{", 
-              RowBox[{
-              "x1", ",", "y1", ",", "z1", ",", "x2", ",", "y2", ",", "z2"}], 
-              "}"}]}], "]"}]}], ")"}], "^", 
-         RowBox[{"(", 
-          RowBox[{"-", "1"}], ")"}]}], ",", "x"}], "]"}], ")"}], "/.", 
-     RowBox[{"{", 
-      RowBox[{"x", "\[Rule]", "alphahat"}], "}"}]}]}], "\[IndentingNewLine]", 
-   "\[IndentingNewLine]", 
-   RowBox[{
-    RowBox[{"alphahatn", "=", 
-     RowBox[{"List", "[", "]"}]}], ";", " ", 
-    RowBox[{"(*", 
-     RowBox[{"QCD", " ", "alpha_", "1", " ", "list"}], "*)"}], 
-    "\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
-    "\[IndentingNewLine]", 
-    RowBox[{"Do", "[", "\[IndentingNewLine]", 
-     RowBox[{
-      RowBox[{
-       RowBox[{"alphahatn", "=", 
-        RowBox[{"Append", "[", 
-         RowBox[{"alphahatn", ",", "\[IndentingNewLine]", 
-          RowBox[{"alphahat", "/.", "\[IndentingNewLine]", 
-           RowBox[{
-            RowBox[{"NSolve", "[", 
-             RowBox[{
-              RowBox[{"Rationalize", "[", 
-               RowBox[{
-                RowBox[{
-                 RowBox[{"A", "@@", 
-                  RowBox[{"Join", "[", 
-                   RowBox[{
-                    RowBox[{"{", "alphahat", "}"}], ",", "coeff"}], "]"}]}], 
-                 "\[Equal]", 
-                 RowBox[{
-                  RowBox[{"tn", "[", 
-                   RowBox[{"[", "n", "]"}], "]"}], "+", 
-                  RowBox[{"A", "@@", 
-                   RowBox[{"Join", "[", 
-                    RowBox[{
-                    RowBox[{"{", "amz", "}"}], ",", "coeff"}], "]"}]}]}]}], 
-                ",", "0"}], "]"}], ",", "alphahat", ",", "Reals"}], "]"}], 
-            "[", 
-            RowBox[{"[", "1", "]"}], "]"}]}]}], "\[IndentingNewLine]", 
-         "]"}]}], ";"}], "\[IndentingNewLine]", ",", 
-      RowBox[{"{", 
-       RowBox[{"n", ",", "1", ",", 
-        RowBox[{"Length", "[", "tn", "]"}]}], "}"}]}], "\[IndentingNewLine]", 
-     "]"}], ";"}], "\n", "\[IndentingNewLine]", "\[IndentingNewLine]", 
-   "\[IndentingNewLine]", "\[IndentingNewLine]", 
-   RowBox[{"(*", 
-    RowBox[{"--", 
-     RowBox[{"--", 
-      RowBox[{"--", 
-       RowBox[{"--", 
-        RowBox[{"--", 
-         RowBox[{"--", 
-          RowBox[{"--", 
-           RowBox[{"--", 
-            RowBox[{"--", 
-             RowBox[{"--", 
-              RowBox[{"--", 
-               RowBox[{"--", 
-                RowBox[{"-", 
-                 RowBox[{"--", "--"}]}]}]}]}]}]}]}]}]}]}]}]}]}], "*)"}], 
-   "\[IndentingNewLine]", 
-   RowBox[{"(*", " ", 
-    RowBox[{"Plot", " ", "alphahat", 
-     RowBox[{"(", "t", ")"}], " ", "via", " ", "python"}], " ", "*)"}], 
-   "\[IndentingNewLine]", 
-   RowBox[{"(*", 
-    RowBox[{"--", 
-     RowBox[{"--", 
-      RowBox[{"--", 
-       RowBox[{"--", 
-        RowBox[{"--", 
-         RowBox[{"--", 
-          RowBox[{"--", 
-           RowBox[{"--", 
-            RowBox[{"--", 
-             RowBox[{"--", 
-              RowBox[{"--", 
-               RowBox[{"--", 
-                RowBox[{"--", 
-                 RowBox[{"-", "--"}]}]}]}]}]}]}]}]}]}]}]}]}]}], "*)"}], 
-   "\[IndentingNewLine]", "\[IndentingNewLine]", 
-   RowBox[{
-    RowBox[{"Export", "[", 
-     RowBox[{
-     "\"\<Documents/Masterarbeit/arbeiten/Masterarbeit/Python/data/alpha_\
-running/alpha_running4.txt\>\"", ",", "\[IndentingNewLine]", 
-      RowBox[{"N", "[", 
-       RowBox[{"Transpose", "[", 
-        RowBox[{"{", 
-         RowBox[{"an", ",", "tn", ",", "alphahatn"}], "}"}], "]"}], "]"}]}], 
-     "\[IndentingNewLine]", "]"}], ";"}]}]}]], "Input",
- CellChangeTimes->{{3.683523810521364*^9, 3.683523811272496*^9}}]
+  3.683517690152466*^9}, {3.683519608420429*^9, 3.683519611984304*^9}, {
+  3.683523990294352*^9, 3.6835239906003513`*^9}}]
 },
 WindowSize->{1276, 1001},
 WindowMargins->{{Automatic, 4}, {4, Automatic}},
@@ -608,9 +388,8 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[557, 20, 5194, 138, 649, "Input"],
-Cell[5754, 160, 6163, 157, 583, "Input"],
-Cell[11920, 319, 1732, 51, 231, "Input"],
-Cell[13655, 372, 7402, 219, 847, "Input"]
+Cell[5754, 160, 6162, 157, 583, "Input"],
+Cell[11919, 319, 1780, 52, 231, "Input"]
 }
 ]
 *)

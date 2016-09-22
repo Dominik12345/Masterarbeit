@@ -6,100 +6,164 @@ name = 'various'
 
 import matplotlib.pyplot as plt
 import numpy as np
+import pylab as p
+import scipy.constants as const
+import itertools
+
+#####################################################
+# Definition of the parameters and initial value --->
+
+amz = 0.1185
+Nc  = 3.
+Nd  = 3.
+nfc = 6.
+nsc = 0.
+nfd = 0.
+nsd = 0.
+nfj = 0.
+nsj = 0.
 
 
 
-#read data 
-alpha11, alpha21, t1,alpha_hat1 = np.loadtxt(
-	'/home/dkahl/Documents/Masterarbeit/arbeiten/Masterarbeit/Python/data/alpha_running/alpha_running1.txt',unpack = True)
-alpha12, alpha22, t2,alpha_hat2 = np.loadtxt(
-	'/home/dkahl/Documents/Masterarbeit/arbeiten/Masterarbeit/Python/data/alpha_running/alpha_running2.txt',unpack = True)
-alpha13, alpha23, t3,alpha_hat3 = np.loadtxt(
-	'/home/dkahl/Documents/Masterarbeit/arbeiten/Masterarbeit/Python/data/alpha_running/alpha_running3.txt',unpack = True)
-alpha14, alpha24, t4,alpha_hat4 = np.loadtxt(
-	'/home/dkahl/Documents/Masterarbeit/arbeiten/Masterarbeit/Python/data/alpha_running/alpha_running4.txt',unpack = True)
+def afX1(Nc,Nd,nfc,nsc,nfd,nsd,nfj,nsj): 
+	return( (2./3.*1./2.*2.*(nfc+Nd*nfj)+1./3.*1./2.*(nsc+Nd*nsj)
+		-11./3.*Nc)/(16.*const.pi**2) )
+
+def afY1(Nc,Nd,nfc,nsc,nfd,nsd,nfj,nsj):
+	return( ( (10./3.*Nc+2.*(Nc**2.-1.)/(2.*Nc) )*1./2.*2.*(nfc+Nd*nfj)+
+		(2./3.*Nc+4.*(Nc**2.-1.)/(2.*Nc))*1./2.*(nsc+Nd*nsj)-
+		34./3.*Nc**2. )/((16.*const.pi**2)**2) )
+
+def afZ1(Nc,Nd,nfc,nsc,nfd,nsd,nfj,nsj):
+	return( (2.*(Nd**2.-1.)/(2.*Nd)*1./2.*2.*(Nd*nfj)
+		+4.*(Nd**2-1.)/(2.*Nd)*1./2.*Nd*nsj)/((16.*const.pi**2)**2))
+
+# in afZ1 Nd <-> Nc ???
+
+def afX2(Nc,Nd,nfc,nsc,nfd,nsd,nfj,nsj):
+	return(afX1(Nd,Nc,nfd,nsd,nfc,nsc,nfj,nsj))
+def afY2(Nc,Nd,nfc,nsc,nfd,nsd,nfj,nsj):
+	return(afY1(Nd,Nc,nfd,nsd,nfc,nsc,nfj,nsj))
+def afZ2(Nc,Nd,nfc,nsc,nfd,nsd,nfj,nsj):
+	return(afZ1(Nd,Nc,nfd,nsd,nfc,nsc,nfj,nsj))
+
+X1 = afX1(Nc,Nd,nfc,nsc,nfd,nsd,nfj,nsj)*2*(4*const.pi)**1
+Y1 = afY1(Nc,Nd,nfc,nsc,nfd,nsd,nfj,nsj)*2*(4*const.pi)**2
+Z1 = afZ1(Nc,Nd,nfc,nsc,nfd,nsd,nfj,nsj)*2*(4*const.pi)**2
+X2 = afX2(Nc,Nd,nfc,nsc,nfd,nsd,nfj,nsj)*2*(4*const.pi)**1
+Y2 = afY2(Nc,Nd,nfc,nsc,nfd,nsd,nfj,nsj)*2*(4*const.pi)**2
+Z2 = afZ2(Nc,Nd,nfc,nsc,nfd,nsd,nfj,nsj)*2*(4*const.pi)**2
+
+
+# <--- Definition of the parameters and initial value 
+#####################################################
+
+################
+# read data ---> 
+alpha11, alpha21, t1, alpha_SM1 = np.loadtxt(
+	'/home/dkahl/Documents/Masterarbeit/arbeiten/Masterarbeit/Python/data/alpha_running/alpha_running_1.txt',unpack = True)
+alpha12, alpha22, t2, alpha_SM2 = np.loadtxt(
+	'/home/dkahl/Documents/Masterarbeit/arbeiten/Masterarbeit/Python/data/alpha_running/alpha_running_2.txt',unpack = True)
+alpha13, alpha23, t3, alpha_SM3 = np.loadtxt(
+	'/home/dkahl/Documents/Masterarbeit/arbeiten/Masterarbeit/Python/data/alpha_running/alpha_running_3.txt',unpack = True)
+alpha14, alpha24, t4, alpha_SM4 = np.loadtxt(
+	'/home/dkahl/Documents/Masterarbeit/arbeiten/Masterarbeit/Python/data/alpha_running/alpha_running_4.txt',unpack = True)
+
 #scale appropriately
-
 t1 = t1[t1<40]
 alpha11 = alpha11[:len(t1)]
 alpha21 = alpha21[:len(t1)]
-alpha_hat1 = alpha_hat1[:len(t1)]
-
+alpha_SM1 = alpha_SM1[:len(t1)]
 t2 = t2[t2<40]
 alpha12 = alpha12[:len(t2)]
 alpha22 = alpha22[:len(t2)]
-alpha_hat2 = alpha_hat2[:len(t2)]
+alpha_SM2 = alpha_SM2[:len(t2)]
 t3 = t3[t3<40]
 alpha13 = alpha13[:len(t3)]
 alpha23 = alpha23[:len(t3)]
-alpha_hat3 = alpha_hat3[:len(t3)]
+alpha_SM3 = alpha_SM3[:len(t3)]
 t4 = t4[t4<40]
 alpha14 = alpha14[:len(t4)]
 alpha24 = alpha24[:len(t4)]
-alpha_hat4 = alpha_hat4[:len(t4)]
+alpha_SM4 = alpha_SM4[:len(t4)]
+
+# <--- read data 
+################
 
 
 
-
-
-# Phasediagram Plot --->
-
-fig1 = plt.figure()
-plt.title('Separatrix')
-plt.plot(alpha11,alpha21, 'r--')
-
-
-
-
-fig1.savefig('plots/alpha_running/Phasendiagramm.pdf', bbox_inches='tight')
-
-# <--- Phasediagram Plot 
-
-
-
-
-
-
-# running couplings Plot --->
+#############################
+# RUNNING COUPLINGS PLOT --->
 
 fig2 = plt.figure()
-ax21 = fig2.add_subplot(211)
-ax22 = fig2.add_subplot(212)
+ax21 = fig2.add_subplot(111)
+#ax22 = fig2.add_subplot(212)
 
 # coupling constants 
 #ax2.plot(t,alpha2, 'g:',label=r'$\alpha_2$')
 
-ax21.plot(t1,alpha11, 'b-',label=r'$\alpha_1$')
-ax21.plot(t2,alpha12, 'g-',label=r'$\alpha_1$')
-ax21.plot(t3,alpha13, 'r-',label=r'$\alpha_1$')
-ax21.plot(t4,alpha14, 'b-',label=r'$\alpha_1$')
+#along separatrix
+#alphahat running
+#ax21.plot(t1,alpha11, 'r-',label=r'$\alpha_1^\mathrm{a}$')
+ #ax21.plot(t1,alpha_hat1, 'r--',label=r'$\widehat{\alpha}$')
+ax21.plot(t2,alpha12, 'b-',label=r'$\alpha_1^\mathrm{b}$')
+ #ax21.plot(t2,alpha_hat2, 'b--',label=r'$\widehat{\alpha}$')
+ax21.plot(t3,alpha13, 'g-',label=r'$\alpha_1^\mathrm{c}$')
+ #ax21.plot(t3,alpha_hat3, 'g--',label=r'$\widehat{\alpha}$')
+ax21.plot(t4,alpha14, 'm-',label=r'$\alpha_1^\mathrm{d}$')
+ #ax21.plot(t4,alpha_hat4, 'm--',label=r'$\widehat{\alpha}$')
 
-ax21.plot(t1,alpha_hat1, 'r--',label=r'$\widehat{\alpha}$')
-ax21.plot(t2,alpha_hat2, 'r--',label=r'$\widehat{\alpha}$')
 
+#SM running
+# ax21.plot(t1,alpha_SM1, 'r:',label=r'$\alpha_{\mathrm{SM-QCD1}}$')
+#ax21.plot(t2,alpha_SM2, 'k:',label=r'$\alpha_{\mathrm{SM-QCD}}$')
+ax21.plot(t3,alpha_SM3, 'g:',label=r'$\alpha_{\mathrm{SM-QCD3}}$')
+ax21.plot(t4,alpha_SM4, 'm:',label=r'$\alpha_{\mathrm{SM-QCD4}}$')
 
+#labels etc
 ax21.xaxis.grid(True)
-ax21.set_xticklabels([])
-ax21.legend(frameon=False)
+#ax21.set_xticklabels([])
+box = ax21.get_position()
+ax21.set_position([box.x0, box.y0, box.width * 0.8, box.height])
+ax21.legend(loc='center left',bbox_to_anchor=(1,0.5),frameon=False)
 
 
-
-# relative deviation
-
-ax22.plot(t1,(alpha11-alpha_hat1)/alpha_hat1,'b-',
-	label=r'$\Delta\alpha$')
-ax22.plot(t2,(alpha12-alpha_hat2)/alpha_hat2,'b-',
-	label=r'$\Delta\alpha$')
-
-ax22.set_xlabel(r'$t$')
-ax22.xaxis.grid(True)
-ax22.legend(frameon=False, loc=4)
 #safe
 fig2.savefig('plots/alpha_running/Kopplungen'+name+'.pdf', bbox_inches='tight')
 
-# <--- Phasediagram Plot 
+# <--- RUNNING COUPLINGS PLOT
+#############################
 
 
+#########################
+# RELATIVE DEVIATION --->
+def A1loop(t):
+	return(1./(1./amz - X1*t))
+
+
+
+
+# plot
+
+fig3 = plt.figure()
+ax3 = fig3.add_subplot(111)
+
+#ax3.plot(t_SM,alpha_SM,'r.',label=r'2-Loop')
+#ax3.plot(t_SM,A1loop(t_SM),'k-',label=r'1-Loop')
+
+ax3.plot(t1,(alpha11-alpha_SM1)/alpha_SM1,'r-',label=r'$\Delta \alpha^\mathrm{a}$')
+ax3.plot(t2,(alpha12-alpha_SM2)/alpha_SM2,'b-',label=r'$\Delta \alpha^\mathrm{b}$')
+ax3.plot(t3,(alpha13-alpha_SM3)/alpha_SM3,'g-',label=r'$\Delta \alpha^\mathrm{c}$')
+ax3.plot(t4,(alpha14-alpha_SM4)/alpha_SM4,'m-',label=r'$\Delta \alpha^\mathrm{d}$')
+
+ax3.xaxis.grid(True)
+ax3.legend(loc='center left',bbox_to_anchor=(1,0.5),frameon=False)
+#safe
+fig3.savefig('plots/alpha_running/1_vs_2_loop_QCD.pdf', bbox_inches='tight')
+
+
+# <--- RELATIVE DEVIATION 
+#########################
 
 
 
