@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.9)  21 SEP 2016 09:54
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.9)  26 SEP 2016 14:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1794,9 +1794,9 @@ Package microtype Info: Loading generic settings for font family
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <10.95> not available
 (Font)              Font shape `T1/lmss/bx/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <8.3> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 19.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 12.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <6> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 19.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 12.
 )
 \tf@toc=\write4
 \openout4 = `Masterarbeit.toc'.
@@ -1931,7 +1931,7 @@ kawa-eps-converted-to.pdf abschnitte/QCDxdQCD/fig/Yukawa.eps>
 (epstopdf)             \includegraphics on input line 3.
 Package epstopdf Info: Output file is already uptodate.
 
-<abschnitte/QCDxdQCD/fig/Yukawa-eps-converted-to.pdf, id=192, 157.58875pt x 94.
+<abschnitte/QCDxdQCD/fig/Yukawa-eps-converted-to.pdf, id=171, 157.58875pt x 94.
 3525pt>
 File: abschnitte/QCDxdQCD/fig/Yukawa-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1994,7 +1994,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 2.
 
 (./abschnitte/beta_im_R2/fig/flow_example.tex
-<abschnitte/beta_im_R2/fig/flow_example.png, id=310, 578.16pt x 433.62pt>
+<abschnitte/beta_im_R2/fig/flow_example.png, id=290, 578.16pt x 433.62pt>
 File: abschnitte/beta_im_R2/fig/flow_example.png Graphic file (type png)
 
 <use abschnitte/beta_im_R2/fig/flow_example.png>
@@ -2043,7 +2043,7 @@ ted-to.pdf>
 (epstopdf)             \includegraphics on input line 3.
 Package epstopdf Info: Output file is already uptodate.
 
-<abschnitte/n-schleifen/fig/QCD3-eps-converted-to.pdf, id=379, 185.69376pt x 10
+<abschnitte/n-schleifen/fig/QCD3-eps-converted-to.pdf, id=359, 185.69376pt x 10
 8.405pt>
 File: abschnitte/n-schleifen/fig/QCD3-eps-converted-to.pdf Graphic file (type p
 df)
@@ -2071,7 +2071,7 @@ onverted-to.pdf>
 (epstopdf)             \includegraphics on input line 4.
 Package epstopdf Info: Output file is already uptodate.
 
-<abschnitte/n-schleifen/fig/QCDxdQCD1-eps-converted-to.pdf, id=391, 213.79875pt
+<abschnitte/n-schleifen/fig/QCDxdQCD1-eps-converted-to.pdf, id=371, 213.79875pt
  x 136.51pt>
 File: abschnitte/n-schleifen/fig/QCDxdQCD1-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -2098,7 +2098,7 @@ s-converted-to.pdf>
 (epstopdf)             \includegraphics on input line 8.
 Package epstopdf Info: Output file is already uptodate.
 
-<abschnitte/n-schleifen/fig/QCDxdQCD2var-eps-converted-to.pdf, id=392, 213.7987
+<abschnitte/n-schleifen/fig/QCDxdQCD2var-eps-converted-to.pdf, id=372, 213.7987
 5pt x 136.51pt>
 File: abschnitte/n-schleifen/fig/QCDxdQCD2var-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -2153,7 +2153,7 @@ File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 ) [20] [21]
 (./abschnitte/beta_QCDxdQCD/tab/Sattelpunkt_ohne_Skalare.tex)
 (./abschnitte/beta_QCDxdQCD/fig/Sattelpunkte_ohne_Skalare.tex
-<abschnitte/beta_QCDxdQCD/fig/RG_flow3_2_6_0_2_0_1_0.png, id=495, 578.16pt x 43
+<abschnitte/beta_QCDxdQCD/fig/RG_flow3_2_6_0_2_0_1_0.png, id=475, 578.16pt x 43
 3.62pt>
 File: abschnitte/beta_QCDxdQCD/fig/RG_flow3_2_6_0_2_0_1_0.png Graphic file (typ
 e png)
@@ -2164,14 +2164,14 @@ g used on input line 5.
 ) [22]
 (./abschnitte/beta_QCDxdQCD/tab/Sattelpunkt_mit_Skalaren.tex)
 (./abschnitte/beta_QCDxdQCD/fig/Sattelpunkte_mit_Skalaren.tex
-<abschnitte/beta_QCDxdQCD/fig/Fix4_mit_Skalaren.pdf, id=519, 817.0525pt x 510.9
-0875pt>
-File: abschnitte/beta_QCDxdQCD/fig/Fix4_mit_Skalaren.pdf Graphic file (type pdf
-)
- <use abschnitte/beta_QCDxdQCD/fig/Fix4_mit_Skalaren.pdf>
-Package pdftex.def Info: abschnitte/beta_QCDxdQCD/fig/Fix4_mit_Skalaren.pdf use
-d on input line 4.
-(pdftex.def)             Requested size: 408.52525pt x 255.45375pt.
+<abschnitte/beta_QCDxdQCD/fig/afix4_perturbative.pdf, id=499, 488.99626pt x 377
+.0336pt>
+File: abschnitte/beta_QCDxdQCD/fig/afix4_perturbative.pdf Graphic file (type pd
+f)
+ <use abschnitte/beta_QCDxdQCD/fig/afix4_perturbative.pdf>
+Package pdftex.def Info: abschnitte/beta_QCDxdQCD/fig/afix4_perturbative.pdf us
+ed on input line 4.
+(pdftex.def)             Requested size: 391.19753pt x 301.62727pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2193,11 +2193,8 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 370.
 
-[24] (./abschnitte/beta_QCDxdQCD/tab/Fix3_ohne_Skalare.tex)
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[25 <./abschnitte/beta_QCDxdQCD/fig/Fix4_mit_Skalaren.pdf>]
+[24] [25 <./abschnitte/beta_QCDxdQCD/fig/afix4_perturbative.pdf>]
+(./abschnitte/beta_QCDxdQCD/tab/Fix3_ohne_Skalare.tex)
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 440.
@@ -2214,8 +2211,11 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 440.
 
-(./abschnitte/beta_QCDxdQCD/tab/Fix2_ohne_Skalare.tex) [26]
-(./abschnitte/beta_QCDxdQCD/fig/Yukawa.tex
+(./abschnitte/beta_QCDxdQCD/tab/Fix2_ohne_Skalare.tex
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./abschnitte/beta_QCDxdQCD/fig/Yukawa.tex
 Package epstopdf Info: Source file: <abschnitte/beta_QCDxdQCD/fig/Yukawa1.eps>
 (epstopdf)                    date: 2016-09-08 14:18:49
 (epstopdf)                    size: 137186 bytes
@@ -2228,7 +2228,7 @@ ig/Yukawa1-eps-converted-to.pdf abschnitte/beta_QCDxdQCD/fig/Yukawa1.eps>
 (epstopdf)             \includegraphics on input line 4.
 Package epstopdf Info: Output file is already uptodate.
 
-<abschnitte/beta_QCDxdQCD/fig/Yukawa1-eps-converted-to.pdf, id=567, 213.79875pt
+<abschnitte/beta_QCDxdQCD/fig/Yukawa1-eps-converted-to.pdf, id=563, 213.79875pt
  x 136.51pt>
 File: abschnitte/beta_QCDxdQCD/fig/Yukawa1-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -2253,7 +2253,7 @@ ig/Yukawa2-eps-converted-to.pdf abschnitte/beta_QCDxdQCD/fig/Yukawa2.eps>
 (epstopdf)             \includegraphics on input line 8.
 Package epstopdf Info: Output file is already uptodate.
 
-<abschnitte/beta_QCDxdQCD/fig/Yukawa2-eps-converted-to.pdf, id=568, 213.79875pt
+<abschnitte/beta_QCDxdQCD/fig/Yukawa2-eps-converted-to.pdf, id=564, 213.79875pt
  x 136.51pt>
 File: abschnitte/beta_QCDxdQCD/fig/Yukawa2-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -2278,7 +2278,7 @@ ig/Yukawa3-eps-converted-to.pdf abschnitte/beta_QCDxdQCD/fig/Yukawa3.eps>
 (epstopdf)             \includegraphics on input line 12.
 Package epstopdf Info: Output file is already uptodate.
 
-<abschnitte/beta_QCDxdQCD/fig/Yukawa3-eps-converted-to.pdf, id=569, 213.79875pt
+<abschnitte/beta_QCDxdQCD/fig/Yukawa3-eps-converted-to.pdf, id=565, 213.79875pt
  x 136.51pt>
 File: abschnitte/beta_QCDxdQCD/fig/Yukawa3-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -2296,9 +2296,13 @@ Overfull \hbox (1.82864pt too wide) in paragraph at lines 3--15
 [][] []
  []
 
-) [27 <./abschnitte/beta_QCDxdQCD/fig/Yukawa1-eps-converted-to.pdf> <./abschnit
-te/beta_QCDxdQCD/fig/Yukawa2-eps-converted-to.pdf> <./abschnitte/beta_QCDxdQCD/
-fig/Yukawa3-eps-converted-to.pdf>] [28]) [29] (./Masterarbeit.bbl [30
+[26]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [27] [28 <./abschnitte/beta_QCDxdQCD/fig/Yukawa1-eps-converted-to.pdf> <./abs
+chnitte/beta_QCDxdQCD/fig/Yukawa2-eps-converted-to.pdf> <./abschnitte/beta_QCDx
+dQCD/fig/Yukawa3-eps-converted-to.pdf>]) [29] (./Masterarbeit.bbl [30
 
 ])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 54.
@@ -2320,75 +2324,33 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 54.
  ) 
 Here is how much of TeX's memory you used:
- 25447 strings out of 493304
- 465942 string characters out of 6139871
- 602192 words of memory out of 5000000
+ 25433 strings out of 493304
+ 465732 string characters out of 6139871
+ 604259 words of memory out of 5000000
  27975 multiletter control sequences out of 15000+600000
  210817 words of font info for 298 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  49i,16n,75p,10457b,967s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{equation.6.86} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.6.3} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.6.2} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.6.1.2} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.6.1.1} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.6.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.6} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.2} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.5.1.2} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.5.1.1} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.4.3.2} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.4.3.1} has been referenced but does n
-ot exist, replaced by a fixed one
-
-{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}{/usr/share/texlive/texmf-d
-ist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-bb.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/fourier/fourier-mcl.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/fourier/fourier-ml.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/fourier/fourier-mlit.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/fourier/fourier-ms.pfb></usr/share/texmf/fonts/type1/public/l
-m/lmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/marvosym/marvo
-sym.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam
-10.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb></usr/share/texm
-f/fonts/type1/public/tex-gyre/qplb.pfb></usr/share/texmf/fonts/type1/public/tex
--gyre/qplr.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplri.pfb>
-Output written on Masterarbeit.pdf (32 pages, 539791 bytes).
+{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}{/usr/share/texlive/texmf
+-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.en
+c}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-bb.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mcl.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/fourier/fourier-ml.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/fourier/fourier-ms.pfb></usr/share/texmf/fonts/type1/public
+/lm/lmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/marvosym/mar
+vosym.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/ms
+am10.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb></usr/share/te
+xmf/fonts/type1/public/tex-gyre/qplb.pfb></usr/share/texmf/fonts/type1/public/t
+ex-gyre/qplr.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplri.pfb>
+Output written on Masterarbeit.pdf (32 pages, 551926 bytes).
 PDF statistics:
- 736 PDF objects out of 1000 (max. 8388607)
- 653 compressed objects within 7 object streams
- 221 named destinations out of 1000 (max. 500000)
+ 735 PDF objects out of 1000 (max. 8388607)
+ 637 compressed objects within 7 object streams
+ 207 named destinations out of 1000 (max. 500000)
  41163 words of extra memory for PDF output out of 42996 (max. 10000000)
 
