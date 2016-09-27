@@ -3,75 +3,69 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Masterarbeit.aux
 The style file: plain.bst
 Database file #1: bib.bib
-You're missing a field part---line 123 of file bib.bib
- :       slaccitation   = 
+You're missing a field part---line 245 of file bib.bib
+ :       SLACcitation   = 
  :                        %%CITATION = HUTP-76-160;%%
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 407 of file bib.bib
+I was expecting a `,' or a `}'---line 837 of file bib.bib
  :   
  :   chapter     = {16},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 418 of file bib.bib
+I was expecting a `,' or a `}'---line 859 of file bib.bib
  :   
  :   chapter     = {15},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 429 of file bib.bib
+I was expecting a `,' or a `}'---line 881 of file bib.bib
  :   
  :   chapter     = {1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 454 of file bib.bib
+I was expecting a `,' or a `}'---line 931 of file bib.bib
  :   
  :   publisher = "Belknap Press of Harvard University Press"
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--to sort, need author or key in PDG:QCD
-Warning--empty author in PDG:QCD
-Warning--empty year in PDG:QCD
-Warning--empty journal in Bond_Litim
-Warning--empty journal in Weinberg:1976
-Warning--empty journal in Bronstein4
-You've used 18 entries,
+You've used 3 entries,
             2118 wiz_defined-function locations,
-            615 strings with 6360 characters,
-and the built_in function-call counts, 4812 in all, are:
-= -- 470
-> -- 179
+            522 strings with 4570 characters,
+and the built_in function-call counts, 1108 in all, are:
+= -- 104
+> -- 48
 < -- 1
-+ -- 73
-- -- 54
-* -- 303
-:= -- 839
-add.period$ -- 57
-call.type$ -- 18
-change.case$ -- 77
++ -- 19
+- -- 16
+* -- 79
+:= -- 186
+add.period$ -- 10
+call.type$ -- 3
+change.case$ -- 17
 chr.to.int$ -- 0
-cite$ -- 24
-duplicate$ -- 197
-empty$ -- 409
-format.name$ -- 54
-if$ -- 992
+cite$ -- 3
+duplicate$ -- 43
+empty$ -- 90
+format.name$ -- 16
+if$ -- 234
 int.to.chr$ -- 0
-int.to.str$ -- 18
-missing$ -- 22
-newline$ -- 94
-num.names$ -- 34
-pop$ -- 81
+int.to.str$ -- 3
+missing$ -- 3
+newline$ -- 19
+num.names$ -- 6
+pop$ -- 15
 preamble$ -- 1
-purify$ -- 63
+purify$ -- 14
 quote$ -- 0
-skip$ -- 129
+skip$ -- 32
 stack$ -- 0
-substring$ -- 279
-swap$ -- 16
+substring$ -- 71
+swap$ -- 11
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 64
-warning$ -- 6
-while$ -- 45
-width$ -- 20
-write$ -- 192
+type$ -- 12
+warning$ -- 0
+while$ -- 10
+width$ -- 4
+write$ -- 37
 (There were 5 error messages)

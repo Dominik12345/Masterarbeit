@@ -60,15 +60,26 @@ Z2 = afZ2(Nc,Nd,nfc,nsc,nfd,nsd,nfj,nsj)*2*(4*const.pi)**2
 ################
 # read data ---> 
 alpha11, alpha21, t1, alpha_SM1 = np.loadtxt(
-	'/home/dkahl/Documents/Masterarbeit/arbeiten/Masterarbeit/Python/data/alpha_running/alpha_running_1.txt',unpack = True)
+	'/home/dkahl/Documents/Masterarbeit/arbeiten/Masterarbeit/Python/data/alpha_running/alpha_running_3_2_6_0_3_0_1_0_her.txt',unpack = True)
 alpha12, alpha22, t2, alpha_SM2 = np.loadtxt(
-	'/home/dkahl/Documents/Masterarbeit/arbeiten/Masterarbeit/Python/data/alpha_running/alpha_running_3_3_6_0_9_0_1_0.txt',unpack = True)
+	'/home/dkahl/Documents/Masterarbeit/arbeiten/Masterarbeit/Python/data/alpha_running/alpha_running_3_3_6_0_9_0_1_0_her.txt',unpack = True)
 alpha13, alpha23, t3, alpha_SM3 = np.loadtxt(
-	'/home/dkahl/Documents/Masterarbeit/arbeiten/Masterarbeit/Python/data/alpha_running/alpha_running_3_4_6_0_17_0_1_0.txt',unpack = True)
+	'/home/dkahl/Documents/Masterarbeit/arbeiten/Masterarbeit/Python/data/alpha_running/alpha_running_3_4_6_0_17_0_1_0_her.txt',unpack = True)
 alpha14, alpha24, t4, alpha_SM4 = np.loadtxt(
-	'/home/dkahl/Documents/Masterarbeit/arbeiten/Masterarbeit/Python/data/alpha_running/alpha_running_3_5_6_0_24_0_1_0.txt',unpack = True)
+	'/home/dkahl/Documents/Masterarbeit/arbeiten/Masterarbeit/Python/data/alpha_running/alpha_running_3_5_6_0_24_0_1_0_her.txt',unpack = True)
 alpha15, alpha25, t5, alpha_SM5 = np.loadtxt(
 	'/home/dkahl/Documents/Masterarbeit/arbeiten/Masterarbeit/Python/data/alpha_running/alpha_running_3_3_6_0_10_0_2_0.txt',unpack = True)
+#	
+#alpha11, alpha21, t1, alpha_SM1 = np.loadtxt(
+#	'/home/dkahl/Documents/Masterarbeit/arbeiten/Masterarbeit/Python/data/alpha_running/alpha_running_1.txt',unpack = True)
+#alpha12, alpha22, t2, alpha_SM2 = np.loadtxt(
+#	'/home/dkahl/Documents/Masterarbeit/arbeiten/Masterarbeit/Python/data/alpha_running/alpha_running_3_3_6_0_9_0_1_0.txt',unpack = True)
+#alpha13, alpha23, t3, alpha_SM3 = np.loadtxt(
+#	'/home/dkahl/Documents/Masterarbeit/arbeiten/Masterarbeit/Python/data/alpha_running/alpha_running_3_4_6_0_17_0_1_0.txt',unpack = True)
+#alpha14, alpha24, t4, alpha_SM4 = np.loadtxt(
+#	'/home/dkahl/Documents/Masterarbeit/arbeiten/Masterarbeit/Python/data/alpha_running/alpha_running_3_5_6_0_24_0_1_0.txt',unpack = True)
+#alpha15, alpha25, t5, alpha_SM5 = np.loadtxt(
+#	'/home/dkahl/Documents/Masterarbeit/arbeiten/Masterarbeit/Python/data/alpha_running/alpha_running_3_3_6_0_10_0_2_0.txt',unpack = True)
 
 #scale appropriately
 t1 = t1[t1<100]
@@ -137,7 +148,7 @@ ax21.legend(loc='center left',bbox_to_anchor=(1,0.5),frameon=False)
 
 
 #safe
-fig2.savefig('plots/alpha_running/Kopplungen1.pdf', bbox_inches='tight')
+fig2.savefig('plots/alpha_running/Kopplungen1_her.pdf', bbox_inches='tight')
 
 # <--- RUNNING COUPLINGS PLOT
 #############################
@@ -175,7 +186,7 @@ ax22.legend(loc='center left',bbox_to_anchor=(1,0.5),frameon=False)
 
 
 #safe
-fig4.savefig('plots/alpha_running/Kopplungen2.pdf', bbox_inches='tight')
+fig4.savefig('plots/alpha_running/Kopplungen2_her.pdf', bbox_inches='tight')
 
 # <--- RUNNING COUPLINGS PLOT
 #############################
@@ -209,7 +220,7 @@ ax3.xaxis.grid(True)
 ax3.set_xlabel(r'$t$')
 ax3.legend(loc='center left',bbox_to_anchor=(1,0.5),frameon=False)
 #safe
-fig3.savefig('plots/alpha_running/relative_deviation.pdf', bbox_inches='tight')
+fig3.savefig('plots/alpha_running/relative_deviation_her.pdf', bbox_inches='tight')
 
 
 # <--- RELATIVE DEVIATION 

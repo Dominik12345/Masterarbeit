@@ -1,102 +1,22 @@
-\begin{thebibliography}{10}
-
-\bibitem{PDG:QCD}
-Quantum chomodynamics.
-\newblock {\em K.A. Olive et al. (Particle Data Group), Chin. Phys. C, 38,
-  090001 (2014) and 2015 update.}
+\begin{thebibliography}{1}
 
 \bibitem{Scale_of_dark_QCD}
 Y.~Bai and P.~Schwaller.
 \newblock Scale of dark qcd.
 \newblock {\em Phys. Rev. D}, 89:063522, Mar 2014.
 
-\bibitem{Bond_Litim}
-Andrew~D. Bond and Daniel~F. Litim.
-\newblock {Theorems for Asymptotic Safety of Gauge Theories}.
-\newblock 2016.
+\bibitem{Becciolini:2014lya}
+Diego Becciolini, Marc Gillioz, Marco Nardecchia, Francesco Sannino, and
+  Michael Spannowsky.
+\newblock {Constraining new colored matter from the ratio of 3 to 2 jets cross
+  sections at the LHC}.
+\newblock {\em Phys. Rev.}, D91(1):015010, 2015.
+\newblock [Addendum: Phys. Rev.D92,no.7,079905(2015)].
 
-\bibitem{quartic_scalar}
-Thomas Curtright.
-\newblock Three-loop charge renormalization effects due to quartic scalar
-  self-interactions.
-\newblock {\em Phys. Rev. D}, 21:1543--1549, Mar 1980.
-
-\bibitem{georgi1999lie}
-H.~Georgi.
-\newblock {\em Lie Algebras in Particle Physics: From Isospin to Unified
-  Theories}.
-\newblock Frontiers in Physics Series. Westview Press, 1999.
-
-\bibitem{GR_Weinberg}
-S.W. Hawking and W.~Israel.
-\newblock {\em General Relativity; an Einstein Centenary Survey}.
-\newblock Cambridge University Press, 1979.
-
-\bibitem{Jarvinen:2011qe}
-Matti Jarvinen and Elias Kiritsis.
-\newblock {Holographic Models for QCD in the Veneziano Limit}.
-\newblock {\em JHEP}, 03:002, 2012.
-
-\bibitem{Jones}
-D.~R.~T. Jones.
-\newblock Two-loop $\ensuremath{\beta}$ function for a
-  ${G}_{1}\ifmmode\times\else\texttimes\fi{}{G}_{2}$ gauge theory.
-\newblock {\em Phys. Rev. D}, 25:581--582, Jan 1982.
-
-\bibitem{Asymptotic_safety_guaranteed}
-D.~F. Litim and F.~Sannino.
-\newblock Asymptotic safety guaranteed.
-\newblock {\em arxive}, Jun 2014.
-
-\bibitem{Luo_Wang_Xiao}
-Ming-xing Luo, Hua-wen Wang, and Yong Xiao.
-\newblock {Two loop renormalization group equations in general gauge field
-  theories}.
-\newblock {\em Phys. Rev.}, D67:065019, 2003.
-
-\bibitem{Scalar_QCD}
-Axel Maas and Tajdar Mufti.
-\newblock {Correlation Functions and Confinement in Scalar QCD}.
-\newblock {\em PoS}, QCD-TNT-III:024, 2013.
-\newblock [PoSEPS-HEP2013,022(2013)].
-
-\bibitem{MACHACEK198383}
-Marie~E. Machacek and Michael~T. Vaughn.
-\newblock Two-loop renormalization group equations in a general quantum field
-  theory.
-\newblock {\em Nuclear Physics B}, 222(1):83 -- 103, 1983.
-
-\bibitem{MACHACEK1984221}
-Marie~E. Machacek and Michael~T. Vaughn.
-\newblock Two-loop renormalization group equations in a general quantum field
-  theory (ii). yukawa couplings.
-\newblock {\em Nuclear Physics B}, 236(1):221 -- 232, 1984.
-
-\bibitem{Schwartz}
-M.D. Schwartz.
-\newblock {\em Quantum Field Theory and the Standard Model}.
-\newblock Quantum Field Theory and the Standard Model. Cambridge University
-  Press, 2014.
-
-\bibitem{VENEZIANO1979213}
-G.~Veneziano.
-\newblock U(1) without instantons.
-\newblock {\em Nuclear Physics B}, 159(1):213 -- 224, 1979.
-
-\bibitem{Weinberg:1976}
-S.~Weinberg.
-\newblock Critical phenomena for field theorists.
-\newblock 1976.
-
-\bibitem{Weinberg:QFT_2}
-Steven Weinberg.
-\newblock {\em The Quantum Theory of Fields}, volume~2.
-\newblock Cambridge University Press, 1996.
-\newblock Cambridge Books Online.
-
-\bibitem{Bronstein4}
-E.~Zeidler.
-\newblock Springer-handbuch der mathematik iv.
-\newblock 2013.
+\bibitem{Sannino}
+Francesco Sannino.
+\newblock {$\alpha_s$ at LHC: Challenging asymptotic freedom}.
+\newblock In {\em {High-precision $\alpha_s$ measurements from LHC to FCC-ee}},
+  pages 11--19, 2015.
 
 \end{thebibliography}

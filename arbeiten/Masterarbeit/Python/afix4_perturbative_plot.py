@@ -137,6 +137,9 @@ ax.plot(afix4(3,2,6,0,0, nsd,0,nsj)[0],
 
 
 #legend etc
+ax.set_xlabel(r'$\alpha_1$')
+ax.set_ylabel(r'$\alpha_2$')
+
 p.ylim([0,22])
 
 box = ax.get_position()

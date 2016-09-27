@@ -1,19 +1,2 @@
-\contentsline {section}{\numberline {1}QCD $\times $ dark QCD}{1}{section.1}
-\contentsline {subsection}{\numberline {1.1}Die Standardmodell QCD}{1}{subsection.1.1}
-\contentsline {subsection}{\numberline {1.2}Dark QCD}{2}{subsection.1.2}
-\contentsline {section}{\numberline {2}Untersuchung einer $\beta $-Funktion}{7}{section.2}
-\contentsline {subsection}{\numberline {2.1}Vereinfachung des mathematischen Problems}{8}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Verhalten in einer Umgebung eines Fixpunktes}{9}{subsection.2.2}
-\contentsline {section}{\numberline {3}$\beta $-Funktion im $\math@bb {R}^2$}{12}{section.3}
-\contentsline {subsection}{\numberline {3.1}Stabilit\IeC {\"a}tsbedingungen}{12}{subsection.3.1}
-\contentsline {subsubsection}{\numberline {3.1.1}hyperbolischer Fixpunkt}{13}{subsubsection.3.1.1}
-\contentsline {subsubsection}{\numberline {3.1.2}nicht-hyperbolischer Fixpunkt}{14}{subsubsection.3.1.2}
-\contentsline {subsection}{\numberline {3.2}Fixpunktextrapolation}{15}{subsection.3.2}
-\contentsline {section}{\numberline {4}UV-Fixpunkte der $SU_\text {QCD}\times SU_\text {dQCD}$}{17}{section.4}
-\contentsline {subsection}{\numberline {4.1}UV-Verhalten bei $\alpha ^{*4}$}{19}{subsection.4.1}
-\contentsline {subsubsection}{\numberline {4.1.1}attraktiver Fixpunkt}{19}{subsubsection.4.1.1}
-\contentsline {subsubsection}{\numberline {4.1.2}Sattelpunkt}{21}{subsubsection.4.1.2}
-\contentsline {subsection}{\numberline {4.2}UV-Verhalten bei $\alpha ^{*3}$}{24}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}UV-Verhalten bei $\alpha ^{*2}$}{26}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Qualitative \IeC {\"A}nderungen durch Yukawa-Terme}{27}{subsection.4.4}
-\contentsline {section}{\nonumberline Literatur}{30}{equation.4.99}
+\contentsline {section}{\numberline {1}Experimentelle Nachweisbarkeit}{1}{section.1}
+\contentsline {section}{\nonumberline Literatur}{2}{section.1}
