@@ -67,7 +67,7 @@ A=array([
 #	[ 3, 2, 6, 0, 3, 0, 1, 0],
 #	[ 3, 3, 6, 0, 9, 0, 1, 0],
 #	[ 3, 4, 6, 0,17, 0, 1, 0],
-	[ 3, 2, 5, 0, 0, 1, 0, 9]
+	[ 3, 3, 6, 1, 6, 0, 3, 0]
 	])
 
 
@@ -179,5 +179,5 @@ for (Nc,Nd,nfc,nsc,nfd,nsd,nfj,nsj) in A:
 	p.xlim(xmin, xmax)
 	p.ylim(ymin, ymax)
 
-	f2.savefig('plots/RG_flow/RG_flow'+counter+'.png')
+	f2.savefig('plots/RG_flow/RG_flow'+counter+'.pdf')
 	

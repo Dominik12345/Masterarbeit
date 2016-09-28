@@ -1,0 +1,15 @@
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.7]{Python/plots/Kopplungen1_her.pdf}
+  \caption{Die laufenden Kopplungen $\alpha_1$ der Modelle a bis e sowie 
+  das SM $\alpha$.}
+  \label{fig:messbarkeit:alpha_running_afix2}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.7]{Python/plots/relative_deviation_her.pdf}
+  \caption{Die laufenden Kopplungen $\alpha_1$ der Modelle a bis e sowie 
+  das SM $\alpha$.}
+  \label{fig:messbarkeit:alpha_running_afix2}
+\end{figure}
