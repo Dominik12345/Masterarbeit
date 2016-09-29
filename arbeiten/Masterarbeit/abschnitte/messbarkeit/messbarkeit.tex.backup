@@ -154,6 +154,8 @@
     
     
   \subsection{Extrapolation von $\alpha^{*3}$}
+    \input{abschnitte/messbarkeit/fig/afix3}
+    
     Im Folgenden sind $\alpha_1(t)$ und $\alpha_2(t)$ die Kopplungskonstanten 
     der \QCDxdQCD entlang auf der UV-Hyperfläche, während $\alpha(t)$ die 
     SM QCD Kopplungskonstante darstellt.
@@ -169,15 +171,30 @@
     \lambda_1 >0
     \end{equation}
     und $Z_1>0$, $Y_1>0$ ist $\alpha_1$ steigend, während $\alpha$ als SM 
-    Kopplung für hohe Energien fällt. Aus Abbildung \ref{fig:messbarkeit:afix3} 
-    wird klar, dass sich $\alpha_1$ und $\alpha$ qualitativ völlig 
-    unterschiedlich verhalten. 
-    \input{abschnitte/messbarkeit/fig/afix3}
+    Kopplung für hohe Energien fällt, wie in Abbildung 
+    \ref{fig:messbarkeit:afix3} zu sehen ist. Aus $\alpha$-sensiblen 
+    Observablen sollte es hier möglich sein, entsprechend hohe Grenzen an 
+    die neuen Teilchenmassen $M$ zu setzen.
+    
+  \subsection{Extrapolation von $\alpha^{*2}$}
+    \input{abschnitte/messbarkeit/tab/modelle.tex}
+    \input{abschnitte/messbarkeit/fig/afix2.tex}
+    Die laufenden Kopplungen für die Beispielmodelle a bis e (vgl. Tabelle 
+    \ref{tab:messbarkeit:modelle}) sind in Abbildung 
+    \ref{fig:messbarkeit:alpha_running_afix2} zu sehen, die relativen 
+    Abweichungen $\Delta \alpha_1 = (\alpha_1-\alpha)/\alpha$ in Abbildung 
+    \ref{fig:messbarkeit:relative_deviation}. Hier verhält sich $\alpha_1$ 
+    qualitativ wie $\alpha$, die relativen Abweichungen bei 
+    $\mu = 1\,\text{TeV} \sim t \approx 0.746$ betragen hier 
+    $\approx 3 \text{-} 5 \, \%$, bei $\mu = 2 \,\text{TeV} \sim t 
+    \approx 1.439$ bereits $6\text{-}10 \, \%$ und liegen damit im Bereich der 
+    erwarteten Messungenauigkeiten (vgl. \cite{Bednyakov2015262}).
     
   \subsection{Extrapolation von $\alpha^{*4}$}
-    \input{abschnitte/messbarkeit/tab/modelle.tex}
-    Die laufenden Kopplungen für die Modelle a-e (vgl. Tabelle 
-    \ref{tab:messbarkeit:modelle}) sind in Abbildung 
-    \ref{fig:messbarkeit:alpha_running_afix2}
+    
+    Um diesen Fixpunkt mit Standardmodelldaten zu vergleichen wird die 
+    Entkopplungsskala $Q$ auf die t-Masse $Q \approx 173.21 \, \text{GeV}$ 
+    \cite{PDG:top} gelegt. Dazu wurde die SM Kopplungskonstante 
+    $\alpha(M_Z=91.1876)=0.1185$
     
    

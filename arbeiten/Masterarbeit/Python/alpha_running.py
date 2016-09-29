@@ -104,6 +104,8 @@ alpha25 = alpha25[:len(t5)]
 alpha_SM5 = alpha_SM5[:len(t5)]
 
 
+
+
 # <--- read data 
 ################
 
@@ -134,13 +136,14 @@ ax21.plot(t4,alpha14, color='0.2',linestyle='-',label=r'$\alpha_1^\mathrm{e}$')
 
 #SM running
 # ax21.plot(t1,alpha_SM1, 'r:',label=r'$\alpha_{\mathrm{SM-QCD1}}$')
-ax21.plot(t2,alpha_SM2, 'k--',label=r'$\alpha_{\mathrm{SM-QCD}}$')
+ax21.plot(t2,alpha_SM2, 'k--',label=r'$\alpha$')
 #ax21.plot(t3,alpha_SM3, 'g:',label=r'$\alpha_{\mathrm{SM-QCD3}}$')
 #ax21.plot(t4,alpha_SM4, 'm:',label=r'$\alpha_{\mathrm{SM-QCD4}}$')
 
 #labels etc
 ax21.xaxis.grid(True)
 ax21.set_xlabel(r'$t$')
+ax21.set_ylabel(r'Kopplungsstärke')
 #ax21.set_xticklabels([])
 box = ax21.get_position()
 ax21.set_position([box.x0, box.y0, box.width * 0.8, box.height])
@@ -180,6 +183,7 @@ ax22.plot(t4,alpha24, color='0.2',linestyle='-',label=r'$\alpha_2^\mathrm{e}$')
 #labels etc
 ax22.xaxis.grid(True)
 ax22.set_xlabel(r'$t$')
+ax22.set_ylabel(r'Kopplungsstärke')
 #ax21.set_xticklabels([])
 box = ax22.get_position()
 ax22.set_position([box.x0, box.y0, box.width * 0.8, box.height])
@@ -219,6 +223,7 @@ ax3.plot(t4,(alpha14-alpha_SM4)/alpha_SM4,color='0.2',linestyle='-',label=r'$\De
 
 ax3.xaxis.grid(True)
 ax3.set_xlabel(r'$t$')
+ax3.set_ylabel(r'Relative Abweichung')
 ax3.legend(loc='center left',bbox_to_anchor=(1,0.5),frameon=False)
 #safe
 fig3.savefig('plots/alpha_running/relative_deviation_her.pdf', bbox_inches='tight')
@@ -230,7 +235,21 @@ fig3.savefig('plots/alpha_running/relative_deviation_her.pdf', bbox_inches='tigh
 
 
 
+#########################
+# get error at 1 TeV --->
+import scipy as sci
 
+t0 = np.log((2.*10**12 )/(474.*10**9))
+print('t0 = '+str(t0))
 
+arg = sci.argmin( (t1-t0)**2)
+print(t1[arg],((alpha11-alpha_SM1)/alpha_SM1)[arg])
 
-
+arg = sci.argmin( (t2-t0)**2)
+print(t2[arg],((alpha12-alpha_SM2)/alpha_SM2)[arg])
+arg = sci.argmin( (t3-t0)**2)
+print(t3[arg],((alpha13-alpha_SM3)/alpha_SM3)[arg])
+arg = sci.argmin( (t4-t0)**2)
+print(t4[arg],((alpha14-alpha_SM4)/alpha_SM4)[arg])
+arg = sci.argmin( (t5-t0)**2)
+print(t5[arg],((alpha15-alpha_SM5)/alpha_SM5)[arg])

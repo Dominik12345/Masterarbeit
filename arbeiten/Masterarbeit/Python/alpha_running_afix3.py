@@ -95,6 +95,7 @@ ax21.plot(np.append(0,t),np.append(0.093,alpha_SM), 'k--',label=r'$\alpha$')
 #labels etc
 ax21.xaxis.grid(True)
 ax21.set_xlabel(r'$t$')
+ax21.set_ylabel(r'Kopplungsstärke')
 #ax21.set_xticklabels([])
 box = ax21.get_position()
 ax21.set_position([box.x0, box.y0, box.width * 0.8, box.height])

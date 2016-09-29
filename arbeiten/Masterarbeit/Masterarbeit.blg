@@ -7,65 +7,73 @@ You're missing a field part---line 245 of file bib.bib
  :       SLACcitation   = 
  :                        %%CITATION = HUTP-76-160;%%
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 907 of file bib.bib
+I was expecting a `,' or a `}'---line 937 of file bib.bib
  :   
  :   chapter     = {16},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 929 of file bib.bib
+I was expecting a `,' or a `}'---line 959 of file bib.bib
  :   
  :   chapter     = {15},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 951 of file bib.bib
+I was expecting a `,' or a `}'---line 981 of file bib.bib
  :   
  :   chapter     = {1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1001 of file bib.bib
+I was expecting a `,' or a `}'---line 1031 of file bib.bib
  :   
  :   publisher = "Belknap Press of Harvard University Press"
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You've used 5 entries,
+Warning--to sort, need author or key in PDG:top
+Warning--to sort, need author or key in PDG:constants
+Warning--empty author in PDG:top
+Warning--empty title in PDG:top
+Warning--empty year in PDG:top
+Warning--empty author in PDG:constants
+Warning--empty title in PDG:constants
+Warning--empty year in PDG:constants
+You've used 7 entries,
             2118 wiz_defined-function locations,
-            538 strings with 5042 characters,
-and the built_in function-call counts, 1698 in all, are:
-= -- 163
-> -- 68
+            543 strings with 5172 characters,
+and the built_in function-call counts, 2018 in all, are:
+= -- 189
+> -- 70
 < -- 1
-+ -- 27
++ -- 29
 - -- 22
-* -- 120
-:= -- 287
-add.period$ -- 16
-call.type$ -- 5
-change.case$ -- 25
+* -- 152
+:= -- 323
+add.period$ -- 18
+call.type$ -- 7
+change.case$ -- 29
 chr.to.int$ -- 0
-cite$ -- 5
-duplicate$ -- 65
-empty$ -- 142
+cite$ -- 15
+duplicate$ -- 85
+empty$ -- 178
 format.name$ -- 22
-if$ -- 358
+if$ -- 424
 int.to.chr$ -- 0
-int.to.str$ -- 5
-missing$ -- 5
-newline$ -- 29
+int.to.str$ -- 7
+missing$ -- 7
+newline$ -- 35
 num.names$ -- 10
-pop$ -- 19
+pop$ -- 35
 preamble$ -- 1
-purify$ -- 20
+purify$ -- 24
 quote$ -- 0
-skip$ -- 48
+skip$ -- 60
 stack$ -- 0
-substring$ -- 120
-swap$ -- 13
+substring$ -- 130
+swap$ -- 15
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 20
-warning$ -- 0
+type$ -- 28
+warning$ -- 8
 while$ -- 16
-width$ -- 6
-write$ -- 59
+width$ -- 8
+write$ -- 69
 (There were 5 error messages)

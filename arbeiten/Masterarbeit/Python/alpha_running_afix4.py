@@ -88,14 +88,15 @@ ax21 = fig2.add_subplot(111)
 #along separatrix
 
 ax21.plot(t1,alpha11, color='0.',linestyle='-',label=r'$\alpha_1^\mathrm{f}$')
-
-
+#ax21.plot(t1,alpha21, color='0.5',linestyle='-',label=r'$\alpha_2^\mathrm{f}$')
+ax21.plot(t1,alpha_SM1, 'k--',label=r'$\alpha$')
 #SM running
-ax21.plot(t1,alpha_SM1, 'k--',label=r'$\alpha_{\mathrm{SM-QCD}}$')
+
 
 #labels etc
 ax21.xaxis.grid(True)
 ax21.set_xlabel(r'$t$')
+ax21.set_ylabel(r'Kopplungsstärke')
 #ax21.set_xticklabels([])
 box = ax21.get_position()
 ax21.set_position([box.x0, box.y0, box.width * 0.8, box.height])
@@ -107,32 +108,6 @@ fig2.savefig('plots/alpha_running/Kopplungen1_afix4.pdf', bbox_inches='tight')
 
 # <--- RUNNING COUPLINGS PLOT
 #############################
-
-#############################
-# RUNNING COUPLINGS 2 PLOT --->
-
-fig4 = plt.figure()
-ax22 = fig4.add_subplot(111)
-
-#along separatrix
-ax22.plot(t1,alpha21, color='0.5',linestyle='-',label=r'$\alpha_2^\mathrm{f}$')
-
-#labels etc
-ax22.xaxis.grid(True)
-ax22.set_xlabel(r'$t$')
-#ax21.set_xticklabels([])
-box = ax22.get_position()
-ax22.set_position([box.x0, box.y0, box.width * 0.8, box.height])
-ax22.legend(loc='center left',bbox_to_anchor=(1,0.5),frameon=False)
-
-
-#safe
-fig4.savefig('plots/alpha_running/Kopplungen2_afix4.pdf', bbox_inches='tight')
-
-# <--- RUNNING COUPLINGS PLOT
-#############################
-
-
 
 
 #########################
