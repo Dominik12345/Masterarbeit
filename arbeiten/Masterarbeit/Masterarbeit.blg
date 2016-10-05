@@ -4,7 +4,7 @@ The top-level auxiliary file: Masterarbeit.aux
 The style file: plain.bst
 Database file #1: bib.bib
 You're missing a field part---line 245 of file bib.bib
- :       SLACcitation   = 
+ :       slaccitation   = 
  :                        %%CITATION = HUTP-76-160;%%
 I'm skipping whatever remains of this entry
 I was expecting a `,' or a `}'---line 937 of file bib.bib
@@ -27,6 +27,7 @@ I was expecting a `,' or a `}'---line 1031 of file bib.bib
  :   publisher = "Belknap Press of Harvard University Press"
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in PDG:QCD
 Warning--to sort, need author or key in PDG:top
 Warning--to sort, need author or key in PDG:constants
 Warning--empty author in PDG:top
@@ -35,45 +36,50 @@ Warning--empty year in PDG:top
 Warning--empty author in PDG:constants
 Warning--empty title in PDG:constants
 Warning--empty year in PDG:constants
-You've used 7 entries,
+Warning--empty author in PDG:QCD
+Warning--empty year in PDG:QCD
+Warning--empty journal in Bond_Litim
+Warning--empty journal in Weinberg:1976
+Warning--empty journal in Bronstein4
+You've used 24 entries,
             2118 wiz_defined-function locations,
-            543 strings with 5172 characters,
-and the built_in function-call counts, 2018 in all, are:
-= -- 189
-> -- 70
-< -- 1
-+ -- 29
-- -- 22
-* -- 152
-:= -- 323
-add.period$ -- 18
-call.type$ -- 7
-change.case$ -- 29
+            648 strings with 7300 characters,
+and the built_in function-call counts, 6502 in all, are:
+= -- 629
+> -- 236
+< -- 2
++ -- 97
+- -- 72
+* -- 430
+:= -- 1100
+add.period$ -- 72
+call.type$ -- 24
+change.case$ -- 101
 chr.to.int$ -- 0
-cite$ -- 15
-duplicate$ -- 85
-empty$ -- 178
-format.name$ -- 22
-if$ -- 424
+cite$ -- 38
+duplicate$ -- 271
+empty$ -- 561
+format.name$ -- 72
+if$ -- 1352
 int.to.chr$ -- 0
-int.to.str$ -- 7
-missing$ -- 7
-newline$ -- 35
-num.names$ -- 10
-pop$ -- 35
+int.to.str$ -- 24
+missing$ -- 28
+newline$ -- 121
+num.names$ -- 42
+pop$ -- 113
 preamble$ -- 1
-purify$ -- 24
+purify$ -- 83
 quote$ -- 0
-skip$ -- 60
+skip$ -- 181
 stack$ -- 0
-substring$ -- 130
-swap$ -- 15
-text.length$ -- 1
+substring$ -- 386
+swap$ -- 30
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 28
-warning$ -- 8
-while$ -- 16
-width$ -- 8
-write$ -- 69
+type$ -- 88
+warning$ -- 14
+while$ -- 58
+width$ -- 26
+write$ -- 248
 (There were 5 error messages)

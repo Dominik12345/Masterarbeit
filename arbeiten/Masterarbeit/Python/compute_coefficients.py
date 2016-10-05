@@ -25,7 +25,7 @@ def afZ2(Nc,Nd,nfc,nsc,nfd,nsd,nfj,nsj):
 Nc 	= 3
 Nd 	= 2
 nfc = 6
-nsc = 1
+nsc = 0
 nfd = 0
 nsd = 1
 nfj = 0

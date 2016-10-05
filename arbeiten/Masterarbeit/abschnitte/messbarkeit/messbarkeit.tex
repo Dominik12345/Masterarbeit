@@ -140,7 +140,7 @@
     vergleichen wird noch die SM QCD Kopplung in $\mathcal{O}(\alpha^3)$ 
     berechnet. Dies geschieht implizit über 
     \begin{equation}
-     F(\alpha(t)) = t-t_0 +F(\alpha(t_0))
+     F(\alpha(t)) = t-t_0 +F(\alpha(t_0)) \label{eq:messbarkeit:SM-running}
     \end{equation}
     mit 
     \begin{equation}
@@ -154,7 +154,7 @@
     sodass $t_0=0$ und $\alpha(0)$ die Startwerte sind.
     
     
-  \subsection{Extrapolation von $\alpha^{*3}$}
+  \subsection{Extrapolation von $\alpha^{*3}$} \label{extrapol_afix3}
     \input{abschnitte/messbarkeit/fig/afix3}
     
     Im Folgenden sind $\alpha_1(t)$ und $\alpha_2(t)$ die Kopplungskonstanten 
@@ -187,17 +187,34 @@
     \ref{fig:messbarkeit:relative_deviation}. Hier verhält sich $\alpha_1$ 
     qualitativ wie $\alpha$, die relativen Abweichungen bei 
     $\mu = 1\,\text{TeV} \sim t \approx 0.746$ betragen hier 
-    $\approx 3 \text{-} 5 \, \%$, bei $\mu = 2 \,\text{TeV} \sim t 
-    \approx 1.439$ bereits $6\text{-}10 \, \%$ und liegen damit im Bereich der 
-    erwarteten Messungenauigkeiten (vgl. \cite{Bednyakov2015262}).
+    $\Delta \alpha \approx 3 \text{-} 5 \, \%$, bei $\mu = 2 \,\text{TeV} \sim t 
+    \approx 1.439$ bereits $\Delta \alpha \approx 6\text{-}10 \, \%$ und liegen 
+    damit im Bereich der erwarteten Messungenauigkeiten 
+    (vgl. \cite{Bednyakov2015262}).
     
   \subsection{Extrapolation von $\alpha^{*4}$}
     \input{abschnitte/messbarkeit/fig/afix4.tex}
-    Um diesen Fixpunkt mit Standardmodelldaten zu vergleichen wird die 
-    Entkopplungsskala $Q$ auf die t-Masse $Q \approx 173.21 \, \text{GeV}$ 
-    \cite{PDG:top} gelegt. Dazu ausgehend von der bekannte Kopplungskonstanten 
-    $\alpha(M_Z=91.1876)=0.1185$ \cite{PDG:constants} zunächst mit effektiv 
+    Um ein SM-ähnliches Verhalten zu erzeugen muss 
+    $\alpha_1(0)>\alpha_1^{*4}$. Der kleinste Wert für $\alpha_1^{*4}
+    \approx 0.1007$ wird für $\text{SM}+(\Nd=2, \nsd=1,\nsj=9)$ angenommen. Da 
+    $\alpha$ monoton fallend ist, muss die Entkopplungsskala $Q$ entsprechend 
+    niedrig gewählt werden, um mit experimentellen Befunden im Einklang zu sein 
+    jedoch mindestens auf die $t$-Masse $Q \approx 173.21 \, \text{GeV}$ 
+    \cite{PDG:top}.
+    Mit \eqref{eq:messbarkeit:SM-running} wird 
+    ausgehend von der bekannte Kopplungskonstanten 
+    $\alpha(M_Z=91.1876)=0.1185$ \cite{PDG:constants} mit effektiv 
     $5$ SM-Fermionen $\alpha(Q)=0.1081$ berechnet. In Abbildung 
-    \ref{fig:messbarkeit:afix4} ist der weitere Verlauf
+    \ref{fig:messbarkeit:afix4} ist der weitere Verlauf für hohe Energien zu 
+    sehen. Nach Konstruktion verhalten sich $\alpha_1$ und $\alpha$ qualitativ 
+    ähnlich, da $\alpha_1^{*4}$ jedoch sehr nah am Startwert liegt ist hier 
+    bei $1\,\text{TeV}$ die relative Abweichung bereits 
+    $\Delta \alpha \approx 20 \%$.
+    
+    Eine Extrapolation von $\alpha^{*4}$ in Richtung kleiner QCD-Kopplungen 
+    ist ebenfalls möglich, 
+    verhält sich jedoch wie die Extrapolation von $\alpha^{*3}$ (vgl. 
+    \ref{extrapol_afix3}).
+    
     
    

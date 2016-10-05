@@ -87,8 +87,8 @@ ax21 = fig2.add_subplot(111)
 
 #along separatrix
 
-ax21.plot(t1,alpha11, color='0.',linestyle='-',label=r'$\alpha_1^\mathrm{f}$')
-#ax21.plot(t1,alpha21, color='0.5',linestyle='-',label=r'$\alpha_2^\mathrm{f}$')
+ax21.plot(t1,alpha11, color='0.',linestyle='-',label=r'$\alpha_1$')
+ax21.plot(t1,0.1*alpha21, color='0.5',linestyle='-',label=r'$\alpha_2 \times 10^{-1}$')
 ax21.plot(t1,alpha_SM1, 'k--',label=r'$\alpha$')
 #SM running
 
@@ -126,7 +126,7 @@ ax3 = fig3.add_subplot(111)
 #ax3.plot(t_SM,alpha_SM,'r.',label=r'2-Loop')
 #ax3.plot(t_SM,A1loop(t_SM),'k-',label=r'1-Loop')
 
-ax3.plot(t1,(alpha11-alpha_SM1)/alpha_SM1,color='0.',linestyle='-',label=r'$\Delta \alpha^\mathrm{f}$')
+ax3.plot(t1,(alpha11-alpha_SM1)/alpha_SM1,color='0.',linestyle='-',label=r'$\Delta \alpha$')
 
 
 
@@ -146,4 +146,12 @@ fig3.savefig('plots/alpha_running/relative_deviation_afix4.pdf', bbox_inches='ti
 
 
 
+#########################
+# get error at 1 TeV --->
+import scipy as sci
 
+t0 = np.log((10**18*10**9 )/(173.21*10**9))
+print('t0 = '+str(t0))
+
+arg = sci.argmin( (t1-t0)**2)
+print(t1[arg],((alpha11-alpha_SM1)/alpha_SM1)[arg])
