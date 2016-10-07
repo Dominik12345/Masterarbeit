@@ -27,6 +27,8 @@ I was expecting a `,' or a `}'---line 1031 of file bib.bib
  :   publisher = "Belknap Press of Harvard University Press"
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "PDG:Higgs"
+Warning--to sort, need author or key in PDG:DM
 Warning--to sort, need author or key in PDG:QCD
 Warning--to sort, need author or key in PDG:top
 Warning--to sort, need author or key in PDG:constants
@@ -36,50 +38,52 @@ Warning--empty year in PDG:top
 Warning--empty author in PDG:constants
 Warning--empty title in PDG:constants
 Warning--empty year in PDG:constants
+Warning--empty author in PDG:DM
+Warning--empty year in PDG:DM
 Warning--empty author in PDG:QCD
 Warning--empty year in PDG:QCD
 Warning--empty journal in Bond_Litim
 Warning--empty journal in Weinberg:1976
 Warning--empty journal in Bronstein4
-You've used 24 entries,
+You've used 31 entries,
             2118 wiz_defined-function locations,
-            648 strings with 7300 characters,
-and the built_in function-call counts, 6502 in all, are:
-= -- 629
-> -- 236
+            682 strings with 7920 characters,
+and the built_in function-call counts, 8283 in all, are:
+= -- 796
+> -- 314
 < -- 2
-+ -- 97
-- -- 72
-* -- 430
-:= -- 1100
-add.period$ -- 72
-call.type$ -- 24
-change.case$ -- 101
++ -- 128
+- -- 96
+* -- 534
+:= -- 1406
+add.period$ -- 94
+call.type$ -- 31
+change.case$ -- 128
 chr.to.int$ -- 0
-cite$ -- 38
-duplicate$ -- 271
-empty$ -- 561
-format.name$ -- 72
-if$ -- 1352
+cite$ -- 48
+duplicate$ -- 351
+empty$ -- 716
+format.name$ -- 96
+if$ -- 1728
 int.to.chr$ -- 0
-int.to.str$ -- 24
-missing$ -- 28
-newline$ -- 121
-num.names$ -- 42
-pop$ -- 113
+int.to.str$ -- 31
+missing$ -- 39
+newline$ -- 156
+num.names$ -- 54
+pop$ -- 156
 preamble$ -- 1
-purify$ -- 83
+purify$ -- 107
 quote$ -- 0
-skip$ -- 181
+skip$ -- 231
 stack$ -- 0
-substring$ -- 386
-swap$ -- 30
+substring$ -- 451
+swap$ -- 37
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 88
-warning$ -- 14
-while$ -- 58
-width$ -- 26
-write$ -- 248
+type$ -- 108
+warning$ -- 17
+while$ -- 72
+width$ -- 33
+write$ -- 320
 (There were 5 error messages)

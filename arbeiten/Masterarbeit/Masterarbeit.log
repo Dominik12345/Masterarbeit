@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.9)  5 OCT 2016 16:28
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.9)  7 OCT 2016 17:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1779,28 +1779,25 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package tocbasic Info: character protrusion at toc deactivated on input line 23
-.
- (./Masterarbeit.toc
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 1.
+ (./abschnitte/Titlepage/title.tex
+<../../header/tu-logo.pdf, id=127, 339.2675pt x 55.20625pt>
+File: ../../header/tu-logo.pdf Graphic file (type pdf)
 
-(/usr/share/texmf/tex/latex/lm/t1lmss.fd
-File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Package microtype Info: Loading generic settings for font family
-(microtype)             `lmss' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <10.95> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 1.
-LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <8.3> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 14.
-LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <6> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 14.
-)
-\tf@toc=\write4
-\openout4 = `Masterarbeit.toc'.
-
+<use ../../header/tu-logo.pdf>
+Package pdftex.def Info: ../../header/tu-logo.pdf used on input line 7.
+(pdftex.def)             Requested size: 399.73683pt x 65.04256pt.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 19.08076pt on input line 24.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 13.24796pt on input line 24.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 9.19998pt on input line 24.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 19.08076pt on input line 24.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 13.24796pt on input line 24.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 9.19998pt on input line 24.
  [1
 Non-PDF special ignored!
 Non-PDF special ignored!
@@ -1865,20 +1862,122 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
-Non-PDF special ignored!
+Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <..
+/../header/tu-logo.pdf>]
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 51.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 51.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 51.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 51.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 51.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 51.
+ [2
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-(./abschnitte/QCDxdQCD/QCDxdQCD.tex
+]) (./abschnitte/Titlepage/abstract.tex) [3
+
+]
+Package tocbasic Info: character protrusion at toc deactivated on input line 23
+.
+
+(./Masterarbeit.toc
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 1.
+ (/usr/share/texmf/tex/latex/lm/t1lmss.fd
+File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `lmss' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <10.95> not available
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <8.3> not available
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 18.
+LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <6> not available
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 18.
+)
+\tf@toc=\write4
+\openout4 = `Masterarbeit.toc'.
+
+ [4
+
+]
+(./abschnitte/einleitung/einleitung.tex
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 2.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 2.
+(Font)              scaled to size 6.99199pt on input line 22.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.99199pt on input line 22.
+)
+(./abschnitte/renormierung/renormierung.tex [1
+
+
+]
+
+LaTeX Warning: Reference `renormierung:fig:running_couplings' on page 2 undefin
+ed on input line 63.
+
+[2
+
+] (./abschnitte/renormierung/linkshaendig.tex)
+
+LaTeX Warning: Citation `PDG:Higgs' on page 3 undefined on input line 90.
+
+[3] [4]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 191.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 191.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 191.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 191.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 191.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 191.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 220.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 220.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 220.
+
+
+Overfull \hbox (13.1077pt too wide) detected at line 266
+ $[] []$  
+ []
+
+[5]
+Overfull \hbox (1.97162pt too wide) in paragraph at lines 328--331
+\T1/qpl/m/n/10.95 (-20) wobei das In-te-gral ab-hän-gig von $\FML/futmi/m/it/10
+.95 D$ \T1/qpl/m/n/10.95 (-20) di-ver-gent ist. Ei-ne Be-rech-nung mit Hil-fe d
+er Schwinger-
+ []
+
+[6] [7]) (./abschnitte/QCDxdQCD/QCDxdQCD.tex [8]
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
 (Font)              scaled to size 7.35999pt on input line 2.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 2.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 2.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 7.35999pt on input line 2.
 
@@ -1894,28 +1993,14 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 2.
 
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 38.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 38.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 38.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 38.
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.66 
-      [1
-
+[9
 
 ]
 Overfull \hbox (28.89592pt too wide) in paragraph at lines 123--123
 [] 
  []
 
-[2] [3] (./abschnitte/QCDxdQCD/fig/Yukawa_Majorana.tex
+[10] [11] (./abschnitte/QCDxdQCD/fig/Yukawa_Majorana.tex
 Package epstopdf Info: Source file: <abschnitte/QCDxdQCD/fig/Yukawa.eps>
 (epstopdf)                    date: 2016-09-07 13:53:56
 (epstopdf)                    size: 135499 bytes
@@ -1928,7 +2013,7 @@ kawa-eps-converted-to.pdf abschnitte/QCDxdQCD/fig/Yukawa.eps>
 (epstopdf)             \includegraphics on input line 3.
 Package epstopdf Info: Output file is already uptodate.
 
-<abschnitte/QCDxdQCD/fig/Yukawa-eps-converted-to.pdf, id=212, 157.58875pt x 94.
+<abschnitte/QCDxdQCD/fig/Yukawa-eps-converted-to.pdf, id=351, 157.58875pt x 94.
 3525pt>
 File: abschnitte/QCDxdQCD/fig/Yukawa-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1936,8 +2021,9 @@ f)
 Package pdftex.def Info: abschnitte/QCDxdQCD/fig/Yukawa-eps-converted-to.pdf us
 ed on input line 3.
 (pdftex.def)             Requested size: 157.58835pt x 94.35225pt.
-) [4] [5 <./abschnitte/QCDxdQCD/fig/Yukawa-eps-converted-to.pdf>])
-(./abschnitte/beta_allgemein/beta_allgemein.tex [6]
+) [12]
+[13 <./abschnitte/QCDxdQCD/fig/Yukawa-eps-converted-to.pdf>])
+(./abschnitte/beta_allgemein/beta_allgemein.tex [14]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 2.
@@ -1951,12 +2037,12 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 2.
 
 
-LaTeX Warning: Reference `eq:running_coupling' on page 7 undefined on input lin
-e 7.
+LaTeX Warning: Reference `eq:running_coupling' on page 15 undefined on input li
+ne 7.
 
-[7
+[15
 
-] [8] [9]
+] [16] [17]
 LaTeX Font Info:    Try loading font information for U+euf on input line 190.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
@@ -1964,9 +2050,9 @@ File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-euf.cfg
 File: mt-euf.cfg 2006/07/03 v1.1 microtype config. file: AMS Euler Fraktur (RS)
 
-) [10])
-(./abschnitte/beta_im_SM/beta_im_SM.tex [11])
-(./abschnitte/beta_im_R2/beta_im_R2.tex [12
+) [18])
+(./abschnitte/beta_im_SM/beta_im_SM.tex [19])
+(./abschnitte/beta_im_R2/beta_im_R2.tex [20
 
 ]
 
@@ -1994,7 +2080,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 2.
 
 (./abschnitte/beta_im_R2/fig/flow_example.tex
-<abschnitte/beta_im_R2/fig/flow_example.png, id=336, 578.16pt x 433.62pt>
+<abschnitte/beta_im_R2/fig/flow_example.png, id=471, 578.16pt x 433.62pt>
 File: abschnitte/beta_im_R2/fig/flow_example.png Graphic file (type png)
 
 <use abschnitte/beta_im_R2/fig/flow_example.png>
@@ -2003,13 +2089,13 @@ ut line 3.
 (pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
 )
 
-LaTeX Warning: Reference `Schleifen' on page 13 undefined on input line 17.
+LaTeX Warning: Reference `Schleifen' on page 21 undefined on input line 17.
 
-[13
+[21
 
  <./abschnitte/beta_im_R2/fig/flow_example.png>]
-(./abschnitte/beta_im_R2/tab/stabilitaet_hyperbolisch.tex) [14] [15])
-(./abschnitte/beta_QCDxdQCD/beta_QCDxdQCD.tex [16]
+(./abschnitte/beta_im_R2/tab/stabilitaet_hyperbolisch.tex) [22] [23])
+(./abschnitte/beta_QCDxdQCD/beta_QCDxdQCD.tex [24]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 2.
@@ -2043,7 +2129,7 @@ ted-to.pdf>
 (epstopdf)             \includegraphics on input line 3.
 Package epstopdf Info: Output file is already uptodate.
 
-<abschnitte/n-schleifen/fig/QCD3-eps-converted-to.pdf, id=390, 185.69376pt x 10
+<abschnitte/n-schleifen/fig/QCD3-eps-converted-to.pdf, id=526, 185.69376pt x 10
 8.405pt>
 File: abschnitte/n-schleifen/fig/QCD3-eps-converted-to.pdf Graphic file (type p
 df)
@@ -2051,11 +2137,11 @@ df)
 Package pdftex.def Info: abschnitte/n-schleifen/fig/QCD3-eps-converted-to.pdf u
 sed on input line 3.
 (pdftex.def)             Requested size: 185.6933pt x 108.40472pt.
-) [17
+) [25
 
 ]
 
-LaTeX Warning: Reference `fig:n-schleifen:QCDxdQCD1' on page 18 undefined on in
+LaTeX Warning: Reference `fig:n-schleifen:QCDxdQCD1' on page 26 undefined on in
 put line 82.
 
 (./abschnitte/n-schleifen/fig/QCDxdQCD1.tex
@@ -2071,7 +2157,7 @@ onverted-to.pdf>
 (epstopdf)             \includegraphics on input line 4.
 Package epstopdf Info: Output file is already uptodate.
 
-<abschnitte/n-schleifen/fig/QCDxdQCD1-eps-converted-to.pdf, id=402, 213.79875pt
+<abschnitte/n-schleifen/fig/QCDxdQCD1-eps-converted-to.pdf, id=538, 213.79875pt
  x 136.51pt>
 File: abschnitte/n-schleifen/fig/QCDxdQCD1-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -2098,7 +2184,7 @@ s-converted-to.pdf>
 (epstopdf)             \includegraphics on input line 8.
 Package epstopdf Info: Output file is already uptodate.
 
-<abschnitte/n-schleifen/fig/QCDxdQCD2var-eps-converted-to.pdf, id=403, 213.7987
+<abschnitte/n-schleifen/fig/QCDxdQCD2var-eps-converted-to.pdf, id=539, 213.7987
 5pt x 136.51pt>
 File: abschnitte/n-schleifen/fig/QCDxdQCD2var-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -2117,18 +2203,9 @@ Overfull \hbox (1.82864pt too wide) in paragraph at lines 3--11
 [][] [] 
  []
 
-) [18 <./abschnitte/n-schleifen/fig/QCD3-eps-converted-to.pdf> <./abschnitte/n-
+) [26 <./abschnitte/n-schleifen/fig/QCD3-eps-converted-to.pdf> <./abschnitte/n-
 schleifen/fig/QCDxdQCD1-eps-converted-to.pdf> <./abschnitte/n-schleifen/fig/QCD
 xdQCD2var-eps-converted-to.pdf>]
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 140.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 140.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 140.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 140.
-
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 140.
@@ -2145,15 +2222,15 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 140.
 
-[19]
+[27]
 LaTeX Font Info:    Try loading font information for U+mvs on input line 174.
  (/usr/share/texlive/texmf-dist/tex/latex/marvosym/umvs.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-mvs.cfg
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
-) [20] [21]
+) [28] [29]
 (./abschnitte/beta_QCDxdQCD/tab/Sattelpunkt_ohne_Skalare.tex)
 (./abschnitte/beta_QCDxdQCD/fig/Sattelpunkte_ohne_Skalare.tex
-<abschnitte/beta_QCDxdQCD/fig/RG_flow3_2_6_0_2_0_1_0.png, id=506, 578.16pt x 43
+<abschnitte/beta_QCDxdQCD/fig/RG_flow3_2_6_0_2_0_1_0.png, id=641, 578.16pt x 43
 3.62pt>
 File: abschnitte/beta_QCDxdQCD/fig/RG_flow3_2_6_0_2_0_1_0.png Graphic file (typ
 e png)
@@ -2161,10 +2238,10 @@ e png)
 Package pdftex.def Info: abschnitte/beta_QCDxdQCD/fig/RG_flow3_2_6_0_2_0_1_0.pn
 g used on input line 5.
 (pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
-) [22]
+) [30]
 (./abschnitte/beta_QCDxdQCD/tab/Sattelpunkt_mit_Skalaren.tex)
 (./abschnitte/beta_QCDxdQCD/fig/Sattelpunkte_mit_Skalaren.tex
-<abschnitte/beta_QCDxdQCD/fig/afix4_perturbative.pdf, id=530, 488.99626pt x 377
+<abschnitte/beta_QCDxdQCD/fig/afix4_perturbative.pdf, id=666, 488.99626pt x 377
 .0336pt>
 File: abschnitte/beta_QCDxdQCD/fig/afix4_perturbative.pdf Graphic file (type pd
 f)
@@ -2176,7 +2253,7 @@ ed on input line 4.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [23 <./abschnitte/beta_QCDxdQCD/fig/RG_flow3_2_6_0_2_0_1_0.png>]
+) [31 <./abschnitte/beta_QCDxdQCD/fig/RG_flow3_2_6_0_2_0_1_0.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 370.
@@ -2193,7 +2270,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 370.
 
-[24] [25 <./abschnitte/beta_QCDxdQCD/fig/afix4_perturbative.pdf>]
+[32] [33 <./abschnitte/beta_QCDxdQCD/fig/afix4_perturbative.pdf>]
 (./abschnitte/beta_QCDxdQCD/tab/Fix3_ohne_Skalare.tex)
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -2228,7 +2305,7 @@ ig/Yukawa1-eps-converted-to.pdf abschnitte/beta_QCDxdQCD/fig/Yukawa1.eps>
 (epstopdf)             \includegraphics on input line 4.
 Package epstopdf Info: Output file is already uptodate.
 
-<abschnitte/beta_QCDxdQCD/fig/Yukawa1-eps-converted-to.pdf, id=594, 213.79875pt
+<abschnitte/beta_QCDxdQCD/fig/Yukawa1-eps-converted-to.pdf, id=729, 213.79875pt
  x 136.51pt>
 File: abschnitte/beta_QCDxdQCD/fig/Yukawa1-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -2253,7 +2330,7 @@ ig/Yukawa2-eps-converted-to.pdf abschnitte/beta_QCDxdQCD/fig/Yukawa2.eps>
 (epstopdf)             \includegraphics on input line 8.
 Package epstopdf Info: Output file is already uptodate.
 
-<abschnitte/beta_QCDxdQCD/fig/Yukawa2-eps-converted-to.pdf, id=595, 213.79875pt
+<abschnitte/beta_QCDxdQCD/fig/Yukawa2-eps-converted-to.pdf, id=730, 213.79875pt
  x 136.51pt>
 File: abschnitte/beta_QCDxdQCD/fig/Yukawa2-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -2278,7 +2355,7 @@ ig/Yukawa3-eps-converted-to.pdf abschnitte/beta_QCDxdQCD/fig/Yukawa3.eps>
 (epstopdf)             \includegraphics on input line 12.
 Package epstopdf Info: Output file is already uptodate.
 
-<abschnitte/beta_QCDxdQCD/fig/Yukawa3-eps-converted-to.pdf, id=596, 213.79875pt
+<abschnitte/beta_QCDxdQCD/fig/Yukawa3-eps-converted-to.pdf, id=731, 213.79875pt
  x 136.51pt>
 File: abschnitte/beta_QCDxdQCD/fig/Yukawa3-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -2296,16 +2373,16 @@ Overfull \hbox (1.82864pt too wide) in paragraph at lines 3--15
 [][] []
  []
 
-[26]
+[34]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [27] [28 <./abschnitte/beta_QCDxdQCD/fig/Yukawa1-eps-converted-to.pdf> <./abs
+) [35] [36 <./abschnitte/beta_QCDxdQCD/fig/Yukawa1-eps-converted-to.pdf> <./abs
 chnitte/beta_QCDxdQCD/fig/Yukawa2-eps-converted-to.pdf> <./abschnitte/beta_QCDx
 dQCD/fig/Yukawa3-eps-converted-to.pdf>])
-(./abschnitte/messbarkeit/messbarkeit.tex [29]
+(./abschnitte/messbarkeit/messbarkeit.tex [37]
 (./abschnitte/messbarkeit/fig/IR-Fix.tex
-<abschnitte/messbarkeit/fig/RG_flow3_3_6_0_5_2_3_0.pdf, id=672, 578.16pt x 433.
+<abschnitte/messbarkeit/fig/RG_flow3_3_6_0_5_2_3_0.pdf, id=807, 578.16pt x 433.
 62pt>
 File: abschnitte/messbarkeit/fig/RG_flow3_3_6_0_5_2_3_0.pdf Graphic file (type 
 pdf)
@@ -2313,10 +2390,10 @@ pdf)
 Package pdftex.def Info: abschnitte/messbarkeit/fig/RG_flow3_3_6_0_5_2_3_0.pdf 
 used on input line 3.
 (pdftex.def)             Requested size: 404.70924pt x 303.53192pt.
-) [30
+) [38
 
 ]
-[31 <./abschnitte/messbarkeit/fig/RG_flow3_3_6_0_5_2_3_0.pdf>] [32]
+[39 <./abschnitte/messbarkeit/fig/RG_flow3_3_6_0_5_2_3_0.pdf>] [40]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 157.
@@ -2334,7 +2411,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 157.
 
 (./abschnitte/messbarkeit/fig/afix3.tex
-<Python/plots/alpha_running/Kopplungen1_afix3.pdf, id=1625, 495.30106pt x 399.5
+<Python/plots/alpha_running/Kopplungen1_afix3.pdf, id=1759, 495.30106pt x 399.5
 5524pt>
 File: Python/plots/alpha_running/Kopplungen1_afix3.pdf Graphic file (type pdf)
  <use Python/plots/alpha_running/Kopplungen1_afix3.pdf>
@@ -2367,9 +2444,9 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 180.
 
-(./abschnitte/messbarkeit/tab/modelle.tex [33] [34 <./Python/plots/alpha_runnin
+(./abschnitte/messbarkeit/tab/modelle.tex [41] [42 <./Python/plots/alpha_runnin
 g/Kopplungen1_afix3.pdf>]) (./abschnitte/messbarkeit/fig/afix2.tex
-<Python/plots/alpha_running/Kopplungen1_her.pdf, id=1682, 498.31232pt x 399.555
+<Python/plots/alpha_running/Kopplungen1_her.pdf, id=1816, 498.31232pt x 399.555
 24pt>
 File: Python/plots/alpha_running/Kopplungen1_her.pdf Graphic file (type pdf)
  <use Python/plots/alpha_running/Kopplungen1_her.pdf>
@@ -2377,7 +2454,7 @@ Package pdftex.def Info: Python/plots/alpha_running/Kopplungen1_her.pdf used on
  input line 3.
 (pdftex.def)             Requested size: 348.81624pt x 279.68674pt.
 
-<Python/plots/alpha_running/relative_deviation_her.pdf, id=1683, 590.16989pt x 
+<Python/plots/alpha_running/relative_deviation_her.pdf, id=1817, 590.16989pt x 
 399.55524pt>
 File: Python/plots/alpha_running/relative_deviation_her.pdf Graphic file (type 
 pdf)
@@ -2403,7 +2480,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 195.
 
 (./abschnitte/messbarkeit/fig/afix4.tex
-<Python/plots/alpha_running/Kopplungen1_afix4.pdf, id=1688, 537.45856pt x 399.5
+<Python/plots/alpha_running/Kopplungen1_afix4.pdf, id=1822, 537.45856pt x 399.5
 5524pt>
 File: Python/plots/alpha_running/Kopplungen1_afix4.pdf Graphic file (type pdf)
  <use Python/plots/alpha_running/Kopplungen1_afix4.pdf>
@@ -2422,20 +2499,39 @@ utmi/m/it/10.95 N[]; N[]; n[]; n[]; n[]; n[]; n[]; n[]\T1/futs/m/n/10.95 ) \FMS
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [35 <./Python/plots/alpha_running/Kopplungen1_her.pdf>] [36 <./Python/plots/a
+) [43 <./Python/plots/alpha_running/Kopplungen1_her.pdf>] [44 <./Python/plots/a
 lpha_running/relative_deviation_her.pdf>])
-(./abschnitte/ausleitung/ausleitung.tex [37 <./Python/plots/alpha_running/Koppl
-ungen1_afix4.pdf>]) [38] (./Masterarbeit.bbl [39
+(./abschnitte/ausleitung/ausleitung.tex [45 <./Python/plots/alpha_running/Koppl
+ungen1_afix4.pdf>]) [46] (./Masterarbeit.bbl [47
 
-])
+] [48]) [49]
+(./abschnitte/Appendix/Versicherung.tex
+LaTeX Font Info:    Try loading font information for TS1+qpl on input line 17.
+
+(/usr/share/texmf/tex/latex/tex-gyre/ts1qpl.fd
+File: ts1qpl.fd 2009/09/25 v1.2 font definition file for TS1/qpl
+)
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 55.
- [40]
+ [50
+
+
+]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 55.
  (./Masterarbeit.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 55.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 55.
 Package rerunfilecheck Info: File `Masterarbeit.out' has not changed.
-(rerunfilecheck)             Checksum: DCA8EF2BF28165EC3A9EBBBC50E9E8FB;1913.
+(rerunfilecheck)             Checksum: DFF17EDCC194BC992CF52F3337ABCDA7;2292.
 
 
 LaTeX Warning: There were undefined references.
@@ -2446,33 +2542,34 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 55.
  ) 
 Here is how much of TeX's memory you used:
- 25574 strings out of 493304
- 469720 string characters out of 6139871
- 605293 words of memory out of 5000000
- 28040 multiletter control sequences out of 15000+600000
- 211228 words of font info for 301 fonts, out of 8000000 for 9000
+ 25791 strings out of 493304
+ 473813 string characters out of 6139871
+ 606293 words of memory out of 5000000
+ 28144 multiletter control sequences out of 15000+600000
+ 243355 words of font info for 338 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  49i,16n,75p,10457b,967s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}{/usr/share/texlive/texmf
--dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.en
-c}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-bb.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mcl.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/fourier/fourier-ml.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/fourier/fourier-ms.pfb></usr/share/texmf/fonts/type1/public
-/lm/lmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/marvosym/mar
-vosym.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/ms
-am10.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb></usr/share/te
-xmf/fonts/type1/public/tex-gyre/qplb.pfb></usr/share/texmf/fonts/type1/public/t
-ex-gyre/qplr.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplri.pfb>
-Output written on Masterarbeit.pdf (41 pages, 971904 bytes).
+{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/share/texmf/fonts/
+enc/dvips/tex-gyre/q-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/us
+r/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/fourier/fourier-bb.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/fourier/fourier-mcl.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/fourier/fourier-mex.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/fourier/fourier-ml.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fo
+urier/fourier-mlit.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourie
+r/fourier-ms.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/adobe/utopia/putri8a.pfb></usr/share/texmf/fonts/type1/public/tex
+-gyre/qplb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplr.pfb></usr/sha
+re/texmf/fonts/type1/public/tex-gyre/qplri.pfb>
+Output written on Masterarbeit.pdf (54 pages, 1018758 bytes).
 PDF statistics:
- 1968 PDF objects out of 2073 (max. 8388607)
- 820 compressed objects within 9 object streams
- 242 named destinations out of 1000 (max. 500000)
- 41252 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 2124 PDF objects out of 2487 (max. 8388607)
+ 961 compressed objects within 10 object streams
+ 300 named destinations out of 1000 (max. 500000)
+ 47945 words of extra memory for PDF output out of 51595 (max. 10000000)
 

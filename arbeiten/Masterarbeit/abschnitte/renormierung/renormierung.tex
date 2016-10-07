@@ -16,9 +16,9 @@
   die möglichen 
   physikalischen Prozesse der Quantenfelder $\phi$ 
   ist dabei in dem Wirkungsfunktional $S$ bzw. der Lagrangedichte $\mathcal{L}$ 
-  enhalten, welche in einer $d$-Dimensionalen Raumzeit über 
+  enhalten, welche in einer $D$-Dimensionalen Raumzeit über 
   \begin{equation}
-    S[\phi] = \int \d^d x \,\,\, \mathcal{L}(\phi,\partial \phi, t) 
+    S[\phi] = \int \d^D x \,\,\, \mathcal{L}(\phi,\partial \phi, t) 
     \label{renormierung:Wirkung_definition}
   \end{equation}
   verknüpft sind \cite{Schwartz}. Die möglicherweise verschiedenartigen Felder  
@@ -85,89 +85,337 @@
     rechtshändigen Fermion $q_R^j$, mit der Kopplungsstärke $Y_{ij}$. Im 
     Higgsmechanismus wird das 
     Potenzial $V[\phi]$ minimiert und die $SU(2)\times U(1)$ Symmetrie 
-    unterhalb einer charakteristischen Energieskala gebrochen, was 
+    unterhalb einer charakteristischen Energieskala gebrochen. Dies hat 
     die Massenerzeugung der Teilchen und das Flavour-Mixing der Quarks zur 
-    Folge hat. \cite{PDG:Higgs}
+    Folge \cite{PDG:Higgs}.
     
-    Da in dieser Arbeit wird eine Standardmodellerweiterung im QCD-Sektor 
-    untersucht werden soll, werden der Elektroschwache Sektor sowie der 
-    Higgs-Sektor nicht weiter Betrachtet. Die einzige Außnahme ist Abschnitt 
-    \ref{beta_im_SM}, in dem die $\beta$-Funktionen des Standardmodells 
-    vorgestellt werden.
-    
+    Für eine effektive QCD$\times$QED 
+    hat Bednyakov gezeigt, dass ab der Energieskala der $t$-Masse die QED 
+    korrekturen vernachlässigt werden können \cite{Bednyakov2015262}. Daraus 
+    lässt sich schließen, dass der Elektroschwache Sektor sowie der 
+    Higgs-Sektor nicht weiter betrachtet werden dürfen. 
     
     
 
     
     
   \subsection{Effektive Quantenwirkung und Gell-Mann-Low Gleichung}
-    Um das Hochenergieverhalten von Wechselwirkungen zu untersuchen, ist 
-    es sinnvoll die \textit{Quantenwirkung} $\Gamma$ einzuführen. Dazu werden 
-    nun die wichtigsten Punkte der Berechnung von Korrelationsfunktionen mit 
-    Hilfe von erzeugenden Funktionalen gezeigt\footnote{Für das Vorgehen beim 
-    reellen, skalaren Feld vgl. \cite{Zinn}, für die Erweiterung mit Fermionen 
-    vgl. \cite{Schwartz}.}.
+    Nun werden 
+    die wichtigsten Punkte bei der Berechnung von Korrelationsfunktionen mit 
+    Hilfe von erzeugenden Funktionalen gezeigt, vgl. \cite{Zinn}. 
+    Zunächst werden die erzeugenden Funktionale $Z$ und $W$ eingeführt um 
+    die Gluon-2-Punkt Funktion zu berechnen. Aus der Rechnung wird die 
+    Notwendigkeit der Regularisierung und Renormierung abgeleitet. Schließlich 
+    wird die $\beta$-Funktion der Beispieltheorie gefunden.
     
-    Der Einfachheit halber wird nun nur ein komplexes Fermionfeld $\psi$ und ein 
-    komplexes Skalarfeld $\phi$ betrachtet. Wegen der linearen Eigenschaften von 
-    \eqref{renormierung:Korrelator_definition} ist die Erweiterung auf mehrere 
-    Felder trivial. Lorentz- und Eichinvarianz der Lagrangedichte erfordern 
-    direkt die Einführung der Felder $\psibar$ und $\phistar$\footnote{Cite}. 
-    Das \textit{erzeugende Funktional} wird definiert als 
+    Die Rechnung erfolgt am Beispiel einer skalaren $SU(N)$ mit reellen, 
+    skalaren Materiefeldern $\phi_i$ in der Darstellung $S$ und 
+    Eichfeldern $\A^A$ in adjungierter Darstellung. Aus der 
+    Lagrangedichte 
     \begin{equation}
-    Z[J] := \int \mathcal{D}\Psi \,\,\, 
-    \e^{\i S[\Psi]+ 
-    \i 
-    \int \d^d x \, \left(J \cdot \Psi \right)}
-    \quad ,
-    \label{renormierung:erzeugendes_Funktional_definition} 
+     \mathcal{L}(\phi,\partial\phi,\mathcal{A},\partial\mathcal{A})=
+     \frac12 \left(\left[\i \partial_\mu-g t^A_{ji} \mathcal{A}^A_\mu
+     \right]\phi_i\right)^*
+     \left(\left[\i \partial^\mu-g t^A_{ji} \mathcal{A}^{A\,\,\,\mu}
+     \right]\phi_i\right)
+     -
+     \frac14 F^{A\,\,\, \mu\nu} F_{\mu\nu}^A
     \end{equation}
-    dabei wurden die Ströme $\eta$, $\etabar$, $\zeta$ und $\zetastar$ und die 
-    Schreibweise $J=(\eta,\etabar,\zeta,\zetastar)^\text{T}$ und 
-    $\Psi=(\psibar,\psi,\phi^*,\phi)^\text{T}$
-    eingeführt. Eine Reihenentwicklung kann durch
+    mit $F_{\mu \nu}^A=\partial_\mu \mathcal{A}^A_\nu-
+    \partial_\nu\mathcal{A}^A_\mu$ lassen sich die Wirkungsfunktionale 
+    \begin{align}
+     S_\text{M}[\phi] &= \dx \frac12 \partial_\mu \phi_i \partial^\mu \phi_i \\
+     S_\text{G}[\A] &= \dx \frac{1}{2} \partial_\mu \A^A_\nu 
+     \partial^\nu \A^{\nu \, A} - \frac12 \partial_\mu \A_\nu^A 
+     \partial^\mu \A^{A\,\,\, \nu} - \frac{1}{2\xi} \partial_\mu 
+     \A^{A\,\,\, \mu} \partial_\nu \A^{A\,\,\, \nu} \\
+     S_1[\phi,\A]&= \dx 2\i g  \partial^\mu \phi_j t_{ji}^A \phi_i \A_\mu^A 
+    \end{align}
+    ableiten. Gluon-Selbstwechselwirkungen sollen hier nicht betrachtet werden, 
+    außerdem wurde eine reelle Darstellung gewählt, sodass $\phi^*=\phi$ und 
+    $(t^A_{ji})^*=(-t^A_{ji})$. 
+    Mit den Propagatoren 
+    \begin{align}
+     \Delta(x,y) &= \i \dppi  \frac{\e^{\i p(x-y)}}{p^2}  \\
+     \Delta^{\rho \epsilon}(x,y) &= \frac{\i}{D}\dppi 
+     \frac{\e^{\i p(x-y)}}{p^2}\left[ 
+     \eta^{\rho \epsilon} -(1-\xi) \frac{p^\rho p^{\epsilon}}{p^2}\right]
+     \label{eq:renormierung:gluonpropagator}
+    \end{align}
+    und dem erzeugenden Funktional 
     \begin{equation}
-     Z[J] = \sum\limits_\alpha \frac{ \i^{|\alpha|}}{\alpha!}  
-     \int \d x_1 \ldots \d x_{|\alpha|} Z^{\alpha}(x_1,\ldots,x_{|\alpha|} )
-     J^\alpha (x) \label{renormierung:Reihenentwicklung}
+     Z[J,J_\mu]:= \int \mathcal{D}\phi \,\,\, \mathcal{D}\A \,\,\,
+     \e^{\i S_\text{M}[\phi]
+     +\i S_\text{G}[\A]+\i S_1[\phi,\A] +\i J_i\phi_i+\i J^A_\mu 
+     \A^{A\,\,\, \mu}} \label{eq:renormierung:erzeugendes_funktional}
     \end{equation}
-    definiert werden, mit einem vierer 
-    Multiindex $\alpha=(\alpha_1,\alpha_2
-    ,\alpha_3,\alpha_4)$ und der Schreibweise 
+    gilt die wichtige Beziehung 
     \begin{equation}
-      J^\alpha=
-      \eta	(x_1)		\ldots \eta(x_{\alpha_1}) 	\,\,
-      \etabar(x_{\alpha_1 +1})	\ldots \etabar(x_{\alpha_1+\alpha_2})	\,\,
-      \zeta(x_{\alpha_1+\alpha_2 +1})	\ldots 
-      \zeta(x_{\alpha_1+\alpha_2+\alpha_3})	\,\,
-      \zetastar(x_{\alpha_1+\alpha_2+\alpha_3 +1})	\ldots 
-      \zetastar(x_{|\alpha|})   \quad .
-      \label{renormierung:Strom}
+     Z[J,J_\mu]=\e^{\i S_1[\frac{\delta}{\delta J},\frac{\delta}{\delta J_\mu}]} 
+     \,\,\, \e^{-\frac{1}{2} J_i \Delta J_i} 
+     \,\,\, \e^{-\frac{1}{2} J^A_\mu \Delta^{\mu\nu} 
+     J^A_\nu} \quad . \label{eq:renormierung:funktional}
     \end{equation}
-    Die Funktionen $Z^\alpha$ können über die Funktionalableitung 
+    Dabei wurden die erzeugenden Ströme $J_i(x)$ und $J_\mu^A(x)$ eingeführt, 
+    sowie die Schreibweisen
     \begin{equation}
-     Z^\alpha (y_1,\ldots , y_{|\alpha|}) \overset{
-     \eqref{renormierung:Reihenentwicklung}}{=} \left[
-      \frac{\partial}{\i^{|\alpha|}\partial J^\alpha(y)}\right]_{J=0} Z[J] 
-     \overset{\eqref{renormierung:erzeugendes_Funktional_definition}}{=} 
-     \int \mathcal{D}\Psi \,\,\, \Psi^\alpha(y) e^{\i S[\Psi]} 
-     \overset{\eqref{renormierung:Korrelator_definition}}{=} 
-     \Big\langle \textbf{T} \Psi^\alpha(y) \Big\rangle     
+     J_i \phi_i = \dx J_i(x) \phi_i(x) \quad , \quad  J_i \Delta J_i =
+     \dx \d^D y \,\,\,  J_i(x) \Delta(x,y) J_i(y) \quad ,
     \end{equation}
-    als $n$-Punkt Funktionen verstanden werden. Zur Vereinfachung wurde dabei 
-    $\Psi^\alpha$ analog zu \eqref{renormierung:Strom} definiert und 
-    $Z[0]=0$ gesetzt.
+    für die Eichfelder $\A$ analog.
     
-    Mit der Definition des Funktionals $W[J] := \ln Z[J]$
-    und einer Reihenentwicklung wie in \eqref{renormierung:Reihenentwicklung} 
-    erhät man Funktionen $W^\alpha$, die die Cluster-Eigenschaft erfüllen
-    \cite{Zinn}. Sind $A$ und $B$ Ströme mit disjunkten Trägern\footnote{Dabei 
-    können $A$ und $B$ eine Zerlegung eines Stroms $J_i=A+B$ oder zwei 
-    verschiedene, z.B $A=\eta$, $B=\phi$ sein.} und $y_1\in\text{supp}A$, 
-    $y_2\in\text{supp}B$, dann müssen $W^\alpha(\ldots,y_1,\ldots,y_2,\ldots) 
-    \overset{||y_1-y_2||\to \infty}{\longrightarrow} 0 $. Aufgund dieser 
-    Eigenschaft ist $W[J]$ das erzeugende Funktional ver
+    Durch das Ausführen von Funktionalableitungen in 
+    \eqref{eq:renormierung:erzeugendes_funktional} lassen sich nun die 
+    Korrelatorfunktionen aus \eqref{renormierung:Korrelator_definition} 
+    rekonstruieren, 
+    \begin{equation}
+     \left.\frac{\delta}{i \delta J_i(x)}\right|_{J=J_\mu=0} Z[J,J_\mu]
+     = \Big\langle \phi_i(x) \Big\rangle \quad , 
+     \label{eq:renormierung:ableitungen}
+    \end{equation}
+    für höhere Ableitungen analog. Die formale Entwicklung
+    \begin{equation}
+    \begin{aligned}
+     &Z[J,J_\mu]= \sum\limits_{m,n=0}^\infty 
+      \frac{\i^{m+n}}{m!n!} 
+     \int \d^D x_1 \ldots \d^D x_m \d^D y_1 \ldots \d^D y_n   
+     \\& Z^{(m,n)\,\,\,A_1\ldots A_n}_{i_1\ldots i_m\, , \,\mu_1\ldots\mu_n} 
+     (x_1,\ldots,x_m,y_1,\ldots,y_n)      
+      \,\,\,J_{i_1}(x_1)\ldots J_{i_m}(x_m) \,\,\,
+     J^{A_1}_{\mu_1}(y_1)\ldots J^{A_n}_{\mu_n}(y_n)
+    \end{aligned} \label{eq:zfunktional_entwicklung}
+    \end{equation}
+    erlaubt dabei eine kompakte Schreibweise.
+    
+    \subsubsection{Gluonpropagator in $\mathcal{O}(g^0)$ und 
+    $\mathcal{O}(g^1)$}
+      
+      Es soll nun der Gluonpropagator als $\langle \A^A_\mu(x_1)\A^B_\nu(x_2) 
+      \rangle= Z^{(0,2)\,\,\, AB}_{\mu\nu}(x_1,x_2)$ rekonstruiert werden. 
+      In $\mathcal{O}(g^0 J_i^0 J_\rho^2)$ kann 
+      \eqref{eq:renormierung:funktional} vereinfacht als 
+      \begin{equation}
+       Z[J,J_\rho] = -\frac{1}{2} J^A_{\rho} \Delta^{\rho \epsilon} J^A_\epsilon
+      \end{equation}
+      geschrieben werden. Mit \eqref{eq:renormierung:ableitungen} gilt dann 
+      \begin{equation}
+       Z^{(0,2)\,\,\, AB}_{\mu\nu}(x_1,x_2) = 
+       \frac{\delta}{ \delta J^A_\mu(x_1)}\frac{\delta}{ \delta J^B_\nu(x_2)}
+       \frac{1}{2} J^C_{\rho} \Delta^{\rho \epsilon} J^C_\epsilon = \delta^{AB}
+       \Delta_{\mu\nu}(x_1,x_2) \quad .
+      \end{equation}
+      Der Gluonpropagator aus \eqref{eq:renormierung:gluonpropagator} ist 
+      demnach die 2-Punkt Funktion $Z^{(0,2)\,\,\, AB}_{\mu\nu}(x_1,x_2)$ in 
+      $\mathcal{O}(g^0)$.
+      
+      Der $\mathcal{O}(g^1)$ Beitrag zu $Z^{(0,2)\,\,\, AB}_{\mu\nu}(x_1,x_2)$ 
+      muss verschwinden, da 
+      \begin{equation}
+       \left. \left(\frac{\delta}{\delta J_\mu}\right)^3\right|_{J_\rho=0} 
+       (J^C_\rho \Delta^{\rho \epsilon} J^C_\epsilon) \propto \left.J_\rho 
+       \right|_{J_\rho=0}= 0 \quad .
+      \end{equation}
 
+      
+    \subsubsection{Gluonpropagator in $\mathcal{O}(g^2)$}
+
+    Die einzige beitragende Ordnung ist hier $\mathcal{O}(g^2 J_i^4 J_\rho^4)$, 
+    \begin{equation}
+    \begin{aligned}
+      Z[J,J_\mu]&= -2 g^2 t^C_{ji}t^D_{lk} \int \d^D y_1 \d^D y_2 
+     \left(\partial^\rho \frac{\delta}{\i\delta J_j(y_1)} \right)  \frac{\delta}{\i \delta 
+     J_i(y_1)} \frac{\delta}{\i \delta J^C_\rho(y_1)} \\&
+     \left(\partial^\sigma \frac{\delta}{\i\delta J_l(y_2)} \right)   \frac{\delta}{\i \delta 
+     J_k(y_2)} \frac{\delta}{\i \delta J^D_\sigma (y_2)}
+%     \frac{\delta}{\i \delta J^A_\mu(x_1)} \frac{\delta}{\i \delta J^B_\nu(x_2)}
+%      
+    \frac18(J_m \Delta J_m)(J_n \Delta J_n) 
+%      
+    \frac18(J_\alpha^E \Delta^{\alpha \beta} J_\beta^E)
+     (J_\gamma^F \Delta^{\gamma \delta} J_\delta^F) \quad .
+    \end{aligned}
+    \end{equation}
+    Es folgt
+    \begin{equation}
+     \begin{aligned}
+      &Z^{(0,2)\,\,\, AB}_{\mu\nu}(x_1,x_2) = -2 g^2 t^C_{ji}t^D_{lk}
+      \int \d^D y_1 \,\,\, d^D y_2 \,\,\,
+      \\ &
+      \left[
+      \Delta^{\mu\nu}(x_1,x_2) \Delta^{\rho \sigma}(y_1,y_2) \delta^{AB} 
+      \delta^{CD}
+      +
+      \Delta^{\mu\rho}(x_1,y_1) \Delta^{\nu \sigma}(x_2,y_2) \delta^{AC} 
+      \delta^{BC}
+      +
+      \Delta^{\mu\sigma}(x_1,y_2) \Delta^{\nu \rho}(x_2,y_1) \delta^{AD} 
+      \delta^{BC}
+      \right]
+      \\
+      &\left[
+      \Delta(y_1,y_2) \partial_\rho\partial_\sigma \Delta(y_1,y_2) \delta_{ki}
+      \delta_{lj}
+      +
+      \partial_\rho \Delta(y_1,y_1) \partial_\sigma \Delta(y_2,y_2) \delta_{ij}
+      \delta_{lk}
+      +
+      \partial_\sigma \Delta(y_1,y_2) \partial_\rho \Delta(y_2,y_1) \delta_{lj}
+      \delta_{ik}
+      \right] \quad .
+     \end{aligned}\label{eq:renormierung:Og2}
+    \end{equation}
+    
+    Um die Berechnung zu vereinfachen ist es nun hilfreich, ein neues 
+    Funktional $W$ als 
+    \begin{equation}
+    Z[J,J_\mu] = \e^{W[J,J_\mu]}
+    \end{equation}
+    einzuführen. Es gibt wieder eine formale Reihenentwicklung 
+    \begin{equation}
+    \begin{aligned}
+     &W[J,J_\mu]= \sum\limits_{m,n=1}^\infty 
+      \frac{\i^{m+n}}{m!n!} 
+     \int \d^D x_1 \ldots \d^D x_m \d^D y_1 \ldots \d^D y_n   
+     \\& W^{(m,n)\,\,\,A_1\ldots A_n}_{i_1\ldots i_m\, , \,\mu_1\ldots\mu_n} 
+     (x_1,\ldots,x_m,y_1,\ldots,y_n)      
+      \,\,\,J_{i_1}(x_1)\ldots J_{i_m}(x_m) \,\,\,
+     J^{A_1}_{\mu_1}(y_1)\ldots J^{A_n}_{\mu_n}(y_n)
+    \end{aligned}
+    \end{equation}
+    analog zu \eqref{eq:zfunktional_entwicklung}. Für 
+    $Z^{(0,2)\,\,\, AB}_{\mu\nu}$ lässt sich die Beziehung 
+    \begin{equation}
+     Z^{(0,2)\,\,\, AB}_{\mu\nu}(x_1,x_2)=W^{(0,2)\,\,\, AB}_{\mu\nu} (x_1,x_2)
+     +W^{(0,1)\,\,\, A}_\mu (x_1) W^{(0,1)\,\,\, B}_\nu (x_2)
+    \end{equation}
+    ableiten. Dabei hat jede Funktion $W^{(m,n)}$ die Cluster-Eigenschaft 
+    $W^{(m,n)} \longrightarrow 0$
+    wenn sich die erzeugenden Ströme $J$ und $J_\mu$ separierbare Träger haben. 
+    Für \eqref{eq:renormierung:Og2} bedeutet das, dass die äußeren Punkte 
+    $x_1, x_2$ und die Vertizes $y_1,y_2$ durch Propagatoren verbunden sein 
+    müssen, um zu $W^{(0,2)\,\,\, AB}_{\mu\nu} (x_1,x_2)$ beizutragen. Man 
+    spricht deshalb vom erzeugenden Funktional verbundener 
+    Korrelationsfunktionen. Es bleibt von \eqref{eq:renormierung:Og2} unter 
+    der Ausnutzung dieser Tatsache sowie der Symmetrie unter 
+    $y_1 \leftrightarrow y_2$ und der Antisymmetrie von $t_{ji}^A$
+    \begin{equation}
+    \begin{aligned}
+    W^{(0,2)\,\,\, AB}_{\mu\nu} (x_1,x_2) &= 
+    4g^2 \text{Tr}(t^A t^B) \int \d^D y_1 \,\,\, d^D y_2 \,\,\, 
+    \Delta^{\mu\rho}(x_1,y_1)\Delta^{\nu \sigma}(x_2,y_2)
+    \\&\left[
+       \Delta(y_1,y_2)
+       \partial_\rho 
+      \partial_\sigma \Delta(y_1,y_2) 
+       -\partial_\rho 
+      \Delta(y_1,y_2) \partial_\sigma \Delta(y_2,y_1)
+    \right] \quad .
+    \end{aligned}
+    \end{equation}
+    Die Fouriertransformation dieses Ausdrucks ergibt
+    \begin{equation}
+    \begin{aligned}
+     &\widetilde{W}^{(0,2)\,\,\, AB}_{\mu\nu} (k_1,k_2) = 
+     4 g^2 \text{Tr}(t^A t^B) \frac{1}{(2\uppi)^{3D}} 
+     \frac{\delta(k_1+k_2)}{k_1^4} \int \frac{\d^D q}{(2\uppi)^D} \,\,\, \\ &
+     \left( \frac{q_\sigma q_\rho}{q^2(k_1+q)^2 } +
+     \frac{q_\sigma (k_1+q)_\rho}{q^2 (k_1+q)^2} \right)
+     \left( \eta^{\mu \rho}-(1-\xi)\frac{k_1^{\mu}k_1^{\rho}}{k_1^2}\right)
+     \left( \eta^{\nu \sigma}-(1-\xi)\frac{k_2^{\nu}k_1^{\sigma}}{k_1^2}\right)
+     \delta(k_1+k_2)
+     \quad ,
+    \end{aligned}
+    \end{equation}
+    wobei das Integral abhängig von $D$ divergent ist. Eine Berechnung mit 
+    Hilfe der Schwinger-Parametrisierung ergibt 
+   \begin{equation}
+    \begin{aligned}
+     \widetilde{W}^{(0,2)\,\,\, AB}_{\mu\nu} &(k_1,k_2) = 
+     4 g^2 \text{Tr}(t^A t^B) \frac{1}{(2\uppi)^{3D}} 
+     \frac{\delta(k_1+k_2)}{k_1^4}
+     %
+     \left\{
+     \i
+     (k_{1\,\text{E}}^2)^{\nicefrac{D}{2}-2}(4\uppi)^{-\nicefrac{D}{2}} \right. \\
+     &     
+     \left[
+     \left(B(\nicefrac{D}{2}+1,\nicefrac{D}{2}-1)-B(\nicefrac{D}{2},
+     \nicefrac{D}{2}-1)k_{1\, \rho}
+     k_{1\, \sigma}\right) + B(\nicefrac{D}{2},\nicefrac{D}{2}-1)k_{1\,\text{E}}^2
+     \, \delta_{\rho\sigma} \frac{\Gamma(1-\nicefrac{D}{2})}{\Gamma(2-\nicefrac{D}{2})}
+     \right] \\&
+     \left.\Gamma(2-\nicefrac{D}{2}) \right\}
+     %
+     \left( \eta^{\mu \rho}-(1-\xi)\frac{k_1^{\mu}k_1^{\rho}}{k_1^2}\right)
+     \left( \eta^{\nu \sigma}-(1-\xi)\frac{k_2^{\nu}k_2^{\sigma}}{k_2^2}\right)
+      \delta(k_1+k_2)
+     \quad .
+    \end{aligned}
+    \end{equation}
+    In dimensionaler Regularisierung kann nun $D=4-2\epsilon$ mit einem 
+    reellen $\epsilon>0$ gesetzt werden. Die Massendimension $[g]=(4-D)/2$ der 
+    Kopplungskonstanten wird durch $g \to \mu^{(4-D)/2}g$ berücksichtig, wobei eine 
+    unphysikalische Massenskala $\mu$ eingeführt wird.
+    Den divergenten Term 
+    $\widetilde{W}_\text{div}$ kann man nun als
+    \begin{align}
+     \widetilde{W}_\text{div}(k) &= \i \frac{g^2}{16\uppi^2} \text{Tr}(t^At^B)
+       \frac{4}{6}\left[
+     k_{\rho}k_{ \sigma}-k^2_{ \text{E}}\, \delta_{\rho\sigma}\right]
+      \Gamma(\epsilon) \left( \frac{4\uppi \mu^2}{k_\text{E}^2}\right)^{\epsilon}
+      \\
+      &
+      \simeq \i \frac{g^2}{16\uppi^2} \text{Tr}(t^At^B)
+       \frac{4}{6}\left[
+     k_{\rho}k_{\sigma}-k^2_{ \text{E}}\, \delta_{\rho\sigma}\right]
+      \left( \frac{1}{\epsilon} + \ln\left( \frac{4\uppi \e^{-\gamma_\text{E}}
+      \mu^2}{k_\text{E}^2} \right) \right) \label{eq:renormierung:W_div}
+    \end{align}
+    schreiben. Durch die Wahl $4\uppi \e^{-\gamma_\text{E}}
+      \mu^2\sim k_\text{E}^2$ verschwindet der logarithmische Term, und die 
+      Massenskala $\mu$ kann mit der Energieskala des physikalischen Prozesses 
+      identifiziert werden. Um die $1/\epsilon$ Divergenz interpretieren zu 
+      können, werden renormierte Felder und Kopplungskonstanten gemäß
+      \begin{equation}
+       Z_\phi^{\nicefrac12}\phi_\text{R}=\phi \quad , \quad
+       Z_\A^{\nicefrac12}\A_\text{R}=\A\quad , \quad 
+       Z_g g_\text{R}=\mu^{(D-4)/2}g 
+      \end{equation}
+      eingeführt. Dabei sind $Z_\phi$, $Z_\A$ und $Z_g$ Renormierungskonstanten. 
+      Damit lässt sich zu
+      \begin{equation}
+       \widetilde{W}_\text{div}(k)= \i \delta^{AB}\left[
+      k_{\rho}k_{\sigma}-k^2_{ \text{E}}\, \delta_{\rho\sigma}\right]
+      \left\{  \frac{4}{6}
+      \frac{g_\text{R}^2}{16\uppi^2} T(S)     
+      \frac{1}{\epsilon} +(Z_\A-1) \right\}.
+      \end{equation}
+      Dabei wurde die Gruppenkonstante $T(S) \delta^{AB}=\text{Tr}(t^At^B)$ 
+      eingeführt.
+      Die Renormierungskonstante $Z_\A$ ist nun
+      \begin{equation}
+       Z_\A = 1-\frac{g_\text{R}^2}{16 \uppi^2} \frac{2}{3} T(S) \quad .
+      \end{equation}
+      Auf gleiche Weise können nun $\widetilde{W}^{(2,0)}$ und 
+      $\widetilde{W}^{(2,1)}$ berechnet werden um die weiteren 
+      Renormierungskonstanten zu bestimmen. Unter Vernachlässigung dieser 
+      Beiträge kann jedoch 
+      \begin{equation}
+       Z_g = Z_\A^{\nicefrac12} \simeq 1+\frac{g_\text{R}^2}{16 \uppi^2}
+       \frac{1}{3} T(S) 
+      \end{equation}
+      benutzt werden. Es folgt 
+      \begin{equation}
+       \beta(g):= \mu \frac{\d g}{\d\mu} = \frac{g_\text{R}^3}{16 \uppi^2}
+       \frac{2}{3} T(S) + \mathcal{O}(g^5) \quad .
+      \end{equation}
+      
+
+
+
+
+    
+    
 
 
 
