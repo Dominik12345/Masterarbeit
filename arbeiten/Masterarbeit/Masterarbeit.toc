@@ -28,4 +28,3 @@
 \contentsline {subsection}{\numberline {7.3}Extrapolation von $\alpha ^{*2}$}{42}{subsection.7.3}
 \contentsline {subsection}{\numberline {7.4}Extrapolation von $\alpha ^{*4}$}{44}{subsection.7.4}
 \contentsline {section}{\numberline {8}Zusammenstellung der Ergebnisse}{45}{section.8}
-\contentsline {section}{\nonumberline Literatur}{46}{section.8}

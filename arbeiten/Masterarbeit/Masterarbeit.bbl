@@ -1,12 +1,12 @@
 \begin{thebibliography}{10}
 
-\bibitem{PDG:top}
-{\em K.A. Olive et al. (Particle Data Group), Chin. Phys. C, 38, 090001 (2014)
-  and 2015 update.}
+\bibitem{PDG:Higgs}
+{\em C. Patrignani et al. (Particle Data Group), Chin. Phys. C, 40 , 100001
+  (2016)}.
 
-\bibitem{PDG:constants}
-{\em K.A. Olive et al. (Particle Data Group), Chin. Phys. C, 38, 090001 (2014)
-  and 2015 update.}
+\bibitem{PDG:top}
+{\em C. Patrignani et al. (Particle Data Group), Chin. Phys. C, 40 , 100001
+  (2016)}.
 
 \bibitem{PDG:DM}
 Dark matter.
@@ -19,7 +19,7 @@ Quantum chomodynamics.
   090001 (2014) and 2015 update.}
 
 \bibitem{Higgs}
-Georges Aad et~al.
+G.~Aad et~al.
 \newblock {Observation of a new particle in the search for the Standard Model
   Higgs boson with the ATLAS detector at the LHC}.
 \newblock {\em Phys. Lett.}, B716:1--29, 2012.
@@ -31,37 +31,36 @@ B.~P. Abbott et~al.
 
 \bibitem{Scale_of_dark_QCD}
 Y.~Bai and P.~Schwaller.
-\newblock Scale of dark qcd.
+\newblock Scale of dark {QCD}.
 \newblock {\em Phys. Rev. D}, 89:063522, Mar 2014.
 
 \bibitem{Becciolini:2014lya}
-Diego Becciolini, Marc Gillioz, Marco Nardecchia, Francesco Sannino, and
-  Michael Spannowsky.
+D.~Becciolini, M.~Gillioz, M.~Nardecchia, F.~Sannino, and M.~Spannowsky.
 \newblock {Constraining new colored matter from the ratio of 3 to 2 jets cross
   sections at the LHC}.
 \newblock {\em Phys. Rev.}, D91(1):015010, 2015.
 \newblock [Addendum: Phys. Rev.D92,no.7,079905(2015)].
 
 \bibitem{Bednyakov2015262}
-A.V. Bednyakov.
+A.~Bednyakov.
 \newblock On the electroweak contribution to the matching of the strong
-  coupling constant in the \{SM\}.
+  coupling constant in the {SM}.
 \newblock {\em Physics Letters B}, 741:262 -- 266, 2015.
 
 \bibitem{Bond_Litim}
-Andrew~D. Bond and Daniel~F. Litim.
+A.~D. Bond and D.~F. Litim.
 \newblock {Theorems for Asymptotic Safety of Gauge Theories}.
-\newblock 2016.
+\newblock {\em arXiv:1608.00519 [hep-th]}, 2016.
 
 \bibitem{Chatrchyan:2013txa}
-Serguei Chatrchyan et~al.
+{Chatrchyan, Serguei} et~al.
 \newblock {Measurement of the ratio of the inclusive 3-jet cross section to the
   inclusive 2-jet cross section in pp collisions at $\sqrt{s}$ = 7 TeV and
   first determination of the strong coupling constant in the TeV range}.
 \newblock {\em Eur. Phys. J.}, C73(10):2604, 2013.
 
 \bibitem{quartic_scalar}
-Thomas Curtright.
+T.~Curtright.
 \newblock Three-loop charge renormalization effects due to quartic scalar
   self-interactions.
 \newblock {\em Phys. Rev. D}, 21:1543--1549, Mar 1980.
@@ -79,22 +78,17 @@ H.~Georgi.
 \newblock Frontiers in Physics Series. Westview Press, 1999.
 
 \bibitem{GR_Introductory}
-S.W. Hawking and W.~Israel.
-\newblock {\em General Relativity; an Einstein Centenary Survey}.
-\newblock Cambridge University Press, 1979.
-
-\bibitem{GR_Hawking}
-S.W. Hawking and W.~Israel.
-\newblock {\em General Relativity; an Einstein Centenary Survey}.
+S.~Hawking and W.~Israel, editors.
+\newblock {\em General Relativity; an Einstein Centenary Survey}, chapter~1.
 \newblock Cambridge University Press, 1979.
 
 \bibitem{GR_Weinberg}
-S.W. Hawking and W.~Israel.
-\newblock {\em General Relativity; an Einstein Centenary Survey}.
+S.~Hawking and W.~Israel, editors.
+\newblock {\em General Relativity, an Einstein Centenary Survey}, chapter~16.
 \newblock Cambridge University Press, 1979.
 
 \bibitem{Jarvinen:2011qe}
-Matti Jarvinen and Elias Kiritsis.
+M.~Jarvinen and E.~Kiritsis.
 \newblock {Holographic Models for QCD in the Veneziano Limit}.
 \newblock {\em JHEP}, 03:002, 2012.
 
@@ -107,64 +101,64 @@ D.~R.~T. Jones.
 \bibitem{Asymptotic_safety_guaranteed}
 D.~F. Litim and F.~Sannino.
 \newblock Asymptotic safety guaranteed.
-\newblock {\em arxive}, Jun 2014.
-
-\bibitem{Luo_Wang_Xiao}
-Ming-xing Luo, Hua-wen Wang, and Yong Xiao.
-\newblock {Two loop renormalization group equations in general gauge field
-  theories}.
-\newblock {\em Phys. Rev.}, D67:065019, 2003.
+\newblock {\em arXiv:1406.2337 [hep-th]}, 2014.
 
 \bibitem{Scalar_QCD}
-Axel Maas and Tajdar Mufti.
+A.~Maas and T.~Mufti.
 \newblock {Correlation Functions and Confinement in Scalar QCD}.
 \newblock {\em PoS}, QCD-TNT-III:024, 2013.
 \newblock [PoSEPS-HEP2013,022(2013)].
 
 \bibitem{MACHACEK198383}
-Marie~E. Machacek and Michael~T. Vaughn.
+M.~E. Machacek and M.~T. Vaughn.
 \newblock Two-loop renormalization group equations in a general quantum field
   theory.
 \newblock {\em Nuclear Physics B}, 222(1):83 -- 103, 1983.
 
 \bibitem{MACHACEK1984221}
-Marie~E. Machacek and Michael~T. Vaughn.
+M.~E. Machacek and M.~T. Vaughn.
 \newblock Two-loop renormalization group equations in a general quantum field
   theory (ii). yukawa couplings.
 \newblock {\em Nuclear Physics B}, 236(1):221 -- 232, 1984.
 
+\bibitem{Luo_Wang_Xiao}
+{Ming-Xing Luo, Hua-Wen Wang and Yong Xiao}.
+\newblock {Two loop renormalization group equations in general gauge field
+  theories}.
+\newblock {\em Phys. Rev.}, D67:065019, 2003.
+
 \bibitem{Sannino}
-Francesco Sannino.
+F.~Sannino.
 \newblock {$\alpha_s$ at LHC: Challenging asymptotic freedom}.
 \newblock In {\em {High-precision $\alpha_s$ measurements from LHC to FCC-ee}},
   pages 11--19, 2015.
 
 \bibitem{Schwartz}
-M.D. Schwartz.
+M.~Schwartz.
 \newblock {\em Quantum Field Theory and the Standard Model}.
-\newblock Quantum Field Theory and the Standard Model. Cambridge University
-  Press, 2014.
+\newblock Cambridge University Press, 2014.
 
 \bibitem{VENEZIANO1979213}
 G.~Veneziano.
-\newblock U(1) without instantons.
+\newblock {$U(1)$} without instantons.
 \newblock {\em Nuclear Physics B}, 159(1):213 -- 224, 1979.
 
 \bibitem{Weinberg:1976}
 S.~Weinberg.
-\newblock Critical phenomena for field theorists.
-\newblock 1976.
+\newblock {Critical Phenomena for Field Theorists}.
+\newblock In {\em {14th International School of Subnuclear Physics:
+  Understanding the Fundamental Constitutents of Matter Erice, Italy, July
+  23-August 8, 1976}}, page~1, 1976.
 
 \bibitem{Weinberg:QFT_2}
-Steven Weinberg.
+S.~Weinberg.
 \newblock {\em The Quantum Theory of Fields}, volume~2.
 \newblock Cambridge University Press, 1996.
-\newblock Cambridge Books Online.
 
 \bibitem{Bronstein4}
 E.~Zeidler.
-\newblock Springer-handbuch der mathematik iv.
-\newblock 2013.
+\newblock {\em {Springer-Handbuch der Mathematik IV}}.
+\newblock Springer Fachmedien Wiesbaden, 2013.
 
 \bibitem{Zinn}
 J.~Zinn-Justin.

@@ -1,58 +1,94 @@
 \clearpage
 \section{Einleitung}
-  Die Entdeckung des Higgs-Bosons im Jahr 2012 \cite{Higgs} und die erstmalige 
-  Beobachtung von Gravitationswellen im Jahr 2016 \cite{gravitational_waves} 
-  sind weitere Bestätigung zweier fundamentaler Theorien der heutigen 
-  Physik, des \textit{Standardmodells der Teilchenphysik (SM)} und der 
-  \textit{allgemeinen Relativitätstheorie (ART)}, die es vermögen, Phänomene 
-  auf Größenordnungen der Quantenphysik beziehungsweise der Kosmologie mit 
-  großer Genauigkeit zu beschreiben und zu erklären. Obwohl das SM durch die 
-  Entdeckung des Higgs in sich geschlossen ist, gibt es Hinweise sowohl von 
-  experimenteller als auch von theoretischer Seite, dass dieses Theoriegebäude 
-  nicht endgültig sein kann. 
-  
-  Kosmologische Experimente zeigen, dass es eine Art der Materie, 
-  \textit{dunke Materie (DM)}, mit einer Energiedichte von 
-  $\Omega_\text{DM}\approx 0,2$ in Einheiten der kritischen Massendichte 
-  im Universum geben muss \cite{PDG:DM}, die eine schwache Ankopplung an die 
-  SM-Materie haben muss, jedoch gravitativ wechselwirkt. Im Rahmen von 
-  $\Lambda$CDM-Theorien wird eine kalte, d.h. nichtrelativistische, DM 
-  vorhergesagt, sodass Teilchentheorien mit schweren, schwach ans SM 
-  gekoppelten Elementarteilchen\footnote{Sog. WIMPs, weakly interacting massive 
-  particles} naheliegend sind. Y. Bai und P. Schwaller schlagen dagegen vor, 
-  die DM Masse analog zur Masse der bekannten baryonischen Materie zu erzeugen.  
-  Die Masse der normalen Materie, d.h. der Protonen und Neutronen, wird im 
-  wesentlichen durch Quark und Gluon Wechselwirkungen der 
-  \textit{Quantenchromodynamik (QCD)} erzeugt. Eine analoge Dynamik, genannt 
-  \textit{dark QCD (dQCD)}, zusammen mit einem Mechanismus, der die 
-  Baryogenese in den dunklen Sektor erweitert, kann damit eine alternative 
-  Erklärung für DM sein. \cite{Scale_of_dark_QCD}
-  
-  Von theoretischer Seite aus sind SM und ART völlig disjunkt, in dem Sinne, 
-  dass das SM keine gravitativen Wechselwirkungen enthält und die ART eine 
-  klassische, d.h. nicht quantisierte, Theorie ist. Um die in der ART 
-  auftretenden Singulatritäten konsistent beschreiben zu können, ist eine 
-  umfassendere Theorie der Gravitation auf quantenphysikalischen Skalen nötig 
-  \cite{GR_Introductory}. Da es sich in beiden 
-  Fällen um eine Feldtheorie handelt, ist es naheliegend, die Wirkung der ART 
-  analog zum SM über den Pfadintegralformalismus nach Feynman zu quantisieren 
-  \cite{GR_Hawking}. Praktisch führt dieses Vorgehen jedoch zu 
-  nichtrenormierbaren Theorien \cite{GR_Weinberg}, die in der Regel unendlich 
-  viele Renormierungskonstanten erfordern um auf allen Energieskalen gültig 
-  zu sein und die deshalb häufig als unphysikalisch oder ungeeignet als 
-  fundamentale Theorie gelten. Durch ein \textit{asymptotic safety (AS)} 
-  Szenario ist es jedoch möglich, die Theorie bis auf eine endliche Zahl von 
-  Parametern zu bestimmen, sodass AS als Erweiterung der üblichen Forderung 
-  nach Renormierbarkeit verstanden werden kann \cite{GR_Weinberg}
-  \cite{Weinberg:1976}. Hierbei 
-  wird die Energieskalenabhängigkeit der Kopplungskonstanten einer Theorie 
-  mit Hilfe von \textit{Renormierungsgruppen (RG)} untersucht; wenn sich 
-  die Kopplungskonstanen auf bestimmten Hyperfläche im Phasenraum der 
-  Kopplungskonstanten liegen ist das Energieskalenverhalten bis auf den  
-  Freiheitsgrad der Dimension der Hyperfläche bestimmt.
-  
-  
-  
-  
-  \subsection{Quantenfeldtheorie und Standardmodell}
+%   Die Entdeckung des Higgs-Bosons im Jahr 2012 \cite{Higgs} und die erstmalige 
+%   Beobachtung von Gravitationswellen im Jahr 2016 \cite{gravitational_waves} 
+%   sind weitere Bestätigung zweier fundamentaler Theorien der heutigen 
+%   Physik, des \textit{Standardmodells der Teilchenphysik (SM)} und der 
+%   \textit{allgemeinen Relativitätstheorie (ART)}, die es vermögen, Phänomene 
+%   auf Größenordnungen der Quantenphysik beziehungsweise der Kosmologie mit 
+%   großer Genauigkeit zu beschreiben und zu erklären. Obwohl das SM durch die 
+%   Entdeckung des Higgs in sich geschlossen ist, gibt es Hinweise sowohl von 
+%   experimenteller als auch von theoretischer Seite, dass dieses Theoriegebäude 
+%   nicht endgültig sein kann. 
+%   
+%   Kosmologische Experimente zeigen, dass es eine Art der Materie, 
+%   \textit{dunke Materie (DM)}, mit einer Energiedichte von 
+%   $\Omega_\text{DM}\approx 0,2$ in Einheiten der kritischen Massendichte 
+%   im Universum geben muss \cite{PDG:DM}, die eine schwache Ankopplung an die 
+%   SM-Materie haben muss, jedoch gravitativ wechselwirkt. Im Rahmen von 
+%   $\Lambda$CDM-Theorien wird eine kalte, d.h. nichtrelativistische, DM 
+%   vorhergesagt, sodass Teilchentheorien mit schweren, schwach ans SM 
+%   gekoppelten Elementarteilchen\footnote{Sog. WIMPs, weakly interacting massive 
+%   particles} naheliegend sind. Y. Bai und P. Schwaller schlagen dagegen vor, 
+%   die DM Masse analog zur Masse der bekannten baryonischen Materie zu erzeugen.  
+%   Die Masse der normalen Materie, d.h. der Protonen und Neutronen, wird im 
+%   wesentlichen durch Quark und Gluon Wechselwirkungen der 
+%   \textit{Quantenchromodynamik (QCD)} erzeugt. Eine analoge Dynamik, genannt 
+%   \textit{dark QCD (dQCD)}, zusammen mit einem Mechanismus, der die 
+%   Baryogenese in den dunklen Sektor erweitert, kann damit eine alternative 
+%   Erklärung für DM sein. \cite{Scale_of_dark_QCD}
+%   
+%   Von theoretischer Seite aus sind SM und ART völlig disjunkt, in dem Sinne, 
+%   dass das SM keine gravitativen Wechselwirkungen enthält und die ART eine 
+%   klassische, d.h. nicht quantisierte, Theorie ist. Um die in der ART 
+%   auftretenden Singulatritäten konsistent beschreiben zu können, ist eine 
+%   umfassendere Theorie der Gravitation auf quantenphysikalischen Skalen nötig 
+%   \cite{GR_Introductory}. Da es sich in beiden 
+%   Fällen um eine Feldtheorie handelt, ist es naheliegend, die Wirkung der ART 
+%   analog zum SM über den Pfadintegralformalismus nach Feynman zu quantisieren 
+%   \cite{GR_Hawking}. Praktisch führt dieses Vorgehen jedoch zu 
+%   nichtrenormierbaren Theorien \cite{GR_Weinberg}, die in der Regel unendlich 
+%   viele Renormierungskonstanten erfordern um auf allen Energieskalen gültig 
+%   zu sein und die deshalb häufig als unphysikalisch oder ungeeignet als 
+%   fundamentale Theorie gelten. Durch ein \textit{asymptotic safety (AS)} 
+%   Szenario ist es jedoch möglich, die Theorie bis auf eine endliche Zahl von 
+%   Parametern zu bestimmen, sodass AS als Erweiterung der üblichen Forderung 
+%   nach Renormierbarkeit verstanden werden kann \cite{GR_Weinberg}
+%   \cite{Weinberg:1976}. Hierbei 
+%   wird die Energieskalenabhängigkeit der Kopplungskonstanten einer Theorie 
+%   mit Hilfe von \textit{Renormierungsgruppen (RG)} untersucht; wenn 
+%   die Kopplungskonstanen auf bestimmten Hyperfläche im Phasenraum der 
+%   Kopplungskonstanten liegen ist das Energieskalenverhalten bis auf den  
+%   Freiheitsgrad der Dimension dieser Hyperfläche bestimmt.
+%   
+
+Das \textit{Standardmodell der Teilchenphysik (SM)} und die 
+\textit{Allgemeine Relativitätstheorie (ART)} sind zwei Theorien der 
+Physik, die aus heutiger Sicht auf keiner Grundlegenderen aufbauen und 
+daher als fundamental angesehen werden können. Das SM ist eine Quantentheorie 
+und beschreibt die Physik der auf Größenskalen von Elementarteilchen und 
+Baryonen bis hin zur Atomphysik. Es gibt zwei fundamentale Kräfte, 
+die Starke Kraft oder \textit{Quantenchromodynamik (QCD)} und die 
+Elektroschwache Kraft, sowie Wechselwirkungen mit dem Higgsfeld. Seit 
+der Entdeckung des Higgs-Bosons im Jahr 2012 \cite{Higgs} ist das SM in sich 
+abgeschlossen und alle vorausgesagten Elementarteilchen wurden gefunden, 
+dennoch ist bekannt, dass Erweiterungen nötig sind um bisher nicht abgedeckte 
+Phänomene zu beschreiben. So gibt es im SM keine Beschreibung der gravitativen 
+Wechselwirkung zwischen den Elementarteilchen. Die ART dagegen beschreibt die 
+Gravitation auf kosmischen Größenskalen. Die erstmalige Beobachtung von 
+Gravitationswellen im Jahr 2016 \cite{gravitational_waves} war eine weitere 
+Bestätigung der Theorie, die ART ist jedoch nicht im Sinne des SM 
+quantisierbar. Da die Gravitation in der Quantenphysik und quantenphänomene 
+in der ART oft vernachlässigbar sind, tritt diese Problematik nicht immer zum 
+Vorschein. Zwei Gebiete der Physik, die eine gemeinsame 
+Beschreibung benötigen sind frühe Stadien des Universums 
+\cite{GR_Introductory}, in denen auf kleinen 
+Größenskalen extreme Energien vorherrschten, und \textit{dunkle Materie (DM)}, 
+da auch diese Art der Materie aus elementaren Teilchen aufgebaut sein muss. 
+
+Kosmologische Experimente zeigen, dass es diese neue Art der Materie mit einer 
+Energiedichte von $\Omega_\text{DM}\approx 0,2$ in Einheiten der kritischen 
+Massendichte im Universum geben muss \cite{PDG:DM}, die eine schwache 
+Ankopplung an die SM-Materie haben muss, jedoch gravitativ wechselwirkt. 
+Im Rahmen von $\Lambda$CDM-Theorien wird eine kalte, d.h. 
+nichtrelativistische, DM vorhergesagt. 
+Y. Bai und P. Schwaller schlagen vor, 
+die DM Masse analog zur Masse der bekannten baryonischen Materie zu erzeugen.  
+Die Masse der normalen Materie, d.h. der Protonen und Neutronen, wird im 
+wesentlichen durch Quark und Gluon Wechselwirkungen der 
+QCD erzeugt. Eine analoge Dynamik, genannt 
+\textit{dark QCD (dQCD)}, zusammen mit einem Mechanismus, der die 
+Baryogenese in den dunklen Sektor erweitert, kann damit eine  
+Erklärung für DM sein \cite{Scale_of_dark_QCD}. 
+ 
     

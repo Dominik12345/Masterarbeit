@@ -1,49 +1,55 @@
-\section{Resummation der Ergebnisse}
+\section{Zusammenstellung der Ergebnisse}
   In dieser Arbeit wurde die $SU(\Nc)$-Quantenchromodynamik des Standarmodells 
   nach der Idee von Bai und Schwaller um eine neue $SU(\Nd)$-Eichgruppe zur 
   \QCDxdQCD
   erweitert und auf das Verhalten der laufenden Kopplungskonstanten im 
   UV-Grenzwert untersucht. 
   
-  Am Beispiel einer skalaren $SU(N)$ wurden die wichtigsten Schritte der 
-  Berechnung einer 1-Schleifen $\beta$-Funktion im Pfadintegralformalismus 
-  nach Feynman nachvollzogen und argumentiert, warum Beiträge durch 
-  Materiefelder und Selbstwechselwirkungen der Eichbosonen entgegengesetzte 
-  Auswirkungen auf die laufende Kopplung haben. Die Lagrangedichte der 
-  \QCDxdQCD für Fermionen und Skalare des QCD-, dQCD- und joint-Sektors 
-  wurde formuliert und es wurde begründet, warum 3- und 4-Skalar 
-  Wechselwirkungen nicht berücksichtigt werden, außerdem wurden unter der 
-  Forderung nach Lorentz- und Eichinvarianz die Struktur möglicher Yukawa-Terme 
-  diskutiert. Aus der allgemeinen Form der $\beta$-Funktion wurde die Rolle der 
-  Eigenwerte und Eigenvektoren der Stabilitätsmatrix hinsichtlich des 
-  UV-Verhaltens eines Fixpunktes abgeleitet. Für ein System aus zwei 
-  Kopplungskonstanten wurde das UV-Verhalten eines hyperbolischen Fixpunktes 
-  aus Spur und Determinante der Stabilitätsmatrix bestimmt und es wurde ein 
-  alternatives Stabilitätskriterium für nicht-hyperbolische Fixpunkte 
-  hergeleitet. Es wurde außerdem begründet, warum vollständig wechselwirkende 
-  Fixpunkte in der Regel hyperbolisch und teilweise wechselwirkende Fixpunkte 
-  nicht-hyperbolisch sind. Aus der 2-Schleifen 
-  $\beta$-Funktion von D.R.T. Jones wurde 
-  die konkrete $\beta$-Funktion der \QCDxdQCD mit Fermionen und Skalaren in 
-  fundamentaler Darstellung  bestimmt und weiter untersucht. Neben dem 
-  Gaußschen Fixpunkt $\alpha^{*1}$ wurden die teilweise wechselwirkenden 
-  Fixpunkte $\alpha^{*2}$ und $\alpha^{*3}$ sowie der vollständig 
-  wechselwirkende Fixpunkt $\alpha^{*4}$ gefunden. Unter Anwendung 
-  Stabilitätskriterien wurde gezeigt, dass die kritische Hyperfläche 
-  der wechselwirkenden Fixpunkte höchstens eindimensional ist, unabhängig 
-  davon, ob Fermionen, Skalare oder beide Teilchensorten eingeführt werden. 
-  Aus den Stabilitätsbedingungen wurden desweiteren Obergrenzen für die 
-  Anzahl der neuen Teilchen des joint-Sektors von $\nfj \lesssim 3 $ bzw. 
-  $\nsj \lesssim 9$ sowie für die Eichgruppengröße $\Nd\lesssim 10$ gefunden. 
-  Die Teilchen des dQCD-Sektors haben einen deutlich kleineren Einfluss auf 
-  die $\beta$-Funktion, sodass die Obergrenzen $\nfj \sim \nsj \lesssim 70$ 
-  höher liegen. Eine hohe Anzahl an joint-Fermionen und -Skalaren führt dabei 
-  auf betragsmäßig kleine Fixpunkte. Es wurde diskutiert, dass Yukawa-Terme zu 
-  betragsmäßig größeren Fixpunkten führen, ohne die Yukawa-$\beta$-Funktion zu 
-  berechnen kann hier jedoch keine quantitative Aussage getroffen werden. 
-  Abschließend wurden die laufenden Kopplungen der Standardmodell QCD mit der 
-  $\alpha_1$ Kopplung der \QCDxdQCD verglichen. 
-  Dazu wurde eine numerische Methode zur Berechnung der kritischen Hyperläche 
-  vorgestellt und auf Beispielmodelle angewandt.
+  Aus den Stabilitätskriterien für einen UV-Fixpunkt war es möglich, 
+  Obergrenzen für die Anzahl der Teilchen abzuleiten.
+  Für teilweise Wechselwirkende Fixpunkte können dabei die Ungleichungen
+  \begin{equation}
+	  \left(\nfj+\frac{1}{4} \nsj \right)^2 + \left( \nfj+\frac{1}{4}\nsj 
+	  \right) \left( \nfd +\frac14 \nsd \right)\frac1\Nc 
+	  + \frac{11}{2} \left(\nfc+\frac14 \nsc \right)\frac1\Nc < 
+	  \left( \frac{11}{2} \right)^2 \quad \land \quad \text{c}
+	  \leftrightarrow
+	  \text{d} \notag
+  \end{equation}
+  als notwendiges Kriterium für UV-Stabilität verstanden werden, und teilweise 
+  konnten sogar noch strengere Grenzen gesetzt werden. Hieran wird klar, dass 
+  insbesondere die Anzahl von joint-Fermionen und -Skalaren stark Begrenzt ist. 
+  Bei der Extrapolation des Fixpunktes $(\alpha_\text{QCD}^*,0)$, der einer 
+  endlichen QCD-Kopplung im UV entspricht, ergab sich ab der Entkopplungsskala 
+  $Q$ ein Verhalten, dass qualitativ von den Standardmodellvorhersagen 
+  abweicht. Die von Bai und Schwaller berechneten Entkopplungsskalen liegen 
+  (teilweise) im Bereich einiger $\text{TeV}$ und somit in einem Bereich, der 
+  experimentell zugänglich ist bzw. eine reelle Chance hat, an Collidern 
+  zugänglich zu werden. Die Extrapolation zum Fixpunkt 
+  $(0,\alpha_\text{dQCD})$ verhält sich dagegen auch über der Entkopplungsskala 
+  ähnlich zur Standardmodell QCD, vermag es jedoch nicht, dieser einen 
+  endlichen UV-Grenzwert zu geben. Der QCD Bereich ist in diesem Szenario also 
+  wieder asymptotisch frei. 
   
+  Der vollständig wechselwirkende Fixpunkt ist einerseits besonders interessant, 
+  da er zur asymptotic safety in beiden Kopplungen gleichzeitig führen kann. 
+  Gleichzeitig tritt hier jedoch das Problem auf, dass er betragsmäßig sehr 
+  groß ist, sodass es hier zwingend notwendig ist, Skalare im joint-Sektor 
+  einzuführen. Außerdem kann dieser Fixpunkt höchstens ein Sattelpunkt sein. 
+  Die Extrapolation in Richtung großer QCD Kopplungen kann 
+  prinzipiell zu einem Standarmodell ähnlichem Verhalten führen, jedoch 
+  mit einem endlichen UV-Grenzwert. In der reinen \QCDxdQCD waren die 
+  Fixpunkte zu betragsmäig sehr groß und $\alpha_\text{QCD}(Q)$ bereits sehr 
+  nah am Fixpunkt, sodass die Abweichungen quantitativ sehr groß sind, wenn es 
+  durch einen weiteren Mechanismus die Möglichkeit gäbe, den Fixpunkt zu 
+  kleineren Werten zu verschieben, könnten hier durchaus sinnvolle 
+  asymptotic safety Szenarien gefunden werden.
+  
+  Sowohl für teilweise als auch für den vollständig wechselwirkenden 
+  UV-Fixpunkt muss jedoch erwähnt werden, dass der Gaußsche Fixpunkt eine 
+  zweidimensionale kritische Hyperfläche besitzt. Bond und Litim haben 
+  gezeigt, dass dies bei reinen Eichtheorien immer der Falls ist. Außerdem 
+  verstehen sie ein bzw. zwei Trajektorien, die in einen solchen Fixpunkte 
+  hineinlaufen, als Nullmenge unter allen möglichen UV-endlichen Trajektorien. 
+  Hier ist es daher diskussionswürdig, 
   

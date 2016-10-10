@@ -1,89 +1,66 @@
 This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Masterarbeit.aux
-The style file: plain.bst
+The style file: abbrv.bst
 Database file #1: bib.bib
-You're missing a field part---line 245 of file bib.bib
- :       slaccitation   = 
- :                        %%CITATION = HUTP-76-160;%%
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 937 of file bib.bib
- :   
- :   chapter     = {16},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 959 of file bib.bib
- :   
- :   chapter     = {15},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 981 of file bib.bib
- :   
- :   chapter     = {1},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1031 of file bib.bib
+I was expecting a `,' or a `}'---line 1045 of file bib.bib
  :   
  :   publisher = "Belknap Press of Harvard University Press"
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "PDG:Higgs"
 Warning--to sort, need author or key in PDG:DM
+Warning--to sort, need author or key in PDG:Higgs
 Warning--to sort, need author or key in PDG:QCD
 Warning--to sort, need author or key in PDG:top
-Warning--to sort, need author or key in PDG:constants
+Warning--empty author in PDG:Higgs
+Warning--empty title in PDG:Higgs
+Warning--empty year in PDG:Higgs
 Warning--empty author in PDG:top
 Warning--empty title in PDG:top
 Warning--empty year in PDG:top
-Warning--empty author in PDG:constants
-Warning--empty title in PDG:constants
-Warning--empty year in PDG:constants
 Warning--empty author in PDG:DM
 Warning--empty year in PDG:DM
 Warning--empty author in PDG:QCD
 Warning--empty year in PDG:QCD
-Warning--empty journal in Bond_Litim
-Warning--empty journal in Weinberg:1976
-Warning--empty journal in Bronstein4
-You've used 31 entries,
+You've used 30 entries,
             2118 wiz_defined-function locations,
-            682 strings with 7920 characters,
-and the built_in function-call counts, 8283 in all, are:
-= -- 796
-> -- 314
-< -- 2
-+ -- 128
-- -- 96
-* -- 534
-:= -- 1406
-add.period$ -- 94
-call.type$ -- 31
-change.case$ -- 128
+            681 strings with 7883 characters,
+and the built_in function-call counts, 8084 in all, are:
+= -- 771
+> -- 292
+< -- 5
++ -- 119
+- -- 88
+* -- 522
+:= -- 1357
+add.period$ -- 89
+call.type$ -- 30
+change.case$ -- 121
 chr.to.int$ -- 0
-cite$ -- 48
-duplicate$ -- 351
-empty$ -- 716
-format.name$ -- 96
-if$ -- 1728
+cite$ -- 44
+duplicate$ -- 354
+empty$ -- 722
+format.name$ -- 88
+if$ -- 1702
 int.to.chr$ -- 0
-int.to.str$ -- 31
-missing$ -- 39
-newline$ -- 156
+int.to.str$ -- 30
+missing$ -- 36
+newline$ -- 150
 num.names$ -- 54
-pop$ -- 156
+pop$ -- 150
 preamble$ -- 1
-purify$ -- 107
+purify$ -- 101
 quote$ -- 0
-skip$ -- 231
+skip$ -- 226
 stack$ -- 0
-substring$ -- 451
-swap$ -- 37
-text.length$ -- 2
+substring$ -- 448
+swap$ -- 45
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 108
-warning$ -- 17
-while$ -- 72
-width$ -- 33
-write$ -- 320
-(There were 5 error messages)
+type$ -- 104
+warning$ -- 14
+while$ -- 71
+width$ -- 32
+write$ -- 313
+(There was 1 error message)
