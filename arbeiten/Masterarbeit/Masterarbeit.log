@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.15)  8 OCT 2016 16:01
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.15)  9 OCT 2016 14:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1984,12 +1984,8 @@ Overfull \hbox (1.97162pt too wide) in paragraph at lines 333--336
 er Schwinger-
  []
 
-[6] [7]) (./abschnitte/beta_im_SM/beta_im_SM.tex
-
-LaTeX Warning: Reference `eq:beta_im_SM:volle_beta' on page 8 undefined on inpu
-t line 32.
-
-) (./abschnitte/QCDxdQCD/QCDxdQCD.tex [8]
+[6] [7]) (./abschnitte/beta_im_SM/beta_im_SM.tex)
+(./abschnitte/QCDxdQCD/QCDxdQCD.tex [8]
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
 (Font)              scaled to size 7.35999pt on input line 2.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
@@ -2027,7 +2023,7 @@ kawa-eps-converted-to.pdf abschnitte/QCDxdQCD/fig/Yukawa.eps>
 (epstopdf)             \includegraphics on input line 3.
 Package epstopdf Info: Output file is already uptodate.
 
-<abschnitte/QCDxdQCD/fig/Yukawa-eps-converted-to.pdf, id=358, 157.58875pt x 94.
+<abschnitte/QCDxdQCD/fig/Yukawa-eps-converted-to.pdf, id=359, 157.58875pt x 94.
 3525pt>
 File: abschnitte/QCDxdQCD/fig/Yukawa-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -2050,14 +2046,10 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 2.
 
-
-LaTeX Warning: Reference `eq:running_coupling' on page 15 undefined on input li
-ne 7.
-
 [15
 
 ] [16] [17]
-LaTeX Font Info:    Try loading font information for U+euf on input line 190.
+LaTeX Font Info:    Try loading font information for U+euf on input line 175.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 )
@@ -2091,18 +2083,14 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 2.
 
 (./abschnitte/beta_im_R2/fig/flow_example.tex
-<abschnitte/beta_im_R2/fig/flow_example.png, id=474, 578.16pt x 433.62pt>
+<abschnitte/beta_im_R2/fig/flow_example.png, id=472, 578.16pt x 433.62pt>
 File: abschnitte/beta_im_R2/fig/flow_example.png Graphic file (type png)
 
 <use abschnitte/beta_im_R2/fig/flow_example.png>
 Package pdftex.def Info: abschnitte/beta_im_R2/fig/flow_example.png used on inp
 ut line 3.
 (pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
-)
-
-LaTeX Warning: Reference `Schleifen' on page 20 undefined on input line 17.
-
-[20
+) [20
 
  <./abschnitte/beta_im_R2/fig/flow_example.png>]
 (./abschnitte/beta_im_R2/tab/stabilitaet_hyperbolisch.tex) [21] [22])
@@ -2140,7 +2128,7 @@ ted-to.pdf>
 (epstopdf)             \includegraphics on input line 3.
 Package epstopdf Info: Output file is already uptodate.
 
-<abschnitte/n-schleifen/fig/QCD3-eps-converted-to.pdf, id=529, 185.69376pt x 10
+<abschnitte/n-schleifen/fig/QCD3-eps-converted-to.pdf, id=527, 185.69376pt x 10
 8.405pt>
 File: abschnitte/n-schleifen/fig/QCD3-eps-converted-to.pdf Graphic file (type p
 df)
@@ -2151,10 +2139,6 @@ sed on input line 3.
 ) [24
 
 ]
-
-LaTeX Warning: Reference `fig:n-schleifen:QCDxdQCD1' on page 25 undefined on in
-put line 82.
-
 (./abschnitte/n-schleifen/fig/QCDxdQCD1.tex
 Package epstopdf Info: Source file: <abschnitte/n-schleifen/fig/QCDxdQCD1.eps>
 (epstopdf)                    date: 2016-10-08 10:23:03
@@ -2168,7 +2152,7 @@ onverted-to.pdf>
 (epstopdf)             \includegraphics on input line 4.
 Package epstopdf Info: Output file is already uptodate.
 
-<abschnitte/n-schleifen/fig/QCDxdQCD1-eps-converted-to.pdf, id=541, 213.79875pt
+<abschnitte/n-schleifen/fig/QCDxdQCD1-eps-converted-to.pdf, id=539, 213.79875pt
  x 136.51pt>
 File: abschnitte/n-schleifen/fig/QCDxdQCD1-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -2195,7 +2179,7 @@ s-converted-to.pdf>
 (epstopdf)             \includegraphics on input line 8.
 Package epstopdf Info: Output file is already uptodate.
 
-<abschnitte/n-schleifen/fig/QCDxdQCD2var-eps-converted-to.pdf, id=542, 213.7987
+<abschnitte/n-schleifen/fig/QCDxdQCD2var-eps-converted-to.pdf, id=540, 213.7987
 5pt x 136.51pt>
 File: abschnitte/n-schleifen/fig/QCDxdQCD2var-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -2219,29 +2203,29 @@ schleifen/fig/QCDxdQCD1-eps-converted-to.pdf> <./abschnitte/n-schleifen/fig/QCD
 xdQCD2var-eps-converted-to.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 140.
+(hyperref)                removing `math shift' on input line 139.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 140.
+(hyperref)                removing `\alpha' on input line 139.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 140.
+(hyperref)                removing `superscript' on input line 139.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 140.
+(hyperref)                removing `math shift' on input line 139.
 
 [26]
-LaTeX Font Info:    Try loading font information for U+mvs on input line 174.
+LaTeX Font Info:    Try loading font information for U+mvs on input line 173.
  (/usr/share/texlive/texmf-dist/tex/latex/marvosym/umvs.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-mvs.cfg
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 ) [27] [28]
 (./abschnitte/beta_QCDxdQCD/tab/Sattelpunkt_ohne_Skalare.tex)
 (./abschnitte/beta_QCDxdQCD/fig/Sattelpunkte_ohne_Skalare.tex
-<abschnitte/beta_QCDxdQCD/fig/RG_flow3_2_6_0_2_0_1_0.png, id=644, 578.16pt x 43
+<abschnitte/beta_QCDxdQCD/fig/RG_flow3_2_6_0_2_0_1_0.png, id=642, 578.16pt x 43
 3.62pt>
 File: abschnitte/beta_QCDxdQCD/fig/RG_flow3_2_6_0_2_0_1_0.png Graphic file (typ
 e png)
@@ -2252,7 +2236,7 @@ g used on input line 5.
 ) [29]
 (./abschnitte/beta_QCDxdQCD/tab/Sattelpunkt_mit_Skalaren.tex)
 (./abschnitte/beta_QCDxdQCD/fig/Sattelpunkte_mit_Skalaren.tex
-<abschnitte/beta_QCDxdQCD/fig/afix4_perturbative.pdf, id=669, 488.99626pt x 377
+<abschnitte/beta_QCDxdQCD/fig/afix4_perturbative.pdf, id=667, 488.99626pt x 377
 .0336pt>
 File: abschnitte/beta_QCDxdQCD/fig/afix4_perturbative.pdf Graphic file (type pd
 f)
@@ -2267,37 +2251,37 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ) [30 <./abschnitte/beta_QCDxdQCD/fig/RG_flow3_2_6_0_2_0_1_0.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 370.
+(hyperref)                removing `math shift' on input line 369.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 370.
+(hyperref)                removing `\alpha' on input line 369.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 370.
+(hyperref)                removing `superscript' on input line 369.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 370.
+(hyperref)                removing `math shift' on input line 369.
 
 [31] [32 <./abschnitte/beta_QCDxdQCD/fig/afix4_perturbative.pdf>]
 (./abschnitte/beta_QCDxdQCD/tab/Fix3_ohne_Skalare.tex)
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 440.
+(hyperref)                removing `math shift' on input line 439.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 440.
+(hyperref)                removing `\alpha' on input line 439.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 440.
+(hyperref)                removing `superscript' on input line 439.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 440.
+(hyperref)                removing `math shift' on input line 439.
 
 (./abschnitte/beta_QCDxdQCD/tab/Fix2_ohne_Skalare.tex
 
@@ -2316,7 +2300,7 @@ ig/Yukawa1-eps-converted-to.pdf abschnitte/beta_QCDxdQCD/fig/Yukawa1.eps>
 (epstopdf)             \includegraphics on input line 4.
 Package epstopdf Info: Output file is already uptodate.
 
-<abschnitte/beta_QCDxdQCD/fig/Yukawa1-eps-converted-to.pdf, id=731, 213.79875pt
+<abschnitte/beta_QCDxdQCD/fig/Yukawa1-eps-converted-to.pdf, id=729, 213.79875pt
  x 136.51pt>
 File: abschnitte/beta_QCDxdQCD/fig/Yukawa1-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -2341,7 +2325,7 @@ ig/Yukawa2-eps-converted-to.pdf abschnitte/beta_QCDxdQCD/fig/Yukawa2.eps>
 (epstopdf)             \includegraphics on input line 8.
 Package epstopdf Info: Output file is already uptodate.
 
-<abschnitte/beta_QCDxdQCD/fig/Yukawa2-eps-converted-to.pdf, id=732, 213.79875pt
+<abschnitte/beta_QCDxdQCD/fig/Yukawa2-eps-converted-to.pdf, id=730, 213.79875pt
  x 136.51pt>
 File: abschnitte/beta_QCDxdQCD/fig/Yukawa2-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -2366,7 +2350,7 @@ ig/Yukawa3-eps-converted-to.pdf abschnitte/beta_QCDxdQCD/fig/Yukawa3.eps>
 (epstopdf)             \includegraphics on input line 12.
 Package epstopdf Info: Output file is already uptodate.
 
-<abschnitte/beta_QCDxdQCD/fig/Yukawa3-eps-converted-to.pdf, id=733, 213.79875pt
+<abschnitte/beta_QCDxdQCD/fig/Yukawa3-eps-converted-to.pdf, id=731, 213.79875pt
  x 136.51pt>
 File: abschnitte/beta_QCDxdQCD/fig/Yukawa3-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -2393,7 +2377,7 @@ chnitte/beta_QCDxdQCD/fig/Yukawa2-eps-converted-to.pdf> <./abschnitte/beta_QCDx
 dQCD/fig/Yukawa3-eps-converted-to.pdf>])
 (./abschnitte/messbarkeit/messbarkeit.tex [36]
 (./abschnitte/messbarkeit/fig/IR-Fix.tex
-<abschnitte/messbarkeit/fig/RG_flow3_3_6_0_5_2_3_0.pdf, id=810, 578.16pt x 433.
+<abschnitte/messbarkeit/fig/RG_flow3_3_6_0_5_2_3_0.pdf, id=808, 578.16pt x 433.
 62pt>
 File: abschnitte/messbarkeit/fig/RG_flow3_3_6_0_5_2_3_0.pdf Graphic file (type 
 pdf)
@@ -2422,7 +2406,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 157.
 
 (./abschnitte/messbarkeit/fig/afix3.tex
-<Python/plots/alpha_running/Kopplungen1_afix3.pdf, id=1762, 495.30106pt x 399.5
+<Python/plots/alpha_running/Kopplungen1_afix3.pdf, id=1760, 495.30106pt x 399.5
 5524pt>
 File: Python/plots/alpha_running/Kopplungen1_afix3.pdf Graphic file (type pdf)
  <use Python/plots/alpha_running/Kopplungen1_afix3.pdf>
@@ -2457,7 +2441,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 (./abschnitte/messbarkeit/tab/modelle.tex [40] [41 <./Python/plots/alpha_runnin
 g/Kopplungen1_afix3.pdf>]) (./abschnitte/messbarkeit/fig/afix2.tex
-<Python/plots/alpha_running/Kopplungen1_her.pdf, id=1819, 498.31232pt x 399.555
+<Python/plots/alpha_running/Kopplungen1_her.pdf, id=1817, 498.31232pt x 399.555
 24pt>
 File: Python/plots/alpha_running/Kopplungen1_her.pdf Graphic file (type pdf)
  <use Python/plots/alpha_running/Kopplungen1_her.pdf>
@@ -2465,7 +2449,7 @@ Package pdftex.def Info: Python/plots/alpha_running/Kopplungen1_her.pdf used on
  input line 3.
 (pdftex.def)             Requested size: 348.81624pt x 279.68674pt.
 
-<Python/plots/alpha_running/relative_deviation_her.pdf, id=1820, 590.16989pt x 
+<Python/plots/alpha_running/relative_deviation_her.pdf, id=1818, 590.16989pt x 
 399.55524pt>
 File: Python/plots/alpha_running/relative_deviation_her.pdf Graphic file (type 
 pdf)
@@ -2491,7 +2475,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 195.
 
 (./abschnitte/messbarkeit/fig/afix4.tex
-<Python/plots/alpha_running/Kopplungen1_afix4.pdf, id=1825, 537.45856pt x 399.5
+<Python/plots/alpha_running/Kopplungen1_afix4.pdf, id=1823, 537.45856pt x 399.5
 5524pt>
 File: Python/plots/alpha_running/Kopplungen1_afix4.pdf Graphic file (type pdf)
  <use Python/plots/alpha_running/Kopplungen1_afix4.pdf>
@@ -2553,11 +2537,11 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 55.
  ) 
 Here is how much of TeX's memory you used:
- 25796 strings out of 494935
- 473913 string characters out of 6178121
- 602436 words of memory out of 5000000
- 27921 multiletter control sequences out of 15000+600000
- 243355 words of font info for 338 fonts, out of 8000000 for 9000
+ 25794 strings out of 494935
+ 473858 string characters out of 6178121
+ 602591 words of memory out of 5000000
+ 27919 multiletter control sequences out of 15000+600000
+ 243633 words of font info for 340 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  49i,16n,75p,10457b,967s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/share/texmf/fonts/
@@ -2577,10 +2561,10 @@ ve/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/adobe/utopia/putri8a.pfb></usr/share/texmf/fonts/type1/public/tex
 -gyre/qplb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplr.pfb></usr/sha
 re/texmf/fonts/type1/public/tex-gyre/qplri.pfb>
-Output written on Masterarbeit.pdf (53 pages, 1020883 bytes).
+Output written on Masterarbeit.pdf (53 pages, 1019768 bytes).
 PDF statistics:
- 2128 PDF objects out of 2487 (max. 8388607)
- 966 compressed objects within 10 object streams
- 302 named destinations out of 1000 (max. 500000)
+ 2125 PDF objects out of 2487 (max. 8388607)
+ 963 compressed objects within 10 object streams
+ 298 named destinations out of 1000 (max. 500000)
  47945 words of extra memory for PDF output out of 51595 (max. 10000000)
 

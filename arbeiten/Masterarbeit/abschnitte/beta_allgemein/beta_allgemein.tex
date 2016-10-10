@@ -1,61 +1,51 @@
 \clearpage
 \section{Untersuchung einer $\beta$-Funktion}
 
-% \ref{eq:running_coupling} --- beta-funktion aus der gleichung zur 
-%  quantenwirkung
-
-  An Gleichung \ref{eq:running_coupling} erkennt man, dass die $\beta$-Funktion 
-  einer QFT eine Seite eines Systems $N$ gekoppelter, gewöhnlicher, 
-  nichtlinearer Differentialgleichungen der Form 
-  \begin{equation}
-   \mu \frac{\d}{\d \mu} g_k (\mu)  = P_k^{M_L}(g_1,\ldots, g_N)=:\beta_k
-   (g_1,\ldots,g_N) 
-   , \quad k=1,\ldots,N \label{eq:beta_allgemein:dgl_system}
-  \end{equation}
-  ist. Dabei stellt jedes $P_k$ ein Polynom maximal $M_L$-ten Grades in den 
-  Kopplungskonstanten dar. Der Grad des Polynoms hängt nur von der Ordnung der 
-  Störungstheorie ab, im Bild von Feynmangraphen entspricht dies der maximalen 
-  Anszahl $L$ von Quantenschleifen, die in der Berechnung berücksichtigt 
-  werden. Hier ist es naheliegend, das DGL-System als Problem im $\mathbb{R}^N$ 
-  zu betrachtet. Mit $g:=(g_1,\ldots,g_N)^\text{T}$ und 
+	In Abschnitt \ref{selbstenergie} wurde die $\beta$-Funktion einer skalaren 
+	$SU(N)$ ausgerechnet, sodass die energieabhängigkeit der renormierten 
+	Kopplungskonstante durch eine gewöhnliche 
+	\textit{Differenzialgleichung (DGL)} erster 
+	Ordnung beschrieben wird. Für den allgemeinen Fall ergibt sich ein 
+	System aus gekoppelten DGLs.
+   Mit $g:=(g_1,\ldots,g_N)^\text{T}$ und 
   $\beta:=(\beta_1,\ldots,\beta_N)^\text{T}$ lässt sich 
-  \eqref{eq:beta_allgemein:dgl_system} 
+  dieses  
   auch als
   \begin{equation}
    \mu \frac{\d}{\d \mu} g(\mu)=\beta(g) \label{eq:beta_allgemein:dgl}
   \end{equation}
-  schreiben. Dann heißt $\mathbb{R}^N$ auch der Phasenraum der $\beta$-Funktion.
-  \begin{definition}
-    Eine \textit{Trajektorie im Phasenraum} ist eine Funktion $g:(0,\infty)
-    \rightarrow \mathbb{R}^N$, die die Gleichung \eqref{eq:beta_allgemein:dgl} 
-    löst.\\Ein \textit{Fixpunkt der $\beta$-Funktion} ist ein Punkt 
-    $g^*\in \mathbb{R}^N$, für den
-    $\beta(g^*)=0$ gilt.
-  \end{definition}
+  schreiben. Der $\mathbb{R}^N$ ist dann der \textit{Phasenraum} 
+  der $\beta$-Funktion. Wie an Gleichung \eqref{eq:renormierung:beta-funktion} 
+  zu erkennen ist, sind die Beiträge zur $\beta$-Funktionen mindestens 
+  $\mathcal{O}(g^3)$.
+  
+    Lösungen der Gleichung \eqref{eq:beta_allgemein:dgl} 
+    heißen \textit{Trajektorien}, ein Punkt 
+    $g^*\in \mathbb{R}^N$ im Phasenraum mit 
+    $\beta(g^*)=0$ heißt \textit{Fixpunkt}.
   
   Eine physikalisch sinnvolle QFT sollte für beliebige Energieskalen, 
   insbesondere für beliebig hohe Energieskalen,
   Vorhersagen machen können, sofern sie nicht von Beginn an als effektive 
-  Theorie angesetzt ist. Für die Kopplungskonstanten heißt das, dass für 
+  Theorie angesetzt ist. Für die Kopplungskonstanten heißt das, dass 
+  eine Trajektorie für 
   $\mu \to \infty$ die Grenzwerte $g(\mu) \to g^*$ und 
-  $\beta(g(\mu)) \to 0$ erreicht werden müssen um ein stabiles 
+  $\beta(g(\mu)) \to 0$ haben muss, um ein stabiles 
   Hochenergieverhalten zu gewährleisten. Demnach sind gerade die Fixpunkte der 
   $\beta$-Funktion die möglichen Grenzwerte der Kopplungskonstanten.
   
   Im Laufe der Untersuchung der $\beta$-Funktion haben sich die folgenden 
   Bezeichnungen entwickelt.
   \begin{description}
-   \item[Gaußscher Fixpunkt: ] Ist der Punkt $g^*=0$ ein Fixpunkt der 
-      $\beta$-Funktion, so 
-      spricht man von einem Gaußschen Fixpunkt.
+   \item[Gaußscher Fixpunkt: ] Der Fixpunkt $g^*=0$ heißt Gaußscher Fixpunkt.
    \item[Banks-Zaks Fixpunkt: ] Ein Fixpunkt $g^*\neq 0$, der physikalsich 
-      sinnvoll und 
-      perturbativ ist, heißt Banks-Zaks oder Caswell-Banks-Zaks Fixpunkt.
+      sinnvoll und für $\mu\to 0$ erreicht wird, heißt Banks-Zaks oder 
+      Caswell-Banks-Zaks Fixpunkt.
    \item[Landau Pol: ] Besitzt die Lösung des Problems 
       \eqref{eq:beta_allgemein:dgl} mit 
       Anfangswert $g(\mu_0)=g_0$ eine Polstelle $\mu_\text{Pol}<\infty$, sodass 
       $g(\mu)\overset{\mu\to\mu_\text{Pol}}{\longrightarrow}\infty$, dann 
-      spricht man von einem Landau-Pol.
+      spricht man von einem Landau-Pol (vgl. \eqref{eq:beta_im_SM:landau_pol}).
   \end{description}
   
   \subsection{Vereinfachung des mathematischen Problems}
@@ -71,13 +61,11 @@
        \bar{g}_i(\mu):= \mu^{-d_i} g_i(\mu)
       \end{equation}
       vor, wobei $d_i$ die Massendimension der Kopplungskonstanten $g_i$ ist. 
-      Bei der Untersuchung der \QCDxdQCD-$\beta$-Funktion wird klar, dass die 
-      Erweiterung 
+      Es ist oft hilfreich die quadratischen Kopplungskonstanten 
       \begin{equation}
-       \alpha_i(\mu):= \mathcal{N} \left(\bar{g}_i(\mu)\right)^n
+       \alpha_i(\mu):= \mathcal{N} \left(\bar{g}_i(\mu)\right)^2
       \end{equation}
-      den Grad $M_L$ der $\beta$-Funktion verringern kann und somit das Problem 
-      weiter vereinfacht 
+      zu definieren um den Grad der $\beta$-Funktion zu verringern 
       (vgl. \cite{Scale_of_dark_QCD}, \cite{Asymptotic_safety_guaranteed}). 
       Dabei dient $\mathcal{N}$ als Normierungskonstante, die insbesondere von 
       dimensionslosen Größen wie Teilchenzahlen oder Größen der Symmetriegruppe 
@@ -135,10 +123,8 @@
   \subsection{Verhalten in einer Umgebung eines Fixpunktes}\label{beta_allgemein:Verhalten}
     Um das Verhalten der Kopplungskonstanten $\alpha(t)$ in der Nähe eines 
     Fixpunktes zu untersuchen wird die Stabilitätsmatrix wie folgt eingeführt.
-    \begin{definition}
-    Sei $\alpha^*$ ein Fixpunkt der $\beta$-Funktion im $\mathbb{R}^N$ und 
-    sei $\beta$ in 
-    $\alpha^*$ zweimal stetig differenzierbar. Die Matrix
+    
+    Die Matrix
     \begin{equation}
      \frac{\partial \beta}{\partial \alpha}:= 
      \left( \frac{\partial \beta_i}{\partial \alpha_j} \right)_{1\leq i,j 
@@ -146,12 +132,12 @@
     \end{equation}
     heißt \textit{Stabilitätsmatrix der $\beta$-Funktion} \cite{GR_Weinberg}. 
     Außgewertet am Punkt $\alpha^*$ 
-    ist die Schreibweise $\left.\frac{\partial \beta}{\partial \alpha}
-    \right|_{\alpha^*}$ oder kurz $\dbdafix$.\\
+    ist die Schreibweise $\dbdafix$. 
     Ein Fixpunkt $\alpha^*$ heißt \textit{hyperbolisch}, wenn alle Eigenwerte 
     von $\dbdafix$ einen von Null verschiedenen Realteil besitzen 
-    \cite{Bronstein4}.
-    \end{definition}
+    \cite{Bronstein4}, sonst heißt er \textit{nicht-hyperbolisch}.
+    
+    
     Der Zusammenhang zu der Stabilität des Fixpunktes ist folgendermaßen zu 
     erkennen. 
     
@@ -159,9 +145,8 @@
     \eqref{eq:beta_allgemein:dgl_alpha} durch ihre Linearisierung
      beschrieben werden. Da bei einem hyperbolischen Fixpunkt die 
      Eigenvektoren $\{e_i\}$ der Stabilitätsmatrix eine Basis sind, kann 
-     $(\alpha(t)-\alpha^*)$ in Eigenvektoren zerlegt werden, 
-     \begin{equation}
-     \ddt \alpha(t) \simeq \dbdafix \left(\alpha(t)-\alpha^*\right) 
+     $(\alpha(t)-\alpha^*)$ in Eigenvektoren zerlegt werden,
+     \begin{equation} \ddt \alpha(t) \simeq \dbdafix \left(\alpha(t)-\alpha^*\right) 
      = \dbdafix \sum_{i=1}^N K_i(t) e_i  \quad . 
      \label{eq:beta_allgemein:beta_linear}
      \end{equation}
@@ -214,7 +199,7 @@
 
 
     Bei allgemeinen Betrachtungen (vgl. \cite{Weinberg:1976}) 
-    wird der nicht-hyperbolische Fall $\lambda_i = 0$ oft als unwichtiger 
+    wird der nicht-hyperbolische Fall $\lambda_i = 0$ oft als 
     Sonderfall nicht weiter betrachtet. Bei der Untersuchung einer konkreten 
     $\beta$-Funktion kommt dieser Sonderfall aber auf natürliche Weise  
     zu Stande, sobald ein Fixpunkt einen Wert $\alpha^*_i = 0$ besitzt. In diesem 
@@ -267,10 +252,9 @@
 %  \subsection{Experimentelle Daten und kritische Hyperfläche}
     Während die $\beta$-Funktion als DGL-System aus dem erzeugenden Funktional 
     und somit letztlich aus der postulierten Lagrangedichte hervorgeht, ist die 
-    Bestimmung der Trajektorie\footnote{Genauer muss nur ein Punkt 
-    $\alpha(t_0)$ als Anfangswert des DGL-Systems bekannt sein.}, die 
+    Bestimmung der Trajektorie, die 
     den Kopplungskonstanten "`unserer Welt"' entspricht eine rein 
-    experimentelle Aufgabe. 
+    experimentelle Aufgabe.  
   
  
     
