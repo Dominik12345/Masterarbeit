@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.9)  10 OCT 2016 18:37
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.15)  12 OCT 2016 17:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Masterarbeit.tex
 (./Masterarbeit.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+Babel <3.9h> and hyphenation patterns for 9 languages loaded.
 (../../header/header.tex
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2013/12/19 v3.12 KOMA-Script document class (article)
@@ -339,7 +339,8 @@ Now handling font encoding U ...
 (/usr/share/texlive/texmf-dist/tex/generic/german/ngerman.sty v2.5e 1998-07-08
 Package: ngerman 1998/07/08 v2.5e Support for writing german texts (br)
 \grmnU@D=\dimen104
-ngerman -- \language number for naustrian undefined, default 44 used.
+ngerman -- \language number for naustrian undefined, default 5 used.
+ngerman -- \language number for French undefined, default 255 used.
 ) (/usr/share/texmf/tex/latex/lm/lmodern.sty
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -1771,7 +1772,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
  (./abschnitte/Titlepage/title.tex
-<../../header/tu-logo.pdf, id=124, 339.2675pt x 55.20625pt>
+<../../header/tu-logo.pdf, id=120, 339.2675pt x 55.20625pt>
 File: ../../header/tu-logo.pdf Graphic file (type pdf)
 
 <use ../../header/tu-logo.pdf>
@@ -1894,9 +1895,9 @@ Package microtype Info: Loading generic settings for font family
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <10.95> not available
 (Font)              Font shape `T1/lmss/bx/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <8.3> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 18.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 17.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <6> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 18.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 17.
 )
 \tf@toc=\write4
 \openout4 = `Masterarbeit.toc'.
@@ -1909,43 +1910,39 @@ LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <6> not available
 
 
 
+] [2
+
 ]
-
-LaTeX Warning: Reference `renormierung:fig:running_couplings' on page 2 undefin
-ed on input line 63.
-
-[2
-
-] (./abschnitte/renormierung/linkshaendig.tex) [3]
+(./abschnitte/renormierung/linkshaendig.tex) [3]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 193.
+(hyperref)                removing `math shift' on input line 199.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 193.
+(hyperref)                removing `superscript' on input line 199.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 193.
+(hyperref)                removing `math shift' on input line 199.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 193.
+(hyperref)                removing `math shift' on input line 199.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 193.
+(hyperref)                removing `superscript' on input line 199.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 193.
+(hyperref)                removing `math shift' on input line 199.
 
 
-Overfull \hbox (20.42953pt too wide) in paragraph at lines 195--201
+Overfull \hbox (20.42953pt too wide) in paragraph at lines 201--207
 \T1/qpl/m/n/10.95 (-20) Es wird nun ge-zeigt, dass der Gluon-pro-pa-ga-tor als 
 die 2-Punkt Funk-ti-on $\FMS/futm/m/n/10.95 hA[]\T1/futs/m/n/10.95 (\FML/futmi/
 m/it/10.95 x[]\T1/futs/m/n/10.95 )\FMS/futm/m/n/10.95 A[]\T1/futs/m/n/10.95 (\F
@@ -1954,27 +1951,33 @@ ML/futmi/m/it/10.95 x[]\T1/futs/m/n/10.95 )\FMS/futm/m/n/10.95 i Å
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 225.
+(hyperref)                removing `math shift' on input line 231.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 225.
+(hyperref)                removing `superscript' on input line 231.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 225.
+(hyperref)                removing `math shift' on input line 231.
 
 
-Overfull \hbox (29.0412pt too wide) detected at line 271
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+Overfull \hbox (29.0412pt too wide) detected at line 277
  $[] []$  
  []
 
-[5] [6]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7])
-(./abschnitte/beta_im_SM/beta_im_SM.tex) (./abschnitte/QCDxdQCD/QCDxdQCD.tex
-[8]
+(./abschnitte/beta_im_SM/beta_im_SM.tex [8])
+(./abschnitte/QCDxdQCD/QCDxdQCD.tex [9]
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
 (Font)              scaled to size 7.35999pt on input line 2.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
@@ -1996,31 +1999,31 @@ LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
 (Font)              scaled to size 6.99199pt on input line 38.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 6.99199pt on input line 38.
-[9
+[10
 
 ]
-Overfull \hbox (6.56648pt too wide) detected at line 126
+Overfull \hbox (6.56648pt too wide) detected at line 125
  $\FMS/futm/m/n/10.95 L[] Å [][] []$  
  []
 
-[10] [11]
+[11]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12]
 (./abschnitte/QCDxdQCD/fig/Yukawa_Majorana.tex
 Package epstopdf Info: Source file: <abschnitte/QCDxdQCD/fig/Yukawa.eps>
-(epstopdf)                    date: 2016-09-07 13:53:56
+(epstopdf)                    date: 2016-10-08 10:23:03
 (epstopdf)                    size: 135499 bytes
 (epstopdf)             Output file: <abschnitte/QCDxdQCD/fig/Yukawa-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2016-09-07 13:54:01
+(epstopdf)                    date: 2016-10-08 10:23:03
 (epstopdf)                    size: 5764 bytes
 (epstopdf)             Command: <repstopdf --outfile=abschnitte/QCDxdQCD/fig/Yu
 kawa-eps-converted-to.pdf abschnitte/QCDxdQCD/fig/Yukawa.eps>
 (epstopdf)             \includegraphics on input line 3.
 Package epstopdf Info: Output file is already uptodate.
 
-<abschnitte/QCDxdQCD/fig/Yukawa-eps-converted-to.pdf, id=373, 157.58875pt x 94.
+<abschnitte/QCDxdQCD/fig/Yukawa-eps-converted-to.pdf, id=360, 157.58875pt x 94.
 3525pt>
 File: abschnitte/QCDxdQCD/fig/Yukawa-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -2029,18 +2032,22 @@ Package pdftex.def Info: abschnitte/QCDxdQCD/fig/Yukawa-eps-converted-to.pdf us
 ed on input line 3.
 (pdftex.def)             Requested size: 157.58835pt x 94.35225pt.
 )
-Overfull \hbox (10.55356pt too wide) in paragraph at lines 287--304
+Overfull \hbox (10.55356pt too wide) in paragraph at lines 286--303
 \T1/qpl/m/n/10.95 (-20) in Ab-bil-dung []1[] zu se-hen. Ber¸cksichtigt man glei
 ch-zei-tig die Flavour-Quantenzahl,
  []
 
-[13 <./abschnitte/QCDxdQCD/fig/Yukawa-eps-converted-to.pdf>]
-Overfull \hbox (7.75049pt too wide) in paragraph at lines 345--351
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13]
+[14 <./abschnitte/QCDxdQCD/fig/Yukawa-eps-converted-to.pdf>]
+Overfull \hbox (7.75049pt too wide) in paragraph at lines 344--350
 []\T1/qpl/m/n/10.95 (-20) Korrekturen durch 4-Skalar-Kopplungen tra-gen erst ab
  3-Schleifen
  []
 
-) (./abschnitte/beta_allgemein/beta_allgemein.tex [14]
+) (./abschnitte/beta_allgemein/beta_allgemein.tex [15]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 2.
@@ -2053,13 +2060,13 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 2.
 
-[15
+[16
 
-] [16]
+] [17]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17]
-LaTeX Font Info:    Try loading font information for U+euf on input line 175.
+ [18]
+LaTeX Font Info:    Try loading font information for U+euf on input line 174.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
@@ -2068,53 +2075,53 @@ File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 File: mt-euf.cfg 2006/07/03 v1.1 microtype config. file: AMS Euler Fraktur (RS)
 
 )
+
+LaTeX Warning: Reference `beta_im_R2' on page 19 undefined on input line 207.
+
+
 Underfull \vbox (badness 1132) has occurred while \output is active []
 
- [18])
-(./abschnitte/beta_im_R2/beta_im_R2.tex [19]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 2.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\beta' on input line 2.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 2.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 2.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 2.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 2.
-
+ [19])
+(./abschnitte/beta_im_R2/beta_im_R2.tex
 (./abschnitte/beta_im_R2/fig/flow_example.tex
-<abschnitte/beta_im_R2/fig/flow_example.png, id=475, 578.16pt x 433.62pt>
-File: abschnitte/beta_im_R2/fig/flow_example.png Graphic file (type png)
+<Python/plots/RG_flow/RG_flow3_3_6_0_0_0_0_3.png, id=469, 578.16pt x 433.62pt>
+File: Python/plots/RG_flow/RG_flow3_3_6_0_0_0_0_3.png Graphic file (type png)
 
-<use abschnitte/beta_im_R2/fig/flow_example.png>
-Package pdftex.def Info: abschnitte/beta_im_R2/fig/flow_example.png used on inp
-ut line 3.
-(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+<use Python/plots/RG_flow/RG_flow3_3_6_0_0_0_0_3.png>
+Package pdftex.def Info: Python/plots/RG_flow/RG_flow3_3_6_0_0_0_0_3.png used o
+n input line 3.
+(pdftex.def)             Requested size: 404.70924pt x 303.53192pt.
+
+Overfull \hbox (2.38719pt too wide) in paragraph at lines 3--5
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+[][][]|\T1/qpl/m/n/10.95 (+20) Ein Fluss-dia-gramm-bei-spiel f¸r $\FML/futmi/m/
+it/10.95 ^^L\T1/futs/m/n/10.95 (\FML/futmi/m/it/10.95 []; []\T1/futs/m/n/10.9
+5 )$\T1/qpl/m/n/10.95 (+20) . Die Pa-ra-me-ter sind
+ []
+
 )
-Underfull \vbox (badness 5504) has occurred while \output is active []
 
- [20
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 13.
 
- <./abschnitte/beta_im_R2/fig/flow_example.png>]
-(./abschnitte/beta_im_R2/tab/stabilitaet_hyperbolisch.tex)
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 13.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 13.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21]
-Underfull \vbox (badness 1983) has occurred while \output is active []
+ [20 <./Python/plots/RG_flow/RG_flow3_3_6_0_0_0_0_3.png>]
+(./abschnitte/beta_im_R2/tab/stabilitaet_hyperbolisch.tex) [21]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [22])
 (./abschnitte/beta_QCDxdQCD/beta_QCDxdQCD.tex [23]
@@ -2138,20 +2145,28 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 2.
 
+
+Overfull \hbox (8.65608pt too wide) in paragraph at lines 4--8
+\T1/qpl/m/n/10.95 (-20) Die all-ge-meins-te Form der $\FML/futmi/m/it/10.95 ^^L
+$\T1/qpl/m/n/10.95 (-20) -Funktion auf 2-Schleifen Ord-nung ei-ner $\FML/futmi/
+m/it/10.95 G[] \FMS/futm/m/n/10.95 ^^B \FML/futmi/m/it/10.95 G[]$\T1/qpl/m/n/10
+.95 (-20) -Eichtheorie
+ []
+
 (./abschnitte/n-schleifen/fig/QCD3.tex
 Package epstopdf Info: Source file: <abschnitte/n-schleifen/fig/QCD3.eps>
-(epstopdf)                    date: 2016-08-29 16:23:42
+(epstopdf)                    date: 2016-10-08 10:23:03
 (epstopdf)                    size: 135343 bytes
 (epstopdf)             Output file: <abschnitte/n-schleifen/fig/QCD3-eps-conver
 ted-to.pdf>
-(epstopdf)                    date: 2016-08-29 16:28:14
+(epstopdf)                    date: 2016-10-08 10:23:03
 (epstopdf)                    size: 5889 bytes
 (epstopdf)             Command: <repstopdf --outfile=abschnitte/n-schleifen/fig
 /QCD3-eps-converted-to.pdf abschnitte/n-schleifen/fig/QCD3.eps>
 (epstopdf)             \includegraphics on input line 3.
 Package epstopdf Info: Output file is already uptodate.
 
-<abschnitte/n-schleifen/fig/QCD3-eps-converted-to.pdf, id=529, 185.69376pt x 10
+<abschnitte/n-schleifen/fig/QCD3-eps-converted-to.pdf, id=522, 185.69376pt x 10
 8.405pt>
 File: abschnitte/n-schleifen/fig/QCD3-eps-converted-to.pdf Graphic file (type p
 df)
@@ -2167,18 +2182,18 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 (./abschnitte/n-schleifen/fig/QCDxdQCD1.tex
 Package epstopdf Info: Source file: <abschnitte/n-schleifen/fig/QCDxdQCD1.eps>
-(epstopdf)                    date: 2016-09-08 13:46:45
+(epstopdf)                    date: 2016-10-08 10:23:03
 (epstopdf)                    size: 137236 bytes
 (epstopdf)             Output file: <abschnitte/n-schleifen/fig/QCDxdQCD1-eps-c
 onverted-to.pdf>
-(epstopdf)                    date: 2016-09-08 14:16:32
+(epstopdf)                    date: 2016-10-08 10:23:03
 (epstopdf)                    size: 6509 bytes
 (epstopdf)             Command: <repstopdf --outfile=abschnitte/n-schleifen/fig
 /QCDxdQCD1-eps-converted-to.pdf abschnitte/n-schleifen/fig/QCDxdQCD1.eps>
 (epstopdf)             \includegraphics on input line 4.
 Package epstopdf Info: Output file is already uptodate.
 
-<abschnitte/n-schleifen/fig/QCDxdQCD1-eps-converted-to.pdf, id=541, 213.79875pt
+<abschnitte/n-schleifen/fig/QCDxdQCD1-eps-converted-to.pdf, id=534, 213.79875pt
  x 136.51pt>
 File: abschnitte/n-schleifen/fig/QCDxdQCD1-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -2193,11 +2208,11 @@ Overfull \hbox (12.63719pt too wide) in paragraph at lines 4--5
 
 Package epstopdf Info: Source file: <abschnitte/n-schleifen/fig/QCDxdQCD2var.ep
 s>
-(epstopdf)                    date: 2016-09-08 13:44:45
+(epstopdf)                    date: 2016-10-08 10:23:03
 (epstopdf)                    size: 137312 bytes
 (epstopdf)             Output file: <abschnitte/n-schleifen/fig/QCDxdQCD2var-ep
 s-converted-to.pdf>
-(epstopdf)                    date: 2016-09-08 14:16:33
+(epstopdf)                    date: 2016-10-08 10:23:03
 (epstopdf)                    size: 6559 bytes
 (epstopdf)             Command: <repstopdf --outfile=abschnitte/n-schleifen/fig
 /QCDxdQCD2var-eps-converted-to.pdf abschnitte/n-schleifen/fig/QCDxdQCD2var.eps>
@@ -2205,7 +2220,7 @@ s-converted-to.pdf>
 (epstopdf)             \includegraphics on input line 8.
 Package epstopdf Info: Output file is already uptodate.
 
-<abschnitte/n-schleifen/fig/QCDxdQCD2var-eps-converted-to.pdf, id=542, 213.7987
+<abschnitte/n-schleifen/fig/QCDxdQCD2var-eps-converted-to.pdf, id=535, 213.7987
 5pt x 136.51pt>
 File: abschnitte/n-schleifen/fig/QCDxdQCD2var-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -2229,22 +2244,22 @@ schleifen/fig/QCDxdQCD1-eps-converted-to.pdf> <./abschnitte/n-schleifen/fig/QCD
 xdQCD2var-eps-converted-to.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 139.
+(hyperref)                removing `math shift' on input line 141.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 139.
+(hyperref)                removing `\alpha' on input line 141.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 139.
+(hyperref)                removing `superscript' on input line 141.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 139.
+(hyperref)                removing `math shift' on input line 141.
 
 [26]
-LaTeX Font Info:    Try loading font information for U+mvs on input line 173.
+LaTeX Font Info:    Try loading font information for U+mvs on input line 175.
  (/usr/share/texlive/texmf-dist/tex/latex/marvosym/umvs.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-mvs.cfg
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
@@ -2254,88 +2269,90 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [27]
 [28] (./abschnitte/beta_QCDxdQCD/tab/Sattelpunkt_ohne_Skalare.tex)
 (./abschnitte/beta_QCDxdQCD/fig/Sattelpunkte_ohne_Skalare.tex
-<abschnitte/beta_QCDxdQCD/fig/RG_flow3_2_6_0_2_0_1_0.png, id=644, 578.16pt x 43
-3.62pt>
-File: abschnitte/beta_QCDxdQCD/fig/RG_flow3_2_6_0_2_0_1_0.png Graphic file (typ
-e png)
- <use abschnitte/beta_QCDxdQCD/fig/RG_flow3_2_6_0_2_0_1_0.png>
-Package pdftex.def Info: abschnitte/beta_QCDxdQCD/fig/RG_flow3_2_6_0_2_0_1_0.pn
-g used on input line 5.
-(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
-) [29]
-(./abschnitte/beta_QCDxdQCD/tab/Sattelpunkt_mit_Skalaren.tex)
+<Python/plots/RG_flow/RG_flow3_2_6_0_2_0_1_0.png, id=637, 578.16pt x 433.62pt>
+File: Python/plots/RG_flow/RG_flow3_2_6_0_2_0_1_0.png Graphic file (type png)
+
+<use Python/plots/RG_flow/RG_flow3_2_6_0_2_0_1_0.png>
+Package pdftex.def Info: Python/plots/RG_flow/RG_flow3_2_6_0_2_0_1_0.png used o
+n input line 3.
+(pdftex.def)             Requested size: 404.70924pt x 303.53192pt.
+
+Overfull \hbox (2.38719pt too wide) in paragraph at lines 3--5
+ [][] 
+ []
+
+) [29] (./abschnitte/beta_QCDxdQCD/tab/Sattelpunkt_mit_Skalaren.tex [30 <./Pyth
+on/plots/RG_flow/RG_flow3_2_6_0_2_0_1_0.png>])
 (./abschnitte/beta_QCDxdQCD/fig/Sattelpunkte_mit_Skalaren.tex
-<abschnitte/beta_QCDxdQCD/fig/afix4_perturbative.pdf, id=668, 488.99626pt x 377
-.0336pt>
-File: abschnitte/beta_QCDxdQCD/fig/afix4_perturbative.pdf Graphic file (type pd
-f)
- <use abschnitte/beta_QCDxdQCD/fig/afix4_perturbative.pdf>
-Package pdftex.def Info: abschnitte/beta_QCDxdQCD/fig/afix4_perturbative.pdf us
-ed on input line 4.
-(pdftex.def)             Requested size: 391.19753pt x 301.62727pt.
+<Python/plots/afix4_perturbative/afix4_perturbative.pdf, id=670, 595.29843pt x 
+393.72093pt>
+File: Python/plots/afix4_perturbative/afix4_perturbative.pdf Graphic file (type
+ pdf)
+ <use Python/plots/afix4_perturbative/afix4_perturbative.pdf>
+Package pdftex.def Info: Python/plots/afix4_perturbative/afix4_perturbative.pdf
+ used on input line 4.
+(pdftex.def)             Requested size: 416.70605pt x 275.60277pt.
+
+Overfull \hbox (14.384pt too wide) in paragraph at lines 4--5
+ [][] 
+ []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [30 <./abschnitte/beta_QCDxdQCD/fig/RG_flow3_2_6_0_2_0_1_0.png>]
+)
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 369.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 369.
+(hyperref)                removing `math shift' on input line 370.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 369.
+(hyperref)                removing `\alpha' on input line 370.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 369.
+(hyperref)                removing `superscript' on input line 370.
 
 
-Underfull \vbox (badness 2486) has occurred while \output is active []
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 370.
 
- [31]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [32 <./abschnitte/beta_QCDxdQCD/fig/afix4_perturbative.pdf>]
+[31] [32 <./Python/plots/afix4_perturbative/afix4_perturbative.pdf>]
 (./abschnitte/beta_QCDxdQCD/tab/Fix3_ohne_Skalare.tex)
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 439.
+(hyperref)                removing `math shift' on input line 440.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 439.
+(hyperref)                removing `\alpha' on input line 440.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 439.
+(hyperref)                removing `superscript' on input line 440.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 439.
+(hyperref)                removing `math shift' on input line 440.
 
 (./abschnitte/beta_QCDxdQCD/tab/Fix2_ohne_Skalare.tex
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (./abschnitte/beta_QCDxdQCD/fig/Yukawa.tex
+) [33] (./abschnitte/beta_QCDxdQCD/fig/Yukawa.tex
 Package epstopdf Info: Source file: <abschnitte/beta_QCDxdQCD/fig/Yukawa1.eps>
-(epstopdf)                    date: 2016-09-08 14:18:49
+(epstopdf)                    date: 2016-10-08 10:23:03
 (epstopdf)                    size: 137186 bytes
 (epstopdf)             Output file: <abschnitte/beta_QCDxdQCD/fig/Yukawa1-eps-c
 onverted-to.pdf>
-(epstopdf)                    date: 2016-09-08 14:18:56
+(epstopdf)                    date: 2016-10-08 10:23:03
 (epstopdf)                    size: 6563 bytes
 (epstopdf)             Command: <repstopdf --outfile=abschnitte/beta_QCDxdQCD/f
 ig/Yukawa1-eps-converted-to.pdf abschnitte/beta_QCDxdQCD/fig/Yukawa1.eps>
 (epstopdf)             \includegraphics on input line 4.
 Package epstopdf Info: Output file is already uptodate.
 
-<abschnitte/beta_QCDxdQCD/fig/Yukawa1-eps-converted-to.pdf, id=732, 213.79875pt
+<abschnitte/beta_QCDxdQCD/fig/Yukawa1-eps-converted-to.pdf, id=734, 213.79875pt
  x 136.51pt>
 File: abschnitte/beta_QCDxdQCD/fig/Yukawa1-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -2349,18 +2366,18 @@ Overfull \hbox (12.63719pt too wide) in paragraph at lines 4--5
  []
 
 Package epstopdf Info: Source file: <abschnitte/beta_QCDxdQCD/fig/Yukawa2.eps>
-(epstopdf)                    date: 2016-09-08 14:13:33
+(epstopdf)                    date: 2016-10-08 10:23:03
 (epstopdf)                    size: 136955 bytes
 (epstopdf)             Output file: <abschnitte/beta_QCDxdQCD/fig/Yukawa2-eps-c
 onverted-to.pdf>
-(epstopdf)                    date: 2016-09-08 14:16:34
+(epstopdf)                    date: 2016-10-08 10:23:03
 (epstopdf)                    size: 6640 bytes
 (epstopdf)             Command: <repstopdf --outfile=abschnitte/beta_QCDxdQCD/f
 ig/Yukawa2-eps-converted-to.pdf abschnitte/beta_QCDxdQCD/fig/Yukawa2.eps>
 (epstopdf)             \includegraphics on input line 8.
 Package epstopdf Info: Output file is already uptodate.
 
-<abschnitte/beta_QCDxdQCD/fig/Yukawa2-eps-converted-to.pdf, id=733, 213.79875pt
+<abschnitte/beta_QCDxdQCD/fig/Yukawa2-eps-converted-to.pdf, id=735, 213.79875pt
  x 136.51pt>
 File: abschnitte/beta_QCDxdQCD/fig/Yukawa2-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -2374,18 +2391,18 @@ Overfull \hbox (12.63719pt too wide) in paragraph at lines 8--9
  []
 
 Package epstopdf Info: Source file: <abschnitte/beta_QCDxdQCD/fig/Yukawa3.eps>
-(epstopdf)                    date: 2016-09-08 14:18:32
+(epstopdf)                    date: 2016-10-08 10:23:03
 (epstopdf)                    size: 136903 bytes
 (epstopdf)             Output file: <abschnitte/beta_QCDxdQCD/fig/Yukawa3-eps-c
 onverted-to.pdf>
-(epstopdf)                    date: 2016-09-08 14:18:57
+(epstopdf)                    date: 2016-10-08 10:23:03
 (epstopdf)                    size: 6588 bytes
 (epstopdf)             Command: <repstopdf --outfile=abschnitte/beta_QCDxdQCD/f
 ig/Yukawa3-eps-converted-to.pdf abschnitte/beta_QCDxdQCD/fig/Yukawa3.eps>
 (epstopdf)             \includegraphics on input line 12.
 Package epstopdf Info: Output file is already uptodate.
 
-<abschnitte/beta_QCDxdQCD/fig/Yukawa3-eps-converted-to.pdf, id=734, 213.79875pt
+<abschnitte/beta_QCDxdQCD/fig/Yukawa3-eps-converted-to.pdf, id=736, 213.79875pt
  x 136.51pt>
 File: abschnitte/beta_QCDxdQCD/fig/Yukawa3-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -2403,12 +2420,11 @@ Overfull \hbox (1.82864pt too wide) in paragraph at lines 3--15
 [][] []
  []
 
-[33]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 )
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 6758) has occurred while \output is active []
 
  [34]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2418,47 +2434,40 @@ e/beta_QCDxdQCD/fig/Yukawa2-eps-converted-to.pdf> <./abschnitte/beta_QCDxdQCD/f
 ig/Yukawa3-eps-converted-to.pdf>]) (./abschnitte/messbarkeit/messbarkeit.tex [3
 6]
 (./abschnitte/messbarkeit/fig/IR-Fix.tex
-<abschnitte/messbarkeit/fig/RG_flow3_3_6_0_5_2_3_0.pdf, id=810, 578.16pt x 433.
-62pt>
-File: abschnitte/messbarkeit/fig/RG_flow3_3_6_0_5_2_3_0.pdf Graphic file (type 
-pdf)
- <use abschnitte/messbarkeit/fig/RG_flow3_3_6_0_5_2_3_0.pdf>
-Package pdftex.def Info: abschnitte/messbarkeit/fig/RG_flow3_3_6_0_5_2_3_0.pdf 
-used on input line 3.
+<Python/plots/RG_flow/RG_flow3_3_6_0_5_2_3_0.png, id=804, 578.16pt x 433.62pt>
+File: Python/plots/RG_flow/RG_flow3_3_6_0_5_2_3_0.png Graphic file (type png)
+
+<use Python/plots/RG_flow/RG_flow3_3_6_0_5_2_3_0.png>
+Package pdftex.def Info: Python/plots/RG_flow/RG_flow3_3_6_0_5_2_3_0.png used o
+n input line 3.
 (pdftex.def)             Requested size: 404.70924pt x 303.53192pt.
 
-Overfull \hbox (2.38719pt too wide) in paragraph at lines 3--4
+Overfull \hbox (2.38719pt too wide) in paragraph at lines 3--5
  [][] 
- []
-
-
-Underfull \hbox (badness 5578) in paragraph at lines 4--4
-[][][]|\T1/qpl/m/n/10.95 (+20) Pha-sen-raum-dia-gramm mit wech-sel-wir-ken-dem 
-IR-Fixpunkt, mit
  []
 
 ) [37
 
-] [38 <./abschnitte/messbarkeit/fig/RG_flow3_3_6_0_5_2_3_0.pdf>] [39]
+] [38 <./Python/plots/RG_flow/RG_flow3_3_6_0_5_2_3_0.png>] [39]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 157.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 157.
+(hyperref)                removing `math shift' on input line 162.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 157.
+(hyperref)                removing `\alpha' on input line 162.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 157.
+(hyperref)                removing `superscript' on input line 162.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 162.
 
 (./abschnitte/messbarkeit/fig/afix3.tex
-<Python/plots/alpha_running/Kopplungen1_afix3.pdf, id=1761, 495.30106pt x 399.5
-5524pt>
+<Python/plots/alpha_running/Kopplungen1_afix3.pdf, id=833, 495.30106pt x 399.55
+524pt>
 File: Python/plots/alpha_running/Kopplungen1_afix3.pdf Graphic file (type pdf)
  <use Python/plots/alpha_running/Kopplungen1_afix3.pdf>
 Package pdftex.def Info: Python/plots/alpha_running/Kopplungen1_afix3.pdf used 
@@ -2473,35 +2482,38 @@ utmi/m/it/10.95 N[]; N[]; n[]; n[]; n[]; n[]; n[]; n[]\T1/futs/m/n/10.95 ) \FMS
 /futm/m/n/10.95 Å
  []
 
-) [40] [41 <./Python/plots/alpha_running/Kopplungen1_afix3.pdf>]
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40]
+[41 <./Python/plots/alpha_running/Kopplungen1_afix3.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 180.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 180.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 180.
+(hyperref)                removing `math shift' on input line 185.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 180.
+(hyperref)                removing `\alpha' on input line 185.
 
-(./abschnitte/messbarkeit/tab/modelle.tex)
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 185.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 185.
+
 (./abschnitte/messbarkeit/fig/afix2.tex
-<Python/plots/alpha_running/Kopplungen1_her.pdf, id=1819, 498.31232pt x 399.555
-24pt>
+<Python/plots/alpha_running/Kopplungen1_her.pdf, id=890, 498.31232pt x 399.5552
+4pt>
 File: Python/plots/alpha_running/Kopplungen1_her.pdf Graphic file (type pdf)
  <use Python/plots/alpha_running/Kopplungen1_her.pdf>
 Package pdftex.def Info: Python/plots/alpha_running/Kopplungen1_her.pdf used on
  input line 3.
 (pdftex.def)             Requested size: 348.81624pt x 279.68674pt.
 
-<Python/plots/alpha_running/relative_deviation_her.pdf, id=1820, 590.16989pt x 
-399.55524pt>
+<Python/plots/alpha_running/relative_deviation_her.pdf, id=891, 590.16989pt x 3
+99.55524pt>
 File: Python/plots/alpha_running/relative_deviation_her.pdf Graphic file (type 
 pdf)
  <use Python/plots/alpha_running/relative_deviation_her.pdf>
@@ -2513,35 +2525,49 @@ Overfull \hbox (10.79405pt too wide) in paragraph at lines 11--13
  [][] 
  []
 
-) [42 <./Python/plots/alpha_running/Kopplungen1_her.pdf>] [43 <./Python/plots/a
-lpha_running/relative_deviation_her.pdf>]
+) (./abschnitte/messbarkeit/tab/modelle.tex
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+)
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 195.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 195.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 195.
+(hyperref)                removing `math shift' on input line 203.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 195.
+(hyperref)                removing `\alpha' on input line 203.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 203.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 203.
 
 (./abschnitte/messbarkeit/fig/afix4.tex
-<Python/plots/alpha_running/Kopplungen1_afix4.pdf, id=1927, 537.45856pt x 399.5
-5524pt>
+<Python/plots/alpha_running/Kopplungen1_afix4.pdf, id=896, 537.45856pt x 399.55
+524pt>
 File: Python/plots/alpha_running/Kopplungen1_afix4.pdf Graphic file (type pdf)
  <use Python/plots/alpha_running/Kopplungen1_afix4.pdf>
 Package pdftex.def Info: Python/plots/alpha_running/Kopplungen1_afix4.pdf used 
 on input line 3.
 (pdftex.def)             Requested size: 376.21843pt x 279.68674pt.
-))
-(./abschnitte/ausleitung/ausleitung.tex [44 <./Python/plots/alpha_running/Koppl
-ungen1_afix4.pdf>] [45]) [46] (./Masterarbeit.bbl [47
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [42 <./Python/plots/alpha_running/Kopplungen1_her.pdf>] [43 <./Python/plots/al
+pha_running/relative_deviation_her.pdf>]) (./abschnitte/ausleitung/ausleitung.t
+ex [44]
+[45 <./Python/plots/alpha_running/Kopplungen1_afix4.pdf>]) [46
+
+]
+(./Masterarbeit.bbl [47
 
 ] [48]) [49] [50
 
@@ -2570,7 +2596,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 55.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 55.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 55.
 Package rerunfilecheck Info: File `Masterarbeit.out' has not changed.
-(rerunfilecheck)             Checksum: AF099966F116A5BAA857C7C399747254;2236.
+(rerunfilecheck)             Checksum: 0BD7A45DB12F900A5DC9C31B2CDCBF79;2202.
 
 
 LaTeX Warning: There were undefined references.
@@ -2581,13 +2607,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 55.
  ) 
 Here is how much of TeX's memory you used:
- 25790 strings out of 493304
- 473839 string characters out of 6139871
- 606489 words of memory out of 5000000
- 28150 multiletter control sequences out of 15000+600000
- 242805 words of font info for 334 fonts, out of 8000000 for 9000
- 957 hyphenation exceptions out of 8191
- 49i,16n,75p,10457b,967s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25782 strings out of 494935
+ 473728 string characters out of 6178121
+ 601816 words of memory out of 5000000
+ 27920 multiletter control sequences out of 15000+600000
+ 236453 words of font info for 329 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 49i,19n,75p,10457b,967s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/share/texmf/fonts/
 enc/dvips/tex-gyre/q-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/us
 r/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texm
@@ -2605,10 +2631,10 @@ ve/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/adobe/utopia/putri8a.pfb></usr/share/texmf/fonts/type1/public/tex
 -gyre/qplb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplr.pfb></usr/sha
 re/texmf/fonts/type1/public/tex-gyre/qplri.pfb>
-Output written on Masterarbeit.pdf (57 pages, 1023442 bytes).
+Output written on Masterarbeit.pdf (57 pages, 781170 bytes).
 PDF statistics:
- 2137 PDF objects out of 2487 (max. 8388607)
- 971 compressed objects within 10 object streams
- 301 named destinations out of 1000 (max. 500000)
- 47937 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 1208 PDF objects out of 1440 (max. 8388607)
+ 958 compressed objects within 10 object streams
+ 298 named destinations out of 1000 (max. 500000)
+ 46905 words of extra memory for PDF output out of 51595 (max. 10000000)
 

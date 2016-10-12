@@ -2,7 +2,8 @@
 \section{Matching mit dem Standardmodell}
 
   Abschließend soll nun diskutiert werden, inwieweit die Einführung der dQCD 
-  Abweichungen von Standardmodell bewirkt. Sei $M$ eine charakteristische 
+  Abweichungen der QCD Kopplung von Standardmodell bewirkt. Sei $M$ eine 
+  charakteristische 
   Massenskala des joint-Sektors. Da diese Teilchen QCD-Ladung tragen, ist 
   $M > \mathcal{O}(100\,\text{GeV})$, sonst wären diese in aktuellen 
   Experimenten bereits gefunden worden 
@@ -56,7 +57,8 @@
     safety Szenario nicht in Frage. 
 
   
-    Ein besonderer Vorteil einer Erweiterung $G \to G_1\times G_2$ ist die 
+    Ein besonderer Vorteil der Erweiterung auf eine halbeinfache $G_1\times G_2$ 
+    ist die 
     Möglichkeit einen UV-Fixpunkt eindeutig extrapolieren zu können, da die 
     kritische Hyperfläche die Dimension $\dim(\alpha^*)=0$, 
     $\dim(\text{Trajektorie})=1$ oder $\dim(\text{Phasenraum})=2$ hat. Im 
@@ -68,11 +70,13 @@
     hineinläuft kann keine Vorhersage für die Größen der Kopplungskonstanten 
     gemacht werden, dafür ist aber das UV-Verhalten von dem Startwert 
     $\left(\alpha_1(t_0),\alpha_2(t_0)\right)$ unabhängig. Wie bereits 
-    gezeigt ist dieser Fall hier nicht möglich. Der für die 
+    gezeigt ist dieser Fall hier aber nicht möglich. Der für die 
     Extrapolation interessanteste Fall ist also $\dim \Mc = 1$, da die 
     UV-Hyperfläche dann aus zwei Trajektorien 
     $s^{+/-}:(0,\infty)\to \mathbb{R}^2$ besteht\footnote{Jeweils eine in, eine 
-    entgegen der Richtung des attraktiven Eigenvektors.} und deshalb 
+    entgegen der Richtung des attraktiven Eigenvektors. Bei 
+    teilweise wechselwirkenden Fixpunkte ist nur eine dieser Richtungen 
+    physikalisch sinnvoll.} und deshalb 
     eindeutige Wertepaare $(\alpha_1(t),\alpha_2(t))$ vorhersagt. Wenn eine 
     Kopplungskonstante (o.E.) $\alpha_1(t_0)$ bei einer Renormierungsskala 
     $t_0$ bekannt ist, und unter der Annahme, dass der Fixpunkt für 
@@ -82,7 +86,7 @@
     Für die Extrapolation werden außerdem die folgende Beobachtungen ausgenutzt.
     \begin{enumerate}
      \item Eine Trajektorie, welche in einen Sattelpunkt hineinläuft, ist 
-     gleichzeitig eine Separatrix, d.h. sie teilt den Phasenrau in Gebiete mit 
+     gleichzeitig eine Separatrix, d.h. sie teilt den Phasenraum in Gebiete mit 
      qualitativ unterschiedlichem  Verhalten für $t \to \infty$.
      \item Ein Sattelpunkt und ein attraktiver Fixpunkt sind mit einer 
      Separatrix verbunden, ebenso ist ein Sattelpunkt mit einem repulsiven 
@@ -101,7 +105,7 @@
      \alpha^{*i}\right\} \quad ,
     \end{equation}
     dann kann der gewünschte Fixpunkt nicht mehr für $t>t_1$ erreicht werden.
-    Am Fixpunkt wird eine Orthonormalbasis $\{f_1,f_2\}$ gewählt\footnote{Der 
+    Am Fixpunkt wird eine Basis $\{f_1,f_2\}$ gewählt\footnote{Der 
     Einfachheit halber kann die Basis aus Eigenvektoren oder die 
     $\alpha_{1,2}$-Achsen gewählt werden, sofern dies 
     zu keinen numerischen Schwierigkeiten führt.}
@@ -150,7 +154,8 @@
      = \frac{Y_1}{X_1^2} \ln\left(\frac{\alpha Y_1+X_1}{\alpha}\right) -
      \frac{1}{\alpha X_1}
     \end{equation}
-    und $\nfj=\nsj=0$. Der Einfachheit halber wird $\Lambda_0 = Q$ gewählt, 
+    und $\nfj=\nsj=0$. Der Einfachheit halber wird in 
+    \eqref{eq:beta_allgemein:RG-Zeit} $\Lambda = Q$ gewählt, 
     sodass $t_0=0$ und $\alpha(0)$ die Startwerte sind.
     
     
@@ -158,7 +163,7 @@
     \input{abschnitte/messbarkeit/fig/afix3}
     
     Im Folgenden sind $\alpha_1(t)$ und $\alpha_2(t)$ die Kopplungskonstanten 
-    der \QCDxdQCD entlang auf der UV-Hyperfläche, während $\alpha(t)$ die 
+    der \QCDxdQCD auf der UV-Hyperfläche, während $\alpha(t)$ die 
     SM QCD Kopplungskonstante darstellt.
     
     Wegen 
@@ -167,7 +172,7 @@
             1 \\ 0
            \end{pmatrix} \quad , \quad
     e_2 \propto \begin{pmatrix}
-            -\frac{Z_1}{Y_1} \\ 1
+            -Z_1/Y_1 \\ 1
            \end{pmatrix} \quad , \quad
     \lambda_1 >0
     \end{equation}
@@ -178,8 +183,9 @@
     die neuen Teilchenmassen $M$ zu setzen.
     
   \subsection{Extrapolation von $\alpha^{*2}$}
+	\input{abschnitte/messbarkeit/fig/afix2.tex}    
     \input{abschnitte/messbarkeit/tab/modelle.tex}
-    \input{abschnitte/messbarkeit/fig/afix2.tex}
+    
     Die laufenden Kopplungen für die Beispielmodelle a bis e (vgl. Tabelle 
     \ref{tab:messbarkeit:modelle}) sind in Abbildung 
     \ref{fig:messbarkeit:alpha_running_afix2} zu sehen, die relativen 
@@ -191,6 +197,8 @@
     \approx 1.439$ bereits $\Delta \alpha \approx 6\text{-}10 \, \%$ und liegen 
     damit im Bereich der erwarteten Messungenauigkeiten 
     (vgl. \cite{Bednyakov2015262}).
+
+	    
     
   \subsection{Extrapolation von $\alpha^{*4}$}
     \input{abschnitte/messbarkeit/fig/afix4.tex}
@@ -198,9 +206,9 @@
     $\alpha_1(0)>\alpha_1^{*4}$. Der kleinste Wert für $\alpha_1^{*4}
     \approx 0.1007$ wird für $\text{SM}+(\Nd=2, \nsd=1,\nsj=9)$ angenommen. Da 
     $\alpha$ monoton fallend ist, muss die Entkopplungsskala $Q$ entsprechend 
-    niedrig gewählt werden, um mit experimentellen Befunden im Einklang zu sein 
-    jedoch mindestens auf die $t$-Masse $Q \approx 173.21 \, \text{GeV}$ 
-    \cite{PDG:top}.
+    niedrig gewählt werden, um mit experimentellen Befunden im Einklang zu sein,  
+    sollte jedoch die $t$-Masse $Q \approx 173.21 \, \text{GeV}$ 
+    \cite{PDG:top} nicht unterschreiten.
     Mit \eqref{eq:messbarkeit:SM-running} wird 
     ausgehend von der bekannte Kopplungskonstanten 
     $\alpha(M_Z)=0.1181$ \cite{PDG:QCD} mit effektiv 
@@ -212,7 +220,7 @@
     $\Delta \alpha \approx 20 \%$.
     
     Eine Extrapolation von $\alpha^{*4}$ in Richtung kleiner QCD-Kopplungen 
-    ist ebenfalls möglich, 
+    ist möglich, 
     verhält sich jedoch wie die Extrapolation von $\alpha^{*3}$ (vgl. 
     \ref{extrapol_afix3}).
     

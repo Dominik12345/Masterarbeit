@@ -36,17 +36,15 @@
     die Existenz von Eichfeldern und Wechselwirkungen mit den übrigen Feldern 
     gefordert, welche keine Singletts der entsprechenden Eichgruppe sind.
 
-    Im SM kennt man bisher sechs Quark-Flavour, \textit{up (u), down (d), 
-    charm (c), strange (s), top (t), }und \textit{bottom (b)}, die als 
+    Im SM kennt man bisher sechs Quark-Flavour, \textit{up, down, 
+    charm, strange, top (t), }und \textit{bottom}, die als 
     Dirac-Fermionen in der Lagrangedichte auftauchen. Ebenfalls als 
-    Dirac-Fermionen werden die geladenen Leptonen, das \textit{Elektron 
-    ($\text{e}^-$)}, das \textit{Myon} ($\mu^-$) und das \textit{Tauon} 
-    ($\tau^-$) 
-    eingeführt. Die drei \textit{Neutrinos} $\nu_\text{e}$, $\nu_\mu$ und 
-    $\nu_\tau$ 
+    Dirac-Fermionen werden die geladenen Leptonen, das \textit{Elektron}, 
+    das \textit{Myon} und das \textit{Tauon} 
+    eingeführt. Die drei \textit{Neutrinos} 
     kommen dagegen ausschließlich als linkshändige Weyl-Spinoren vor, sodass 
     sie im SM masselos sein müssen. Das einzige skalare Feld des SM ist 
-    das \textit{Higgs-Feld ($\phi$)}, welches im Higgsmechanismus für die 
+    das \textit{Higgs-Feld}, welches im Higgsmechanismus für die 
     Brechung der Symmetriegruppe verantwortlich ist.
     
     Als eine der fundamentalen Kräfte des SM beschreibt die 
@@ -59,12 +57,13 @@
     Außerdem folgt die Existenz von acht masselosen Gluonen, die mit Quarks und 
     untereinander wechselwirken \cite{Ellis_Webber}. Eine genauere 
     mathematische Beschreibung folgt in Abschnitt \ref{QCDxdQCD}. 
-    Charakteristisch für die QCD des SM ist die in Abbildung 
-    \ref{renormierung:fig:running_couplings} dargestellte Energieabhängigkeit 
+    Charakteristisch für die QCD des SM ist die Abschnitt \ref{beta_im_SM} 
+    vorgestellte Energieabhängigkeit 
     der QCD Kopplungskonstanten. Der Landau-Pol bei $\Lambda_\text{QCD}$ ist 
     dabei für die hadronische Bindung bei niedrigen Energien verantwortlich 
     und somit insbesondere für die baryonische Massendichte $\Omega_\text{B}$ 
-    im Universum, während es bei hohen Energien gerade zum AF kommt.
+    im Universum, während es bei hohen Energien gerade zur asymptotisch 
+    freien QCD kommt.
     
     Die Symmetriegruppe $SU(2)\times U(1)$ beschreibt die Elektroschwache 
     Wechselwirkung. In ihr werden die Wechselwirkungen zwischen  
@@ -85,15 +84,15 @@
     rechtshändigen Fermion $q_R^j$, mit der Kopplungsstärke $Y_{ij}$. Im 
     Higgsmechanismus wird das 
     Potenzial $V[\phi]$ minimiert und die $SU(2)\times U(1)$ Symmetrie 
-    unterhalb einer charakteristischen Energieskala gebrochen. Dies hat 
+    unterhalb einer charakteristischen Energieskala spontan gebrochen. Dies hat 
     die Massenerzeugung der Teilchen und das Flavour-Mixing der Quarks zur 
     Folge \cite{PDG:Higgs}.
     
     Für eine effektive QCD$\times$QED 
     hat Bednyakov gezeigt, dass ab der Energieskala der $t$-Masse die QED 
     korrekturen vernachlässigt werden können \cite{Bednyakov2015262}. Daraus 
-    lässt sich schließen, dass der Elektroschwache Sektor sowie der 
-    Higgs-Sektor nicht weiter betrachtet werden dürfen. 
+    lässt sich schließen, dass es zulässig ist, den Elektroschwachen- und 
+    den Higgs-Sektor nicht weiter zu betrachten. 
     
     
 
@@ -112,19 +111,26 @@
     
     Die Rechnung erfolgt am Beispiel einer skalaren $SU(N)$ mit  
     skalaren Materiefeldern $\phi_i$ in der Darstellung $S$ und 
-    Eichfeldern $\A^A$ in adjungierter Darstellung. Aus der 
+    Eichfeldern $\A^A$ in adjungierter Darstellung. Der Eichfixierungsterm 
+    $- \frac{1}{2\xi} \partial_\mu 
+     \A^{A\,\,\, \mu} \partial_\nu \A^{A\,\,\, \nu}$ wird vorerst 
+     allgemein gelassen. Aus der 
     Lagrangedichte 
     \begin{equation}
-     \mathcal{L}(\phi,\partial\phi,\mathcal{A},\partial\mathcal{A})=
+    \begin{aligned}
+     \mathcal{L}(\phi,\partial\phi,\mathcal{A},\partial\mathcal{A})=&
      \frac12 \left(\left[\i \delta_{ij}\partial_\mu-g t^A_{ji} \mathcal{A}^A_\mu
      \right]\phi_i\right)^*
      \left(\left[\i \delta_{ij}\partial^\mu-g t^A_{ji} \mathcal{A}^{A\,\,\,\mu}
      \right]\phi_i\right)
-     -
-     \frac14 F^{A\,\,\, \mu\nu} F_{\mu\nu}^A
+      \\& -
+     \frac14 F^{A\,\,\, \mu\nu} F_{\mu\nu}^A 
+     - \frac{1}{2\xi} \partial_\mu 
+     \A^{A\,\,\, \mu} \partial_\nu \A^{A\,\,\, \nu}
+     \end{aligned}
     \end{equation}
     mit $F_{\mu \nu}^A=\partial_\mu \mathcal{A}^A_\nu-
-    \partial_\nu\mathcal{A}^A_\mu$ lassen sich die Wirkungsfunktionale 
+    \partial_\nu\mathcal{A}^A_\mu-g f^{ABC}\A^B_\mu \A^C_\nu$ lassen sich die Wirkungsfunktionale 
     \begin{align}
      S_\text{M}[\phi] &= \dx \frac12 \partial_\mu \phi_i \partial^\mu \phi_i \\
      S_\text{G}[\A] &= \dx \frac{1}{2} \partial_\mu \A^A_\nu 
@@ -247,33 +253,31 @@
       \int \d^D y_1 \,\,\, d^D y_2 \,\,\,
       \\ &
       \left[
-      \Delta^{\mu\nu}(x_1,x_2) \Delta^{\rho \sigma}(y_1,y_2) \delta^{AB} 
+      \Delta_{\mu\nu}(x_1,x_2) \Delta_{\rho \sigma}(y_1,y_2) \delta^{AB} 
       \delta^{CD}
       +
-      \Delta^{\mu\rho}(x_1,y_1) \Delta^{\nu \sigma}(x_2,y_2) \delta^{AC} 
+      \Delta_{\mu\rho}(x_1,y_1) \Delta_{\nu \sigma}(x_2,y_2) \delta^{AC} 
       \delta^{BC}
       +
-      \Delta^{\mu\sigma}(x_1,y_2) \Delta^{\nu \rho}(x_2,y_1) \delta^{AD} 
+      \Delta_{\mu\sigma}(x_1,y_2) \Delta_{\nu \rho}(x_2,y_1) \delta^{AD} 
       \delta^{BC}
       \right]
       \\
       &\left[
-      \Delta(y_1,y_2) \partial_\rho\partial_\sigma \Delta(y_1,y_2) \delta_{ki}
+      \Delta(y_1,y_2) \partial^\rho\partial^\sigma \Delta(y_1,y_2) \delta_{ki}
       \delta_{lj}
       +
-      \partial_\rho \Delta(y_1,y_1) \partial_\sigma \Delta(y_2,y_2) \delta_{ij}
+      \partial^\rho \Delta(y_1,y_1) \partial^\sigma \Delta(y_2,y_2) \delta_{ij}
       \delta_{lk}
       +
-      \partial_\sigma \Delta(y_1,y_2) \partial_\rho \Delta(y_2,y_1) \delta_{lj}
+      \partial^\sigma \Delta(y_1,y_2) \partial^\rho \Delta(y_2,y_1) \delta_{lj}
       \delta_{ik}
       \right] \quad .
      \end{aligned}\label{eq:renormierung:Og2}
     \end{equation}
     
     Um die Berechnung zu vereinfachen ist es nun hilfreich, ein neues 
-    Funktional $W$ als 
-    \begin{equation}
-    Z[J,J_\mu] = \e^{W[J,J_\mu]}
+    Funktional $W$ als\begin{equation}Z[J,J_\mu] = \e^{W[J,J_\mu]}
     \end{equation}
     einzuführen. Es gibt wieder eine formale Reihenentwicklung 
     \begin{equation}
@@ -300,7 +304,7 @@
     $x_1, x_2$ und die Vertizes $y_1,y_2$ durch Propagatoren verbunden sein 
     müssen, um zu $W^{(0,2)\,\,\, AB}_{\mu\nu} (x_1,x_2)$ beizutragen. Man 
     spricht deshalb vom erzeugenden Funktional verbundener 
-    Korrelationsfunktionen. Es bleibt von \eqref{eq:renormierung:Og2} unter 
+    Korrelatorfunktionen. Es bleibt von \eqref{eq:renormierung:Og2} unter 
     der Ausnutzung dieser Tatsache sowie der Symmetrie unter 
     $y_1 \leftrightarrow y_2$ und der Antisymmetrie von $t_{ji}^A$
     \begin{equation}
@@ -331,7 +335,7 @@
      \quad ,
     \end{aligned}
     \end{equation}
-    wobei das Integral abhängig von $D$ divergent ist. Eine Berechnung mit 
+    wobei das Integral abhängig von $D$ divergent sein kann. Eine Berechnung mit 
     Hilfe der Schwinger-Parametrisierung ergibt 
    \begin{equation}
     \begin{aligned}
@@ -393,8 +397,8 @@
       \begin{equation}
        \widetilde{W}_\text{div}(k)= \i \delta^{AB}\left[
       k_{\rho}k_{\sigma}-k^2_{ \text{E}}\, \delta_{\rho\sigma}\right]
-      \left\{  \frac{1}{6}
-      \frac{g_\text{R}^2}{16\uppi^2} T(S)     
+      \left\{ 
+      \frac{g_\text{R}^2}{16\uppi^2}  \frac{1}{6} T(S)     
       \frac{1}{\epsilon} +(Z_\A-1) \right\}.
       \end{equation}
       Dabei wurde die Gruppenkonstanten $T(S)d(S) \delta^{AB}=\text{Tr}(t^At^B)$ 

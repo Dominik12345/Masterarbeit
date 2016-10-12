@@ -1,9 +1,8 @@
-\clearpage
-\section{$\beta$-Funktion im $\mathbb{R}^2$}\label{beta_im_R2}
+
+
    Um 2-dimensionale autonome DGL-Systeme zu veranschaulichen eignet sich das 
    Bild des Kopplungskonstanten-Flusses. Dabei "`fließt"' ein Anfangswert 
-   $\alpha(t_0)$ mit Geschwindigkeit und Richtung $\dot\alpha(t) = 
-   \beta(\alpha(t))$ entlang einer Trajektorie durch 
+   $\alpha(t_0)$ entlang einer Trajektorie durch 
    den Phasenraum. Der Satz von Picard-Lindelöf stellt dabei sicher, dass 
    sich zwei Trajektorien nicht schneiden. Ein Flussdiagramm wie in Abbildung 
    \ref{beta_allgemein:fig:fluss_beispiel} zeigt das Verhalten von $\alpha(t)$ 
@@ -11,10 +10,10 @@
    dargestellt wird.
    \input{abschnitte/beta_im_R2/fig/flow_example.tex}
 
-  \subsection{Stabilitätsbedingungen}
+  \subsection{Stabilitätsbedingungen im $\mathbb{R}^2$}
     Für ein System mit zwei Kopplungskonstanten vereinfacht sich die 
     Untersuchung erheblich, da der Phasenraum der $\mathbb{R}^2$ ist und 
-    die Stabilitätsmatrix allgemein 
+    die Stabilitätsmatrix 
     die Form
 	\begin{equation}
 	 \dbda = \begin{pmatrix}
@@ -33,7 +32,7 @@
     wechselwirkender Fixpunkt im allgemeinen als hyperbolisch angenommen 
     werden darf, danach wird gezeigt, dass teilweise wechselwirkende Fixpunkte 
     für beliebig hohe Ordnung nicht-hyperbolisch sind. Im $2$-dimensionalen 
-    lässt sich jedoch ein alternatives Stabilitätskriterium für solche 
+    Fall lässt sich jedoch ein alternatives Stabilitätskriterium für solche 
     Fixpunkte finden.
     \subsubsection{hyperbolischer Fixpunkt}
       Sind $\Sp$ und $\Det$ nicht Null, lässt sich das Vorzeichen der 
@@ -42,8 +41,8 @@
   
       \input{abschnitte/beta_im_R2/tab/stabilitaet_hyperbolisch}
       
-      Da man in der Reihenentwicklung der $\beta$-Funktion davon ausgeht, 
-      dass höhere Ordnungen vernachlässigbar klein werden, kann man davon 
+      Die Reihenentwicklung von $\beta$ beriht darauf, dass 
+      höhere Ordnungen vernachlässigt werden dürfen. Daher kann man davon 
       ausgehen, dass hyperbolische Fixpunkte der 
       Ordnung $n$ auch für höhere Ordnungen hyperbolisch bleiben. Falls ein 
       vollständig wechselwirkender Fixpunkt $(\alpha_1^*\neq 0,
@@ -52,7 +51,7 @@
       sich die Koeffizienten $X^k_{ij}$ zufällig aufheben und der Fixpunkt in 
       höherer Ordnung wieder hyperbolisch wird. Vollständig 
       wechselwirkende nicht-hyperbolische Fixpunkte können also als Folge 
-      einer zu groben Berechnung der $\beta$-Funktion verstanden werden. 
+      einer zu früh abgebrochenen Reihenentwicklung verstanden werden. 
       Es ist nicht klar, ob der Eigenvektor $e_i$ zum Eigenwert $\lambda_i=0$ 
       eine UV-attraktiven oder repulsiven Richtung entspricht, da sich dies 
       jedoch direkt auf die Dimension der kritischen Hyperfläche auswirkt ist 
@@ -178,7 +177,8 @@
     damit zu 
     \begin{align}
      \dot{K}_2 e_2^i &= \frac{1}{2} K_2(t)^2 \sum\limits_{m,n=1}^2 
-     \frac{\partial^2 \beta_i}{\partial \alpha_m \partial \alpha_n} e_2^m e_2^n
+     \left.\frac{\partial^2 \beta_i}{\partial \alpha_m \partial \alpha_n}
+     \right|_* e_2^m e_2^n
      \\&= \frac12 K_2(t)^2 \sum\limits_{m,n=1}^2 \left[ \left(e_2^m 
      \frac{\partial}{\partial \alpha_m} \right) 
      \left(e_2^n \frac{\partial}{\partial \alpha_n} \right) - e_2^m 
@@ -231,9 +231,6 @@
     Lösung mindestens \eqref{eq:beta_im_R2:Bedingung} erfüllen, in der Praxis 
     lässt sich jedoch tatsächlich feststellen, dass 
     \eqref{eq:beta_im_R2:Bedingung} die UV-Stabilität eines Fixpunktes exakt 
-    vorhersagt. Daher, und weil zu erwarten ist, dass höchstens endlich viele 
-    Lösungen \eqref{eq:beta_im_R2:Bedingung} erfüllen, die nicht zu 
-    Trajektorien gehören, die in den Fixpunkt hineinlaufen, 
-    wird diese Bedingung im Folgenden weiter verwendet
+    vorhersagt. Daher wird diese Bedingung im Folgenden weiter verwendet.
 
  

@@ -14,7 +14,7 @@
     \textit{fundamentalen Darstellung} und die Gluonen in der 
     \textit{adjungierten Darstellung} transformieren. Im SM gibt es 
     $N_\text{Flavour}=6$
-    verschiedene Quarkflavour und $N_\text{Colour}=3$ Colours, da die QCD 
+    verschiedene Quarkflavour und $N_\text{Colour}=3$ Colours. Da die QCD 
     Flavour-Blind ist, d.h. da die Wechselwirkung unabhängig von der 
     Flavour-Quantenzahl ist, ist die 
     Erweiterung auf $\Nc$ Colour und $\nfc$ Flavour jedoch trivial. Die 
@@ -72,7 +72,7 @@
     Niederenergieverhalten der neu eingeführten Kopplungskonstanten 
     $g_2$ auf die Confinement Scale $\Lambda_\text{dQCD}$ untersucht, 
     die analog zur QCD Confinement Scale $\Lambda_\text{QCD}$ die Größenordnung 
-    der Baryonmasse bestimmt. Die Theorie ist aber, ebenfalls analog zur QCD, 
+    der Baryonenmasse bestimmt. Die Theorie ist aber, ebenfalls analog zur QCD, 
     auch bis zu beliebig hohen Energieskalen anwendbar und soll hier auf ihr 
     Hochenergieverhalten untersucht werden. 
     
@@ -94,11 +94,10 @@
     der Feldstärketensor 
     $\widetilde{F}^M_{\mu \nu}$ wird wie in 
     \eqref{eq:QCDxdQCD:Feldstaerketensor} definiert. Wie sich in Abschnitt 
-    \ref{beta_QCDxdQCD} zeigen wird, begünstigt eine hohe Teilchenzahl 
+    \ref{beta_QCDxdQCD} zeigen wird, begünstigt eine hohe Anzahl von Skalaren 
     die auftretenden Fixpunkte dahingehend, dass sie betragsmäßig kleiner 
     werden und somit unter perturbative Kontrolle kommen, ohne ihr 
-    UV-attraktives Verhalten zu verlieren, wie es bei einer Theorie mit 
-    ausschließlich Fermionen der Fall wäre. Skalare $\phi^f$ und $\chi^f$ 
+    UV-attraktives Verhalten zu verlieren. Skalare $\phi^f$ und $\chi^f$ 
     unter der QCD bzw. dQCD können über 
     \begin{equation}
      \mathcal{L}_\text{QCD}^\text{S} =
@@ -148,6 +147,7 @@
      -m^\text{joint}_f \delta_{ij}\delta_{rs}
      \right)\zeta_{js}^f 
      \\
+     \begin{split}
      \mathcal{L}_\text{joint}^\text{S}&=
      \left( \left[ \i \delta_{ji}\delta_{sr}\partial_\mu- 
      g_1 t^A_{ji} \mathcal{A}^A_\mu \delta_{sr} 
@@ -162,6 +162,7 @@
      g_2 \widetilde{t}^M_{sr} \widetilde{\mathcal{A}}^M_\mu \delta_{ji} 
      -\frac{1}{2}\left(m_f^\text{S,joint}\right)^2 \delta_{ji}\delta_{sr}
      \right] \eta^f_{ir} \right)    
+     \end{split}
      \label{eq:QCDxdQCD:joint}
     \end{align}
     geschrieben werden. Dabei laufen die Indizes $i,j\in \{1,2,\ldots 
@@ -209,12 +210,11 @@
     Exemplarisch wird der Yukawa-Term
     \begin{equation}
      \mathcal{L}_\text{Yukawa}\subset Y^{ir,js,kt} 
-     \zeta_{ir} \,\, \underline{\zeta_{js}} \,\, 
-     \underline{\underline{ \eta_{kt}}} \label{eq:QCDxdQCD:Yukawa-Term}
+     \zeta_{ir} \,\, \zeta_{js} \,\, 
+      \eta_{kt} \label{eq:QCDxdQCD:Yukawa-Term}
     \end{equation}
     untersucht. Der linke Index steht dabei jeweils für die $SU(\Nc)$, der 
-    rechte für die $SU(\Nd)$. Der ein- bzw. zweifache Unterstrich hilft 
-    lediglich die Terme im Endergebnis zu identifizieren, sodass dieses leicht 
+    rechte für die $SU(\Nd)$. Das Ergebnis kann leicht 
     an andere Yukawa-Terme angepasst werden kann. Außerdem wurde die 
     Lorentzstruktur nicht mehr geschrieben. Die Felder transformieren unter 
     der kombinierten infinitesimalen Eichgruppe gemäß
@@ -230,13 +230,12 @@
     Ordnung $\mathcal{O}(\epsilon^A)$ bzw. $\mathcal{O}(\delta^M)$
     \begin{align}
      Y^{lr,js,kt} \left( \i t_{li}^A \right) +
-     Y^{ir,ms,kt}\underline{ \left( \i t_{mj}^A \right) }+
-     Y^{ir,js,nt} \underline{\underline{\left( \i t^A_{nk} \right) }}
+     Y^{ir,ms,kt} \left( \i t_{mj}^A \right) +
+     Y^{ir,js,nt} \left( \i t^A_{nk} \right) 
      &\overset{!}{=}0 \label{eq:QCDxdQCD:Yukawa_QCD}\\
      Y^{iu,js,kt} \left( \i \widetilde{t}_{ur}^M \right) +
-     Y^{ir,jv,kt} \underline{\left( \i \widetilde{t}_{vs}^M \right) }+
-     Y^{ir,js,kw}\underline{\underline{ \left( \i \widetilde{t}_{wt}^M 
-     \right) }}
+     Y^{ir,jv,kt} \left( \i \widetilde{t}_{vs}^M \right) +
+     Y^{ir,js,kw} \left( \i \widetilde{t}_{wt}^M \right)
      &\overset{!}{=}0 \label{eq:QCDxdQCD:Yukawa_dQCD}
      \quad .
     \end{align}
@@ -267,7 +266,7 @@
     der Eichgruppe liegt, ist es nicht sinnvoll Yukawa-Terme zu 
     berücksichtigen, die nur in drei von beliebig vielen 
     $SU(\Nc)\times SU(\Nd)$ Eichgruppen erlaubt sind. Sinnvoller wäre es hier, 
-    den Fall $SU(3)\times SU(3)$ gesondert auf Yukawa-Beiträge zur 
+    den Fall $SU(3)\times SU(3)$ gesondert auf diese Yukawa-Beiträge zur 
     $\beta$-Funktion zu untersuchen. Außerdem wird sich zeigen, dass es kein 
     qualitativ neues UV-Verhalten gibt, dass nicht allein von Skalaren oder 
     Fermionen hervorgerufen werden kann, sodass in Abschnitt 
