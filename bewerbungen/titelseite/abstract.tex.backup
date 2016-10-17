@@ -1,0 +1,29 @@
+\cleardoublepage
+\section*{Zusammenfassung}
+
+In dieser Arbeit wird eine $SU(\Nc)\times SU(\Nd)$-Eichtheorie als Erweiterung 
+der Quantenchromodynamik des Standardmodells der Teilchenphysik auf mögliche 
+asymptotic safety Szenarien bei hohen Energien untersucht. 
+Nach einer Einführung in das Standardmodell werden Beiträge zur 
+$\beta$-Funktion der Eichtheorie durch Eichwechselwirkungen und 
+Yukawa-Kopplungen diskutiert,
+danach wird die Theorie mathematisch formuliert. Es werden allgemeine 
+Eigenschaften einer $\beta$-Funktion untersucht und Stabilitätskriterien für 
+Fixpunkte der reinen Eichtheorie abgeleitet. Durch das Anwenden dieser 
+Kriterien werden 
+Obergrenzen für die Anzahl neuer Teilchen und für die Gruppengröße $\Nd$ 
+gefunden, unter denen asymptotic safety möglich ist. Außerdem wird 
+festgestellt, dass eine hohe Teilchenzahl im join-Skalar Sektor förderlich 
+für die Perturbativität der Fixpunkte ist.
+Abschließend werden die vier gefundenen asymptotic safety Szenarien mit 
+Standardmodellvorhersagen verglichen und festgestellt, dass sich zwei Szenarien 
+ähnlich dem Standardmodell, die anderen zwei Szenarien jedoch qualitativ 
+anders verhalten.
+
+\section*{Abstract}
+
+In this thesis I will investigate a $SU(\Nc)\times SU(\Nd)$ gauge theory for 
+the potential of evolving UV-fixedpoints and asymptoticaly safe running 
+couplings. After a brief introduction to the standardmodel of elemetary physics 
+I will discuss the contributions of gauge couplings and Yukawa couplings to 
+the gauge coupling $\beta$-function. In the pure gauge
