@@ -1,13 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{PDG:Higgs}
-{\em C. Patrignani et al. (Particle Data Group), Chin. Phys. C, 40 , 100001
-  (2016)}.
-
-\bibitem{PDG:top}
-{\em C. Patrignani et al. (Particle Data Group), Chin. Phys. C, 40 , 100001
-  (2016)}.
-
 \bibitem{PDG:DM}
 Dark matter.
 \newblock {\em K.A. Olive et al. (Particle Data Group), Chin. Phys. C, 38,
@@ -17,6 +9,16 @@ Dark matter.
 Quantum chomodynamics.
 \newblock {\em K.A. Olive et al. (Particle Data Group), Chin. Phys. C, 38,
   090001 (2014) and 2015 update.}
+
+\bibitem{PDG:Higgs}
+Status of higgs boson physics (rev.).
+\newblock {\em C. Patrignani et al. (Particle Data Group), Chin. Phys. C, 40 ,
+  100001 (2016)}.
+
+\bibitem{PDG:top}
+t quark.
+\newblock {\em C. Patrignani et al. (Particle Data Group), Chin. Phys. C, 40 ,
+  100001 (2016)}.
 
 \bibitem{Higgs}
 G.~Aad et~al.

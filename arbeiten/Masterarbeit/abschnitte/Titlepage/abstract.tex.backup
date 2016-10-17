@@ -13,17 +13,25 @@ Fixpunkte der reinen Eichtheorie abgeleitet. Durch das Anwenden dieser
 Kriterien werden 
 Obergrenzen für die Anzahl neuer Teilchen und für die Gruppengröße $\Nd$ 
 gefunden, unter denen asymptotic safety möglich ist. Außerdem wird 
-festgestellt, dass eine hohe Teilchenzahl im join-Skalar Sektor förderlich 
+festgestellt, dass eine hohe Teilchenzahl im join-Sektor förderlich 
 für die Perturbativität der Fixpunkte ist.
 Abschließend werden die vier gefundenen asymptotic safety Szenarien mit 
 Standardmodellvorhersagen verglichen und festgestellt, dass sich zwei Szenarien 
 ähnlich dem Standardmodell, die anderen zwei Szenarien jedoch qualitativ 
 anders verhalten.
 
+\vspace{2cm}
 \section*{Abstract}
 
 In this thesis I will investigate a $SU(\Nc)\times SU(\Nd)$ gauge theory for 
-the potential of evolving UV-fixedpoints and asymptoticaly safe running 
-couplings. After a brief introduction to the standardmodel of elemetary physics 
+the potential of evolving UV fixed points and asymptoticaly safe running 
+couplings. After a brief introduction to the standardmodel of particle physics 
 I will discuss the contributions of gauge couplings and Yukawa couplings to 
-the gauge coupling $\beta$-function. In the pure gauge
+the gauge coupling $\beta$-function. I will derive 
+criteria for stable UV fixed points and apply these to the pure gauge theory 
+to deduce upper limits for the number of new particles and for the group 
+parameter $\Nd$. It will turn out that a maximal number of join-particles will 
+lead to perturbatively controlled fixed points. There will be four possible 
+scenarios to asymptotic safety. Two of them lead to running couplings which 
+behave like the $SU(\Nc)$ gauge theory of the standardmodel while the 
+remaining two differ qualitatively from the standardmodel predictions.

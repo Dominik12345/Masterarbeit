@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.15)  12 OCT 2016 17:02
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.9)  14 OCT 2016 10:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Masterarbeit.tex
 (./Masterarbeit.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 9 languages loaded.
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
 (../../header/header.tex
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2013/12/19 v3.12 KOMA-Script document class (article)
@@ -339,8 +339,7 @@ Now handling font encoding U ...
 (/usr/share/texlive/texmf-dist/tex/generic/german/ngerman.sty v2.5e 1998-07-08
 Package: ngerman 1998/07/08 v2.5e Support for writing german texts (br)
 \grmnU@D=\dimen104
-ngerman -- \language number for naustrian undefined, default 5 used.
-ngerman -- \language number for French undefined, default 255 used.
+ngerman -- \language number for naustrian undefined, default 44 used.
 ) (/usr/share/texmf/tex/latex/lm/lmodern.sty
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -2012,11 +2011,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [12]
 (./abschnitte/QCDxdQCD/fig/Yukawa_Majorana.tex
 Package epstopdf Info: Source file: <abschnitte/QCDxdQCD/fig/Yukawa.eps>
-(epstopdf)                    date: 2016-10-08 10:23:03
+(epstopdf)                    date: 2016-09-07 13:53:56
 (epstopdf)                    size: 135499 bytes
 (epstopdf)             Output file: <abschnitte/QCDxdQCD/fig/Yukawa-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2016-10-08 10:23:03
+(epstopdf)                    date: 2016-09-07 13:54:01
 (epstopdf)                    size: 5764 bytes
 (epstopdf)             Command: <repstopdf --outfile=abschnitte/QCDxdQCD/fig/Yu
 kawa-eps-converted-to.pdf abschnitte/QCDxdQCD/fig/Yukawa.eps>
@@ -2155,11 +2154,11 @@ m/it/10.95 G[] \FMS/futm/m/n/10.95 ^^B \FML/futmi/m/it/10.95 G[]$\T1/qpl/m/n/10
 
 (./abschnitte/n-schleifen/fig/QCD3.tex
 Package epstopdf Info: Source file: <abschnitte/n-schleifen/fig/QCD3.eps>
-(epstopdf)                    date: 2016-10-08 10:23:03
+(epstopdf)                    date: 2016-08-29 16:23:42
 (epstopdf)                    size: 135343 bytes
 (epstopdf)             Output file: <abschnitte/n-schleifen/fig/QCD3-eps-conver
 ted-to.pdf>
-(epstopdf)                    date: 2016-10-08 10:23:03
+(epstopdf)                    date: 2016-08-29 16:28:14
 (epstopdf)                    size: 5889 bytes
 (epstopdf)             Command: <repstopdf --outfile=abschnitte/n-schleifen/fig
 /QCD3-eps-converted-to.pdf abschnitte/n-schleifen/fig/QCD3.eps>
@@ -2182,11 +2181,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 (./abschnitte/n-schleifen/fig/QCDxdQCD1.tex
 Package epstopdf Info: Source file: <abschnitte/n-schleifen/fig/QCDxdQCD1.eps>
-(epstopdf)                    date: 2016-10-08 10:23:03
+(epstopdf)                    date: 2016-09-08 13:46:45
 (epstopdf)                    size: 137236 bytes
 (epstopdf)             Output file: <abschnitte/n-schleifen/fig/QCDxdQCD1-eps-c
 onverted-to.pdf>
-(epstopdf)                    date: 2016-10-08 10:23:03
+(epstopdf)                    date: 2016-09-08 14:16:32
 (epstopdf)                    size: 6509 bytes
 (epstopdf)             Command: <repstopdf --outfile=abschnitte/n-schleifen/fig
 /QCDxdQCD1-eps-converted-to.pdf abschnitte/n-schleifen/fig/QCDxdQCD1.eps>
@@ -2208,11 +2207,11 @@ Overfull \hbox (12.63719pt too wide) in paragraph at lines 4--5
 
 Package epstopdf Info: Source file: <abschnitte/n-schleifen/fig/QCDxdQCD2var.ep
 s>
-(epstopdf)                    date: 2016-10-08 10:23:03
+(epstopdf)                    date: 2016-09-08 13:44:45
 (epstopdf)                    size: 137312 bytes
 (epstopdf)             Output file: <abschnitte/n-schleifen/fig/QCDxdQCD2var-ep
 s-converted-to.pdf>
-(epstopdf)                    date: 2016-10-08 10:23:03
+(epstopdf)                    date: 2016-09-08 14:16:33
 (epstopdf)                    size: 6559 bytes
 (epstopdf)             Command: <repstopdf --outfile=abschnitte/n-schleifen/fig
 /QCDxdQCD2var-eps-converted-to.pdf abschnitte/n-schleifen/fig/QCDxdQCD2var.eps>
@@ -2341,11 +2340,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) [33] (./abschnitte/beta_QCDxdQCD/fig/Yukawa.tex
 Package epstopdf Info: Source file: <abschnitte/beta_QCDxdQCD/fig/Yukawa1.eps>
-(epstopdf)                    date: 2016-10-08 10:23:03
+(epstopdf)                    date: 2016-09-08 14:18:49
 (epstopdf)                    size: 137186 bytes
 (epstopdf)             Output file: <abschnitte/beta_QCDxdQCD/fig/Yukawa1-eps-c
 onverted-to.pdf>
-(epstopdf)                    date: 2016-10-08 10:23:03
+(epstopdf)                    date: 2016-09-08 14:18:56
 (epstopdf)                    size: 6563 bytes
 (epstopdf)             Command: <repstopdf --outfile=abschnitte/beta_QCDxdQCD/f
 ig/Yukawa1-eps-converted-to.pdf abschnitte/beta_QCDxdQCD/fig/Yukawa1.eps>
@@ -2366,11 +2365,11 @@ Overfull \hbox (12.63719pt too wide) in paragraph at lines 4--5
  []
 
 Package epstopdf Info: Source file: <abschnitte/beta_QCDxdQCD/fig/Yukawa2.eps>
-(epstopdf)                    date: 2016-10-08 10:23:03
+(epstopdf)                    date: 2016-09-08 14:13:33
 (epstopdf)                    size: 136955 bytes
 (epstopdf)             Output file: <abschnitte/beta_QCDxdQCD/fig/Yukawa2-eps-c
 onverted-to.pdf>
-(epstopdf)                    date: 2016-10-08 10:23:03
+(epstopdf)                    date: 2016-09-08 14:16:34
 (epstopdf)                    size: 6640 bytes
 (epstopdf)             Command: <repstopdf --outfile=abschnitte/beta_QCDxdQCD/f
 ig/Yukawa2-eps-converted-to.pdf abschnitte/beta_QCDxdQCD/fig/Yukawa2.eps>
@@ -2391,11 +2390,11 @@ Overfull \hbox (12.63719pt too wide) in paragraph at lines 8--9
  []
 
 Package epstopdf Info: Source file: <abschnitte/beta_QCDxdQCD/fig/Yukawa3.eps>
-(epstopdf)                    date: 2016-10-08 10:23:03
+(epstopdf)                    date: 2016-09-08 14:18:32
 (epstopdf)                    size: 136903 bytes
 (epstopdf)             Output file: <abschnitte/beta_QCDxdQCD/fig/Yukawa3-eps-c
 onverted-to.pdf>
-(epstopdf)                    date: 2016-10-08 10:23:03
+(epstopdf)                    date: 2016-09-08 14:18:57
 (epstopdf)                    size: 6588 bytes
 (epstopdf)             Command: <repstopdf --outfile=abschnitte/beta_QCDxdQCD/f
 ig/Yukawa3-eps-converted-to.pdf abschnitte/beta_QCDxdQCD/fig/Yukawa3.eps>
@@ -2547,13 +2546,13 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 203.
 
 (./abschnitte/messbarkeit/fig/afix4.tex
-<Python/plots/alpha_running/Kopplungen1_afix4.pdf, id=896, 537.45856pt x 399.55
+<Python/plots/alpha_running/Kopplungen1_afix4.pdf, id=896, 495.30106pt x 399.55
 524pt>
 File: Python/plots/alpha_running/Kopplungen1_afix4.pdf Graphic file (type pdf)
  <use Python/plots/alpha_running/Kopplungen1_afix4.pdf>
 Package pdftex.def Info: Python/plots/alpha_running/Kopplungen1_afix4.pdf used 
 on input line 3.
-(pdftex.def)             Requested size: 376.21843pt x 279.68674pt.
+(pdftex.def)             Requested size: 346.70837pt x 279.68674pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2607,12 +2606,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 55.
  ) 
 Here is how much of TeX's memory you used:
- 25782 strings out of 494935
- 473728 string characters out of 6178121
- 601816 words of memory out of 5000000
- 27920 multiletter control sequences out of 15000+600000
+ 25781 strings out of 493304
+ 473720 string characters out of 6139871
+ 605677 words of memory out of 5000000
+ 28145 multiletter control sequences out of 15000+600000
  236453 words of font info for 329 fonts, out of 8000000 for 9000
- 36 hyphenation exceptions out of 8191
+ 957 hyphenation exceptions out of 8191
  49i,19n,75p,10457b,967s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/share/texmf/fonts/
 enc/dvips/tex-gyre/q-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/us
@@ -2631,10 +2630,10 @@ ve/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/adobe/utopia/putri8a.pfb></usr/share/texmf/fonts/type1/public/tex
 -gyre/qplb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplr.pfb></usr/sha
 re/texmf/fonts/type1/public/tex-gyre/qplri.pfb>
-Output written on Masterarbeit.pdf (57 pages, 781170 bytes).
+Output written on Masterarbeit.pdf (57 pages, 792917 bytes).
 PDF statistics:
- 1208 PDF objects out of 1440 (max. 8388607)
- 958 compressed objects within 10 object streams
+ 1197 PDF objects out of 1200 (max. 8388607)
+ 954 compressed objects within 10 object streams
  298 named destinations out of 1000 (max. 500000)
  46905 words of extra memory for PDF output out of 51595 (max. 10000000)
 

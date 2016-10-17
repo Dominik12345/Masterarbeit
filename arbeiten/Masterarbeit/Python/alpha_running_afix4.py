@@ -63,7 +63,7 @@ alpha11, alpha21, t1, alpha_SM1 = np.loadtxt(
 	'/home/dkahl/Documents/Masterarbeit/arbeiten/Masterarbeit/Python/data/alpha_running/alpha_running_3_2_6_0_0_1_0_9.txt',unpack = True)
 
 #scale appropriately
-t1 = t1[t1<400]
+t1 = t1[t1<100]
 alpha11 = alpha11[:len(t1)]
 alpha21 = alpha21[:len(t1)]
 alpha_SM1 = alpha_SM1[:len(t1)]
@@ -88,7 +88,7 @@ ax21 = fig2.add_subplot(111)
 #along separatrix
 
 ax21.plot(t1,alpha11, color='0.',linestyle='-',label=r'$\alpha_1$')
-ax21.plot(t1,0.1*alpha21, color='0.5',linestyle='-',label=r'$\alpha_2 \times 10^{-1}$')
+#ax21.plot(t1,0.1*alpha21, color='0.5',linestyle='-',label=r'$\alpha_2 \times 10^{-1}$')
 ax21.plot(t1,alpha_SM1, 'k--',label=r'$\alpha$')
 #SM running
 

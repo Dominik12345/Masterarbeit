@@ -3,7 +3,7 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Masterarbeit.aux
 The style file: abbrv.bst
 Database file #1: bib.bib
-I was expecting a `,' or a `}'---line 1045 of file bib.bib
+I was expecting a `,' or a `}'---line 1049 of file bib.bib
  :   
  :   publisher = "Belknap Press of Harvard University Press"
 (Error may have been on previous line)
@@ -12,42 +12,40 @@ Warning--to sort, need author or key in PDG:DM
 Warning--to sort, need author or key in PDG:Higgs
 Warning--to sort, need author or key in PDG:QCD
 Warning--to sort, need author or key in PDG:top
-Warning--empty author in PDG:Higgs
-Warning--empty title in PDG:Higgs
-Warning--empty year in PDG:Higgs
-Warning--empty author in PDG:top
-Warning--empty title in PDG:top
-Warning--empty year in PDG:top
 Warning--empty author in PDG:DM
 Warning--empty year in PDG:DM
 Warning--empty author in PDG:QCD
 Warning--empty year in PDG:QCD
+Warning--empty author in PDG:Higgs
+Warning--empty year in PDG:Higgs
+Warning--empty author in PDG:top
+Warning--empty year in PDG:top
 You've used 30 entries,
             2118 wiz_defined-function locations,
-            681 strings with 7883 characters,
-and the built_in function-call counts, 8084 in all, are:
-= -- 771
+            683 strings with 7926 characters,
+and the built_in function-call counts, 8094 in all, are:
+= -- 775
 > -- 292
 < -- 5
 + -- 119
 - -- 88
-* -- 522
-:= -- 1357
-add.period$ -- 89
+* -- 516
+:= -- 1363
+add.period$ -- 91
 call.type$ -- 30
-change.case$ -- 121
+change.case$ -- 123
 chr.to.int$ -- 0
-cite$ -- 44
+cite$ -- 42
 duplicate$ -- 354
 empty$ -- 722
 format.name$ -- 88
-if$ -- 1702
+if$ -- 1706
 int.to.chr$ -- 0
 int.to.str$ -- 30
 missing$ -- 36
-newline$ -- 150
+newline$ -- 152
 num.names$ -- 54
-pop$ -- 150
+pop$ -- 146
 preamble$ -- 1
 purify$ -- 101
 quote$ -- 0
@@ -59,8 +57,8 @@ text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 104
-warning$ -- 14
+warning$ -- 12
 while$ -- 71
 width$ -- 32
-write$ -- 313
+write$ -- 317
 (There was 1 error message)
