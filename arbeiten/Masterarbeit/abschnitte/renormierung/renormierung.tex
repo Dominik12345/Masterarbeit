@@ -9,7 +9,7 @@
    \Big\langle \textbf{T} \,\,\, \phi^{r_1}(x_1) \ldots \phi^{r_N}(x_N) 
    \Big\rangle
    =\frac{\int \mathcal{D}\phi \,\,\, \phi^{r_1}(x_1) \ldots \phi^{r_N}(x_N) 
-   \e^{\i S[\phi]}}{\int \mathcal{D}\phi \,\,\, \e^{\i S[\phi]} }
+   \exp\left\{{\i S[\phi]}\right\}}{\int \mathcal{D}\phi \,\,\, \exp\left\{\i S[\phi]\right\} }
    \label{renormierung:Korrelator_definition}
   \end{equation}
   im Pfadintegralformalismus von Feynman \cite{Schwartz}. Die Information über 
@@ -153,16 +153,16 @@
     und dem erzeugenden Funktional 
     \begin{equation}
      Z[J,J_\mu]:= \int \mathcal{D}\phi \,\,\, \mathcal{D}\A \,\,\,
-     \e^{\i S_\text{M}[\phi]
+     \exp\left\{\i S_\text{M}[\phi]
      +\i S_\text{G}[\A]+\i S_1[\phi,\A] +\i J_i\phi_i+\i J^A_\mu 
-     \A^{A\,\,\, \mu}} \label{eq:renormierung:erzeugendes_funktional}
+     \A^{A\,\,\, \mu}\right\} \label{eq:renormierung:erzeugendes_funktional}
     \end{equation}
     gilt die wichtige Beziehung 
     \begin{equation}
-     Z[J,J_\mu]=\e^{\i S_1[\frac{\delta}{\delta J},\frac{\delta}{\delta J_\mu}]} 
-     \,\,\, \e^{-\frac{1}{2} J_i \Delta J_i} 
-     \,\,\, \e^{-\frac{1}{2} J^A_\mu \Delta^{\mu\nu} 
-     J^A_\nu} \quad . \label{eq:renormierung:funktional}
+     Z[J,J_\mu]=\exp\left\{\i S_1\left[\frac{\delta}{\delta J},\frac{\delta}{\delta J_\mu}\right]\right\} 
+     \,\,\, \exp\left\{-\frac{1}{2} J_i \Delta J_i\right\} 
+     \,\,\, \exp\left\{-\frac{1}{2} J^A_\mu \Delta^{\mu\nu} 
+     J^A_\nu \right\} \quad . \label{eq:renormierung:funktional}
     \end{equation}
     Dabei wurden die erzeugenden Ströme $J_i(x)$ und $J_\mu^A(x)$ eingeführt, 
     sowie die Schreibweisen
@@ -258,6 +258,7 @@
       +
       \Delta_{\mu\rho}(x_1,y_1) \Delta_{\nu \sigma}(x_2,y_2) \delta^{AC} 
       \delta^{BC}
+      \right. \\ & \quad \left.
       +
       \Delta_{\mu\sigma}(x_1,y_2) \Delta_{\nu \rho}(x_2,y_1) \delta^{AD} 
       \delta^{BC}
@@ -269,6 +270,7 @@
       +
       \partial^\rho \Delta(y_1,y_1) \partial^\sigma \Delta(y_2,y_2) \delta_{ij}
       \delta_{lk}
+      \right. \\ & \quad  \left.
       +
       \partial^\sigma \Delta(y_1,y_2) \partial^\rho \Delta(y_2,y_1) \delta_{lj}
       \delta_{ik}
@@ -277,7 +279,7 @@
     \end{equation}
     
     Um die Berechnung zu vereinfachen ist es nun hilfreich, ein neues 
-    Funktional $W$ als\begin{equation}Z[J,J_\mu] = \e^{W[J,J_\mu]}
+    Funktional $W$ als\begin{equation}Z[J,J_\mu] = \exp\left\{W[J,J_\mu]\right\}
     \end{equation}
     einzuführen. Es gibt wieder eine formale Reihenentwicklung 
     \begin{equation}
@@ -343,9 +345,9 @@
       g^2 \text{Tr}(t^A t^B)  
      \frac{\delta(k_1+k_2)}{D^2 k_1^4}
      %
-     \left\{
+     \Bigg\{
      \i
-     (k_{1\,\text{E}}^2)^{\nicefrac{D}{2}-2}(4\uppi)^{-\nicefrac{D}{2}} \right. \\
+     (k_{1\,\text{E}}^2)^{\nicefrac{D}{2}-2}(4\uppi)^{-\nicefrac{D}{2}}  \\
      &     
      \left[
      \left(B(\nicefrac{D}{2}+1,\nicefrac{D}{2}-1)-B(\nicefrac{D}{2},
@@ -353,7 +355,7 @@
      k_{1\, \sigma}\right) + B(\nicefrac{D}{2},\nicefrac{D}{2}-1)k_{1\,\text{E}}^2
      \, \delta_{\rho\sigma} \frac{\Gamma(1-\nicefrac{D}{2})}{\Gamma(2-\nicefrac{D}{2})}
      \right] \\&
-     \left.\Gamma(2-\nicefrac{D}{2}) \right\}
+      \Gamma(2-\nicefrac{D}{2}) \Bigg\}
      %
      \left( \eta^{\mu \rho}-(1-\xi)\frac{k_1^{\mu}k_1^{\rho}}{k_1^2}\right)
      \left( \eta^{\nu \sigma}-(1-\xi)\frac{k_2^{\nu}k_2^{\sigma}}{k_2^2}\right)
