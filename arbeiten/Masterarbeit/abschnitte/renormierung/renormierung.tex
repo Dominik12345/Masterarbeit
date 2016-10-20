@@ -22,7 +22,7 @@
     \label{renormierung:Wirkung_definition}
   \end{equation}
   verknüpft sind \cite{Schwartz}. Die möglicherweise verschiedenartigen Felder  
-  $\phi^{r_i}$ können dabei in verschiedene Räume abbilden und somit 
+  $\phi^{r_i}$ können dabei in verschiedene mathematische Räume abbilden und somit 
   Teilcheneigenschaften, insbesondere Transformationseigenschaften unter 
   Eichsymmetrien, darstellen. 
 
@@ -52,12 +52,12 @@
     zwischen Quarks, den Bausteinen der Hadronen, und den Gluonen, den 
     Eichfeldern der QCD. Die mathematische Beschreibung erfolgt durch 
     Darstellungen der $SU(3)$, bei der einem Quark $\psi^f$ mit Flavour $f$ ein 
-    Colour-Triplett $\psi = \left(\psi^f_1, \psi_2^f, \psi_3^f\right)^\text{T}$ 
+    Colour-Triplett $\psi^f = \left(\psi^f_1, \psi_2^f, \psi_3^f\right)^\text{T}$ 
     zugeordnet wird. 
     Außerdem folgt die Existenz von acht masselosen Gluonen, die mit Quarks und 
     untereinander wechselwirken \cite{Ellis_Webber}. Eine genauere 
     mathematische Beschreibung folgt in Abschnitt \ref{QCDxdQCD}. 
-    Charakteristisch für die QCD des SM ist die Abschnitt \ref{beta_im_SM} 
+    Charakteristisch für die QCD des SM ist die in Abschnitt \ref{beta_im_SM} 
     vorgestellte Energieabhängigkeit 
     der QCD Kopplungskonstanten. Der Landau-Pol bei $\Lambda_\text{QCD}$ ist 
     dabei für die hadronische Bindung bei niedrigen Energien verantwortlich 
@@ -100,7 +100,7 @@
     
   \subsection{Gluon-Selbstenergie und laufende Kopplung}\label{selbstenergie}
     Nun werden 
-    die wichtigsten Punkte bei der Berechnung von Korrelationsfunktionen mit 
+    die wichtigsten Punkte bei der Berechnung von Korrelatorfunktionen mit 
     Hilfe von erzeugenden Funktionalen gezeigt. Ein umfassendes Bild 
     dazu ist in \cite{Schwartz} und \cite{Zinn} zu finden.
     Zunächst werden die erzeugenden Funktionale $Z$ und $W$ eingeführt um 
@@ -109,9 +109,9 @@
     Notwendigkeit der Regularisierung und Renormierung abgeleitet. Schließlich 
     wird die $\beta$-Funktion der Beispieltheorie gefunden.
     
-    Die Rechnung erfolgt am Beispiel einer skalaren $SU(N)$ mit  
+    Die Rechnung erfolgt am Beispiel einer $SU(N)$ mit  
     skalaren Materiefeldern $\phi_i$ in der Darstellung $S$ und 
-    Eichfeldern $\A^A$ in adjungierter Darstellung. Der Eichfixierungsterm 
+    Eichfeldern $\A^A$ in \textit{adjungierter Darstellung}. Der Eichfixierungsterm 
     $- \frac{1}{2\xi} \partial_\mu 
      \A^{A\,\,\, \mu} \partial_\nu \A^{A\,\,\, \nu}$ wird vorerst 
      allgemein gelassen. Aus der 
@@ -198,19 +198,23 @@
     \subsubsection{Gluonpropagator in $\mathcal{O}(g^0)$ und 
     $\mathcal{O}(g^1)$}
       
-      Es wird nun gezeigt, dass der Gluonpropagator als die 2-Punkt Funktion  
-      $\langle \A^A_\mu(x_1)\A^B_\nu(x_2) 
-      \rangle= Z^{(0,2)\,\,\, AB}_{\mu\nu}(x_1,x_2)$ in $\mathcal{O}(g^0)$ 
-      verstanden werden kann. 
+      Es wird nun gezeigt, dass der Gluonpropagator als die 2-Punkt Funktion
+      \begin{equation}
+      \Big\langle \A^A_\mu(x_1)\A^B_\nu(x_2) 
+      \Big\rangle
+      =Z^{(0,2)\,\,\, AB}_{\mu\nu}(x_1,x_2)
+      \end{equation}
+      in $\mathcal{O}(g^0)$ verstanden werden kann. 
       In $\mathcal{O}(g^0 J_i^0 J_\rho^2)$ kann 
       \eqref{eq:renormierung:funktional} vereinfacht als 
       \begin{equation}
        Z[J,J_\rho] = -\frac{1}{2} J^A_{\rho} \Delta^{\rho \epsilon} J^A_\epsilon
       \end{equation}
       geschrieben werden, alle anderen Ordnungen werden verschwinden. Mit 
-      \eqref{eq:renormierung:ableitungen} gilt dann 
+      \eqref{eq:renormierung:ableitungen}  
+      gilt dann 
       \begin{equation}
-       Z^{(0,2)\,\,\, AB}_{\mu\nu}(x_1,x_2) = 
+      Z^{(0,2)\,\,\, AB}_{\mu\nu}(x_1,x_2) = 
        \frac{\delta}{ \delta J^A_\mu(x_1)}\frac{\delta}{ \delta J^B_\nu(x_2)}
        \frac{1}{2} J^C_{\rho} \Delta^{\rho \epsilon} J^C_\epsilon = \delta^{AB}
        \Delta_{\mu\nu}(x_1,x_2) \quad .
@@ -219,13 +223,9 @@
       demnach die 2-Punkt Funktion $Z^{(0,2)\,\,\, AB}_{\mu\nu}(x_1,x_2)$ in 
       $\mathcal{O}(g^0)$.
       
-      Der $\mathcal{O}(g^1)$ Beitrag zu $Z^{(0,2)\,\,\, AB}_{\mu\nu}(x_1,x_2)$ 
-      muss verschwinden, da 
-      \begin{equation}
-       \left. \left(\frac{\delta}{\delta J_\mu}\right)^3\right|_{J_\rho=0} 
-       (J^C_\rho \Delta^{\rho \epsilon} J^C_\epsilon) \propto \left.J_\rho 
-       \right|_{J_\rho=0}= 0 \quad .
-      \end{equation}
+      Es lässt sich leicht nachrechnen, dass der 
+      $\mathcal{O}(g^1)$ Beitrag zu $Z^{(0,2)\,\,\, AB}_{\mu\nu}(x_1,x_2)$ 
+      verschwinden muss.
 
       
     \subsubsection{Gluonpropagator in $\mathcal{O}(g^2)$}
@@ -301,38 +301,38 @@
     \end{equation}
     ableiten. Dabei hat jede Funktion $W^{(m,n)}$ die Cluster-Eigenschaft 
     $W^{(m,n)} \longrightarrow 0$
-    wenn sich die erzeugenden Ströme $J$ und $J_\mu$ separierbare Träger haben. 
+    wenn die erzeugenden Ströme $J$ und $J_\mu$ separierbare Träger haben. 
     Für \eqref{eq:renormierung:Og2} bedeutet das, dass die äußeren Punkte 
     $x_1, x_2$ und die Vertizes $y_1,y_2$ durch Propagatoren verbunden sein 
     müssen, um zu $W^{(0,2)\,\,\, AB}_{\mu\nu} (x_1,x_2)$ beizutragen. Man 
     spricht deshalb vom erzeugenden Funktional verbundener 
-    Korrelatorfunktionen. Es bleibt von \eqref{eq:renormierung:Og2} unter 
-    der Ausnutzung dieser Tatsache sowie der Symmetrie unter 
+    Korrelatorfunktionen. Damit bleibt von \eqref{eq:renormierung:Og2}
+    mit der Symmetrie unter 
     $y_1 \leftrightarrow y_2$ und der Antisymmetrie von $t_{ji}^A$
     \begin{equation}
     \begin{aligned}
     W^{(0,2)\,\,\, AB}_{\mu\nu} (x_1,x_2) &= 
     g^2 \text{Tr}(t^A t^B) \int \d^D y_1 \,\,\, d^D y_2 \,\,\, 
-    \Delta^{\mu\rho}(x_1,y_1)\Delta^{\nu \sigma}(x_2,y_2)
+    \Delta_{\mu\rho}(x_1,y_1)\Delta_{\nu \sigma}(x_2,y_2)
     \\&\left[
        \Delta(y_1,y_2)
-       \partial_\rho 
-      \partial_\sigma \Delta(y_1,y_2) 
-       -\partial_\rho 
-      \Delta(y_1,y_2) \partial_\sigma \Delta(y_2,y_1)
+       \partial^\rho 
+      \partial^\sigma \Delta(y_1,y_2) 
+       -\partial^\rho 
+      \Delta(y_1,y_2) \partial^\sigma \Delta(y_2,y_1)
     \right] \quad .
     \end{aligned}
     \end{equation}
     Die Fouriertransformation dieses Ausdrucks ergibt
     \begin{equation}
     \begin{aligned}
-     &\widetilde{W}^{(0,2)\,\,\, AB}_{\mu\nu} (k_1,k_2) = 
+     \widetilde{W}^{(0,2)\,\,\, AB}_{\mu\nu} (k_1,k_2) = &
       g^2 \text{Tr}(t^A t^B) 
-     \frac{\delta(k_1+k_2)}{D^2 k_1^4} \int \frac{\d^D q}{(2\uppi)^D} \,\,\, \\ &
-     \left( \frac{q_\sigma q_\rho}{q^2(k_1+q)^2 } +
-     \frac{q_\sigma (k_1+q)_\rho}{q^2 (k_1+q)^2} \right)
-     \left( \eta^{\mu \rho}-(1-\xi)\frac{k_1^{\mu}k_1^{\rho}}{k_1^2}\right)
-     \left( \eta^{\nu \sigma}-(1-\xi)\frac{k_2^{\nu}k_1^{\sigma}}{k_1^2}\right)
+     \frac{\delta(k_1+k_2)}{D^2 k_1^4} \int \frac{\d^D q}{(2\uppi)^D} 
+     \left( \frac{q^\sigma q^\rho}{q^2(k_1+q)^2 } +
+     \frac{q^\sigma (k_1+q)^\rho}{q^2 (k_1+q)^2} \right)\\ &
+     \left( \eta_{\mu \rho}-(1-\xi)\frac{k_{1\,\mu} k_{1\,\rho}}{k_1^2}\right)
+     \left( \eta_{\nu \sigma}-(1-\xi)\frac{k_{2\,\nu}k_{1\,\sigma}}{k_1^2}\right)
      \delta(k_1+k_2)
      \quad ,
     \end{aligned}
@@ -341,7 +341,7 @@
     Hilfe der Schwinger-Parametrisierung ergibt 
    \begin{equation}
     \begin{aligned}
-     \widetilde{W}^{(0,2)\,\,\, AB}_{\mu\nu} &(k_1,k_2) = 
+     &\widetilde{W}^{(0,2)\,\,\, AB}_{\mu\nu}  (k_1,k_2) = 
       g^2 \text{Tr}(t^A t^B)  
      \frac{\delta(k_1+k_2)}{D^2 k_1^4}
      %
@@ -351,14 +351,14 @@
      &     
      \left[
      \left(B(\nicefrac{D}{2}+1,\nicefrac{D}{2}-1)-B(\nicefrac{D}{2},
-     \nicefrac{D}{2}-1)k_{1\, \rho}
-     k_{1\, \sigma}\right) + B(\nicefrac{D}{2},\nicefrac{D}{2}-1)k_{1\,\text{E}}^2
-     \, \delta_{\rho\sigma} \frac{\Gamma(1-\nicefrac{D}{2})}{\Gamma(2-\nicefrac{D}{2})}
+     \nicefrac{D}{2}-1)k_1^\rho
+     k_1^\sigma\right) + B(\nicefrac{D}{2},\nicefrac{D}{2}-1)k_{1\,\text{E}}^2
+     \, \delta^{\rho\sigma} \frac{\Gamma(1-\nicefrac{D}{2})}{\Gamma(2-\nicefrac{D}{2})}
      \right] \\&
       \Gamma(2-\nicefrac{D}{2}) \Bigg\}
      %
-     \left( \eta^{\mu \rho}-(1-\xi)\frac{k_1^{\mu}k_1^{\rho}}{k_1^2}\right)
-     \left( \eta^{\nu \sigma}-(1-\xi)\frac{k_2^{\nu}k_2^{\sigma}}{k_2^2}\right)
+     \left( \eta_{\mu \rho}-(1-\xi)\frac{k_{1\,\mu}k_{1\,\rho}}{k_1^2}\right)
+     \left( \eta_{\nu \sigma}-(1-\xi)\frac{k_{2\,\nu}k_{2\,\sigma}}{k_2^2}\right)
       \delta(k_1+k_2)
      \quad .
     \end{aligned}
@@ -401,7 +401,7 @@
       k_{\rho}k_{\sigma}-k^2_{ \text{E}}\, \delta_{\rho\sigma}\right]
       \left\{ 
       \frac{g_\text{R}^2}{16\uppi^2}  \frac{1}{6} T(S)     
-      \frac{1}{\epsilon} +(Z_\A-1) \right\}.
+      \frac{1}{\epsilon} +(Z_\A-1) \right\} \quad .
       \end{equation}
       Dabei wurde die Gruppenkonstanten $T(S)d(S) \delta^{AB}=\text{Tr}(t^At^B)$ 
       und die Multiplizität $d(S)$ der Darstellung eingeführt.
@@ -421,7 +421,7 @@
       \begin{equation}
        \beta(g_\text{R}):= \mu \frac{\d g_\text{R}}{\d\mu} = \frac{g_\text{R}^3}
        {16 \uppi^2}
-       \frac{1}{6} T(S)d(S) + \mathcal{O}(g^5) \quad .
+       \frac{1}{6} T(S)d(S) + \mathcal{O}(g_\text{R}^5) \quad .
        \label{eq:renormierung:beta-funktion}
       \end{equation}
       

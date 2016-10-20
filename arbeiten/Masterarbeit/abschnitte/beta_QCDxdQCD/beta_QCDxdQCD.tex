@@ -43,7 +43,7 @@
   In der $\text{QCD}\times\text{dQCD}$ gibt es zwei Eichgruppen, jedoch mit drei 
   verschiedenen Darstellungen der Teilchen, sodass $d(R_1)$ und $d(R_2)$ in 
   jedem Koeffizienten \eqref{eq:beta_QCDxdQCD:X1}, \eqref{eq:beta_QCDxdQCD:Y1} 
-  und \eqref{eq:beta_QCDxdQCD:Z1} andere Werte annehmen kann und deshalb 
+  und \eqref{eq:beta_QCDxdQCD:Z1} andere Werte annehmen können und deshalb 
   einzeln bestimmt werden müssen. Dies geschieht am einfachsten über das 
   Zeichnen von Feynmandiagrammen und abzählen der möglichen Teilchen, die im 
   entsprechenden Diagramm erlaubt sind.
@@ -116,16 +116,21 @@
                      X_2 \alpha_2^2 + Y_2 \alpha_2^3 + Z_2 \alpha_1 \alpha_2^2 
                     \end{pmatrix} \label{eq:beta_QCDxdQCD:beta_alpha}
   \end{equation}
-  und als Nullstellen findet man die Fixpunkte
+  und als Nullstellen findet man den Gaußschen Fixpunkt
    \begin{equation}
-   \alpha^{*1}=(0,0) \quad 
-   \alpha^{*2}=\left(0,-\frac{X_2}{Y_2}\right) \quad
-   \alpha^{*3}=\left(-\frac{X_1}{Y_1},0\right) \quad
-   \alpha^{*4}=\left(\frac{Z_1X_2-X_1Y_2}{Y_1Y_2-Z_1Z_2} 
+   \alpha^{*}_\text{Gauß}=(0,0) \quad , 
+   \end{equation}
+   die teilweise wechselwirkenden Fixpunkte 
+   \begin{equation}
+   \alpha^{*}_\text{tw1}=\left(-\frac{X_1}{Y_1},0\right) \quad ,
+   \alpha^{*}_\text{tw2}=\left(0,-\frac{X_2}{Y_2}\right) \quad 
+   \end{equation}
+   und den vollständig wechselwirkenden Fixpunkt
+   \begin{equation}
+   \alpha^{*}_\text{vw}=\left(\frac{Z_1X_2-X_1Y_2}{Y_1Y_2-Z_1Z_2} ,
 	\frac{Z_2X_1-X_2Y_1}{Y_1Y_2-Z_1Z_2}\right) \quad . 
 	\label{eq:beta_QCDxdQCD:Fixpunkte}
    \end{equation}
-
   An den Fixpunkten gilt außerdem 
   \begin{equation}
     \left. \Sp \right|_*=(\alpha_1^*)^2 Y_1+(\alpha_2^*)^2 Y_2
@@ -138,7 +143,7 @@
   
 
   
-  \subsection{UV-Verhalten bei $\alpha^{*4}$}
+  \subsection{UV-Verhalten bei $\alpha^{*}_\text{vw}$}
     \subsubsection{attraktiver Fixpunkt}\label{beta_QCDxdQCD:fix4:UV}
       Für komplett UV-attraktives Verhalten müssen die Bedingungen 
       \begin{equation}
@@ -200,14 +205,15 @@
       Für Fermionen und Skalare in der fundamentalen Darstellung der 
       $SU(\Nc)\times SU(\Nd)$ muss demnach $\dim \Mc \leq 1 $.
   
-      Bond und Litim konnten für einen komplett UV-attraktiven Fixpunkt 
-      $\alpha_4^*$ die Bedingung 
+      Bond und Litim konnten für einen vollständig wechselwirkenden, 
+      UV-attraktiven Fixpunkt 
+      die Bedingung 
       $C_2(S)< \nicefrac{1}{11} C_2(G) $ für eine beliebige Darstellung 
       herleiten \cite{Bond_Litim}. Für die fundamentale Darstellung folgt 
       $\Nc < \sqrt{\frac{11}{9}} \approx 1.1 $, dies deckt sich mit den 
       Ergebnissen der konkreten Rechnung 
       \eqref{eq:beta_QCD:UV-attraktiver_alpha4_Bedingung}. Darüber hinaus 
-      konnten Sie zeigen, dass es für keine Darstellung der Eichgruppen 
+      konnten Sie zeigen, dass es für keine Darstellung $S$ der Eichgruppen 
       möglich ist, ein in jede Richtung UV-attraktives Verhalten zu erzeugen.
       
      
@@ -272,9 +278,8 @@
 	\item $Y_1 > 0 \land Y_2 < 0$:
 	  \begin{enumerate}
 	   \item $X_2>0$:
-	      Wie schon gezeigt ist $Y_2<0 \land X_2>0$ nicht möglich. Bond 
-	      und Litim haben auch hier gezeigt, dass dies in jeder 
-	      Darstellung der Fall ist \cite{Bond_Litim}.
+	      Wie schon gezeigt ist $Y_2<0 \land X_2>0$ nicht möglich. Dies gilt 
+	      in jeder Darstellung \cite{Bond_Litim}.
 	   \item $X_1>0 \land X_2<0$: Es kommt direkt zum Widerspruch, 
 	      \begin{equation}
 	       \underbrace{Z_2 X_1}_{>0} <\underbrace{ X_2 Y_1}_{<0} \quad 
@@ -306,11 +311,11 @@
 	  \end{enumerate}
       \end{enumerate}
       Insgesamt lässt sich feststellen, dass es in allen Fällen Obergrenzen 
-      $\nfj\lessapprox 5$  für die Anzahl der joint-Fermionen gibt, und durch 
+      $\nfj\lessapprox 4$  für die Anzahl der joint-Fermionen gibt, und durch 
       das Einführen von QCD- und dQCD-Fermionen wird diese Grenze weiter nach 
       unten verschoben.
       Der einzige Fall, der in der skalarfreien Theorie physikalische 
-      Sattelpunkte bringt, ist \ref{Fall1b}, exemplarisch ist 
+      Sattelpunkte bringt, ist \ref{Fall1b}. Exemplarisch ist 
       das Flussdiagramm für $\nfj=2$ in Abbildung
       \ref{fig:beta_QCDxdQCD:Sattelpunkt1} zu sehen. Alle drei Fixpunkte 
       liegen, wie in Tabelle \ref{tab:beta_QCDxdQCD:Sattelpunkt} zu sehen, 
@@ -330,12 +335,12 @@
       gleichen Einfluss auf die $\beta$-Funktion wie Fermionen haben, 
       jedoch um einen Faktor $3$-$4$ kleiner, es ist also zu erwarten, dass 
       die Grenzen für die Anzahl der joint-Skalare um einen 
-      entsprechenden Faktor höher liegen. Einige mögliche Standardmodell nahe 
+      entsprechenden Faktor höher liegen. Mögliche, Standardmodell nahe 
       Teilchenzahlen sind in Tabelle 
       \ref{tab:QCDxdQCD:Sattelpunkt_mit_Skalaren} zu sehen. 
       In Abbildung \ref{fig:beta_QCDxdQCD:Fix4_mit_Skalaren} ist außerdem 
-      der Fixpunkt $\alpha^{*4}$ für $0\leq \nsd \leq 3$ und sinnvolle $\nsj$ 
-      dargestellt. Hier ist zu erkennen, dass $\alpha^{*4}$ betragsmäßtig 
+      die Lage von $\alpha^{*}_\text{vw}$ für $0\leq \nsd \leq 3$ und $3\leq\nsj\leq 8$ 
+      dargestellt. Hier ist zu erkennen, dass $\alpha^{*}_\text{vw}$ betragsmäßtig 
       kleiner wird, je mehr joint-Skalare eingeführt werden.
 
       \input{abschnitte/beta_QCDxdQCD/tab/Sattelpunkt_mit_Skalaren.tex}
@@ -350,40 +355,40 @@
       beide Teilchensorten eingeführt werden ist qualitativ nicht entscheidend.
       
       Wie in der Abbildung \ref{fig:beta_QCDxdQCD:Sattelpunkt1} zu sehen, 
-      ist der Sattelpunkt $\alpha^{*4}$ in Richtung des Gaußschen Fixpunktes 
-      $\alpha_1^*$ UV-repulsiv. Bond und Litim haben gezeigt, dass dieses 
+      ist der Sattelpunkt $\alpha^{*}_\text{vw}$ in Richtung des Gaußschen Fixpunktes 
+      $\alpha_\text{Gauß}^*$ UV-repulsiv. Bond und Litim haben gezeigt, dass dieses 
       Verhalten bei reinen Eichtheorien immer auftritt und schließen daraus, 
       dass es keine UV-Fixpunkte in reinen 
       Eichtheorien geben kann \cite{Bond_Litim}.
       In der Abbildung erkennt man, dass die zwei Trajektorien mit 
-      $\alpha(t\to\infty)=\alpha^{*4}$für 
+      $\alpha(t\to\infty)=\alpha^{*}_\text{vw}$ für 
       kleine Energien gegen 
-      $\alpha^{*2}$ bzw. $\alpha^{*3}$, falls diese existieren, oder in 
+      $\alpha^{*}_\text{tw2}$ bzw. $\alpha^{*}_\text{tw1}$, falls diese existieren, oder in 
       den nicht-perturbativen Bereich laufen. Hinsichtlich einer Erweiterung der 
       QCD, die im niederenergetischen Bereich durch das QCD-confinement 
-      charakterisiert wird, können solche Trajektorien jedoch durchaus 
+      charakterisiert wird, können solche Trajektorien jedoch 
       physikalisch sinnvoll interpretiert werden. Um das genaue 
       Niederenergieverhalten zu erhalten müssten jedoch die Einflüsse der 
       Teilchenmassen berücksichtigt werden, in dieser Arbeit soll das aber nicht 
       geschehen.
       
-  \subsection{UV-Verhalten bei $\alpha^{*3}$}\label{beta_QCDxdQCD:UV_bei_Fix3}
-    Da der Fixpunkt $\alpha^{*3}=(-X_1/Y_1,0)$ ein teilweise 
+  \subsection{UV-Verhalten bei $\alpha^{*}_\text{tw1}$}\label{beta_QCDxdQCD:UV_bei_Fix3}
+    Da der Fixpunkt ein teilweise 
     wechselwirkender Fixpunkt ist, 
     muss hier das in \ref{beta_im_R2:nicht-hyperbolischer_Fixpunkt} 
     beschriebene Stabilitätskriterium angewendet werden. Zunächst kann aber 
     einfach gezeigt werden, dass dieser Fixpunkt nicht in jede Richtung 
     UV-attraktiv sein kann.
     
-    Damit $\alpha^{*3}_1=-X_1/Y_1 > 0$, muss $X_1<0$ und $Y_1>0$. Es wurde 
+    Damit $\alpha^{*}_1=-X_1/Y_1 > 0$, muss $X_1<0$ und $Y_1>0$. Es wurde 
     in \ref{beta_QCDxdQCD:fix4:UV} gezeigt, das die umgekehrte Vorzeichenwahl 
     physikalisch nicht sinnvoll ist. Gleichung 
     \eqref{eq:beta_im_R2:stab_matrix_0} zeigt nun 
     $\lambda_1=(\alpha^*_1)^2Y_1 > 0$ zu $e_1=(1,0)^\text{T}$, folglich muss 
-    die $\alpha_1$-Achse UV-repulsiv bezüglich $\alpha^{*3}$ sein. 
+    die $\alpha_1$-Achse UV-repulsiv bezüglich $\alpha^{*}$ sein. 
     
-    Am Fixpunkt ergibt sich aus \eqref{eq:beta_im_R2:stab_matrix_0} und 
-    \eqref{eq:beta_im_R2:lambda} 
+    Am Fixpunkt ergibt sich aus \eqref{eq:beta_im_R2:lambda} und 
+    \eqref{eq:beta_im_R2:stab_matrix_0} 
     \begin{equation}
      \lambda_2=0 \quad , \quad  e_2=\begin{pmatrix}
                             -Z_1 /Y_1 \\ 1
@@ -392,7 +397,7 @@
     \quad \frac{\partial \lambda_2}{\partial \alpha_2} = 2 X_2 
     -2\frac{X_1}{Y_1} Z_2   \quad .
     \end{equation}
-    Die Bedingung dafür, dass $\alpha^{*3}$ ein Sattelpunkt ist, ist somit 
+    Die Bedingung dafür, dass $\alpha^{*}$ ein Sattelpunkt ist, ist somit 
     \begin{equation}
      X_1<0 \quad \land \quad Y_1>0 \quad \land \quad X_2 Y_1 < Z_2 X_1
      \quad . \label{eq:beta_QCDxdQCD:Bedingung3}
@@ -429,8 +434,8 @@
     für $\Nc=3$ und $\nfc=6$. 
     \input{abschnitte/beta_QCDxdQCD/tab/Fix3_ohne_Skalare.tex}
     Tabelle \ref{tab:beta_QCDxdQCD:Fix3_ohne_Skalare} zeigt die möglichen 
-    Teilchenanzahlen und die Komponente $\alpha^{*3}_1$. Im Gegensatz zum 
-    vollständig wechselwirkenden Fixpunkt $\alpha^{*4}$ ist $\alpha^{*3}$ 
+    Teilchenanzahlen und die Komponente $\alpha^{*}_1$. Im Gegensatz zum 
+    vollständig wechselwirkenden Fixpunkt $\alpha^{*}_\text{vw}$ ist $\alpha^{*}_\text{tw1}$ 
     auch für eine Theorie ohne Skalare in einem perturbativ sinnvollen 
     Bereich, demnach können hier zwar wieder Skalare eingeführt werden, 
     ein neues Verhalten oder neue Wertebereiche für den Fixpunkt treten aber 
@@ -440,18 +445,18 @@
   \subsection{UV-Verhalten bei $\alpha^{*2}$}
     \input{abschnitte/beta_QCDxdQCD/tab/Fix2_ohne_Skalare.tex}
     Aufgrund der Symmetrie der $\beta$-Funktion in den Indizes $\text{c}$ und 
-    $\text{d}$ ist das allgemeine Vorgehen wie bei $\alpha^{*3}$. Der Fixpunkt 
+    $\text{d}$ bzw. $1$ und $2$ ist das allgemeine Vorgehen wie bei $\alpha^{*}_\text{tw1}$. Der Fixpunkt 
     ist in $\alpha_2$-Richtung repulsiv und das Kriterium für einen Sattelpunkt 
     analog zu \eqref{eq:beta_QCDxdQCD:Bedingung3} 
     \begin{equation}
      X_2<0 \quad \land \quad Y_2>0 \quad \land \quad X_1 Y_2 < Z_1 X_2
      \quad .
     \end{equation}
-    Ähnlich bei Fixpunkt $\alpha^{*3}$ ist es auch bei $\alpha^{*2}$ nicht 
+    Ähnlich wie bei Fixpunkt $\alpha^{*}_\text{tw1}$ ist es auch bei $\alpha^{*}_\text{tw2}$ nicht 
     nötig Skalare einzuführen, da sie zu keinem qualitativ neuen Verhalten 
     führen. Wieder gibt es Ober- und Untergrenzen für $\Nd$, $\nfj$ und 
     $\nfd$ um eine UV-attraktive Richtung zu erhalten. Die 
-    möglichen Werte sind in Tabelle \ref{tab:beta_QCDxdQCD:Fix3_ohne_Skalare} 
+    möglichen Werte sind in Tabelle \ref{tab:beta_QCDxdQCD:Fix2_ohne_Skalare} 
     zu sehen.
     
     
@@ -463,7 +468,7 @@
     dies auch für allgemeine Eich-Yukawa-Theorien mit 
     ungeladenen Skalaren gezeigt \cite{Bond_Litim}. Damit haben sie 
     insbesondere gezeigt, dass ein UV-repulsiver Gaußscher Fixpunkt mit 
-    einer Trajektorie zum wechselwirkenden Sattelpunkt $\alpha^{*4}$ nur durch 
+    einer Trajektorie zum wechselwirkenden Sattelpunkt $\alpha^{*}_\text{vw}$ nur durch 
     Hinzunahme von Yukawa-Kopplungen möglich ist. Wie bisher gezeigt, können 
     UV-attraktive Richtungen für wechselwirkende Fixpunkte auch in 
     reinen Eichtheorien enstehen. Es soll nun eine qualitative Abschätzung 
@@ -519,7 +524,7 @@
   \end{equation}
   Auch ohne die explizite $\beta$-Funktion für die Yukawa-Kopplung lassen sich 
   bereits qualitative Einflüsse auf die Lage der Fixpunkte ableiten.
-  Als Erweiterung zu $\alpha^{*3}$ (vgl. \eqref{eq:beta_QCDxdQCD:Fixpunkte}) 
+  Als Erweiterung zu $\alpha^{*}_\text{tw1}$ (vgl. \eqref{eq:beta_QCDxdQCD:Fixpunkte}) 
   können die Fixpunkte
   \begin{equation}
    \widehat{\alpha}^*=\left(-\frac{X_1}{Y_1},0,0\right) 
@@ -537,7 +542,7 @@
    \alpha_1^*> - \frac{X_1}{Y_1} = \widehat{\alpha}_1^* \quad ,
   \end{equation}
   wobei $A_1>0$ und $\alpha_Y^*>0$ ausgenutzt wurde. Auf ähnliche Weise kann 
-  für den vollständig wechselwirkenden Fixpunkt $\alpha^{*4}$ verfahren 
+  für den vollständig wechselwirkenden Fixpunkt $\alpha^{*}_\text{vw}$ verfahren 
   werden. Für die Fixpunkte
   \begin{equation}
    \widehat{\alpha}^*=\left( \frac{Z_1X_2-X_1Y_2}{Y_1Y_2-Z_1Z_2},
