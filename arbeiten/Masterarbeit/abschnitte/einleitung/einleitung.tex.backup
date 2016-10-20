@@ -1,4 +1,4 @@
-\clearpage
+\cleardoublepage
 \section{Einleitung}
 %   Die Entdeckung des Higgs-Bosons im Jahr 2012 \cite{Higgs} und die erstmalige 
 %   Beobachtung von Gravitationswellen im Jahr 2016 \cite{gravitational_waves} 
@@ -54,34 +54,34 @@
 
 Das \textit{Standardmodell der Teilchenphysik (SM)} und die 
 \textit{Allgemeine Relativitätstheorie (ART)} sind zwei Theorien der 
-Physik, die aus heutiger Sicht auf keiner Grundlegenderen aufbauen und 
+Physik, die aus heutiger Sicht auf keiner grundlegenderen aufbauen und 
 daher als fundamental angesehen werden können. Das SM ist eine Quantentheorie 
-und beschreibt die Physik der auf Größenskalen von Elementarteilchen und 
+und beschreibt die Physik auf Größenskalen von Elementarteilchen und 
 Baryonen bis hin zur Atomphysik. Es gibt zwei fundamentale Kräfte, 
 die Starke Kraft oder \textit{Quantenchromodynamik (QCD)} und die 
 Elektroschwache Kraft, sowie Wechselwirkungen mit dem Higgsfeld. Seit 
 der Entdeckung des Higgs-Bosons im Jahr 2012 \cite{Higgs} ist das SM in sich 
-abgeschlossen und alle vorausgesagten Elementarteilchen wurden gefunden, 
+abgeschlossen und alle erwarteten Elementarteilchen wurden gefunden, 
 dennoch ist bekannt, dass Erweiterungen nötig sind um bisher nicht abgedeckte 
 Phänomene zu beschreiben. So gibt es im SM keine Beschreibung der gravitativen 
-Wechselwirkung zwischen den Elementarteilchen. Die ART dagegen beschreibt die 
+Wechselwirkung zwischen den Elementarteilchen. Die ART beschreibt die 
 Gravitation auf kosmischen Größenskalen. Die erstmalige Beobachtung von 
 Gravitationswellen im Jahr 2016 \cite{gravitational_waves} war eine weitere 
-Bestätigung der Theorie, die ART ist jedoch nicht im Sinne des SM 
+Bestätigung der Theorie. Die ART ist jedoch nicht im Sinne des SM 
 quantisierbar. Da die Gravitation in der Quantenphysik und quantenphänomene 
 in der ART oft vernachlässigbar sind, tritt diese Problematik nicht immer zum 
 Vorschein. Zwei Gebiete der Physik, die eine gemeinsame 
-Beschreibung benötigen sind frühe Stadien des Universums 
+Beschreibung benötigen, sind frühe Stadien des Universums 
 \cite{GR_Introductory}, in denen auf kleinen 
 Größenskalen extreme Energien vorherrschten, und \textit{dunkle Materie (DM)}, 
-da auch diese Art der Materie aus elementaren Teilchen aufgebaut sein muss. 
+da auch diese Art der Materie aus elementaren Teilchen aufgebaut sein muss.
 
 Kosmologische Experimente zeigen, dass es diese neue Art der Materie mit einer 
 Energiedichte von $\Omega_\text{DM}\approx 0,2$ in Einheiten der kritischen 
-Massendichte im Universum geben muss \cite{PDG:DM}, die eine schwache 
-Ankopplung an die SM-Materie haben muss, jedoch gravitativ wechselwirkt. 
+Massendichte im Universum gibt \cite{PDG:DM}, die eine schwache 
+Ankopplung an die SM-Materie haben muss und gravitativ wechselwirkt. 
 Im Rahmen von $\Lambda$CDM-Theorien wird eine kalte, d.h. 
-nichtrelativistische, DM vorhergesagt. 
+nicht-relativistische, DM vorhergesagt. 
 Y. Bai und P. Schwaller schlagen vor, 
 die DM Masse analog zur Masse der bekannten baryonischen Materie zu erzeugen.  
 Die Masse der normalen Materie, d.h. der Protonen und Neutronen, wird im 
@@ -90,5 +90,18 @@ QCD erzeugt. Eine analoge Dynamik, genannt
 \textit{dark QCD (dQCD)}, zusammen mit einem Mechanismus, der die 
 Baryogenese in den dunklen Sektor erweitert, kann damit eine  
 Erklärung für DM sein \cite{Scale_of_dark_QCD}. 
- 
+
+Die Einbettung der Gravitation ins SM führt zu nicht-renormierbaren Theorien 
+\cite{GR_Weinberg}, die in der Regel unendlich 
+viele Renormierungskonstanten erfordern um auf allen Energieskalen gültig 
+zu sein. Sie gelten daher oft als unphysikalisch oder ungeeignet für   
+eine fundamentale Theorie. Durch ein \textit{asymptotic safety (AS)} 
+Szenario ist es jedoch möglich, die Theorie bis auf eine endliche Zahl von 
+Parametern zu bestimmen, sodass AS als Erweiterung der üblichen Forderung 
+nach Renormierbarkeit verstanden werden kann \cite{GR_Weinberg}
+\cite{Weinberg:1976}.
+
+In dieser Arbeit soll das \QCDxdQCD Modell von Bai und Schwaller auf 
+mögliche AS Szenarien im UV-Bereich, d.h. im Grenzwert hoher Energien, 
+untersucht werden. 
     

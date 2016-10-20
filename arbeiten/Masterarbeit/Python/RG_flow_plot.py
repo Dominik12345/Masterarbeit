@@ -67,7 +67,7 @@ A=array([
 #	[ 3, 2, 6, 0, 3, 0, 1, 0],
 #	[ 3, 3, 6, 0, 0, 0, 0, 3],
 #	[ 3, 3, 6, 0, 5, 2, 3, 0],
-	[ 3, 2, 6, 0, 2, 0, 1, 0]
+	[ 3, 3, 6, 0, 5, 2, 3, 0]
 	])
 
 
@@ -143,8 +143,8 @@ for (Nc,Nd,nfc,nsc,nfd,nsd,nfj,nsj) in A:
 	ymin = min(afix1[1],afix2[1],afix3[1],afix4[1])             # get axis limits
 	xmin = min(afix1[0],afix2[0],afix3[0],afix4[0])
 	
-	ymax += 0.4*abs(max(ymax,xmax))
-	xmax += 0.4*abs(max(ymax,xmax))
+	ymax += 0.2*abs(max(ymax,xmax))
+	xmax += 0.2*abs(max(ymax,xmax))
 	ymin -= 0.2*abs(min(ymax,xmax))
 	xmin -= 0.2*abs(min(ymax,xmax))
 	
@@ -172,13 +172,13 @@ for (Nc,Nd,nfc,nsc,nfd,nsd,nfj,nsj) in A:
 	
 
 	
-	p.plot(afix1[0],afix1[1], 'go', label=r'$\alpha^{*1}$' ,markersize=9)
+	p.plot(afix1[0],afix1[1], 'go', label=r'$\alpha^{*}_\mathrm{Gauß}$' ,markersize=9)
 	if (afix2[1]>0):
-		p.plot(afix2[0],afix2[1], 'g^', label=r'$\alpha^{*2}$' ,markersize=9)
+		p.plot(afix2[0],afix2[1], 'g^', label=r'$\alpha^{*}_\mathrm{tw2}$' ,markersize=9)
 	if (afix3[0]>0):
-		p.plot(afix3[0],afix3[1], 'gv', label=r'$\alpha^{*3}$' ,markersize=9)
+		p.plot(afix3[0],afix3[1], 'gv', label=r'$\alpha^{*}_\mathrm{tw1}$' ,markersize=9)
 	if (afix4[0]>0):
-		p.plot(afix4[0],afix4[1], 'g*', label=r'$\alpha^{*4}$' ,markersize=9)
+		p.plot(afix4[0],afix4[1], 'g*', label=r'$\alpha^{*}_\mathrm{vw}$' ,markersize=9)
 
 	
 	p.grid()

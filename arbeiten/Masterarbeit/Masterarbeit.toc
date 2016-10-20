@@ -1,29 +1,29 @@
 \contentsline {section}{\numberline {1}Einleitung}{1}{section.1}
-\contentsline {section}{\numberline {2}Quantenfeldtheorie und Standardmodell}{3}{section.2}
-\contentsline {subsection}{\numberline {2.1}Das Standardmodell der Teilchenphysik}{3}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Gluon-Selbstenergie und laufende Kopplung}{4}{subsection.2.2}
-\contentsline {subsubsection}{\numberline {2.2.1}Gluonpropagator in $\mathcal {O}(g^0)$ und $\mathcal {O}(g^1)$}{6}{subsubsection.2.2.1}
-\contentsline {subsubsection}{\numberline {2.2.2}Gluonpropagator in $\mathcal {O}(g^2)$}{7}{subsubsection.2.2.2}
-\contentsline {subsection}{\numberline {2.3}Laufende Kopplungen in der Standardmodell QCD}{9}{subsection.2.3}
-\contentsline {section}{\numberline {3}QCD $\times $ dark QCD}{11}{section.3}
-\contentsline {subsection}{\numberline {3.1}Die Standardmodell QCD}{11}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Dark QCD}{12}{subsection.3.2}
-\contentsline {section}{\numberline {4}Allgemeine Untersuchung einer $\beta $-Funktion}{17}{section.4}
-\contentsline {subsection}{\numberline {4.1}Vereinfachung des mathematischen Problems}{17}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Verhalten in einer Umgebung eines Fixpunktes}{19}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Stabilit\IeC {\"a}tsbedingungen im $\math@bb {R}^2$}{21}{subsection.4.3}
-\contentsline {subsubsection}{\numberline {4.3.1}hyperbolischer Fixpunkt}{22}{subsubsection.4.3.1}
-\contentsline {subsubsection}{\numberline {4.3.2}nicht-hyperbolischer Fixpunkt}{23}{subsubsection.4.3.2}
-\contentsline {section}{\numberline {5}UV-Fixpunkte der $SU_\text {QCD}\times SU_\text {dQCD}$}{25}{section.5}
-\contentsline {subsection}{\numberline {5.1}UV-Verhalten bei $\alpha ^{*}_\text {vw}$}{27}{subsection.5.1}
-\contentsline {subsubsection}{\numberline {5.1.1}attraktiver Fixpunkt}{27}{subsubsection.5.1.1}
-\contentsline {subsubsection}{\numberline {5.1.2}Sattelpunkt}{29}{subsubsection.5.1.2}
-\contentsline {subsection}{\numberline {5.2}UV-Verhalten bei $\alpha ^{*}_\text {tw1}$}{33}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}UV-Verhalten bei $\alpha ^{*2}$}{35}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Qualitative \IeC {\"A}nderungen durch Yukawa-Terme}{35}{subsection.5.4}
-\contentsline {section}{\numberline {6}Matching mit dem Standardmodell}{38}{section.6}
-\contentsline {subsection}{\numberline {6.1}Extrapolation eines Fixpunktes}{38}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Extrapolation von $\alpha ^{*}_\text {tw1}$}{41}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}Extrapolation von $\alpha ^{*}_\text {tw2}$}{43}{subsection.6.3}
-\contentsline {subsection}{\numberline {6.4}Extrapolation von $\alpha ^{*}_\text {vw}$}{45}{subsection.6.4}
-\contentsline {section}{\numberline {7}Zusammenstellung der Ergebnisse}{47}{section.7}
+\contentsline {section}{\numberline {2}Quantenfeldtheorie und Standardmodell}{2}{section.2}
+\contentsline {subsection}{\numberline {2.1}Das Standardmodell der Teilchenphysik}{2}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Gluon-Selbstenergie und laufende Kopplung}{3}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}Gluonpropagator in $\mathcal {O}(g^0)$ und $\mathcal {O}(g^1)$}{5}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}Gluonpropagator in $\mathcal {O}(g^2)$}{6}{subsubsection.2.2.2}
+\contentsline {subsection}{\numberline {2.3}Laufende Kopplungen in der Standardmodell QCD}{8}{subsection.2.3}
+\contentsline {section}{\numberline {3}QCD $\times $ dark QCD}{10}{section.3}
+\contentsline {subsection}{\numberline {3.1}Die Standardmodell QCD}{10}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Dark QCD}{11}{subsection.3.2}
+\contentsline {section}{\numberline {4}Allgemeine Untersuchung einer $\beta $-Funktion}{16}{section.4}
+\contentsline {subsection}{\numberline {4.1}Vereinfachung des mathematischen Problems}{16}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Verhalten in einer Umgebung eines Fixpunktes}{18}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Stabilit\IeC {\"a}tsbedingungen im $\math@bb {R}^2$}{20}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}hyperbolischer Fixpunkt}{21}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}nicht-hyperbolischer Fixpunkt}{22}{subsubsection.4.3.2}
+\contentsline {section}{\numberline {5}UV-Fixpunkte der $SU_\text {QCD}\times SU_\text {dQCD}$}{24}{section.5}
+\contentsline {subsection}{\numberline {5.1}UV-Verhalten bei $\alpha ^{*}_\text {vw}$}{26}{subsection.5.1}
+\contentsline {subsubsection}{\numberline {5.1.1}attraktiver Fixpunkt}{26}{subsubsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.2}Sattelpunkt}{28}{subsubsection.5.1.2}
+\contentsline {subsection}{\numberline {5.2}UV-Verhalten bei $\alpha ^{*}_\text {tw1}$}{32}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}UV-Verhalten bei $\alpha ^{*2}$}{34}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Qualitative \IeC {\"A}nderungen durch Yukawa-Terme}{34}{subsection.5.4}
+\contentsline {section}{\numberline {6}Matching mit dem Standardmodell}{37}{section.6}
+\contentsline {subsection}{\numberline {6.1}Extrapolation eines Fixpunktes}{37}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Extrapolation von $\alpha ^{*}_\text {tw1}$}{40}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Extrapolation von $\alpha ^{*}_\text {tw2}$}{42}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Extrapolation von $\alpha ^{*}_\text {vw}$}{44}{subsection.6.4}
+\contentsline {section}{\numberline {7}Zusammenstellung der Ergebnisse}{46}{section.7}

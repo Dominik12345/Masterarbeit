@@ -194,11 +194,8 @@
      <void property="arrowPosition">
       <float>0.5</float>
      </void>
-     <void id="JaxoDefaultArrow1" property="arrow">
-      <void id="Color2" property="color"/>
-     </void>
      <void property="color">
-      <object idref="Color2"/>
+      <object idref="Color1"/>
      </void>
      <void property="flip">
       <boolean>true</boolean>
@@ -259,11 +256,8 @@
      <void property="arrowPosition">
       <float>0.5</float>
      </void>
-     <void id="JaxoDefaultArrow2" property="arrow">
-      <void id="Color3" property="color"/>
-     </void>
      <void property="color">
-      <object idref="Color3"/>
+      <object idref="Color1"/>
      </void>
      <void property="dash">
       <float>10.0</float>
@@ -316,7 +310,7 @@
    <void method="add">
     <object class="net.sf.jaxodraw.object.text.JaxoLatexText" id="JaxoLatexText3">
      <void property="allign">
-      <int>4</int>
+      <int>1</int>
      </void>
      <void property="color">
       <object idref="Color0"/>
@@ -330,7 +324,7 @@
         <string>x</string>
         <void method="set">
          <object idref="Point9"/>
-         <int>168</int>
+         <int>154</int>
         </void>
        </void>
        <void class="java.awt.Point" method="getField">
@@ -346,7 +340,7 @@
       <object idref="PointArray6"/>
      </void>
      <void property="textString">
-      <string>Y \delta^{ij}\delta^{rs}</string>
+      <string>Y</string>
      </void>
     </object>
    </void>
