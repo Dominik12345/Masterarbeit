@@ -30,7 +30,7 @@
     Das SM ist eine QFT nach dem Prinzip, invariant unter bestimmten 
     Symmetrietransformationen zu sein. Die Dynamik wird dabei durch die 
     Eichgruppe $SU(3)\times SU(2)\times U(1)$ in der Lagrangedichte 
-    repräsentiert, sowie der Angabe, 
+    repräsentiert und durch die Angabe 
     unter welcher Darstellung der Eichgruppe die Felder transformieren. 
     Neben den postulierten Feldern der Quarks, Leptonen und des Higgs wird so 
     die Existenz von Eichfeldern und Wechselwirkungen mit den übrigen Feldern 
@@ -170,18 +170,23 @@
      J_i \phi_i = \dx J_i(x) \phi_i(x) \quad , \quad  J_i \Delta J_i =
      \dx \d^D y \,\,\,  J_i(x) \Delta(x,y) J_i(y) \quad ,
     \end{equation}
-    für die Eichfelder $\A$ analog.
-    
+    und 
+    \begin{equation}
+     J_\rho^A \A^A = \dx J_\rho^A(x) \A_A(x) \quad , \quad  J_\rho^A 
+     \Delta^{\rho \epsilon} J_\epsilon^A =
+     \dx \d^D y \,\,\,  J_\rho^A(x) \Delta^{\rho\epsilon}(x,y) J_\epsilon^A(y) \quad .
+    \end{equation}
     Durch das Ausführen von Funktionalableitungen in 
     \eqref{eq:renormierung:erzeugendes_funktional} lassen sich nun die 
     Korrelatorfunktionen aus \eqref{renormierung:Korrelator_definition} 
     rekonstruieren, 
     \begin{equation}
      \left.\frac{\delta}{\i \delta J_i(x)}\right|_{J=J_\mu=0} Z[J,J_\mu]
-     = \Big\langle \phi_i(x) \Big\rangle \quad , 
+     = \Big\langle \phi_i(x) \Big\rangle \quad . 
      \label{eq:renormierung:ableitungen}
     \end{equation}
-    für höhere Ableitungen analog. Die formale Entwicklung
+    Entsprechend können durch mehrmaliges Ableiten höhere Korrelatorfunktionen 
+    berechnet werden. Die formale Entwicklung
     \begin{equation}
     \begin{aligned}
      &Z[J,J_\mu]= \sum\limits_{m,n=0}^\infty 

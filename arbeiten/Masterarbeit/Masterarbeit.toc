@@ -11,19 +11,19 @@
 \contentsline {section}{\numberline {4}Allgemeine Untersuchung einer $\beta $-Funktion}{16}{section.4}
 \contentsline {subsection}{\numberline {4.1}Vereinfachung des mathematischen Problems}{16}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Verhalten in einer Umgebung eines Fixpunktes}{18}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Stabilit\IeC {\"a}tsbedingungen im $\math@bb {R}^2$}{20}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.3}Stabilit\IeC {\"a}tsbedingungen im $\math@bb {R}^2$}{21}{subsection.4.3}
 \contentsline {subsubsection}{\numberline {4.3.1}hyperbolischer Fixpunkt}{21}{subsubsection.4.3.1}
 \contentsline {subsubsection}{\numberline {4.3.2}nicht-hyperbolischer Fixpunkt}{22}{subsubsection.4.3.2}
 \contentsline {section}{\numberline {5}UV-Fixpunkte der $SU_\text {QCD}\times SU_\text {dQCD}$}{24}{section.5}
-\contentsline {subsection}{\numberline {5.1}UV-Verhalten bei $\alpha ^{*}_\text {vw}$}{26}{subsection.5.1}
-\contentsline {subsubsection}{\numberline {5.1.1}attraktiver Fixpunkt}{26}{subsubsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1}UV-Verhalten bei $\alpha ^{*}_\text {vw}$}{27}{subsection.5.1}
+\contentsline {subsubsection}{\numberline {5.1.1}attraktiver Fixpunkt}{27}{subsubsection.5.1.1}
 \contentsline {subsubsection}{\numberline {5.1.2}Sattelpunkt}{28}{subsubsection.5.1.2}
-\contentsline {subsection}{\numberline {5.2}UV-Verhalten bei $\alpha ^{*}_\text {tw1}$}{32}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}UV-Verhalten bei $\alpha ^{*2}$}{34}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Qualitative \IeC {\"A}nderungen durch Yukawa-Terme}{34}{subsection.5.4}
-\contentsline {section}{\numberline {6}Matching mit dem Standardmodell}{37}{section.6}
-\contentsline {subsection}{\numberline {6.1}Extrapolation eines Fixpunktes}{37}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Extrapolation von $\alpha ^{*}_\text {tw1}$}{40}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}Extrapolation von $\alpha ^{*}_\text {tw2}$}{42}{subsection.6.3}
-\contentsline {subsection}{\numberline {6.4}Extrapolation von $\alpha ^{*}_\text {vw}$}{44}{subsection.6.4}
-\contentsline {section}{\numberline {7}Zusammenstellung der Ergebnisse}{46}{section.7}
+\contentsline {subsection}{\numberline {5.2}UV-Verhalten bei $\alpha ^{*}_\text {tw1}$}{33}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}UV-Verhalten bei $\alpha ^{*2}$}{35}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Qualitative \IeC {\"A}nderungen durch Yukawa-Terme}{35}{subsection.5.4}
+\contentsline {section}{\numberline {6}Matching mit dem Standardmodell}{38}{section.6}
+\contentsline {subsection}{\numberline {6.1}Extrapolation eines Fixpunktes}{38}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Extrapolation von $\alpha ^{*}_\text {tw1}$}{43}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Extrapolation von $\alpha ^{*}_\text {tw2}$}{43}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Extrapolation von $\alpha ^{*}_\text {vw}$}{45}{subsection.6.4}
+\contentsline {section}{\numberline {7}Zusammenstellung der Ergebnisse}{47}{section.7}

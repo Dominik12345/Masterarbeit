@@ -3,49 +3,57 @@
 
   Die allgemeinste Form der $\beta$-Funktion auf 2-Schleifen Ordnung 
   einer $G_1\times G_2$-Eichtheorie wurde von 
-  D.R.T. Jones berechnet \cite{Jones}.
-  Die $\beta$-Funktion hat die Form
+  D.R.T. Jones berechnet \cite{Jones}. Angewand auf die $SU(\Nc)\times SU(\Nd)$ ergibt 
+  sich für 
+  die $\beta$-Funktion die Form
   \begin{equation}
-   \beta (g) = \begin{pmatrix}
-                     X_1^g g_1^3 + Y_1^g g_1^5 + Z_1^g g_1^3 g_2^2 \\ 
-                     X_2^g g_2^3 + Y_2^g g_2^5 + Z_2^g g_2^3 g_1^2 
+   \begin{pmatrix}
+   \beta_\s\\ \beta_\d
+   \end{pmatrix}
+    = \begin{pmatrix}
+                     X_\s^g g_\s^3 + Y_\s^g g_\s^5 + Z_\s^g g_\s^3 g_\d^2 \\ 
+                     X_\d^g g_\d^3 + Y_\d^g g_\d^5 + Z_\d^g g_\d^3 g_\s^2 
                     \end{pmatrix}\quad . \label{eq:beta_QCDxdQCD:beta_g}
   \end{equation}
-  Für die Darstellungen $R_1$, $R_2$, $S_1$ und $S_2$ der Fermionen bzw. Skalare 
-  sind die Koeffizienten von $\beta_1$ gegeben durch 
+  Für die Darstellungen $R_\s$, $R_\d$, $S_\s$ und $S_\d$ der Fermionen bzw. Skalare 
+  sind die Koeffizienten von $\beta_\s$ gegeben durch 
   \begin{align}
-   X_1^g &= (16 \uppi^2)^{-1}\left[ \frac{2}{3} T(R_1) d(R_2) + \frac{1}{3} 
-    T(S_1)d(S_2)-\frac{11}{3} C_2(G_1) \right] \label{eq:beta_QCDxdQCD:X1}\\
+   X_\s^g &= (16 \uppi^2)^{-1}\left[ \frac{2}{3} T(R_\s) d(R_\d) + \frac{1}{3} 
+    T(S_\s)d(S_\d)-\frac{11}{3} C_2(SU(\Nc)) \right] \label{eq:beta_QCDxdQCD:X1}\\
     \begin{split}
-   Y_1^g &= (16 \uppi^2)^{-2} \left[ 
+   Y_\s^g &= (16 \uppi^2)^{-2} \left[ 
     \left( 
-    \frac{10}{3} C_2(G_1)+2C_2(R_1)
-    \right) T(R_1) d(R_2) \right. \\
+    \frac{10}{3} C_2(SU(\Nc))+2C_2(R_\s)
+    \right) T(R_\s) d(R_\d) \right. \\
      & \quad \quad \quad \quad \quad + \left. \left(
-    \frac{2}{3} C_2(G_1) +4C_2(S_1) 
-    \right)T(S_1) d(S_2)
-    -\frac{34}{3} C_2(G_1)^2
+    \frac{2}{3} C_2(SU(\Nc)) +4C_2(S_\s) 
+    \right)T(S_\s) d(S_\d)
+    -\frac{34}{3} C_2(SU(\Nc))^2
     \right] \label{eq:beta_QCDxdQCD:Y1}
     \end{split}\\
-   Z_1^g &= (16 \uppi^2)^{-2} \left[
-      2 C_2(R_2) d(R_2) T(R_1) +4C_2(S_2)d(S_2) T(S_1)
+   Z_\s^g &= (16 \uppi^2)^{-2} \left[
+      2 C_2(R_\d) d(R_\d) T(R_\s) +4C_2(S_\d)d(S_\d) T(S_\s)
     \right] \quad .\label{eq:beta_QCDxdQCD:Z1}
   \end{align}
-  Die Berechnung ist dabei für chirale Fermionen geschehen. Dies bewirkt einen 
-  zusätzlichen Faktor von $2$ in $d(R_1)$ und $d(R_2)$, wenn man  
-  Dirac-Fermionen betrachtet.
-  Wie in Abschnitt \ref{QCDxdQCD} beschrieben, sollen Fermionen und Skalare 
-  eines bestimmten Sektors jeweils in 
-  der gleichen Darstellung der Eichgruppen sein, daher gibt es keinen 
-  Unterschied zwischen $R_1$ und $S_1$ bzw. $R_2$ und $S_2$. Für $SU(N)$ ist 
-  $T(R)=1/2$ und der quadratische Casimiroperator $C_2(R)=
-  (N^2-1)/(2N)$ und $C_2(G)=N$ \cite{Jones}.
-  In der $\text{QCD}\times\text{dQCD}$ gibt es zwei Eichgruppen, jedoch mit drei 
-  verschiedenen Darstellungen der Teilchen, sodass $d(R_1)$ und $d(R_2)$ in 
+  Die Berechnung ist für Weyl-Fermionen geschehen. Betrachtet man Dirac-Fermionen 
+  erhalten $d(R_\s)$ und $d(R_\d)$ einen zusätzlichen Faktor von $2$. Die 
+  Koeffizienten $X_\d^g$, $Y_\d^g$ und $Z_\d^g$ können durch den Tausch 
+  $\s \leftrightarrow \d$ erhalten werden.
+  Die Darstellungen der beteiligten Quantenfelder in der \QCDxdQCD sind noch einmal 
+  in Tabelle \ref{tab:beta_QCDxdQCD:Darstellungen} zusammengefasst.
+ \input{abschnitte/beta_QCDxdQCD/tab/Darstellungen.tex}  
+ 
+  In den gewählten Darstellungen gilt $T(R_\s)=T(S_\s)=T(R_\d)=T(S_\s)=1/2$, außerdem  
+  $C_2(SU(N_{\s/\d}))=N_{\text{s}/\text{d}}$ sowie 
+  $C_2(R_{\s/\d})=C_2(S_{\s/\d})=(N_{\s/\d}^2-1)/(2 N_{\s/\d})$. 
+  In der $\text{QCD}\times\text{dQCD}$ gibt es drei 
+  verschiedenen Darstellungskombinationen der Materiefelder.   
+  Daher können $d(R_\s)$ und $d(R_\d)$ bzw. $d(S_\s)$ und $d(S_\d)$
+  in 
   jedem Koeffizienten \eqref{eq:beta_QCDxdQCD:X1}, \eqref{eq:beta_QCDxdQCD:Y1} 
-  und \eqref{eq:beta_QCDxdQCD:Z1} andere Werte annehmen können und deshalb 
-  einzeln bestimmt werden müssen. Dies geschieht am einfachsten über das 
-  Zeichnen von Feynmandiagrammen und abzählen der möglichen Teilchen, die im 
+  und \eqref{eq:beta_QCDxdQCD:Z1} andere Werte annehmen und müssen deshalb 
+  einzeln bestimmt werden. Dies geschieht am einfachsten über das 
+  Zeichnen von Feynmandiagrammen und Abzählen der möglichen Teilchen, die im 
   entsprechenden Diagramm erlaubt sind.
 
 
@@ -56,8 +64,11 @@
     dark Colour der adjungierten Darstellung. Die Vertizes werden mit den 
     entsprechenden Erzeugermatrizen beschriftet und 
     enthalten bereits die Kopplungskonstanten. Es werden nur die Koeffizienten 
-    $X_1^g$, $Y_1^g$ und $Z_1^g$ betrachtet, $X_2^g$, $Y_2^g$ und $Z_2^g$ 
-    folgen analog mit $\text{QCD}\leftrightarrow \text{dQCD}$. Wie in 
+    $X_\s^g$, $Y_\s^g$ und $Z_\s^g$ betrachtet, $X_\d^g$, $Y_\d^g$ und $Z_\d^g$ 
+    folgen analog mit $\text{QCD}\leftrightarrow \text{dQCD}$. Außerdem werden nur 
+    Fermionen diskutiert, um $d(S_{\s})$ zu erhalten muss lediglich $\nfc \to 
+    \nsc$ und $\nfj\to \nsj$ ersetzt werden. Das gleiche gilt für $d(S_\d)$.
+    Wie in 
     \cite{MACHACEK198383} gezeigt, kann die Eichung des Eichboson-Propagators 
     so gewählt werden, dass die $\beta$-Funktion nur noch von der 
     Renormierungskonstanten $Z_A$ des Eichfeldes abhängt. Daher reicht es, 
@@ -65,26 +76,26 @@
     Korrekturen zu 3- oder 4-Punkt Funktionen müssen nicht berücksichtigt 
     werden.
     
-    Der Koeffizient $X_1^g$ entspricht der 1-Schleifen Korrektur zum 
+    Der Koeffizient $X_\s^g$ entspricht der 1-Schleifen Korrektur zum 
     Gluonpropagator. Bei der Fermionschleife in Abbildung 
     \ref{fig:n-schleifen:QCD3} kann jedes der $\nfc$ 
     QCD-Fermionen und jedes der 
     $\nfj$ joint-Fermionen mit einer dark Colour 
     $r\in\{1,2,\ldots,\Nd \}$ in der 
-    Schleife auftauchen. Damit ist $d(R_2)=\nfc+\Nd \nfj$.
+    Schleife auftauchen. Damit ist $d(R_\d)=\nfc+\Nd \nfj$.
     \input{abschnitte/n-schleifen/fig/QCD3.tex}
     
-    Der Koeffizient $Y_2^g$ enthält die 2-Schleifen Beiträge proportional zu 
+    Der Koeffizient $Y_\s^g$ enthält die 2-Schleifen Beiträge proportional zu 
     $(t^A_{ij})^4$. Auch hier kann jeweil ein QCD-Fermion oder ein 
     joint-Fermion mit einer dark Colour vorkommen, sodass wieder 
-    $d(R_2)=\nfc+\Nd\nfj$.
+    $d(R_\d)=\nfc+\Nd\nfj$.
     
     Die Diagramme proportional zu $(t^A_{ij})^2(\widetilde{t}^{M}_{rs})^2$ 
-    tragen zu $Z_1^g$ bei und sind in Abbildung 
+    tragen zu $Z_\s^g$ bei und sind in Abbildung 
     \ref{fig:n-schleifen:QCDxdQCD2} zu sehen.
     Am Gluon-Fermion Vertex $t^A_{ij}$ kann $r$ jeden Wert $1,2,\ldots,\Nd$ 
     annehmen, wieder mit jedem Flavour. QCD- oder dQCD-Fermionen können nicht 
-    auftauchen, sodass in diesem Fall $d(R_2)=\Nd \nfj$.
+    auftauchen, sodass in diesem Fall $d(R_\d)=\Nd \nfj$.
     \input{abschnitte/n-schleifen/fig/QCDxdQCD1.tex}
   
   
@@ -93,18 +104,18 @@
   $\Nfd := \nfd +\Nc \nfj$ und $\Nsd := \nsd +\Nc \nfj$ lassen sie sich 
   schreiben als
   \begin{align}
-   X_1^g &= (16 \uppi^2)^{-1} \left[
+   X_\s^g &= (16 \uppi^2)^{-1} \left[
     \frac{2}{3} \Nfc + \frac{1}{6} \Nsc - \frac{11}{3} \Nc \right] 
     \label{eq:beta_QCDxdQCD:X1g} \\ 
-   Y_1^g &= (16 \uppi^2)^{-2} \left[ \left(\frac{13}{3}\Nc-\frac{1}{\Nc}\right)
+   Y_\s^g &= (16 \uppi^2)^{-2} \left[ \left(\frac{13}{3}\Nc-\frac{1}{\Nc}\right)
     \Nfc + \left( \frac{4}{3} \Nc -\frac{1}{\Nc}\right)\Nsc -\frac{34}{3}
     \Nc^2\right] \label{eq:beta_QCDxdQCD:Y1g}\\
-   Z_1^g &= (16 \uppi^2)^{-2}\left[(\Nd^2-1)(\nfj + \nsj) \right] \quad .
+   Z_\s^g &= (16 \uppi^2)^{-2}\left[(\Nd^2-1)(\nfj + \nsj) \right] \quad .
    \label{eq:beta_QCDxdQCD:Z1g}
   \end{align}
 
   Da beide Kopplungskonstanten in einer $4$-dimensionalen Raumzeit die 
-  Massendimension $[g_1]=[g_2]=0$ besitzen, werden die neuen 
+  Massendimension $[g_\s]=[g_\d]=0$ besitzen, werden die neuen 
   Kopplungskonstanten $\alpha_i := \nicefrac{g_i^2}{4 \uppi}$ 
   eingeführt. Die Bedingung $|g_i|<1$ für eine sinnvolle Störungstheorie lässt 
   sich zu $\alpha_i<4\uppi$ übersetzen. Mit 
@@ -112,8 +123,8 @@
   $Z_i := 32\uppi^2 Z_i^g $ folgt
   \begin{equation}
    \beta (\alpha) = \begin{pmatrix}
-                     X_1 \alpha_1^2 + Y_1 \alpha_1^3 + Z_1 \alpha_1^2 \alpha_2\\ 
-                     X_2 \alpha_2^2 + Y_2 \alpha_2^3 + Z_2 \alpha_1 \alpha_2^2 
+                     X_\s \alpha_\s^2 + Y_\s \alpha_\s^3 + Z_\s \alpha_\s^2 \alpha_\d\\ 
+                     X_\d \alpha_\d^2 + Y_\d \alpha_\d^3 + Z_\d \alpha_\s \alpha_\d^2 
                     \end{pmatrix} \label{eq:beta_QCDxdQCD:beta_alpha}
   \end{equation}
   und als Nullstellen findet man den Gaußschen Fixpunkt
@@ -122,22 +133,22 @@
    \end{equation}
    die teilweise wechselwirkenden Fixpunkte 
    \begin{equation}
-   \alpha^{*}_\text{tw1}=\left(-\frac{X_1}{Y_1},0\right) \quad ,
-   \alpha^{*}_\text{tw2}=\left(0,-\frac{X_2}{Y_2}\right) \quad 
+   \alpha^{*}_\text{tw1}=\left(-\frac{X_\s}{Y_\s},0\right) \quad ,
+   \alpha^{*}_\text{tw2}=\left(0,-\frac{X_\d}{Y_\d}\right) \quad 
    \end{equation}
    und den vollständig wechselwirkenden Fixpunkt
    \begin{equation}
-   \alpha^{*}_\text{vw}=\left(\frac{Z_1X_2-X_1Y_2}{Y_1Y_2-Z_1Z_2} ,
-	\frac{Z_2X_1-X_2Y_1}{Y_1Y_2-Z_1Z_2}\right) \quad . 
+   \alpha^{*}_\text{vw}=\left(\frac{Z_\s X_\d-X_\s Y_\d}{Y_\s Y_\d-Z_\s Z_\d} ,
+	\frac{Z_\d X_\s -X_\d Y_\s}{Y_\s Y_\d - Z_\s Z_\d}\right) \quad . 
 	\label{eq:beta_QCDxdQCD:Fixpunkte}
    \end{equation}
   An den Fixpunkten gilt außerdem 
   \begin{equation}
-    \left. \Sp \right|_*=(\alpha_1^*)^2 Y_1+(\alpha_2^*)^2 Y_2
+    \left. \Sp \right|_*=(\alpha_\s^*)^2 Y_\s+(\alpha_\d^*)^2 Y_\d
     \quad
     \text{sowie}
     \quad
-    \left. \Det \right|_*=(\alpha_1^*\alpha_2^*)^2(Y_1Y_2-Z_1Z_2) \quad.
+    \left. \Det \right|_*=(\alpha_\s^*\alpha_\d^*)^2(Y_\s Y_\d - Z_\s Z_\d) \quad.
     \label{eq:beta_QCDxdQCD:spur_determinante}
   \end{equation}
   
@@ -147,8 +158,8 @@
     \subsubsection{attraktiver Fixpunkt}\label{beta_QCDxdQCD:fix4:UV}
       Für komplett UV-attraktives Verhalten müssen die Bedingungen 
       \begin{equation}
-      \alpha_1^* > 0 \quad \land \quad
-      \alpha_2^* > 0 \quad \land \quad
+      \alpha_\s^* > 0 \quad \land \quad
+      \alpha_\d^* > 0 \quad \land \quad
       \left. \Det \right |_* > 0 \quad \land \quad 
       \left. \Sp  \right |_*  < 0 \label{eq:beta_QCDxdQCD:alpha4}
       \end{equation}
@@ -156,29 +167,29 @@
       gewählte Darstellung nicht gleichzeitig wahr sein können. Dazu werden 
       sie zunächst in den Koeffizienten geschrieben und mit 
       \eqref{eq:beta_QCDxdQCD:spur_determinante} verglichen. Es bietet sich an, 
-      eine Fallunterscheidung in den Vorzeichen von $Y_1$ und $Y_2$ zu machen.
+      eine Fallunterscheidung in den Vorzeichen von $Y_\s$ und $Y_\d$ zu machen.
       Es folgt 
       \begin{enumerate}
-      \item $Y_1>0 \land Y_2>0$: Dann ist $\left.\Sp\right|_*<0$ nicht 
+      \item $Y_\s>0 \land Y_\d >0$: Dann ist $\left.\Sp\right|_*<0$ nicht 
 	möglich.
-      \item $Y_1<0 \land Y_2<0$: Für einen physikalischen Fixpunkt 
+      \item $Y_\s<0 \land Y_\d<0$: Für einen physikalischen Fixpunkt 
 	muss 
 	\begin{equation}
-	 Z_1 X_2 > X_1 Y_2 \quad \land \quad Z_2 X_1 > Y_1 X_2 
+	 Z_\s X_\d > X_\s Y_\d \quad \land \quad Z_\d X_\s > Y_\s X_\d 
 	 \label{eq:beta_QCDxdQCD:4UV}
 	 \quad .
 	\end{equation}
 	Wie an \eqref{eq:beta_QCDxdQCD:Z1g} zu sehen ist, müssen beide $Z_i>0$ 
 	sein, dann folgt, dass $X_i>0$ ist. Die Rechnung ohne Skalare ergibt 
         \begin{align}
-	 &X_1>0 \overset{\eqref{eq:beta_QCDxdQCD:X1g}}{\Rightarrow}
+	 &X_\s>0 \overset{\eqref{eq:beta_QCDxdQCD:X1g}}{\Rightarrow}
 	\Nfc>\frac{11}{2}\Nc \quad \land \quad 
-	Y_1<0 \overset{\eqref{eq:beta_QCDxdQCD:Y1g}}{\Rightarrow} 
+	Y_\s<0 \overset{\eqref{eq:beta_QCDxdQCD:Y1g}}{\Rightarrow} 
 	\Nfc < \frac{34}{13-\frac{3}{\Nc^2}} \Nc \\
 	 &\Rightarrow \frac{11}{2}  < \frac{34}{13-\frac{3}{\Nc^2}} \quad 
 	 \blitz
 	\end{align}
-	Das Einführen von Skalaren begünstigt $X_1 > 0$, ist aber mathematisch 
+	Das Einführen von Skalaren begünstigt $X_\s > 0$, ist aber mathematisch 
 	nur für $\Nc=1$ oder $\Nd =1$ möglich. Da die $SU(1)$ die 
 	Multiplikation mit Eins ist, 
         ist dieser Fall uninteressant.
@@ -196,7 +207,7 @@
 	Für $\Nc = 1$ folgt die untere Grenze $\Nsc \geq 14$, für $\Nc\geq 2$ 
 	die obere Grenze \\$\Nsc \lessapprox -200$, es gibt also keine 
 	physikalisch sinnvolle Lösung. 
-      \item $Y_1$ und $Y_2$ haben verschiedene Vorzeichen: Damit 
+      \item $Y_\s$ und $Y_\d$ haben verschiedene Vorzeichen: Damit 
       $\left.\Det\right|_*>0$ ist muss es ein $Z_i<0$ geben, was in der 
       gewählten Darstellung \eqref{eq:beta_QCDxdQCD:Z1g} nicht 
       möglich ist.
@@ -220,34 +231,34 @@
      \subsubsection{Sattelpunkt}\label{beta_QCDxdQCD:fix4:Sattelpunkt}
       Am physikalischen Sattelpunkt muss gelten
       \begin{equation}
-      \alpha_1^* > 0 \quad \land \quad
-      \alpha_2^* > 0 \quad \land \quad
+      \alpha_\s^* > 0 \quad \land \quad
+      \alpha_\d^* > 0 \quad \land \quad
       \left. \Det \right |_* < 0  \quad ,
       \label{eq:beta_QCDxdQCD:alpha4_Sattelpunkt}
       \end{equation}
       in Koeffizienten ausgedrückt bedeutet das 
       \begin{equation}
-       Z_1 X_2 < X_1 Y_2 \quad \land \quad Z_2 X_1 < X_2 Y_1 \quad \land \quad 
-       Z_1 Z_2 > Y_1Y_2\quad .
+       Z_\s X_\d < X_\s Y_\d \quad \land \quad Z_\d X_\s < X_\d Y_\s \quad \land \quad 
+       Z_\s Z_\d > Y_\s Y_\d \quad .
        \label{eq:beta_QCDxdQCD:sattelpunkt}
       \end{equation}
       Da es für den Sattelpunkt weniger Bedingungen als für einen 
       UV-attraktiven Fixpunkt gibt, sind Falluntescheidungen in den 
       Vorzeichen von $Y_i$ und $X_i$ nötig. Es wird sich zeigen, dass nur 
-      Fälle mit $X_1<0 \land X_2<0$ möglich sind, sodass es obere Schranken 
+      Fälle mit $X_\s <0 \land X_\d<0$ möglich sind, sodass es obere Schranken 
       für die Teilchenzahlen und $\Nd$ gibt.
       
       \begin{enumerate}
-       \item $Y_1 > 0 \land Y_2 > 0$:
+       \item $Y_\s > 0 \land Y_\d > 0$:
 	 \begin{enumerate}
-	  \item $X_1>0 \land X_2 >0$: Aus  
+	  \item $X_\s>0 \land X_\d >0$: Aus  
 	  \eqref{eq:beta_QCDxdQCD:sattelpunkt} folgt 
 	  \begin{equation}
-	  Z_1<\frac{X_1}{X_2} Y_2 \quad \land \quad Z_2 < \frac{X_2}{X_1} Y_1
-	  \quad\land\quad Z_1 Z_2 > Y_1 Y_2
+	  Z_\s <\frac{X_\s}{X_\d} Y_\d \quad \land \quad Z_\d < \frac{X_\d}{X_\s} Y_\s
+	  \quad\land\quad Z_\s Z_\d > Y_\s Y_\d
 	  \end{equation}
 	  was jedoch nicht gleichzeitig möglich ist.
-	 \item $X_1<0 \land X_2<0$: \label{Fall1b}
+	 \item $X_\s<0 \land X_\d<0$: \label{Fall1b}
 	  Man erhält obere Begrenzungen für die Anzahl der joint-Fermionen 
 	  \begin{align}
 	   \nfc+\Nd \nfj < \Nc \quad\land\quad \text{c} \leftrightarrow\text{d}
@@ -267,25 +278,25 @@
 	   \nfj =1 \quad ,
 	  \end{equation}
 	  weitere Lösungen gibt es nur für $\nfc<6$ oder $\Nc>3$.
-	 \item $X_1<0 \land X_2 >0$:
+	 \item $X_\s<0 \land X_\d >0$:
 	  Dann müsste
 	  \begin{equation}
-	   \underbrace{Z_1 X_2}_{>0} < \underbrace{X_1 Y_2}_{<0} \quad 
+	   \underbrace{Z_\s X_\d}_{>0} < \underbrace{X_\s Y_\d}_{<0} \quad 
 	   \blitz \quad ,
 	  \end{equation}
 	  dieser Fall kommt für physikalische Fixpunkte also nicht in Frage.
 	 \end{enumerate}
-	\item $Y_1 > 0 \land Y_2 < 0$:
+	\item $Y_\s > 0 \land Y_\d < 0$:
 	  \begin{enumerate}
-	   \item $X_2>0$:
-	      Wie schon gezeigt ist $Y_2<0 \land X_2>0$ nicht möglich. Dies gilt 
+	   \item $X_\d>0$:
+	      Wie schon gezeigt ist $Y_\d<0 \land X_\d>0$ nicht möglich. Dies gilt 
 	      in jeder Darstellung \cite{Bond_Litim}.
-	   \item $X_1>0 \land X_2<0$: Es kommt direkt zum Widerspruch, 
+	   \item $X_\s >0 \land X_\d <0$: Es kommt direkt zum Widerspruch, 
 	      \begin{equation}
-	       \underbrace{Z_2 X_1}_{>0} <\underbrace{ X_2 Y_1}_{<0} \quad 
+	       \underbrace{Z_\d X_\s}_{>0} <\underbrace{ X_\d Y_\s}_{<0} \quad 
 	       \blitz \quad .
 	      \end{equation}
-	   \item $X_1<0 \land X_2<0$: \label{Fall2c}
+	   \item $X_\s<0 \land X_\d <0$: \label{Fall2c}
 	      Auch hier erhält man eine Begrenzung für $\nfj$
 	      \begin{align}
 	        \nfc + \Nd \nfj<\frac{34}{13-\frac{3}{\Nc^2}} \Nc \quad
@@ -296,10 +307,10 @@
 	      Gleichzeitige Lösungen zu \eqref{eq:beta_QCDxdQCD:sattelpunkt} 
 	      mit $\Nc=3$ und $\nfc\geq 6$ gibt es nicht.
 	  \end{enumerate}
-	 \item $Y_1<0 \land Y_2<0$:
+	 \item $Y_\s<0 \land Y_\d<0$:
 	  \begin{enumerate}
 	   \item Ein $X_i>0$: Wieder ist $Y_i<0 \land X_i>0$ nicht möglich.
-	   \item $X_1<0 \land X_2 < 0$: Hier folgt \label{Fall3b}
+	   \item $X_\s<0 \land X_\d < 0$: Hier folgt \label{Fall3b}
 	    \begin{align}
 	     \nfc + \Nd \nfj<\frac{34}{13-\frac{3}{\Nc^2}}  
 	        \quad \land \quad \text{c} \leftrightarrow \text{d} \\
@@ -380,31 +391,31 @@
     einfach gezeigt werden, dass dieser Fixpunkt nicht in jede Richtung 
     UV-attraktiv sein kann.
     
-    Damit $\alpha^{*}_1=-X_1/Y_1 > 0$, muss $X_1<0$ und $Y_1>0$. Es wurde 
+    Damit $\alpha^{*}_\s =-X_\s /Y_\s > 0$, muss $X_\s <0$ und $Y_\s >0$. Es wurde 
     in \ref{beta_QCDxdQCD:fix4:UV} gezeigt, das die umgekehrte Vorzeichenwahl 
     physikalisch nicht sinnvoll ist. Gleichung 
     \eqref{eq:beta_im_R2:stab_matrix_0} zeigt nun 
-    $\lambda_1=(\alpha^*_1)^2Y_1 > 0$ zu $e_1=(1,0)^\text{T}$, folglich muss 
-    die $\alpha_1$-Achse UV-repulsiv bezüglich $\alpha^{*}$ sein. 
+    $\lambda_1 =(\alpha^*_\s )^2 Y_\s > 0$ zu $e_1=(1,0)^\text{T}$, folglich muss 
+    die $\alpha_\s$-Achse UV-repulsiv bezüglich $\alpha^{*}$ sein. 
     
     Am Fixpunkt ergibt sich aus \eqref{eq:beta_im_R2:lambda} und 
     \eqref{eq:beta_im_R2:stab_matrix_0} 
     \begin{equation}
      \lambda_2=0 \quad , \quad  e_2=\begin{pmatrix}
-                            -Z_1 /Y_1 \\ 1
+                            -Z_\s  /Y_\s \\ 1
                            \end{pmatrix}
                            \quad \text{und} \quad
-    \quad \frac{\partial \lambda_2}{\partial \alpha_2} = 2 X_2 
-    -2\frac{X_1}{Y_1} Z_2   \quad .
+    \quad \frac{\partial \lambda_2}{\partial \alpha_\d} = 2 X_\d
+    -2\frac{X_\s}{Y_\s} Z_\d  \quad .
     \end{equation}
     Die Bedingung dafür, dass $\alpha^{*}$ ein Sattelpunkt ist, ist somit 
     \begin{equation}
-     X_1<0 \quad \land \quad Y_1>0 \quad \land \quad X_2 Y_1 < Z_2 X_1
+     X_\s <0 \quad \land \quad Y_\s >0 \quad \land \quad X_\d Y_\s < Z_\d X_\s
      \quad . \label{eq:beta_QCDxdQCD:Bedingung3}
     \end{equation}
-    Da die Vorzeichen $X_1<0$, $Y_1>0$ und $X_2<0$ festgelegt sind, 
+    Da die Vorzeichen $X_\s <0$, $Y_\s >0$ und $X_\d <0$ festgelegt sind, 
     kann bereits ohne Fallunterscheidung eine Grenze gefunden werden.
-    Aus $X_1<0 \land X_2<0$ folgt allgemein (vgl. \eqref{Fall1b})
+    Aus $X_\s <0 \land X_\d <0$ folgt allgemein (vgl. \eqref{Fall1b})
 	\begin{equation}
 	  \left(\nfj+\frac{1}{4} \nsj \right)^2 + \left( \nfj+\frac{1}{4}\nsj 
 	  \right) \left( \nfd +\frac14 \nsd \right)\frac1\Nc 
@@ -418,7 +429,7 @@
     perturbative Fixpunkte zu modellieren, wird es nicht nötig sein, Skalare 
     einzuführen.
     Aus 
-    \eqref{eq:beta_QCDxdQCD:Fix3_ohne_Skalare} und $X_1<0$ folgen allgemeine 
+    \eqref{eq:beta_QCDxdQCD:Fix3_ohne_Skalare} und $X_\s <0$ folgen allgemeine 
     Grenzen für $\nfj$, $\Nd$ und $\nfd$
     \begin{equation}
     \begin{aligned}
@@ -434,7 +445,7 @@
     für $\Nc=3$ und $\nfc=6$. 
     \input{abschnitte/beta_QCDxdQCD/tab/Fix3_ohne_Skalare.tex}
     Tabelle \ref{tab:beta_QCDxdQCD:Fix3_ohne_Skalare} zeigt die möglichen 
-    Teilchenanzahlen und die Komponente $\alpha^{*}_1$. Im Gegensatz zum 
+    Teilchenanzahlen und die Komponente $\alpha^{*}_\s$. Im Gegensatz zum 
     vollständig wechselwirkenden Fixpunkt $\alpha^{*}_\text{vw}$ ist $\alpha^{*}_\text{tw1}$ 
     auch für eine Theorie ohne Skalare in einem perturbativ sinnvollen 
     Bereich, demnach können hier zwar wieder Skalare eingeführt werden, 
@@ -446,10 +457,10 @@
     \input{abschnitte/beta_QCDxdQCD/tab/Fix2_ohne_Skalare.tex}
     Aufgrund der Symmetrie der $\beta$-Funktion in den Indizes $\text{c}$ und 
     $\text{d}$ bzw. $1$ und $2$ ist das allgemeine Vorgehen wie bei $\alpha^{*}_\text{tw1}$. Der Fixpunkt 
-    ist in $\alpha_2$-Richtung repulsiv und das Kriterium für einen Sattelpunkt 
+    ist in $\alpha_\d$-Richtung repulsiv und das Kriterium für einen Sattelpunkt 
     analog zu \eqref{eq:beta_QCDxdQCD:Bedingung3} 
     \begin{equation}
-     X_2<0 \quad \land \quad Y_2>0 \quad \land \quad X_1 Y_2 < Z_1 X_2
+     X_\d <0 \quad \land \quad Y_\d >0 \quad \land \quad X_\s Y_\d < Z_\s X_\d
      \quad .
     \end{equation}
     Ähnlich wie bei Fixpunkt $\alpha^{*}_\text{tw1}$ ist es auch bei $\alpha^{*}_\text{tw2}$ nicht 
@@ -482,8 +493,8 @@
     $\beta$-Funktion der Eichkopplungen wurde von Machacek und Vaughn 
     als
     \begin{equation}
-     \beta^\text{Yukawa}_1(g) = -g_1^3(16 \uppi^2)^{-2} \frac{2}{d(G)} 
-     \left[ C_2(R_1) \delta^{il} Y^{l,r,js}(Y^{i,r,js})^*\right]
+     \beta^\text{Yukawa}_\s(g) = -g_\s^3(16 \uppi^2)^{-2} \frac{2}{d(G)} 
+     \left[ C_2(R_\s) \delta^{il} Y^{l,r,js}(Y^{i,r,js})^*\right]
      \label{eq:beta_QCDxdQCD:beta_g_Yukawa}
     \end{equation}
     berechnet \cite{MACHACEK198383}. Sie haben außerdem festgestellt, dass nur 
@@ -491,34 +502,34 @@
     beiträgt. Mit \eqref{eq:QCDxdQCD:Yukawa_Struktur} lässt sich 
     \eqref{eq:beta_QCDxdQCD:beta_g_Yukawa} zu
     \begin{align}
-     \beta^\text{Yukawa}_1(g) &=
-     -g_1^3|Y|^2 (16 \uppi^2)^{-2}\frac{2 C_2(R_1) d(R_1) d(R_2)}{d(G_1)} 
+     \beta^\text{Yukawa}_\s(g) &=
+     -g_\s^3|Y|^2 (16 \uppi^2)^{-2}\frac{2 C_2(R_\s) d(R_\s) d(R_\d)}{d(SU(\Nc))} 
      \nsj\\
-     &= -g_1^3|Y|^2(16 \uppi^2)^{-2} \nfc\nfd\nsj \Nd
+     &= -g_\s^3|Y|^2(16 \uppi^2)^{-2} \nfc\nfd\nsj \Nd
     \end{align}
     zusammenfassen. Bemerkenswert ist hierbei, dass wegen 
     \begin{equation}
      C_2(R) d(R) = T(R)d(G) \quad , \quad T(R)=\nicefrac{1}{2}\,\,\,\text{
      für $SU(N)$}
     \end{equation}
-    der Yukawa-Term in $\beta_1$ unabhängig von $\Nc$ ist. Dies ist darauf 
+    der Yukawa-Term in $\beta_\s$ unabhängig von $\Nc$ ist. Dies ist darauf 
     zurückzuführen, dass QCD- und joint-Teilchen gleich unter der $SU(\Nc)$ 
     transformieren. Mit $\alpha_Y:=\nicefrac{|Y|^2}{4\uppi}$ und 
     \begin{equation}
-     A_1 :=\frac{2}{16\uppi^2} \nfc\nfd\nsj \Nd \quad \text{sowie} \quad
-     A_2 :=\frac{2}{16\uppi^2} \nfc\nfd\nsj \Nc \quad 
+     A_\s :=\frac{2}{16\uppi^2} \nfc\nfd\nsj \Nd \quad \text{sowie} \quad
+     A_\d :=\frac{2}{16\uppi^2} \nfc\nfd\nsj \Nc \quad 
     \end{equation}
     wird \eqref{eq:beta_QCDxdQCD:beta_alpha} zu 
     \begin{equation}
    \begin{pmatrix}
-    \beta_1(\alpha) \\ \beta_2(\alpha)
+    \beta_\s(\alpha) \\ \beta_\d(\alpha)
    \end{pmatrix}
     = 
     \begin{pmatrix}
-       X_1 \alpha_1^2 + Y_1 \alpha_1^3 + Z_1 \alpha_1^2 \alpha_2-
-       A_1\alpha_1^2\alpha_Y\\ 
-       X_2 \alpha_2^2 + Y_2 \alpha_2^3 + Z_2 \alpha_1 \alpha_2^2-
-       A_2\alpha_2^2 \alpha_Y
+       X_\s \alpha_\s^2 + Y_\s \alpha_\s^3 + Z_\s \alpha_\s^2 \alpha_\d -
+       A_\s\alpha_\s^2\alpha_Y\\ 
+       X_\d \alpha_\d^2 + Y_\d \alpha_\d^3 + Z_\d \alpha_\s \alpha_\d^2-
+       A_\d \alpha_\d^2 \alpha_Y
                     \end{pmatrix}
      \label{eq:beta_QCDxdQCD:beta_alpha_Yukawa} \quad .
   \end{equation}
@@ -527,9 +538,9 @@
   Als Erweiterung zu $\alpha^{*}_\text{tw1}$ (vgl. \eqref{eq:beta_QCDxdQCD:Fixpunkte}) 
   können die Fixpunkte
   \begin{equation}
-   \widehat{\alpha}^*=\left(-\frac{X_1}{Y_1},0,0\right) 
+   \widehat{\alpha}^*=\left(-\frac{X_\s}{Y_\s},0,0\right) 
    \quad \text{und} \quad 
-   {\alpha}^*=\left(\alpha_1^*,0, \alpha_Y^*\right)
+   {\alpha}^*=\left(\alpha_\s^*,0, \alpha_Y^*\right)
   \end{equation}
   gefunden werden.
 %   Dabei stellt $\widehat{\alpha}^*$ die triviale Erweiterung des 
@@ -537,42 +548,42 @@
   Aus 
   \eqref{eq:beta_QCDxdQCD:beta_alpha_Yukawa} folgt 
   \begin{equation}
-   X_1 + Y_1 \alpha_1^* -A_1 \alpha_Y^*=0  \label{eq:beta_QCDxdQCD:Yukawa_a2}
+   X_\s + Y_\s \alpha_\s^* -A_\s \alpha_Y^*=0  \label{eq:beta_QCDxdQCD:Yukawa_a2}
    \quad\Rightarrow\quad
-   \alpha_1^*> - \frac{X_1}{Y_1} = \widehat{\alpha}_1^* \quad ,
+   \alpha_\s^*> - \frac{X_\s}{Y_\s} = \widehat{\alpha}_\s^* \quad ,
   \end{equation}
-  wobei $A_1>0$ und $\alpha_Y^*>0$ ausgenutzt wurde. Auf ähnliche Weise kann 
+  wobei $A_\s>0$ und $\alpha_Y^*>0$ ausgenutzt wurde. Auf ähnliche Weise kann 
   für den vollständig wechselwirkenden Fixpunkt $\alpha^{*}_\text{vw}$ verfahren 
   werden. Für die Fixpunkte
   \begin{equation}
-   \widehat{\alpha}^*=\left( \frac{Z_1X_2-X_1Y_2}{Y_1Y_2-Z_1Z_2},
-   \frac{Z_2X_1-X_2Y_1}{Y_1Y_2-Z_1Z_2},0\right) 
+   \widehat{\alpha}^*=\left( \frac{Z_\s X_\d -X_\s Y_\d}{Y_\s Y_\d -Z_\s Z_\d},
+   \frac{Z_\d X_\s -X_\d Y_\s}{Y_\s Y_\d-Z_\s Z_\d},0\right) 
    \quad \text{und} \quad 
-   {\alpha}^*=\left(\alpha_1^*,\alpha_2^*, \alpha_Y^*\right) 
+   {\alpha}^*=\left(\alpha_\s^*,\alpha_\d^*, \alpha_Y^*\right) 
    \label{eq:beta_QCDxdQCD:Yukawa_a4}
   \end{equation}
   folgt 
   \begin{equation}
-   \alpha_1^*>\widehat{\alpha}_1^* \quad \text{und} \quad 
-   \alpha_2^*>\widehat{\alpha}_2^* \quad .
+   \alpha_\s^*>\widehat{\alpha}_\s^* \quad \text{und} \quad 
+   \alpha_\d^*>\widehat{\alpha}_\d^* \quad .
   \end{equation}
   Man erkennt, dass eine Yukawa-Kopplung mit $\alpha_Y(t\to\infty)\neq 0$ die 
-  Kopplungskonstanten $\alpha_1^*$ und $\alpha_2^*$ stets vergrößert. Hier 
+  Kopplungskonstanten $\alpha_\s^*$ und $\alpha_\d^*$ stets vergrößert. Hier 
   ist eine genaue Berechnung von $\beta_Y$ nötig, um zu überprüfen ob  
-  $\alpha_1^*$ und $\alpha_2^*$ weiterhin im perturbativen Bereich liegen 
+  $\alpha_\s^*$ und $\alpha_\d^*$ weiterhin im perturbativen Bereich liegen 
   können. Hinsichtlich Abbildung \ref{fig:beta_QCDxdQCD:Fix4_mit_Skalaren} 
   ist zu erwarten, dass die Untergrenze für $\nsj$ um physikalische und 
   perturbative Fixpunkte zu erhalten durch die nicht verschwindende 
   Yukawa-Kopplung erhöht wird. An \eqref{eq:beta_QCDxdQCD:Yukawa_a2} bzw. 
   \eqref{eq:beta_QCDxdQCD:Yukawa_a4} erkennt man außerdem
   \begin{equation}
-   \alpha_Y^*=\frac{X_1+Y_1\alpha_1^*+Z_1 \alpha_2^*}{A_1} 
-   \left( = \frac{X_2+Y_2\alpha_2^*+Z_2 \alpha_1^*}{A_2} \right) \quad .
+   \alpha_Y^*=\frac{X_\s +Y_\s \alpha_\s^*+Z_\s \alpha_\d^*}{A_\s} 
+   \left( = \frac{X_\d+Y_\d\alpha_\d^*+Z_\d \alpha_\s^*}{A_\d} \right) \quad .
   \end{equation}
-  Da $X_1$, $Y_1$ und $Z_1$ unabhängig von $\nfd$ sind währen $A\propto \nfd$, 
+  Da $X_\s$, $Y_\s$ und $Z_\s$ unabhängig von $\nfd$ sind währen $A_\s \propto \nfd$, 
   lässt sich vermuten, dass eine hohe Anzahl von dQCD-Fermionen die 
   Perturbativität von $\alpha_Y$ begünstigt, unter der Annahme, dass sich 
-  $\alpha_1^*$ und $\alpha_2^*$ ähnlich verhalten wie im Yukawa-freien Fall.
+  $\alpha_\s^*$ und $\alpha_\d^*$ ähnlich verhalten wie im Yukawa-freien Fall.
   
  
 

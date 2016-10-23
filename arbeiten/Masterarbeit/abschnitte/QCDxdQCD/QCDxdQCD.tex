@@ -22,7 +22,7 @@
     \begin{equation}
      \mathcal{L}_\text{QCD} =\bar{\psi}_i^f \left( 
      \i \gamma^\mu \partial_\mu \delta_{ij} 
-     -g_1 \gamma^\mu t^A_{ij} \mathcal{A}_\mu^A
+     -g_\s \gamma^\mu t^A_{ij} \mathcal{A}_\mu^A
      -m_f \delta_{ij}
      \right)\psi_j^f -\frac{1}{4} F_{\mu \nu}^A F^{A \,\,\, \mu\nu}
      \label{eq:QCDxdQCD:L_QCD}
@@ -30,7 +30,7 @@
     geschrieben werden \cite{PDG:QCD}. Dabei stellt $\psi_b^f$ ein Quarkfeld mit 
     Colour $i$ und Flavour ${f\in\{1,2,\ldots,\nfc\}}$ 
     und mit der Masse 
-    $m_f$ dar, $g_1$ ist die Kopplungskonstante der QCD. Die Indizes $i,j\in
+    $m_f$ dar, $g_\s$ ist die Kopplungskonstante der QCD. Die Indizes $i,j\in
     \{1,2,\ldots \Nc\}$ gehören zur fundamentalen Darstellung, die  
     adjungierten Darstellung wird mit ${A\in \{1,2,\dots,\Nc^2-1\} }$ dargestellt. Man 
     nennt $\psi=(\psi_1,\psi_2,\ldots,\psi_{\Nc})^\text{T}$ ein 
@@ -70,7 +70,7 @@
     In \cite{Scale_of_dark_QCD} wird die dQCD eingeführt, um die DM Massendichte 
     $\Omega_\text{DM}$ im Universum zu erklären. Dazu wird das 
     Niederenergieverhalten der neu eingeführten Kopplungskonstanten 
-    $g_2$ auf die Confinement Scale $\Lambda_\text{dQCD}$ untersucht, 
+    $g_\d$ untersuch. Es wird eine Energieskala $\Lambda_\text{dQCD}$  gefunden, 
     die analog zur QCD Confinement Scale $\Lambda_\text{QCD}$ die Größenordnung 
     der Baryonenmasse bestimmt. Die Theorie ist aber, ebenfalls analog zur QCD, 
     auch bis zu beliebig hohen Energieskalen anwendbar und soll hier auf ihr 
@@ -80,7 +80,7 @@
     \begin{equation}
      \mathcal{L}_\text{dQCD} = \bar{\xi}_r^f \left( 
      \i \gamma^\mu \partial_\mu \delta_{rs} 
-     -g_2 \gamma^\mu \widetilde{t}^M_{ts} \widetilde{\mathcal{A}}_\mu^M
+     -g_\d \gamma^\mu \widetilde{t}^M_{ts} \widetilde{\mathcal{A}}_\mu^M
      -\widetilde{m}_f \delta_{rs}
      \right)\xi_s^f -\frac{1}{4} \widetilde{F}_{\mu \nu}^M 
      \widetilde{F}^{M \,\,\, \mu\nu}
@@ -102,11 +102,11 @@
     \begin{equation}
      \mathcal{L}_\text{QCD}^\text{S} =
      \left( \left[ \i \delta_{ji} \partial_\mu - 
-     g_1 t^A_{ji} \mathcal{A}^A_\mu -\frac{1}{2}\left(m_f^\text{S}\right)^2 
+     g_\s t^A_{ji} \mathcal{A}^A_\mu -\frac{1}{2}\left(m_f^\text{S}\right)^2 
      \delta_{ji}
      \right] \phi^f_i \right)^\dagger 
      \left( \left[ \i \delta_{ji} \partial^\mu- 
-     g_1 t^A_{ji} \mathcal{A}^{A\,\,\, \mu} -\frac{1}{2}\left(m_f^\text{S}
+     g_\s t^A_{ji} \mathcal{A}^{A\,\,\, \mu} -\frac{1}{2}\left(m_f^\text{S}
      \right)^2
      \delta_{ji}
      \right] \phi^f_i \right)  
@@ -115,11 +115,11 @@
      \begin{equation}
      \mathcal{L}_\text{dQCD}^\text{S} =
      \left( \left[ \i \delta_{sr}\partial_\mu - 
-     g_2 \widetilde{t}^M_{sr} \widetilde{\mathcal{A}}^M_\mu -\frac{1}{2}
+     g_\d \widetilde{t}^M_{sr} \widetilde{\mathcal{A}}^M_\mu -\frac{1}{2}
      \left(\widetilde{m}_f^\text{S}\right)^2 \delta_{sr}
      \right] \chi^f_r \right)^\dagger
      \left( \left[ \i \delta_{sr}\partial^\mu - 
-     g_2 \widetilde{t}^M_{sr} \widetilde{\mathcal{A}}^{M\,\,\, \mu} -
+     g_\d \widetilde{t}^M_{sr} \widetilde{\mathcal{A}}^{M\,\,\, \mu} -
      \frac{1}{2}\left(\widetilde{m}_f^\text{S}\right)^2 \delta_{sr}
      \right] \chi^f_r \right) 
     \end{equation}
@@ -141,8 +141,8 @@
     \begin{align}
       \mathcal{L}_\text{joint} &= \bar{\zeta}_{ir}^f \left( 
      \i \gamma^\mu \partial_\mu \delta_{ij} \delta_{rs} 
-     -g_1 \gamma^\mu t^A_{ij} \mathcal{A}_\mu^A \delta_{rs}
-     -g_2 \gamma^\mu \widetilde{t}^M_{rs} \widetilde{\mathcal{A}}_\mu^M 
+     -g_\s \gamma^\mu t^A_{ij} \mathcal{A}_\mu^A \delta_{rs}
+     -g_\d \gamma^\mu \widetilde{t}^M_{rs} \widetilde{\mathcal{A}}_\mu^M 
      \delta_{ij}
      -m^\text{joint}_f \delta_{ij}\delta_{rs}
      \right)\zeta_{js}^f 
@@ -150,16 +150,16 @@
      \begin{split}
      \mathcal{L}_\text{joint}^\text{S}&=
      \left( \left[ \i \delta_{ji}\delta_{sr}\partial_\mu- 
-     g_1 t^A_{ji} \mathcal{A}^A_\mu \delta_{sr} 
+     g_\s t^A_{ji} \mathcal{A}^A_\mu \delta_{sr} 
      - 
-     g_2 \widetilde{t}^M_{sr} \widetilde{\mathcal{A}}^M_\mu \delta_{ji} 
+     g_\d \widetilde{t}^M_{sr} \widetilde{\mathcal{A}}^M_\mu \delta_{ji} 
      -\frac{1}{2}\left(m_f^\text{S,joint}\right)^2 \delta_{ji}\delta_{sr}
      \right] \eta^f_{ir} \right)^\dagger
      \\ &
      \left( \left[ \i \delta_{ji}\delta_{sr}\partial_\mu- 
-     g_1 t^A_{ji} \mathcal{A}^A_\mu \delta_{sr} 
+     g_\s t^A_{ji} \mathcal{A}^A_\mu \delta_{sr} 
      - 
-     g_2 \widetilde{t}^M_{sr} \widetilde{\mathcal{A}}^M_\mu \delta_{ji} 
+     g_\d \widetilde{t}^M_{sr} \widetilde{\mathcal{A}}^M_\mu \delta_{ji} 
      -\frac{1}{2}\left(m_f^\text{S,joint}\right)^2 \delta_{ji}\delta_{sr}
      \right] \eta^f_{ir} \right)    
      \end{split}
@@ -177,9 +177,10 @@
     Die bisher beschriebenen Lagrangedichten beinhalten ausschließlich 
     Eichwechslewirkungen, es gibt jedoch weitere Arten von Wechselwirkungen 
     bei denen keine Eichfelder beteiligt sind, 3-Skalar-Kopplungen, 
-    4-Skalar-Kopplungen und Yukawa-Kopplungen. Im Folgenden wird kurz begündet, 
-    warum diese drei Arten der Kopplung im weiteren Verlauf der Arbeit nicht 
-    betrachtet werden.
+    4-Skalar-Kopplungen und Yukawa-Kopplungen. Im Folgenden werden 
+    Bedingungen an die Struktur der Yukawa-Terme hergeleitet und es 
+    wird kurz begündet, 
+    warum 3- und 4-Skalar-Kopplungen nicht weiter betrachtet werden.
     \begin{description}
       \item[Yukawa-Kopplung:]
       
@@ -259,9 +260,9 @@
     \eqref{eq:QCDxdQCD:Yukawa_QCD} zu
     \begin{equation}
      t^A_{ii} + t^A_{jj} + t^A_{kk} = 0 \quad \text{mit} 
-     \quad i\neq j \neq k \quad , \label{eq:QCDxdQCD:Yukawa_diagonal}
+     \quad i\neq j \neq k \quad . \label{eq:QCDxdQCD:Yukawa_diagonal}
     \end{equation}
-    was genau für eine $SU(3)$ als $\text{Sp}t^A=0$ gültig ist. Da in dieser 
+    Dies ist genau für eine $SU(3)$ gültig. Da in dieser 
     Arbeit das Hauptinteresse im Verhalten der Fixpunkte in Abhängigkeit von 
     der Eichgruppe liegt, ist es nicht sinnvoll Yukawa-Terme zu 
     berücksichtigen, die nur in drei von beliebig vielen 

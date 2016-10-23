@@ -17,7 +17,7 @@
   weiter, dass solche Verhältnisse nicht sensitiv auf die Gluon PDF sind und 
   schließen daraus, dass das Laufen von $\alpha_\text{QCD}$ den wichtigsten 
   Einfluss auf solche Observablen hat. Aus diesem Grund wird nun das Laufen 
-  von $\alpha_\text{QCD}$ im SM mit $\alpha_1$ aus der \QCDxdQCD verglichen. 
+  von $\alpha_\text{QCD}$ im SM mit $\alpha_\s$ aus der \QCDxdQCD verglichen. 
   
   Die bisher untersuchten $\beta$-Funktionen gelten nur für Energien oberhalb 
   der Massenskala $M$ der schwersten neuen Teilchen \cite{Becciolini:2014lya}. 
@@ -28,8 +28,9 @@
   \cite{Bednyakov2015262}. Für das dunkle Materie Szenario berechnen Bai und 
   Schwaller eine Entkopplungsskala von $Q \gtrsim 500\,\text{GeV}$. An dem 
   entsprechenden Phasenraumdiagramm in Abbildung \ref{fig:messbarkeit:IR-Fix}
-  ist zu sehen, dass in ihrem Szenario $\alpha^{*2}$ und $\alpha^{*3}$ als 
-  interessante UV-Fixpunkte in Frage kommen. Als Entkopplungsskala werden die 
+  ist zu sehen, dass in ihrem Szenario $\alpha^{*}_\text{tw1}$ und 
+  $\alpha^{*}_\text{tw2}$ als 
+  UV-Fixpunkte in Frage kommen. Als Entkopplungsskala werden die 
   CMS Daten $Q=474\,\text{GeV}$ mit 
   $\alpha_\text{QCD}^\text{exp}(Q)=0.0936 \pm 0.0041$ verwendet
   \cite{Chatrchyan:2013txa}. Die Entkopplungsskala ist aus theoretischer Sicht 
@@ -57,7 +58,8 @@
     safety Szenario nicht in Frage. 
 
   
-    Ein besonderer Vorteil der Erweiterung auf eine halbeinfache $G_1\times G_2$ 
+    Ein besonderer Vorteil der Erweiterung auf eine halbeinfache 
+    $SU(\Nc)\times SU(\Nd)$ 
     ist die 
     Möglichkeit einen UV-Fixpunkt eindeutig extrapolieren zu können, da die 
     kritische Hyperfläche die Dimension $\dim(\alpha^*)=0$, 
@@ -69,7 +71,7 @@
     Phasenraum. Weil in diesem Fall jede Trajektorie in den Fixpunkt 
     hineinläuft kann keine Vorhersage für die Größen der Kopplungskonstanten 
     gemacht werden, dafür ist aber das UV-Verhalten von dem Startwert 
-    $\left(\alpha_1(t_0),\alpha_2(t_0)\right)$ unabhängig. Wie bereits 
+    $\left(\alpha_\s(t_0),\alpha_\d(t_0)\right)$ unabhängig. Wie bereits 
     gezeigt ist dieser Fall hier aber nicht möglich. Der für die 
     Extrapolation interessanteste Fall ist also $\dim \Mc = 1$, da die 
     UV-Hyperfläche dann aus zwei Trajektorien 
@@ -77,11 +79,11 @@
     entgegen der Richtung des attraktiven Eigenvektors. Bei 
     teilweise wechselwirkenden Fixpunkte ist nur eine dieser Richtungen 
     physikalisch sinnvoll.} und deshalb 
-    eindeutige Wertepaare $(\alpha_1(t),\alpha_2(t))$ vorhersagt. Wenn eine 
-    Kopplungskonstante (o.E.) $\alpha_1(t_0)$ bei einer Renormierungsskala 
+    eindeutige Wertepaare $(\alpha_\s(t),\alpha_\d(t))$ vorhersagt. Wenn die 
+    Kopplungskonstante $\alpha_\s(t_0)$ bei einer Renormierungsskala 
     $t_0$ bekannt ist, und unter der Annahme, dass der Fixpunkt für 
-    $t\to\infty$ erreicht wird, ist somit auch $\alpha_2(t_0)$ sowie das 
-    gesamte Verhalten beider Kopplungskonstanten bekannt.
+    $t\to\infty$ erreicht wird, ist somit auch $\alpha_\d(t_0)$ sowie das 
+    gesamte Hochenergieverhalten beider Kopplungskonstanten bekannt.
     
     Für die Extrapolation werden außerdem die folgende Beobachtungen ausgenutzt.
     \begin{enumerate}
@@ -102,12 +104,12 @@
     \begin{equation}
      \alpha_j(t_1) > \max \left\{ \left. \alpha^{*}_j \right|\text{alle 
      Fixpunkte } 
-     \alpha^{*}\right\} \quad ,
+     \alpha^{*}\, , \, j\in\{\s,\d\} \right\} \quad ,
     \end{equation}
     dann kann der gewünschte Fixpunkt nicht mehr für $t>t_1$ erreicht werden.
     Am Fixpunkt wird eine Basis $\{f_1,f_2\}$ gewählt\footnote{Der 
     Einfachheit halber kann die Basis aus Eigenvektoren oder die 
-    $\alpha_{1,2}$-Achsen gewählt werden, sofern dies 
+    $\alpha_{\s/\d}$-Achsen gewählt werden, sofern dies 
     zu keinen numerischen Schwierigkeiten führt.}
     und der Phasenraum in Ebenen mit Abstand $\epsilon$ 
     eingeteilt, die nullte Ebene geht dabei durch den Fixpunkt. Rekursiv werden 
@@ -141,20 +143,23 @@
     mit $t[0]=t_0$ berechnet.
     
     Um die so erhaltenen laufenden Kopplungen mit dem Standardmodell zu 
-    vergleichen wird noch die SM QCD Kopplung in $\mathcal{O}(\alpha^3)$ 
+    vergleichen wird noch die SM QCD Kopplung in $\mathcal{O}(\alpha^3_\text{QCD})$ 
     berechnet. Dies geschieht implizit über 
     \begin{equation}
-     F(\alpha(t)) = t-t_0 +F(\alpha(t_0)) \label{eq:messbarkeit:SM-running}
+     F(\alpha_\text{QCD}(t)) = t-t_0 +F(\alpha_\text{QCD}(t_0)) \label{eq:messbarkeit:SM-running}
     \end{equation}
     mit 
     \begin{equation}
-     F(\alpha) := \int \left(\beta_\text{QCD}\right)^{-1} \,\,\, 
-     \text{d}\,\alpha
-     = \int \left(X_1 \alpha^2 +Y_1 \alpha^3\right)^{-1} \,\,\, \text{d}\,\alpha
-     = \frac{Y_1}{X_1^2} \ln\left(\frac{\alpha Y_1+X_1}{\alpha}\right) -
-     \frac{1}{\alpha X_1}
+    \begin{aligned}
+     F(\alpha_\text{QCD}) :=& \int \left(\beta_\text{QCD}\right)^{-1} \,\,\, 
+     \text{d}\,\alpha_\text{QCD}
+     = \int \left(X_1 \alpha^2_\text{QCD} +Y_1 \alpha^3_\text{QCD}\right)^{-1} \,\,\, \text{d}\,\alpha_\text{QCD}
+     \\=& \frac{Y_\text{QCD}}{X_\text{QCD}^2} \ln\left(\frac{\alpha_\text{QCD} Y_\text{QCD}+X_\text{QCD}}{\alpha_\text{QCD}}\right) -
+     \frac{1}{\alpha_\text{QCD} X_\text{QCD}} \quad .
+	\end{aligned}    
     \end{equation}
-    und $\nfj=\nsj=0$. Der Einfachheit halber wird in 
+    Der Index QCD meint immer die SM QCD mit $\nfc=6$ und $\nfj=\nsj=0$. Der 
+    Einfachheit halber wird in 
     \eqref{eq:beta_allgemein:RG-Zeit} $\Lambda = Q$ gewählt, 
     sodass $t_0=0$ und $\alpha(0)$ die Startwerte sind.
     
@@ -162,8 +167,8 @@
   \subsection{Extrapolation von $\alpha^{*}_\text{tw1}$} \label{extrapol_afix3}
     \input{abschnitte/messbarkeit/fig/afix3}
     
-    Im Folgenden sind $\alpha_1(t)$ und $\alpha_2(t)$ die Kopplungskonstanten 
-    der \QCDxdQCD auf der UV-Hyperfläche, während $\alpha(t)$ die 
+    Im Folgenden sind $\alpha_\s(t)$ und $\alpha_\d(t)$ die Kopplungskonstanten 
+    der \QCDxdQCD auf der UV-Hyperfläche, während $\alpha_\text{QCD}(t)$ die 
     SM QCD Kopplungskonstante darstellt.
     
     Wegen 
@@ -172,11 +177,12 @@
             1 \\ 0
            \end{pmatrix} \quad , \quad
     e_2 \propto \begin{pmatrix}
-            -Z_1/Y_1 \\ 1
+            -Z_\s/Y_\d \\ 1
            \end{pmatrix} \quad , \quad
     \lambda_1 >0
     \end{equation}
-    und $Z_1>0$, $Y_1>0$ ist $\alpha_1$ steigend, während $\alpha$ als SM 
+    und $Z_\s>0$, $Y_\s>0$ ist $\alpha_\s$ steigend, während $\alpha_\text{QCD}$ als 
+    SM 
     Kopplung für hohe Energien fällt, wie in Abbildung 
     \ref{fig:messbarkeit:afix3} zu sehen ist. Aus $\alpha$-sensiblen 
     Observablen sollte es hier möglich sein, entsprechend hohe Grenzen an 
@@ -189,9 +195,9 @@
     Die laufenden Kopplungen für die Beispielmodelle a bis e (vgl. Tabelle 
     \ref{tab:messbarkeit:modelle}) sind in Abbildung 
     \ref{fig:messbarkeit:alpha_running_afix2} zu sehen, die relativen 
-    Abweichungen $\Delta \alpha_1 = (\alpha_1-\alpha)/\alpha$ in Abbildung 
-    \ref{fig:messbarkeit:relative_deviation}. Hier verhält sich $\alpha_1$ 
-    qualitativ wie $\alpha$, die relativen Abweichungen bei 
+    Abweichungen $\Delta \alpha = (\alpha_\s-\alpha_\text{QCD})/\alpha_\text{QCD}$ in Abbildung 
+    \ref{fig:messbarkeit:relative_deviation}. Hier verhält sich $\alpha_\s$ 
+    qualitativ wie $\alpha_\text{QCD}$, die relativen Abweichungen bei 
     $\mu = 1\,\text{TeV} \sim t \approx 0.746$ betragen hier 
     $\Delta \alpha \approx 3 \text{-} 5 \, \%$, bei $\mu = 2 \,\text{TeV} \sim t 
     \approx 1.439$ bereits $\Delta \alpha \approx 6\text{-}10 \, \%$ und liegen 
@@ -203,19 +209,19 @@
   \subsection{Extrapolation von $\alpha^{*}_\text{vw}$}
     \input{abschnitte/messbarkeit/fig/afix4.tex}
     Um ein SM-ähnliches Verhalten zu erzeugen muss 
-    $\alpha_1(0)>\alpha_1^{*}$. Der kleinste Wert für $\alpha_1^{*}
+    $\alpha_\s(0)>\alpha_\s^{*}$. Der kleinste Wert für $\alpha_\s^{*}
     \approx 0.1007$ wird für $\text{SM}+(\Nd=2, \nsd=1,\nsj=9)$ angenommen. Da 
-    $\alpha$ monoton fallend ist, muss die Entkopplungsskala $Q$ entsprechend 
+    $\alpha_\text{QCD}$ monoton fallend ist, muss die Entkopplungsskala $Q$ entsprechend 
     niedrig gewählt werden, um mit experimentellen Befunden im Einklang zu sein,  
     sollte jedoch die $t$-Masse $Q \approx 173.21 \, \text{GeV}$ 
     \cite{PDG:top} nicht unterschreiten.
     Mit \eqref{eq:messbarkeit:SM-running} wird 
     ausgehend von der bekannte Kopplungskonstanten 
-    $\alpha(M_Z)=0.1181$ \cite{PDG:QCD} mit effektiv 
-    $5$ SM-Fermionen $\alpha(Q)=0.1081$ berechnet. In Abbildung 
+    $\alpha_\text{QCD}(M_Z)=0.1181$ \cite{PDG:QCD} mit effektiv 
+    $5$ SM-Fermionen $\alpha_\text{QCD}(Q)=0.1081$ berechnet. In Abbildung 
     \ref{fig:messbarkeit:afix4} ist der weitere Verlauf für hohe Energien zu 
-    sehen. Nach Konstruktion verhalten sich $\alpha_1$ und $\alpha$ qualitativ 
-    ähnlich, da $\alpha_1^{*}$ jedoch sehr nah am Startwert liegt ist hier 
+    sehen. Nach Konstruktion verhalten sich $\alpha_\s$ und $\alpha_\text{QCD}$ qualitativ 
+    ähnlich. Da $\alpha_\s^{*}$ jedoch sehr nah am Startwert liegt ist hier 
     bei $1\,\text{TeV}$ die relative Abweichung bereits 
     $\Delta \alpha \approx 20 \%$.
     

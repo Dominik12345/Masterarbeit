@@ -7,7 +7,16 @@
    sich zwei Trajektorien nicht schneiden. Ein Flussdiagramm wie in Abbildung 
    \ref{beta_allgemein:fig:fluss_beispiel} zeigt das Verhalten von $\alpha(t)$ 
    indem das Geschwindigkeitsfeld $\beta$ durch Pfeile im Phasenraum 
-   dargestellt wird.
+   dargestellt wird. In dieser Arbeit zeigen die Pfeile stets in Richtung 
+   steigender Energie. An dem Flussdiagramm \ref{beta_allgemein:fig:fluss_beispiel} 
+   zeigt sich außerdem eine 
+   weitere Eigenschaft der Theorie. Die Fixpunkte\footnote{Die genaue Berechnung 
+   der Fixpunkte folgt in Abschnitt \ref{beta_QCDxdQCD}.} $\alpha^*_\text{tw1}$ und 
+   $\alpha^*_\text{vw}$ sind durch eine Trajektorie $\alpha(t)$ verbunden, für die 
+   in diesem Beispiel $\alpha(t\to-\infty)=\alpha^*_\text{tw1}$ und 
+	$\alpha(t\to\infty)=\alpha^*_\text{vw}$ gilt. Die $\beta$-Funktion ist in der 
+	Nähe solcher Trajektorien numerisch instabil, sodass die Darstellung im 
+	Flussdiagrammen nur bedingt möglich ist.
    \input{abschnitte/beta_im_R2/fig/flow_example.tex}
 
   \subsection{Stabilitätsbedingungen im $\mathbb{R}^2$}
@@ -29,7 +38,8 @@
     \label{eq:beta_im_R2:lambda}
     \end{equation}
     angegeben werden. Es wird nun kurz begründet, warum ein vollständig 
-    wechselwirkender Fixpunkt im allgemeinen als hyperbolisch angenommen 
+    wechselwirkender Fixpunkt im allgemeinen als hyperbolisch, d.h. 
+    $\Re\lambda_{+/-}\neq 0$, angenommen 
     werden darf, danach wird gezeigt, dass teilweise wechselwirkende Fixpunkte 
     für beliebig hohe Ordnung nicht-hyperbolisch sind. Im $2$-dimensionalen 
     Fall lässt sich jedoch ein alternatives Stabilitätskriterium für solche 
@@ -41,21 +51,16 @@
   
       \input{abschnitte/beta_im_R2/tab/stabilitaet_hyperbolisch}
       
-      Die Reihenentwicklung von $\beta$ beriht darauf, dass 
-      höhere Ordnungen vernachlässigt werden dürfen. Daher kann man davon 
-      ausgehen, dass hyperbolische Fixpunkte der 
-      Ordnung $n$ auch für höhere Ordnungen hyperbolisch bleiben. Falls ein 
-      vollständig wechselwirkender Fixpunkt $(\alpha_1^*\neq 0,
-      \alpha_2^*\neq 0)$ in Ordnung $n$ entweder $\left.\Sp \right|_*=0$ 
-      oder $\left. \Det \right|_*=0$ ergibt, kann man davon ausgehen, dass 
-      sich die Koeffizienten $X^k_{ij}$ zufällig aufheben und der Fixpunkt in 
-      höherer Ordnung wieder hyperbolisch wird. Vollständig 
-      wechselwirkende nicht-hyperbolische Fixpunkte können also als Folge 
-      einer zu früh abgebrochenen Reihenentwicklung verstanden werden. 
-      Es ist nicht klar, ob der Eigenvektor $e_i$ zum Eigenwert $\lambda_i=0$ 
-      eine UV-attraktiven oder repulsiven Richtung entspricht, da sich dies 
-      jedoch direkt auf die Dimension der kritischen Hyperfläche auswirkt ist 
-      die Untersuchung solcher Fixpunkte nur bedingt sinnvoll.
+	An einem vollständig wechselwirkenden Fixpunkt 
+	$(\alpha^*_1\neq 0,\alpha_2^*\neq 0)^\text{T}$ sind in der Regel alle 
+	Einträge von \eqref{eq:beta_im_R2:stab_matrix} ungleich Null. 
+	Die Koeffizienten $X_{ij}^1$ und $X_{ij}^2$ hängen zwar von den gleichen 
+	Parametern, der Anzahl und Darstellung der Teilchen und den Eigenschaften der 
+	Eichgruppe, ab, es gibt aber keinen Grund, warum $\left.\Det\right|_*=0$ sein 
+	sollte. Wenn dies in einer bestimmten Ordnung der Fall ist, sollte zur 
+	Untersuchung dieses Fixpunktes die nächst höhere Ordnung Störungstheorie mit 
+	berücksichtigt werden, um sinnvolle Aussagen treffen zu können.
+      
 
     \subsubsection{nicht-hyperbolischer Fixpunkt}\label{beta_im_R2:nicht-hyperbolischer_Fixpunkt}
 %       In dem Fall, dass bei $\alpha^*$ ein Eigenwert 

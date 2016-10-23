@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.15)  8 OCT 2016 10:34
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.15)  21 OCT 2016 13:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -339,33 +339,11 @@ Overfull \hbox (16.61148pt too wide) in paragraph at lines 2--8
 \OT1/cmr/m/it/10 nen 
  []
 
-! Undefined control sequence.
-<argument> ..._1}(x_1) \ldots \phi ^{r_N}(x_N) \e 
-                                                  ^{\i S[\phi ]}
-l.12 ...t \mathcal{D}\phi \,\,\, \e^{\i S[\phi]} }
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 
 LaTeX Warning: Command \i invalid in math mode on input line 12.
 
 
 LaTeX Warning: Command \i invalid in math mode on input line 12.
-
-! Undefined control sequence.
-<argument> \int \mathcal {D}\phi \,\,\, \e 
-                                           ^{\i S[\phi ]} 
-l.12 ...t \mathcal{D}\phi \,\,\, \e^{\i S[\phi]} }
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Command \i invalid in math mode on input line 12.
@@ -374,7 +352,7 @@ LaTeX Warning: Command \i invalid in math mode on input line 12.
 LaTeX Warning: Command \i invalid in math mode on input line 12.
 
 
-Overfull \hbox (255.08365pt too wide) detected at line 14
+Overfull \hbox (287.30165pt too wide) detected at line 14
 [][]   \OML/cmm/m/it/10 ^^^[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[]\OT1/cmr/m/n/
 10 ) [] \OML/cmm/m/it/10 ^^^[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[]\OT1/cmr/m/n
 /10 )[] = [][]
@@ -799,6 +777,19 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no R in font nullfont!
 Missing character: There is no √ in font nullfont!
 Missing character: There is no § in font nullfont!
@@ -1135,22 +1126,23 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no t in font nullfont!
-Missing character: There is no , in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no w in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no d in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
 Missing character: There is no A in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no b in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no , in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -1428,7 +1420,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.39     I
-          m SM kennt man bisher sechs Quark-Flavour, \textit{up (u), down (d),
+          m SM kennt man bisher sechs Quark-Flavour, \textit{up, down,
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -1581,31 +1573,16 @@ Missing character: There is no , in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
-! Undefined control sequence.
-<recently read> \text 
-                      
-l.43     ($\text{e}^-$)}
-                        , das \textit{Myon} ($\mu^-$) und das \textit{Tauon}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 Missing character: There is no , in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
-Missing character: There is no ( in font nullfont!
-Missing character: There is no ) in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
-Missing character: There is no ( in font nullfont!
-Missing character: There is no ) in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
@@ -1625,19 +1602,6 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no i in font nullfont!
-! Undefined control sequence.
-l.45 ...rt. Die drei \textit{Neutrinos} $\nu_\text
-                                                  {e}$, $\nu_\mu$ und
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no , in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no d in font nullfont!
 Missing character: There is no k in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no m in font nullfont!
@@ -1842,153 +1806,93 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 39--51
+Overfull \hbox (20.0pt too wide) in paragraph at lines 39--49
 []
  []
 
 
-Overfull \hbox (10.47772pt too wide) in paragraph at lines 39--51
-\OT1/cmr/m/it/10 up
+Overfull \hbox (13.54437pt too wide) in paragraph at lines 39--49
+\OT1/cmr/m/it/10 up,
  []
 
 
-Overfull \hbox (16.61102pt too wide) in paragraph at lines 39--51
-\OT1/cmr/m/it/10 (u),
+Overfull \hbox (25.55542pt too wide) in paragraph at lines 39--49
+\OT1/cmr/m/it/10 down,
  []
 
 
-Overfull \hbox (22.48877pt too wide) in paragraph at lines 39--51
-\OT1/cmr/m/it/10 down
+Overfull \hbox (30.28314pt too wide) in paragraph at lines 39--49
+\OT1/cmr/m/it/10 charm,
  []
 
 
-Overfull \hbox (16.35547pt too wide) in paragraph at lines 39--51
-\OT1/cmr/m/it/10 (d),
+Overfull \hbox (34.11641pt too wide) in paragraph at lines 39--49
+\OT1/cmr/m/it/10 strange,
  []
 
 
-Overfull \hbox (27.21649pt too wide) in paragraph at lines 39--51
-\OT1/cmr/m/it/10 charm
- []
-
-
-Overfull \hbox (15.84435pt too wide) in paragraph at lines 39--51
-\OT1/cmr/m/it/10 (c),
- []
-
-
-Overfull \hbox (31.04976pt too wide) in paragraph at lines 39--51
-\OT1/cmr/m/it/10 strange
- []
-
-
-Overfull \hbox (15.33325pt too wide) in paragraph at lines 39--51
-\OT1/cmr/m/it/10 (s),
- []
-
-
-Overfull \hbox (13.54436pt too wide) in paragraph at lines 39--51
+Overfull \hbox (13.54436pt too wide) in paragraph at lines 39--49
 \OT1/cmr/m/it/10 top
  []
 
 
-Overfull \hbox (14.56657pt too wide) in paragraph at lines 39--51
+Overfull \hbox (14.56657pt too wide) in paragraph at lines 39--49
 \OT1/cmr/m/it/10 (t),
  []
 
 
-Overfull \hbox (16.09985pt too wide) in paragraph at lines 39--51
+Overfull \hbox (16.09985pt too wide) in paragraph at lines 39--49
 \OT1/cmr/m/it/10 bot-
  []
 
 
-Overfull \hbox (16.61101pt too wide) in paragraph at lines 39--51
+Overfull \hbox (16.61101pt too wide) in paragraph at lines 39--49
 \OT1/cmr/m/it/10 tom
  []
 
 
-Overfull \hbox (12.7777pt too wide) in paragraph at lines 39--51
-\OT1/cmr/m/it/10 (b)
- []
-
-
-Overfull \hbox (22.1165pt too wide) in paragraph at lines 39--51
+Overfull \hbox (22.1165pt too wide) in paragraph at lines 39--49
 \OT1/cmr/m/it/10 Elek-
  []
 
 
-Overfull \hbox (17.76097pt too wide) in paragraph at lines 39--51
+Overfull \hbox (17.76097pt too wide) in paragraph at lines 39--49
 \OT1/cmr/m/it/10 tron
  []
 
 
-Overfull \hbox (19.58401pt too wide) in paragraph at lines 39--51
-\OT1/cmr/m/it/10 ($\OML/cmm/m/it/10 e[]$\OT1/cmr/m/it/10 )
- []
-
-
-Overfull \hbox (24.5554pt too wide) in paragraph at lines 39--51
+Overfull \hbox (24.5554pt too wide) in paragraph at lines 39--49
 \OT1/cmr/m/it/10 Myon
  []
 
 
-Overfull \hbox (12.7755pt too wide) in paragraph at lines 39--51
-\OML/cmm/m/it/10 ^^V[]$
- []
-
-
-Overfull \hbox (27.59984pt too wide) in paragraph at lines 39--51
+Overfull \hbox (27.59984pt too wide) in paragraph at lines 39--49
 \OT1/cmr/m/it/10 Tauon
  []
 
 
-Overfull \hbox (12.2535pt too wide) in paragraph at lines 39--51
-\OML/cmm/m/it/10 ^^\[]$
- []
-
-
-Overfull \hbox (20.97763pt too wide) in paragraph at lines 39--51
+Overfull \hbox (20.97763pt too wide) in paragraph at lines 39--49
 \OT1/cmr/m/it/10 Neu-
  []
 
 
-Overfull \hbox (14.18321pt too wide) in paragraph at lines 39--51
+Overfull \hbox (14.18321pt too wide) in paragraph at lines 39--49
 \OT1/cmr/m/it/10 tri-
  []
 
 
-Overfull \hbox (14.82214pt too wide) in paragraph at lines 39--51
+Overfull \hbox (14.82214pt too wide) in paragraph at lines 39--49
 \OT1/cmr/m/it/10 nos
  []
 
 
-Overfull \hbox (9.23393pt too wide) in paragraph at lines 39--51
-\OML/cmm/m/it/10 ^^W[]$
- []
-
-
-Overfull \hbox (10.30214pt too wide) in paragraph at lines 39--51
-\OML/cmm/m/it/10 ^^W[]$
- []
-
-
-Overfull \hbox (9.93672pt too wide) in paragraph at lines 39--51
-\OML/cmm/m/it/10 ^^W[]$
- []
-
-
-Overfull \hbox (27.36647pt too wide) in paragraph at lines 39--51
+Overfull \hbox (27.36647pt too wide) in paragraph at lines 39--49
 \OT1/cmr/m/it/10 Higgs-
  []
 
 
-Overfull \hbox (18.02765pt too wide) in paragraph at lines 39--51
+Overfull \hbox (18.02765pt too wide) in paragraph at lines 39--49
 \OT1/cmr/m/it/10 Feld
- []
-
-
-Overfull \hbox (14.13608pt too wide) in paragraph at lines 39--51
-\OT1/cmr/m/it/10 ($\OML/cmm/m/it/10 ^^^$\OT1/cmr/m/it/10 )
  []
 
 
@@ -1998,7 +1902,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.52     A
+l.50     A
           ls eine der fundamentalen Kr√§fte des SM beschreibt die
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2247,7 +2151,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no t in font nullfont!
 ! Undefined control sequence.
-l.57 ...(\psi^f_1, \psi_2^f, \psi_3^f\right)^\text
+l.55 ...(\psi^f_1, \psi_2^f, \psi_3^f\right)^\text
                                                   {T}$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2366,7 +2270,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.60 ...einander wechselwirken \cite{Ellis_Webber}
+l.58 ...einander wechselwirken \cite{Ellis_Webber}
                                                   . Eine genauere
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2375,7 +2279,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Ellis_Webber' on page  undefined on input line 60.
+LaTeX Warning: Citation `Ellis_Webber' on page  undefined on input line 58.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
@@ -2435,7 +2339,7 @@ Missing character: There is no t in font nullfont!
 ! Undefined control sequence.
 <write> ... Reference `QCDxdQCD' on page \thepage 
                                                   \space undefined\on@line .
-l.61 ...hreibung folgt in Abschnitt \ref{QCDxdQCD}
+l.59 ...hreibung folgt in Abschnitt \ref{QCDxdQCD}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2444,7 +2348,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `QCDxdQCD' on page  undefined on input line 61.
+LaTeX Warning: Reference `QCDxdQCD' on page  undefined on input line 59.
 
 Missing character: There is no . in font nullfont!
 Missing character: There is no C in font nullfont!
@@ -2488,18 +2392,18 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no A in font nullfont!
 Missing character: There is no b in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
 Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no t in font nullfont!
 ! Undefined control sequence.
-<write> ...ig:running_couplings' on page \thepage 
+<write> ...eference `beta_im_SM' on page \thepage 
                                                   \space undefined\on@line .
-l.63     \ref{renormierung:fig:running_couplings}
-                                                  dargestellte Energieabh√§n...
+l.60 ...s SM ist die in Abschnitt \ref{beta_im_SM}
+                                                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2507,11 +2411,10 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `renormierung:fig:running_couplings' on page  undefine
-d on input line 63.
+LaTeX Warning: Reference `beta_im_SM' on page  undefined on input line 60.
 
-Missing character: There is no d in font nullfont!
-Missing character: There is no a in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -2585,7 +2488,7 @@ Missing character: There is no b in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no i in font nullfont!
 ! Undefined control sequence.
-l.64 ...stanten. Der Landau-Pol bei $\Lambda_\text
+l.62 ...stanten. Der Landau-Pol bei $\Lambda_\text
                                                   {QCD}$ ist
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2711,7 +2614,7 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.66 ...die baryonische Massendichte $\Omega_\text
+l.64 ...die baryonische Massendichte $\Omega_\text
                                                   {B}$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2765,9 +2668,28 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no z in font nullfont!
 Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no y in font nullfont!
 Missing character: There is no m in font nullfont!
-Missing character: There is no A in font nullfont!
-Missing character: There is no F in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no Q in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no D in font nullfont!
 Missing character: There is no k in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no m in font nullfont!
@@ -2775,87 +2697,87 @@ Missing character: There is no m in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 52--68
+Overfull \hbox (20.0pt too wide) in paragraph at lines 50--67
 []
  []
 
 
-Overfull \hbox (27.34428pt too wide) in paragraph at lines 52--68
+Overfull \hbox (27.34428pt too wide) in paragraph at lines 50--67
 \OT1/cmr/m/it/10 Quan-
  []
 
 
-Overfull \hbox (35.64972pt too wide) in paragraph at lines 52--68
+Overfull \hbox (35.64972pt too wide) in paragraph at lines 50--67
 \OT1/cmr/m/it/10 tenchro-
  []
 
 
-Overfull \hbox (16.86656pt too wide) in paragraph at lines 52--68
+Overfull \hbox (16.86656pt too wide) in paragraph at lines 50--67
 \OT1/cmr/m/it/10 mo-
  []
 
 
-Overfull \hbox (13.54434pt too wide) in paragraph at lines 52--68
+Overfull \hbox (13.54434pt too wide) in paragraph at lines 50--67
 \OT1/cmr/m/it/10 dy-
  []
 
 
-Overfull \hbox (26.57762pt too wide) in paragraph at lines 52--68
+Overfull \hbox (26.57762pt too wide) in paragraph at lines 50--67
 \OT1/cmr/m/it/10 namik
  []
 
 
-Overfull \hbox (30.5498pt too wide) in paragraph at lines 52--68
+Overfull \hbox (30.5498pt too wide) in paragraph at lines 50--67
 \OT1/cmr/m/it/10 (QCD)
  []
 
 
-Overfull \hbox (27.40416pt too wide) in paragraph at lines 52--68
+Overfull \hbox (27.40416pt too wide) in paragraph at lines 50--67
 \OML/cmm/m/it/10 SU\OT1/cmr/m/n/10 (3)$
  []
 
 
-Overfull \hbox (12.05678pt too wide) in paragraph at lines 52--68
+Overfull \hbox (12.05678pt too wide) in paragraph at lines 50--67
 \OML/cmm/m/it/10  []$
  []
 
 
-Overfull \hbox (5.97226pt too wide) in paragraph at lines 52--68
+Overfull \hbox (5.97226pt too wide) in paragraph at lines 50--67
 \OML/cmm/m/it/10 f$
  []
 
 
-Overfull \hbox (17.4282pt too wide) in paragraph at lines 52--68
-\OML/cmm/m/it/10   \OT1/cmr/m/n/10 =
+Overfull \hbox (22.61229pt too wide) in paragraph at lines 50--67
+\OML/cmm/m/it/10  [] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (63.30327pt too wide) in paragraph at lines 52--68
+Overfull \hbox (63.30327pt too wide) in paragraph at lines 50--67
 [][]$
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 52--68
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 50--67
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 52--68
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 50--67
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 52--68
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 50--67
 []
  []
 
 
-Overfull \hbox (26.72197pt too wide) in paragraph at lines 52--68
+Overfull \hbox (26.72197pt too wide) in paragraph at lines 50--67
 \OT1/cmr/m/n/10 ^^C[]$
  []
 
 
-Overfull \hbox (14.10522pt too wide) in paragraph at lines 52--68
+Overfull \hbox (14.10522pt too wide) in paragraph at lines 50--67
 \OT1/cmr/m/n/10 
 []$
  []
@@ -2867,7 +2789,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.69     D
+l.68     D
           ie Symmetriegruppe $SU(2)\times U(1)$ beschreibt die Elektroschwache
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3002,17 +2924,17 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no s in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 69--72
+Overfull \hbox (20.0pt too wide) in paragraph at lines 68--71
 []
  []
 
 
-Overfull \hbox (35.18196pt too wide) in paragraph at lines 69--72
+Overfull \hbox (35.18196pt too wide) in paragraph at lines 68--71
 \OML/cmm/m/it/10 SU\OT1/cmr/m/n/10 (2) \OMS/cmsy/m/n/10 ^^B
  []
 
 
-Overfull \hbox (20.69585pt too wide) in paragraph at lines 69--72
+Overfull \hbox (20.69585pt too wide) in paragraph at lines 68--71
 \OML/cmm/m/it/10 U\OT1/cmr/m/n/10 (1)$
  []
 
@@ -3026,17 +2948,17 @@ Enter file name:
 ! Emergency stop.
 <read *> 
          
-l.73 ...{abschnitte/renormierung/linkshaendig.tex}
+l.72 ...{abschnitte/renormierung/linkshaendig.tex}
                                                   ^^M
 *** (cannot \read from terminal in nonstop modes)
 
  
 Here is how much of TeX's memory you used:
- 27 strings out of 494935
- 371 string characters out of 6178121
+ 26 strings out of 494935
+ 343 string characters out of 6178121
  49369 words of memory out of 5000000
- 3355 multiletter control sequences out of 15000+600000
+ 3354 multiletter control sequences out of 15000+600000
  4294 words of font info for 16 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 20i,8n,21p,134b,118s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 20i,8n,21p,129b,118s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!

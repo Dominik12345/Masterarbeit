@@ -2,7 +2,7 @@
 \section{Allgemeine Untersuchung einer $\beta$-Funktion}
 
 	In Abschnitt \ref{selbstenergie} wurde die $\beta$-Funktion einer skalaren 
-	$SU(N)$ ausgerechnet, bei der die Energieabhängigkeit der renormierten 
+	$SU(N)$ berechnet, bei der die Energieabhängigkeit der renormierten 
 	Kopplungskonstante durch eine gewöhnliche 
 	\textit{Differenzialgleichung (DGL)} erster 
 	Ordnung beschrieben wird. Für den allgemeinen Fall ergibt sich ein 
@@ -74,13 +74,14 @@
 	  \begin{equation}
 	  \mu \frac{\d}{\d \mu} g(\mu) = X g(\mu)^3 + Y g(\mu)^5
 	  \end{equation}
-	  und für den einfachen Fall $[g]=0$ definiere 
+	  und für den einfachen Fall $[g]=0$ kann 
 	  \begin{equation}
 	  \alpha(\mu) := \mathcal{N} g(\mu)^2 \quad \Rightarrow \quad  
 	  \frac{\d g}{\d \mu} g=\frac{1}{2\mathcal{N}} 
-	  \frac{\d \alpha}{\d \mu} \quad .
+	  \frac{\d \alpha}{\d \mu} 
 	\end{equation}
-	Man erhält so eine einfachere Differentialgleichung mit den 
+	definiert werden. 
+	So erhält man eine einfachere Differentialgleichung mit den 
 	Koeffizienten \\$\tilde{X}=2X\mathcal{N}^{-1}$ und 
 	$\tilde{Y}=2Y\mathcal{N}^{-2}$,
 	 \begin{equation}
@@ -120,15 +121,13 @@
     
   \subsection{Verhalten in einer Umgebung eines Fixpunktes}\label{beta_allgemein:Verhalten}
     Um das Verhalten der Kopplungskonstanten $\alpha(t)$ in der Nähe eines 
-    Fixpunktes zu untersuchen wird die Stabilitätsmatrix wie folgt eingeführt.
-    
-    Die Matrix
+    Fixpunktes zu untersuchen wird die \textit{Stabilitätsmatrix} 
     \begin{equation}
      \frac{\partial \beta}{\partial \alpha}:= 
      \left( \frac{\partial \beta_i}{\partial \alpha_j} \right)_{1\leq i,j 
      \leq N}
     \end{equation}
-    heißt \textit{Stabilitätsmatrix der $\beta$-Funktion} \cite{GR_Weinberg}. 
+    eingeführt \cite{GR_Weinberg}. 
     Außgewertet am Punkt $\alpha^*$ 
     ist die Schreibweise $\dbdafix$. 
     Ein Fixpunkt $\alpha^*$ heißt \textit{hyperbolisch}, wenn alle Eigenwerte 
@@ -192,7 +191,8 @@
      hinauslaufen, wird er \textit{Sattelpunkt} genannt.
      \item
       Die Menge der in den Fixpunkt hineinlaufenden Kurven heißt 
-      \textit{kritische (UV-)Hy\-per\-flä\-che} $\Mc$ (critical manifold) des 
+      \textit{kritische Hy\-per\-flä\-che} $\Mc$ (critical manifold) oder 
+      \textit{UV-Hyperfläche} des 
       Fixpunktes.
     \end{enumerate}
 
