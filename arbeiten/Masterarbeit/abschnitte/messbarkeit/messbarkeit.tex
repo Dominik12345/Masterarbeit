@@ -2,21 +2,23 @@
 \section{Matching mit dem Standardmodell}
 
   Abschließend soll nun diskutiert werden, inwieweit die Einführung der dQCD 
-  Abweichungen der QCD Kopplung von Standardmodell bewirkt. Sei $M$ eine 
+  Abweichungen der QCD Kopplung vom Standardmodell bewirkt. Sei $M$ eine 
   charakteristische 
-  Massenskala des joint-Sektors. Da diese Teilchen QCD-Ladung tragen, ist 
+  Massenskala des joint-Sektors. Da die Teilchen des joint-Sektors 
+  QCD-Ladung tragen, ist 
   $M > \mathcal{O}(100\,\text{GeV})$, sonst wären diese in aktuellen 
   Experimenten bereits gefunden worden 
   \cite{Scale_of_dark_QCD}\cite{Becciolini:2014lya}. In 
   \cite{Becciolini:2014lya} und \cite{Sannino} wird das Verhältnis 
   der differenziellen Wirkungsquerschnitte von 3- und 2-Jet Zerfällen als 
   sinvolle Observable für hochenergie QCD eingeführt
-  und daran argumentiert, dass 
+  und argumentiert, dass 
   die \textit{Partonverteilungsfunktionen (PDF)} der neuen Teilchen sowie die 
-  Auswirkungen auf die PDFs der SM Teilchen vernachlässibar sind. Sie zeigen 
-  weiter, dass solche Verhältnisse nicht sensitiv auf die Gluon PDF sind und 
-  schließen daraus, dass das Laufen von $\alpha_\text{QCD}$ den wichtigsten 
-  Einfluss auf solche Observablen hat. Aus diesem Grund wird nun das Laufen 
+  Auswirkungen auf die PDFs der SM Teilchen vernachlässibar sind. Dort wird außerdem 
+  gezeigt, dass dieses Verhältnis von differenziellen Wirkungsquerschnitten 
+  nicht sensitiv auf die Gluon PDF ist und 
+  es wird daraus geschlossen, dass das Laufen von $\alpha_\text{QCD}$ den wichtigsten 
+  Einfluss auf diese Observablen hat. Aus diesem Grund wird nun das Laufen 
   von $\alpha_\text{QCD}$ im SM mit $\alpha_\s$ aus der \QCDxdQCD verglichen. 
   
   Die bisher untersuchten $\beta$-Funktionen gelten nur für Energien oberhalb 
@@ -38,7 +40,7 @@
   Wahl. Im Folgenden 
   wird erklärt, wie in einem Modell mit zwei Kopplungskonstanten ein Fixpunkt 
   extrapoliert werden kann, danach wird diese Methode auf einige der gefundenen 
-  Modelle angewandt.
+  Modelle angewendet.
   \input{abschnitte/messbarkeit/fig/IR-Fix}
   
   
@@ -50,7 +52,8 @@
     der kritischen Hyperfläche ist insbesondere für höherdimensionale Probleme 
     analytisch kaum möglich und daher eine numerische Aufgabe. Stehen nun 
     $n$ Messwerte an der selben Renormierungsskala 
-    $\mu_0$ zur Verfügung und gibt es einen Punkt $\alpha_0\in\Mc$ der diese 
+    $\mu_0$ zur Verfügung und gibt es einen Punkt $\alpha_0$ auf der 
+    kritischen Hyperfläche $\Mc$, der diese 
     enthält, dann sind alle Kopplungskonstanten $\alpha(\mu)$ bis auf 
     $(\dim (\Mc)-n)$ freie Parameter festgelegt\footnote{Für $n\geq \dim(\Mc)$ 
     also eindeutig.} und laufen in den Fixpunkt hinein. Existiert so ein 
@@ -72,10 +75,10 @@
     hineinläuft kann keine Vorhersage für die Größen der Kopplungskonstanten 
     gemacht werden, dafür ist aber das UV-Verhalten von dem Startwert 
     $\left(\alpha_\s(t_0),\alpha_\d(t_0)\right)$ unabhängig. Wie bereits 
-    gezeigt ist dieser Fall hier aber nicht möglich. Der für die 
+    gezeigt, ist dieser Fall hier aber nicht möglich. Der für die 
     Extrapolation interessanteste Fall ist also $\dim \Mc = 1$, da die 
     UV-Hyperfläche dann aus zwei Trajektorien 
-    $s^{+/-}:(0,\infty)\to \mathbb{R}^2$ besteht\footnote{Jeweils eine in, eine 
+    $s^{+/-}:(0,\infty)\to \mathbb{R}^2$ besteht\footnote{Jeweils eine in und eine 
     entgegen der Richtung des attraktiven Eigenvektors. Bei 
     teilweise wechselwirkenden Fixpunkte ist nur eine dieser Richtungen 
     physikalisch sinnvoll.} und deshalb 
@@ -89,13 +92,12 @@
     \begin{enumerate}
      \item Eine Trajektorie, welche in einen Sattelpunkt hineinläuft, ist 
      gleichzeitig eine Separatrix, d.h. sie teilt den Phasenraum in Gebiete mit 
-     qualitativ unterschiedlichem  Verhalten für $t \to \infty$.
+     qualitativ unterschiedlichen  Verhalten für $t \to \infty$.
      \item Ein Sattelpunkt und ein attraktiver Fixpunkt sind mit einer 
      Separatrix verbunden, ebenso ist ein Sattelpunkt mit einem repulsiven 
      Fixpunkt mit einer Separatrix verbunden, sofern die Fixpunkte existieren 
      und in der Nähe des Sattelpunktes liegen. 
     \end{enumerate}
-
     Da das gesuchte $\Mc$ folglich immer eine Separatrix ist, kann wie folgt 
     verfahren werden. Zunächst werden zwei Gebiete $L$ und $R$ definiert, die 
     zu qualitativ verschiedenen Trajektorien führen. Beispielsweise lassen sich 
@@ -107,17 +109,17 @@
      \alpha^{*}\, , \, j\in\{\s,\d\} \right\} \quad ,
     \end{equation}
     dann kann der gewünschte Fixpunkt nicht mehr für $t>t_1$ erreicht werden.
-    Am Fixpunkt wird eine Basis $\{f_1,f_2\}$ gewählt\footnote{Der 
+    Am Fixpunkt wird eine Basis $\{f_1,f_2\}$ gewählt\footnote{{Der 
     Einfachheit halber kann die Basis aus Eigenvektoren oder die 
     $\alpha_{\s/\d}$-Achsen gewählt werden, sofern dies 
-    zu keinen numerischen Schwierigkeiten führt.}
+    zu keinen numerischen Schwierigkeiten führt.}}
     und der Phasenraum in Ebenen mit Abstand $\epsilon$ 
     eingeteilt, die nullte Ebene geht dabei durch den Fixpunkt. Rekursiv werden 
     dann
     \begin{equation}
      s^{L/R}[n+1] = s^{L/R}[n] + \epsilon f_1 + d^{L/R} \delta f_2 
     \end{equation}
-    definiert. Für festes $\delta$ wird $d^{L/R}$ so eingestelle, dass die 
+    definiert. Für festes $\delta$ wird $d^{L/R}$ so gewählt, dass die 
     Trajektorie 
     mit Anfangswert $s^L[n+1]$ in den Bereich $L$ hineinläuft, analog für 
     $R$. 
@@ -142,8 +144,9 @@
     \end{equation}
     mit $t[0]=t_0$ berechnet.
     
-    Um die so erhaltenen laufenden Kopplungen mit dem Standardmodell zu 
-    vergleichen wird noch die SM QCD Kopplung in $\mathcal{O}(\alpha^3_\text{QCD})$ 
+    Um die so erhaltenen laufenden Kopplungen mit dem Laufen der QCD Kopplung im 
+    Standardmodell zu 
+    vergleichen, wird noch $\alpha_\text{QCD}(t)$ in $\mathcal{O}(\alpha^3_\text{QCD})$ 
     berechnet. Dies geschieht implizit über 
     \begin{equation}
      F(\alpha_\text{QCD}(t)) = t-t_0 +F(\alpha_\text{QCD}(t_0)) \label{eq:messbarkeit:SM-running}
@@ -158,7 +161,7 @@
      \frac{1}{\alpha_\text{QCD} X_\text{QCD}} \quad .
 	\end{aligned}    
     \end{equation}
-    Der Index QCD meint immer die SM QCD mit $\nfc=6$ und $\nfj=\nsj=0$. Der 
+    Der Index QCD meint hier immer die SM QCD mit $\nfc=6$ und $\nfj=\nsj=0$. Der 
     Einfachheit halber wird in 
     \eqref{eq:beta_allgemein:RG-Zeit} $\Lambda = Q$ gewählt, 
     sodass $t_0=0$ und $\alpha(0)$ die Startwerte sind.
@@ -208,15 +211,15 @@
     
   \subsection{Extrapolation von $\alpha^{*}_\text{vw}$}
     \input{abschnitte/messbarkeit/fig/afix4.tex}
-    Um ein SM-ähnliches Verhalten zu erzeugen muss 
-    $\alpha_\s(0)>\alpha_\s^{*}$. Der kleinste Wert für $\alpha_\s^{*}
+    Um ein SM-ähnliches Verhalten zu erzeugen, muss 
+    $\alpha_\s(0)>\alpha_\s^{*}$ gelten. Der kleinste Wert für $\alpha_\s^{*}
     \approx 0.1007$ wird für $\text{SM}+(\Nd=2, \nsd=1,\nsj=9)$ angenommen. Da 
     $\alpha_\text{QCD}$ monoton fallend ist, muss die Entkopplungsskala $Q$ entsprechend 
     niedrig gewählt werden, um mit experimentellen Befunden im Einklang zu sein,  
     sollte jedoch die $t$-Masse $Q \approx 173.21 \, \text{GeV}$ 
     \cite{PDG:top} nicht unterschreiten.
     Mit \eqref{eq:messbarkeit:SM-running} wird 
-    ausgehend von der bekannte Kopplungskonstanten 
+    ausgehend von der bekannten Kopplungskonstanten 
     $\alpha_\text{QCD}(M_Z)=0.1181$ \cite{PDG:QCD} mit effektiv 
     $5$ SM-Fermionen $\alpha_\text{QCD}(Q)=0.1081$ berechnet. In Abbildung 
     \ref{fig:messbarkeit:afix4} ist der weitere Verlauf für hohe Energien zu 
