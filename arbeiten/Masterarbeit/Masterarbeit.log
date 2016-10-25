@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.9)  24 OCT 2016 13:47
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.9)  25 OCT 2016 14:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2313,23 +2313,23 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 393.
+(hyperref)                removing `math shift' on input line 394.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 393.
+(hyperref)                removing `\alpha' on input line 394.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 393.
+(hyperref)                removing `superscript' on input line 394.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 393.
+(hyperref)                removing `subscript' on input line 394.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 393.
+(hyperref)                removing `math shift' on input line 394.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2341,19 +2341,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 (./abschnitte/beta_QCDxdQCD/tab/Fix3_ohne_Skalare.tex)
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 463.
+(hyperref)                removing `math shift' on input line 464.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 463.
+(hyperref)                removing `\alpha' on input line 464.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 463.
+(hyperref)                removing `superscript' on input line 464.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 463.
+(hyperref)                removing `math shift' on input line 464.
 
 (./abschnitte/beta_QCDxdQCD/tab/Fix2_ohne_Skalare.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2596,11 +2596,15 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ) [43 <./Python/plots/alpha_running/Kopplungen1_her.pdf>] [44 <./Python/plots/a
 lpha_running/relative_deviation_her.pdf>])
 (./abschnitte/ausleitung/ausleitung.tex [45] [46 <./Python/plots/alpha_running/
-Kopplungen1_afix4.pdf>]) [47
+Kopplungen1_afix4.pdf>]) (./abschnitte/Appendix/Danksagung.tex [47
 
-] (./Masterarbeit.bbl [48
+] [48
 
-] [49]) [50]
+
+])
+[49] (./Masterarbeit.bbl [50
+
+] [51]) [52]
 (./abschnitte/Appendix/Versicherung.tex
 LaTeX Font Info:    Try loading font information for TS1+qpl on input line 17.
 
@@ -2618,7 +2622,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 58.
- [51
+ [53
 
 
 ]
@@ -2628,17 +2632,13 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 58.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 58.
 Package rerunfilecheck Info: File `Masterarbeit.out' has not changed.
 (rerunfilecheck)             Checksum: 229DC33A0DD2CB8316C5127491FD27FF;2210.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 58.
  ) 
 Here is how much of TeX's memory you used:
- 25789 strings out of 493304
- 474018 string characters out of 6139871
- 607606 words of memory out of 5000000
- 28148 multiletter control sequences out of 15000+600000
+ 25797 strings out of 493304
+ 474236 string characters out of 6139871
+ 607672 words of memory out of 5000000
+ 28151 multiletter control sequences out of 15000+600000
  241221 words of font info for 329 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  49i,19n,75p,10457b,994s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2659,10 +2659,10 @@ ve/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/adobe/utopia/putri8a.pfb></usr/share/texmf/fonts/type1/public/tex
 -gyre/qplb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplr.pfb></usr/sha
 re/texmf/fonts/type1/public/tex-gyre/qplri.pfb>
-Output written on Masterarbeit.pdf (59 pages, 730574 bytes).
+Output written on Masterarbeit.pdf (61 pages, 732128 bytes).
 PDF statistics:
- 1212 PDF objects out of 1440 (max. 8388607)
- 965 compressed objects within 10 object streams
- 302 named destinations out of 1000 (max. 500000)
+ 1221 PDF objects out of 1440 (max. 8388607)
+ 972 compressed objects within 10 object streams
+ 304 named destinations out of 1000 (max. 500000)
  47924 words of extra memory for PDF output out of 51595 (max. 10000000)
 

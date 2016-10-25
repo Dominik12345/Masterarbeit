@@ -274,9 +274,12 @@
 	  \end{align}
 	  Es gibt also eine allgemeine Obergrenze von $\nfj<\frac{11}{2}$, 
 	  die für die Grenzfälle $\nfc=0$ und $\nfd=0$ oder $\Nc\to\infty$
-	  und gleichzeitig $\Nd \to \infty$ erreicht wird.
-	  Die einzigen Standardmodell nahen Lösungen, die gleichzeitig zu 
-	  sinnvollen Fixpunkten führen, sind
+	  und gleichzeitig $\Nd \to \infty$ erreicht wird. Die 
+	  Eine strengere Grenze kann mit $\nfc=6$ gefunden werden. Weniger 
+	  QCD-Fermionen sind experimentell ausgeschlossen, mehr QCD-Fermionen 
+	  wirken sich nachteilig auf die Entstehung von Fixpunkten aus.
+	  Daher sind die einzigen Standardmodell nahen Lösungen, die gleichzeitig zu 
+	  sinnvollen Fixpunkten führen
 	  \begin{equation}
 	   \Nc=3 \quad \Nd = 2 \quad \nfc =6 \quad 0\leq\nfd \leq 2 \quad 
 	   \nfj =1 \quad ,
