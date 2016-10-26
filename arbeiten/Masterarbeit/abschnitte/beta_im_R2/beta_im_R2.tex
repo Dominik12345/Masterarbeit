@@ -5,7 +5,7 @@
    $\alpha(t_0)$ entlang einer Trajektorie durch 
    den Phasenraum. Der Satz von Picard-Lindelöf stellt dabei sicher, dass 
    sich zwei Trajektorien nicht schneiden. Ein Flussdiagramm wie in Abbildung 
-   \ref{beta_allgemein:fig:fluss_beispiel} zeigt das Verhalten von $\alpha(t)$ 
+   \ref{beta_allgemein:fig:fluss_beispiel} zeigt das Verhalten von $\alpha(t)$, 
    indem das Geschwindigkeitsfeld $\beta$ durch Pfeile im Phasenraum 
    dargestellt wird. In dieser Arbeit zeigen die Pfeile stets in Richtung 
    steigender Energie. An dem Flussdiagramm \ref{beta_allgemein:fig:fluss_beispiel} 
@@ -90,7 +90,7 @@
 	          \sum\limits_{i=2} (\alpha_1^*)^i  X^1_{i1}\\
 	          0&
 	          0
-	         \end{pmatrix} \quad . \label{eq:beta_im_R2:stab_matrix_0}
+	         \end{pmatrix} \quad , \label{eq:beta_im_R2:stab_matrix_0}
 	 \end{equation}
 	 mit den Eigenvektoren und Eigenwerten
 	 \begin{equation}
@@ -162,7 +162,7 @@
     Wie in Abschnitt \ref{beta_allgemein:Verhalten} wird diese Gleichung in 
     der Eigenbasis der Stabilitätsmatrix geschrieben
     \begin{align}
-     \dot{K}_1 (t) e_1^i +\dot{K}_2 e_2^i &= \sum\limits_{k,m=1}^2
+     \dot{K}_1 (t) e_1^i +\dot{K}_2(t) e_2^i &= \sum\limits_{k,m=1}^2
      K_k(t) \frac{\partial \beta _i}{\partial \alpha_m} e_k^m 
      + \frac12 \sum\limits_{k,l,m,n=1}^2
      K_k(t)K_l(t)\frac{\partial^2 \beta _i}{\partial \alpha_m \alpha_n}e_k^m  
@@ -173,7 +173,7 @@
      \quad . \label{eq:beta_im_R2:zweite_ordnung}
     \end{align}
     Die Indizes $k$ und $l$ laufen dabei für die zwei Eigenvektoren, während 
-    $m$, $n$ und $i$ für die Komponente eines Vektors stehen. Der 
+    $m$, $n$ und $i$ für die Vektorkomponenten stehen. Der 
     Koeffizientenvergleich in $e_1$ führt in erster Ordnung zum gleichen 
     Ergebnis wie beim hyperbolischen Fixpunkt. Auf der kritischen Hyperläche 
     gilt demnach $\lambda_1<0 \Rightarrow K_1(t)\rightarrow 0$ für $t$ groß, 
@@ -181,7 +181,7 @@
     erreicht wird. Für große $t$ wird \eqref{eq:beta_im_R2:zweite_ordnung} 
     damit zu 
     \begin{align}
-     \dot{K}_2 e_2^i &= \frac{1}{2} K_2(t)^2 \sum\limits_{m,n=1}^2 
+     \dot{K}_2(t) e_2^i &= \frac{1}{2} K_2(t)^2 \sum\limits_{m,n=1}^2 
      \left.\frac{\partial^2 \beta_i}{\partial \alpha_m \partial \alpha_n}
      \right|_* e_2^m e_2^n
      \\&= \frac12 K_2(t)^2 \sum\limits_{m,n=1}^2 \left[ \left(e_2^m 

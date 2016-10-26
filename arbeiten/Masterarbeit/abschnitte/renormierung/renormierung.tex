@@ -28,7 +28,7 @@
 
   \subsection{Das Standardmodell der Teilchenphysik}
     Das SM ist eine QFT nach dem Prinzip, invariant unter bestimmten 
-    Symmetrietransformationen zu sein. Die Dynamik wird dabei durch die 
+    Symmetrietransformationen zu sein. Die Dynamik wird dabei durch die kombinierte 
     Eichgruppe $SU(3)\times SU(2)\times U(1)$ in der Lagrangedichte 
     repräsentiert und durch die Angabe 
     unter welcher Darstellung der Eichgruppe die Felder transformieren. 
@@ -48,7 +48,7 @@
     Brechung der Symmetriegruppe verantwortlich ist.
     
     Als eine der fundamentalen Kräfte des SM beschreibt die 
-    \textit{Quantenchromodynamik (QCD)} die Wechselwirkungen 
+    QCD die Wechselwirkungen 
     zwischen Quarks, den Bausteinen der Hadronen, und den Gluonen, den 
     Eichfeldern der QCD. Die mathematische Beschreibung erfolgt durch 
     Darstellungen der $SU(3)$, bei der einem Quark $\psi^f$ mit Flavour $f$ ein 
@@ -59,14 +59,14 @@
     mathematische Beschreibung folgt in Abschnitt \ref{QCDxdQCD}. 
     Charakteristisch für die QCD des SM ist die in Abschnitt \ref{beta_im_SM} 
     vorgestellte Energieabhängigkeit 
-    der QCD Kopplungskonstanten. Der Landau-Pol bei $\Lambda_\text{QCD}$ ist 
+    der QCD Kopplungskonstanten. Der Pol bei $\Lambda_\text{QCD}$ ist 
     dabei für die hadronische Bindung bei niedrigen Energien verantwortlich 
     und somit insbesondere für die baryonische Massendichte $\Omega_\text{B}$ 
     im Universum, während es bei hohen Energien gerade zur asymptotisch 
     freien QCD kommt.
     
-    Die Symmetriegruppe $SU(2)\times U(1)$ beschreibt die Elektroschwache 
-    Wechselwirkung. In ihr werden die Wechselwirkungen zwischen  
+    Die Symmetriegruppe $SU(2)\times U(1)$ repräsentiert die Elektroschwache 
+    Kraft. In ihr werden die Wechselwirkungen zwischen  
     linkshändigen Isospin-Dupletts 
     \begin{equation}
       \input{abschnitte/renormierung/linkshaendig.tex}
@@ -108,7 +108,7 @@
     Rechnung wird die 
     Notwendigkeit der Regularisierung und Renormierung abgeleitet. Schließlich 
     wird die $\beta$-Funktion der Beispieltheorie gefunden.
-    
+    \newpage
     Die Rechnung erfolgt am Beispiel einer $SU(N)$ mit  
     skalaren Materiefeldern $\phi_i$ in der Darstellung $S$ und 
     Eichfeldern $\A^A$ in \textit{adjungierter Darstellung}. Der Eichfixierungsterm 
@@ -119,9 +119,9 @@
     \begin{equation}
     \begin{aligned}
      \mathcal{L}(\phi,\partial\phi,\mathcal{A},\partial\mathcal{A})=&
-     \frac12 \left(\left[\i \delta_{ij}\partial_\mu-g t^A_{ji} \mathcal{A}^A_\mu
+     \frac12 \left(\left[\i \delta_{ji}\partial_\mu-g t^A_{ji} \mathcal{A}^A_\mu
      \right]\phi_i\right)^*
-     \left(\left[\i \delta_{ij}\partial^\mu-g t^A_{ji} \mathcal{A}^{A\,\,\,\mu}
+     \left(\left[\i \delta_{ji}\partial^\mu-g t^A_{ji} \mathcal{A}^{A\,\,\,\mu}
      \right]\phi_i\right)
       \\& -
      \frac14 F^{A\,\,\, \mu\nu} F_{\mu\nu}^A 
@@ -134,9 +134,9 @@
     \begin{align}
      S_\text{M}[\phi] &= \dx \frac12 \partial_\mu \phi_i \partial^\mu \phi_i \\
      S_\text{G}[\A] &= \dx \frac{1}{2} \partial_\mu \A^A_\nu 
-     \partial^\nu \A^{\nu \, A} - \frac12 \partial_\mu \A_\nu^A 
-     \partial^\mu \A^{A\,\,\, \nu} - \frac{1}{2\xi} \partial_\mu 
-     \A^{A\,\,\, \mu} \partial_\nu \A^{A\,\,\, \nu} \\
+     \partial^\nu \A^{A \, \nu} - \frac12 \partial_\mu \A_\nu^A 
+     \partial^\mu \A^{A\, \nu} - \frac{1}{2\xi} \partial_\mu 
+     \A^{A\, \mu} \partial_\nu \A^{A\, \nu} \\
      S_1[\phi,\A]&= \dx \i g  \partial^\mu \phi_j t_{ji}^A \phi_i \A_\mu^A 
     \end{align}
     ableiten. Gluon-Selbstwechselwirkungen werden nicht betrachtet.  
@@ -155,11 +155,11 @@
      Z[J,J_\mu]:= \int \mathcal{D}\phi \,\,\, \mathcal{D}\A \,\,\,
      \exp\left\{\i S_\text{M}[\phi]
      +\i S_\text{G}[\A]+\i S_1[\phi,\A] +\i J_i\phi_i+\i J^A_\mu 
-     \A^{A\,\,\, \mu}\right\} \label{eq:renormierung:erzeugendes_funktional}
+     \A^{A\, \mu}\right\} \label{eq:renormierung:erzeugendes_funktional}
     \end{equation}
     gilt die wichtige Beziehung 
     \begin{equation}
-     Z[J,J_\mu]=\exp\left\{\i S_1\left[\frac{\delta}{\delta J},\frac{\delta}{\delta J_\mu}\right]\right\} 
+     Z[J,J_\mu]=\exp\left\{\i S_1\left[\frac{\delta}{\i\delta J},\frac{\delta}{\i\delta J_\mu}\right]\right\} 
      \,\,\, \exp\left\{-\frac{1}{2} J_i \Delta J_i\right\} 
      \,\,\, \exp\left\{-\frac{1}{2} J^A_\mu \Delta^{\mu\nu} 
      J^A_\nu \right\} \quad . \label{eq:renormierung:funktional}
@@ -172,7 +172,7 @@
     \end{equation}
     und 
     \begin{equation}
-     J_\rho^A \A^A = \dx J_\rho^A(x) \A_A(x) \quad , \quad  J_\rho^A 
+     J_\mu^A \A^{A\,\mu} = \dx J_\mu^A(x) \A^{A\, \mu}(x) \quad , \quad  J_\rho^A 
      \Delta^{\rho \epsilon} J_\epsilon^A =
      \dx \d^D y \,\,\,  J_\rho^A(x) \Delta^{\rho\epsilon}(x,y) J_\epsilon^A(y) \quad .
     \end{equation}
@@ -304,8 +304,8 @@
      Z^{(0,2)\,\,\, AB}_{\mu\nu}(x_1,x_2)=W^{(0,2)\,\,\, AB}_{\mu\nu} (x_1,x_2)
      +W^{(0,1)\,\,\, A}_\mu (x_1) W^{(0,1)\,\,\, B}_\nu (x_2)
     \end{equation}
-    ableiten. Dabei hat jede Funktion $W^{(m,n)}$ die Cluster-Eigenschaft 
-    $W^{(m,n)} \longrightarrow 0$
+    ableiten. Dabei erfüllt jede Funktion $W^{(m,n)}$ die Cluster-Eigenschaft 
+    $W^{(m,n)} \longrightarrow 0$,
     wenn die erzeugenden Ströme $J$ und $J_\mu$ separierbare Träger haben. 
     Für \eqref{eq:renormierung:Og2} bedeutet das, dass die äußeren Punkte 
     $x_1, x_2$ und die Vertizes $y_1,y_2$ durch Propagatoren verbunden sein 
@@ -408,14 +408,14 @@
       \frac{g_\text{R}^2}{16\uppi^2}  \frac{1}{6} T(S)     
       \frac{1}{\epsilon} +(Z_\A-1) \right\} \quad .
       \end{equation}
-      Dabei wurde die Gruppenkonstanten $T(S)d(S) \delta^{AB}=\text{Tr}(t^At^B)$ 
+      Dabei wurde die Gruppenkonstante $T(S)d(S) \delta^{AB}=\text{Tr}(t^At^B)$ 
       und die Multiplizität $d(S)$ der Darstellung eingeführt.
       Die Renormierungskonstante $Z_\A$ ist nun
       \begin{equation}
        Z_\A = 1-\frac{g_\text{R}^2}{16 \uppi^2} \frac{1}{6} T(S)d(S) \quad .
       \end{equation}
-      Auf gleiche Weise können nun $\widetilde{W}^{(2,0)}$ und 
-      $\widetilde{W}^{(2,1)}$ berechnet werden um die weiteren 
+      Auf gleiche Weise können $\widetilde{W}^{(2,0)}$ und 
+      $\widetilde{W}^{(2,1)}$ berechnet werden, um die weiteren 
       Renormierungskonstanten zu bestimmen. Unter Vernachlässigung dieser 
       Beiträge kann jedoch 
       \begin{equation}

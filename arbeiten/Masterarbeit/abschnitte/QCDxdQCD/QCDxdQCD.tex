@@ -13,8 +13,8 @@
     dargestellt, unter der sich die Quarks in der 
     \textit{fundamentalen Darstellung} und die Gluonen in der 
     adjungierten Darstellung transformieren. Im SM gibt es 
-    $N_\text{Flavour}=6$
-    verschiedene Quarkflavour und $N_\text{Colour}=3$ Colours. Da die QCD 
+    $\nfc=6$
+    verschiedene Quarkflavour und $\Nc=3$ Colours. Da die QCD 
     Flavour-Blind ist, d.h. da die Wechselwirkung unabhängig von der 
     Flavour-Quantenzahl ist, ist die 
     Erweiterung auf $\Nc$ Colour und $\nfc$ Flavour jedoch trivial. Die 
@@ -27,13 +27,14 @@
      \right)\psi_j^f -\frac{1}{4} F_{\mu \nu}^A F^{A \,\,\, \mu\nu}
      \label{eq:QCDxdQCD:L_QCD}
     \end{equation}
-    geschrieben werden \cite{PDG:QCD}. Dabei stellt $\psi_b^f$ ein Quarkfeld mit 
+    geschrieben werden \cite{PDG:QCD}. Dabei stellt $\psi_i^f$ ein Quarkfeld mit 
     Colour $i$ und Flavour ${f\in\{1,2,\ldots,\nfc\}}$ 
     und mit der Masse 
     $m_f$ dar, $g_\s$ ist die Kopplungskonstante der QCD. Die Indizes $i,j\in
     \{1,2,\ldots \Nc\}$ gehören zur fundamentalen Darstellung, die  
-    adjungierten Darstellung wird mit ${A\in \{1,2,\dots,\Nc^2-1\} }$ dargestellt. Man 
-    nennt $\psi=(\psi_1,\psi_2,\ldots,\psi_{\Nc})^\text{T}$ ein 
+    adjungierten Darstellung wird mit ${A\in \{1,2,\dots,\Nc^2-1\} }$ dargestellt. Man bezeichnet 
+    das Multiplett 
+    $\psi=(\psi_1,\psi_2,\ldots,\psi_{\Nc})^\text{T}$ als 
     Colour-Multiplett\footnote{Der Flavour-Index $f$ wird ab jetzt 
     weggelassen.} unter der fundamentalen Darstellung, wenn es unter 
     Anwendung der $SU(\Nc)$ gemäß
@@ -55,7 +56,7 @@
     Feldstärketensor vermittelt,
     \begin{equation}
       F^A_{\mu\nu} = \partial_\mu \mathcal{A}_\nu^A-\partial_\nu 
-      \mathcal{A}_\mu^A - g f^{ABC} \mathcal{A}_\mu^B \mathcal{A}_\nu^C 
+      \mathcal{A}_\mu^A - g_\s f^{ABC} \mathcal{A}_\mu^B \mathcal{A}_\nu^C 
       \quad , \quad [t^A,t^B]=\i f^{ABC} t^C  \quad .
       \label{eq:QCDxdQCD:Feldstaerketensor}
     \end{equation}
@@ -73,7 +74,7 @@
     $g_\d$ untersuch. Es wird eine Energieskala $\Lambda_\text{dQCD}$  gefunden, 
     die analog zur QCD Confinement Scale $\Lambda_\text{QCD}$ die Größenordnung 
     der Baryonenmasse bestimmt. Die Theorie ist aber, ebenfalls analog zur QCD, 
-    auch bis zu beliebig hohen Energieskalen anwendbar und soll hier auf ihr 
+    auch bis zu beliebig hohen Energie\-skalen anwendbar und soll hier auf ihr 
     Hochenergieverhalten untersucht werden. 
     
     Die Lagrangedichte der dQCD kann analog zu \eqref{eq:QCDxdQCD:L_QCD} als
@@ -90,8 +91,8 @@
     Darstellung der $SU(\Nd)$ sein, entsprechend laufen die Indizes 
     $r,s\in\{1,2,\ldots,\Nd\}$ und $f\in\{ 1,2,\ldots,\nfd \}$, während die 
     Felder der Eichbosonen $\widetilde{\mathcal{A}}^M_\mu$ wieder in der 
-    adjungierten Darstellung transformieren, $M\in\{1,2,\ldots,\Nd^2-1\}$, 
-    der Feldstärketensor 
+    adjungierten Darstellung transformieren, $M\in\{1,2,\ldots,\Nd^2-1\}$. 
+    Der Feldstärketensor 
     $\widetilde{F}^M_{\mu \nu}$ wird wie in 
     \eqref{eq:QCDxdQCD:Feldstaerketensor} definiert. Wie sich in Abschnitt 
     \ref{beta_QCDxdQCD} zeigen wird, begünstigt eine hohe Anzahl von Skalaren 
@@ -166,8 +167,8 @@
      \label{eq:QCDxdQCD:joint}
     \end{align}
     geschrieben werden. Dabei laufen die Indizes $i,j\in \{1,2,\ldots 
-    \Nc\}$, $r,s\in\{1,2,\ldots,\Nd\}$ und $f\in\{1,2, \ldots \nfc\}$ für 
-    die Fermionen $\zeta$ bzw. $f\in\{1,2,\ldots,\nsc\}$ für Skalare $\eta$. 
+    \Nc\}$, $r,s\in\{1,2,\ldots,\Nd\}$ und $f\in\{1,2, \ldots \nfj\}$ für 
+    die Fermionen $\zeta$ bzw. $f\in\{1,2,\ldots,\nsj\}$ für Skalare $\eta$. 
 
     In \cite{Weinberg:QFT_2} zeigt Weinberg, dass durch die Reskalierung zu 
     einer Energieskala $\mu$ alle Massen $m$ gemäß $m/\mu$ skalieren und 
@@ -175,7 +176,7 @@
     Untersuchung von UV-Fixpunkten zulässig, alle Massen gleich Null zu setzen.
   
     Die bisher beschriebenen Lagrangedichten beinhalten ausschließlich 
-    Eichwechslewirkungen, es gibt jedoch weitere Arten von Wechselwirkungen 
+    Eichwechselwirkungen, es gibt jedoch weitere Arten von Wechselwirkungen 
     bei denen keine Eichfelder beteiligt sind, 3-Skalar-Kopplungen, 
     4-Skalar-Kopplungen und Yukawa-Kopplungen. Im Folgenden werden 
     Bedingungen an die Struktur der Yukawa-Terme hergeleitet und es 
@@ -216,7 +217,7 @@
     \end{equation}
     untersucht. Der linke Index steht dabei jeweils für die $SU(\Nc)$, der 
     rechte für die $SU(\Nd)$. Das Ergebnis kann leicht 
-    an andere Yukawa-Terme angepasst werden kann. Außerdem wurde die 
+    an andere Yukawa-Terme angepasst werden kann, außerdem wurde die 
     Lorentzstruktur nicht mehr geschrieben. Die Felder transformieren unter 
     der kombinierten infinitesimalen Eichgruppe gemäß
     \begin{equation}
@@ -245,11 +246,11 @@
     Lorentzstruktur invariant sein können, Kopplungen innerhalb eines Sektors, 
     \begin{equation}
       Y^{i,j,k} \psi_i \psi_j \phi_k +
-      \widetilde{Y}^{r,s,t} \xi_r \xi_s \chi_t +
+      Y^{r,s,t} \xi_r \xi_s \chi_t +
       Y^{ir,js,kt} \zeta_{ir} {\zeta_{js}}  \eta_{kt} \hc \quad , 
       \label{eq:QCDxdQCD:1-Sektor-Yukawa}
     \end{equation}
-    und Kopplungen die je ein QCD- dQCD- und joint-Teilchen beinhalten, 
+    und Kopplungen die je ein QCD-, dQCD- und joint-Teilchen beinhalten, 
     \begin{equation}
      Y^{i,r,js} \psi_i \xi_r \eta_{js}^* \hc \label{eq:QCDxdQCD:Yukawa_misch}
     \end{equation}
@@ -293,7 +294,7 @@
     $(\nfc \nfd \nsj)$ verschiedene Yukawa-Kopplungen geben. Eine 
     allgemeine Untersuchung ist also auch hier schwierig, da durch Änderungen 
     des Materieinhaltes auch die Anzahl der 
-    Yukawa-Kopplungskonstanten geändert wird. Eine Möglichkeit dieses Problem 
+    Yukawa-Kopplungs\-kon\-stan\-ten geändert wird. Eine Möglichkeit dieses Problem 
     zu umgehen ist die Einführung von 
     Flavoursymmetrien, sodass für alle Yukawa-Terme nur 
     eine einzige Kopplungskonstante $Y$ verbleibt.
@@ -308,8 +309,8 @@
      \text{ähnliche Terme} \quad ,
     \end{equation}
     sind in den gewählten Darstellungen nicht Eichinvariant. Hier besteht die 
-    Möglichkeit, den dQCD-Sektor konjugiert 
-    fundamental transformieren zu lassen, in der infinitesimalen 
+    Möglichkeit, den dQCD-Sektor konjugiert zur 
+    fundamentalen Darstellung transformieren zu lassen, in der infinitesimalen 
     Transformation 
     \begin{equation}
      \xi_{r} \longrightarrow 
@@ -324,7 +325,7 @@
     und zu den selben $\beta$-Funktionen führen, sodass hier keine neuen 
     Phänomene im Vergleich zu \eqref{eq:QCDxdQCD:Yukawa_misch} zu erwarten sind.
     
-  
+  \newpage
       \item[3-Skalar-Kopplung:]
     Da die Fermionen und Skalare des QCD-, dQCD bzw. joint-Sektors jeweils 
     dieselben Transformationseigenschaften besitzen, können die Ergebnisse 
@@ -336,9 +337,10 @@
      \mathcal{L}_\text{3-Skalar}= \lambda \phi_i \chi_r \eta_{ir}^* \hc
     \end{equation}
     ist. In \cite{Jones} schlägt Jones vor, 3-Skalar-Kopplungen durch diskrete 
-    Symmetrien zu verbieten, Luo, Wang und Xiao zeigen in \cite{Luo_Wang_Xiao}, 
+    Symmetrien zu verbieten. Luo, Wang und Xiao zeigen in \cite{Luo_Wang_Xiao}, 
     dass 3-Skalar-Terme durch 4-Skalar-Terme mit einem unphysikalischen 
-    Dummy-Feld beschrieben werden können.
+    Dummy-Feld beschrieben werden können und fallen aus dem 
+    gleichen Grund wie die 4-Skalar-Kopplung aus der Betrachtung heraus.
     
 
      \item[4-Skalar-Kopplung:]

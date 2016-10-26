@@ -28,9 +28,9 @@
 
   \subsection{Das Standardmodell der Teilchenphysik}
     Das SM ist eine QFT nach dem Prinzip, invariant unter bestimmten 
-    Symmetrietransformationen zu sein. Die Dynamik wird dabei durch die 
+    Symmetrietransformationen zu sein. Die Dynamik wird dabei durch die kombinierte 
     Eichgruppe $SU(3)\times SU(2)\times U(1)$ in der Lagrangedichte 
-    repräsentiert, sowie der Angabe, 
+    repräsentiert und durch die Angabe 
     unter welcher Darstellung der Eichgruppe die Felder transformieren. 
     Neben den postulierten Feldern der Quarks, Leptonen und des Higgs wird so 
     die Existenz von Eichfeldern und Wechselwirkungen mit den übrigen Feldern 
@@ -48,7 +48,7 @@
     Brechung der Symmetriegruppe verantwortlich ist.
     
     Als eine der fundamentalen Kräfte des SM beschreibt die 
-    \textit{Quantenchromodynamik (QCD)} die Wechselwirkungen 
+    QCD die Wechselwirkungen 
     zwischen Quarks, den Bausteinen der Hadronen, und den Gluonen, den 
     Eichfeldern der QCD. Die mathematische Beschreibung erfolgt durch 
     Darstellungen der $SU(3)$, bei der einem Quark $\psi^f$ mit Flavour $f$ ein 
@@ -59,14 +59,14 @@
     mathematische Beschreibung folgt in Abschnitt \ref{QCDxdQCD}. 
     Charakteristisch für die QCD des SM ist die in Abschnitt \ref{beta_im_SM} 
     vorgestellte Energieabhängigkeit 
-    der QCD Kopplungskonstanten. Der Landau-Pol bei $\Lambda_\text{QCD}$ ist 
+    der QCD Kopplungskonstanten. Der Pol bei $\Lambda_\text{QCD}$ ist 
     dabei für die hadronische Bindung bei niedrigen Energien verantwortlich 
     und somit insbesondere für die baryonische Massendichte $\Omega_\text{B}$ 
     im Universum, während es bei hohen Energien gerade zur asymptotisch 
     freien QCD kommt.
     
-    Die Symmetriegruppe $SU(2)\times U(1)$ beschreibt die Elektroschwache 
-    Wechselwirkung. In ihr werden die Wechselwirkungen zwischen  
+    Die Symmetriegruppe $SU(2)\times U(1)$ repräsentiert die Elektroschwache 
+    Kraft. In ihr werden die Wechselwirkungen zwischen  
     linkshändigen Isospin-Dupletts 
     \begin{equation}
       \input{abschnitte/renormierung/linkshaendig.tex}
@@ -108,7 +108,7 @@
     Rechnung wird die 
     Notwendigkeit der Regularisierung und Renormierung abgeleitet. Schließlich 
     wird die $\beta$-Funktion der Beispieltheorie gefunden.
-    
+    \newpage
     Die Rechnung erfolgt am Beispiel einer $SU(N)$ mit  
     skalaren Materiefeldern $\phi_i$ in der Darstellung $S$ und 
     Eichfeldern $\A^A$ in \textit{adjungierter Darstellung}. Der Eichfixierungsterm 
@@ -170,18 +170,23 @@
      J_i \phi_i = \dx J_i(x) \phi_i(x) \quad , \quad  J_i \Delta J_i =
      \dx \d^D y \,\,\,  J_i(x) \Delta(x,y) J_i(y) \quad ,
     \end{equation}
-    für die Eichfelder $\A$ analog.
-    
+    und 
+    \begin{equation}
+     J_\rho^A \A^A = \dx J_\rho^A(x) \A_A(x) \quad , \quad  J_\rho^A 
+     \Delta^{\rho \epsilon} J_\epsilon^A =
+     \dx \d^D y \,\,\,  J_\rho^A(x) \Delta^{\rho\epsilon}(x,y) J_\epsilon^A(y) \quad .
+    \end{equation}
     Durch das Ausführen von Funktionalableitungen in 
     \eqref{eq:renormierung:erzeugendes_funktional} lassen sich nun die 
     Korrelatorfunktionen aus \eqref{renormierung:Korrelator_definition} 
     rekonstruieren, 
     \begin{equation}
      \left.\frac{\delta}{\i \delta J_i(x)}\right|_{J=J_\mu=0} Z[J,J_\mu]
-     = \Big\langle \phi_i(x) \Big\rangle \quad , 
+     = \Big\langle \phi_i(x) \Big\rangle \quad . 
      \label{eq:renormierung:ableitungen}
     \end{equation}
-    für höhere Ableitungen analog. Die formale Entwicklung
+    Entsprechend können durch mehrmaliges Ableiten höhere Korrelatorfunktionen 
+    berechnet werden. Die formale Entwicklung
     \begin{equation}
     \begin{aligned}
      &Z[J,J_\mu]= \sum\limits_{m,n=0}^\infty 
@@ -341,7 +346,7 @@
     Hilfe der Schwinger-Parametrisierung ergibt 
    \begin{equation}
     \begin{aligned}
-     \widetilde{W}^{(0,2)\,\,\, AB}_{\mu\nu} &(k_1,k_2) = 
+     &\widetilde{W}^{(0,2)\,\,\, AB}_{\mu\nu}  (k_1,k_2) = 
       g^2 \text{Tr}(t^A t^B)  
      \frac{\delta(k_1+k_2)}{D^2 k_1^4}
      %
@@ -351,14 +356,14 @@
      &     
      \left[
      \left(B(\nicefrac{D}{2}+1,\nicefrac{D}{2}-1)-B(\nicefrac{D}{2},
-     \nicefrac{D}{2}-1)k_{1\, \rho}
-     k_{1\sigma}\right) + B(\nicefrac{D}{2},\nicefrac{D}{2}-1)k_{1\,\text{E}}^2
-     \, \delta_{\rho\sigma} \frac{\Gamma(1-\nicefrac{D}{2})}{\Gamma(2-\nicefrac{D}{2})}
+     \nicefrac{D}{2}-1)k_1^\rho
+     k_1^\sigma\right) + B(\nicefrac{D}{2},\nicefrac{D}{2}-1)k_{1\,\text{E}}^2
+     \, \delta^{\rho\sigma} \frac{\Gamma(1-\nicefrac{D}{2})}{\Gamma(2-\nicefrac{D}{2})}
      \right] \\&
       \Gamma(2-\nicefrac{D}{2}) \Bigg\}
      %
-     \left( \eta^{\mu \rho}-(1-\xi)\frac{k_1^{\mu}k_1^{\rho}}{k_1^2}\right)
-     \left( \eta^{\nu \sigma}-(1-\xi)\frac{k_2^{\nu}k_2^{\sigma}}{k_2^2}\right)
+     \left( \eta_{\mu \rho}-(1-\xi)\frac{k_{1\,\mu}k_{1\,\rho}}{k_1^2}\right)
+     \left( \eta_{\nu \sigma}-(1-\xi)\frac{k_{2\,\nu}k_{2\,\sigma}}{k_2^2}\right)
       \delta(k_1+k_2)
      \quad .
     \end{aligned}
@@ -401,7 +406,7 @@
       k_{\rho}k_{\sigma}-k^2_{ \text{E}}\, \delta_{\rho\sigma}\right]
       \left\{ 
       \frac{g_\text{R}^2}{16\uppi^2}  \frac{1}{6} T(S)     
-      \frac{1}{\epsilon} +(Z_\A-1) \right\}.
+      \frac{1}{\epsilon} +(Z_\A-1) \right\} \quad .
       \end{equation}
       Dabei wurde die Gruppenkonstanten $T(S)d(S) \delta^{AB}=\text{Tr}(t^At^B)$ 
       und die Multiplizität $d(S)$ der Darstellung eingeführt.
@@ -421,7 +426,7 @@
       \begin{equation}
        \beta(g_\text{R}):= \mu \frac{\d g_\text{R}}{\d\mu} = \frac{g_\text{R}^3}
        {16 \uppi^2}
-       \frac{1}{6} T(S)d(S) + \mathcal{O}(g^5) \quad .
+       \frac{1}{6} T(S)d(S) + \mathcal{O}(g_\text{R}^5) \quad .
        \label{eq:renormierung:beta-funktion}
       \end{equation}
       

@@ -85,11 +85,11 @@ ax21 = fig2.add_subplot(111)
 
 #along separatrix
 
-ax21.plot(t,alpha1, color='0.',linestyle='-',label=r'$\alpha_1$')
-ax21.plot(t,alpha2, color='0.5',linestyle='-',label=r'$\alpha_2$')
+ax21.plot(t,alpha1, color='0.',linestyle='-',label=r'$\alpha_\mathrm{s}$')
+ax21.plot(t,alpha2, color='0.',linestyle=':',label=r'$\alpha_\mathrm{d}$')
 
 #SM running
-ax21.plot(np.append(0,t),np.append(0.093,alpha_SM), 'k--',label=r'$\alpha$')
+ax21.plot(np.append(0,t),np.append(0.093,alpha_SM), 'k--',label=r'$\alpha_\mathrm{QCD}$')
 
 
 #labels etc

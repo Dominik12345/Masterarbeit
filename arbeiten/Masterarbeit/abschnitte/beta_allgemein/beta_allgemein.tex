@@ -3,7 +3,7 @@
 
 	In Abschnitt \ref{selbstenergie} wurde die $\beta$-Funktion einer skalaren 
 	$SU(N)$ berechnet, bei der die Energieabhängigkeit der renormierten 
-	Kopplungskonstante durch eine gewöhnliche 
+	Kopplungskonstanten durch eine gewöhnliche 
 	\textit{Differenzialgleichung (DGL)} erster 
 	Ordnung beschrieben wird. Für den allgemeinen Fall ergibt sich ein 
 	System aus gekoppelten DGLs.
@@ -15,7 +15,8 @@
   \end{equation}
   schreiben. Der $\mathbb{R}^N$ ist dann der \textit{Phasenraum} 
   der $\beta$-Funktion. Wie an Gleichung \eqref{eq:renormierung:beta-funktion} 
-  zu erkennen ist, sind die Beiträge zur $\beta$-Funktionen mindestens 
+  zu erkennen ist, sind die Beiträge zur $\beta$-Funktionen bei 
+  dimensionslosen Kopplungen mindestens 
   $\mathcal{O}(g^3)$.
   
     Lösungen der Gleichung \eqref{eq:beta_allgemein:dgl} 
@@ -33,7 +34,7 @@
   Hochenergieverhalten zu gewährleisten. Demnach sind gerade die Fixpunkte der 
   $\beta$-Funktion die möglichen Grenzwerte der Kopplungskonstanten.
   
-  Im Laufe der Untersuchung der $\beta$-Funktion haben sich die folgenden 
+  Für die Untersuchung von $\beta$-Funktionen haben sich die folgenden 
   Bezeichnungen entwickelt.
   \begin{description}
    \item[Gaußscher Fixpunkt: ] Der Fixpunkt $g^*=0$ heißt Gaußscher Fixpunkt.
@@ -72,7 +73,7 @@
       \begin{beispiel}
 	  Für ein eindimensionales Problem
 	  \begin{equation}
-	  \mu \frac{\d}{\d \mu} g(\mu) = X g(\mu)^3 + Y g(\mu)^5
+	  \mu \frac{\d}{\d \mu} g(\mu) = X^g g(\mu)^3 + Y^g g(\mu)^5
 	  \end{equation}
 	  und für den einfachen Fall $[g]=0$ kann 
 	  \begin{equation}
@@ -81,11 +82,11 @@
 	  \frac{\d \alpha}{\d \mu} 
 	\end{equation}
 	definiert werden. 
-	So erhält man eine einfachere Differentialgleichung mit den 
-	Koeffizienten \\$\tilde{X}=2X\mathcal{N}^{-1}$ und 
-	$\tilde{Y}=2Y\mathcal{N}^{-2}$,
+	So erhält man eine einfachere DGL mit den 
+	Koeffizienten \\$X=2X^g \mathcal{N}^{-1}$ und 
+	$Y=2Y^g\mathcal{N}^{-2}$,
 	 \begin{equation}
-	  \mu \frac{\d}{\d \mu} \alpha(\mu) =\tilde{X}\alpha(\mu)^2+\tilde{Y}
+	  \mu \frac{\d}{\d \mu} \alpha(\mu) =X\alpha(\mu)^2+Y
 	  \alpha(\mu)^3 \quad .
 	\end{equation}
 	
@@ -96,10 +97,10 @@
     Der physikalisch sinnvolle Wertebereich für die Energieskala $\mu$ ist 
     $(0,\infty)$. Mit der Renormierungsgruppenzeit (RG-Zeit) $t$, definiert als
     \begin{equation}
-     t(\mu):=\ln\left(\frac{\mu}{\Lambda}\right) \,
-     \Leftrightarrow \, \mu(t)=e^t \quad , \label{eq:beta_allgemein:RG-Zeit}
+     t(\mu):=\ln\left(\frac{\mu}{\Lambda}\right) \quad
+     \Leftrightarrow \quad \mu(t)=e^t \quad , \label{eq:beta_allgemein:RG-Zeit}
     \end{equation}
-    gibt es eine Bijektion $(0,\infty)\overset{t}{\longrightarrow}
+    gibt es eine Bijektion $(0,\infty)\overset{t}{\longleftrightarrow}
     (-\infty,\infty)$, die es erlaubt die Kopplungskonstante als 
     \begin{equation}
     \tilde{\alpha}(t):=\alpha\left(e^t\right)=\alpha(\mu)
@@ -159,7 +160,7 @@
      \label{eq:beta_allgemein:K_loesung} 	\quad ,
     \end{align}
     wobei $\lambda_i$ der Eigenwert zu $e_i$ ist. Damit kann das Verhalten der 
-    Kopplungskonstante durch
+    Kopplungskonstanten durch
     \begin{equation}
      \alpha(t)=\sum\limits_{i=1}^N \e^{\lambda_i t} K_i(0) e_i +\alpha^* 
      \label{eq:beta_allgemein:loesung}
@@ -187,7 +188,7 @@
      \item Ein Fixpunkt heißt \textit{repulsiver (UV-)Fixpunkt}, wenn 
 	$\Re \lambda_i>0 \forall i$.
      \item Falls ein Fixpunkt weder attraktiv noch repulsiv ist, d.h. wenn es 
-     sowohl Trajektorien gibt die in ihn hinein-, als auch welche die 
+     sowohl Trajektorien gibt, die in ihn hinein-, als auch welche die 
      hinauslaufen, wird er \textit{Sattelpunkt} genannt.
      \item
       Die Menge der in den Fixpunkt hineinlaufenden Kurven heißt 

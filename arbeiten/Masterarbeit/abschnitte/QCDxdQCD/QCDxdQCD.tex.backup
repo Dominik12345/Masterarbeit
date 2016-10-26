@@ -3,7 +3,7 @@
   
   Das Verhalten der QCD-Kopplungskonstanten ist im Standardmodell allein nicht 
   im Stande ein asymptotic safety Szenario zu entwickeln, wie in Abschnitt 
-  \ref{beta_im_SM} gezeigt wird. Durch die 
+  \ref{beta_im_SM} gezeigt wurde. Durch die 
   Erweiterung der QCD um eine weitere Eichgruppe, die dark QCD, ergeben sich 
   qualitativ völlig neue Möglichkeiten im Hochenergieverhalten der 
   Kopplungskonstanten. 
@@ -12,9 +12,9 @@
     Im Standardmodell wird die QCD durch die Symmetriegruppe $SU(\Nc)$ 
     dargestellt, unter der sich die Quarks in der 
     \textit{fundamentalen Darstellung} und die Gluonen in der 
-    \textit{adjungierten Darstellung} transformieren. Im SM gibt es 
-    $N_\text{Flavour}=6$
-    verschiedene Quarkflavour und $N_\text{Colour}=3$ Colours, da die QCD 
+    adjungierten Darstellung transformieren. Im SM gibt es 
+    $\nfc=6$
+    verschiedene Quarkflavour und $\Nc=3$ Colours. Da die QCD 
     Flavour-Blind ist, d.h. da die Wechselwirkung unabhängig von der 
     Flavour-Quantenzahl ist, ist die 
     Erweiterung auf $\Nc$ Colour und $\nfc$ Flavour jedoch trivial. Die 
@@ -22,18 +22,18 @@
     \begin{equation}
      \mathcal{L}_\text{QCD} =\bar{\psi}_i^f \left( 
      \i \gamma^\mu \partial_\mu \delta_{ij} 
-     -g_1 \gamma^\mu t^A_{ij} \mathcal{A}_\mu^A
+     -g_\s \gamma^\mu t^A_{ij} \mathcal{A}_\mu^A
      -m_f \delta_{ij}
      \right)\psi_j^f -\frac{1}{4} F_{\mu \nu}^A F^{A \,\,\, \mu\nu}
      \label{eq:QCDxdQCD:L_QCD}
     \end{equation}
-    geschrieben werden \cite{PDG:QCD}. Dabei stellt $\psi_b^f$ ein Quarkfeld mit 
-    Colour $i$ und Flavour $f\in\{1,2,\ldots,\nfc\}$ 
+    geschrieben werden \cite{PDG:QCD}. Dabei stellt $\psi_i^f$ ein Quarkfeld mit 
+    Colour $i$ und Flavour ${f\in\{1,2,\ldots,\nfc\}}$ 
     und mit der Masse 
-    $m_f$ dar, $g_1$ ist die Kopplungskonstante der QCD. Die Indizes $i,j\in
-    \{1,2,\ldots \Nc\}$ gehören zur fundamentalen Darstellung, während $A\in 
-    \{1,2,\dots,\Nc^2-1\}$ zur adjungierten Darstellung gehört. Man 
-    nennt $\psi=(\psi_1,\psi_2,\ldots,\psi_{\Nc})^\text{T}$ ein 
+    $m_f$ dar, $g_\s$ ist die Kopplungskonstante der QCD. Die Indizes $i,j\in
+    \{1,2,\ldots \Nc\}$ gehören zur fundamentalen Darstellung, die  
+    adjungierten Darstellung wird mit ${A\in \{1,2,\dots,\Nc^2-1\} }$ dargestellt. Das Multiplett  
+    $\psi=(\psi_1,\psi_2,\ldots,\psi_{\Nc})^\text{T}$ nennt man 
     Colour-Multiplett\footnote{Der Flavour-Index $f$ wird ab jetzt 
     weggelassen.} unter der fundamentalen Darstellung, wenn es unter 
     Anwendung der $SU(\Nc)$ gemäß
@@ -70,9 +70,9 @@
     In \cite{Scale_of_dark_QCD} wird die dQCD eingeführt, um die DM Massendichte 
     $\Omega_\text{DM}$ im Universum zu erklären. Dazu wird das 
     Niederenergieverhalten der neu eingeführten Kopplungskonstanten 
-    $g_2$ auf die Confinement Scale $\Lambda_\text{dQCD}$ untersucht, 
+    $g_\d$ untersuch. Es wird eine Energieskala $\Lambda_\text{dQCD}$  gefunden, 
     die analog zur QCD Confinement Scale $\Lambda_\text{QCD}$ die Größenordnung 
-    der Baryonmasse bestimmt. Die Theorie ist aber, ebenfalls analog zur QCD, 
+    der Baryonenmasse bestimmt. Die Theorie ist aber, ebenfalls analog zur QCD, 
     auch bis zu beliebig hohen Energieskalen anwendbar und soll hier auf ihr 
     Hochenergieverhalten untersucht werden. 
     
@@ -80,7 +80,7 @@
     \begin{equation}
      \mathcal{L}_\text{dQCD} = \bar{\xi}_r^f \left( 
      \i \gamma^\mu \partial_\mu \delta_{rs} 
-     -g_2 \gamma^\mu \widetilde{t}^M_{ts} \widetilde{\mathcal{A}}_\mu^M
+     -g_\d \gamma^\mu \widetilde{t}^M_{ts} \widetilde{\mathcal{A}}_\mu^M
      -\widetilde{m}_f \delta_{rs}
      \right)\xi_s^f -\frac{1}{4} \widetilde{F}_{\mu \nu}^M 
      \widetilde{F}^{M \,\,\, \mu\nu}
@@ -94,33 +94,35 @@
     der Feldstärketensor 
     $\widetilde{F}^M_{\mu \nu}$ wird wie in 
     \eqref{eq:QCDxdQCD:Feldstaerketensor} definiert. Wie sich in Abschnitt 
-    \ref{beta_QCDxdQCD} zeigen wird, begünstigt eine hohe Teilchenzahl 
-    die auftretenden Fixpunkte dahingehend, dass sie betragsmäßig kleiner 
+    \ref{beta_QCDxdQCD} zeigen wird, begünstigt eine hohe Anzahl von Skalaren 
+    die auftretenden Fixpunkte dahingehend, dass Kopplungskonstanten kleiner 
     werden und somit unter perturbative Kontrolle kommen, ohne ihr 
-    UV-attraktives Verhalten zu verlieren, wie es bei einer Theorie mit 
-    ausschließlich Fermionen der Fall wäre. Skalare $\phi^f$ und $\chi^f$ 
+    UV-attraktives Verhalten zu verlieren. Skalare $\phi^f$ und $\chi^f$ 
     unter der QCD bzw. dQCD können über 
-    \begin{align}
-     \mathcal{L}_\text{QCD}^\text{S} &=
+    \begin{equation}
+     \mathcal{L}_\text{QCD}^\text{S} =
      \left( \left[ \i \delta_{ji} \partial_\mu - 
-     g_1 t^A_{ji} \mathcal{A}^A_\mu -\frac{1}{2}\left(m_f^\text{S}\right)^2 
+     g_\s t^A_{ji} \mathcal{A}^A_\mu -\frac{1}{2}\left(m_f^\text{S}\right)^2 
      \delta_{ji}
-     \right] \phi^f_i \right)^\dagger \\ &
+     \right] \phi^f_i \right)^\dagger 
      \left( \left[ \i \delta_{ji} \partial^\mu- 
-     g_1 t^A_{ji} \mathcal{A}^{A\,\,\, \mu} -\frac{1}{2}\left(m_f^\text{S}
+     g_\s t^A_{ji} \mathcal{A}^{A\,\,\, \mu} -\frac{1}{2}\left(m_f^\text{S}
      \right)^2
      \delta_{ji}
-     \right] \phi^f_i \right)  \\
-     \mathcal{L}_\text{dQCD}^\text{S} &=
+     \right] \phi^f_i \right)  
+     \end{equation}
+     und
+     \begin{equation}
+     \mathcal{L}_\text{dQCD}^\text{S} =
      \left( \left[ \i \delta_{sr}\partial_\mu - 
-     g_2 \widetilde{t}^M_{sr} \widetilde{\mathcal{A}}^M_\mu -\frac{1}{2}
+     g_\d \widetilde{t}^M_{sr} \widetilde{\mathcal{A}}^M_\mu -\frac{1}{2}
      \left(\widetilde{m}_f^\text{S}\right)^2 \delta_{sr}
      \right] \chi^f_r \right)^\dagger
      \left( \left[ \i \delta_{sr}\partial^\mu - 
-     g_2 \widetilde{t}^M_{sr} \widetilde{\mathcal{A}}^{M\,\,\, \mu} -
+     g_\d \widetilde{t}^M_{sr} \widetilde{\mathcal{A}}^{M\,\,\, \mu} -
      \frac{1}{2}\left(\widetilde{m}_f^\text{S}\right)^2 \delta_{sr}
      \right] \chi^f_r \right) 
-    \end{align}
+    \end{equation}
     eingeführt werden (vgl. \cite{Scalar_QCD}). Der Flavour-Index $f$ läuft 
     wieder 
     über alle $\nsc$ QCD Skalare bzw. alle $\nsd$ dQCD Skalare. Die 
@@ -139,26 +141,28 @@
     \begin{align}
       \mathcal{L}_\text{joint} &= \bar{\zeta}_{ir}^f \left( 
      \i \gamma^\mu \partial_\mu \delta_{ij} \delta_{rs} 
-     -g_1 \gamma^\mu t^A_{ij} \mathcal{A}_\mu^A \delta_{rs}
-     -g_2 \gamma^\mu \widetilde{t}^M_{rs} \widetilde{\mathcal{A}}_\mu^M 
+     -g_\s \gamma^\mu t^A_{ij} \mathcal{A}_\mu^A \delta_{rs}
+     -g_\d \gamma^\mu \widetilde{t}^M_{rs} \widetilde{\mathcal{A}}_\mu^M 
      \delta_{ij}
      -m^\text{joint}_f \delta_{ij}\delta_{rs}
      \right)\zeta_{js}^f 
      \\
+     \begin{split}
      \mathcal{L}_\text{joint}^\text{S}&=
      \left( \left[ \i \delta_{ji}\delta_{sr}\partial_\mu- 
-     g_1 t^A_{ji} \mathcal{A}^A_\mu \delta_{sr} 
+     g_\s t^A_{ji} \mathcal{A}^A_\mu \delta_{sr} 
      - 
-     g_2 \widetilde{t}^M_{sr} \widetilde{\mathcal{A}}^M_\mu \delta_{ji} 
+     g_\d \widetilde{t}^M_{sr} \widetilde{\mathcal{A}}^M_\mu \delta_{ji} 
      -\frac{1}{2}\left(m_f^\text{S,joint}\right)^2 \delta_{ji}\delta_{sr}
      \right] \eta^f_{ir} \right)^\dagger
      \\ &
      \left( \left[ \i \delta_{ji}\delta_{sr}\partial_\mu- 
-     g_1 t^A_{ji} \mathcal{A}^A_\mu \delta_{sr} 
+     g_\s t^A_{ji} \mathcal{A}^A_\mu \delta_{sr} 
      - 
-     g_2 \widetilde{t}^M_{sr} \widetilde{\mathcal{A}}^M_\mu \delta_{ji} 
+     g_\d \widetilde{t}^M_{sr} \widetilde{\mathcal{A}}^M_\mu \delta_{ji} 
      -\frac{1}{2}\left(m_f^\text{S,joint}\right)^2 \delta_{ji}\delta_{sr}
      \right] \eta^f_{ir} \right)    
+     \end{split}
      \label{eq:QCDxdQCD:joint}
     \end{align}
     geschrieben werden. Dabei laufen die Indizes $i,j\in \{1,2,\ldots 
@@ -173,9 +177,10 @@
     Die bisher beschriebenen Lagrangedichten beinhalten ausschließlich 
     Eichwechslewirkungen, es gibt jedoch weitere Arten von Wechselwirkungen 
     bei denen keine Eichfelder beteiligt sind, 3-Skalar-Kopplungen, 
-    4-Skalar-Kopplungen und Yukawa-Kopplungen. Im Folgenden wird kurz begündet, 
-    warum diese drei Arten der Kopplung im weiteren Verlauf der Arbeit nicht 
-    betrachtet werden.
+    4-Skalar-Kopplungen und Yukawa-Kopplungen. Im Folgenden werden 
+    Bedingungen an die Struktur der Yukawa-Terme hergeleitet und es 
+    wird kurz begündet, 
+    warum 3- und 4-Skalar-Kopplungen nicht weiter betrachtet werden.
     \begin{description}
       \item[Yukawa-Kopplung:]
       
@@ -206,12 +211,11 @@
     Exemplarisch wird der Yukawa-Term
     \begin{equation}
      \mathcal{L}_\text{Yukawa}\subset Y^{ir,js,kt} 
-     \zeta_{ir} \,\, \underline{\zeta_{js}} \,\, 
-     \underline{\underline{ \eta_{kt}}} \label{eq:QCDxdQCD:Yukawa-Term}
+     \zeta_{ir} \,\, \zeta_{js} \,\, 
+      \eta_{kt} \label{eq:QCDxdQCD:Yukawa-Term}
     \end{equation}
     untersucht. Der linke Index steht dabei jeweils für die $SU(\Nc)$, der 
-    rechte für die $SU(\Nd)$. Der ein- bzw. zweifache Unterstrich hilft 
-    lediglich die Terme im Endergebnis zu identifizieren, sodass dieses leicht 
+    rechte für die $SU(\Nd)$. Das Ergebnis kann leicht 
     an andere Yukawa-Terme angepasst werden kann. Außerdem wurde die 
     Lorentzstruktur nicht mehr geschrieben. Die Felder transformieren unter 
     der kombinierten infinitesimalen Eichgruppe gemäß
@@ -227,13 +231,12 @@
     Ordnung $\mathcal{O}(\epsilon^A)$ bzw. $\mathcal{O}(\delta^M)$
     \begin{align}
      Y^{lr,js,kt} \left( \i t_{li}^A \right) +
-     Y^{ir,ms,kt}\underline{ \left( \i t_{mj}^A \right) }+
-     Y^{ir,js,nt} \underline{\underline{\left( \i t^A_{nk} \right) }}
+     Y^{ir,ms,kt} \left( \i t_{mj}^A \right) +
+     Y^{ir,js,nt} \left( \i t^A_{nk} \right) 
      &\overset{!}{=}0 \label{eq:QCDxdQCD:Yukawa_QCD}\\
      Y^{iu,js,kt} \left( \i \widetilde{t}_{ur}^M \right) +
-     Y^{ir,jv,kt} \underline{\left( \i \widetilde{t}_{vs}^M \right) }+
-     Y^{ir,js,kw}\underline{\underline{ \left( \i \widetilde{t}_{wt}^M 
-     \right) }}
+     Y^{ir,jv,kt} \left( \i \widetilde{t}_{vs}^M \right) +
+     Y^{ir,js,kw} \left( \i \widetilde{t}_{wt}^M \right)
      &\overset{!}{=}0 \label{eq:QCDxdQCD:Yukawa_dQCD}
      \quad .
     \end{align}
@@ -257,14 +260,14 @@
     \eqref{eq:QCDxdQCD:Yukawa_QCD} zu
     \begin{equation}
      t^A_{ii} + t^A_{jj} + t^A_{kk} = 0 \quad \text{mit} 
-     \quad i\neq j \neq k \quad , \label{eq:QCDxdQCD:Yukawa_diagonal}
+     \quad i\neq j \neq k \quad . \label{eq:QCDxdQCD:Yukawa_diagonal}
     \end{equation}
-    was genau für eine $SU(3)$ als $\text{Sp}t^A=0$ gültig ist. Da in dieser 
+    Dies ist genau für eine $SU(3)$ gültig. Da in dieser 
     Arbeit das Hauptinteresse im Verhalten der Fixpunkte in Abhängigkeit von 
     der Eichgruppe liegt, ist es nicht sinnvoll Yukawa-Terme zu 
     berücksichtigen, die nur in drei von beliebig vielen 
     $SU(\Nc)\times SU(\Nd)$ Eichgruppen erlaubt sind. Sinnvoller wäre es hier, 
-    den Fall $SU(3)\times SU(3)$ gesondert auf Yukawa-Beiträge zur 
+    den Fall $SU(3)\times SU(3)$ gesondert auf diese Yukawa-Beiträge zur 
     $\beta$-Funktion zu untersuchen. Außerdem wird sich zeigen, dass es kein 
     qualitativ neues UV-Verhalten gibt, dass nicht allein von Skalaren oder 
     Fermionen hervorgerufen werden kann, sodass in Abschnitt 
@@ -290,14 +293,14 @@
     $(\nfc \nfd \nsj)$ verschiedene Yukawa-Kopplungen geben. Eine 
     allgemeine Untersuchung ist also auch hier schwierig, da durch Änderungen 
     des Materieinhaltes auch die Anzahl der 
-    Yukawa-Kopplungskonstanten gändert wird. Eine Möglichkeit dieses Problem 
+    Yukawa-Kopplungskonstanten geändert wird. Eine Möglichkeit dieses Problem 
     zu umgehen ist die Einführung von 
-    Falvoursymmetrien, sodass für alle Yukawa-Terme nur 
+    Flavoursymmetrien, sodass für alle Yukawa-Terme nur 
     eine einzige Kopplungskonstante $Y$ verbleibt.
     In Abschnitt \ref{beta_QCDxdQCD} 
     entfallen solche Yukawa-Wechselwirkungen jedoch wieder, da $\nsj=0$ oder 
     $\nfd=0$ gewählt werden kann, ohne qualitativ unterschiedliche UV-Verhalten 
-    zu verlieren. 
+    der Eichwechselwirkungen zu verlieren. 
     
     Yukawa-Terme mit Dirac-artiger Lorentzstruktur, 
     \begin{equation}

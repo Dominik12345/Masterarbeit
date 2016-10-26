@@ -123,11 +123,11 @@ ax21 = fig2.add_subplot(111)
 
 #along separatrix
 
-ax21.plot(t1,alpha11, color='0.',linestyle='-',label=r'$\alpha_1^\mathrm{a}$')
-ax21.plot(t2,alpha12, color='0',linestyle=':',label=r'$\alpha_1^\mathrm{b}$')
-ax21.plot(t5,alpha15, color='0.7',linestyle='-',label=r'$\alpha_1^\mathrm{c}$')
-ax21.plot(t3,alpha13, color='0.4',linestyle='-',label=r'$\alpha_1^\mathrm{d}$')
-ax21.plot(t4,alpha14, color='0.2',linestyle='-',label=r'$\alpha_1^\mathrm{e}$')
+ax21.plot(t1,alpha11, color='0.',linestyle='-' ,linewidth=1.5,label=r'$\alpha_\mathrm{s}^\mathrm{a}$')
+ax21.plot(t2,alpha12, color='0.',linestyle='-.',linewidth=2  ,label=r'$\alpha_\mathrm{s}^\mathrm{b}$')
+ax21.plot(t5,alpha15, color='0.',linestyle=':' ,linewidth=2  ,label=r'$\alpha_\mathrm{s}^\mathrm{c}$')
+ax21.plot(t3,alpha13, color='0.',linestyle='-' ,linewidth=0.5,label=r'$\alpha_\mathrm{s}^\mathrm{d}$')
+ax21.plot(t4,alpha14, color='0.',linestyle=':',linewidth=1   ,label=r'$\alpha_\mathrm{s}^\mathrm{e}$')
 
 
 
@@ -136,7 +136,7 @@ ax21.plot(t4,alpha14, color='0.2',linestyle='-',label=r'$\alpha_1^\mathrm{e}$')
 
 #SM running
 # ax21.plot(t1,alpha_SM1, 'r:',label=r'$\alpha_{\mathrm{SM-QCD1}}$')
-ax21.plot(t2,alpha_SM2, 'k--',label=r'$\alpha$')
+ax21.plot(t2,alpha_SM2, 'k--',label=r'$\alpha_\mathrm{QCD}$')
 #ax21.plot(t3,alpha_SM3, 'g:',label=r'$\alpha_{\mathrm{SM-QCD3}}$')
 #ax21.plot(t4,alpha_SM4, 'm:',label=r'$\alpha_{\mathrm{SM-QCD4}}$')
 
@@ -215,15 +215,15 @@ ax3 = fig3.add_subplot(111)
 #ax3.plot(t_SM,alpha_SM,'r.',label=r'2-Loop')
 #ax3.plot(t_SM,A1loop(t_SM),'k-',label=r'1-Loop')
 
-ax3.plot(t1,(alpha11-alpha_SM1)/alpha_SM1,color='0.',linestyle='-',label=r'$\Delta \alpha^\mathrm{a}$')
-ax3.plot(t2,(alpha12-alpha_SM2)/alpha_SM2,color='0.',linestyle=':',label=r'$\Delta \alpha^\mathrm{b}$')
-ax3.plot(t5,(alpha15-alpha_SM5)/alpha_SM5,color='0.7',linestyle='-',label=r'$\Delta \alpha^\mathrm{c}$')
-ax3.plot(t3,(alpha13-alpha_SM3)/alpha_SM3,color='0.4',linestyle='-',label=r'$\Delta \alpha^\mathrm{d}$')
-ax3.plot(t4,(alpha14-alpha_SM4)/alpha_SM4,color='0.2',linestyle='-',label=r'$\Delta \alpha^\mathrm{e}$')
+ax3.plot(t1,(alpha11-alpha_SM1)/alpha_SM1,color='0.' ,linestyle='-' ,linewidth=1.5,label=r'$\Delta \alpha^\mathrm{a}$')
+ax3.plot(t2,(alpha12-alpha_SM2)/alpha_SM2,color='0.' ,linestyle='-.',linewidth=2  ,label=r'$\Delta \alpha^\mathrm{b}$')
+ax3.plot(t5,(alpha15-alpha_SM5)/alpha_SM5,color='0.',linestyle=':' ,linewidth=2  ,label=r'$\Delta \alpha^\mathrm{c}$')
+ax3.plot(t3,(alpha13-alpha_SM3)/alpha_SM3,color='0.',linestyle='-' ,linewidth=0.5,label=r'$\Delta \alpha^\mathrm{d}$')
+ax3.plot(t4,(alpha14-alpha_SM4)/alpha_SM4,color='0.',linestyle=':',linewidth=1   ,label=r'$\Delta \alpha^\mathrm{e}$')
 
 ax3.xaxis.grid(True)
 ax3.set_xlabel(r'$t$')
-ax3.set_ylabel(r'Relative Abweichung')
+ax3.set_ylabel(r'Relative Abweichung $\Delta \alpha$')
 ax3.legend(loc='center left',bbox_to_anchor=(1,0.5),frameon=False)
 #safe
 fig3.savefig('plots/alpha_running/relative_deviation_her.pdf', bbox_inches='tight')
