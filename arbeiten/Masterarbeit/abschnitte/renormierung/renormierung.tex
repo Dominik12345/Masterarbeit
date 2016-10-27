@@ -238,7 +238,7 @@
     Die einzige beitragende Ordnung ist hier $\mathcal{O}(g^2 J_i^4 J_\rho^4)$, 
     \begin{equation}
     \begin{aligned}
-      Z[J,J_\mu]&= -\frac12 g^2 t^C_{ji}t^D_{lk} \int \d^D y_1 \d^D y_2 
+      Z[J,J_\mu]&= \frac12 g^2 t^C_{ji}t^D_{lk} \int \d^D y_1 \d^D y_2 
      \left(\partial_\rho \frac{\delta}{\i\delta J_j(y_1)} \right)  \frac{\delta}{\i \delta 
      J_i(y_1)} \frac{\delta}{\i \delta J^C_\rho(y_1)} \\&
      \left(\partial_\sigma \frac{\delta}{\i\delta J_l(y_2)} \right)   \frac{\delta}{\i \delta 
@@ -254,7 +254,7 @@
     Es folgt
     \begin{equation}
      \begin{aligned}
-      &Z^{(0,2)\,\,\, AB}_{\mu\nu}(x_1,x_2) = -\frac12 g^2 t^C_{ji}t^D_{lk}
+      &Z^{(0,2)\,\,\, AB}_{\mu\nu}(x_1,x_2) = \frac12 g^2 t^C_{ji}t^D_{lk}
       \int \d^D y_1 \,\,\, d^D y_2 \,\,\,
       \\ &
       \left[
@@ -316,7 +316,7 @@
     $y_1 \leftrightarrow y_2$ und der Antisymmetrie von $t_{ji}^A$
     \begin{equation}
     \begin{aligned}
-    W^{(0,2)\,\,\, AB}_{\mu\nu} (x_1,x_2) &= 
+    W^{(0,2)\,\,\, AB}_{\mu\nu} (x_1,x_2) &= -
     g^2 \text{Tr}(t^A t^B) \int \d^D y_1 \,\,\, d^D y_2 \,\,\, 
     \Delta_{\mu\rho}(x_1,y_1)\Delta_{\nu \sigma}(x_2,y_2)
     \\&\left[
@@ -331,7 +331,7 @@
     Die Fouriertransformation dieses Ausdrucks ergibt
     \begin{equation}
     \begin{aligned}
-     \widetilde{W}^{(0,2)\,\,\, AB}_{\mu\nu} (k_1,k_2) = &
+     \widetilde{W}^{(0,2)\,\,\, AB}_{\mu\nu} (k_1,k_2) = & -
       g^2 \text{Tr}(t^A t^B) 
      \frac{\delta(k_1+k_2)}{D^2 k_1^4} \int \frac{\d^D q}{(2\uppi)^D} 
      \left( \frac{q^\sigma q^\rho}{q^2(k_1+q)^2 } +
@@ -355,9 +355,8 @@
      (k_{1\,\text{E}}^2)^{\nicefrac{D}{2}-2}(4\uppi)^{-\nicefrac{D}{2}}  \\
      &     
      \left[
-     \left(B(\nicefrac{D}{2}+1,\nicefrac{D}{2}-1)-B(\nicefrac{D}{2},
-     \nicefrac{D}{2}-1)k_1^\rho
-     k_1^\sigma\right) + B(\nicefrac{D}{2},\nicefrac{D}{2}-1)k_{1\,\text{E}}^2
+     \left(B(\nicefrac{D}{2},\nicefrac{D}{2}-1)-B(\nicefrac{D}{2}+1,\nicefrac{D}{2}-1) \right) k_1^\rho k_1^\sigma 
+     - B(\nicefrac{D}{2},\nicefrac{D}{2}-1)k_{1\,\text{E}}^2
      \, \delta^{\rho\sigma} \frac{\Gamma(1-\nicefrac{D}{2})}{\Gamma(2-\nicefrac{D}{2})}
      \right] \\&
       \Gamma(2-\nicefrac{D}{2}) \Bigg\}
@@ -377,13 +376,13 @@
     \begin{align}
      \widetilde{W}_\text{div}(k) &= \i \frac{g^2}{16\uppi^2} \text{Tr}(t^At^B)
        \frac{1}{6}\left[
-     k_{\rho}k_{ \sigma}-k^2_{ \text{E}}\, \delta_{\rho\sigma}\right]
+     k^2_{ \text{E}}\, \delta_{\rho\sigma}- k_{\rho}k_{ \sigma} \right]
       \Gamma(\epsilon) \left( \frac{4\uppi \mu^2}{k_\text{E}^2}\right)^{\epsilon}
       \\
       &
       \simeq \i \frac{g^2}{16\uppi^2} \text{Tr}(t^At^B)
        \frac{1}{6}\left[
-     k_{\rho}k_{\sigma}-k^2_{ \text{E}}\, \delta_{\rho\sigma}\right]
+     k^2_{ \text{E}}\, \delta_{\rho\sigma} -k_{\rho}k_{\sigma} \right]
       \left( \frac{1}{\epsilon} + \ln\left( \frac{4\uppi \e^{-\gamma_\text{E}}
       \mu^2}{k_\text{E}^2} \right) \right) \label{eq:renormierung:W_div}
     \end{align}
@@ -403,7 +402,7 @@
       Damit wird \eqref{eq:renormierung:W_div} zu
       \begin{equation}
        \widetilde{W}_\text{div}(k)= \i \delta^{AB}\left[
-      k_{\rho}k_{\sigma}-k^2_{ \text{E}}\, \delta_{\rho\sigma}\right]
+      k^2_{ \text{E}}\, \delta_{\rho\sigma}- k_{\rho}k_{\sigma}\right]
       \left\{ 
       \frac{g_\text{R}^2}{16\uppi^2}  \frac{1}{6} T(S)     
       \frac{1}{\epsilon} +(Z_\A-1) \right\} \quad .
