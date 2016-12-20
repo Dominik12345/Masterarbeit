@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.15)  10 NOV 2016 16:44
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.15)  15 NOV 2016 15:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Bewerbung.tex
-(./Bewerbung.tex
+**Bewerbungsschreiben_Hoppecke.tex
+(./Bewerbungsschreiben_Hoppecke.tex
 LaTeX2e <2011/06/27>
 Babel <3.9h> and hyphenation patterns for 9 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrartcl.cls
@@ -313,14 +313,12 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
-File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
-))
-(/usr/share/texmf/tex/latex/lm/lmodern.sty
+(/usr/share/texlive/texmf-dist/tex/generic/german/ngerman.sty v2.5e 1998-07-08
+Package: ngerman 1998/07/08 v2.5e Support for writing german texts (br)
+\grmnU@D=\dimen103
+ngerman -- \language number for naustrian undefined, default 5 used.
+ngerman -- \language number for French undefined, default 255 used.
+) (/usr/share/texmf/tex/latex/lm/lmodern.sty
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -354,8 +352,9 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
-) (./Bewerbung.aux)
-\openout1 = `Bewerbung.aux'.
+)
+(./Bewerbungsschreiben_Hoppecke.aux)
+\openout1 = `Bewerbungsschreiben_Hoppecke.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
@@ -370,27 +369,84 @@ LaTeX Font Info:    ... okay on input line 18.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 18.
-
-(/usr/share/texmf/tex/latex/lm/t1lmr.fd
+ (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [1
+)
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 25.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Bewerbung.aux) ) 
+(/usr/share/texmf/tex/latex/lm/t1lmss.fd
+File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Underfull \hbox (badness 10000) in paragraph at lines 30--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--39
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--62
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--67
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--67
+
+ []
+
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 71.
+(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 71.
+
+(/usr/share/texmf/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 71.
+
+
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 71.
+
+
+(/usr/share/texmf/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 71.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 71.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 71.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Bewerbungsschreiben_Hop
+pecke.aux) ) 
 Here is how much of TeX's memory you used:
- 1866 strings out of 494935
- 27379 string characters out of 6178121
- 117097 words of memory out of 5000000
- 5130 multiletter control sequences out of 15000+600000
- 7699 words of font info for 17 fonts, out of 8000000 for 9000
+ 2165 strings out of 494935
+ 31943 string characters out of 6178121
+ 123905 words of memory out of 5000000
+ 5401 multiletter control sequences out of 15000+600000
+ 31289 words of font info for 31 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 35i,6n,38p,223b,136s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/s
-hare/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm
-/lmr10.pfb>
-Output written on Bewerbung.pdf (1 page, 24618 bytes).
+ 35i,6n,38p,242b,145s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fo
+nts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pf
+b></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb>
+Output written on Bewerbungsschreiben_Hoppecke.pdf (1 page, 72752 bytes).
 PDF statistics:
- 13 PDF objects out of 1000 (max. 8388607)
- 8 compressed objects within 1 object stream
+ 21 PDF objects out of 1000 (max. 8388607)
+ 14 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

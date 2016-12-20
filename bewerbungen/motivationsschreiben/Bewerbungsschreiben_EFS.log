@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.15)  10 NOV 2016 16:44
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.15)  12 NOV 2016 16:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Bewerbung.tex
-(./Bewerbung.tex
+**Bewerbungsschreiben_EFS.tex
+(./Bewerbungsschreiben_EFS.tex
 LaTeX2e <2011/06/27>
 Babel <3.9h> and hyphenation patterns for 9 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrartcl.cls
@@ -354,8 +354,8 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
-) (./Bewerbung.aux)
-\openout1 = `Bewerbung.aux'.
+) (./Bewerbungsschreiben_EFS.aux)
+\openout1 = `Bewerbungsschreiben_EFS.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
@@ -373,24 +373,93 @@ LaTeX Font Info:    Try loading font information for T1+lmr on input line 18.
 
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [1
+)
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 26.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Bewerbung.aux) ) 
+(/usr/share/texmf/tex/latex/lm/t1lmss.fd
+File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Underfull \hbox (badness 10000) in paragraph at lines 31--58
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--58
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--58
+
+ []
+
+
+Overfull \hbox (1.0142pt too wide) in paragraph at lines 31--58
+\T1/lmr/m/n/10.95 Diesem Be-wer-bungss-chreiben sind ein tabel-lar-ischer Leben
+slauf und eine Kopie
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--58
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--58
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--58
+
+ []
+
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 59.
+(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 59.
+
+(/usr/share/texmf/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 59.
+
+
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 59.
+
+
+(/usr/share/texmf/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 59.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 59.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 59.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Bewerbungsschreiben_EFS
+.aux) ) 
 Here is how much of TeX's memory you used:
- 1866 strings out of 494935
- 27379 string characters out of 6178121
- 117097 words of memory out of 5000000
- 5130 multiletter control sequences out of 15000+600000
- 7699 words of font info for 17 fonts, out of 8000000 for 9000
+ 1986 strings out of 494935
+ 29971 string characters out of 6178121
+ 120097 words of memory out of 5000000
+ 5222 multiletter control sequences out of 15000+600000
+ 31289 words of font info for 31 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 35i,6n,38p,223b,136s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/s
-hare/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm
-/lmr10.pfb>
-Output written on Bewerbung.pdf (1 page, 24618 bytes).
+ 35i,6n,38p,237b,145s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/t
+ype1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></u
+sr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb>
+Output written on Bewerbungsschreiben_EFS.pdf (1 page, 72392 bytes).
 PDF statistics:
- 13 PDF objects out of 1000 (max. 8388607)
- 8 compressed objects within 1 object stream
+ 21 PDF objects out of 1000 (max. 8388607)
+ 14 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
